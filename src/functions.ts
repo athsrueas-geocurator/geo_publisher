@@ -7,7 +7,6 @@ import {
 import dotenv from "dotenv";
 import * as fs from "fs";
 import path from "node:path";
-import { privateKeyToAccount, privateKeyToAddress } from "viem/accounts";
 
 dotenv.config();
 
@@ -43,8 +42,11 @@ export async function gql(query: string, variables?: Record<string, any>) {
 // automatically from the API.  For DAO spaces the caller's member space is
 // resolved by matching SW_ADDRESS against the DAO's members or editors list.
 
-export async function publishOps(ops: Op[], editName: string) {
-  const spaceId = process.env.DEMO_SPACE_ID;
+export async function publishOps(ops: Op[], editName: string, input_space?: string) {
+  let spaceId = process.env.DEMO_SPACE_ID; 
+  if (input_space) {
+    spaceId = input_space
+  }
   if (!spaceId) throw new Error("DEMO_SPACE_ID not set in .env");
 
   const privateKey = process.env.PK_SW as `0x${string}`;
