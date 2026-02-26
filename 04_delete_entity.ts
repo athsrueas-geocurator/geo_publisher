@@ -70,7 +70,7 @@ export async function deleteEntity(entityId: string, spaceId: string) {
 
 // ─── Example usage ──────────────────────────────────────────────────────────
 // Replace these with the entity and space you want to clean up:
-const entityId = 'e93346db824643dfab768bef905fc731';
-const spaceId = 'f3dab79cb5a3d9d1759656dd5361d1c6';
+const entityId = 'REPLACE_WITH_ENTITY_ID';
+const spaceId = 'REPLACE_WITH_SPACE_ID';
 
 await deleteEntity(entityId, spaceId);
