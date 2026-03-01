@@ -1,0 +1,1399 @@
+{
+  "generatedAt": "2026-03-01T03:31:28.902Z",
+  "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+  "depth": 1,
+  "requestedTypes": [
+    "Course",
+    "Lesson"
+  ],
+  "visitedCount": 15,
+  "types": [
+    {
+      "id": "ae724b5687254a098d7ea542bc587ebd",
+      "name": "Course",
+      "description": "A structured series of educational lessons designed to impart knowledge or skills in a specific subject area.",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 0,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "A structured series of educational lessons designed to impart knowledge or skills in a specific subject area."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Course"
+        }
+      ],
+      "relations": [
+        {
+          "id": "0f71a1b4342f4a058255ef04ac23efdf",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "257090341ba5406f94e4d4af90042fba",
+          "toEntityName": "Tags",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a30aB"
+        },
+        {
+          "id": "13e8c925b4e64813801a9ac161681d4a",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "toEntityName": "Roles",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a63a3"
+        },
+        {
+          "id": "226dd0d7411241579a07f4a2244c939e",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "5b722cd361d6494e88871310566437ba",
+          "toEntityName": "Related spaces",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a00M2"
+        },
+        {
+          "id": "2ac00b6022384ad382b78c8ec4ed5312",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "toEntityName": "Topics",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a27Jb"
+        },
+        {
+          "id": "9e8f7bc8d70d4d439058b38c534399dd",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+          "toEntityName": "Type",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a19nW"
+        },
+        {
+          "id": "ac5343b58fd94c958c57cbdfb0512493",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "a38732e33a3d47f9a459fb369c287709",
+          "toEntityName": "Skills",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a53Dk"
+        },
+        {
+          "id": "c8897162f83848759ae19dbaeaac944e",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "412ff593e9154012a43d4c27ec5c68b6",
+          "toEntityName": "Web URL",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a01oa"
+        },
+        {
+          "id": "d37417c3864340db844dfe4b0203d4fb",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "1e4e6986aea4481eba29ab0677b6d514",
+          "toEntityName": "Lessons",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a4ACS"
+        },
+        {
+          "id": "dc8546ea03ea40948db81e4707976694",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "e01e7ca25402437f9eb267ad6dc337d5",
+          "toEntityName": "Providers",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a044B"
+        },
+        {
+          "id": "e3a1bcacf68e4cdf90a4dad7ce54f95f",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "2b16790166f840b6b60ede0ce01fe4ba",
+          "toEntityName": "Goals",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a76GQ"
+        }
+      ]
+    },
+    {
+      "id": "1baae8e9187041fb8e2a1eb1f84ba0d4",
+      "name": "Lesson",
+      "description": "Structured unit of teaching and learning focused on a specific topic or skill.",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ],
+      "spaces": [
+        "d69608290513c2a91102c939b3265bd7",
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 0,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Structured unit of teaching and learning focused on a specific topic or skill."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Lesson"
+        }
+      ],
+      "relations": [
+        {
+          "id": "27e697e0830f467cb5a9cf11bf718d64",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "a38732e33a3d47f9a459fb369c287709",
+          "toEntityName": "Skills",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": null
+        },
+        {
+          "id": "3f9de7bde5344cdb92b3a9597b45ae0d",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "806d52bc27e94c9193c057978b093351",
+          "toEntityName": "Related topics",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": null
+        },
+        {
+          "id": "5f7b96ad995646bdbe004395604af05f",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+          "toEntityName": "Type",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a05Nn"
+        },
+        {
+          "id": "65fcac8393c74c1d951b6ae6cb8555f0",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "52581edc7bb34b5d915f8cd91476dc64",
+          "toEntityName": "Lesson number",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a05bp"
+        },
+        {
+          "id": "66fc4bfe2bfe478bb0410bcd17b11152",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "9405a71b598e4783847165ac1aabab40",
+          "toEntityName": "Courses",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a0A2c"
+        },
+        {
+          "id": "6c26be66297c42e88a25c02a9cbdb669",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "toEntityName": "Roles",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a08LQ"
+        },
+        {
+          "id": "6ce2ed3e3ef348ee8f853d709a77b928",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "a38732e33a3d47f9a459fb369c287709",
+          "toEntityName": "Skills",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a02Bg"
+        },
+        {
+          "id": "7ea80332fbd84608a1a9b8d1b7bf52d3",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "257090341ba5406f94e4d4af90042fba",
+          "toEntityName": "Tags",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": null
+        },
+        {
+          "id": "81228cb4d3a94ad3b2d3d5ec32c54866",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "5b722cd361d6494e88871310566437ba",
+          "toEntityName": "Related spaces",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a02tr"
+        },
+        {
+          "id": "81faf692df224ad0a032210271e829cd",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "257090341ba5406f94e4d4af90042fba",
+          "toEntityName": "Tags",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a05tU"
+        },
+        {
+          "id": "8ad2694506c04c83b308c0f84b1235cf",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "5b722cd361d6494e88871310566437ba",
+          "toEntityName": "Related spaces",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": null
+        },
+        {
+          "id": "95d8028a34b242fab07b425665317747",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "toEntityName": "Topics",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": null
+        },
+        {
+          "id": "a3c741c823c24126b2422bc8060102bb",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "toEntityName": "Topics",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a04no"
+        },
+        {
+          "id": "e3acfca1cff64acfbb3a61570ea678b4",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "412ff593e9154012a43d4c27ec5c68b6",
+          "toEntityName": "Web URL",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a0C2U"
+        }
+      ]
+    },
+    {
+      "id": "257090341ba5406f94e4d4af90042fba",
+      "name": "Tags",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Tags"
+        }
+      ],
+      "relations": [
+        {
+          "id": "58d9ed81b1c54d31a453b0afc9c9d5c5",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "f4d3f10cb00b4b239341be02777d9ab4",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "fde8649b637f4e8689fd4a7614ead3de",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "e0fcc66c9e8643f480802469d8a1a93a",
+          "toEntityName": "Tag",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a00T1"
+        }
+      ]
+    },
+    {
+      "id": "8fcfe5ef3d9147bd83223830a998d26b",
+      "name": "Roles",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Roles"
+        }
+      ],
+      "relations": [
+        {
+          "id": "0063dc23910840e39be904909fd0dee4",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "225b09acceee4c82a19d15095d5200c3",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "e4e366e9d5554b6892bf7358e824afd2",
+          "toEntityName": "Role",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a08n6"
+        },
+        {
+          "id": "3964d26f95b44d09871f3566319404cc",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "5b722cd361d6494e88871310566437ba",
+      "name": "Related spaces",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Related spaces"
+        }
+      ],
+      "relations": [
+        {
+          "id": "0e43a8e43d094e728b783e5a672f09d7",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "4d95d452f7664228b3cc25ad32e41e4f",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "362c1dbddc6444bba3c4652f38a642d7",
+          "toEntityName": "Space",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a003b"
+        },
+        {
+          "id": "cda654fb207e4b8baf53c3beb93b9e98",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "458fbc070dbf4c928f5716f3fdde7c32",
+      "name": "Topics",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "d69608290513c2a91102c939b3265bd7",
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Topics"
+        }
+      ],
+      "relations": [
+        {
+          "id": "3992fe028c924549993cf05f3fdc3bf1",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "84525962b6d74193acec52b30b506e76",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "toEntityName": "Topic",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "b8a1ca8147044c41930f639ca5f5a90f",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "e7d737c536764c609fa16aa64a8c90ad",
+      "name": "Type",
+      "description": null,
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Type"
+        }
+      ],
+      "relations": [
+        {
+          "id": "2d35dee626f74bbe906a8675eb6b0c9c",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+          "toEntityName": "Type",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a02RD"
+        },
+        {
+          "id": "4c0fd27512074d4493ef857a752a380f",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "806d52bc27e94c9193c057978b093351",
+          "toEntityName": "Related topics",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a44dV"
+        },
+        {
+          "id": "752806aeee0248d78baf4d3bb3555da7",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "01412f8381894ab1836565c7fd358cc1",
+          "toEntityName": "Properties",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a26Pc"
+        },
+        {
+          "id": "8b241b5bf5ef40eba39364b17cb6cd65",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "cf37cd59840c4daca22b9d9dde536ea7",
+          "toEntityName": "Template",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a109V"
+        },
+        {
+          "id": "a23c92c8eea4450e9ccfc0533344da50",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "257090341ba5406f94e4d4af90042fba",
+          "toEntityName": "Tags",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a3C9y"
+        }
+      ]
+    },
+    {
+      "id": "a38732e33a3d47f9a459fb369c287709",
+      "name": "Skills",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Skills"
+        }
+      ],
+      "relations": [
+        {
+          "id": "c50b128028814a19b418811b1b752a66",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+          "toEntityName": "Skill",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a01PP"
+        },
+        {
+          "id": "caf105c2b374486e9e6ff592fc928ba0",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "d24719a1fe0a45799bbe91880e023402",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "412ff593e9154012a43d4c27ec5c68b6",
+      "name": "Web URL",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Web URL"
+        }
+      ],
+      "relations": [
+        {
+          "id": "10ccfe724c0b4f5a845b662a6103ac48",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+          "toEntityName": "Text",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "48641a4d36ed43f39019868e78cf93e7",
+          "typeId": "2316bbe1c76f463583f23e03b4f1fe46",
+          "typeName": "Renderable type",
+          "toEntityId": "283127c96142468492ed90b0ebc7f29a",
+          "toEntityName": "URL",
+          "toEntityTypeIds": [
+            "5338cc2897044e96b5477dfc58da6fc7"
+          ],
+          "position": null
+        },
+        {
+          "id": "59b2ea2fc79c4ddb81475c5a487d3105",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "1e4e6986aea4481eba29ab0677b6d514",
+      "name": "Lessons",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Lessons"
+        }
+      ],
+      "relations": [
+        {
+          "id": "4d6e9da0f21b40fa841d5da68c54982d",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "4f458cb5ab204c3fa2da85e081ed972a",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "1baae8e9187041fb8e2a1eb1f84ba0d4",
+          "toEntityName": "Lesson",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a02lE"
+        },
+        {
+          "id": "854f3b4e51c44b5e877128ad2fd59287",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "e01e7ca25402437f9eb267ad6dc337d5",
+      "name": "Providers",
+      "description": "Those who supply a product or service.",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Those who supply a product or service."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Providers"
+        }
+      ],
+      "relations": [
+        {
+          "id": "ccf00bdf0ae2445dbc89c744b943c769",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a0322"
+        },
+        {
+          "id": "ff6e04e2f8ec42f1805cccb54ea15df0",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a0BGc"
+        }
+      ]
+    },
+    {
+      "id": "2b16790166f840b6b60ede0ce01fe4ba",
+      "name": "Goals",
+      "description": "A set of goals to achieve",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "A set of goals to achieve"
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Goals"
+        }
+      ],
+      "relations": [
+        {
+          "id": "43faf75c595341e183b73ba56e8edc23",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "5118251d33324cd386b2b87f4746bd3e",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "1845ee9980c648a3abc3809de1753c63",
+          "toEntityName": "Goal",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a08aH"
+        },
+        {
+          "id": "b3e1daed669f4c4e9000f7fbe8bcc6e8",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "806d52bc27e94c9193c057978b093351",
+      "name": "Related topics",
+      "description": "Topics connected to this entity.",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Topics connected to this entity."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Related topics"
+        }
+      ],
+      "relations": [
+        {
+          "id": "009de3219c55403f88d2036dc7358a80",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "d52cd72f85754e57ba4e4b77a98845f7",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "toEntityName": "Topic",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a08Be"
+        },
+        {
+          "id": "fc19276d26e141429cf27dde6fdc2df8",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "52581edc7bb34b5d915f8cd91476dc64",
+      "name": "Lesson number",
+      "description": "The position of the lesson in the course sequence.",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Lesson number"
+        },
+        {
+          "propertyId": "396f8c72dfd04b5791ea09c1b9321b2f",
+          "propertyName": "Format",
+          "valueKind": "text",
+          "example": ",?"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The position of the lesson in the course sequence."
+        }
+      ],
+      "relations": [
+        {
+          "id": "cf12afce0ad84e688461eaca35388696",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a02ro"
+        },
+        {
+          "id": "fa57276fb2e34a6fb0bca6561295461a",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "149fd752d9d04f80820d1d942eea7841",
+          "toEntityName": "Integer",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e"
+          ],
+          "position": "a0BxQ"
+        }
+      ]
+    },
+    {
+      "id": "9405a71b598e4783847165ac1aabab40",
+      "name": "Courses",
+      "description": "Learning paths that group multiple lessons into a structured area of knowledge.",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Learning paths that group multiple lessons into a structured area of knowledge."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Courses"
+        }
+      ],
+      "relations": [
+        {
+          "id": "978dc55ac86041e0ac81d1503de5f810",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a04R5"
+        },
+        {
+          "id": "ca76d8a0da2943949a3ec625c76f2acd",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "ae724b5687254a098d7ea542bc587ebd",
+          "toEntityName": "Course",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a0Aqk"
+        },
+        {
+          "id": "e9a073aa600946eaaec92762ff9f8c07",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a03E0"
+        }
+      ]
+    }
+  ],
+  "mappingTemplate": {
+    "types": [
+      {
+        "requestedName": "Course",
+        "entityId": "ae724b5687254a098d7ea542bc587ebd",
+        "typeIds": [
+          "e7d737c536764c609fa16aa64a8c90ad"
+        ],
+        "description": "A structured series of educational lessons designed to impart knowledge or skills in a specific subject area.",
+        "spaces": [
+          "a19c345ab9866679b001d7d2138d88a1"
+        ],
+        "properties": [
+          {
+            "name": "Description",
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "valueKind": "text",
+            "example": "A structured series of educational lessons designed to impart knowledge or skills in a specific subject area."
+          },
+          {
+            "name": "Name",
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "valueKind": "text",
+            "example": "Course"
+          }
+        ],
+        "relations": [
+          {
+            "name": "Properties",
+            "relationId": "01412f8381894ab1836565c7fd358cc1",
+            "targetTypeIds": [
+              "808a04ceb21c4d888ad12e240613e5ca"
+            ]
+          },
+          {
+            "name": "Types",
+            "relationId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "targetTypeIds": [
+              "e7d737c536764c609fa16aa64a8c90ad"
+            ]
+          }
+        ]
+      },
+      {
+        "requestedName": "Lesson",
+        "entityId": "1baae8e9187041fb8e2a1eb1f84ba0d4",
+        "typeIds": [
+          "e7d737c536764c609fa16aa64a8c90ad"
+        ],
+        "description": "Structured unit of teaching and learning focused on a specific topic or skill.",
+        "spaces": [
+          "d69608290513c2a91102c939b3265bd7",
+          "a19c345ab9866679b001d7d2138d88a1"
+        ],
+        "properties": [
+          {
+            "name": "Description",
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "valueKind": "text",
+            "example": "Structured unit of teaching and learning focused on a specific topic or skill."
+          },
+          {
+            "name": "Name",
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "valueKind": "text",
+            "example": "Lesson"
+          }
+        ],
+        "relations": [
+          {
+            "name": "Properties",
+            "relationId": "01412f8381894ab1836565c7fd358cc1",
+            "targetTypeIds": [
+              "808a04ceb21c4d888ad12e240613e5ca"
+            ]
+          },
+          {
+            "name": "Types",
+            "relationId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "targetTypeIds": [
+              "e7d737c536764c609fa16aa64a8c90ad"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "linkedEntities": [
+    {
+      "id": "257090341ba5406f94e4d4af90042fba",
+      "name": "Tags",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "8fcfe5ef3d9147bd83223830a998d26b",
+      "name": "Roles",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "5b722cd361d6494e88871310566437ba",
+      "name": "Related spaces",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "458fbc070dbf4c928f5716f3fdde7c32",
+      "name": "Topics",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "e7d737c536764c609fa16aa64a8c90ad",
+      "name": "Type",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "a38732e33a3d47f9a459fb369c287709",
+      "name": "Skills",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "412ff593e9154012a43d4c27ec5c68b6",
+      "name": "Web URL",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "1e4e6986aea4481eba29ab0677b6d514",
+      "name": "Lessons",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "e01e7ca25402437f9eb267ad6dc337d5",
+      "name": "Providers",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "2b16790166f840b6b60ede0ce01fe4ba",
+      "name": "Goals",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "806d52bc27e94c9193c057978b093351",
+      "name": "Related topics",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "52581edc7bb34b5d915f8cd91476dc64",
+      "name": "Lesson number",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "9405a71b598e4783847165ac1aabab40",
+      "name": "Courses",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "4b6d9fc1fbfe474c861c83398e1b50d9",
+      "name": "Relation",
+      "typeIds": [
+        "a35e058b52d148d2b02d773933d90b7e",
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "808a04ceb21c4d888ad12e240613e5ca",
+      "name": "Property",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "e0fcc66c9e8643f480802469d8a1a93a",
+      "name": "Tag",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "e4e366e9d5554b6892bf7358e824afd2",
+      "name": "Role",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "362c1dbddc6444bba3c4652f38a642d7",
+      "name": "Space",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+      "name": "Topic",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "01412f8381894ab1836565c7fd358cc1",
+      "name": "Properties",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "cf37cd59840c4daca22b9d9dde536ea7",
+      "name": "Template",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+      "name": "Skill",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "9edb6fcce4544aa5861139d7f024c010",
+      "name": "Text",
+      "typeIds": [
+        "a35e058b52d148d2b02d773933d90b7e",
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "283127c96142468492ed90b0ebc7f29a",
+      "name": "URL",
+      "typeIds": [
+        "5338cc2897044e96b5477dfc58da6fc7"
+      ]
+    },
+    {
+      "id": "1baae8e9187041fb8e2a1eb1f84ba0d4",
+      "name": "Lesson",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "1845ee9980c648a3abc3809de1753c63",
+      "name": "Goal",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "149fd752d9d04f80820d1d942eea7841",
+      "name": "Integer",
+      "typeIds": [
+        "a35e058b52d148d2b02d773933d90b7e"
+      ]
+    },
+    {
+      "id": "ae724b5687254a098d7ea542bc587ebd",
+      "name": "Course",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    }
+  ],
+  "fuzzyMatches": []
+}

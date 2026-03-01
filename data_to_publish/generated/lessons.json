@@ -1,0 +1,1845 @@
+[
+  {
+    "id": "az-01",
+    "course_id": "azure-llmops-workshop",
+    "lesson_num": "1",
+    "name": "Lab 01: Introduction to LLMs and Azure AI Services",
+    "web_url": "https://microsoft.github.io/llmops-workshop/labs/lesson_01/lab01.html",
+    "skills": [
+      "Azure AI Studio navigation",
+      "Azure OpenAI model deployment",
+      "Open-source LLM deployment (Azure)",
+      "Prompt Playground experimentation",
+      "Content Safety configuration",
+      "Prompt Flow creation"
+    ],
+    "roles": [
+      "Governance lead",
+      "Platform engineer",
+      "LLM application engineer",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Foundations and Lifecycle",
+      "Deployment and serving",
+      "Safety",
+      "Orchestration and workflows"
+    ],
+    "tags": [
+      "Azure",
+      "Azure AI Studio",
+      "Azure OpenAI",
+      "Llama 2",
+      "Prompt flow",
+      "Content safety",
+      "Hands-on",
+      "Beginner"
+    ]
+  },
+  {
+    "id": "az-02",
+    "course_id": "azure-llmops-workshop",
+    "lesson_num": "2",
+    "name": "Lab 02: Building LLM Orchestration Flows",
+    "web_url": "https://microsoft.github.io/llmops-workshop/labs/lesson_02/lab02.html",
+    "skills": [
+      "Prompt Flow orchestration",
+      "Classification flow build (Prompt Flow)",
+      "RAG flow build (Prompt Flow + Azure AI Search)",
+      "Search index setup (Azure AI Search)",
+      "Flow runtime & connections (Azure OpenAI)"
+    ],
+    "roles": [
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Orchestration and workflows",
+      "Retrieval augmented generation",
+      "Prompting"
+    ],
+    "tags": [
+      "Azure",
+      "Azure AI Studio",
+      "Prompt flow",
+      "Azure AI Search",
+      "RAG",
+      "Classification",
+      "Hands-on"
+    ]
+  },
+  {
+    "id": "az-03",
+    "course_id": "azure-llmops-workshop",
+    "lesson_num": "3",
+    "name": "Lab 03: Evaluating and Deploying LLMs",
+    "web_url": "https://microsoft.github.io/llmops-workshop/labs/lesson_03/lab03.html",
+    "skills": [
+      "RAG flow evaluation (Prompt Flow)",
+      "Groundedness evaluation flow",
+      "Evaluation dataset preparation",
+      "Managed endpoint deployment",
+      "Post-deploy validation"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "Platform engineer",
+      "LLM application engineer",
+      "ML engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing",
+      "Deployment and serving",
+      "Retrieval augmented generation"
+    ],
+    "tags": [
+      "Azure",
+      "Azure AI Studio",
+      "Prompt flow",
+      "Evaluation",
+      "Groundedness",
+      "Managed endpoint",
+      "RAG",
+      "Hands-on"
+    ]
+  },
+  {
+    "id": "az-04",
+    "course_id": "azure-llmops-workshop",
+    "lesson_num": "4",
+    "name": "Lab 04: Monitoring and Responsible AI",
+    "web_url": "https://microsoft.github.io/llmops-workshop/labs/lesson_04/lab04.html",
+    "skills": [
+      "LLM monitoring enablement",
+      "Monitoring metrics preparation",
+      "Content Safety tool integration",
+      "Conditional safety routing (Prompt Flow)",
+      "Operational debugging"
+    ],
+    "roles": [
+      "Governance lead",
+      "LLMOps engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Observability and tracing",
+      "Safety"
+    ],
+    "tags": [
+      "Azure",
+      "Monitoring",
+      "Prompt flow",
+      "Content safety",
+      "Responsible AI",
+      "Hands-on"
+    ]
+  },
+  {
+    "id": "az-05",
+    "course_id": "azure-llmops-workshop",
+    "lesson_num": "5",
+    "name": "Lab 05: Automating Everything (CI/CD)",
+    "web_url": "https://microsoft.github.io/llmops-workshop/labs/lesson_05/lab05.html",
+    "skills": [
+      "GitHub Actions CI/CD setup",
+      "Automated PR evaluation pipeline",
+      "Golden dataset evaluation gate",
+      "CI build + CD deploy (Prompt Flow)",
+      "Release workflow (branching/versioning)"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "Platform engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Automation",
+      "Evaluation and Testing",
+      "Deployment and serving"
+    ],
+    "tags": [
+      "Azure",
+      "GitHub Actions",
+      "CI/CD",
+      "Prompt flow",
+      "LLMOps Accelerator",
+      "Golden dataset",
+      "Hands-on"
+    ]
+  },
+  {
+    "id": "az-06",
+    "course_id": "azure-llmops-workshop",
+    "lesson_num": "6",
+    "name": "Extra: Benchmarking Azure OpenAI Models",
+    "web_url": "https://microsoft.github.io/llmops-workshop/labs/performance/docs/AOAI_BENCH_TOOL.html",
+    "skills": [
+      "Model benchmarking",
+      "Quality/cost tradeoff analysis",
+      "Model selection workflow"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "Platform engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing",
+      "Cost and performance"
+    ],
+    "tags": [
+      "Azure OpenAI",
+      "Benchmarking",
+      "Model selection",
+      "Evaluation",
+      "Performance"
+    ]
+  },
+  {
+    "id": "az-07",
+    "course_id": "azure-llmops-workshop",
+    "lesson_num": "7",
+    "name": "Extra: Performance Evaluation / Load Testing",
+    "web_url": "https://microsoft.github.io/llmops-workshop/labs/performance/docs/PERFTEST_CONCEPTS.html",
+    "skills": [
+      "Load testing",
+      "Latency/throughput measurement",
+      "Scaling analysis"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "Platform engineer"
+    ],
+    "topics": [
+      "Cost and performance",
+      "Deployment and serving"
+    ],
+    "tags": [
+      "Load testing",
+      "Performance",
+      "Latency",
+      "Throughput",
+      "Scaling",
+      "Azure"
+    ]
+  },
+  {
+    "id": "gcp-01",
+    "course_id": "gcp-llmops-overview",
+    "lesson_num": "1",
+    "name": "What is LLMOps (overview)",
+    "web_url": "https://cloud.google.com/discover/what-is-llmops",
+    "skills": [
+      "LLMOps lifecycle mapping",
+      "LLMOps best-practice framing"
+    ],
+    "roles": [
+      "Platform engineer",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Foundations and Lifecycle"
+    ],
+    "tags": [
+      "Google Cloud",
+      "Conceptual",
+      "LLMOps definition",
+      "Lifecycle"
+    ]
+  },
+  {
+    "id": "gcp-02",
+    "course_id": "gcp-llmops-overview",
+    "lesson_num": "2",
+    "name": "Vertex AI Model Registry (lifecycle management)",
+    "web_url": "https://docs.cloud.google.com/vertex-ai/docs/model-registry/introduction",
+    "skills": [
+      "Vertex AI Model Registry usage",
+      "Model versioning & lineage",
+      "Model lifecycle promotion"
+    ],
+    "roles": [
+      "Technical product manager"
+    ],
+    "topics": [
+      "Model registry and versioning",
+      "Foundations and Lifecycle"
+    ],
+    "tags": [
+      "Google Cloud",
+      "Vertex AI",
+      "Model registry",
+      "Versioning"
+    ]
+  },
+  {
+    "id": "gcp-03",
+    "course_id": "gcp-llmops-overview",
+    "lesson_num": "3",
+    "name": "Vertex AI Pipelines (automation)",
+    "web_url": "https://docs.cloud.google.com/vertex-ai/docs/pipelines/introduction",
+    "skills": [
+      "Vertex AI Pipelines orchestration",
+      "Pipeline automation",
+      "Pipeline parameterization"
+    ],
+    "roles": [
+      "Platform engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Orchestration and workflows",
+      "Automation"
+    ],
+    "tags": [
+      "Google Cloud",
+      "Vertex AI Pipelines",
+      "Automation",
+      "Pipelines"
+    ]
+  },
+  {
+    "id": "gcp-04",
+    "course_id": "gcp-llmops-overview",
+    "lesson_num": "4",
+    "name": "Vertex AI Model Evaluation (overview)",
+    "web_url": "https://docs.cloud.google.com/vertex-ai/docs/evaluation/introduction",
+    "skills": [
+      "Vertex AI model evaluation",
+      "Metric selection",
+      "Model comparison"
+    ],
+    "roles": [
+      "Evaluation engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing"
+    ],
+    "tags": [
+      "Google Cloud",
+      "Vertex AI",
+      "Evaluation",
+      "Metrics"
+    ]
+  },
+  {
+    "id": "gcp-05",
+    "course_id": "gcp-llmops-overview",
+    "lesson_num": "5",
+    "name": "Vertex AI Model Monitoring (overview)",
+    "web_url": "https://docs.cloud.google.com/vertex-ai/docs/model-monitoring/overview",
+    "skills": [
+      "Vertex AI model monitoring",
+      "Drift detection",
+      "Alerting configuration"
+    ],
+    "roles": [
+      "LLMOps engineer"
+    ],
+    "topics": [
+      "Observability and tracing"
+    ],
+    "tags": [
+      "Google Cloud",
+      "Vertex AI",
+      "Monitoring",
+      "Drift",
+      "Alerts"
+    ]
+  },
+  {
+    "id": "awsw-00",
+    "course_id": "aws-llmops-workshop",
+    "lesson_num": "1",
+    "name": "Lab 0: Register base model (notebook)",
+    "web_url": "https://github.com/aws-samples/llmops-workshop/blob/main/lab0-register-base-model.ipynb",
+    "skills": [
+      "SageMaker Model Registry registration",
+      "Model package governance",
+      "Lifecycle state management"
+    ],
+    "roles": [
+      "Governance lead",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Model registry and versioning",
+      "Foundations and Lifecycle"
+    ],
+    "tags": [
+      "AWS",
+      "Amazon SageMaker",
+      "Model registry",
+      "Workshop",
+      "Notebook"
+    ]
+  },
+  {
+    "id": "awsw-01",
+    "course_id": "aws-llmops-workshop",
+    "lesson_num": "2",
+    "name": "Lab 1: Finetune Llama2 with QLoRA (notebook)",
+    "web_url": "https://github.com/aws-samples/llmops-workshop/blob/main/lab1-sagemaker-finetune-llama2-qlora.ipynb",
+    "skills": [
+      "SageMaker fine-tuning job",
+      "QLoRA fine-tuning",
+      "Model deployment (SageMaker Hosting)"
+    ],
+    "roles": [
+      "Platform engineer",
+      "ML engineer"
+    ],
+    "topics": [
+      "Post training",
+      "Deployment and serving"
+    ],
+    "tags": [
+      "AWS",
+      "Amazon SageMaker",
+      "Llama 2",
+      "QLoRA",
+      "Fine-tuning",
+      "Notebook"
+    ]
+  },
+  {
+    "id": "awsw-02",
+    "course_id": "aws-llmops-workshop",
+    "lesson_num": "3",
+    "name": "Lab 2: Build SageMaker pipeline for LLM (notebook)",
+    "web_url": "https://github.com/aws-samples/llmops-workshop/blob/main/lab2-sagemaker-pipeline-llm.ipynb",
+    "skills": [
+      "SageMaker Pipelines workflow",
+      "Training pipeline automation",
+      "CI/CD integration (CodePipeline)"
+    ],
+    "roles": [
+      "Platform engineer",
+      "LLM application engineer",
+      "ML engineer"
+    ],
+    "topics": [
+      "Orchestration and workflows",
+      "Automation",
+      "Deployment and serving"
+    ],
+    "tags": [
+      "AWS",
+      "SageMaker Pipelines",
+      "CodePipeline",
+      "Automation",
+      "Notebook"
+    ]
+  },
+  {
+    "id": "awsw-03",
+    "course_id": "aws-llmops-workshop",
+    "lesson_num": "4",
+    "name": "Lab 3: Foundation model monitoring (folder)",
+    "web_url": "https://github.com/aws-samples/llmops-workshop/tree/main/lab3-sagemaker-fm-monitoring",
+    "skills": [
+      "SageMaker Model Monitor configuration",
+      "Monitoring schedule setup",
+      "BYOC monitoring"
+    ],
+    "roles": [
+      "LLMOps engineer"
+    ],
+    "topics": [
+      "Observability and tracing"
+    ],
+    "tags": [
+      "AWS",
+      "SageMaker Model Monitor",
+      "LLM monitoring",
+      "BYOC",
+      "Observability"
+    ]
+  },
+  {
+    "id": "awsw-04",
+    "course_id": "aws-llmops-workshop",
+    "lesson_num": "5",
+    "name": "Lab 4: JumpStart embeddings (notebook)",
+    "web_url": "https://github.com/aws-samples/llmops-workshop/blob/main/lab4-sagemaker-jumpstart-embeddings.ipynb",
+    "skills": [
+      "JumpStart embeddings deployment",
+      "Embedding generation",
+      "Vector store setup (OpenSearch)"
+    ],
+    "roles": [
+      "Platform engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Retrieval augmented generation",
+      "Deployment and serving"
+    ],
+    "tags": [
+      "AWS",
+      "SageMaker JumpStart",
+      "Embeddings",
+      "OpenSearch Serverless",
+      "RAG",
+      "Notebook"
+    ]
+  },
+  {
+    "id": "awsw-05",
+    "course_id": "aws-llmops-workshop",
+    "lesson_num": "6",
+    "name": "Lab 5: Knowledge base chatbot (notebook)",
+    "web_url": "https://github.com/aws-samples/llmops-workshop/blob/main/lab5-knowledge-base-chatbot.ipynb",
+    "skills": [
+      "Document ingestion for RAG",
+      "LangChain RAG application",
+      "Vector DB querying (OpenSearch)",
+      "Streamlit chatbot UI"
+    ],
+    "roles": [
+      "Platform engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Retrieval augmented generation",
+      "Orchestration and workflows",
+      "Deployment and serving"
+    ],
+    "tags": [
+      "AWS",
+      "OpenSearch Serverless",
+      "LangChain",
+      "Streamlit",
+      "RAG",
+      "Chatbot",
+      "Notebook"
+    ]
+  },
+  {
+    "id": "awsb-01",
+    "course_id": "aws-llmops-blog-series",
+    "lesson_num": "1",
+    "name": "LLMOps solution overview (Part I)",
+    "web_url": "https://aws.amazon.com/blogs/gametech/operationalize-generative-ai-applications-on-aws-part-i-overview-of-llmops-solution/",
+    "skills": [
+      "LLMOps reference architecture review",
+      "Service-to-lifecycle mapping"
+    ],
+    "roles": [
+      "Platform engineer",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Foundations and Lifecycle",
+      "Automation",
+      "Deployment and serving"
+    ],
+    "tags": [
+      "AWS",
+      "Reference architecture",
+      "Blog",
+      "LLMOps solution"
+    ]
+  },
+  {
+    "id": "awsb-02",
+    "course_id": "aws-llmops-blog-series",
+    "lesson_num": "2",
+    "name": "SageMaker Clarify: Get started with model evaluations",
+    "web_url": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-foundation-model-evaluate-get-started.html",
+    "skills": [
+      "Foundation model evaluation (Clarify)",
+      "Automatic vs human eval workflows",
+      "fmeval-based evaluation"
+    ],
+    "roles": [
+      "Governance lead",
+      "Evaluation engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing",
+      "Safety"
+    ],
+    "tags": [
+      "AWS",
+      "SageMaker Clarify",
+      "Fmeval",
+      "Evaluation",
+      "Responsible AI"
+    ]
+  },
+  {
+    "id": "awsb-03",
+    "course_id": "aws-llmops-blog-series",
+    "lesson_num": "3",
+    "name": "SageMaker Model Monitor (examples index)",
+    "web_url": "https://sagemaker-examples.readthedocs.io/en/latest/sagemaker_model_monitor/index.html",
+    "skills": [
+      "Model Monitor setup",
+      "LLM monitoring (BYOC)",
+      "Monitoring schedule operations"
+    ],
+    "roles": [
+      "LLMOps engineer",
+      "Platform engineer"
+    ],
+    "topics": [
+      "Observability and tracing"
+    ],
+    "tags": [
+      "AWS",
+      "SageMaker Model Monitor",
+      "LLM monitoring",
+      "BYOC",
+      "Monitoring schedule"
+    ]
+  },
+  {
+    "id": "awsb-04",
+    "course_id": "aws-llmops-blog-series",
+    "lesson_num": "4",
+    "name": "SageMaker Clarify and fmeval (re:Post article)",
+    "web_url": "https://repost.aws/articles/ARXsxgLFa7R-uw8TgUo1fDJg/accelerate-foundation-model-evaluation-with-amazon-sagemaker-clarify-and-fmeval",
+    "skills": [
+      "Clarify + fmeval evaluation workflow",
+      "Evaluation reporting"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing"
+    ],
+    "tags": [
+      "AWS",
+      "SageMaker Clarify",
+      "Fmeval",
+      "Re:Post",
+      "Evaluation"
+    ]
+  },
+  {
+    "id": "db-01",
+    "course_id": "databricks-llmops",
+    "lesson_num": "1",
+    "name": "Databricks LLMOps overview",
+    "web_url": "https://www.databricks.com/glossary/llmops",
+    "skills": [
+      "LLMOps lifecycle framing (Databricks)"
+    ],
+    "roles": [
+      "Platform engineer",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Foundations and Lifecycle"
+    ],
+    "tags": [
+      "Databricks",
+      "Glossary",
+      "Conceptual"
+    ]
+  },
+  {
+    "id": "db-02",
+    "course_id": "databricks-llmops",
+    "lesson_num": "2",
+    "name": "Evaluate and monitor AI agents (MLflow for GenAI)",
+    "web_url": "https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/",
+    "skills": [
+      "Agent evaluation (MLflow)",
+      "Agent monitoring",
+      "Trace logging"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "LLMOps engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing",
+      "Observability and tracing",
+      "Orchestration and workflows"
+    ],
+    "tags": [
+      "Databricks",
+      "MLflow for GenAI",
+      "Agents",
+      "Evaluation",
+      "Monitoring"
+    ]
+  },
+  {
+    "id": "db-03",
+    "course_id": "databricks-llmops",
+    "lesson_num": "3",
+    "name": "Implement LLMOps with Azure Databricks (lab)",
+    "web_url": "https://microsoftlearning.github.io/mslearn-databricks/Instructions/Exercises/AI-07-LLMOps.html",
+    "skills": [
+      "LLMOps implementation (Azure Databricks)",
+      "Experiment/prompt tracking (MLflow)",
+      "GenAI app deployment",
+      "Governance controls"
+    ],
+    "roles": [
+      "Governance lead",
+      "Platform engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Deployment and serving",
+      "Model registry and versioning",
+      "Governance and risk"
+    ],
+    "tags": [
+      "Azure Databricks",
+      "Databricks",
+      "MLflow",
+      "Lab",
+      "Governance"
+    ]
+  },
+  {
+    "id": "db-04",
+    "course_id": "databricks-llmops",
+    "lesson_num": "4",
+    "name": "Microsoft Learn module: Implement LLMOps with Azure Databricks",
+    "web_url": "https://learn.microsoft.com/en-us/training/modules/implement-llmops-azure-databricks/",
+    "skills": [
+      "LLMOps implementation patterns (Azure Databricks)",
+      "Operational lifecycle setup"
+    ],
+    "roles": [
+      "Platform engineer",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Foundations and Lifecycle",
+      "Deployment and serving"
+    ],
+    "tags": [
+      "Microsoft Learn",
+      "Azure Databricks",
+      "Training module"
+    ]
+  },
+  {
+    "id": "ibm-01",
+    "course_id": "ibm-llmops",
+    "lesson_num": "1",
+    "name": "IBM: What are Large Language Model Operations (LLMOps)?",
+    "web_url": "https://www.ibm.com/think/topics/llmops",
+    "skills": [
+      "LLMOps definition & lifecycle framing",
+      "LLMOps vs LLMOps comparison"
+    ],
+    "roles": [
+      "Platform engineer",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Foundations and Lifecycle"
+    ],
+    "tags": [
+      "IBM",
+      "Conceptual",
+      "LLMOps overview"
+    ]
+  },
+  {
+    "id": "ibm-02",
+    "course_id": "ibm-llmops",
+    "lesson_num": "2",
+    "name": "IBM watsonx guide (LLMOps framing)",
+    "web_url": "https://ibm.github.io/LLMOps/watsonx/watsonx/watsonx.pdf",
+    "skills": [
+      "watsonx LLMOps workflow framing",
+      "Enterprise governance planning"
+    ],
+    "roles": [
+      "Governance lead",
+      "Platform engineer",
+      "LLM application engineer",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Foundations and Lifecycle",
+      "Governance and risk"
+    ],
+    "tags": [
+      "IBM",
+      "Watsonx",
+      "Governance",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "ibm-03",
+    "course_id": "ibm-llmops",
+    "lesson_num": "3",
+    "name": "IBM community: Build an agentic LLMOps stack with watsonx",
+    "web_url": "https://community.ibm.com/community/user/blogs/patrick-meyer/2025/09/18/build-an-agentic-llmops-stack-with-ibm-watsonx",
+    "skills": [
+      "Agentic workflow design",
+      "Agent/tool orchestration",
+      "Governance for agentic systems"
+    ],
+    "roles": [
+      "Governance lead",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Orchestration and workflows",
+      "Governance and risk"
+    ],
+    "tags": [
+      "IBM",
+      "Agentic",
+      "Orchestration",
+      "Community article"
+    ]
+  },
+  {
+    "id": "ibm-04",
+    "course_id": "ibm-llmops",
+    "lesson_num": "4",
+    "name": "IBM LLMOps guide (governance/risk toolkit mentions)",
+    "web_url": "https://ibm.github.io/LLMOps/pdf/LLMOps-guide.pdf",
+    "skills": [
+      "AI governance & risk controls",
+      "Compliance/audit processes"
+    ],
+    "roles": [
+      "Governance lead"
+    ],
+    "topics": [
+      "Governance and risk",
+      "Safety"
+    ],
+    "tags": [
+      "IBM",
+      "Governance",
+      "Risk",
+      "PDF"
+    ]
+  },
+  {
+    "id": "oci-01",
+    "course_id": "oracle-llmops",
+    "lesson_num": "1",
+    "name": "Oracle LLMOps overview",
+    "web_url": "https://www.oracle.com/artificial-intelligence/llmops/",
+    "skills": [
+      "LLMOps overview (Oracle)",
+      "OCI service mapping for LLMOps"
+    ],
+    "roles": [
+      "LLMOps engineer",
+      "Platform engineer",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Foundations and Lifecycle"
+    ],
+    "tags": [
+      "Oracle",
+      "OCI",
+      "Conceptual"
+    ]
+  },
+  {
+    "id": "oci-02",
+    "course_id": "oracle-llmops",
+    "lesson_num": "2",
+    "name": "Deploy LLM on OCI Data Science using BYOC (vLLM)",
+    "web_url": "https://github.com/oracle-samples/oci-data-science-ai-samples/blob/main/LLM/deploy-llm-byoc.md",
+    "skills": [
+      "BYOC serving deployment (OCI Data Science)",
+      "Containerized LLM serving (vLLM)"
+    ],
+    "roles": [
+      "Platform engineer",
+      "ML engineer"
+    ],
+    "topics": [
+      "Deployment and serving"
+    ],
+    "tags": [
+      "Oracle",
+      "OCI Data Science",
+      "BYOC",
+      "vLLM",
+      "Serving"
+    ]
+  },
+  {
+    "id": "oci-03",
+    "course_id": "oracle-llmops",
+    "lesson_num": "3",
+    "name": "OCI Observability and Monitoring platform (PDF guide)",
+    "web_url": "https://www.oracle.com/a/otn/docs/oracle_distributed_cloud_systems_oci_observability_and_management_v.0.2.pdf",
+    "skills": [
+      "Observability dashboarding",
+      "Logs/metrics/traces analysis",
+      "Alerting configuration"
+    ],
+    "roles": [
+      "LLMOps engineer"
+    ],
+    "topics": [
+      "Observability and tracing"
+    ],
+    "tags": [
+      "Oracle",
+      "OCI Observability",
+      "Monitoring",
+      "PDF"
+    ]
+  },
+  {
+    "id": "oci-04",
+    "course_id": "oracle-llmops",
+    "lesson_num": "4",
+    "name": "Monitoring OCI DevOps performance (Observability & Mgmt)",
+    "web_url": "https://www.ateam-oracle.com/monitor-oci-devops-performance-observability-and-management",
+    "skills": [
+      "CI/CD observability",
+      "DevOps pipeline performance monitoring"
+    ],
+    "roles": [
+      "LLMOps engineer",
+      "Platform engineer"
+    ],
+    "topics": [
+      "Automation",
+      "Observability and tracing"
+    ],
+    "tags": [
+      "Oracle",
+      "OCI DevOps",
+      "CI/CD",
+      "Observability"
+    ]
+  },
+  {
+    "id": "hf-01",
+    "course_id": "hf-open-llmops-primitives",
+    "lesson_num": "1",
+    "name": "TRL (Transformer Reinforcement Learning) docs index",
+    "web_url": "https://huggingface.co/docs/trl/index",
+    "skills": [
+      "RLHF training (TRL)",
+      "DPO preference optimization",
+      "Transformers + TRL integration"
+    ],
+    "roles": [
+      "ML engineer"
+    ],
+    "topics": [
+      "Post training"
+    ],
+    "tags": [
+      "Hugging Face",
+      "TRL",
+      "RLHF",
+      "DPO",
+      "Training"
+    ]
+  },
+  {
+    "id": "hf-02",
+    "course_id": "hf-open-llmops-primitives",
+    "lesson_num": "2",
+    "name": "PEFT docs index",
+    "web_url": "https://huggingface.co/docs/peft/index",
+    "skills": [
+      "PEFT fine-tuning",
+      "LoRA adapter training",
+      "Adapter merge/export"
+    ],
+    "roles": [
+      "ML engineer"
+    ],
+    "topics": [
+      "Post training"
+    ],
+    "tags": [
+      "Hugging Face",
+      "PEFT",
+      "LoRA",
+      "Fine-tuning"
+    ]
+  },
+  {
+    "id": "hf-03",
+    "course_id": "hf-open-llmops-primitives",
+    "lesson_num": "3",
+    "name": "Accelerate docs index",
+    "web_url": "https://huggingface.co/docs/accelerate/index",
+    "skills": [
+      "Distributed training (Accelerate)",
+      "Multi-GPU launch",
+      "Mixed-precision tuning"
+    ],
+    "roles": [
+      "LLM application engineer",
+      "ML engineer"
+    ],
+    "topics": [
+      "Post training",
+      "Orchestration and workflows"
+    ],
+    "tags": [
+      "Hugging Face",
+      "Accelerate",
+      "Distributed training",
+      "Performance"
+    ]
+  },
+  {
+    "id": "hf-04",
+    "course_id": "hf-open-llmops-primitives",
+    "lesson_num": "4",
+    "name": "Transformers pipeline tutorial (inference primitive)",
+    "web_url": "https://github.com/huggingface/transformers/blob/main/docs/source/en/pipeline_tutorial.md",
+    "skills": [
+      "Transformers pipelines inference",
+      "Task selection (pipeline API)",
+      "Device placement (CPU/GPU)"
+    ],
+    "roles": [
+      "Platform engineer",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Deployment and serving"
+    ],
+    "tags": [
+      "Hugging Face",
+      "Transformers",
+      "Pipelines",
+      "Inference"
+    ]
+  },
+  {
+    "id": "el-01",
+    "course_id": "eleutherai-eval",
+    "lesson_num": "1",
+    "name": "lm-evaluation-harness repository (core)",
+    "web_url": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "skills": [
+      "Benchmark execution (lm-eval-harness)",
+      "Reproducible evaluation runs"
+    ],
+    "roles": [
+      "Evaluation engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing"
+    ],
+    "tags": [
+      "EleutherAI",
+      "Lm-evaluation-harness",
+      "Benchmarking",
+      "Open-source"
+    ]
+  },
+  {
+    "id": "el-02",
+    "course_id": "eleutherai-eval",
+    "lesson_num": "2",
+    "name": "lm-evaluation-harness: Task guide (docs)",
+    "web_url": "https://github.com/EleutherAI/lm-evaluation-harness/tree/main/docs",
+    "skills": [
+      "Task configuration",
+      "Prompt template authoring",
+      "Custom metric configuration"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing",
+      "Prompting"
+    ],
+    "tags": [
+      "EleutherAI",
+      "Tasks",
+      "Prompt templates",
+      "Evaluation"
+    ]
+  },
+  {
+    "id": "el-03",
+    "course_id": "eleutherai-eval",
+    "lesson_num": "3",
+    "name": "lm-evaluation-harness: Models/backends config",
+    "web_url": "https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/models",
+    "skills": [
+      "Model backend configuration",
+      "Serving backend integration for evals"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "Platform engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing",
+      "Deployment and serving"
+    ],
+    "tags": [
+      "EleutherAI",
+      "Backends",
+      "Serving integration",
+      "Evaluation"
+    ]
+  },
+  {
+    "id": "el-04",
+    "course_id": "eleutherai-eval",
+    "lesson_num": "4",
+    "name": "lm-evaluation-harness: CLI usage / getting started",
+    "web_url": "https://github.com/EleutherAI/lm-evaluation-harness#usage",
+    "skills": [
+      "CLI-driven evaluation workflow",
+      "Batching/performance tuning for evals"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "Platform engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing",
+      "Orchestration and workflows"
+    ],
+    "tags": [
+      "EleutherAI",
+      "CLI",
+      "Automation",
+      "Evaluation"
+    ]
+  },
+  {
+    "id": "vllm-01",
+    "course_id": "vllm-serving",
+    "lesson_num": "1",
+    "name": "vLLM docs (landing)",
+    "web_url": "https://docs.vllm.ai/",
+    "skills": [
+      "vLLM installation & setup",
+      "Efficient inference serving"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "Platform engineer"
+    ],
+    "topics": [
+      "Deployment and serving",
+      "Cost and performance"
+    ],
+    "tags": [
+      "vLLM",
+      "Serving",
+      "Inference",
+      "Open-source",
+      "Performance"
+    ]
+  },
+  {
+    "id": "vllm-02",
+    "course_id": "vllm-serving",
+    "lesson_num": "2",
+    "name": "OpenAI-compatible server (docs)",
+    "web_url": "https://docs.vllm.ai/en/v0.13.0/serving/openai_compatible_server/",
+    "skills": [
+      "OpenAI-compatible server (vLLM)",
+      "API endpoint configuration"
+    ],
+    "roles": [
+      "Platform engineer",
+      "ML engineer"
+    ],
+    "topics": [
+      "Deployment and serving"
+    ],
+    "tags": [
+      "vLLM",
+      "OpenAI-compatible API",
+      "Server",
+      "Serving"
+    ]
+  },
+  {
+    "id": "vllm-03",
+    "course_id": "vllm-serving",
+    "lesson_num": "3",
+    "name": "vLLM GitHub repository",
+    "web_url": "https://github.com/vllm-project/vllm",
+    "skills": [
+      "Source build & dependency management",
+      "Upstream contribution workflow"
+    ],
+    "roles": [
+      "Platform engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Deployment and serving"
+    ],
+    "tags": [
+      "vLLM",
+      "GitHub",
+      "Build",
+      "Open-source"
+    ]
+  },
+  {
+    "id": "vllm-04",
+    "course_id": "vllm-serving",
+    "lesson_num": "4",
+    "name": "vLLM: serving guides index",
+    "web_url": "https://docs.vllm.ai/en/latest/serving/offline_inference/",
+    "skills": [
+      "Production deployment patterns (vLLM)",
+      "Operational serving configuration"
+    ],
+    "roles": [
+      "LLMOps engineer",
+      "Platform engineer"
+    ],
+    "topics": [
+      "Deployment and serving",
+      "Observability and tracing"
+    ],
+    "tags": [
+      "vLLM",
+      "Deployment",
+      "Ops",
+      "Serving guides"
+    ]
+  },
+  {
+    "id": "phx-01",
+    "course_id": "phoenix-observability",
+    "lesson_num": "1",
+    "name": "Phoenix tracing overview (LLM traces)",
+    "web_url": "https://arize.com/docs/phoenix/tracing/llm-traces",
+    "skills": [
+      "LLM tracing concepts",
+      "Trace analysis for debugging"
+    ],
+    "roles": [
+      "LLMOps engineer"
+    ],
+    "topics": [
+      "Observability and tracing"
+    ],
+    "tags": [
+      "Phoenix",
+      "Tracing",
+      "Observability",
+      "Debugging"
+    ]
+  },
+  {
+    "id": "phx-02",
+    "course_id": "phoenix-observability",
+    "lesson_num": "2",
+    "name": "Phoenix tracing: How-to (manual)",
+    "web_url": "https://arize.com/docs/phoenix/tracing/how-to-tracing",
+    "skills": [
+      "Tracing instrumentation",
+      "Trace export to Phoenix"
+    ],
+    "roles": [
+      "LLMOps engineer"
+    ],
+    "topics": [
+      "Observability and tracing"
+    ],
+    "tags": [
+      "Phoenix",
+      "Instrumentation",
+      "Tracing",
+      "How-to"
+    ]
+  },
+  {
+    "id": "phx-03",
+    "course_id": "phoenix-observability",
+    "lesson_num": "3",
+    "name": "Phoenix tracing tutorial",
+    "web_url": "https://arize.com/docs/phoenix/tracing/tutorial",
+    "skills": [
+      "Tracing tutorial workflow",
+      "End-to-end run debugging"
+    ],
+    "roles": [
+      "LLMOps engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Observability and tracing",
+      "Orchestration and workflows"
+    ],
+    "tags": [
+      "Phoenix",
+      "Tutorial",
+      "Tracing",
+      "Hands-on"
+    ]
+  },
+  {
+    "id": "phx-04",
+    "course_id": "phoenix-observability",
+    "lesson_num": "4",
+    "name": "Phoenix docs section index (tracing/evals/datasets)",
+    "web_url": "https://docs.arize.com/phoenix/tracing/how-to-tracing/trace-",
+    "skills": [
+      "Observability + eval workflow navigation",
+      "Dataset/eval operations"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "LLMOps engineer",
+      "Platform engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Observability and tracing",
+      "Evaluation and Testing"
+    ],
+    "tags": [
+      "Phoenix",
+      "Evals",
+      "Datasets",
+      "Observability"
+    ]
+  },
+  {
+    "id": "mlf-01",
+    "course_id": "mlflow-genai",
+    "lesson_num": "1",
+    "name": "MLflow: Evaluate prompts (Prompt Registry)",
+    "web_url": "https://mlflow.org/docs/latest/genai/prompt-registry/evaluate-prompts/",
+    "skills": [
+      "Prompt Registry usage",
+      "Prompt versioning",
+      "Prompt evaluation"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Prompting",
+      "Evaluation and Testing",
+      "Model registry and versioning"
+    ],
+    "tags": [
+      "MLflow",
+      "Prompt registry",
+      "Prompt management",
+      "Evaluation",
+      "Versioning"
+    ]
+  },
+  {
+    "id": "mlf-02",
+    "course_id": "mlflow-genai",
+    "lesson_num": "2",
+    "name": "Databricks docs: Evaluate and monitor AI agents (MLflow GenAI)",
+    "web_url": "https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/",
+    "skills": [
+      "Agent evaluation (MLflow)",
+      "Agent monitoring",
+      "Trace logging"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "LLMOps engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing",
+      "Observability and tracing",
+      "Orchestration and workflows"
+    ],
+    "tags": [
+      "Databricks",
+      "MLflow",
+      "Agents",
+      "Evaluation",
+      "Monitoring"
+    ]
+  },
+  {
+    "id": "mlf-03",
+    "course_id": "mlflow-genai",
+    "lesson_num": "3",
+    "name": "Azure Databricks: Evaluate & monitor AI agents",
+    "web_url": "https://learn.microsoft.com/en-us/azure/databricks/mlflow3/genai/eval-monitor/",
+    "skills": [
+      "Agent evaluation (Azure Databricks)",
+      "MLflow tracking",
+      "Agent monitoring"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "LLMOps engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing",
+      "Observability and tracing",
+      "Orchestration and workflows"
+    ],
+    "tags": [
+      "Azure Databricks",
+      "MLflow",
+      "Agents",
+      "Evaluation",
+      "Monitoring"
+    ]
+  },
+  {
+    "id": "mlf-04",
+    "course_id": "mlflow-genai",
+    "lesson_num": "4",
+    "name": "Databricks LLMOps glossary (context)",
+    "web_url": "https://www.databricks.com/glossary/llmops",
+    "skills": [
+      "LLMOps tracking concepts",
+      "Lifecycle framing (Databricks)"
+    ],
+    "roles": [
+      "Platform engineer",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Foundations and Lifecycle",
+      "Model registry and versioning"
+    ],
+    "tags": [
+      "Databricks",
+      "Tracking",
+      "Lifecycle",
+      "Glossary"
+    ]
+  },
+  {
+    "id": "orlhf-01",
+    "course_id": "openrlhf-posttraining",
+    "lesson_num": "1",
+    "name": "OpenRLHF repository (overview)",
+    "web_url": "https://github.com/OpenRLHF/OpenRLHF",
+    "skills": [
+      "RLHF stack setup (OpenRLHF)",
+      "Post-training workflow overview"
+    ],
+    "roles": [
+      "LLM application engineer",
+      "ML engineer"
+    ],
+    "topics": [
+      "Post training"
+    ],
+    "tags": [
+      "OpenRLHF",
+      "RLHF",
+      "Post-training",
+      "Open-source"
+    ]
+  },
+  {
+    "id": "orlhf-02",
+    "course_id": "openrlhf-posttraining",
+    "lesson_num": "2",
+    "name": "OpenRLHF README (architecture and quickstart)",
+    "web_url": "https://github.com/OpenRLHF/OpenRLHF#readme",
+    "skills": [
+      "PPO/DPO workflow execution",
+      "Distributed RLHF training",
+      "Serving integration in training loops"
+    ],
+    "roles": [
+      "Platform engineer",
+      "LLM application engineer",
+      "ML engineer"
+    ],
+    "topics": [
+      "Post training",
+      "Deployment and serving"
+    ],
+    "tags": [
+      "OpenRLHF",
+      "PPO",
+      "DPO",
+      "Distributed training",
+      "Serving integration"
+    ]
+  },
+  {
+    "id": "orlhf-03",
+    "course_id": "openrlhf-posttraining",
+    "lesson_num": "3",
+    "name": "OpenRLHF issues/discussions (community practices)",
+    "web_url": "https://github.com/OpenRLHF/OpenRLHF/issues",
+    "skills": [
+      "Operational troubleshooting (RLHF)",
+      "Community practice review"
+    ],
+    "roles": [
+      "Platform engineer",
+      "ML engineer",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Operations and maintenance"
+    ],
+    "tags": [
+      "OpenRLHF",
+      "Troubleshooting",
+      "Community",
+      "Issues"
+    ]
+  },
+  {
+    "id": "orlhf-04",
+    "course_id": "openrlhf-posttraining",
+    "lesson_num": "4",
+    "name": "OpenRLHF releases (versioning)",
+    "web_url": "https://github.com/OpenRLHF/OpenRLHF/releases",
+    "skills": [
+      "Release/version tracking",
+      "Upgrade planning"
+    ],
+    "roles": [
+      "Platform engineer"
+    ],
+    "topics": [
+      "Model registry and versioning",
+      "Operations and maintenance"
+    ],
+    "tags": [
+      "OpenRLHF",
+      "Releases",
+      "Versioning",
+      "Maintenance"
+    ]
+  },
+  {
+    "id": "lc-01",
+    "course_id": "langchain-observability",
+    "lesson_num": "1",
+    "name": "LangChain observability (docs landing)",
+    "web_url": "https://docs.langchain.com/oss/python/langchain/observability",
+    "skills": [
+      "Tracing enablement (LangChain)",
+      "Run inspection & debugging"
+    ],
+    "roles": [
+      "LLMOps engineer"
+    ],
+    "topics": [
+      "Observability and tracing"
+    ],
+    "tags": [
+      "LangChain",
+      "Observability",
+      "Tracing",
+      "Debugging"
+    ]
+  },
+  {
+    "id": "lc-02",
+    "course_id": "langchain-observability",
+    "lesson_num": "2",
+    "name": "LangChain observability: tracing setup",
+    "web_url": "https://docs.langchain.com/oss/python/langchain/observability#tracing",
+    "skills": [
+      "Tracing setup",
+      "Callback instrumentation"
+    ],
+    "roles": [
+      "LLMOps engineer"
+    ],
+    "topics": [
+      "Observability and tracing"
+    ],
+    "tags": [
+      "LangChain",
+      "Tracing setup",
+      "Instrumentation",
+      "Callbacks"
+    ]
+  },
+  {
+    "id": "lc-03",
+    "course_id": "langchain-observability",
+    "lesson_num": "3",
+    "name": "LangChain observability: evaluation hooks",
+    "web_url": "https://docs.langchain.com/oss/python/langchain/observability#evaluation",
+    "skills": [
+      "Evaluation hooks",
+      "Quality signal capture"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "LLMOps engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing",
+      "Observability and tracing"
+    ],
+    "tags": [
+      "LangChain",
+      "Evaluation",
+      "Monitoring",
+      "Quality signals"
+    ]
+  },
+  {
+    "id": "lc-04",
+    "course_id": "langchain-observability",
+    "lesson_num": "4",
+    "name": "LangChain observability: debugging patterns",
+    "web_url": "https://docs.langchain.com/oss/python/langchain/observability#debugging",
+    "skills": [
+      "Debugging patterns",
+      "Operational troubleshooting"
+    ],
+    "roles": [
+      "LLMOps engineer",
+      "Platform engineer"
+    ],
+    "topics": [
+      "Observability and tracing",
+      "Operations and maintenance"
+    ],
+    "tags": [
+      "LangChain",
+      "Debugging",
+      "Ops",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "id": "li-01",
+    "course_id": "llamaindex-observability",
+    "lesson_num": "1",
+    "name": "LlamaIndex observability guide (landing)",
+    "web_url": "https://developers.llamaindex.ai/python/framework/module_guides/observability/",
+    "skills": [
+      "Observability enablement (LlamaIndex)",
+      "Telemetry inspection"
+    ],
+    "roles": [
+      "LLMOps engineer"
+    ],
+    "topics": [
+      "Observability and tracing"
+    ],
+    "tags": [
+      "LlamaIndex",
+      "Observability",
+      "Tracing",
+      "Telemetry"
+    ]
+  },
+  {
+    "id": "li-02",
+    "course_id": "llamaindex-observability",
+    "lesson_num": "2",
+    "name": "LlamaIndex: OpenTelemetry / tracing integration",
+    "web_url": "https://developers.llamaindex.ai/python/framework/module_guides/observability/#opentelemetry",
+    "skills": [
+      "OpenTelemetry integration",
+      "Trace export configuration"
+    ],
+    "roles": [
+      "LLMOps engineer"
+    ],
+    "topics": [
+      "Observability and tracing"
+    ],
+    "tags": [
+      "LlamaIndex",
+      "OpenTelemetry",
+      "Tracing",
+      "Integration"
+    ]
+  },
+  {
+    "id": "li-03",
+    "course_id": "llamaindex-observability",
+    "lesson_num": "3",
+    "name": "LlamaIndex: Phoenix integration",
+    "web_url": "https://developers.llamaindex.ai/python/framework/module_guides/observability/#phoenix-arize",
+    "skills": [
+      "Phoenix integration",
+      "RAG trace debugging"
+    ],
+    "roles": [
+      "LLMOps engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Observability and tracing"
+    ],
+    "tags": [
+      "LlamaIndex",
+      "Phoenix",
+      "Tracing",
+      "RAG debugging"
+    ]
+  },
+  {
+    "id": "li-04",
+    "course_id": "llamaindex-observability",
+    "lesson_num": "4",
+    "name": "LlamaIndex: evaluation/monitoring integrations",
+    "web_url": "https://developers.llamaindex.ai/python/framework/module_guides/observability/#evaluation",
+    "skills": [
+      "Evaluation/monitoring integrations",
+      "RAG quality checks"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "LLMOps engineer",
+      "LLM application engineer"
+    ],
+    "topics": [
+      "Evaluation and Testing",
+      "Observability and tracing"
+    ],
+    "tags": [
+      "LlamaIndex",
+      "Evaluation",
+      "Monitoring",
+      "Integrations",
+      "RAG"
+    ]
+  },
+  {
+    "id": "oc-01",
+    "course_id": "openclaw-getting-started",
+    "lesson_num": "1",
+    "name": "Quick setup (CLI)",
+    "web_url": "https://docs.openclaw.ai/start/getting-started#quick-setup-cli",
+    "skills": [
+      "Install tooling",
+      "Verify environment"
+    ],
+    "roles": [
+      "Platform engineer",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Foundations",
+      "Lifecycle",
+      "Deployment"
+    ],
+    "tags": [
+      "Setup",
+      "Install"
+    ]
+  },
+  {
+    "id": "oc-02",
+    "course_id": "openclaw-getting-started",
+    "lesson_num": "2",
+    "name": "Onboard configuration (auth, gateway, and channels)",
+    "web_url": "https://docs.openclaw.ai/start/getting-started",
+    "skills": [
+      "Run onboarding wizard",
+      "Configure auth",
+      "Initialize gateway settings"
+    ],
+    "roles": [
+      "Governance lead",
+      "Platform engineer"
+    ],
+    "topics": [
+      "Automation",
+      "Governance and risk",
+      "Deployment"
+    ],
+    "tags": [
+      "Onboarding",
+      "Auth",
+      "Config"
+    ]
+  },
+  {
+    "id": "oc-03",
+    "course_id": "openclaw-getting-started",
+    "lesson_num": "3",
+    "name": "Run Gateway as a service (daemon)",
+    "web_url": "https://docs.openclaw.ai/start/getting-started",
+    "skills": [
+      "Install/manage daemon",
+      "Start/stop service"
+    ],
+    "roles": [
+      "Platform engineer"
+    ],
+    "topics": [
+      "Deployment and serving",
+      "Operations and maintenance"
+    ],
+    "tags": [
+      "Service",
+      "Daemon"
+    ]
+  },
+  {
+    "id": "oc-04",
+    "course_id": "openclaw-getting-started",
+    "lesson_num": "4",
+    "name": "Check Gateway health and troubleshoot (status/foreground)",
+    "web_url": "https://docs.openclaw.ai/start/getting-started",
+    "skills": [
+      "Health checks",
+      "Basic debugging via foreground logs"
+    ],
+    "roles": [
+      "LLMOps engineer"
+    ],
+    "topics": [
+      "Observability and tracing"
+    ],
+    "tags": [
+      "Status",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "id": "oc-05",
+    "course_id": "openclaw-getting-started",
+    "lesson_num": "5",
+    "name": "Access Control UI and send a test message (smoke test)",
+    "web_url": "https://docs.openclaw.ai/start/getting-started",
+    "skills": [
+      "Open dashboard",
+      "Run CLI smoke test"
+    ],
+    "roles": [
+      "Evaluation engineer",
+      "LLMOps engineer",
+      "Technical product manager"
+    ],
+    "topics": [
+      "Foundations and lifecycle",
+      "Observability and tracing"
+    ],
+    "tags": [
+      "Smoke-test",
+      "Dashboard",
+      "CLI"
+    ]
+  }
+]

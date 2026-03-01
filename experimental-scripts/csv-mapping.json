@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "filename": "courses.csv",
+      "typeName": "Course",
+      "output": "courses.json",
+      "columns": {
+        "course_id": {
+          "field": "id",
+          "required": true
+        },
+        "Name": {
+          "field": "name"
+        },
+        "Provider": {
+          "field": "provider"
+        },
+        "Description": {
+          "field": "description"
+        },
+        "Topics": {
+          "field": "topics",
+          "array": true,
+          "delimiter": ";"
+        },
+        "Skills": {
+          "field": "skills",
+          "array": true,
+          "delimiter": ";"
+        },
+        "Roles": {
+          "field": "roles",
+          "array": true,
+          "delimiter": ";"
+        },
+        "Web URL": {
+          "field": "web_url"
+        }
+      }
+    },
+    {
+      "filename": "lessons.csv",
+      "typeName": "Lesson",
+      "output": "lessons.json",
+      "columns": {
+        "lesson_id": {
+          "field": "id",
+          "required": true
+        },
+        "course_id": {
+          "field": "course_id",
+          "required": true
+        },
+        "lesson_num": {
+          "field": "lesson_num"
+        },
+        "Name": {
+          "field": "name"
+        },
+        "Web URL": {
+          "field": "web_url"
+        },
+        "Skills": {
+          "field": "skills",
+          "array": true,
+          "delimiter": ";"
+        },
+        "Roles": {
+          "field": "roles",
+          "array": true,
+          "delimiter": ";"
+        },
+        "Topics": {
+          "field": "topics",
+          "array": true,
+          "delimiter": ";"
+        },
+        "Tags": {
+          "field": "tags",
+          "array": true,
+          "delimiter": ";"
+        },
+        "Description": {
+          "field": "description"
+        }
+      }
+    }
+  ]
+}

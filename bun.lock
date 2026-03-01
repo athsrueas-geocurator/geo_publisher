@@ -5,7 +5,8 @@
     "": {
       "name": "geo-sdk-demo",
       "dependencies": {
-        "@geoprotocol/geo-sdk": "^0.9.0",
+        "@geoprotocol/geo-sdk": "^0.10.1",
+        "csv-parse": "^6.1.0",
         "dotenv": "^17.2.4",
         "viem": "^2.45.3",
       },
@@ -20,7 +21,7 @@
 
     "@bokuweb/zstd-wasm": ["@bokuweb/zstd-wasm@0.0.27", "", {}, "sha512-GDm2uOTK3ESjnYmSeLQifJnBsRCWajKLvN32D2ZcQaaCIJI/Hse9s74f7APXjHit95S10UImsRGkTsbwHmrtmg=="],
 
-    "@geoprotocol/geo-sdk": ["@geoprotocol/geo-sdk@0.9.0", "", { "dependencies": { "@geoprotocol/grc-20": "^0.4.0", "effect": "^3.17.13", "fflate": "^0.8.2", "fractional-indexing-jittered": "^1.0.0", "image-size": "^2.0.2", "permissionless": "^0.2.35", "uuid": "^13.0.0", "viem": "^2.37.6" } }, "sha512-QRrB8n9x6+/r4vGwiRxhfLgXDucSShilulmgxyUADVjGzn1JepVCml2QyKvgkgzQtGv/M2n1pJ9QUTdwlV7SvA=="],
+    "@geoprotocol/geo-sdk": ["@geoprotocol/geo-sdk@0.10.1", "", { "dependencies": { "@geoprotocol/grc-20": "^0.4.0", "effect": "^3.17.13", "fflate": "^0.8.2", "fractional-indexing-jittered": "^1.0.0", "image-size": "^2.0.2", "permissionless": "^0.2.35", "uuid": "^13.0.0", "viem": "^2.37.6" } }, "sha512-wXp7DtbYgwBdGjVaOvBGlb1Wb/KDf/xN1C1KcKiZhdJnpvXfXAhgag1dyJj0bY8NcY3WtH3U0byDgiid1zWmDA=="],
 
     "@geoprotocol/grc-20": ["@geoprotocol/grc-20@0.4.0", "", { "dependencies": { "@bokuweb/zstd-wasm": "^0.0.27" } }, "sha512-pZ42y0/nDR6L0pRPlW/xeLOwAcNvsQvP/9BpSO9DN8U4/dmGjHAxK9M2euXncjnFLoaCKmx8NiANVpHVD94MGA=="],
 
@@ -41,6 +42,8 @@
     "@types/node": ["@types/node@25.2.3", "", { "dependencies": { "undici-types": "~7.16.0" } }, "sha512-m0jEgYlYz+mDJZ2+F4v8D1AyQb+QzsNqRuI7xg1VQX/KlKS0qT9r1Mo16yo5F/MtifXFgaofIFsdFMox2SxIbQ=="],
 
     "abitype": ["abitype@1.2.3", "", { "peerDependencies": { "typescript": ">=5.0.4", "zod": "^3.22.0 || ^4.0.0" }, "optionalPeers": ["zod"] }, "sha512-Ofer5QUnuUdTFsBRwARMoWKOH1ND5ehwYhJ3OJ/BQO+StkwQjHw0XyVh4vDttzHB7QOFhPHa/o413PJ82gU/Tg=="],
+
+    "csv-parse": ["csv-parse@6.1.0", "", {}, "sha512-CEE+jwpgLn+MmtCpVcPtiCZpVtB6Z2OKPTr34pycYYoL7sxdOkXDdQ4lRiw6ioC0q6BLqhc6cKweCVvral8yhw=="],
 
     "dotenv": ["dotenv@17.2.4", "", {}, "sha512-mudtfb4zRB4bVvdj0xRo+e6duH1csJRM8IukBqfTRvHotn9+LBXB8ynAidP9zHqoRC/fsllXgk4kCKlR21fIhw=="],
 
