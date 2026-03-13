@@ -7,6 +7,7 @@ import {
 import dotenv from "dotenv";
 import * as fs from "fs";
 import path from "node:path";
+import { GeoApiRequestError, geoGraphqlRequest } from "./geo-api-client";
 
 dotenv.config();
 
@@ -16,38 +17,28 @@ const TESTNET_RPC_URL = "https://rpc-geo-test-zc16z3tcvf.t.conduit.xyz";
 
 // ─── GraphQL Helper ──────────────────────────────────────────────────────────
 
-const API_URL = "https://testnet-api.geobrowser.io/graphql";
-
-export async function gql(query: string, variables?: Record<string, any>) {
-  const res = await fetch(API_URL, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ query, variables }),
-  });
-
-  if (!res.ok) {
-    throw new Error(`API error: ${res.status} ${res.statusText}`);
+export async function gql<TData = any>(query: string, variables?: Record<string, any>): Promise<TData> {
+  try {
+    return await geoGraphqlRequest<TData>(query, { variables });
+  } catch (error) {
+    if (error instanceof GeoApiRequestError && error.errors?.length) {
+      console.error("GraphQL errors:", JSON.stringify(error.errors, null, 2));
+    }
+    throw error;
   }
-
-  const json = await res.json();
-  if (json.errors) {
-    console.error("GraphQL errors:", JSON.stringify(json.errors, null, 2));
-    throw new Error(`GraphQL: ${json.errors[0].message}`);
-  }
-  return json.data;
 }
 
 // ─── Publishing Helper ───────────────────────────────────────────────────────
-// Only DEMO_SPACE_ID is required — the space type & address are queried
+// Only TARGET_SPACE_ID is required — the space type & address are queried
 // automatically from the API.  For DAO spaces the caller's member space is
 // resolved by matching SW_ADDRESS against the DAO's members or editors list.
 
 export async function publishOps(ops: Op[], editName: string, input_space?: string) {
-  let spaceId = process.env.DEMO_SPACE_ID; 
+  let spaceId = process.env.TARGET_SPACE_ID;
   if (input_space) {
     spaceId = input_space
   }
-  if (!spaceId) throw new Error("DEMO_SPACE_ID not set in .env");
+  if (!spaceId) throw new Error("TARGET_SPACE_ID not set in .env");
 
   const privateKey = process.env.PK_SW as `0x${string}`;
   if (!privateKey) throw new Error("PK_SW not set in .env");
@@ -58,23 +49,32 @@ export async function publishOps(ops: Op[], editName: string, input_space?: stri
   });
   const author = client.account.address
 
-  const personalSpaceData = await gql(`{
-    spaces(filter: { address: { is: "${author}" } }) { id type }
-  }`);
+  const personalSpaceData = await gql(
+    `query PersonalSpacesByAddress($author: String!) {
+      spaces(filter: { address: { is: $author } }) {
+        id
+        type
+      }
+    }`,
+    { author },
+  );
   
   if (!author)
     throw new Error("Smart Wallet address not found from private key.");
 
   console.log(`\nQuerying space ${spaceId} from the API...`);
 
-  const spaceData = await gql(`{
-    space(id: "${spaceId}") {
-      type
-      address
-      membersList { memberSpaceId }
-      editorsList { memberSpaceId }
-    }
-  }`);
+  const spaceData = await gql(
+    `query SpaceGovernanceInfo($spaceId: UUID!) {
+      space(id: $spaceId) {
+        type
+        address
+        membersList { memberSpaceId }
+        editorsList { memberSpaceId }
+      }
+    }`,
+    { spaceId },
+  );
 
   if (!spaceData.space) throw new Error(`Space ${spaceId} not found`);
 
@@ -147,6 +147,11 @@ export async function publishOps(ops: Op[], editName: string, input_space?: stri
 
   const txHash = await client.sendTransaction({ to, data: calldata });
   console.log("Transaction hash:", txHash);
+  if (spaceType !== "PERSONAL") {
+    console.log(
+      "DAO publish mode: this transaction submits a proposal/edit. Entities may not appear until the DAO applies the edit.",
+    );
+  }
   return txHash;
 }
 
@@ -204,6 +209,7 @@ export function printOps(ops: any, outputDir: string, fn: string) {
   if (ops.length > 0) {
     const convertedOps = convertUuidBytes(ops);
     const outputText = JSON.stringify(convertedOps, null, 2);
+    fs.mkdirSync(outputDir, { recursive: true });
     const filePath = path.join(outputDir, fn);
     fs.writeFileSync(filePath, outputText);
     console.log(`OPS PRINTED to ${fn}`);

@@ -111,17 +111,13 @@ function normalizeName(value: string): string {
   return value.trim().toLowerCase();
 }
 
-function quote(value: string): string {
-  return JSON.stringify(value);
-}
-
 async function fetchEntitiesByName(spaceId: string, name: string) {
-  const query = `{
+  const query = `query FetchEntitiesByName($spaceId: UUID!, $typeId: UUID!, $name: String!, $first: Int!) {
     entities(
-      spaceId: ${quote(spaceId)}
-      typeId: ${quote(TYPES.type)}
-      first: 20
-      filter: { name: { is: ${quote(name)} } }
+      spaceId: $spaceId
+      typeId: $typeId
+      first: $first
+      filter: { name: { is: $name } }
     ) {
       id
       name
@@ -130,29 +126,38 @@ async function fetchEntitiesByName(spaceId: string, name: string) {
       spacesIn { id }
     }
   }`;
-  const response = await gql(query);
+  const response = await gql(query, {
+    spaceId,
+    typeId: TYPES.type,
+    name,
+    first: 20,
+  });
   return response.entities ?? [];
 }
 
 async function fetchTypeSamples(spaceId: string, limit = 200) {
-  const query = `{
+  const query = `query FetchTypeSamples($spaceId: UUID!, $typeId: UUID!, $first: Int!) {
     entities(
-      spaceId: ${quote(spaceId)}
-      typeId: ${quote(TYPES.type)}
-      first: ${limit}
+      spaceId: $spaceId
+      typeId: $typeId
+      first: $first
       filter: { name: { isNot: null } }
     ) {
       id
       name
     }
   }`;
-  const response = await gql(query);
+  const response = await gql(query, {
+    spaceId,
+    typeId: TYPES.type,
+    first: limit,
+  });
   return response.entities ?? [];
 }
 
 async function fetchEntityDetails(entityId: string) {
-  const query = `{
-    entity(id: ${quote(entityId)}) {
+  const query = `query FetchEntityDetails($entityId: UUID!) {
+    entity(id: $entityId) {
       id
       name
       description
@@ -160,16 +165,16 @@ async function fetchEntityDetails(entityId: string) {
       spacesIn { id }
     }
   }`;
-  const response = await gql(query);
+  const response = await gql(query, { entityId });
   return response.entity;
 }
 
 async function fetchEntitiesByType(spaceId: string, typeId: string, limit = 200) {
-  const query = `{
+  const query = `query FetchEntitiesByType($spaceId: UUID!, $typeId: UUID!, $first: Int!) {
     entities(
-      spaceId: ${quote(spaceId)}
-      typeId: ${quote(typeId)}
-      first: ${limit}
+      spaceId: $spaceId
+      typeId: $typeId
+      first: $first
       filter: { name: { isNot: null } }
     ) {
       id
@@ -179,15 +184,19 @@ async function fetchEntitiesByType(spaceId: string, typeId: string, limit = 200)
       spacesIn { id }
     }
   }`;
-  const response = await gql(query);
+  const response = await gql(query, {
+    spaceId,
+    typeId,
+    first: limit,
+  });
   return response.entities ?? [];
 }
 
 async function fetchRelations(entityId: string) {
-  const query = `{
+  const query = `query FetchRelations($entityId: UUID!, $first: Int!) {
     relations(
-      filter: { fromEntityId: { is: ${quote(entityId)} } }
-      first: 200
+      filter: { fromEntityId: { is: $entityId } }
+      first: $first
     ) {
       id
       typeId
@@ -202,14 +211,17 @@ async function fetchRelations(entityId: string) {
       typeEntity { id name }
     }
   }`;
-  const response = await gql(query);
+  const response = await gql(query, {
+    entityId,
+    first: 200,
+  });
   return response.relations ?? [];
 }
 
 async function fetchValues(entityId: string) {
-  const query = `{
+  const query = `query FetchValues($entityId: UUID!) {
     values(
-      filter: { entityId: { is: ${quote(entityId)} } }
+      filter: { entityId: { is: $entityId } }
     ) {
       id
       propertyId
@@ -222,7 +234,7 @@ async function fetchValues(entityId: string) {
       datetime
     }
   }`;
-  const response = await gql(query);
+  const response = await gql(query, { entityId });
   return response.values ?? [];
 }
 

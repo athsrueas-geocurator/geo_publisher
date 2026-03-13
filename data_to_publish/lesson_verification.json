@@ -1,0 +1,2456 @@
+[
+  {
+    "lesson_id": "az-01",
+    "name": "Lab 01: Introduction to LLMs and Azure AI Services",
+    "url": "https://microsoft.github.io/llmops-workshop/labs/lesson_01/lab01.html",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Lab 01: Introduction to LLMs and Azure AI Services | LLMOPs Workshop",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Azure AI Studio navigation",
+          "Prompt Playground experimentation"
+        ],
+        "total": 6
+      },
+      "Roles": {
+        "missing": [
+          "Governance lead",
+          "Platform engineer",
+          "LLM application engineer",
+          "Technical product manager"
+        ],
+        "total": 4
+      },
+      "Topics": {
+        "missing": [
+          "Foundations and Lifecycle",
+          "Deployment and serving",
+          "Orchestration and workflows"
+        ],
+        "total": 4
+      },
+      "Tags": {
+        "missing": [
+          "Hands-on",
+          "Beginner"
+        ],
+        "total": 8
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "az-02",
+    "name": "Lab 02: Building LLM Orchestration Flows",
+    "url": "https://microsoft.github.io/llmops-workshop/labs/lesson_02/lab02.html",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Lab 02: Building LLMs Orchestration Flows | LLMOPs Workshop",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 5
+      },
+      "Roles": {
+        "missing": [
+          "LLM application engineer"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [
+          "Orchestration and workflows",
+          "Retrieval augmented generation",
+          "Prompting"
+        ],
+        "total": 3
+      },
+      "Tags": {
+        "missing": [
+          "Hands-on"
+        ],
+        "total": 7
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "az-03",
+    "name": "Lab 03: Evaluating and Deploying LLMs",
+    "url": "https://microsoft.github.io/llmops-workshop/labs/lesson_03/lab03.html",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Lab 03: Evaluating and Deploying LLMs | LLMOPs Workshop",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Evaluation dataset preparation",
+          "Post-deploy validation"
+        ],
+        "total": 5
+      },
+      "Roles": {
+        "missing": [
+          "Evaluation engineer",
+          "Platform engineer",
+          "LLM application engineer",
+          "ML engineer"
+        ],
+        "total": 4
+      },
+      "Topics": {
+        "missing": [
+          "Evaluation and Testing",
+          "Deployment and serving",
+          "Retrieval augmented generation"
+        ],
+        "total": 3
+      },
+      "Tags": {
+        "missing": [
+          "Hands-on"
+        ],
+        "total": 8
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "az-04",
+    "name": "Lab 04: Monitoring and Responsible AI",
+    "url": "https://microsoft.github.io/llmops-workshop/labs/lesson_04/lab04.html",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Lab 04: Monitoring | LLMOPs Workshop",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "LLM monitoring enablement",
+          "Monitoring metrics preparation",
+          "Content Safety tool integration",
+          "Conditional safety routing (Prompt Flow)",
+          "Operational debugging"
+        ],
+        "total": 5
+      },
+      "Roles": {
+        "missing": [
+          "Governance lead",
+          "LLMOps engineer",
+          "LLM application engineer"
+        ],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Observability and tracing"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [
+          "Responsible AI",
+          "Hands-on"
+        ],
+        "total": 6
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "az-05",
+    "name": "Lab 05: Automating Everything (CI/CD)",
+    "url": "https://microsoft.github.io/llmops-workshop/labs/lesson_05/lab05.html",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Lab 05: Automating Everything | LLMOPs Workshop",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "GitHub Actions CI/CD setup",
+          "Automated PR evaluation pipeline",
+          "Golden dataset evaluation gate",
+          "Release workflow (branching/versioning)"
+        ],
+        "total": 5
+      },
+      "Roles": {
+        "missing": [
+          "Evaluation engineer",
+          "Platform engineer",
+          "LLM application engineer"
+        ],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Deployment and serving"
+        ],
+        "total": 3
+      },
+      "Tags": {
+        "missing": [
+          "Hands-on"
+        ],
+        "total": 7
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "az-06",
+    "name": "Extra: Benchmarking Azure OpenAI Models",
+    "url": "https://microsoft.github.io/llmops-workshop/labs/performance/docs/AOAI_BENCH_TOOL.html",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Benchmarking Azure OpenAI Models | LLMOPs Workshop",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Quality/cost tradeoff analysis",
+          "Model selection workflow"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "Evaluation engineer",
+          "Platform engineer",
+          "LLM application engineer"
+        ],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Cost and performance"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [
+          "Model selection"
+        ],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "az-07",
+    "name": "Extra: Performance Evaluation / Load Testing",
+    "url": "https://microsoft.github.io/llmops-workshop/labs/performance/docs/PERFTEST_CONCEPTS.html",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Performance Evaluation | LLMOPs Workshop",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Deployment and serving"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [],
+        "total": 6
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "gcp-01",
+    "name": "What is LLMOps (overview)",
+    "url": "https://cloud.google.com/discover/what-is-llmops",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "LLMOps: What it is and how it works | Google Cloud",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "LLMOps lifecycle mapping",
+          "LLMOps best-practice framing"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Foundations and Lifecycle"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [
+          "Conceptual",
+          "LLMOps definition",
+          "Lifecycle"
+        ],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "gcp-02",
+    "name": "Vertex AI Model Registry (lifecycle management)",
+    "url": "https://docs.cloud.google.com/vertex-ai/docs/model-registry/introduction",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Introduction to Vertex AI Model Registry &nbsp;|&nbsp; Google Cloud Documentation",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Model lifecycle promotion"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "Technical product manager"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [
+          "Foundations and Lifecycle"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "gcp-03",
+    "name": "Vertex AI Pipelines (automation)",
+    "url": "https://docs.cloud.google.com/vertex-ai/docs/pipelines/introduction",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Introduction to Vertex AI Pipelines &nbsp;|&nbsp; Google Cloud Documentation",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Pipeline automation",
+          "Pipeline parameterization"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Automation"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [
+          "Automation"
+        ],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "gcp-04",
+    "name": "Vertex AI Model Evaluation (overview)",
+    "url": "https://docs.cloud.google.com/vertex-ai/docs/evaluation/introduction",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Model evaluation in Vertex AI &nbsp;|&nbsp; Google Cloud Documentation",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Metric selection"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [
+          "Evaluation and Testing"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "gcp-05",
+    "name": "Vertex AI Model Monitoring (overview)",
+    "url": "https://docs.cloud.google.com/vertex-ai/docs/model-monitoring/overview",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Introduction to Vertex AI Model Monitoring &nbsp;|&nbsp; Google Cloud Documentation",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "LLMOps engineer"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [
+          "Observability and tracing"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "awsw-00",
+    "name": "Lab 0: Register base model (notebook)",
+    "url": "https://github.com/aws-samples/llmops-workshop/blob/main/lab0-register-base-model.ipynb",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "llmops-workshop/lab0-register-base-model.ipynb at main · aws-samples/llmops-workshop · GitHub",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "SageMaker Model Registry registration",
+          "Model package governance"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "Governance lead",
+          "Technical product manager"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Model registry and versioning",
+          "Foundations and Lifecycle"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "awsw-01",
+    "name": "Lab 1: Finetune Llama2 with QLoRA (notebook)",
+    "url": "https://github.com/aws-samples/llmops-workshop/blob/main/lab1-sagemaker-finetune-llama2-qlora.ipynb",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "llmops-workshop/lab1-sagemaker-finetune-llama2-qlora.ipynb at main · aws-samples/llmops-workshop · GitHub",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [],
+        "total": 6
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "awsw-02",
+    "name": "Lab 2: Build SageMaker pipeline for LLM (notebook)",
+    "url": "https://github.com/aws-samples/llmops-workshop/blob/main/lab2-sagemaker-pipeline-llm.ipynb",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "llmops-workshop/lab2-sagemaker-pipeline-llm.ipynb at main · aws-samples/llmops-workshop · GitHub",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Training pipeline automation"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Orchestration and workflows",
+          "Automation",
+          "Deployment and serving"
+        ],
+        "total": 3
+      },
+      "Tags": {
+        "missing": [
+          "Automation"
+        ],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "awsw-03",
+    "name": "Lab 3: Foundation model monitoring (folder)",
+    "url": "https://github.com/aws-samples/llmops-workshop/tree/main/lab3-sagemaker-fm-monitoring",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "llmops-workshop/lab3-sagemaker-fm-monitoring at main · aws-samples/llmops-workshop · GitHub",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Monitoring schedule setup",
+          "BYOC monitoring"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "LLMOps engineer"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [
+          "Observability and tracing"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [
+          "BYOC",
+          "Observability"
+        ],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "awsw-04",
+    "name": "Lab 4: JumpStart embeddings (notebook)",
+    "url": "https://github.com/aws-samples/llmops-workshop/blob/main/lab4-sagemaker-jumpstart-embeddings.ipynb",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "llmops-workshop/lab4-sagemaker-jumpstart-embeddings.ipynb at main · aws-samples/llmops-workshop · GitHub",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Vector store setup (OpenSearch)"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "Platform engineer",
+          "LLM application engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Retrieval augmented generation",
+          "Deployment and serving"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [
+          "OpenSearch Serverless"
+        ],
+        "total": 6
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "awsw-05",
+    "name": "Lab 5: Knowledge base chatbot (notebook)",
+    "url": "https://github.com/aws-samples/llmops-workshop/blob/main/lab5-knowledge-base-chatbot.ipynb",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "llmops-workshop/lab5-knowledge-base-chatbot.ipynb at main · aws-samples/llmops-workshop · GitHub",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 4
+      },
+      "Roles": {
+        "missing": [],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Deployment and serving"
+        ],
+        "total": 3
+      },
+      "Tags": {
+        "missing": [],
+        "total": 7
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "awsb-01",
+    "name": "LLMOps solution overview (Part I)",
+    "url": "https://aws.amazon.com/blogs/gametech/operationalize-generative-ai-applications-on-aws-part-i-overview-of-llmops-solution/",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Operationalize generative AI applications on AWS: Part I – Overview of LLMOps solution | AWS for Games Blog",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Service-to-lifecycle mapping"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Foundations and Lifecycle"
+        ],
+        "total": 3
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "awsb-02",
+    "name": "SageMaker Clarify: Get started with model evaluations",
+    "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-foundation-model-evaluate-get-started.html",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Get started with model evaluations - Amazon SageMaker AI",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Automatic vs human eval workflows"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "Governance lead",
+          "Evaluation engineer",
+          "LLM application engineer"
+        ],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Evaluation and Testing",
+          "Safety"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [
+          "Responsible AI"
+        ],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "awsb-03",
+    "name": "SageMaker Model Monitor (examples index)",
+    "url": "https://sagemaker-examples.readthedocs.io/en/latest/sagemaker_model_monitor/index.html",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Get started with Model Monitor &mdash; Amazon SageMaker Examples 1.0.0 documentation",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Model Monitor setup",
+          "Monitoring schedule operations"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "LLMOps engineer",
+          "Platform engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Observability and tracing"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "awsb-04",
+    "url": "https://repost.aws/articles/ARXsxgLFa7R-uw8TgUo1fDJg/accelerate-foundation-model-evaluation-with-amazon-sagemaker-clarify-and-fmeval",
+    "error": "403 Client Error: Forbidden for url: https://repost.aws/articles/ARXsxgLFa7R-uw8TgUo1fDJg/accelerate-foundation-model-evaluation-with-amazon-sagemaker-clarify-and-fmeval"
+  },
+  {
+    "lesson_id": "db-01",
+    "name": "Databricks LLMOps overview",
+    "url": "https://www.databricks.com/glossary/llmops",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "What is LLMOps? LLM Operations | Databricks",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "LLMOps lifecycle framing (Databricks)"
+        ],
+        "total": 1
+      },
+      "Roles": {
+        "missing": [
+          "Technical product manager"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [
+          "Conceptual"
+        ],
+        "total": 3
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "db-02",
+    "name": "Evaluate and monitor AI agents (MLflow for GenAI)",
+    "url": "https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Evaluate and monitor AI agents | Databricks on AWS",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "Evaluation engineer",
+          "LLMOps engineer",
+          "LLM application engineer"
+        ],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Observability and tracing",
+          "Orchestration and workflows"
+        ],
+        "total": 3
+      },
+      "Tags": {
+        "missing": [],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "db-03",
+    "name": "Implement LLMOps with Azure Databricks (lab)",
+    "url": "https://microsoftlearning.github.io/mslearn-databricks/Instructions/Exercises/AI-07-LLMOps.html",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Implement LLMOps with Azure Databricks | \n            \n            mslearn-databricks",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "LLMOps implementation (Azure Databricks)",
+          "GenAI app deployment",
+          "Governance controls"
+        ],
+        "total": 4
+      },
+      "Roles": {
+        "missing": [
+          "Governance lead",
+          "Platform engineer",
+          "LLM application engineer"
+        ],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Model registry and versioning"
+        ],
+        "total": 3
+      },
+      "Tags": {
+        "missing": [],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "db-04",
+    "name": "Microsoft Learn module: Implement LLMOps with Azure Databricks",
+    "url": "https://learn.microsoft.com/en-us/training/modules/implement-llmops-azure-databricks/",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Implement LLMOps in Azure Databricks - Training | Microsoft Learn",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "LLMOps implementation patterns (Azure Databricks)",
+          "Operational lifecycle setup"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Technical product manager"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Foundations and Lifecycle",
+          "Deployment and serving"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [],
+        "total": 3
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "ibm-01",
+    "name": "IBM: What are Large Language Model Operations (LLMOps)?",
+    "url": "https://www.ibm.com/think/topics/llmops",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "What Are Large Language Model Operations (LLMOps)? | IBM",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "LLMOps definition & lifecycle framing",
+          "LLMOps vs LLMOps comparison"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Foundations and Lifecycle"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [
+          "Conceptual"
+        ],
+        "total": 3
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "ibm-02",
+    "url": "https://ibm.github.io/LLMOps/watsonx/watsonx/watsonx.pdf",
+    "error": "404 Client Error: Not Found for url: https://ibm.github.io/LLMOps/watsonx/watsonx/watsonx.pdf"
+  },
+  {
+    "lesson_id": "ibm-03",
+    "name": "IBM community: Build an agentic LLMOps stack with watsonx",
+    "url": "https://community.ibm.com/community/user/blogs/patrick-meyer/2025/09/18/build-an-agentic-llmops-stack-with-ibm-watsonx",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Build an agentic LLMOps stack with IBM watsonx",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "LLM application engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Governance and risk"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "ibm-04",
+    "url": "https://ibm.github.io/LLMOps/pdf/LLMOps-guide.pdf",
+    "error": "404 Client Error: Not Found for url: https://ibm.github.io/LLMOps/pdf/LLMOps-guide.pdf"
+  },
+  {
+    "lesson_id": "oci-01",
+    "name": "Oracle LLMOps overview",
+    "url": "https://www.oracle.com/artificial-intelligence/llmops/",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "What is LLMOps (Large Language Model operations)?",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "OCI service mapping for LLMOps"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Technical product manager"
+        ],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Foundations and Lifecycle"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [
+          "Conceptual"
+        ],
+        "total": 3
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "oci-02",
+    "name": "Deploy LLM on OCI Data Science using BYOC (vLLM)",
+    "url": "https://github.com/oracle-samples/oci-data-science-ai-samples/blob/main/LLM/deploy-llm-byoc.md",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "oci-data-science-ai-samples/LLM/deploy-llm-byoc.md at main · oracle-samples/oci-data-science-ai-samples · GitHub",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "BYOC serving deployment (OCI Data Science)",
+          "Containerized LLM serving (vLLM)"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Platform engineer",
+          "ML engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Deployment and serving"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [
+          "Serving"
+        ],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "oci-03",
+    "name": "OCI Observability and Monitoring platform (PDF guide)",
+    "url": "https://www.oracle.com/a/otn/docs/oracle_distributed_cloud_systems_oci_observability_and_management_v.0.2.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "title": null,
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Observability dashboarding",
+          "Logs/metrics/traces analysis",
+          "Alerting configuration"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "LLMOps engineer"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [
+          "Observability and tracing"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [
+          "Oracle",
+          "OCI Observability",
+          "Monitoring",
+          "PDF"
+        ],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "oci-04",
+    "url": "https://www.ateam-oracle.com/monitor-oci-devops-performance-observability-and-management",
+    "error": "403 Client Error: Forbidden for url: https://www.ateam-oracle.com/monitor-oci-devops-performance-observability-and-management"
+  },
+  {
+    "lesson_id": "hf-01",
+    "name": "TRL (Transformer Reinforcement Learning) docs index",
+    "url": "https://huggingface.co/docs/trl/index",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "TRL - Transformer Reinforcement Learning",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "ML engineer"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "hf-02",
+    "name": "PEFT docs index",
+    "url": "https://huggingface.co/docs/peft/index",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "PEFT",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Adapter merge/export"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "ML engineer"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [
+          "Post training"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "hf-03",
+    "name": "Accelerate docs index",
+    "url": "https://huggingface.co/docs/accelerate/index",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Accelerate",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Mixed-precision tuning"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "LLM application engineer",
+          "ML engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Post training",
+          "Orchestration and workflows"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "hf-04",
+    "name": "Transformers pipeline tutorial (inference primitive)",
+    "url": "https://github.com/huggingface/transformers/blob/main/docs/source/en/pipeline_tutorial.md",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "transformers/docs/source/en/pipeline_tutorial.md at main · huggingface/transformers · GitHub",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Device placement (CPU/GPU)"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "Platform engineer",
+          "Technical product manager"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Deployment and serving"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "el-01",
+    "name": "lm-evaluation-harness repository (core)",
+    "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "GitHub - EleutherAI/lm-evaluation-harness: A framework for few-shot evaluation of language models.",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Benchmark execution (lm-eval-harness)",
+          "Reproducible evaluation runs"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Evaluation engineer"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [
+          "Evaluation and Testing"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [
+          "Benchmarking"
+        ],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "el-02",
+    "name": "lm-evaluation-harness: Task guide (docs)",
+    "url": "https://github.com/EleutherAI/lm-evaluation-harness/tree/main/docs",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "lm-evaluation-harness/docs at main · EleutherAI/lm-evaluation-harness · GitHub",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Prompt template authoring"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "Evaluation engineer",
+          "LLM application engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Evaluation and Testing",
+          "Prompting"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "el-03",
+    "name": "lm-evaluation-harness: Models/backends config",
+    "url": "https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/models",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "lm-evaluation-harness/lm_eval/models at main · EleutherAI/lm-evaluation-harness · GitHub",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Model backend configuration",
+          "Serving backend integration for evals"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Evaluation engineer",
+          "Platform engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Evaluation and Testing",
+          "Deployment and serving"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [
+          "Backends",
+          "Serving integration"
+        ],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "el-04",
+    "name": "lm-evaluation-harness: CLI usage / getting started",
+    "url": "https://github.com/EleutherAI/lm-evaluation-harness#usage",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "GitHub - EleutherAI/lm-evaluation-harness: A framework for few-shot evaluation of language models.",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "CLI-driven evaluation workflow",
+          "Batching/performance tuning for evals"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Evaluation engineer",
+          "Platform engineer",
+          "LLM application engineer"
+        ],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Evaluation and Testing",
+          "Orchestration and workflows"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [
+          "Automation"
+        ],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "vllm-01",
+    "name": "vLLM docs (landing)",
+    "url": "https://docs.vllm.ai/",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "vLLM",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Evaluation engineer",
+          "Platform engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Cost and performance"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "vllm-02",
+    "name": "OpenAI-compatible server (docs)",
+    "url": "https://docs.vllm.ai/en/v0.13.0/serving/openai_compatible_server/",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "OpenAI-Compatible Server - vLLM",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Platform engineer",
+          "ML engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "vllm-03",
+    "name": "vLLM GitHub repository",
+    "url": "https://github.com/vllm-project/vllm",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "GitHub - vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Upstream contribution workflow"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Platform engineer",
+          "LLM application engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "vllm-04",
+    "name": "vLLM: serving guides index",
+    "url": "https://docs.vllm.ai/en/latest/serving/offline_inference/",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Offline Inference - vLLM",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Production deployment patterns (vLLM)",
+          "Operational serving configuration"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "LLMOps engineer",
+          "Platform engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [
+          "Serving guides"
+        ],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "phx-01",
+    "name": "Phoenix tracing overview (LLM traces)",
+    "url": "https://arize.com/docs/phoenix/tracing/llm-traces",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Overview: Tracing - Phoenix",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "LLMOps engineer"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "phx-02",
+    "name": "Phoenix tracing: How-to (manual)",
+    "url": "https://arize.com/docs/phoenix/tracing/how-to-tracing",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "How to: Tracing - Phoenix",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "LLMOps engineer"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "phx-03",
+    "name": "Phoenix tracing tutorial",
+    "url": "https://arize.com/docs/phoenix/tracing/tutorial",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Tracing Tutorial - Phoenix",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "LLMOps engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [
+          "Hands-on"
+        ],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "phx-04",
+    "url": "https://docs.arize.com/phoenix/tracing/how-to-tracing/trace-",
+    "error": "404 Client Error: Not Found for url: https://arize.com/docs/phoenix/tracing/how-to-tracing/trace-"
+  },
+  {
+    "lesson_id": "mlf-01",
+    "name": "MLflow: Evaluate prompts (Prompt Registry)",
+    "url": "https://mlflow.org/docs/latest/genai/prompt-registry/evaluate-prompts/",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Evaluating Prompts | MLflow",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Prompt Registry usage",
+          "Prompt versioning"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Prompting",
+          "Evaluation and Testing",
+          "Model registry and versioning"
+        ],
+        "total": 3
+      },
+      "Tags": {
+        "missing": [
+          "Versioning"
+        ],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "mlf-02",
+    "name": "Databricks docs: Evaluate and monitor AI agents (MLflow GenAI)",
+    "url": "https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Evaluate and monitor AI agents | Databricks on AWS",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "Evaluation engineer",
+          "LLMOps engineer",
+          "LLM application engineer"
+        ],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Observability and tracing",
+          "Orchestration and workflows"
+        ],
+        "total": 3
+      },
+      "Tags": {
+        "missing": [],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "mlf-03",
+    "name": "Azure Databricks: Evaluate & monitor AI agents",
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/mlflow3/genai/eval-monitor/",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Evaluate and monitor AI agents - Azure Databricks | Microsoft Learn",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "MLflow tracking"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "Evaluation engineer",
+          "LLMOps engineer",
+          "LLM application engineer"
+        ],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Observability and tracing",
+          "Orchestration and workflows"
+        ],
+        "total": 3
+      },
+      "Tags": {
+        "missing": [],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "mlf-04",
+    "name": "Databricks LLMOps glossary (context)",
+    "url": "https://www.databricks.com/glossary/llmops",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "What is LLMOps? LLM Operations | Databricks",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "LLMOps tracking concepts",
+          "Lifecycle framing (Databricks)"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Technical product manager"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Model registry and versioning"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "orlhf-01",
+    "name": "OpenRLHF repository (overview)",
+    "url": "https://github.com/OpenRLHF/OpenRLHF",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "GitHub - OpenRLHF/OpenRLHF: An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO &amp; DAPO &amp; REINFORCE++ &amp; TIS &amp; vLLM &amp; Ray &amp; Async  RL)",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "orlhf-02",
+    "name": "OpenRLHF README (architecture and quickstart)",
+    "url": "https://github.com/OpenRLHF/OpenRLHF#readme",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "GitHub - OpenRLHF/OpenRLHF: An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO &amp; DAPO &amp; REINFORCE++ &amp; TIS &amp; vLLM &amp; Ray &amp; Async  RL)",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Serving integration in training loops"
+        ],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Deployment and serving"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [
+          "Serving integration"
+        ],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "orlhf-03",
+    "name": "OpenRLHF issues/discussions (community practices)",
+    "url": "https://github.com/OpenRLHF/OpenRLHF/issues",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "GitHub · Where software is built",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Operational troubleshooting (RLHF)",
+          "Community practice review"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Platform engineer",
+          "ML engineer",
+          "Technical product manager"
+        ],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Operations and maintenance"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [
+          "Troubleshooting"
+        ],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "orlhf-04",
+    "name": "OpenRLHF releases (versioning)",
+    "url": "https://github.com/OpenRLHF/OpenRLHF/releases",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Releases · OpenRLHF/OpenRLHF · GitHub",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Upgrade planning"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Platform engineer"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [
+          "Model registry and versioning",
+          "Operations and maintenance"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [
+          "Versioning",
+          "Maintenance"
+        ],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "lc-01",
+    "name": "LangChain observability (docs landing)",
+    "url": "https://docs.langchain.com/oss/python/langchain/observability",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "LangSmith Observability - Docs by LangChain",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Tracing enablement (LangChain)",
+          "Run inspection & debugging"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "LLMOps engineer"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "lc-02",
+    "name": "LangChain observability: tracing setup",
+    "url": "https://docs.langchain.com/oss/python/langchain/observability#tracing",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "LangSmith Observability - Docs by LangChain",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "LLMOps engineer"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "lc-03",
+    "name": "LangChain observability: evaluation hooks",
+    "url": "https://docs.langchain.com/oss/python/langchain/observability#evaluation",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "LangSmith Observability - Docs by LangChain",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Quality signal capture"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "LLMOps engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [
+          "Quality signals"
+        ],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "lc-04",
+    "name": "LangChain observability: debugging patterns",
+    "url": "https://docs.langchain.com/oss/python/langchain/observability#debugging",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "LangSmith Observability - Docs by LangChain",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "LLMOps engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Operations and maintenance"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "li-01",
+    "name": "LlamaIndex observability guide (landing)",
+    "url": "https://developers.llamaindex.ai/python/framework/module_guides/observability/",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Observability | LlamaIndex OSS Documentation",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Observability enablement (LlamaIndex)",
+          "Telemetry inspection"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "li-02",
+    "name": "LlamaIndex: OpenTelemetry / tracing integration",
+    "url": "https://developers.llamaindex.ai/python/framework/module_guides/observability/#opentelemetry",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Observability | LlamaIndex OSS Documentation",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "li-03",
+    "name": "LlamaIndex: Phoenix integration",
+    "url": "https://developers.llamaindex.ai/python/framework/module_guides/observability/#phoenix-arize",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Observability | LlamaIndex OSS Documentation",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 4
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "li-04",
+    "name": "LlamaIndex: evaluation/monitoring integrations",
+    "url": "https://developers.llamaindex.ai/python/framework/module_guides/observability/#evaluation",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Observability | LlamaIndex OSS Documentation",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "RAG quality checks"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [],
+        "total": 5
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "oc-01",
+    "name": "Quick setup (CLI)",
+    "url": "https://docs.openclaw.ai/start/getting-started",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Getting Started - OpenClaw",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Platform engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Foundations"
+        ],
+        "total": 3
+      },
+      "Tags": {
+        "missing": [],
+        "total": 2
+      },
+      "Description": {
+        "missing": [],
+        "total": 1
+      }
+    }
+  },
+  {
+    "lesson_id": "oc-02",
+    "name": "Onboard overview",
+    "url": "https://docs.openclaw.ai/start/onboarding-overview",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Onboarding Overview - OpenClaw",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 3
+      },
+      "Roles": {
+        "missing": [
+          "Governance lead",
+          "Platform engineer"
+        ],
+        "total": 2
+      },
+      "Topics": {
+        "missing": [
+          "Governance and risk"
+        ],
+        "total": 3
+      },
+      "Tags": {
+        "missing": [],
+        "total": 3
+      },
+      "Description": {
+        "missing": [
+          "including custom endpoints if needed."
+        ],
+        "total": 2
+      }
+    }
+  },
+  {
+    "lesson_id": "oc-03",
+    "name": "Personal assistant setup",
+    "url": "https://docs.openclaw.ai/start/openclaw",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Personal Assistant Setup - OpenClaw",
+    "column_verification": {
+      "Skills": {
+        "missing": [],
+        "total": 6
+      },
+      "Roles": {
+        "missing": [
+          "Gateway operator",
+          "Security-conscious admin",
+          "Agent/workspace maintainer",
+          "LLM app operator"
+        ],
+        "total": 4
+      },
+      "Topics": {
+        "missing": [],
+        "total": 6
+      },
+      "Tags": {
+        "missing": [],
+        "total": 2
+      },
+      "Description": {
+        "missing": [],
+        "total": 1
+      }
+    }
+  },
+  {
+    "lesson_id": "oc-04",
+    "name": "Check Gateway health and troubleshoot (status/foreground)",
+    "url": "https://docs.openclaw.ai/start/getting-started",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Getting Started - OpenClaw",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Basic debugging via foreground logs"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "LLMOps engineer"
+        ],
+        "total": 1
+      },
+      "Topics": {
+        "missing": [
+          "Observability and tracing"
+        ],
+        "total": 1
+      },
+      "Tags": {
+        "missing": [],
+        "total": 2
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  },
+  {
+    "lesson_id": "oc-05",
+    "name": "Access Control UI and send a test message (smoke test)",
+    "url": "https://docs.openclaw.ai/start/getting-started",
+    "status": 200,
+    "content_type": "text/html",
+    "title": "Getting Started - OpenClaw",
+    "column_verification": {
+      "Skills": {
+        "missing": [
+          "Run CLI smoke test"
+        ],
+        "total": 2
+      },
+      "Roles": {
+        "missing": [
+          "Evaluation engineer",
+          "LLMOps engineer"
+        ],
+        "total": 3
+      },
+      "Topics": {
+        "missing": [
+          "Foundations and lifecycle",
+          "Observability and tracing"
+        ],
+        "total": 2
+      },
+      "Tags": {
+        "missing": [
+          "Smoke-test"
+        ],
+        "total": 3
+      },
+      "Description": {
+        "missing": [],
+        "total": 0
+      }
+    }
+  }
+]

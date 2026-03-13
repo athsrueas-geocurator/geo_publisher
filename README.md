@@ -1,11 +1,62 @@
 # Geo SDK Demo — Outline
 
+## Task Tracking
+
+- Active tooling and repo improvement tasks are tracked in `todo.md` at the project root.
+- Before starting new implementation work, review and update `todo.md` so priorities and progress stay aligned.
+
+## Query Tooling Map
+
+- Architecture and ownership: `docs/query-tooling-architecture.md`
+- Shared query client/fragments: `src/geo-api-client.ts`, `src/graphql-fragments.ts`
+- Schema snapshot policy:
+  - `GEO_API_SCHEMA(never_edit).json` is the full baseline snapshot and must remain unchanged.
+  - `GEO_API_SCHEMA.json` is the lightweight working snapshot and may be refreshed as API shape evolves.
+  - Use the baseline file when you need deep introspection detail (enum/input/directive/type metadata).
+- Canonical query commands:
+  - `bun run api:demo`
+  - `bun run api:check`
+  - `bun run api:crawl`
+  - `bun run api:schema:check`
+  - `bun run api:schema:refresh`
+  - `bun run api:smoke`
+
+## Schema-First Publish Workflow
+
+- Full workflow reference: `docs/schema-mapped-publishing.md`
+- Content policy reference: `docs/geobrowser-content-policy.md`
+
+- Generate mapping proposals from live type schema + CSV headers:
+  - `bun run map:propose -- --target-space <SPACE_ID>`
+- Review/accept/reject mapping proposals:
+  - `bun run map:decide -- --action list`
+  - `bun run map:decide -- --action accept --type lesson --field "Topics"`
+  - `bun run map:decide -- --action reject --type course --field "Provider"`
+- Configure relation resolution rules (mode/creation/cross-file/manual map):
+  - `bun run map:decide -- --action set-relation --type course --field "Providers" --mode by_name --creation create_if_missing --target-type-id 484a18c5030a499cb0f2ef588ff16d50`
+  - `bun run map:decide -- --action set-relation --type lesson --field "Courses" --mode by_source_id --creation must_exist --cross-target-set course --cross-target-key course_id`
+- Dry-run schema-gated publish (blocks on pending decisions and schema drift):
+  - `bun run publish:courses-lessons`
+- Run content policy checks only:
+  - `bun run policy:check`
+- Enforce warning-level policy gate during publish (optional):
+  - `bun run publish:courses-lessons -- --strict-policy-warnings`
+- Publish on-chain only after review:
+  - `bun run publish:courses-lessons -- --publish`
+- DAO note: publishing to a DAO space submits a proposal/edit; entities may only appear after DAO approval/application.
+- Undo last publish set (from generated ops file):
+  - `bun run undo:courses-lessons -- --publish`
+- Add a Learn tab like AI space (clickable tab with course collection):
+  - `bun run ui:learn-tab -- --publish`
+- CLI walkthrough/help:
+  - `bun run geo:help`
+
 ## Prerequisites (before the demo)
 
-- `.env` configured with `DEMO_SPACE_ID`, `PK_SW`
+- `.env` configured with `TARGET_SPACE_ID`, `PK_SW`
 - `bun` installed, dependencies available
 - A personal space on testnet to publish to
-- Geo Browser open in a tab: `https://geobrowser.io/space/<DEMO_SPACE_ID>`
+- Geo Browser open in a tab: `https://geobrowser.io/space/<TARGET_SPACE_ID>`
 - See GRC-20 spec at: [https://github.com/geobrowser/grc-20/blob/main/spec.md](https://github.com/geobrowser/grc-20/blob/main/spec.md)
 
 ---
@@ -94,8 +145,8 @@ bun run 02_publish_demo.ts
 - Query `values` and `relations` for a specific entity
 - Show how property names resolve via `propertyEntity { name }`
 
-### Demo 5: Query Your Demo Space
-- Point at `DEMO_SPACE_ID` — shows the entities we just published
+### Demo 5: Query Your Target Space
+- Point at `TARGET_SPACE_ID` — shows the entities we just published
 
 ### Demo 6: Backlinks
 - Reverse relation query: `relations(filter: { toEntityId: ... })` — who references an entity?
@@ -105,6 +156,12 @@ bun run 02_publish_demo.ts
 ```bash
 bun run 01_api_demo.ts
 ```
+
+### Bonus: Schema-backed reader (`05_read_knowledge_graph.ts`)
+
+- Reads the bundled `GEO_API_SCHEMA.json` to verify the root `Query` fields (`space`, `entities`, `values`, `relations`, etc.) and ensure the arguments we rely on are defined before any live requests.
+- Executes a curated set of live reads (space info, recent entities, type definitions, schema values, and backlinks) to prove the GraphQL endpoint and tooling are still reading the knowledge graph correctly.
+- Run it with `bun run 05_read_knowledge_graph.ts` whenever you want a quick health check before publishing data.
 
 ---
 

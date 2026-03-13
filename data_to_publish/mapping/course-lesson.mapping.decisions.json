@@ -1,0 +1,1125 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-12T20:12:38.764Z",
+  "schemaSpaceId": "a19c345ab9866679b001d7d2138d88a1",
+  "targetSpaceId": "7aed0e58f713f656e2933f7635f08e62",
+  "source": {
+    "courseFile": "data_to_publish/courses.csv",
+    "lessonFile": "data_to_publish/lessons.csv",
+    "courseFields": [
+      "Name",
+      "Description",
+      "Providers",
+      "Web URL",
+      "Related spaces",
+      "Topics",
+      "Skills",
+      "Roles",
+      "Tags",
+      "Lessons",
+      "Goals"
+    ],
+    "lessonFields": [
+      "Name",
+      "Description",
+      "Stages",
+      "Topics",
+      "Lesson number",
+      "Courses",
+      "Related spaces",
+      "Skills",
+      "Tags",
+      "Roles",
+      "Web URL"
+    ]
+  },
+  "types": {
+    "course": {
+      "typeName": "Course",
+      "typeId": "ae724b5687254a098d7ea542bc587ebd",
+      "schemaFingerprint": "8f522023e2f669c366e5fe2e4ba7bc75084ec2a35168cdcf14bc5bdfdf97b6f4",
+      "fields": [
+        {
+          "sourceField": "Name",
+          "status": "accepted",
+          "proposed": {
+            "kind": "value",
+            "id": "a126ca530c8e48d5b88882c734c38935",
+            "name": "Name",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "9b1f76ff9711404c861e59dc3fa7d037",
+              "name": "Description",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "value",
+              "id": "2b16790166f840b6b60ede0ce01fe4ba",
+              "name": "Goals",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "value",
+              "id": "1e4e6986aea4481eba29ab0677b6d514",
+              "name": "Lessons",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "value",
+            "id": "a126ca530c8e48d5b88882c734c38935",
+            "name": "Name",
+            "score": 1,
+            "confidence": "high"
+          }
+        },
+        {
+          "sourceField": "Description",
+          "status": "accepted",
+          "proposed": {
+            "kind": "value",
+            "id": "9b1f76ff9711404c861e59dc3fa7d037",
+            "name": "Description",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "a126ca530c8e48d5b88882c734c38935",
+              "name": "Name",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "value",
+              "id": "2b16790166f840b6b60ede0ce01fe4ba",
+              "name": "Goals",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "value",
+              "id": "1e4e6986aea4481eba29ab0677b6d514",
+              "name": "Lessons",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "value",
+            "id": "9b1f76ff9711404c861e59dc3fa7d037",
+            "name": "Description",
+            "score": 1,
+            "confidence": "high"
+          }
+        },
+        {
+          "sourceField": "Providers",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "261fad421cc744938acbaa4a4c74220c",
+            "name": "Providers",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "261fad421cc744938acbaa4a4c74220c",
+              "name": "Providers",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "2b16790166f840b6b60ede0ce01fe4ba",
+              "name": "Goals",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "1e4e6986aea4481eba29ab0677b6d514",
+              "name": "Lessons",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "261fad421cc744938acbaa4a4c74220c",
+            "name": "Providers",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "create_if_missing",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "484a18c5030a499cb0f2ef588ff16d50",
+            "manualMap": {
+              "openclaw": "OpenClaw"
+            }
+          }
+        },
+        {
+          "sourceField": "Web URL",
+          "status": "accepted",
+          "proposed": {
+            "kind": "value",
+            "id": "412ff593e9154012a43d4c27ec5c68b6",
+            "name": "Web URL",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "relation",
+              "id": "412ff593e9154012a43d4c27ec5c68b6",
+              "name": "Web URL",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "value",
+              "id": "9b1f76ff9711404c861e59dc3fa7d037",
+              "name": "Description",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "value",
+              "id": "a126ca530c8e48d5b88882c734c38935",
+              "name": "Name",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "value",
+            "id": "412ff593e9154012a43d4c27ec5c68b6",
+            "name": "Web URL",
+            "score": 1,
+            "confidence": "high"
+          }
+        },
+        {
+          "sourceField": "Related spaces",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "5b722cd361d6494e88871310566437ba",
+            "name": "Related spaces",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "5b722cd361d6494e88871310566437ba",
+              "name": "Related spaces",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "2b16790166f840b6b60ede0ce01fe4ba",
+              "name": "Goals",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "1e4e6986aea4481eba29ab0677b6d514",
+              "name": "Lessons",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "5b722cd361d6494e88871310566437ba",
+            "name": "Related spaces",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "must_exist",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "362c1dbddc6444bba3c4652f38a642d7"
+          }
+        },
+        {
+          "sourceField": "Topics",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "458fbc070dbf4c928f5716f3fdde7c32",
+            "name": "Topics",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "458fbc070dbf4c928f5716f3fdde7c32",
+              "name": "Topics",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "2b16790166f840b6b60ede0ce01fe4ba",
+              "name": "Goals",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "1e4e6986aea4481eba29ab0677b6d514",
+              "name": "Lessons",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "458fbc070dbf4c928f5716f3fdde7c32",
+            "name": "Topics",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "create_if_missing",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+          }
+        },
+        {
+          "sourceField": "Skills",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "a38732e33a3d47f9a459fb369c287709",
+            "name": "Skills",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "a38732e33a3d47f9a459fb369c287709",
+              "name": "Skills",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "2b16790166f840b6b60ede0ce01fe4ba",
+              "name": "Goals",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "1e4e6986aea4481eba29ab0677b6d514",
+              "name": "Lessons",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "a38732e33a3d47f9a459fb369c287709",
+            "name": "Skills",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "create_if_missing",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+          }
+        },
+        {
+          "sourceField": "Roles",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "8fcfe5ef3d9147bd83223830a998d26b",
+            "name": "Roles",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "8fcfe5ef3d9147bd83223830a998d26b",
+              "name": "Roles",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "2b16790166f840b6b60ede0ce01fe4ba",
+              "name": "Goals",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "1e4e6986aea4481eba29ab0677b6d514",
+              "name": "Lessons",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "8fcfe5ef3d9147bd83223830a998d26b",
+            "name": "Roles",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "create_if_missing",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "e4e366e9d5554b6892bf7358e824afd2"
+          }
+        },
+        {
+          "sourceField": "Tags",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "257090341ba5406f94e4d4af90042fba",
+            "name": "Tags",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "257090341ba5406f94e4d4af90042fba",
+              "name": "Tags",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "2b16790166f840b6b60ede0ce01fe4ba",
+              "name": "Goals",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "1e4e6986aea4481eba29ab0677b6d514",
+              "name": "Lessons",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "257090341ba5406f94e4d4af90042fba",
+            "name": "Tags",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "create_if_missing",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "e0fcc66c9e8643f480802469d8a1a93a"
+          }
+        },
+        {
+          "sourceField": "Lessons",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "1e4e6986aea4481eba29ab0677b6d514",
+            "name": "Lessons",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "1e4e6986aea4481eba29ab0677b6d514",
+              "name": "Lessons",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "2b16790166f840b6b60ede0ce01fe4ba",
+              "name": "Goals",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "261fad421cc744938acbaa4a4c74220c",
+              "name": "Providers",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "1e4e6986aea4481eba29ab0677b6d514",
+            "name": "Lessons",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "must_exist",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "1baae8e9187041fb8e2a1eb1f84ba0d4"
+          }
+        },
+        {
+          "sourceField": "Goals",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "2b16790166f840b6b60ede0ce01fe4ba",
+            "name": "Goals",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "2b16790166f840b6b60ede0ce01fe4ba",
+              "name": "Goals",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "1e4e6986aea4481eba29ab0677b6d514",
+              "name": "Lessons",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "261fad421cc744938acbaa4a4c74220c",
+              "name": "Providers",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "2b16790166f840b6b60ede0ce01fe4ba",
+            "name": "Goals",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "create_if_missing",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "1845ee9980c648a3abc3809de1753c63"
+          }
+        }
+      ]
+    },
+    "lesson": {
+      "typeName": "Lesson",
+      "typeId": "1baae8e9187041fb8e2a1eb1f84ba0d4",
+      "schemaFingerprint": "874ec4921391f38c59f64aef074b9945120a5207d4fcd8747f37f78a3ab671ca",
+      "fields": [
+        {
+          "sourceField": "Name",
+          "status": "accepted",
+          "proposed": {
+            "kind": "value",
+            "id": "a126ca530c8e48d5b88882c734c38935",
+            "name": "Name",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "9b1f76ff9711404c861e59dc3fa7d037",
+              "name": "Description",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "value",
+              "id": "9405a71b598e4783847165ac1aabab40",
+              "name": "Courses",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "value",
+              "id": "52581edc7bb34b5d915f8cd91476dc64",
+              "name": "Lesson number",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "value",
+            "id": "a126ca530c8e48d5b88882c734c38935",
+            "name": "Name",
+            "score": 1,
+            "confidence": "high"
+          }
+        },
+        {
+          "sourceField": "Description",
+          "status": "accepted",
+          "proposed": {
+            "kind": "value",
+            "id": "9b1f76ff9711404c861e59dc3fa7d037",
+            "name": "Description",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "a126ca530c8e48d5b88882c734c38935",
+              "name": "Name",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "value",
+              "id": "9405a71b598e4783847165ac1aabab40",
+              "name": "Courses",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "value",
+              "id": "52581edc7bb34b5d915f8cd91476dc64",
+              "name": "Lesson number",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "value",
+            "id": "9b1f76ff9711404c861e59dc3fa7d037",
+            "name": "Description",
+            "score": 1,
+            "confidence": "high"
+          }
+        },
+        {
+          "sourceField": "Stages",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "74c6253a07c24970b3a2f2e1f5c8f4d5",
+            "name": "Stages",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "74c6253a07c24970b3a2f2e1f5c8f4d5",
+              "name": "Stages",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "9405a71b598e4783847165ac1aabab40",
+              "name": "Courses",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "52581edc7bb34b5d915f8cd91476dc64",
+              "name": "Lesson number",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "74c6253a07c24970b3a2f2e1f5c8f4d5",
+            "name": "Stages",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "must_exist",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            }
+          }
+        },
+        {
+          "sourceField": "Topics",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "458fbc070dbf4c928f5716f3fdde7c32",
+            "name": "Topics",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "458fbc070dbf4c928f5716f3fdde7c32",
+              "name": "Topics",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "9405a71b598e4783847165ac1aabab40",
+              "name": "Courses",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "52581edc7bb34b5d915f8cd91476dc64",
+              "name": "Lesson number",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "458fbc070dbf4c928f5716f3fdde7c32",
+            "name": "Topics",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "create_if_missing",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+          }
+        },
+        {
+          "sourceField": "Lesson number",
+          "status": "accepted",
+          "proposed": {
+            "kind": "value",
+            "id": "52581edc7bb34b5d915f8cd91476dc64",
+            "name": "Lesson number",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "relation",
+              "id": "52581edc7bb34b5d915f8cd91476dc64",
+              "name": "Lesson number",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "value",
+              "id": "9b1f76ff9711404c861e59dc3fa7d037",
+              "name": "Description",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "value",
+              "id": "a126ca530c8e48d5b88882c734c38935",
+              "name": "Name",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "value",
+            "id": "52581edc7bb34b5d915f8cd91476dc64",
+            "name": "Lesson number",
+            "score": 1,
+            "confidence": "high"
+          }
+        },
+        {
+          "sourceField": "Courses",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "9405a71b598e4783847165ac1aabab40",
+            "name": "Courses",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "9405a71b598e4783847165ac1aabab40",
+              "name": "Courses",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "52581edc7bb34b5d915f8cd91476dc64",
+              "name": "Lesson number",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "5b722cd361d6494e88871310566437ba",
+              "name": "Related spaces",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "9405a71b598e4783847165ac1aabab40",
+            "name": "Courses",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_source_id",
+            "targetCreation": "must_exist",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "ae724b5687254a098d7ea542bc587ebd",
+            "crossFile": {
+              "targetEntitySet": "course",
+              "targetKeyField": "course_id"
+            }
+          }
+        },
+        {
+          "sourceField": "Related spaces",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "5b722cd361d6494e88871310566437ba",
+            "name": "Related spaces",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "5b722cd361d6494e88871310566437ba",
+              "name": "Related spaces",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "9405a71b598e4783847165ac1aabab40",
+              "name": "Courses",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "52581edc7bb34b5d915f8cd91476dc64",
+              "name": "Lesson number",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "5b722cd361d6494e88871310566437ba",
+            "name": "Related spaces",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "must_exist",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "362c1dbddc6444bba3c4652f38a642d7"
+          }
+        },
+        {
+          "sourceField": "Skills",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "a38732e33a3d47f9a459fb369c287709",
+            "name": "Skills",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "a38732e33a3d47f9a459fb369c287709",
+              "name": "Skills",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "9405a71b598e4783847165ac1aabab40",
+              "name": "Courses",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "52581edc7bb34b5d915f8cd91476dc64",
+              "name": "Lesson number",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "a38732e33a3d47f9a459fb369c287709",
+            "name": "Skills",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "create_if_missing",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+          }
+        },
+        {
+          "sourceField": "Tags",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "257090341ba5406f94e4d4af90042fba",
+            "name": "Tags",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "257090341ba5406f94e4d4af90042fba",
+              "name": "Tags",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "9405a71b598e4783847165ac1aabab40",
+              "name": "Courses",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "52581edc7bb34b5d915f8cd91476dc64",
+              "name": "Lesson number",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "257090341ba5406f94e4d4af90042fba",
+            "name": "Tags",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "create_if_missing",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "e0fcc66c9e8643f480802469d8a1a93a"
+          }
+        },
+        {
+          "sourceField": "Roles",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "8fcfe5ef3d9147bd83223830a998d26b",
+            "name": "Roles",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "value",
+              "id": "8fcfe5ef3d9147bd83223830a998d26b",
+              "name": "Roles",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "relation",
+              "id": "9405a71b598e4783847165ac1aabab40",
+              "name": "Courses",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "52581edc7bb34b5d915f8cd91476dc64",
+              "name": "Lesson number",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "8fcfe5ef3d9147bd83223830a998d26b",
+            "name": "Roles",
+            "score": 1,
+            "confidence": "high"
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "create_if_missing",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            },
+            "targetTypeId": "e4e366e9d5554b6892bf7358e824afd2"
+          }
+        },
+        {
+          "sourceField": "Web URL",
+          "status": "accepted",
+          "proposed": {
+            "kind": "value",
+            "id": "412ff593e9154012a43d4c27ec5c68b6",
+            "name": "Web URL",
+            "score": 1,
+            "confidence": "high"
+          },
+          "alternatives": [
+            {
+              "kind": "relation",
+              "id": "412ff593e9154012a43d4c27ec5c68b6",
+              "name": "Web URL",
+              "score": 1,
+              "confidence": "high"
+            },
+            {
+              "kind": "value",
+              "id": "9b1f76ff9711404c861e59dc3fa7d037",
+              "name": "Description",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "value",
+              "id": "a126ca530c8e48d5b88882c734c38935",
+              "name": "Name",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "value",
+            "id": "412ff593e9154012a43d4c27ec5c68b6",
+            "name": "Web URL",
+            "score": 1,
+            "confidence": "high"
+          }
+        }
+      ]
+    }
+  }
+}

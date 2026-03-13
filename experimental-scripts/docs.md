@@ -2,6 +2,16 @@
 
 This folder houses exploratory tooling that helps you understand and adapt the live knowledge graph before pushing new data.
 
+## Canonical Query Paths
+
+- Shared transport and endpoint config live in `src/geo-api-client.ts`.
+- Shared query field fragments live in `src/graphql-fragments.ts`.
+- Query demos and checks are run from:
+  - `bun run api:demo`
+  - `bun run api:check`
+  - `bun run api:crawl`
+  - `bun run api:schema:check`
+
 ## Why these scripts exist
 
 1. **Knowledge drift** — the ontology in the root/test space evolves independently, so hard-coded constants break quickly. The crawler lets you inspect the current schema for any type you plan to publish (courses, lessons, etc.) and produces a reusable snapshot rather than keeping a brittle list of UUIDs.

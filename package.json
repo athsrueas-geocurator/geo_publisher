@@ -3,8 +3,21 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "publish-demo": "bun run demo_publish.ts",
-    "api-demo": "bun run demo_api.ts"
+    "publish:demo": "bun run 02_publish_demo.ts",
+    "api:demo": "bun run 01_api_demo.ts",
+    "api:check": "bun run 05_read_knowledge_graph.ts",
+    "api:crawl": "bun run experimental-scripts/crawl-ontology.ts --targetSpace $TARGET_SPACE_ID --types Course,Lesson --depth 1 --fuzzy",
+    "api:schema:check": "bun run 06_sync_schema.ts",
+    "api:schema:refresh": "bun run 06_sync_schema.ts --write",
+    "api:smoke": "bun run api:schema:check && bun run .opencode/tools/geo-api/tool.ts --helper spaceInfo --helperArgs '{\"spaceId\":\"a19c345ab9866679b001d7d2138d88a1\"}' && bun run api:demo",
+    "map:propose": "bun run 07_generate_mapping_proposals.ts --target-space $TARGET_SPACE_ID",
+    "map:decide": "bun run 08_review_mapping_decisions.ts",
+    "publish:courses-lessons": "bun run 09_publish_courses_lessons.ts",
+    "geo:help": "bun run 10_cli_help.ts",
+    "undo:courses-lessons": "bun run 11_undo_last_publish.ts",
+    "zero:target-space": "bun run 12_zero_target_space.ts",
+    "policy:check": "bun run 13_policy_check.ts",
+    "ui:learn-tab": "bun run 14_setup_learn_tab.ts"
   },
   "dependencies": {
     "@geoprotocol/geo-sdk": "^0.10.1",
@@ -13,6 +26,7 @@
     "viem": "^2.45.3"
   },
   "devDependencies": {
+    "@opencode-ai/plugin": "^1.2.15",
     "@types/node": "^25.2.3",
     "typescript": "^5.9.3"
   }

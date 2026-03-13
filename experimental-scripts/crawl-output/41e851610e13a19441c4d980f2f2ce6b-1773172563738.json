@@ -1,0 +1,3335 @@
+{
+  "generatedAt": "2026-03-10T19:56:09.501Z",
+  "depth": 1,
+  "requestedTypes": [
+    "Course",
+    "Lesson"
+  ],
+  "visitedCount": 40,
+  "types": [
+    {
+      "id": "ae724b5687254a098d7ea542bc587ebd",
+      "name": "Course",
+      "description": "A structured series of educational lessons designed to impart knowledge or skills in a specific subject area.",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 0,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "A structured series of educational lessons designed to impart knowledge or skills in a specific subject area."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Course"
+        }
+      ],
+      "relations": [
+        {
+          "id": "0f71a1b4342f4a058255ef04ac23efdf",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "257090341ba5406f94e4d4af90042fba",
+          "toEntityName": "Tags",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a30aB"
+        },
+        {
+          "id": "13e8c925b4e64813801a9ac161681d4a",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "toEntityName": "Roles",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a63a3"
+        },
+        {
+          "id": "141c09938d4149e99039d0f19abd3b09",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "412ff593e9154012a43d4c27ec5c68b6",
+          "toEntityName": "Web URL",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a08fT"
+        },
+        {
+          "id": "226dd0d7411241579a07f4a2244c939e",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "5b722cd361d6494e88871310566437ba",
+          "toEntityName": "Related spaces",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a00M2"
+        },
+        {
+          "id": "2ac00b6022384ad382b78c8ec4ed5312",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "toEntityName": "Topics",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a27Jb"
+        },
+        {
+          "id": "8f7e79f24ac14dbb8c9215c6be121983",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "261fad421cc744938acbaa4a4c74220c",
+          "toEntityName": "Providers",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a09Dv"
+        },
+        {
+          "id": "9e8f7bc8d70d4d439058b38c534399dd",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+          "toEntityName": "Type",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a19nW"
+        },
+        {
+          "id": "ac5343b58fd94c958c57cbdfb0512493",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "a38732e33a3d47f9a459fb369c287709",
+          "toEntityName": "Skills",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a53Dk"
+        },
+        {
+          "id": "d37417c3864340db844dfe4b0203d4fb",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "1e4e6986aea4481eba29ab0677b6d514",
+          "toEntityName": "Lessons",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a4ACS"
+        },
+        {
+          "id": "e3a1bcacf68e4cdf90a4dad7ce54f95f",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "2b16790166f840b6b60ede0ce01fe4ba",
+          "toEntityName": "Goals",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a76GQ"
+        }
+      ]
+    },
+    {
+      "id": "8bd9b1ba65f743298f537d36aa7d3c7e",
+      "name": "OpenClaw Getting started",
+      "description": "Starter materials introduce local-first agent workflows and the core operational patterns behind the framework.",
+      "typeIds": [
+        "ae724b5687254a098d7ea542bc587ebd"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 0,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+          "propertyName": "Web URL",
+          "valueKind": "text",
+          "example": "https://docs.openclaw.ai/start/getting-started"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Starter materials introduce local-first agent workflows and the core operational patterns behind the framework."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "OpenClaw Getting started"
+        }
+      ],
+      "relations": [
+        {
+          "id": "118c4b450ab24acb802f3b04f799d0d2",
+          "typeId": "1e4e6986aea4481eba29ab0677b6d514",
+          "typeName": "Lessons",
+          "toEntityId": "5fa10b226b3a406c9294e6d866618f96",
+          "toEntityName": "Quick setup (CLI)",
+          "toEntityTypeIds": [
+            "1baae8e9187041fb8e2a1eb1f84ba0d4"
+          ],
+          "position": "a0BGV"
+        },
+        {
+          "id": "1abb643f7ffa43d0a7bbd83d8287c873",
+          "typeId": "a38732e33a3d47f9a459fb369c287709",
+          "typeName": "Skills",
+          "toEntityId": "ac7be396defb4047a7f3fa103640ed9f",
+          "toEntityName": "Install tooling",
+          "toEntityTypeIds": [
+            "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+          ],
+          "position": "a063O"
+        },
+        {
+          "id": "21aa8ce4bd40406899781368501c7087",
+          "typeId": "1e4e6986aea4481eba29ab0677b6d514",
+          "typeName": "Lessons",
+          "toEntityId": "efa38328ad5d48caad356113107d1ac4",
+          "toEntityName": "Onboarding overview",
+          "toEntityTypeIds": [
+            "1baae8e9187041fb8e2a1eb1f84ba0d4"
+          ],
+          "position": "a01H1"
+        },
+        {
+          "id": "360c53741edc4040976f6381d05344b4",
+          "typeId": "a38732e33a3d47f9a459fb369c287709",
+          "typeName": "Skills",
+          "toEntityId": "316d14cce6da4dd0aa7d62c4e10852d7",
+          "toEntityName": "Verify environment",
+          "toEntityTypeIds": [
+            "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+          ],
+          "position": "a08pO"
+        },
+        {
+          "id": "3a29bc117e05431fa81cff787a8a23cf",
+          "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "typeName": "Roles",
+          "toEntityId": "3e573f0babc841589033457c6a06453c",
+          "toEntityName": "Governance manager",
+          "toEntityTypeIds": [
+            "e4e366e9d5554b6892bf7358e824afd2"
+          ],
+          "position": "a02b8"
+        },
+        {
+          "id": "3db72ef5f6df457fa6e47ab47fdf303a",
+          "typeId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "typeName": "Topics",
+          "toEntityId": "9907c7fa63f14cc0a902d587ab1cbe33",
+          "toEntityName": "Basic monitoring",
+          "toEntityTypeIds": [
+            "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+          ],
+          "position": "a04GR"
+        },
+        {
+          "id": "40b7fa4b51864a0c8e1fe96c756114ca",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "ae724b5687254a098d7ea542bc587ebd",
+          "toEntityName": "Course",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a05es"
+        },
+        {
+          "id": "7a0162bd8736497f9337e3d59ece7342",
+          "typeId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "typeName": "Topics",
+          "toEntityId": "19a8f993478f42359fbb03dab74bb566",
+          "toEntityName": "LLM Deployment",
+          "toEntityTypeIds": [
+            "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+          ],
+          "position": "a04MO"
+        },
+        {
+          "id": "7bbdc3c04f8544b59b76906461ff2e82",
+          "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "typeName": "Roles",
+          "toEntityId": "37531e91481743dc99a2593d580ccb76",
+          "toEntityName": "Technical product manager",
+          "toEntityTypeIds": [
+            "e4e366e9d5554b6892bf7358e824afd2"
+          ],
+          "position": "a06Ai"
+        },
+        {
+          "id": "86b998174cb24196a955c100df9bcbff",
+          "typeId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "typeName": "Topics",
+          "toEntityId": "1e5328382bfe4a0289177134da2fee4d",
+          "toEntityName": "Lifecycle",
+          "toEntityTypeIds": [
+            "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+          ],
+          "position": "a00Cv"
+        },
+        {
+          "id": "8f2c308340fc49b498c0698ad2792fab",
+          "typeId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "typeName": "Topics",
+          "toEntityId": "ad9765c10e174fa5a82dd967d97e51ae",
+          "toEntityName": "Automation",
+          "toEntityTypeIds": [
+            "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+          ],
+          "position": "a0C4j"
+        },
+        {
+          "id": "91c6cb060a204079bdcf07a6983107ea",
+          "typeId": "5b722cd361d6494e88871310566437ba",
+          "typeName": "Related spaces",
+          "toEntityId": "8cb0a2b4adbf4627aa080cec5112099a",
+          "toEntityName": "AI",
+          "toEntityTypeIds": [
+            "362c1dbddc6444bba3c4652f38a642d7",
+            "fc512a408b5544dc85b85aae88b51fae"
+          ],
+          "position": "a025c"
+        },
+        {
+          "id": "a35961461da141eb8da7330043c170ee",
+          "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "typeName": "Roles",
+          "toEntityId": "0d6ac854ac5683e334c69a5c9be3dace",
+          "toEntityName": "Platform Engineer",
+          "toEntityTypeIds": [
+            "e4e366e9d5554b6892bf7358e824afd2"
+          ],
+          "position": "a00c0"
+        },
+        {
+          "id": "ad31a32672c3474fb63efdbcfc5b40ad",
+          "typeId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "typeName": "Topics",
+          "toEntityId": "bc92e13ec0774edd9acdfd811c9effa1",
+          "toEntityName": "Security configuration",
+          "toEntityTypeIds": [
+            "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+          ],
+          "position": "a03PE"
+        },
+        {
+          "id": "b9b9af823e2f4bf6b8bac1703015a3fd",
+          "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "typeName": "Roles",
+          "toEntityId": "9bd96e5ed03046989d69c9fc907e0e55",
+          "toEntityName": "Evaluation engineer",
+          "toEntityTypeIds": [
+            "e4e366e9d5554b6892bf7358e824afd2"
+          ],
+          "position": "a08hS"
+        },
+        {
+          "id": "cda30e84a66d474c9e891e15a4b5a327",
+          "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "typeName": "Roles",
+          "toEntityId": "0448de15a6f74f0cb6ed5d78a0678d27",
+          "toEntityName": "LLMOps engineer",
+          "toEntityTypeIds": [
+            "e4e366e9d5554b6892bf7358e824afd2"
+          ],
+          "position": "a00Qg"
+        },
+        {
+          "id": "fb27a51fef224c4c8bdd5e63687bb19f",
+          "typeId": "e01e7ca25402437f9eb267ad6dc337d5",
+          "typeName": "Providers",
+          "toEntityId": "f24d7ee339484963976ff6480efd765b",
+          "toEntityName": "OpenClaw",
+          "toEntityTypeIds": [
+            "484a18c5030a499cb0f2ef588ff16d50"
+          ],
+          "position": "a0BxH"
+        }
+      ]
+    },
+    {
+      "id": "1baae8e9187041fb8e2a1eb1f84ba0d4",
+      "name": "Lesson",
+      "description": "Structured unit of teaching and learning focused on a specific topic or skill.",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ],
+      "spaces": [
+        "d69608290513c2a91102c939b3265bd7",
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 0,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Structured unit of teaching and learning focused on a specific topic or skill."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Lesson"
+        }
+      ],
+      "relations": [
+        {
+          "id": "17815fad3c674250bc0c3c9d7b8e1ce3",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "74c6253a07c24970b3a2f2e1f5c8f4d5",
+          "toEntityName": "Stages",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a065q"
+        },
+        {
+          "id": "27e697e0830f467cb5a9cf11bf718d64",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "a38732e33a3d47f9a459fb369c287709",
+          "toEntityName": "Skills",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": null
+        },
+        {
+          "id": "3f9de7bde5344cdb92b3a9597b45ae0d",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "806d52bc27e94c9193c057978b093351",
+          "toEntityName": "Related topics",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": null
+        },
+        {
+          "id": "5f7b96ad995646bdbe004395604af05f",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+          "toEntityName": "Type",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a05Nn"
+        },
+        {
+          "id": "60c9e4abce26469994c6abe2d5233c37",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "toEntityName": "Topics",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a04Xb"
+        },
+        {
+          "id": "65fcac8393c74c1d951b6ae6cb8555f0",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "52581edc7bb34b5d915f8cd91476dc64",
+          "toEntityName": "Lesson number",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a05bp"
+        },
+        {
+          "id": "66fc4bfe2bfe478bb0410bcd17b11152",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "9405a71b598e4783847165ac1aabab40",
+          "toEntityName": "Courses",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a0A2c"
+        },
+        {
+          "id": "6700d9892d714c868b067532c533b10b",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "5b722cd361d6494e88871310566437ba",
+          "toEntityName": "Related spaces",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a01co"
+        },
+        {
+          "id": "6ce2ed3e3ef348ee8f853d709a77b928",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "a38732e33a3d47f9a459fb369c287709",
+          "toEntityName": "Skills",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a02Bg"
+        },
+        {
+          "id": "7766fce255d24fb0b2d9b5dfb7a55641",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "257090341ba5406f94e4d4af90042fba",
+          "toEntityName": "Tags",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a06zX"
+        },
+        {
+          "id": "7ea80332fbd84608a1a9b8d1b7bf52d3",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "257090341ba5406f94e4d4af90042fba",
+          "toEntityName": "Tags",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": null
+        },
+        {
+          "id": "8ad2694506c04c83b308c0f84b1235cf",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "5b722cd361d6494e88871310566437ba",
+          "toEntityName": "Related spaces",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": null
+        },
+        {
+          "id": "9246900f8c72434facb17a148e90d553",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "toEntityName": "Roles",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a06cl"
+        },
+        {
+          "id": "95d8028a34b242fab07b425665317747",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "toEntityName": "Topics",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": null
+        },
+        {
+          "id": "e3acfca1cff64acfbb3a61570ea678b4",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "412ff593e9154012a43d4c27ec5c68b6",
+          "toEntityName": "Web URL",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a0C2U"
+        }
+      ]
+    },
+    {
+      "id": "5fa10b226b3a406c9294e6d866618f96",
+      "name": "Quick setup (CLI)",
+      "description": "Guide to installing OpenClaw in bash or windows powershell.",
+      "typeIds": [
+        "1baae8e9187041fb8e2a1eb1f84ba0d4"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 0,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Guide to installing OpenClaw in bash or windows powershell."
+        },
+        {
+          "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+          "propertyName": "Web URL",
+          "valueKind": "text",
+          "example": "https://docs.openclaw.ai/start/getting-started"
+        },
+        {
+          "propertyId": "52581edc7bb34b5d915f8cd91476dc64",
+          "propertyName": "Lesson number",
+          "valueKind": "integer",
+          "example": "1"
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Quick setup (CLI)"
+        }
+      ],
+      "relations": [
+        {
+          "id": "02f1e4db916f402ea85dccc46f0924e8",
+          "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "typeName": "Roles",
+          "toEntityId": "0d6ac854ac5683e334c69a5c9be3dace",
+          "toEntityName": "Platform Engineer",
+          "toEntityTypeIds": [
+            "e4e366e9d5554b6892bf7358e824afd2"
+          ],
+          "position": "a08tu"
+        },
+        {
+          "id": "077cb0340d4343d082524a95d6a0458e",
+          "typeId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "typeName": "Topics",
+          "toEntityId": "69e20c290851407088d498e9e9433512",
+          "toEntityName": "Foundations",
+          "toEntityTypeIds": [
+            "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+          ],
+          "position": "a08Wl"
+        },
+        {
+          "id": "12b8f0d296a6407c9e2ff3805598f779",
+          "typeId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "typeName": "Topics",
+          "toEntityId": "1e5328382bfe4a0289177134da2fee4d",
+          "toEntityName": "Lifecycle",
+          "toEntityTypeIds": [
+            "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+          ],
+          "position": "a01sx"
+        },
+        {
+          "id": "244022df063e41a1b29553040725a553",
+          "typeId": "9405a71b598e4783847165ac1aabab40",
+          "typeName": "Courses",
+          "toEntityId": "8bd9b1ba65f743298f537d36aa7d3c7e",
+          "toEntityName": "OpenClaw Getting started",
+          "toEntityTypeIds": [
+            "ae724b5687254a098d7ea542bc587ebd"
+          ],
+          "position": "a0Afs"
+        },
+        {
+          "id": "30afeb7022ff4e43a79eef7c78e01107",
+          "typeId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "typeName": "Topics",
+          "toEntityId": "19a8f993478f42359fbb03dab74bb566",
+          "toEntityName": "LLM Deployment",
+          "toEntityTypeIds": [
+            "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+          ],
+          "position": "a07XZ"
+        },
+        {
+          "id": "32422c2d43254120b5a0734e22a1935c",
+          "typeId": "a38732e33a3d47f9a459fb369c287709",
+          "typeName": "Skills",
+          "toEntityId": "ac7be396defb4047a7f3fa103640ed9f",
+          "toEntityName": "Install tooling",
+          "toEntityTypeIds": [
+            "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+          ],
+          "position": "a05ae"
+        },
+        {
+          "id": "3594fed486844e899073355cb3e6313d",
+          "typeId": "257090341ba5406f94e4d4af90042fba",
+          "typeName": "Tags",
+          "toEntityId": "5e3466c811034aafb754d087d367b8b4",
+          "toEntityName": "Install",
+          "toEntityTypeIds": [
+            "e0fcc66c9e8643f480802469d8a1a93a"
+          ],
+          "position": "a07sN"
+        },
+        {
+          "id": "43813bb1d99d410baaae8cbc90b39302",
+          "typeId": "5b722cd361d6494e88871310566437ba",
+          "typeName": "Related spaces",
+          "toEntityId": "8cb0a2b4adbf4627aa080cec5112099a",
+          "toEntityName": "AI",
+          "toEntityTypeIds": [
+            "362c1dbddc6444bba3c4652f38a642d7",
+            "fc512a408b5544dc85b85aae88b51fae"
+          ],
+          "position": "a0BF5"
+        },
+        {
+          "id": "59299da90ca54a4aa1ae363b38dc86ae",
+          "typeId": "257090341ba5406f94e4d4af90042fba",
+          "typeName": "Tags",
+          "toEntityId": "a15894da03ae477e8f472e422080ec35",
+          "toEntityName": "Setup",
+          "toEntityTypeIds": [
+            "e0fcc66c9e8643f480802469d8a1a93a"
+          ],
+          "position": "a05GU"
+        },
+        {
+          "id": "6450cbd935954dcda78a5f4cc2693e65",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "1baae8e9187041fb8e2a1eb1f84ba0d4",
+          "toEntityName": "Lesson",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a08tc"
+        },
+        {
+          "id": "6c49fb15fb524e2c86cb5b6e9b66a07e",
+          "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "typeName": "Roles",
+          "toEntityId": "37531e91481743dc99a2593d580ccb76",
+          "toEntityName": "Technical product manager",
+          "toEntityTypeIds": [
+            "e4e366e9d5554b6892bf7358e824afd2"
+          ],
+          "position": "a053w"
+        },
+        {
+          "id": "98732f6408164cbca23b9921e6f17a5a",
+          "typeId": "a38732e33a3d47f9a459fb369c287709",
+          "typeName": "Skills",
+          "toEntityId": "316d14cce6da4dd0aa7d62c4e10852d7",
+          "toEntityName": "Verify environment",
+          "toEntityTypeIds": [
+            "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+          ],
+          "position": "a06ez"
+        }
+      ]
+    },
+    {
+      "id": "efa38328ad5d48caad356113107d1ac4",
+      "name": "Onboarding overview",
+      "description": "Choose an onboarding path (CLI wizard or macOS app) to set up the Gateway and providers, including custom endpoints if needed.",
+      "typeIds": [
+        "1baae8e9187041fb8e2a1eb1f84ba0d4"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 0,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "52581edc7bb34b5d915f8cd91476dc64",
+          "propertyName": "Lesson number",
+          "valueKind": "integer",
+          "example": "2"
+        },
+        {
+          "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+          "propertyName": "Web URL",
+          "valueKind": "text",
+          "example": "https://docs.openclaw.ai/start/onboarding-overview"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Choose an onboarding path (CLI wizard or macOS app) to set up the Gateway and providers, including custom endpoints if needed."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Onboarding overview"
+        }
+      ],
+      "relations": [
+        {
+          "id": "0d65bb4dbf7b4ada95da548f4c2a18d4",
+          "typeId": "9405a71b598e4783847165ac1aabab40",
+          "typeName": "Courses",
+          "toEntityId": "8bd9b1ba65f743298f537d36aa7d3c7e",
+          "toEntityName": "OpenClaw Getting started",
+          "toEntityTypeIds": [
+            "ae724b5687254a098d7ea542bc587ebd"
+          ],
+          "position": "a0BDS"
+        },
+        {
+          "id": "46d10fb9342f4bb9802ede519a728ae1",
+          "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "typeName": "Roles",
+          "toEntityId": "3e573f0babc841589033457c6a06453c",
+          "toEntityName": "Governance manager",
+          "toEntityTypeIds": [
+            "e4e366e9d5554b6892bf7358e824afd2"
+          ],
+          "position": "a02iw"
+        },
+        {
+          "id": "4c2f76697276481ab1d1196d13a870c0",
+          "typeId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "typeName": "Topics",
+          "toEntityId": "f5a572693f4645c4a951d59cb46d3b93",
+          "toEntityName": "Governance",
+          "toEntityTypeIds": [
+            "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+          ],
+          "position": "a060L"
+        },
+        {
+          "id": "57869f243ee04d7c8c5bcbf711e3c120",
+          "typeId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "typeName": "Topics",
+          "toEntityId": "ad9765c10e174fa5a82dd967d97e51ae",
+          "toEntityName": "Automation",
+          "toEntityTypeIds": [
+            "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+          ],
+          "position": "a006g"
+        },
+        {
+          "id": "705070b8b1b7436da8af7bd411f0ae94",
+          "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "typeName": "Roles",
+          "toEntityId": "0448de15a6f74f0cb6ed5d78a0678d27",
+          "toEntityName": "LLMOps engineer",
+          "toEntityTypeIds": [
+            "e4e366e9d5554b6892bf7358e824afd2"
+          ],
+          "position": "a0CBn"
+        },
+        {
+          "id": "a7ecf93b99cc4521b0db4c326b348335",
+          "typeId": "5b722cd361d6494e88871310566437ba",
+          "typeName": "Related spaces",
+          "toEntityId": "8cb0a2b4adbf4627aa080cec5112099a",
+          "toEntityName": "AI",
+          "toEntityTypeIds": [
+            "362c1dbddc6444bba3c4652f38a642d7",
+            "fc512a408b5544dc85b85aae88b51fae"
+          ],
+          "position": "a01Te"
+        },
+        {
+          "id": "af5e3a0a49bb4613b554825f9964d48f",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "1baae8e9187041fb8e2a1eb1f84ba0d4",
+          "toEntityName": "Lesson",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a02TP"
+        },
+        {
+          "id": "c26a247277eb408ba87c9a4775c71287",
+          "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+          "typeName": "Roles",
+          "toEntityId": "0d6ac854ac5683e334c69a5c9be3dace",
+          "toEntityName": "Platform Engineer",
+          "toEntityTypeIds": [
+            "e4e366e9d5554b6892bf7358e824afd2"
+          ],
+          "position": "a09SE"
+        },
+        {
+          "id": "d4795670ea9844a888a78defd1175c6d",
+          "typeId": "a38732e33a3d47f9a459fb369c287709",
+          "typeName": "Skills",
+          "toEntityId": "31f374f3d0f146b094f2482fdca55970",
+          "toEntityName": "Configure authorization",
+          "toEntityTypeIds": [
+            "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+          ],
+          "position": "a00hf"
+        },
+        {
+          "id": "d64d7089f5364c398575eeb1fc3b5691",
+          "typeId": "a38732e33a3d47f9a459fb369c287709",
+          "typeName": "Skills",
+          "toEntityId": "9fdd2a3226874a94b960acbca0548774",
+          "toEntityName": "Gateway managament",
+          "toEntityTypeIds": [
+            "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+          ],
+          "position": "a01tD"
+        },
+        {
+          "id": "f944d98b83554f588b580a51e662d165",
+          "typeId": "458fbc070dbf4c928f5716f3fdde7c32",
+          "typeName": "Topics",
+          "toEntityId": "e86c157fbc114804a8b774686d712b23",
+          "toEntityName": "Deployment",
+          "toEntityTypeIds": [
+            "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+          ],
+          "position": "a07PK"
+        }
+      ]
+    },
+    {
+      "id": "257090341ba5406f94e4d4af90042fba",
+      "name": "Tags",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Tags"
+        }
+      ],
+      "relations": [
+        {
+          "id": "58d9ed81b1c54d31a453b0afc9c9d5c5",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "f4d3f10cb00b4b239341be02777d9ab4",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "fde8649b637f4e8689fd4a7614ead3de",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "e0fcc66c9e8643f480802469d8a1a93a",
+          "toEntityName": "Tag",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a00T1"
+        }
+      ]
+    },
+    {
+      "id": "8fcfe5ef3d9147bd83223830a998d26b",
+      "name": "Roles",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Roles"
+        }
+      ],
+      "relations": [
+        {
+          "id": "0063dc23910840e39be904909fd0dee4",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "225b09acceee4c82a19d15095d5200c3",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "e4e366e9d5554b6892bf7358e824afd2",
+          "toEntityName": "Role",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a08n6"
+        },
+        {
+          "id": "3964d26f95b44d09871f3566319404cc",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "412ff593e9154012a43d4c27ec5c68b6",
+      "name": "Web URL",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Web URL"
+        }
+      ],
+      "relations": [
+        {
+          "id": "10ccfe724c0b4f5a845b662a6103ac48",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+          "toEntityName": "Text",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "48641a4d36ed43f39019868e78cf93e7",
+          "typeId": "2316bbe1c76f463583f23e03b4f1fe46",
+          "typeName": "Renderable type",
+          "toEntityId": "283127c96142468492ed90b0ebc7f29a",
+          "toEntityName": "URL",
+          "toEntityTypeIds": [
+            "5338cc2897044e96b5477dfc58da6fc7"
+          ],
+          "position": null
+        },
+        {
+          "id": "59b2ea2fc79c4ddb81475c5a487d3105",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "5b722cd361d6494e88871310566437ba",
+      "name": "Related spaces",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Related spaces"
+        }
+      ],
+      "relations": [
+        {
+          "id": "0e43a8e43d094e728b783e5a672f09d7",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "4d95d452f7664228b3cc25ad32e41e4f",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "362c1dbddc6444bba3c4652f38a642d7",
+          "toEntityName": "Space",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a003b"
+        },
+        {
+          "id": "cda654fb207e4b8baf53c3beb93b9e98",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "458fbc070dbf4c928f5716f3fdde7c32",
+      "name": "Topics",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "d69608290513c2a91102c939b3265bd7",
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Topics"
+        }
+      ],
+      "relations": [
+        {
+          "id": "3992fe028c924549993cf05f3fdc3bf1",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "84525962b6d74193acec52b30b506e76",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "toEntityName": "Topic",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "b8a1ca8147044c41930f639ca5f5a90f",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "261fad421cc744938acbaa4a4c74220c",
+      "name": "Providers",
+      "description": "Those who supply a product or service.",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Providers"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Those who supply a product or service."
+        }
+      ],
+      "relations": [
+        {
+          "id": "32972dadc09f47789c81e43787add93d",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a03KZ"
+        },
+        {
+          "id": "4b198c0a60424ff4908c0ca5c7e2c56b",
+          "typeId": "f394b9b4420d4ab4bceb81ded11df4d5",
+          "typeName": "Relation entity types",
+          "toEntityId": "484a18c5030a499cb0f2ef588ff16d50",
+          "toEntityName": "Project",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a023E"
+        },
+        {
+          "id": "828418de734a414eb49103748812b7e0",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a05up"
+        }
+      ]
+    },
+    {
+      "id": "e7d737c536764c609fa16aa64a8c90ad",
+      "name": "Type",
+      "description": null,
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Type"
+        }
+      ],
+      "relations": [
+        {
+          "id": "2d35dee626f74bbe906a8675eb6b0c9c",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+          "toEntityName": "Type",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a02RD"
+        },
+        {
+          "id": "4c0fd27512074d4493ef857a752a380f",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "806d52bc27e94c9193c057978b093351",
+          "toEntityName": "Related topics",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a44dV"
+        },
+        {
+          "id": "752806aeee0248d78baf4d3bb3555da7",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "01412f8381894ab1836565c7fd358cc1",
+          "toEntityName": "Properties",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a26Pc"
+        },
+        {
+          "id": "8b241b5bf5ef40eba39364b17cb6cd65",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "cf37cd59840c4daca22b9d9dde536ea7",
+          "toEntityName": "Template",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a109V"
+        },
+        {
+          "id": "a23c92c8eea4450e9ccfc0533344da50",
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "typeName": "Properties",
+          "toEntityId": "257090341ba5406f94e4d4af90042fba",
+          "toEntityName": "Tags",
+          "toEntityTypeIds": [
+            "808a04ceb21c4d888ad12e240613e5ca"
+          ],
+          "position": "a3C9y"
+        }
+      ]
+    },
+    {
+      "id": "a38732e33a3d47f9a459fb369c287709",
+      "name": "Skills",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Skills"
+        }
+      ],
+      "relations": [
+        {
+          "id": "c50b128028814a19b418811b1b752a66",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+          "toEntityName": "Practice",
+          "toEntityTypeIds": [
+            "010fe1e5d47341aaa2562b2e3107e972",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a01PP"
+        },
+        {
+          "id": "caf105c2b374486e9e6ff592fc928ba0",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "d24719a1fe0a45799bbe91880e023402",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "1e4e6986aea4481eba29ab0677b6d514",
+      "name": "Lessons",
+      "description": null,
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Lessons"
+        }
+      ],
+      "relations": [
+        {
+          "id": "4d6e9da0f21b40fa841d5da68c54982d",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "4f458cb5ab204c3fa2da85e081ed972a",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "1baae8e9187041fb8e2a1eb1f84ba0d4",
+          "toEntityName": "Lesson",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a02lE"
+        },
+        {
+          "id": "854f3b4e51c44b5e877128ad2fd59287",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "2b16790166f840b6b60ede0ce01fe4ba",
+      "name": "Goals",
+      "description": "A set of goals to achieve",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "A set of goals to achieve"
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Goals"
+        }
+      ],
+      "relations": [
+        {
+          "id": "43faf75c595341e183b73ba56e8edc23",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "5118251d33324cd386b2b87f4746bd3e",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "1845ee9980c648a3abc3809de1753c63",
+          "toEntityName": "Goal",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a08aH"
+        },
+        {
+          "id": "b3e1daed669f4c4e9000f7fbe8bcc6e8",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "ac7be396defb4047a7f3fa103640ed9f",
+      "name": "Install tooling",
+      "description": "The software and utilities required to manage, build, and run a specific application.",
+      "typeIds": [
+        "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Install tooling"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The software and utilities required to manage, build, and run a specific application."
+        }
+      ],
+      "relations": [
+        {
+          "id": "168112fc7d964a7db28cbe912bc2bcc4",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+          "toEntityName": "Practice",
+          "toEntityTypeIds": [
+            "010fe1e5d47341aaa2562b2e3107e972",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "316d14cce6da4dd0aa7d62c4e10852d7",
+      "name": "Verify environment",
+      "description": "The pre-check to ensure your system meets the software's requirements before you attempt to run it.",
+      "typeIds": [
+        "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Verify environment"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The pre-check to ensure your system meets the software's requirements before you attempt to run it."
+        }
+      ],
+      "relations": [
+        {
+          "id": "84473254823544c49fd3b249dcb55061",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+          "toEntityName": "Practice",
+          "toEntityTypeIds": [
+            "010fe1e5d47341aaa2562b2e3107e972",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "3e573f0babc841589033457c6a06453c",
+      "name": "Governance manager",
+      "description": "Owns the “rules of the road” for AI in an organization, setting governance frameworks and policies, tracking AI inventory and risks and ensuring compliance with laws and standards.",
+      "typeIds": [
+        "e4e366e9d5554b6892bf7358e824afd2"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Governance manager"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Owns the “rules of the road” for AI in an organization, setting governance frameworks and policies, tracking AI inventory and risks and ensuring compliance with laws and standards."
+        }
+      ],
+      "relations": [
+        {
+          "id": "2f2e491d6e394c17a3858f109b7c3577",
+          "typeId": "5b722cd361d6494e88871310566437ba",
+          "typeName": "Related spaces",
+          "toEntityId": "8cb0a2b4adbf4627aa080cec5112099a",
+          "toEntityName": "AI",
+          "toEntityTypeIds": [
+            "362c1dbddc6444bba3c4652f38a642d7",
+            "fc512a408b5544dc85b85aae88b51fae"
+          ],
+          "position": "0"
+        },
+        {
+          "id": "aecbbde2312f4ad89732149be77a4345",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "e4e366e9d5554b6892bf7358e824afd2",
+          "toEntityName": "Role",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "9907c7fa63f14cc0a902d587ab1cbe33",
+      "name": "Basic monitoring",
+      "description": "The foundational system that provides visibility into whether a system is alive and performing as expected.",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Basic monitoring"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The foundational system that provides visibility into whether a system is alive and performing as expected."
+        }
+      ],
+      "relations": [
+        {
+          "id": "682ac87796164418936ed3aa22013955",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "toEntityName": "Topic",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "19a8f993478f42359fbb03dab74bb566",
+      "name": "LLM Deployment",
+      "description": "Research topic (Topic).",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ],
+      "spaces": [
+        "baddbe29ee5c1764925996eafba6d00f"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Research topic (Topic)."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "LLM Deployment"
+        }
+      ],
+      "relations": [
+        {
+          "id": "d8d9e78d2c11480a92777d6f6ea241d2",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "toEntityName": "Topic",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "37531e91481743dc99a2593d580ccb76",
+      "name": "Technical product manager",
+      "description": "A strategic leader who bridges complex engineering and business goals by translating technical constraints into product value and ensuring feasibility.",
+      "typeIds": [
+        "e4e366e9d5554b6892bf7358e824afd2"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Technical product manager"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "A strategic leader who bridges complex engineering and business goals by translating technical constraints into product value and ensuring feasibility."
+        }
+      ],
+      "relations": [
+        {
+          "id": "ce2b095770ee401cabb4bebc4e87d78e",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "e4e366e9d5554b6892bf7358e824afd2",
+          "toEntityName": "Role",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "1e5328382bfe4a0289177134da2fee4d",
+      "name": "Lifecycle",
+      "description": "The iterative journey of a model from its initial design to its eventual replacement.",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The iterative journey of a model from its initial design to its eventual replacement."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Lifecycle"
+        }
+      ],
+      "relations": [
+        {
+          "id": "5ced0db2d3384182ba915120d925fcba",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "toEntityName": "Topic",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "c872ebf2c0d6499b8fae652ccdf81939",
+          "typeId": "34f535072e6b42c5a84443981a77cfa2",
+          "typeName": "Cover",
+          "toEntityId": "69fcdd4e6db7408f92e98b1d323affb2",
+          "toEntityName": null,
+          "toEntityTypeIds": [
+            "ba4e41460010499da0a3caaa7f579d0e"
+          ],
+          "position": "a07lW"
+        }
+      ]
+    },
+    {
+      "id": "ad9765c10e174fa5a82dd967d97e51ae",
+      "name": "Automation",
+      "description": "The process of using technology to perform repetitive, predictable tasks without manual human intervention.",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Automation"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The process of using technology to perform repetitive, predictable tasks without manual human intervention."
+        }
+      ],
+      "relations": [
+        {
+          "id": "42c50f1bcbde4c6f995b146eb67d9d17",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "toEntityName": "Topic",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "8cb0a2b4adbf4627aa080cec5112099a",
+      "name": "AI",
+      "description": null,
+      "typeIds": [
+        "362c1dbddc6444bba3c4652f38a642d7",
+        "fc512a408b5544dc85b85aae88b51fae"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b",
+        "12197ff1db6496c2e817149a7413f7c9"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "AI"
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "AI"
+        }
+      ],
+      "relations": [
+        {
+          "id": "071b40dc770d456f982d281c0cfc4683",
+          "typeId": "4d9cba1c4766469881cd3273891a018b",
+          "typeName": "Tabs",
+          "toEntityId": "ad2dc2f8102347abb5ba71eec78b2d30",
+          "toEntityName": "Projects",
+          "toEntityTypeIds": [
+            "480e3fc267f3499385fbacdf4ddeaa6b"
+          ],
+          "position": "a2"
+        },
+        {
+          "id": "2da25eb8d85449ed8f8fe371ecf64bc4",
+          "typeId": "4d9cba1c4766469881cd3273891a018b",
+          "typeName": "Tabs",
+          "toEntityId": "e532fad43a4247638409827ca7f0819a",
+          "toEntityName": "Papers",
+          "toEntityTypeIds": [
+            "480e3fc267f3499385fbacdf4ddeaa6b"
+          ],
+          "position": "a5V"
+        },
+        {
+          "id": "345ea1cfeb024331b37a257965cbc96b",
+          "typeId": "4d9cba1c4766469881cd3273891a018b",
+          "typeName": "Tabs",
+          "toEntityId": "5e89250b011041e08e3bba28262ca32f",
+          "toEntityName": "Events",
+          "toEntityTypeIds": [
+            "480e3fc267f3499385fbacdf4ddeaa6b"
+          ],
+          "position": "a4"
+        },
+        {
+          "id": "39d053f9f725498e98a913a050755acb",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "fc512a408b5544dc85b85aae88b51fae",
+          "toEntityName": "Industry",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a02jy"
+        },
+        {
+          "id": "4298d44fc0434491ab643cd4cbb7b6e0",
+          "typeId": "34f535072e6b42c5a84443981a77cfa2",
+          "typeName": "Cover",
+          "toEntityId": "22fb22bcdb5f43b3960a14dd8eb9714b",
+          "toEntityName": null,
+          "toEntityTypeIds": [
+            "ba4e41460010499da0a3caaa7f579d0e"
+          ],
+          "position": "a0AfK"
+        },
+        {
+          "id": "484ec4af674d46ce859dbf861f90d226",
+          "typeId": "4d9cba1c4766469881cd3273891a018b",
+          "typeName": "Tabs",
+          "toEntityId": "ab46cda257a3437697d42d28d05648d5",
+          "toEntityName": "Jobs",
+          "toEntityTypeIds": [
+            "480e3fc267f3499385fbacdf4ddeaa6b"
+          ],
+          "position": "a5"
+        },
+        {
+          "id": "63bab49688874fd492dab78630bc5263",
+          "typeId": "beaba5cba67741a8b35377030613fc70",
+          "typeName": "Blocks",
+          "toEntityId": "513a3a2f3cf34b15ba66c98ff462e1d0",
+          "toEntityName": "Projects",
+          "toEntityTypeIds": [
+            "b8803a8665de412bbb357e0c84adf473"
+          ],
+          "position": "a0"
+        },
+        {
+          "id": "863eb951498e4456b149162b0732dcf1",
+          "typeId": "4d9cba1c4766469881cd3273891a018b",
+          "typeName": "Tabs",
+          "toEntityId": "b9311403bfea4dfbb031b88b03127047",
+          "toEntityName": "News",
+          "toEntityTypeIds": [
+            "480e3fc267f3499385fbacdf4ddeaa6b"
+          ],
+          "position": "a1"
+        },
+        {
+          "id": "9bd190a554844582a0c0c906dba2d7fc",
+          "typeId": "4d9cba1c4766469881cd3273891a018b",
+          "typeName": "Tabs",
+          "toEntityId": "c5429f7332e346d38562bc0d17af8e36",
+          "toEntityName": "Ontology",
+          "toEntityTypeIds": [
+            "480e3fc267f3499385fbacdf4ddeaa6b"
+          ],
+          "position": "a8"
+        },
+        {
+          "id": "a7bf110922ad4728a674e51d7c068e4c",
+          "typeId": "4d9cba1c4766469881cd3273891a018b",
+          "typeName": "Tabs",
+          "toEntityId": "5224cd4360ce4be4b7c47b9f00ec9539",
+          "toEntityName": "People",
+          "toEntityTypeIds": [
+            "480e3fc267f3499385fbacdf4ddeaa6b"
+          ],
+          "position": "a3"
+        },
+        {
+          "id": "e061f0d46b3c411589b382f0875c523e",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "362c1dbddc6444bba3c4652f38a642d7",
+          "toEntityName": "Space",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "eb11f0ac08c34d14b5528ea11b0d8114",
+          "typeId": "4d9cba1c4766469881cd3273891a018b",
+          "typeName": "Tabs",
+          "toEntityId": "7b0ca88383ab4872b62a0f3d147d5c33",
+          "toEntityName": "Learn",
+          "toEntityTypeIds": [
+            "480e3fc267f3499385fbacdf4ddeaa6b"
+          ],
+          "position": "a6"
+        },
+        {
+          "id": "f6e1be767075419db4272c38aeae5811",
+          "typeId": "beaba5cba67741a8b35377030613fc70",
+          "typeName": "Blocks",
+          "toEntityId": "3f2000fde4f1572c83f569cae6924395",
+          "toEntityName": "Topics",
+          "toEntityTypeIds": [
+            "b8803a8665de412bbb357e0c84adf473"
+          ],
+          "position": "a1"
+        }
+      ]
+    },
+    {
+      "id": "0d6ac854ac5683e334c69a5c9be3dace",
+      "name": "Platform Engineer",
+      "description": "Builds internal developer platforms, tooling, and infrastructure that other engineers build on top of.",
+      "typeIds": [
+        "e4e366e9d5554b6892bf7358e824afd2"
+      ],
+      "spaces": [
+        "9b611b848b12491b9b6b43f3cf019b8b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Platform Engineer"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Builds internal developer platforms, tooling, and infrastructure that other engineers build on top of."
+        }
+      ],
+      "relations": [
+        {
+          "id": "ac009add5da341c3905f332c30c15f5f",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "e4e366e9d5554b6892bf7358e824afd2",
+          "toEntityName": "Role",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "bc92e13ec0774edd9acdfd811c9effa1",
+      "name": "Security configuration",
+      "description": "The process of hardening a system by defining its defensive boundaries and access rules.",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Security configuration"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The process of hardening a system by defining its defensive boundaries and access rules."
+        }
+      ],
+      "relations": [
+        {
+          "id": "10be05c7e8b143029efdbbe9a984706e",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "toEntityName": "Topic",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "9bd96e5ed03046989d69c9fc907e0e55",
+      "name": "Evaluation engineer",
+      "description": "The quality assurance specialist for AI, designing tests and metrics to measure AI performance.",
+      "typeIds": [
+        "e4e366e9d5554b6892bf7358e824afd2"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Evaluation engineer"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The quality assurance specialist for AI, designing tests and metrics to measure AI performance."
+        }
+      ],
+      "relations": [
+        {
+          "id": "7122f1006e58425788f089bfe2fe96d2",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "e4e366e9d5554b6892bf7358e824afd2",
+          "toEntityName": "Role",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "0448de15a6f74f0cb6ed5d78a0678d27",
+      "name": "LLMOps engineer",
+      "description": "Manages the entire lifecycle of LLMs in production, including deployment, monitoring, scaling, and, most importantly, optimizing for unpredictable behavior.",
+      "typeIds": [
+        "e4e366e9d5554b6892bf7358e824afd2"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Manages the entire lifecycle of LLMs in production, including deployment, monitoring, scaling, and, most importantly, optimizing for unpredictable behavior."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "LLMOps engineer"
+        }
+      ],
+      "relations": [
+        {
+          "id": "b98e501c27ed479197f77231f22b5686",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "e4e366e9d5554b6892bf7358e824afd2",
+          "toEntityName": "Role",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "f24d7ee339484963976ff6480efd765b",
+      "name": "OpenClaw",
+      "description": "Any OS gateway for AI agents across WhatsApp, Telegram, Discord, iMessage, and more.",
+      "typeIds": [
+        "484a18c5030a499cb0f2ef588ff16d50"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Course",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Any OS gateway for AI agents across WhatsApp, Telegram, Discord, iMessage, and more."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "OpenClaw"
+        },
+        {
+          "propertyId": "eed38e74e67946bf8a42ea3e4f8fb5fb",
+          "propertyName": "Website",
+          "valueKind": "text",
+          "example": "https://openclaw.ai/"
+        }
+      ],
+      "relations": [
+        {
+          "id": "a64c2b89752b4290bdcc24842d80d679",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "484a18c5030a499cb0f2ef588ff16d50",
+          "toEntityName": "Project",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a09Iq"
+        }
+      ]
+    },
+    {
+      "id": "74c6253a07c24970b3a2f2e1f5c8f4d5",
+      "name": "Stages",
+      "description": "Distinct steps in a process, shown in order from start to finish",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Distinct steps in a process, shown in order from start to finish"
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Stages"
+        }
+      ],
+      "relations": [
+        {
+          "id": "2ef6bf8471b5460aa72e157701800982",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a0C4d"
+        },
+        {
+          "id": "bab8e8b73fd042e780d5db17d282ec2e",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a02bS"
+        }
+      ]
+    },
+    {
+      "id": "806d52bc27e94c9193c057978b093351",
+      "name": "Related topics",
+      "description": "Topics connected to this entity.",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Topics connected to this entity."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Related topics"
+        }
+      ],
+      "relations": [
+        {
+          "id": "009de3219c55403f88d2036dc7358a80",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "d52cd72f85754e57ba4e4b77a98845f7",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "toEntityName": "Topic",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a08Be"
+        },
+        {
+          "id": "fc19276d26e141429cf27dde6fdc2df8",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "52581edc7bb34b5d915f8cd91476dc64",
+      "name": "Lesson number",
+      "description": "The position of the lesson in the course sequence.",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Lesson number"
+        },
+        {
+          "propertyId": "396f8c72dfd04b5791ea09c1b9321b2f",
+          "propertyName": "Format",
+          "valueKind": "text",
+          "example": ",?"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The position of the lesson in the course sequence."
+        }
+      ],
+      "relations": [
+        {
+          "id": "cf12afce0ad84e688461eaca35388696",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a02ro"
+        },
+        {
+          "id": "fa57276fb2e34a6fb0bca6561295461a",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "149fd752d9d04f80820d1d942eea7841",
+          "toEntityName": "Integer",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e"
+          ],
+          "position": "a0BxQ"
+        }
+      ]
+    },
+    {
+      "id": "9405a71b598e4783847165ac1aabab40",
+      "name": "Courses",
+      "description": "Learning paths that group multiple lessons into a structured area of knowledge.",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ],
+      "spaces": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Learning paths that group multiple lessons into a structured area of knowledge."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Courses"
+        }
+      ],
+      "relations": [
+        {
+          "id": "978dc55ac86041e0ac81d1503de5f810",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+          "toEntityName": "Property",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a04R5"
+        },
+        {
+          "id": "ca76d8a0da2943949a3ec625c76f2acd",
+          "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+          "typeName": "To entity types",
+          "toEntityId": "ae724b5687254a098d7ea542bc587ebd",
+          "toEntityName": "Course",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a0Aqk"
+        },
+        {
+          "id": "e9a073aa600946eaaec92762ff9f8c07",
+          "typeId": "6d29d57849bb4959baf72cc696b1671a",
+          "typeName": "Data type",
+          "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+          "toEntityName": "Relation",
+          "toEntityTypeIds": [
+            "a35e058b52d148d2b02d773933d90b7e",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": "a03E0"
+        }
+      ]
+    },
+    {
+      "id": "69e20c290851407088d498e9e9433512",
+      "name": "Foundations",
+      "description": "The underlying infrastructure, core principles, and prerequisite knowledge upon which a system is built.",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The underlying infrastructure, core principles, and prerequisite knowledge upon which a system is built."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Foundations"
+        }
+      ],
+      "relations": [
+        {
+          "id": "9cf072800c0d40f3b05217b3bf61cec2",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "toEntityName": "Topic",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        },
+        {
+          "id": "bdc9d4200d304f76bd8680016e32a1e9",
+          "typeId": "34f535072e6b42c5a84443981a77cfa2",
+          "typeName": "Cover",
+          "toEntityId": "e59fd5855437470aad2fa6b1e09becb5",
+          "toEntityName": "Foundations cover",
+          "toEntityTypeIds": [
+            "ba4e41460010499da0a3caaa7f579d0e"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "5e3466c811034aafb754d087d367b8b4",
+      "name": "Install",
+      "description": "The process of transferring, unpacking, and placing the core components into a system so that it functions.",
+      "typeIds": [
+        "e0fcc66c9e8643f480802469d8a1a93a"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Install"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The process of transferring, unpacking, and placing the core components into a system so that it functions."
+        }
+      ],
+      "relations": [
+        {
+          "id": "300baab5e7cd4e8abba9ab6c6135a7c6",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "e0fcc66c9e8643f480802469d8a1a93a",
+          "toEntityName": "Tag",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "a15894da03ae477e8f472e422080ec35",
+      "name": "Setup",
+      "description": "The transitional phase where you move from having the raw inputs to having a functional system.",
+      "typeIds": [
+        "e0fcc66c9e8643f480802469d8a1a93a"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Setup"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The transitional phase where you move from having the raw inputs to having a functional system."
+        }
+      ],
+      "relations": [
+        {
+          "id": "6ca90378613141b4ad7c0bf37a7ba31e",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "e0fcc66c9e8643f480802469d8a1a93a",
+          "toEntityName": "Tag",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "f5a572693f4645c4a951d59cb46d3b93",
+      "name": "Governance",
+      "description": "Policies, controls, and oversight ensuring AI is safe, compliant, reliable, transparent, and accountable.",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Policies, controls, and oversight ensuring AI is safe, compliant, reliable, transparent, and accountable."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Governance"
+        }
+      ],
+      "relations": [
+        {
+          "id": "2163776cd6004dfeb5ca385b8cc7abdd",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "toEntityName": "Topic",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "31f374f3d0f146b094f2482fdca55970",
+      "name": "Configure authorization",
+      "description": "The ability to programmatically authorize one system to securely communicate with another using industry standard methods like oauth or security keys.",
+      "typeIds": [
+        "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Configure authorization"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The ability to programmatically authorize one system to securely communicate with another using industry standard methods like oauth or security keys."
+        }
+      ],
+      "relations": [
+        {
+          "id": "bc21c950768c424696b4b9f79300be29",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+          "toEntityName": "Practice",
+          "toEntityTypeIds": [
+            "010fe1e5d47341aaa2562b2e3107e972",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "9fdd2a3226874a94b960acbca0548774",
+      "name": "Gateway managament",
+      "description": "The ongoing gateway operation to configure routing and access, manage updates and uptime, monitor, secure secrets, troubleshoot failures.",
+      "typeIds": [
+        "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "The ongoing gateway operation to configure routing and access, manage updates and uptime, monitor, secure secrets, troubleshoot failures."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Gateway managament"
+        }
+      ],
+      "relations": [
+        {
+          "id": "6452e724d3ff4add831383efafe11a03",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+          "toEntityName": "Practice",
+          "toEntityTypeIds": [
+            "010fe1e5d47341aaa2562b2e3107e972",
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    },
+    {
+      "id": "e86c157fbc114804a8b774686d712b23",
+      "name": "Deployment",
+      "description": "Packaging, releasing, and operating AI models in real environments with monitoring, scaling, and updates.",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ],
+      "spaces": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "depth": 1,
+      "discoveredBy": "Lesson",
+      "properties": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "propertyName": "Description",
+          "valueKind": "text",
+          "example": "Packaging, releasing, and operating AI models in real environments with monitoring, scaling, and updates."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "propertyName": "Name",
+          "valueKind": "text",
+          "example": "Deployment"
+        }
+      ],
+      "relations": [
+        {
+          "id": "dc596687a88f4d9f9c4ed6bacf18d3a9",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "typeName": "Types",
+          "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "toEntityName": "Topic",
+          "toEntityTypeIds": [
+            "e7d737c536764c609fa16aa64a8c90ad"
+          ],
+          "position": null
+        }
+      ]
+    }
+  ],
+  "schemaSpace": "a19c345ab9866679b001d7d2138d88a1",
+  "targetSpace": "41e851610e13a19441c4d980f2f2ce6b",
+  "mappingTemplate": {
+    "types": [
+      {
+        "requestedName": "Course",
+        "entityId": "ae724b5687254a098d7ea542bc587ebd",
+        "typeIds": [
+          "e7d737c536764c609fa16aa64a8c90ad"
+        ],
+        "description": "A structured series of educational lessons designed to impart knowledge or skills in a specific subject area.",
+        "spaces": [
+          "a19c345ab9866679b001d7d2138d88a1"
+        ],
+        "properties": [
+          {
+            "name": "Description",
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "valueKind": "text",
+            "example": "A structured series of educational lessons designed to impart knowledge or skills in a specific subject area."
+          },
+          {
+            "name": "Name",
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "valueKind": "text",
+            "example": "Course"
+          }
+        ],
+        "relations": [
+          {
+            "name": "Properties",
+            "relationId": "01412f8381894ab1836565c7fd358cc1",
+            "targetTypeIds": [
+              "808a04ceb21c4d888ad12e240613e5ca"
+            ]
+          },
+          {
+            "name": "Types",
+            "relationId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "targetTypeIds": [
+              "e7d737c536764c609fa16aa64a8c90ad"
+            ]
+          }
+        ]
+      },
+      {
+        "requestedName": "Lesson",
+        "entityId": "1baae8e9187041fb8e2a1eb1f84ba0d4",
+        "typeIds": [
+          "e7d737c536764c609fa16aa64a8c90ad"
+        ],
+        "description": "Structured unit of teaching and learning focused on a specific topic or skill.",
+        "spaces": [
+          "d69608290513c2a91102c939b3265bd7",
+          "a19c345ab9866679b001d7d2138d88a1"
+        ],
+        "properties": [
+          {
+            "name": "Description",
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "valueKind": "text",
+            "example": "Structured unit of teaching and learning focused on a specific topic or skill."
+          },
+          {
+            "name": "Name",
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "valueKind": "text",
+            "example": "Lesson"
+          }
+        ],
+        "relations": [
+          {
+            "name": "Properties",
+            "relationId": "01412f8381894ab1836565c7fd358cc1",
+            "targetTypeIds": [
+              "808a04ceb21c4d888ad12e240613e5ca"
+            ]
+          },
+          {
+            "name": "Types",
+            "relationId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "targetTypeIds": [
+              "e7d737c536764c609fa16aa64a8c90ad"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "linkedEntities": [
+    {
+      "id": "257090341ba5406f94e4d4af90042fba",
+      "name": "Tags",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "8fcfe5ef3d9147bd83223830a998d26b",
+      "name": "Roles",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "412ff593e9154012a43d4c27ec5c68b6",
+      "name": "Web URL",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "5b722cd361d6494e88871310566437ba",
+      "name": "Related spaces",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "458fbc070dbf4c928f5716f3fdde7c32",
+      "name": "Topics",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "261fad421cc744938acbaa4a4c74220c",
+      "name": "Providers",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "e7d737c536764c609fa16aa64a8c90ad",
+      "name": "Type",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "a38732e33a3d47f9a459fb369c287709",
+      "name": "Skills",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "1e4e6986aea4481eba29ab0677b6d514",
+      "name": "Lessons",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "2b16790166f840b6b60ede0ce01fe4ba",
+      "name": "Goals",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "5fa10b226b3a406c9294e6d866618f96",
+      "name": "Quick setup (CLI)",
+      "typeIds": [
+        "1baae8e9187041fb8e2a1eb1f84ba0d4"
+      ]
+    },
+    {
+      "id": "ac7be396defb4047a7f3fa103640ed9f",
+      "name": "Install tooling",
+      "typeIds": [
+        "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+      ]
+    },
+    {
+      "id": "efa38328ad5d48caad356113107d1ac4",
+      "name": "Onboarding overview",
+      "typeIds": [
+        "1baae8e9187041fb8e2a1eb1f84ba0d4"
+      ]
+    },
+    {
+      "id": "316d14cce6da4dd0aa7d62c4e10852d7",
+      "name": "Verify environment",
+      "typeIds": [
+        "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+      ]
+    },
+    {
+      "id": "3e573f0babc841589033457c6a06453c",
+      "name": "Governance manager",
+      "typeIds": [
+        "e4e366e9d5554b6892bf7358e824afd2"
+      ]
+    },
+    {
+      "id": "9907c7fa63f14cc0a902d587ab1cbe33",
+      "name": "Basic monitoring",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ]
+    },
+    {
+      "id": "ae724b5687254a098d7ea542bc587ebd",
+      "name": "Course",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "19a8f993478f42359fbb03dab74bb566",
+      "name": "LLM Deployment",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ]
+    },
+    {
+      "id": "37531e91481743dc99a2593d580ccb76",
+      "name": "Technical product manager",
+      "typeIds": [
+        "e4e366e9d5554b6892bf7358e824afd2"
+      ]
+    },
+    {
+      "id": "1e5328382bfe4a0289177134da2fee4d",
+      "name": "Lifecycle",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ]
+    },
+    {
+      "id": "ad9765c10e174fa5a82dd967d97e51ae",
+      "name": "Automation",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ]
+    },
+    {
+      "id": "8cb0a2b4adbf4627aa080cec5112099a",
+      "name": "AI",
+      "typeIds": [
+        "362c1dbddc6444bba3c4652f38a642d7",
+        "fc512a408b5544dc85b85aae88b51fae"
+      ]
+    },
+    {
+      "id": "0d6ac854ac5683e334c69a5c9be3dace",
+      "name": "Platform Engineer",
+      "typeIds": [
+        "e4e366e9d5554b6892bf7358e824afd2"
+      ]
+    },
+    {
+      "id": "bc92e13ec0774edd9acdfd811c9effa1",
+      "name": "Security configuration",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ]
+    },
+    {
+      "id": "9bd96e5ed03046989d69c9fc907e0e55",
+      "name": "Evaluation engineer",
+      "typeIds": [
+        "e4e366e9d5554b6892bf7358e824afd2"
+      ]
+    },
+    {
+      "id": "0448de15a6f74f0cb6ed5d78a0678d27",
+      "name": "LLMOps engineer",
+      "typeIds": [
+        "e4e366e9d5554b6892bf7358e824afd2"
+      ]
+    },
+    {
+      "id": "f24d7ee339484963976ff6480efd765b",
+      "name": "OpenClaw",
+      "typeIds": [
+        "484a18c5030a499cb0f2ef588ff16d50"
+      ]
+    },
+    {
+      "id": "74c6253a07c24970b3a2f2e1f5c8f4d5",
+      "name": "Stages",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "806d52bc27e94c9193c057978b093351",
+      "name": "Related topics",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "52581edc7bb34b5d915f8cd91476dc64",
+      "name": "Lesson number",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "9405a71b598e4783847165ac1aabab40",
+      "name": "Courses",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "69e20c290851407088d498e9e9433512",
+      "name": "Foundations",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ]
+    },
+    {
+      "id": "8bd9b1ba65f743298f537d36aa7d3c7e",
+      "name": "OpenClaw Getting started",
+      "typeIds": [
+        "ae724b5687254a098d7ea542bc587ebd"
+      ]
+    },
+    {
+      "id": "5e3466c811034aafb754d087d367b8b4",
+      "name": "Install",
+      "typeIds": [
+        "e0fcc66c9e8643f480802469d8a1a93a"
+      ]
+    },
+    {
+      "id": "a15894da03ae477e8f472e422080ec35",
+      "name": "Setup",
+      "typeIds": [
+        "e0fcc66c9e8643f480802469d8a1a93a"
+      ]
+    },
+    {
+      "id": "1baae8e9187041fb8e2a1eb1f84ba0d4",
+      "name": "Lesson",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "f5a572693f4645c4a951d59cb46d3b93",
+      "name": "Governance",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ]
+    },
+    {
+      "id": "31f374f3d0f146b094f2482fdca55970",
+      "name": "Configure authorization",
+      "typeIds": [
+        "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+      ]
+    },
+    {
+      "id": "9fdd2a3226874a94b960acbca0548774",
+      "name": "Gateway managament",
+      "typeIds": [
+        "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+      ]
+    },
+    {
+      "id": "e86c157fbc114804a8b774686d712b23",
+      "name": "Deployment",
+      "typeIds": [
+        "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+      ]
+    },
+    {
+      "id": "4b6d9fc1fbfe474c861c83398e1b50d9",
+      "name": "Relation",
+      "typeIds": [
+        "a35e058b52d148d2b02d773933d90b7e",
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "808a04ceb21c4d888ad12e240613e5ca",
+      "name": "Property",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "e0fcc66c9e8643f480802469d8a1a93a",
+      "name": "Tag",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "e4e366e9d5554b6892bf7358e824afd2",
+      "name": "Role",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "9edb6fcce4544aa5861139d7f024c010",
+      "name": "Text",
+      "typeIds": [
+        "a35e058b52d148d2b02d773933d90b7e",
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "283127c96142468492ed90b0ebc7f29a",
+      "name": "URL",
+      "typeIds": [
+        "5338cc2897044e96b5477dfc58da6fc7"
+      ]
+    },
+    {
+      "id": "362c1dbddc6444bba3c4652f38a642d7",
+      "name": "Space",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+      "name": "Topic",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "484a18c5030a499cb0f2ef588ff16d50",
+      "name": "Project",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "01412f8381894ab1836565c7fd358cc1",
+      "name": "Properties",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "cf37cd59840c4daca22b9d9dde536ea7",
+      "name": "Template",
+      "typeIds": [
+        "808a04ceb21c4d888ad12e240613e5ca"
+      ]
+    },
+    {
+      "id": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+      "name": "Practice",
+      "typeIds": [
+        "010fe1e5d47341aaa2562b2e3107e972",
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "1845ee9980c648a3abc3809de1753c63",
+      "name": "Goal",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "69fcdd4e6db7408f92e98b1d323affb2",
+      "name": null,
+      "typeIds": [
+        "ba4e41460010499da0a3caaa7f579d0e"
+      ]
+    },
+    {
+      "id": "ad2dc2f8102347abb5ba71eec78b2d30",
+      "name": "Projects",
+      "typeIds": [
+        "480e3fc267f3499385fbacdf4ddeaa6b"
+      ]
+    },
+    {
+      "id": "e532fad43a4247638409827ca7f0819a",
+      "name": "Papers",
+      "typeIds": [
+        "480e3fc267f3499385fbacdf4ddeaa6b"
+      ]
+    },
+    {
+      "id": "5e89250b011041e08e3bba28262ca32f",
+      "name": "Events",
+      "typeIds": [
+        "480e3fc267f3499385fbacdf4ddeaa6b"
+      ]
+    },
+    {
+      "id": "fc512a408b5544dc85b85aae88b51fae",
+      "name": "Industry",
+      "typeIds": [
+        "e7d737c536764c609fa16aa64a8c90ad"
+      ]
+    },
+    {
+      "id": "22fb22bcdb5f43b3960a14dd8eb9714b",
+      "name": null,
+      "typeIds": [
+        "ba4e41460010499da0a3caaa7f579d0e"
+      ]
+    },
+    {
+      "id": "ab46cda257a3437697d42d28d05648d5",
+      "name": "Jobs",
+      "typeIds": [
+        "480e3fc267f3499385fbacdf4ddeaa6b"
+      ]
+    },
+    {
+      "id": "513a3a2f3cf34b15ba66c98ff462e1d0",
+      "name": "Projects",
+      "typeIds": [
+        "b8803a8665de412bbb357e0c84adf473"
+      ]
+    },
+    {
+      "id": "b9311403bfea4dfbb031b88b03127047",
+      "name": "News",
+      "typeIds": [
+        "480e3fc267f3499385fbacdf4ddeaa6b"
+      ]
+    },
+    {
+      "id": "c5429f7332e346d38562bc0d17af8e36",
+      "name": "Ontology",
+      "typeIds": [
+        "480e3fc267f3499385fbacdf4ddeaa6b"
+      ]
+    },
+    {
+      "id": "5224cd4360ce4be4b7c47b9f00ec9539",
+      "name": "People",
+      "typeIds": [
+        "480e3fc267f3499385fbacdf4ddeaa6b"
+      ]
+    },
+    {
+      "id": "7b0ca88383ab4872b62a0f3d147d5c33",
+      "name": "Learn",
+      "typeIds": [
+        "480e3fc267f3499385fbacdf4ddeaa6b"
+      ]
+    },
+    {
+      "id": "3f2000fde4f1572c83f569cae6924395",
+      "name": "Topics",
+      "typeIds": [
+        "b8803a8665de412bbb357e0c84adf473"
+      ]
+    },
+    {
+      "id": "149fd752d9d04f80820d1d942eea7841",
+      "name": "Integer",
+      "typeIds": [
+        "a35e058b52d148d2b02d773933d90b7e"
+      ]
+    },
+    {
+      "id": "e59fd5855437470aad2fa6b1e09becb5",
+      "name": "Foundations cover",
+      "typeIds": [
+        "ba4e41460010499da0a3caaa7f579d0e"
+      ]
+    }
+  ],
+  "fuzzyMatches": []
+}

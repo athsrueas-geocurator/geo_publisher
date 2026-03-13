@@ -15,6 +15,14 @@ export const TYPES = {
   person:     "7ed45f2bc48b419e8e4664d5ff680b0d",
   project:    "484a18c5030a499cb0f2ef588ff16d50",
   topic:      "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+  role:       "e4e366e9d5554b6892bf7358e824afd2",
+  tag:        "e0fcc66c9e8643f480802469d8a1a93a",
+  goal:       "1845ee9980c648a3abc3809de1753c63",
+  skill:      "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+  space:      "362c1dbddc6444bba3c4652f38a642d7",
+  lesson:     "1baae8e9187041fb8e2a1eb1f84ba0d4",
+  course:     "ae724b5687254a098d7ea542bc587ebd",
+  page:       "480e3fc267f3499385fbacdf4ddeaa6b",
   text_block: "76474f2f00894e77a0410b39fb17d0bf",  // Text Block — rich markdown content
   data_block: "b8803a8665de412bbb357e0c84adf473",  // Data Block — renders query or collection results
   image:      "ba4e41460010499da0a3caaa7f579d0e",  // Image — media entity with IPFS URL
@@ -36,6 +44,7 @@ export const PROPERTIES = {
   filter:           "14a46854bfd14b1882152785c2dab9f3",  // JSON-encoded filter for data blocks
   collection_item:  "a99f9ce12ffa4dac8c61f6310d46064a",  // Points to an entity in a collection
   view:             "1907fd1c81114a3ca378b1f353425b65",  // View preference on a Blocks relation
+  tabs:             "4d9cba1c4766469881cd3273891a018b",  // Tabs relation — links a space/page to child tabs
 };
 
 // ─── Data Source Singletons ──────────────────────────────────────────────────

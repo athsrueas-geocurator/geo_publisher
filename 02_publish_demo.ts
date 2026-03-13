@@ -10,7 +10,7 @@
  *   bun run 02_publish_demo.ts
  *
  * Prerequisites:
- *   - Set DEMO_SPACE_ID in .env to the space you want to publish to
+ *   - Set TARGET_SPACE_ID in .env to the space you want to publish to
  *   - Set PK_SW to the private key of your smart wallet
  */
 
@@ -278,7 +278,7 @@ async function main() {
   //   { "filter": { "<TYPES property id>": { "is": "<Topic type id>" } } }
   const queryFilter = JSON.stringify({
     spaceId: { 
-      in: [process.env.DEMO_SPACE_ID]
+      in: [process.env.TARGET_SPACE_ID]
     },
     filter: {
       [PROPERTIES.types]: { is: TYPES.topic },
@@ -380,7 +380,7 @@ async function main() {
   console.log(`\nDone! Transaction: ${txHash}`);
 
   // ── Step 9: How to verify ─────────────────────────────────────────────────
-  const spaceId = process.env.DEMO_SPACE_ID;
+  const spaceId = process.env.TARGET_SPACE_ID;
   console.log(`\nVerify your entities at:`);
   console.log(`  https://geobrowser.io/space/${spaceId}`);
   console.log(`\nOr query the API with: bun run 01_api_demo.ts`);
