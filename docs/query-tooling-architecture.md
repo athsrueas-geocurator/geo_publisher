@@ -67,4 +67,11 @@ This document defines the canonical structure for Geo API query tooling in this 
 - `bun run map:propose -- --target-space <space-id>` -> create mapping proposals from live `Course`/`Lesson` schema and CSV fields.
 - `bun run map:decide -- --action list` -> list unresolved mapping decisions.
 - `bun run map:decide -- --action accept|reject|ignore ...` -> persist mapping decisions.
-- `bun run publish:courses-lessons` -> build publish ops from approved mappings with schema drift guard.
+- `bun run publish:courses-lessons` -> build publish ops from approved mappings with schema drift + dedupe guards.
+
+## Current Publish Behavior Notes
+- Source defaults are `data_to_publish/courses.csv` and `data_to_publish/lessons.csv`.
+- `lessons.Courses` is resolved by cross-file key (mapped to `courses.Course ID`), used for linking not as a published Geo ID.
+- `courses.Lessons` supports numbered tokens (`1. ...; 2. ...`) and plain names; ordinals are normalized before link resolution.
+- Course->lesson links resolve against both existing entities and lessons created in the same run.
+- Agent-mode publishes are blocked on high-similarity fuzzy dedupe hits and logged to `runlog.md`.

@@ -147,6 +147,30 @@ Why this works:
 - publishes stop when type definitions change upstream
 - avoids silently writing values/relations to wrong properties
 
+## CSV shape and linking rules
+
+Current default source files:
+- `data_to_publish/courses.csv`
+- `data_to_publish/lessons.csv`
+
+Important behavior:
+- `Course ID` is treated as a cross-file linking key, not a publishable Geo UUID.
+- `lessons.csv` `Courses` values are resolved by source ID to created course entities.
+- `courses.csv` `Lessons` supports semicolon-separated lesson references in both plain and numbered formats.
+
+Example accepted `Lessons` formats:
+
+```text
+Lab 01: introduction to LLMs and Azure AI services; Lab 02: building LLM orchestration flows
+1. Lab 01: introduction to LLMs and Azure AI services; 2. Lab 02: building LLM orchestration flows
+```
+
+Publish-time course->lesson resolution checks both:
+- existing lesson entities in target space
+- lesson entities created in the current publish run
+
+If any lesson token cannot be resolved, publish fails fast with unresolved-link details.
+
 ## How publishing works
 
 `publishOps` auto-detects personal vs DAO space and sends the correct transaction flow.

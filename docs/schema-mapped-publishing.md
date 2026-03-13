@@ -37,7 +37,20 @@ Key sections:
 - blocks if any field is still `pending`,
 - applies only `accepted` mappings,
 - ignores rejected/ignored fields,
-- builds ops from `data_to_publish/generated/courses.json` and `data_to_publish/generated/lessons.json`.
+- reads source rows from CSV by default (`data_to_publish/courses.csv`, `data_to_publish/lessons.csv`), with optional JSON input flags,
+- treats source IDs as linking keys (for example `lessons.Courses -> courses.Course ID`) rather than publishable Geo IDs.
+
+### Course -> Lesson linking
+
+`courses.csv` field `Lessons` supports semicolon-separated lesson tokens in either plain-name or numbered-list format:
+- `Lab 01: intro ...; Lab 02: ...`
+- `1. Lab 01: intro ...; 2. Lab 02: ...`
+
+The publisher normalizes list ordinals (`^\d+\.`), then resolves lesson links against:
+- existing lesson entities in target space, and
+- lesson entities created in the same publish run.
+
+If any `Lessons` token cannot be resolved, publish is blocked with an unresolved-link error (fail fast, no silent drop).
 
 ## 4) Schema drift guard
 
@@ -57,3 +70,9 @@ Before building publish ops, `09_publish_courses_lessons.ts` now runs `data_to_p
 Agent publish policy:
 - if `--publish` and agent runtime is detected (`AGENT=1` or `OPENCODE=1`), any high-similarity match blocks publish.
 - every agent publish attempt appends a record to `runlog.md` (published yes/no + reason).
+
+## 6) Runtime notes
+
+- Policy warnings are reported and do not block unless `--strict-policy-warnings` is provided.
+- Policy errors block by default unless `--allow-policy-errors` is provided.
+- DAO target spaces submit proposal edits; entity changes appear only after DAO apply/approval.
