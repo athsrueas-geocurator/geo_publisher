@@ -1,4 +1,4 @@
-# Geo SDK Demo — Outline
+# Agent Powered SDK Geo Publisher
 
 ## Task Tracking
 
