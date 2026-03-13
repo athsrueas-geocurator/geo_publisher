@@ -181,6 +181,21 @@ Why this works:
 - DAO publishes require membership/editor authorization, which is checked first
 - same op generation path can target either space governance model
 
+## Fuzzy dedupe gate (Python)
+
+Before op generation, `09_publish_courses_lessons.ts` now runs a Python fuzzy check:
+
+- builds a pandas DataFrame of proposed entities (course/lesson rows plus `create_if_missing` relation targets)
+- queries existing named entities in the target space
+- runs fuzzy matching (`difflib`-based scoring in `data_to_publish/scripts/fuzzy_dedupe_check.py`)
+- classifies high and medium similarity matches and prints high-risk candidates
+
+Agent safety rule:
+- if running under agent runtime (`AGENT=1` or `OPENCODE=1`) with `--publish`, any high-similarity match blocks publish
+- each agent publish attempt writes a row to `runlog.md` with whether publish happened and why
+
+This is intentionally conservative so agents do not create near-duplicate entities on-chain.
+
 ## Daily command flow
 
 Use this sequence for safe iteration:

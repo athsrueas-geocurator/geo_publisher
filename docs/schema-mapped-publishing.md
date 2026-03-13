@@ -44,3 +44,16 @@ Key sections:
 Before generating ops, `09_publish_courses_lessons.ts` re-queries live type schema and compares fingerprints.
 
 If fingerprints differ from the decision file, publish is blocked and you must regenerate mappings.
+
+## 5) Python fuzzy dedupe guard
+
+Before building publish ops, `09_publish_courses_lessons.ts` now runs `data_to_publish/scripts/fuzzy_dedupe_check.py`.
+
+- Input 1: proposed entities DataFrame (courses, lessons, and relation targets with `create_if_missing`).
+- Input 2: existing target-space entities DataFrame from live API.
+- Matching: fuzzy score from Python `difflib` sequence + token-sort ratio.
+- Output: high and medium match buckets, consumed by the publish script.
+
+Agent publish policy:
+- if `--publish` and agent runtime is detected (`AGENT=1` or `OPENCODE=1`), any high-similarity match blocks publish.
+- every agent publish attempt appends a record to `runlog.md` (published yes/no + reason).
