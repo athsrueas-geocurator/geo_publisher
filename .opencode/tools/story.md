@@ -14,7 +14,7 @@ curl -s -X POST https://testnet-api.geobrowser.io/graphql \
 - Those requests failed with validation errors (`Field "name" is not defined by type "SpaceFilter"`), so we kept trying different operators (`includesInsensitive`, `is`, etc.) before landing on allowable filters.
 
 ### Tool Refactor
-- The new `.opencode/tools/geoApi.ts` tool imports `@opencode-ai/plugin` and defines helpers that know their own GraphQL queries, Zod argument schemas, and post-processing:
+- The global `~/.config/opencode/tools/geo-api.ts` tool imports `@opencode-ai/plugin` and defines helpers that know their own GraphQL queries, Zod argument schemas, and post-processing:
   - `searchSpaces`: keyword/type filters for the Schema `spaces` query.
   - `findTopic`: uses `EntityFilter` + `includesInsensitive` to locate topic names without guessing filters.
   - `entityRelations`: surfaces relations/backlinks for any entity, which mirrors what `@geoprotocol/geo-sdk` scripts already expect from the API.
@@ -42,10 +42,10 @@ query = """{ entities(filter: { name: { includesInsensitive: \"Cushing’s Syndr
 PY
 ```
 
-- The new helper file now captures that workflow, so future searches only require specifying helper name + arguments instead of reconstructing queries from the schema.
+- The global helper file now captures that workflow, so future searches only require specifying helper name + arguments instead of reconstructing queries from the schema.
 
 ### Looking Forward
-- We can extend the tool with more helper presets (e.g., `spaceContent`, `topicRelations`) and even call into the Geo SDK constants for ID validation. This story should serve as a single source for why `.opencode/tools/geoApi.ts` is organized the way it is and how to operate it.
+- We can extend the tool with more helper presets (e.g., `spaceContent`, `topicRelations`) and even call into the Geo SDK constants for ID validation. This story should serve as a single source for why `~/.config/opencode/tools/geo-api.ts` is organized the way it is and how to operate it.
 
 ### Schema-first publishing updates
 - The helper set now includes `typeSchema`, which reads values/relations for a type within a schema space and optionally performs fuzzy source-field matching.

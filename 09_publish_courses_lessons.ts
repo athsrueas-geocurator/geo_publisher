@@ -20,6 +20,11 @@ import {
 } from "./src/type-schema-live";
 import { TYPES } from "./src/constants";
 import { validateContentPolicies } from "./src/content-policy";
+import {
+  checkCsvWebUrls,
+  checkTaxonomyOverlap,
+  DEFAULT_CANONICAL_AI_SPACE_ID,
+} from "./src/prepublish-checks";
 
 dotenv.config();
 
@@ -280,7 +285,7 @@ async function loadEntityNameIndex(spaceId: string): Promise<Map<string, Indexed
     }`,
     {
       spaceId,
-      first: 1000,
+      first: 5000,
     },
   );
 
@@ -593,6 +598,14 @@ async function main() {
   const shouldPublish = hasFlag("--publish");
   const strictPolicyWarnings = hasFlag("--strict-policy-warnings");
   const allowPolicyErrors = hasFlag("--allow-policy-errors");
+  const allowBrokenUrls = hasFlag("--allow-broken-urls");
+  const allowTaxonomySimilar = hasFlag("--allow-taxonomy-similar");
+  const skipUrlCheck = hasFlag("--skip-url-check");
+  const skipTaxonomyCheck = hasFlag("--skip-taxonomy-check");
+  const canonicalTaxonomySpaceId =
+    getArg("--canonical-taxonomy-space") ??
+    process.env.CANONICAL_TAXONOMY_SPACE_ID ??
+    DEFAULT_CANONICAL_AI_SPACE_ID;
   const shouldTrackRunlog = shouldPublish && isAgentRuntime();
   let runlogWritten = false;
   let runlogTargetSpace = process.env.TARGET_SPACE_ID ?? "(unknown)";
@@ -634,6 +647,51 @@ async function main() {
 
     const courseRows = readRows(coursesJsonPath);
     const lessonRows = readRows(lessonsJsonPath);
+
+    if (!skipUrlCheck) {
+      const urlReport = await checkCsvWebUrls([coursesJsonPath, lessonsJsonPath]);
+      console.log(
+        `URL check: ${urlReport.checkedCount} checked, ${urlReport.restrictedCount} restricted, ${urlReport.failureCount} failures.`,
+      );
+      for (const restricted of urlReport.restricted.slice(0, 20)) {
+        console.log(
+          `[URL RESTRICTED] ${restricted.filePath}:${restricted.rowNumber} ${restricted.entityName} -> ${restricted.url} (${restricted.error})`,
+        );
+      }
+      for (const failure of urlReport.failures.slice(0, 20)) {
+        console.log(
+          `[URL ERROR] ${failure.filePath}:${failure.rowNumber} ${failure.entityName} -> ${failure.url} (${failure.error})`,
+        );
+      }
+      if (urlReport.failureCount > 0 && !allowBrokenUrls) {
+        throw new Error(
+          `URL check failed with ${urlReport.failureCount} broken URL(s). Fix URLs or rerun with --allow-broken-urls.`,
+        );
+      }
+    }
+
+    if (!skipTaxonomyCheck) {
+      const taxonomyReport = await checkTaxonomyOverlap({
+        filePaths: [coursesJsonPath, lessonsJsonPath],
+        canonicalSpaceId: canonicalTaxonomySpaceId,
+      });
+      console.log(
+        `Taxonomy overlap (${taxonomyReport.canonicalSpaceName}): exact=${taxonomyReport.totalExact}, similar=${taxonomyReport.totalSimilar}, unmatched=${taxonomyReport.totalUnmatched}`,
+      );
+      for (const field of taxonomyReport.fields) {
+        if (field.similarCount === 0) continue;
+        for (const similar of field.similar.slice(0, 10)) {
+          console.log(
+            `[TAXONOMY SIMILAR] ${field.field}: ${similar.value} -> ${similar.matchedEntity} score=${similar.score.toFixed(3)}`,
+          );
+        }
+      }
+      if (taxonomyReport.totalSimilar > 0 && !allowTaxonomySimilar) {
+        throw new Error(
+          `Taxonomy overlap found ${taxonomyReport.totalSimilar} similar value(s). Review terms or rerun with --allow-taxonomy-similar.`,
+        );
+      }
+    }
 
     const policyReport = validateContentPolicies(courseRows, lessonRows);
     if (policyReport.errorCount > 0 && !allowPolicyErrors) {
@@ -696,6 +754,9 @@ async function main() {
     const pendingCourseLessonLinks: PendingCourseLessonLinks[] = [];
 
     const relationEntityIndex = await loadEntityNameIndex(mapping.targetSpaceId);
+    const canonicalTaxonomyEntityIndex = skipTaxonomyCheck
+      ? new Map<string, IndexedEntity[]>()
+      : await loadEntityNameIndex(canonicalTaxonomySpaceId);
 
     const courseValueMappings = acceptedValueMappings(mapping.types.course.fields);
     const courseRelationMappings = acceptedRelationMappings(mapping.types.course.fields);
@@ -741,6 +802,14 @@ async function main() {
         }
 
         let targetIds = resolveIdsByName(names, relationEntityIndex, decision.relation);
+        if (targetIds.length === 0 && decision.relation?.targetTypeId) {
+          const isTaxonomyType = [TYPES.goal, TYPES.skill, TYPES.topic, TYPES.tag, TYPES.role].includes(
+            decision.relation.targetTypeId,
+          );
+          if (isTaxonomyType) {
+            targetIds = resolveIdsByName(names, canonicalTaxonomyEntityIndex, decision.relation);
+          }
+        }
 
         if (targetIds.length === 0) {
           targetIds = createMissingTargetsIfAllowed(
@@ -815,6 +884,14 @@ async function main() {
           targetIds = findCourseLinks(names.map((name) => slugify(name)), courseIdBySourceId);
         } else {
           targetIds = resolveIdsByName(names, relationEntityIndex, decision.relation);
+          if (targetIds.length === 0 && decision.relation?.targetTypeId) {
+            const isTaxonomyType = [TYPES.goal, TYPES.skill, TYPES.topic, TYPES.tag, TYPES.role].includes(
+              decision.relation.targetTypeId,
+            );
+            if (isTaxonomyType) {
+              targetIds = resolveIdsByName(names, canonicalTaxonomyEntityIndex, decision.relation);
+            }
+          }
         }
 
         if (

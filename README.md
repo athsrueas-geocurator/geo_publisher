@@ -7,11 +7,12 @@ We do not hardcode assumptions and hope they remain valid. We check the live API
 
 ## Why this repo works
 
-This repository works reliably because it enforces three guardrails:
+This repository works reliably because it enforces four guardrails:
 
 1. **Schema guardrail**: query scripts check required GraphQL fields/args before making deep calls.
 2. **Ontology guardrail**: mapping proposals are generated from live type schema, not guessed from CSV headers alone.
-3. **Publish guardrail**: publish scripts block on pending mapping decisions, schema drift, and content-policy violations.
+3. **Publish guardrail**: publish scripts block on pending mapping decisions, schema drift, content-policy violations, and broken URLs.
+4. **Taxonomy guardrail**: prepublish checks compare proposed Goals/Skills/Topics/Tags/Roles/Stages against canonical AI taxonomy entities and flag likely duplicates.
 
 The result is fewer broken publishes and fewer edits that create invalid graph structure.
 
@@ -28,6 +29,7 @@ bun install
 ```env
 PK_SW="0x<private_key>"
 TARGET_SPACE_ID="<space_id_to_publish_or_query>"
+CANONICAL_TAXONOMY_SPACE_ID="41e851610e13a19441c4d980f2f2ce6b"
 ```
 
 3) Optional endpoint override (defaults to testnet API)
@@ -37,6 +39,10 @@ export GEO_API_ENDPOINT="https://testnet-api.geobrowser.io/graphql"
 ```
 
 ## Repository map
+
+Global OpenCode source of truth (no repo-local duplicate):
+- `~/.config/opencode/tools/geo-api.ts` - single Geo helper tool used by agents
+- `~/.config/opencode/skills/geo-api/SKILL.md` - single Geo publishing skill used by agents
 
 - `src/geo-api-client.ts` - shared GraphQL transport and error normalization
 - `src/functions.ts` - `gql`, `publishOps`, and op serialization helpers
@@ -49,6 +55,9 @@ export GEO_API_ENDPOINT="https://testnet-api.geobrowser.io/graphql"
 - `07_generate_mapping_proposals.ts` - propose course/lesson mappings from live schema
 - `08_review_mapping_decisions.ts` - accept/reject/adjust mappings
 - `09_publish_courses_lessons.ts` - dry-run or publish mapped entities
+- `15_check_urls.ts` - URL reachability checks for publish CSVs
+- `16_check_taxonomy_overlap.ts` - canonical taxonomy overlap checks against AI space
+- `17_check_prepublish.ts` - policy + URL + taxonomy combined gate
 
 ## Schema snapshot policy (important)
 
@@ -218,6 +227,11 @@ Agent safety rule:
 - if running under agent runtime (`AGENT=1` or `OPENCODE=1`) with `--publish`, any high-similarity match blocks publish
 - each agent publish attempt writes a row to `runlog.md` with whether publish happened and why
 
+Additional publish-time checks:
+- `Web URL` values in selected source files are verified with HTTP HEAD/GET fallback.
+- taxonomy overlap against canonical AI space (`CANONICAL_TAXONOMY_SPACE_ID`, default `41e851610e13a19441c4d980f2f2ce6b`) reports exact/similar/unmatched terms.
+- publish blocks on taxonomy similar matches unless `--allow-taxonomy-similar` is provided.
+
 This is intentionally conservative so agents do not create near-duplicate entities on-chain.
 
 ## Daily command flow
@@ -240,6 +254,9 @@ bun run map:decide -- --action list
 # 5) dry run publish (no transaction)
 bun run publish:courses-lessons
 
+# optional full prepublish suite
+bun run check:prepublish
+
 # 6) publish when dry run is clean
 bun run publish:courses-lessons -- --publish
 ```
@@ -249,6 +266,7 @@ bun run publish:courses-lessons -- --publish
 - Query/demo: `api:demo`, `api:check`, `api:crawl`, `api:smoke`
 - Schema: `api:schema:check`, `api:schema:refresh`
 - Mapping/publish: `map:propose`, `map:decide`, `publish:courses-lessons`
+- Prepublish quality gates: `check:urls`, `check:taxonomy`, `check:prepublish`
 - Safety/ops: `policy:check`, `undo:courses-lessons`, `zero:target-space`, `ui:learn-tab`
 - Helper walkthrough: `geo:help`
 

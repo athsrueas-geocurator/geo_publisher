@@ -76,3 +76,16 @@ Agent publish policy:
 - Policy warnings are reported and do not block unless `--strict-policy-warnings` is provided.
 - Policy errors block by default unless `--allow-policy-errors` is provided.
 - DAO target spaces submit proposal edits; entity changes appear only after DAO apply/approval.
+
+## 7) URL + taxonomy checks
+
+- `09_publish_courses_lessons.ts` runs URL checks against selected source files (`Web URL` column) before building ops.
+- URL failures block publish unless `--allow-broken-urls` is provided.
+- HTTP `401/403/429` responses are treated as restricted-access warnings, not hard failures.
+- Taxonomy overlap checks compare Goals/Skills/Topics/Tags/Roles/Stages against canonical AI space entities.
+- Similar taxonomy matches block publish unless `--allow-taxonomy-similar` is provided.
+
+Standalone commands:
+- `bun run check:urls`
+- `bun run check:taxonomy`
+- `bun run check:prepublish`

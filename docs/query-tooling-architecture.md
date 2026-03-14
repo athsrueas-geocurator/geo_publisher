@@ -36,10 +36,10 @@ This document defines the canonical structure for Geo API query tooling in this 
   - Data shaping utility (non-query), retained under experimental namespace.
 
 ### Agent Tooling
-- `.opencode/tools/geo-api/tool.ts`
-  - Local OpenCode helper tool for structured API queries.
-- `.opencode/skills/geo-api/SKILL.md`
-  - Local skill guidance for helper-first querying.
+- `~/.config/opencode/tools/geo-api.ts`
+  - Global OpenCode helper tool for structured API queries.
+- `~/.config/opencode/skills/geo-api/SKILL.md`
+  - Global skill guidance for helper-first querying.
 
 ## Migration Targets
 - Move from interpolated GraphQL strings to variables-first queries in all maintained scripts.
@@ -54,7 +54,7 @@ This document defines the canonical structure for Geo API query tooling in this 
 - `bun run api:crawl` -> runs `experimental-scripts/crawl-ontology.ts` using `TARGET_SPACE_ID`.
 - `bun run api:schema:check` -> compares `GEO_API_SCHEMA.json` against live introspection.
 - `bun run api:schema:refresh` -> refreshes `GEO_API_SCHEMA.json` from live introspection.
-- `bun run api:smoke` -> schema check + helper query + demo query pass.
+- `bun run api:smoke` -> schema check + readiness check + demo query pass.
 - `bun run publish:demo` -> runs `02_publish_demo.ts`.
 
 ## Schema Snapshot Policy
@@ -75,3 +75,4 @@ This document defines the canonical structure for Geo API query tooling in this 
 - `courses.Lessons` supports numbered tokens (`1. ...; 2. ...`) and plain names; ordinals are normalized before link resolution.
 - Course->lesson links resolve against both existing entities and lessons created in the same run.
 - Agent-mode publishes are blocked on high-similarity fuzzy dedupe hits and logged to `runlog.md`.
+- Publish runs include URL reachability checks and taxonomy overlap checks against canonical AI space entities.

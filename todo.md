@@ -16,7 +16,7 @@
 - [x] Add/update `~/.config/opencode/opencode.json` only if needed for tool permission policy, while keeping project `.opencode` lean.
 
 ## De-Scattering and Cleanup
-- [ ] Decide canonical location policy: one source of truth for Geo API helper logic (global tool primary, optional repo-local wrapper).
+- [x] Decide canonical location policy: one source of truth for Geo API helper logic (global tool only; repo-local helper removed).
 - [ ] Keep exploratory scripts behind an experimental boundary and make them import shared query core instead of carrying independent GraphQL logic.
 - [x] Update docs so `README.md` and `experimental-scripts/docs.md` point to the same canonical query paths and commands.
-- [x] Add a quick smoke matrix command that runs schema check, one helper query, and one demo script to catch drift early.
+- [x] Add a quick smoke matrix command that runs schema check, readiness checks, and demo script to catch drift early.

@@ -19,11 +19,22 @@ Source reference:
 - `publish:courses-lessons` runs policy checks and blocks by default on:
   - policy errors (unless `--allow-policy-errors`)
   - policy warnings only when strict gate is enabled (`--strict-policy-warnings`)
+  - broken URLs (unless `--allow-broken-urls`)
+  - taxonomy similarity collisions from canonical AI space (unless `--allow-taxonomy-similar`)
+
+URL check note:
+- HTTP `401/403/429` are treated as restricted-access warnings because some sources block bots/headless requests.
 
 ## Commands
 
 - Run policy check only:
   - `bun run policy:check`
+- Run URL checks:
+  - `bun run check:urls`
+- Run taxonomy overlap checks:
+  - `bun run check:taxonomy`
+- Run combined prepublish checks:
+  - `bun run check:prepublish`
 - Publish with strict policy gates:
   - `bun run publish:courses-lessons -- --publish`
 - Publish with explicit override:
