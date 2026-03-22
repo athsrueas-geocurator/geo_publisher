@@ -5,7 +5,7 @@ import { spawnSync } from "node:child_process";
 import { Graph, type Op, type TypedValue, type PropertyValueParam } from "@geoprotocol/geo-sdk";
 import dotenv from "dotenv";
 import { parse } from "csv-parse/sync";
-import { printOps, publishOps } from "./src/functions";
+import { gql, printOps, publishOps } from "./src/functions";
 import {
   DEFAULT_MAPPING_FILE,
   type MappingDecision,
@@ -18,7 +18,7 @@ import {
   fetchTypeSchema,
   fingerprintTypeSchema,
 } from "./src/type-schema-live";
-import { TYPES } from "./src/constants";
+import { TYPES, PROPERTIES, VIEWS, QUERY_DATA_SOURCE } from "./src/constants";
 import { validateContentPolicies } from "./src/content-policy";
 import {
   checkCsvWebUrls,
@@ -87,6 +87,26 @@ type PendingCourseLessonLinks = {
   relationRule?: RelationRule;
   lessonTokens: string[];
 };
+
+type CourseLessonBlockPlan = {
+  lessonIds: Set<string>;
+  courseName: string;
+};
+
+type BlockRelationFetch = {
+  relations: Array<{
+    id: string;
+    fromEntityId: string;
+    toEntity?: { id?: string } | null;
+  }>;
+};
+
+const LESSON_BLOCK_COLUMNS = [
+  PROPERTIES.lesson_number,
+  PROPERTIES.description,
+  PROPERTIES.web_url,
+  PROPERTIES.topics,
+];
 
 function getArg(name: string): string | undefined {
   const idx = process.argv.indexOf(name);
@@ -222,6 +242,92 @@ function expandLessonLookupNames(raw: string, rule?: RelationRule): string[] {
   return [...new Set([mapped, stripped].filter(Boolean))];
 }
 
+async function fetchExistingBlockRelations(courseIds: string[], spaceId: string): Promise<BlockRelationFetch["relations"]> {
+  if (courseIds.length === 0) return [];
+  const result = await gql<BlockRelationFetch>(
+    `query CourseBlockRelations($spaceId: UUID!, $courseIds: [UUID!]!, $relationType: UUID!, $first: Int!) {
+      relations(
+        filter: {
+          fromEntityId: { in: $courseIds },
+          spaceId: { is: $spaceId },
+          typeId: { is: $relationType },
+        }
+        first: $first
+      ) {
+        id
+        fromEntityId
+        toEntity { id }
+      }
+    }`,
+    {
+      spaceId,
+      courseIds,
+      relationType: PROPERTIES.blocks,
+      first: Math.max(1000, courseIds.length * 2),
+    },
+  );
+  return result.relations;
+}
+
+async function ensureLessonBlocks(
+  plans: Map<string, CourseLessonBlockPlan>,
+  spaceId: string,
+  ops: Op[],
+) {
+  if (plans.size === 0) return;
+
+  const courseIds = [...plans.keys()];
+  const existing = await fetchExistingBlockRelations(courseIds, spaceId);
+  for (const relation of existing) {
+    ops.push(...Graph.deleteRelation({ id: relation.id }).ops);
+  }
+
+  for (const [courseId, plan] of plans) {
+    if (plan.lessonIds.size === 0) continue;
+    const blockName = plan.courseName ? `${plan.courseName} lessons` : "Lessons";
+    const blockFilter = JSON.stringify({
+      spaceId: { in: [spaceId] },
+      filter: {
+        [PROPERTIES.types]: { is: TYPES.lesson },
+        [PROPERTIES.courses]: { is: courseId },
+      },
+      orderBy: [{ propertyId: PROPERTIES.lesson_number, direction: "ASC" }],
+    });
+
+    const block = Graph.createEntity({
+      name: blockName,
+      types: [TYPES.data_block],
+      values: [
+        {
+          property: PROPERTIES.filter,
+          type: "text",
+          value: blockFilter,
+        },
+        {
+          property: PROPERTIES.name,
+          type: "text",
+          value: blockName,
+        },
+      ],
+      relations: {
+        [PROPERTIES.data_source_type]: { toEntity: QUERY_DATA_SOURCE },
+      },
+    });
+    ops.push(...block.ops);
+
+    const attach = Graph.createRelation({
+      fromEntity: courseId,
+      toEntity: block.id,
+      type: PROPERTIES.blocks,
+      entityRelations: {
+        [PROPERTIES.view]: { toEntity: VIEWS.table },
+        [PROPERTIES.properties]: LESSON_BLOCK_COLUMNS.map((column) => ({ toEntity: column })),
+      },
+    });
+    ops.push(...attach.ops);
+  }
+}
+
 function isAgentRuntime(): boolean {
   return process.env.AGENT === "1" || process.env.OPENCODE === "1";
 }
@@ -269,7 +375,7 @@ function requireAccepted(entries: MappingDecision[], label: string): void {
 function requireFieldKind(
   entries: MappingDecision[],
   sourceField: string,
-  kind: "value" | "relation",
+  kind: "value" | "relation" | Array<"value" | "relation">,
   label: string,
 ) {
   const entry = entries.find(
@@ -278,9 +384,11 @@ function requireFieldKind(
   if (!entry || entry.status !== "accepted" || !entry.accepted) {
     throw new Error(`${label}: '${sourceField}' must be accepted before publish.`);
   }
-  if (entry.accepted.kind !== kind) {
+  const allowedKinds = Array.isArray(kind) ? kind : [kind];
+  const kindLabel = Array.isArray(kind) ? kind.join(" or ") : kind;
+  if (!allowedKinds.includes(entry.accepted.kind)) {
     throw new Error(
-      `${label}: '${sourceField}' must map to ${kind}, got ${entry.accepted.kind}. Adjust mapping decisions first.`,
+      `${label}: '${sourceField}' must map to ${kindLabel}, got ${entry.accepted.kind}. Adjust mapping decisions first.`,
     );
   }
 }
@@ -678,10 +786,20 @@ async function main() {
       requireFieldKind(mapping.types.lesson.fields, "Courses", "relation", "Lesson mapping");
     }
     if (hasField(mapping.types.lesson.fields, "lesson_num")) {
-      requireFieldKind(mapping.types.lesson.fields, "lesson_num", "value", "Lesson mapping");
+      requireFieldKind(
+        mapping.types.lesson.fields,
+        "lesson_num",
+        ["value", "relation"],
+        "Lesson mapping",
+      );
     }
     if (hasField(mapping.types.lesson.fields, "Lesson number")) {
-      requireFieldKind(mapping.types.lesson.fields, "Lesson number", "value", "Lesson mapping");
+      requireFieldKind(
+        mapping.types.lesson.fields,
+        "Lesson number",
+        ["value", "relation"],
+        "Lesson mapping",
+      );
     }
 
     const courseRows = readRows(coursesJsonPath);
@@ -791,6 +909,7 @@ async function main() {
     const courseIdBySourceId = new Map<string, string>();
     const plannedLessonIdsByName = new Map<string, string[]>();
     const pendingCourseLessonLinks: PendingCourseLessonLinks[] = [];
+    const courseLessonPlans = new Map<string, CourseLessonBlockPlan>();
 
     const relationEntityIndex = await loadEntityNameIndex(mapping.targetSpaceId);
     const canonicalTaxonomyEntityIndex = skipTaxonomyCheck
@@ -1014,7 +1133,18 @@ async function main() {
         }
       }
 
-      for (const lessonId of resolvedForCourse) {
+        if (resolvedForCourse.size > 0) {
+          const plan = courseLessonPlans.get(pending.courseEntityId) ?? {
+            lessonIds: new Set<string>(),
+            courseName: pending.courseName,
+          };
+          for (const lessonId of resolvedForCourse) {
+            plan.lessonIds.add(lessonId);
+          }
+          courseLessonPlans.set(pending.courseEntityId, plan);
+        }
+
+        for (const lessonId of resolvedForCourse) {
         const relationResult = Graph.createRelation({
           fromEntity: pending.courseEntityId,
           toEntity: lessonId,
@@ -1030,6 +1160,8 @@ async function main() {
         `Unresolved course lesson links (${unresolvedCourseLessonLinks.length}). Examples: ${preview}`,
       );
     }
+
+    await ensureLessonBlocks(courseLessonPlans, mapping.targetSpaceId, allOps);
 
     await verifyTargetSpaceReadable(mapping.targetSpaceId);
     printOps(allOps, "data_to_delete", "courses_lessons_publish_ops.txt");

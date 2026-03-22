@@ -208,7 +208,11 @@ export function printOps(ops: any, outputDir: string, fn: string) {
 
   if (ops.length > 0) {
     const convertedOps = convertUuidBytes(ops);
-    const outputText = JSON.stringify(convertedOps, null, 2);
+    const outputText = JSON.stringify(
+      convertedOps,
+      (_key, value) => (typeof value === "bigint" ? value.toString() : value),
+      2,
+    );
     fs.mkdirSync(outputDir, { recursive: true });
     const filePath = path.join(outputDir, fn);
     fs.writeFileSync(filePath, outputText);

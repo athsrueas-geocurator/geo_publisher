@@ -4,3 +4,5 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2026-03-13T03:09:21.205Z | agent | 7aed0e58f713f656e2933f7635f08e62 | yes | no | 505 | - | Blocked by dedupe gate: 505 high-similarity matches detected (threshold 0.92). |
 | 2026-03-13T03:55:52.064Z | agent | 7aed0e58f713f656e2933f7635f08e62 | yes | yes | 0 | 0x4254bd6c07a9ec0df260fd105add0860cb081643117ec6ce3e50426ba54b9e90 | Published successfully with dedupe gate clear (0 high matches). |
+| 2026-03-22T04:39:51.278Z | agent | 7aed0e58f713f656e2933f7635f08e62 | yes | no | 0 | - | Publish failed: Taxonomy overlap found 9 similar value(s). Review terms or rerun with --allow-taxonomy-similar. |
+| 2026-03-22T04:41:08.563Z | agent | 7aed0e58f713f656e2933f7635f08e62 | yes | no | 499 | - | Blocked by dedupe gate: 499 high-similarity matches detected (threshold 0.92). |

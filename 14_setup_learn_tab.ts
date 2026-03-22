@@ -27,6 +27,19 @@ type ExistingTabQuery = {
   }>;
 };
 
+type BlockRelationQuery = {
+  relations: Array<{
+    id: string;
+    toEntity?: { id: string } | null;
+  }>;
+};
+
+type ViewRelationQuery = {
+  relations: Array<{
+    id: string;
+  }>;
+};
+
 function hasFlag(name: string): boolean {
   return process.argv.includes(name);
 }
@@ -54,6 +67,12 @@ async function main() {
   }
 
   const shouldPublish = hasFlag("--publish");
+  const viewArg = getArg("--view") ?? "gallery";
+  const viewEntity = VIEWS[viewArg as keyof typeof VIEWS];
+  if (!viewEntity) {
+    throw new Error(`Unknown view '${viewArg}'. Choose one of: ${Object.keys(VIEWS).join(", ")}.`);
+  }
+  console.log(`Using view: ${viewArg}`);
 
   const snapshot = await gql<SpaceSnapshot>(
     `query LearnTabSpace($spaceId: UUID!) {
@@ -97,7 +116,74 @@ async function main() {
   );
 
   if (existingLearnTab) {
-    console.log(`Learn tab already exists (${existingLearnTab.toEntity?.id}). Nothing to do.`);
+    console.log(`Learn tab already exists (${existingLearnTab.toEntity?.id}). Updating view to '${viewArg}'.`);
+
+    const learnTabId = existingLearnTab.toEntity?.id;
+    if (!learnTabId) {
+      throw new Error("Existing Learn tab missing entity id");
+    }
+
+    const blocks = await gql<BlockRelationQuery>(
+      `query LearnTabBlocks($pageId: UUID!, $spaceId: UUID!, $relationType: UUID!, $first: Int!) {
+        relations(
+          filter: { fromEntityId: { is: $pageId }, spaceId: { is: $spaceId }, typeId: { is: $relationType } }
+          first: $first
+        ) {
+          id
+          toEntity { id }
+        }
+      }`,
+      {
+        pageId: learnTabId,
+        spaceId: targetSpaceId,
+        relationType: PROPERTIES.blocks,
+        first: 20,
+      },
+    );
+
+    const blockRelation = blocks.relations[0];
+    if (!blockRelation?.toEntity?.id) {
+      throw new Error("Learn tab has no data block to update");
+    }
+
+    const ops: Op[] = [];
+    const existingViewRelations = await gql<ViewRelationQuery>(
+      `query BlockViewRelations($blockId: UUID!, $spaceId: UUID!, $relationType: UUID!, $first: Int!) {
+        relations(
+          filter: { fromEntityId: { is: $blockId }, spaceId: { is: $spaceId }, typeId: { is: $relationType } }
+          first: $first
+        ) {
+          id
+        }
+      }`,
+      {
+        blockId: blockRelation.toEntity.id,
+        spaceId: targetSpaceId,
+        relationType: PROPERTIES.view,
+        first: 20,
+      },
+    );
+
+    for (const relation of existingViewRelations.relations) {
+      const del = Graph.deleteRelation({ id: relation.id });
+      ops.push(...del.ops);
+    }
+
+    const setView = Graph.createRelation({
+      fromEntity: blockRelation.toEntity.id,
+      toEntity: viewEntity,
+      type: PROPERTIES.view,
+    });
+    ops.push(...setView.ops);
+
+    console.log(`Prepared ${ops.length} ops to adjust Learn tab view.`);
+    if (!shouldPublish) {
+      console.log("Dry run only. Add --publish to update the Learn tab view.");
+      return;
+    }
+
+    const txHash = await publishOps(ops, "Update Learn tab view", targetSpaceId);
+    console.log(`Learn tab view update tx: ${txHash}`);
     return;
   }
 
@@ -115,7 +201,7 @@ async function main() {
     ],
     relations: {
       [PROPERTIES.data_source_type]: { toEntity: QUERY_DATA_SOURCE },
-      [PROPERTIES.view]: { toEntity: VIEWS.gallery },
+      [PROPERTIES.view]: { toEntity: viewEntity },
     },
   });
   ops.push(...learnCollectionBlock.ops);

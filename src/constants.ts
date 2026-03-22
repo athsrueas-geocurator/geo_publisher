@@ -38,6 +38,10 @@ export const PROPERTIES = {
   birth_date:       "60f8b943d9a742109356fc108ee7212c",
   date_founded:     "41aa3d9847b64a97b7ec427e575b910e",
   topics:           "458fbc070dbf4c928f5716f3fdde7c32",
+  lessons:          "1e4e6986aea4481eba29ab0677b6d514",
+  lesson_number:    "52581edc7bb34b5d915f8cd91476dc64",
+  properties:        "01412f8381894ab1836565c7fd358cc1",
+  courses:          "9405a71b598e4783847165ac1aabab40",
   blocks:           "beaba5cba67741a8b35377030613fc70",  // Blocks relation — attaches blocks to a parent entity
   markdown_content: "e3e363d1dd294ccb8e6ff3b76d99bc33",  // Markdown body for a text block
   data_source_type: "1f69cc9880d444abad493df6a7b15ee4",  // Declares query vs collection data source

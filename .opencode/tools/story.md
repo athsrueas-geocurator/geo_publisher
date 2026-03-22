@@ -51,3 +51,7 @@ PY
 - The helper set now includes `typeSchema`, which reads values/relations for a type within a schema space and optionally performs fuzzy source-field matching.
 - Publishing flows should prefer schema discovery + reviewed mappings over hardcoded Course/Lesson property IDs.
 - Mapping proposals are intentionally non-final; they must be reviewed and explicitly accepted/rejected before publish logic is changed.
+### Course/Lesson publishing clarity
+- The `09_publish_courses_lessons.ts` script reads the approved mapping decisions, creates Lesson entities, and then attaches a query-style Block per course whose filter orders by `PROPERTIES.lesson_number`. Each `Blocks` relation receives the Table view plus the `Properties` relations (`Lesson number`, `Description`, `Web URL`, `Topics`) so the table columns match what the Geo Browser expects.
+- When we need to reset a space before a new publish, `18_blank_courses_lessons.ts` removes every lesson/course value and relation; it outputs `data_to_delete/blank_courses_lessons_ops.txt` so the same ops can be replayed or audited.
+- If a space already has products, the temporary `refresh_course_blocks` helper (or the same logic in `09_publish_courses_lessons.ts`) deletes the old `Blocks` relations and recreates them with the ordered filter and column metadata, ensuring the UI sorts lessons by number and renders the same columns as in the AI space.

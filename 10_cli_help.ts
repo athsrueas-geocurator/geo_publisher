@@ -56,6 +56,7 @@ const lines = [
   "  - bun run geo:help          # show this help",
   "  - bun run undo:courses-lessons  # generate undo ops",
   "  - bun run zero:target-space  # generate full zero-space ops",
+  "  - bun run blank:courses-lessons  # blank all course/lesson content",
   "  - bun run ui:learn-tab  # create Learn heading/tab linked to courses",
   "",
   "Environment:",
