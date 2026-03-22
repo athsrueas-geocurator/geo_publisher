@@ -273,6 +273,7 @@ async function ensureLessonBlocks(
   plans: Map<string, CourseLessonBlockPlan>,
   spaceId: string,
   ops: Op[],
+  skipTableView: boolean,
 ) {
   if (plans.size === 0) return;
 
@@ -315,14 +316,17 @@ async function ensureLessonBlocks(
     });
     ops.push(...block.ops);
 
+    const relationData: Record<string, Array<{ toEntity: string }>> = {};
+    if (!skipTableView) {
+      relationData[PROPERTIES.view] = [{ toEntity: VIEWS.table }];
+      relationData[PROPERTIES.properties] = LESSON_BLOCK_COLUMNS.map((column) => ({ toEntity: column }));
+    }
+
     const attach = Graph.createRelation({
       fromEntity: courseId,
       toEntity: block.id,
       type: PROPERTIES.blocks,
-      entityRelations: {
-        [PROPERTIES.view]: { toEntity: VIEWS.table },
-        [PROPERTIES.properties]: LESSON_BLOCK_COLUMNS.map((column) => ({ toEntity: column })),
-      },
+      ...(skipTableView ? {} : { entityRelations: relationData }),
     });
     ops.push(...attach.ops);
   }
@@ -802,8 +806,8 @@ async function main() {
       );
     }
 
-    const courseRows = readRows(coursesJsonPath);
-    const lessonRows = readRows(lessonsJsonPath);
+    let courseRows = readRows(coursesJsonPath);
+    let lessonRows = readRows(lessonsJsonPath);
 
     if (!skipUrlCheck) {
       const urlReport = await checkCsvWebUrls([coursesJsonPath, lessonsJsonPath]);
@@ -893,6 +897,39 @@ async function main() {
       console.log(
         `[DEDUPE HIGH] ${match.proposedName} -> ${match.bestMatch.name} score=${match.score.toFixed(3)} source=${match.sourceKind}:${match.sourceRef}`,
       );
+    }
+
+    const skipCourseNames = new Set(
+      dedupeReport.highMatches
+        .filter((match) => match.sourceKind === "course")
+        .map((match) => match.proposedName.trim().toLowerCase()),
+    );
+    const skipLessonNames = new Set(
+      dedupeReport.highMatches
+        .filter((match) => match.sourceKind === "lesson")
+        .map((match) => match.proposedName.trim().toLowerCase()),
+    );
+
+    if (skipCourseNames.size || skipLessonNames.size) {
+      console.log(
+        `Skipping ${skipCourseNames.size} course(s) and ${skipLessonNames.size} lesson(s) because they already exist.`,
+      );
+    }
+
+    const normalizeRowName = (row: Record<string, unknown>) =>
+      String(getFieldValue(row, "name") ?? getFieldValue(row, "Name") ?? "").trim().toLowerCase();
+
+    if (skipCourseNames.size) {
+      courseRows = courseRows.filter((row) => {
+        const normalized = normalizeRowName(row);
+        return normalized && !skipCourseNames.has(normalized);
+      });
+    }
+    if (skipLessonNames.size) {
+      lessonRows = lessonRows.filter((row) => {
+        const normalized = normalizeRowName(row);
+        return normalized && !skipLessonNames.has(normalized);
+      });
     }
 
     if (dedupeHighMatches > 0 && shouldSendTransaction && isAgentRuntime()) {
@@ -1161,7 +1198,8 @@ async function main() {
       );
     }
 
-    await ensureLessonBlocks(courseLessonPlans, mapping.targetSpaceId, allOps);
+    const skipTableView = hasFlag("--skip-table-view");
+    await ensureLessonBlocks(courseLessonPlans, mapping.targetSpaceId, allOps, skipTableView);
 
     await verifyTargetSpaceReadable(mapping.targetSpaceId);
     printOps(allOps, "data_to_delete", "courses_lessons_publish_ops.txt");

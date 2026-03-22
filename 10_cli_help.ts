@@ -37,6 +37,7 @@ const lines = [
   "",
   "  6) Publish on-chain",
   "     - bun run publish:courses-lessons -- --publish",
+  "     - Add --skip-table-view to skip setting the table view/column metadata when attaching lesson blocks.",
   "     - Note: DAO target spaces submit proposals; data may not appear until DAO applies the edit.",
   "",
   "  7) Undo last publish set (uses data_to_delete/courses_lessons_publish_ops.txt)",
