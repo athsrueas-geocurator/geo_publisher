@@ -128,6 +128,102 @@ function normalizeSchema(schema: SchemaSnapshot): SchemaSnapshot {
   };
 }
 
+const ONTOLOGY_DRIFT_LOG = path.resolve("ontology-drift.log");
+const CLOSE_MATCH_SIMILARITY_THRESHOLD = 0.95;
+
+type OntologyLogType = "drift" | "close-match";
+
+type OntologyLogEntry = {
+  type: OntologyLogType;
+  endpoint: string;
+  schemaPath: string;
+  previousHash: string | null;
+  nextHash: string;
+  similarity?: number;
+  addedTypes?: number;
+  removedTypes?: number;
+  changedTypes?: number;
+  details?: string;
+};
+
+type SchemaDiff = {
+  similarity: number;
+  added: string[];
+  removed: string[];
+  changed: string[];
+  details: string;
+};
+
+function logOntologyEvent(entry: OntologyLogEntry): void {
+  const timestamp = new Date().toISOString();
+  const fields = [
+    `timestamp=${timestamp}`,
+    `type=${entry.type}`,
+    `endpoint=${entry.endpoint}`,
+    `schema=${entry.schemaPath}`,
+    `previous=${entry.previousHash ?? "<none>"}`,
+    `next=${entry.nextHash}`,
+  ];
+  if (typeof entry.similarity === "number") {
+    fields.push(`similarity=${entry.similarity.toFixed(3)}`);
+  }
+  if (typeof entry.addedTypes === "number") {
+    fields.push(`added=${entry.addedTypes}`);
+  }
+  if (typeof entry.removedTypes === "number") {
+    fields.push(`removed=${entry.removedTypes}`);
+  }
+  if (typeof entry.changedTypes === "number") {
+    fields.push(`changed=${entry.changedTypes}`);
+  }
+  if (entry.details) {
+    fields.push(`details=${entry.details}`);
+  }
+  fs.appendFileSync(ONTOLOGY_DRIFT_LOG, `${fields.join(" | ")}\n`, "utf8");
+}
+
+function getTypeNames(schema: SchemaSnapshot): string[] {
+  return schema.__schema.types
+    .map((typeEntry) => typeEntry.name)
+    .filter((name): name is string => typeof name === "string");
+}
+
+function fieldsEqual(a: SchemaField[] | null | undefined, b: SchemaField[] | null | undefined): boolean {
+  const aNames = (a ?? []).map((field) => field.name);
+  const bNames = (b ?? []).map((field) => field.name);
+  if (aNames.length !== bNames.length) return false;
+  return aNames.every((name, index) => name === bNames[index]);
+}
+
+function describeSchemaDiff(previous: SchemaSnapshot | null, next: SchemaSnapshot): SchemaDiff {
+  const previousNames = previous ? getTypeNames(previous) : [];
+  const nextNames = getTypeNames(next);
+  const previousSet = new Set(previousNames);
+  const intersection = nextNames.filter((name) => previousSet.has(name));
+  const union = new Set([...previousNames, ...nextNames]);
+  const similarity = union.size === 0 ? 1 : intersection.length / union.size;
+
+  const added = nextNames.filter((name) => !previousSet.has(name));
+  const removed = previousNames.filter((name) => !nextNames.includes(name));
+
+  const changed = intersection.filter((name) => {
+    const prevType = previous?.__schema.types.find((typeEntry) => typeEntry.name === name);
+    const nextType = next.__schema.types.find((typeEntry) => typeEntry.name === name);
+    if (!prevType || !nextType) return false;
+    return !fieldsEqual(prevType.fields, nextType.fields);
+  });
+
+  const summarize = (list: string[]): string => {
+    if (list.length === 0) return "none";
+    const sample = list.slice(0, 5).join(", ");
+    const suffix = list.length > 5 ? ", ..." : "";
+    return `${list.length} (${sample}${suffix})`;
+  };
+
+  const details = `added=${summarize(added)}; removed=${summarize(removed)}; changed=${summarize(changed)}`;
+
+  return { similarity, added, removed, changed, details };
+}
 function readFileIfExists(filePath: string): string | null {
   if (!fs.existsSync(filePath)) return null;
   return fs.readFileSync(filePath, "utf8");
@@ -147,11 +243,39 @@ async function main() {
   const nextHash = sha(nextContent);
   const currentContent = readFileIfExists(schemaPath);
   const currentHash = currentContent ? sha(currentContent) : null;
+  const currentSchema = currentContent ? (JSON.parse(currentContent) as SchemaSnapshot) : null;
 
   if (mode === "check") {
     if (currentHash === nextHash) {
       console.log("Schema is up to date.");
       return;
+    }
+    const diff = describeSchemaDiff(currentSchema, schema);
+    logOntologyEvent({
+      type: "drift",
+      endpoint,
+      schemaPath,
+      previousHash: currentHash,
+      nextHash,
+      similarity: diff.similarity,
+      addedTypes: diff.added.length,
+      removedTypes: diff.removed.length,
+      changedTypes: diff.changed.length,
+      details: diff.details,
+    });
+    if (currentHash && diff.similarity >= CLOSE_MATCH_SIMILARITY_THRESHOLD) {
+      logOntologyEvent({
+        type: "close-match",
+        endpoint,
+        schemaPath,
+        previousHash: currentHash,
+        nextHash,
+        similarity: diff.similarity,
+        addedTypes: diff.added.length,
+        removedTypes: diff.removed.length,
+        changedTypes: diff.changed.length,
+        details: diff.details,
+      });
     }
     console.error("Schema drift detected. Run: bun run api:schema:refresh");
     process.exit(1);

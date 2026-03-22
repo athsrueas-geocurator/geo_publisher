@@ -236,7 +236,7 @@ export async function fetchSpaceEntityNames(spaceId: string): Promise<{
     }`,
     {
       spaceId,
-      first: 5000,
+      first: 1000,
     },
   );
 

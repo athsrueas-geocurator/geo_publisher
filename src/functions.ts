@@ -47,7 +47,10 @@ export async function publishOps(ops: Op[], editName: string, input_space?: stri
     privateKey: privateKey,
     rpcUrl: TESTNET_RPC_URL,
   });
-  const author = client.account.address
+  const author = client.account.address;
+  if (!author) {
+    throw new Error("Smart Wallet address not found from private key.");
+  }
 
   const personalSpaceData = await gql(
     `query PersonalSpacesByAddress($author: String!) {
@@ -58,9 +61,6 @@ export async function publishOps(ops: Op[], editName: string, input_space?: stri
     }`,
     { author },
   );
-  
-  if (!author)
-    throw new Error("Smart Wallet address not found from private key.");
 
   console.log(`\nQuerying space ${spaceId} from the API...`);
 

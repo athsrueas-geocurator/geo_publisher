@@ -58,6 +58,12 @@ Before generating ops, `09_publish_courses_lessons.ts` re-queries live type sche
 
 If fingerprints differ from the decision file, publish is blocked and you must regenerate mappings.
 
+### Schema drift observability
+
+- Running `bun run api:schema:check` now appends a `type=drift` row to `ontology-drift.log` whenever the live schema diverges from the checked-in snapshot, so you can chronicle each detected drift and the hash pair that triggered it.
+- Each log row includes `similarity`, `added`, `removed`, and `changed` counts so you can judge how subtle or dramatic the change was.
+- When the proposed schema is very close but still not identical (similarity ≥ 0.95), a second `type=close-match` row is emitted for the same event, signaling “near misses” to keep the team aware of nearly consistent ontologies during publish planning.
+
 ## 5) Python fuzzy dedupe guard
 
 Before building publish ops, `09_publish_courses_lessons.ts` now runs `data_to_publish/scripts/fuzzy_dedupe_check.py`.

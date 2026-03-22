@@ -2,7 +2,7 @@ import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";
 import { spawnSync } from "node:child_process";
-import { Graph, type Op } from "@geoprotocol/geo-sdk";
+import { Graph, type Op, type TypedValue, type PropertyValueParam } from "@geoprotocol/geo-sdk";
 import dotenv from "dotenv";
 import { parse } from "csv-parse/sync";
 import { printOps, publishOps } from "./src/functions";
@@ -160,6 +160,30 @@ function splitRelationValues(value: unknown, rule?: RelationRule): string[] {
   return tokens;
 }
 
+function inferTypedValue(sourceValue: unknown): {
+  type: "text" | "number" | "checkbox";
+  value: string | number | boolean;
+} {
+  if (typeof sourceValue === "number") {
+    return { type: "number", value: sourceValue };
+  }
+
+  if (typeof sourceValue === "boolean") {
+    return { type: "checkbox", value: sourceValue };
+  }
+
+  const raw = String(sourceValue).trim();
+  if (/^(true|false)$/i.test(raw)) {
+    return { type: "checkbox", value: raw.toLowerCase() === "true" };
+  }
+
+  if (/^-?\d+(\.\d+)?$/.test(raw)) {
+    return { type: "number", value: Number(raw) };
+  }
+
+  return { type: "text", value: raw };
+}
+
 function stripListOrdinalPrefix(value: string): string {
   return value.replace(/^\s*\d+\s*\.\s*/, "").trim();
 }
@@ -285,7 +309,7 @@ async function loadEntityNameIndex(spaceId: string): Promise<Map<string, Indexed
     }`,
     {
       spaceId,
-      first: 5000,
+      first: 1000,
     },
   );
 
@@ -306,6 +330,18 @@ async function loadEntityNameIndex(spaceId: string): Promise<Map<string, Indexed
     }
   }
   return index;
+}
+
+async function verifyTargetSpaceReadable(spaceId: string): Promise<void> {
+  const { gql } = await import("./src/functions");
+  await gql(
+    `query VerifyTargetSpace($spaceId: UUID!) {
+      space(id: $spaceId) {
+        id
+      }
+    }`,
+    { spaceId },
+  );
 }
 
 function resolveIdsByName(
@@ -483,7 +519,7 @@ async function loadExistingRecords(spaceId: string): Promise<DedupeExistingRecor
     }`,
     {
       spaceId,
-      first: 2000,
+      first: 1000,
     },
   );
 
@@ -594,9 +630,10 @@ async function main() {
     getArg("--courses-json") ?? getArg("--courses-csv") ?? "data_to_publish/courses.csv";
   const lessonsJsonPath =
     getArg("--lessons-json") ?? getArg("--lessons-csv") ?? "data_to_publish/lessons.csv";
-  const editName = getArg("--edit-name") ?? "Schema-mapped publish: courses and lessons";
-  const shouldPublish = hasFlag("--publish");
-  const strictPolicyWarnings = hasFlag("--strict-policy-warnings");
+    const editName = getArg("--edit-name") ?? "Schema-mapped publish: courses and lessons";
+    const shouldPublish = hasFlag("--publish");
+    const explicitDryRun = hasFlag("--dry-run");
+    const strictPolicyWarnings = hasFlag("--strict-policy-warnings");
   const allowPolicyErrors = hasFlag("--allow-policy-errors");
   const allowBrokenUrls = hasFlag("--allow-broken-urls");
   const allowTaxonomySimilar = hasFlag("--allow-taxonomy-similar");
@@ -606,7 +643,8 @@ async function main() {
     getArg("--canonical-taxonomy-space") ??
     process.env.CANONICAL_TAXONOMY_SPACE_ID ??
     DEFAULT_CANONICAL_AI_SPACE_ID;
-  const shouldTrackRunlog = shouldPublish && isAgentRuntime();
+    const shouldSendTransaction = shouldPublish && !explicitDryRun;
+    const shouldTrackRunlog = shouldSendTransaction && isAgentRuntime();
   let runlogWritten = false;
   let runlogTargetSpace = process.env.TARGET_SPACE_ID ?? "(unknown)";
   let dedupeHighMatches = 0;
@@ -624,9 +662,10 @@ async function main() {
   };
 
   try {
-    await ensureSchemaMatches(mappingFile);
     const mapping = readDecisionFile(mappingFile);
     runlogTargetSpace = mapping.targetSpaceId;
+    await verifyTargetSpaceReadable(mapping.targetSpaceId);
+    await ensureSchemaMatches(mappingFile);
 
     requireAccepted(mapping.types.course.fields, "Course mapping");
     requireAccepted(mapping.types.lesson.fields, "Lesson mapping");
@@ -738,7 +777,7 @@ async function main() {
       );
     }
 
-    if (dedupeHighMatches > 0 && shouldPublish && isAgentRuntime()) {
+    if (dedupeHighMatches > 0 && shouldSendTransaction && isAgentRuntime()) {
       logAgentPublishRun(
         false,
         `Blocked by dedupe gate: ${dedupeHighMatches} high-similarity matches detected (threshold ${dedupeReport.summary.highThreshold}).`,
@@ -766,18 +805,31 @@ async function main() {
       const rowPendingLessonLinks: Array<Omit<PendingCourseLessonLinks, "courseEntityId">> = [];
 
       const values = courseValueMappings
-        .map((decision) => {
+        .map<PropertyValueParam | null>((decision) => {
           const accepted = decision.accepted;
           if (!accepted) return null;
           const sourceValue = getFieldValue(row, decision.sourceField);
           if (sourceValue == null || sourceValue === "") return null;
-          return {
+          const typed = inferTypedValue(sourceValue);
+          const typedValue: TypedValue =
+            typed.type === "text"
+              ? { type: "text", value: String(typed.value) }
+              : typed.type === "checkbox"
+              ? { type: "boolean", value: Boolean(typed.value) }
+              : (() => {
+                  const numeric = Number(typed.value);
+                  if (Number.isInteger(numeric)) {
+                    return { type: "integer", value: numeric };
+                  }
+                  return { type: "float", value: numeric };
+                })();
+          const typedProperty: PropertyValueParam = {
             property: accepted.id,
-            type: "text" as const,
-            value: String(sourceValue),
+            ...typedValue,
           };
+          return typedProperty;
         })
-        .filter((entry): entry is { property: string; type: "text"; value: string } => Boolean(entry));
+        .filter((entry): entry is PropertyValueParam => entry !== null);
 
       const relations: Record<string, Array<{ toEntity: string }>> = {};
       for (const decision of courseRelationMappings) {
@@ -850,19 +902,31 @@ async function main() {
     const lessonRelationMappings = acceptedRelationMappings(mapping.types.lesson.fields);
 
     for (const row of lessonRows as LessonRow[]) {
-      const values = lessonValueMappings
-        .map((decision) => {
-          const accepted = decision.accepted;
-          if (!accepted) return null;
-          const sourceValue = getFieldValue(row, decision.sourceField);
-          if (sourceValue == null || sourceValue === "") return null;
-          return {
-            property: accepted.id,
-            type: "text" as const,
-            value: String(sourceValue),
-          };
-        })
-        .filter((entry): entry is { property: string; type: "text"; value: string } => Boolean(entry));
+    const values = lessonValueMappings
+      .map<PropertyValueParam | null>((decision) => {
+        const accepted = decision.accepted;
+        if (!accepted) return null;
+        const sourceValue = getFieldValue(row, decision.sourceField);
+        if (sourceValue == null || sourceValue === "") return null;
+        const typed = inferTypedValue(sourceValue);
+        const typedValue: TypedValue =
+          typed.type === "text"
+            ? { type: "text", value: String(typed.value) }
+            : typed.type === "checkbox"
+            ? { type: "boolean", value: Boolean(typed.value) }
+            : (() => {
+                const numeric = Number(typed.value);
+                if (Number.isInteger(numeric)) {
+                  return { type: "integer", value: numeric };
+                }
+                return { type: "float", value: numeric };
+              })();
+        return {
+          property: accepted.id,
+          ...typedValue,
+        };
+      })
+      .filter((entry): entry is PropertyValueParam => entry !== null);
 
       const relations: Record<string, Array<{ toEntity: string }>> = {};
       for (const decision of lessonRelationMappings) {
@@ -967,11 +1031,18 @@ async function main() {
       );
     }
 
+    await verifyTargetSpaceReadable(mapping.targetSpaceId);
     printOps(allOps, "data_to_delete", "courses_lessons_publish_ops.txt");
     console.log(`Generated ${allOps.length} ops.`);
+    console.log("Preflight summary:");
+    console.log("- schema fingerprints matched");
+    console.log("- URL/taxonomy/policy checks passed");
+    console.log("- dedupe check completed");
+    console.log("- entity ops generated");
+    console.log("- course/lesson relations resolved");
 
-    if (!shouldPublish) {
-      console.log("Dry run complete. Add --publish to send transaction.");
+    if (!shouldSendTransaction) {
+      console.log("Dry run complete. Review ops and preflight output before publishing.");
       return;
     }
 

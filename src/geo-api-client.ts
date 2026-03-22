@@ -39,15 +39,24 @@ export async function geoGraphqlRequest<TData>(
   options: GraphQLRequestOptions = {},
 ): Promise<TData> {
   const endpoint = resolveGeoApiEndpoint(options.endpoint);
-  const response = await fetch(endpoint, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      query,
-      variables: options.variables,
-      operationName: options.operationName,
-    }),
-  });
+  let response: Response;
+  try {
+    response = await fetch(endpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        query,
+        variables: options.variables,
+        operationName: options.operationName,
+      }),
+      signal: AbortSignal.timeout(15000),
+    });
+  } catch (error) {
+    if (error instanceof Error && error.name === "AbortError") {
+      throw new GeoApiRequestError("Geo API request timed out", 408, "Request Timeout");
+    }
+    throw error;
+  }
 
   let json: GraphQLResponse<TData>;
   try {

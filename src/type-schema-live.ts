@@ -67,9 +67,14 @@ export async function findTypeIdByName(typeName: string, schemaSpaceId = DEFAULT
     },
   );
 
-  const hit = result.entities.find((entity) => entity.name === typeName) ?? result.entities[0];
+  const hit = result.entities.find((entity) => entity.name === typeName);
   if (!hit) {
-    throw new Error(`Could not find type '${typeName}' in schema space ${schemaSpaceId}`);
+    const partialMatches = result.entities
+      .map((entity) => entity.name ?? "<unnamed>")
+      .join(", ");
+    throw new Error(
+      `Exact match for type '${typeName}' not found. Partial matches: [${partialMatches}]`,
+    );
   }
   return hit.id;
 }
