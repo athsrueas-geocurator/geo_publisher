@@ -775,6 +775,13 @@ async function main() {
 
   try {
     const mapping = readDecisionFile(mappingFile);
+    const envTargetSpaceId = process.env.TARGET_SPACE_ID;
+    if (envTargetSpaceId && envTargetSpaceId !== mapping.targetSpaceId) {
+      console.log(
+        `Overriding mapping target space ${mapping.targetSpaceId} with TARGET_SPACE_ID=${envTargetSpaceId} from .env`,
+      );
+      mapping.targetSpaceId = envTargetSpaceId;
+    }
     runlogTargetSpace = mapping.targetSpaceId;
     await verifyTargetSpaceReadable(mapping.targetSpaceId);
     await ensureSchemaMatches(mappingFile);
