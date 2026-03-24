@@ -33,7 +33,7 @@ type LessonRow = Record<string, unknown>;
 
 type EntityIndexResult = {
   entitiesConnection?: {
-    nodes: Array<{ id: string; name?: string; typeIds?: string[] }>;
+    nodes: Array<{ id: string; name?: string; typeIds?: string[]; spaceIds?: string[] }>;
     pageInfo?: {
       hasNextPage: boolean;
       endCursor?: string | null;
@@ -45,6 +45,7 @@ type IndexedEntity = {
   id: string;
   name: string;
   typeIds: string[];
+  spaceIds: string[];
 };
 
 type DedupeProposedRecord = {
@@ -502,31 +503,32 @@ async function loadEntityNameIndex(spaceIds: string | string[]): Promise<Map<str
   const pageSize = 1000;
   let cursor: string | null = null;
   while (true) {
-    const result = await gql<EntityIndexResult>(
-      `query EntityNameIndex($spaceIds: UUIDFilter, $first: Int!, $after: Cursor) {
-        entitiesConnection(
-          spaceIds: $spaceIds
-          first: $first
-          after: $after
-          filter: { name: { isNot: null } }
-        ) {
-          pageInfo {
-            endCursor
-            hasNextPage
-          }
-          nodes {
-            id
-            name
-            typeIds
-          }
+  const result = await gql<EntityIndexResult>(
+    `query EntityNameIndex($spaceIds: UUIDFilter, $first: Int!, $after: Cursor) {
+      entitiesConnection(
+        spaceIds: $spaceIds
+        first: $first
+        after: $after
+        filter: { name: { isNot: null } }
+      ) {
+        pageInfo {
+          endCursor
+          hasNextPage
         }
-      }`,
-      {
-        spaceIds: { in: ids },
-        first: pageSize,
-        after: cursor,
-      },
-    );
+        nodes {
+          id
+          name
+          typeIds
+          spaceIds
+        }
+      }
+    }`,
+    {
+      spaceIds: { in: ids },
+      first: pageSize,
+      after: cursor,
+    },
+  );
 
     const nodes = result.entitiesConnection?.nodes ?? [];
     for (const entity of nodes) {
@@ -537,6 +539,7 @@ async function loadEntityNameIndex(spaceIds: string | string[]): Promise<Map<str
         id: entity.id,
         name: normalizedName,
         typeIds: entity.typeIds ?? [],
+        spaceIds: entity.spaceIds ?? [],
       };
       for (const key of keys) {
         const existing = index.get(key) ?? [];
@@ -588,10 +591,12 @@ function resolveIdsByName(
   names: string[],
   index: Map<string, IndexedEntity[]>,
   rule?: RelationRule,
+  options?: { preferredSpaceIds?: string[] },
 ): string[] {
   const resolved: string[] = [];
   const targetTypeId = rule?.targetTypeId;
   const manualMap = rule?.manualMap ?? {};
+  const preferred = options?.preferredSpaceIds ?? [];
 
   for (const name of names) {
     const mapped = manualMap[name] ?? manualMap[name.toLowerCase()] ?? name;
@@ -600,12 +605,8 @@ function resolveIdsByName(
     let hit: IndexedEntity | undefined;
     for (const key of keys) {
       const candidates = index.get(key) ?? [];
-      if (targetTypeId) {
-        hit = candidates.find((entry) => entry.typeIds.includes(targetTypeId));
-      }
-      if (!hit) {
-        hit = candidates[0];
-      }
+      if (!candidates.length) continue;
+      hit = pickPreferredCandidate(candidates, targetTypeId, preferred);
       if (hit) break;
     }
 
@@ -614,6 +615,30 @@ function resolveIdsByName(
     }
   }
   return resolved;
+}
+
+function pickPreferredCandidate(
+  candidates: IndexedEntity[],
+  targetTypeId?: string,
+  preferredSpaceIds: string[] = [],
+): IndexedEntity | undefined {
+  if (targetTypeId) {
+    for (const spaceId of preferredSpaceIds) {
+      const candidate = candidates.find(
+        (entry) => entry.typeIds.includes(targetTypeId) && entry.spaceIds.includes(spaceId),
+      );
+      if (candidate) return candidate;
+    }
+    const typeMatch = candidates.find((entry) => entry.typeIds.includes(targetTypeId));
+    if (typeMatch) return typeMatch;
+  }
+
+  for (const spaceId of preferredSpaceIds) {
+    const candidate = candidates.find((entry) => entry.spaceIds.includes(spaceId));
+    if (candidate) return candidate;
+  }
+
+  return candidates[0];
 }
 
 async function ensureSchemaMatches(filePath: string): Promise<void> {
@@ -681,14 +706,25 @@ function resolveExistingTargets(
   relationIndex: Map<string, IndexedEntity[]>,
   rootIndex: Map<string, IndexedEntity[]>,
   typeFallbackIndex?: Map<string, IndexedEntity[]>,
+  context?: { targetSpaceId?: string; canonicalSpaceId?: string },
 ): string[] {
   if (!relation) return [];
-  const indexes: Array<Map<string, IndexedEntity[]>> = [relationIndex];
-  if (rootIndex.size > 0) indexes.push(rootIndex);
-  if (typeFallbackIndex) indexes.push(typeFallbackIndex);
+  const canonical = context?.canonicalSpaceId ?? GEO_ROOT_SPACE_ID;
+  const indexes: Array<{ index: Map<string, IndexedEntity[]>; priority: string[] }> = [];
+  if (relationIndex.size > 0) {
+    indexes.push({ index: relationIndex, priority: context?.targetSpaceId ? [context.targetSpaceId] : [] });
+  }
+  if (rootIndex.size > 0) {
+    indexes.push({ index: rootIndex, priority: [canonical] });
+  }
+  if (typeFallbackIndex) {
+    indexes.push({ index: typeFallbackIndex, priority: [canonical] });
+  }
 
-  for (const index of indexes) {
-    const resolved = resolveIdsByName(names, index, relation);
+  for (const entry of indexes) {
+    const resolved = resolveIdsByName(names, entry.index, relation, {
+      preferredSpaceIds: entry.priority,
+    });
     if (resolved.length > 0) return resolved;
   }
   return [];
@@ -755,6 +791,10 @@ function collectProposedRecords(
           relationIndex,
           rootIndex,
           fallbackIndex,
+          {
+            targetSpaceId: mapping.targetSpaceId,
+            canonicalSpaceId: GEO_ROOT_SPACE_ID,
+          },
         );
         if (existingTargetIds.length > 0) continue;
         for (const name of names) {
@@ -866,6 +906,7 @@ function createMissingTargetsIfAllowed(
   rule: RelationRule | undefined,
   index: Map<string, IndexedEntity[]>,
   allOps: Op[],
+  targetSpaceId: string,
   taxonomyEntries?: Map<string, TaxonomyEntry>,
 ): string[] {
   if (!rule || rule.targetCreation !== "create_if_missing") {
@@ -897,6 +938,7 @@ function createMissingTargetsIfAllowed(
       id: newEntity.id,
       name: resolvedName,
       typeIds: rule.targetTypeId ? [rule.targetTypeId] : [],
+      spaceIds: [targetSpaceId],
     });
     created.push(newEntity.id);
   }
@@ -1229,18 +1271,23 @@ async function main() {
           relationEntityIndex,
           rootEntityIndex,
           fallbackIndex,
+          {
+            targetSpaceId: mapping.targetSpaceId,
+            canonicalSpaceId: GEO_ROOT_SPACE_ID,
+          },
         );
 
         if (targetIds.length === 0) {
           const normalizedFieldKey = normalizeTaxonomyKey(decision.sourceField);
-          const taxonomyEntries = taxonomyLookup.get(normalizedFieldKey);
-          targetIds = createMissingTargetsIfAllowed(
-            names,
-            decision.relation,
-            relationEntityIndex,
-            allOps,
-            taxonomyEntries,
-          );
+        const taxonomyEntries = taxonomyLookup.get(normalizedFieldKey);
+        targetIds = createMissingTargetsIfAllowed(
+          names,
+          decision.relation,
+          relationEntityIndex,
+          allOps,
+          mapping.targetSpaceId,
+          taxonomyEntries,
+        );
         }
 
         if (targetIds.length > 0) {
@@ -1326,6 +1373,10 @@ async function main() {
             relationEntityIndex,
             rootEntityIndex,
             fallbackIndex,
+            {
+              targetSpaceId: mapping.targetSpaceId,
+              canonicalSpaceId: GEO_ROOT_SPACE_ID,
+            },
           );
         }
 
@@ -1344,6 +1395,7 @@ async function main() {
             decision.relation,
             relationEntityIndex,
             allOps,
+            mapping.targetSpaceId,
             taxonomyEntries,
           );
         }
