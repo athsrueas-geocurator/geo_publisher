@@ -28,6 +28,57 @@ export async function gql<TData = any>(query: string, variables?: Record<string,
   }
 }
 
+export type UUIDFilter = {
+  in?: string[];
+  notIn?: string[];
+  is?: string;
+  isNot?: string;
+};
+
+export type SpaceSummary = {
+  id: string;
+  name?: string | null;
+  type?: string | null;
+};
+
+export async function fetchEntitySpaces(entityId: string): Promise<SpaceSummary[]> {
+  const data = await gql<{ entity?: { id: string; spacesIn?: SpaceSummary[] } }>(
+    `query EntitySpaces($entityId: UUID!) {
+      entity(id: $entityId) {
+        id
+        spacesIn {
+          id
+          name
+          type
+        }
+      }
+    }`,
+    { entityId },
+  );
+  return data.entity?.spacesIn ?? [];
+}
+
+export async function fetchSpaceIdsWithType(typeId: string, first = 200): Promise<SpaceSummary[]> {
+  const data = await gql<{ spaces: SpaceSummary[] }>(
+    `query SpacesWithType($typeId: UUID!, $first: Int!, $offset: Int!) {
+      spaces(
+        first: $first
+        offset: $offset
+        filter: {
+           valuesConnection: {
+            some: { entity: { typeIds: { in: [$typeId] } } }
+           }
+        }
+      ) {
+        id
+        type
+      }
+    }`,
+    { typeId, first, offset: 0 },
+  );
+  return data.spaces;
+}
+
 // ─── Publishing Helper ───────────────────────────────────────────────────────
 // Only TARGET_SPACE_ID is required — the space type & address are queried
 // automatically from the API.  For DAO spaces the caller's member space is
@@ -130,6 +181,10 @@ export async function publishOps(ops: Op[], editName: string, input_space?: stri
       );
     }
 
+    const isEditor = editors.some((e) => e.memberSpaceId === callerSpaceId);
+    const votingMode = isEditor ? "FAST" : "SLOW";
+    console.log(`  Caller role: ${isEditor ? "editor" : "member"} (voting mode: ${votingMode})`);
+
     const result = await daoSpace.proposeEdit({
       name: editName,
       ops,
@@ -138,6 +193,7 @@ export async function publishOps(ops: Op[], editName: string, input_space?: stri
       callerSpaceId: `0x${callerSpaceId}` as `0x${string}`,
       daoSpaceId: `0x${spaceId}` as `0x${string}`,
       daoSpaceAddress: daoAddress as `0x${string}`,
+      votingMode,
     });
     console.log("CID:", result.cid);
     console.log("Edit ID:", result.editId);

@@ -5,7 +5,7 @@ import { spawnSync } from "node:child_process";
 import { Graph, type Op, type TypedValue, type PropertyValueParam } from "@geoprotocol/geo-sdk";
 import dotenv from "dotenv";
 import { parse } from "csv-parse/sync";
-import { gql, printOps, publishOps } from "./src/functions";
+import { fetchSpaceIdsWithType, gql, printOps, publishOps } from "./src/functions";
 import {
   DEFAULT_MAPPING_FILE,
   type MappingDecision,
@@ -32,7 +32,13 @@ type CourseRow = Record<string, unknown>;
 type LessonRow = Record<string, unknown>;
 
 type EntityIndexResult = {
-  entities: Array<{ id: string; name?: string; typeIds?: string[] }>;
+  entitiesConnection?: {
+    nodes: Array<{ id: string; name?: string; typeIds?: string[] }>;
+    pageInfo?: {
+      hasNextPage: boolean;
+      endCursor?: string | null;
+    };
+  };
 };
 
 type IndexedEntity = {
@@ -101,6 +107,18 @@ type BlockRelationFetch = {
   }>;
 };
 
+const TAXONOMY_DIR = path.join("data_to_publish", "taxonomy");
+const TAXONOMY_TARGET_TYPE_IDS = new Set<string>([
+  TYPES.goal,
+  TYPES.skill,
+  TYPES.topic,
+  TYPES.tag,
+  TYPES.role,
+  TYPES.project,
+]);
+const GEO_ROOT_SPACE_ID = "a19c345ab9866679b001d7d2138d88a1";
+const ADDITIONAL_TAXONOMY_FIELD_KEYS = new Set<string>(["providers"]);
+
 const LESSON_BLOCK_COLUMNS = [
   PROPERTIES.lesson_number,
   PROPERTIES.description,
@@ -139,6 +157,74 @@ function slugify(value: string): string {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
     .replace(/-+/g, "-");
+}
+
+type TaxonomyEntry = {
+  name: string;
+  description?: string;
+};
+
+function normalizeTaxonomyKey(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/[’'`]+/g, "")
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "")
+    .trim();
+}
+
+function listTaxonomyFiles(dir = TAXONOMY_DIR): Map<string, string> {
+  const map = new Map<string, string>();
+  if (!fs.existsSync(dir)) return map;
+  for (const entry of fs.readdirSync(dir)) {
+    if (!entry.toLowerCase().endsWith(".csv")) continue;
+    const key = normalizeTaxonomyKey(path.parse(entry).name);
+    map.set(key, path.join(dir, entry));
+  }
+  return map;
+}
+
+function loadTaxonomyEntries(filePath: string): Map<string, TaxonomyEntry> {
+  const entries = new Map<string, TaxonomyEntry>();
+  const rows = readRows(filePath);
+  for (const row of rows) {
+    const name = String(row["Name"] ?? row["name"] ?? "").trim();
+    if (!name) continue;
+    const description = String(row["Description"] ?? row["description"] ?? "").trim();
+    const key = normalizeTaxonomyKey(name);
+    if (!entries.has(key)) {
+      entries.set(key, { name, description: description || undefined });
+    }
+  }
+  return entries;
+}
+
+type TaxonomyLookupResult = {
+  lookup: Map<string, Map<string, TaxonomyEntry>>;
+  missing: string[];
+};
+
+function buildTaxonomyLookup(fieldNames: Set<string>, fileMap: Map<string, string>): TaxonomyLookupResult {
+  const lookup = new Map<string, Map<string, TaxonomyEntry>>();
+  const missing: string[] = [];
+  for (const field of fieldNames) {
+    const key = normalizeTaxonomyKey(field);
+    const filePath = fileMap.get(key);
+    if (!filePath) {
+      missing.push(field);
+      continue;
+    }
+    lookup.set(key, loadTaxonomyEntries(filePath));
+  }
+  return { lookup, missing };
+}
+
+function shouldLoadTaxonomyForDecision(decision: MappingDecision): boolean {
+  const normalizedField = normalizeTaxonomyKey(decision.sourceField ?? "");
+  if (decision.relation?.targetTypeId && TAXONOMY_TARGET_TYPE_IDS.has(decision.relation.targetTypeId)) {
+    return true;
+  }
+  return ADDITIONAL_TAXONOMY_FIELD_KEYS.has(normalizedField);
 }
 
 function getFieldValue(row: Record<string, unknown>, sourceField: string): unknown {
@@ -409,43 +495,85 @@ function hasField(entries: MappingDecision[], sourceField: string): boolean {
   return entries.some((entry) => normalizeFieldName(entry.sourceField) === normalizeFieldName(sourceField));
 }
 
-async function loadEntityNameIndex(spaceId: string): Promise<Map<string, IndexedEntity[]>> {
-  const { gql } = await import("./src/functions");
-  const result = await gql<EntityIndexResult>(
-    `query EntityNameIndex($spaceId: UUID!, $first: Int!) {
-      entities(spaceId: $spaceId, first: $first, filter: { name: { isNot: null } }) {
-        id
-        name
-        typeIds
-      }
-    }`,
-    {
-      spaceId,
-      first: 1000,
-    },
-  );
-
+async function loadEntityNameIndex(spaceIds: string | string[]): Promise<Map<string, IndexedEntity[]>> {
+  const ids = Array.isArray(spaceIds) ? spaceIds.filter(Boolean) : [spaceIds].filter(Boolean);
+  if (!ids.length) return new Map();
   const index = new Map<string, IndexedEntity[]>();
-  for (const entity of result.entities) {
-    if (!entity.name) continue;
-    const normalizedName = entity.name.trim();
-    const keys = [normalizedName.toLowerCase(), slugify(normalizedName)];
-    const payload: IndexedEntity = {
-      id: entity.id,
-      name: normalizedName,
-      typeIds: entity.typeIds ?? [],
-    };
-    for (const key of keys) {
-      const existing = index.get(key) ?? [];
-      existing.push(payload);
-      index.set(key, existing);
+  const pageSize = 1000;
+  let cursor: string | null = null;
+  while (true) {
+    const result = await gql<EntityIndexResult>(
+      `query EntityNameIndex($spaceIds: UUIDFilter, $first: Int!, $after: Cursor) {
+        entitiesConnection(
+          spaceIds: $spaceIds
+          first: $first
+          after: $after
+          filter: { name: { isNot: null } }
+        ) {
+          pageInfo {
+            endCursor
+            hasNextPage
+          }
+          nodes {
+            id
+            name
+            typeIds
+          }
+        }
+      }`,
+      {
+        spaceIds: { in: ids },
+        first: pageSize,
+        after: cursor,
+      },
+    );
+
+    const nodes = result.entitiesConnection?.nodes ?? [];
+    for (const entity of nodes) {
+      if (!entity.name) continue;
+      const normalizedName = entity.name.trim();
+      const keys = [normalizedName.toLowerCase(), slugify(normalizedName)];
+      const payload: IndexedEntity = {
+        id: entity.id,
+        name: normalizedName,
+        typeIds: entity.typeIds ?? [],
+      };
+      for (const key of keys) {
+        const existing = index.get(key) ?? [];
+        existing.push(payload);
+        index.set(key, existing);
+      }
     }
+
+    const pageInfo = result.entitiesConnection?.pageInfo;
+    if (!pageInfo || !pageInfo.hasNextPage) break;
+    cursor = pageInfo.endCursor ?? null;
+    if (!cursor) break;
   }
+
   return index;
 }
 
+async function buildFallbackTypeIndexes(
+  typeIds: Set<string>,
+  canonicalSpaceId: string,
+): Promise<Map<string, Map<string, IndexedEntity[]>>> {
+  const fallback = new Map<string, Map<string, IndexedEntity[]>>();
+  for (const typeId of typeIds) {
+    if (!typeId) continue;
+    const spaces = await fetchSpaceIdsWithType(typeId);
+    const ids = new Set<string>([canonicalSpaceId]);
+    for (const space of spaces) {
+      if (space.id) ids.add(space.id);
+    }
+    const candidateIds = [...ids].filter(Boolean);
+    if (!candidateIds.length) continue;
+    fallback.set(typeId, await loadEntityNameIndex(candidateIds));
+  }
+  return fallback;
+}
+
 async function verifyTargetSpaceReadable(spaceId: string): Promise<void> {
-  const { gql } = await import("./src/functions");
   await gql(
     `query VerifyTargetSpace($spaceId: UUID!) {
       space(id: $spaceId) {
@@ -547,10 +675,32 @@ function resolveNameWithManualMap(raw: string, rule?: RelationRule): string {
   return rule.manualMap[raw] ?? rule.manualMap[raw.toLowerCase()] ?? raw;
 }
 
+function resolveExistingTargets(
+  names: string[],
+  relation: RelationRule | undefined,
+  relationIndex: Map<string, IndexedEntity[]>,
+  rootIndex: Map<string, IndexedEntity[]>,
+  typeFallbackIndex?: Map<string, IndexedEntity[]>,
+): string[] {
+  if (!relation) return [];
+  const indexes: Array<Map<string, IndexedEntity[]>> = [relationIndex];
+  if (rootIndex.size > 0) indexes.push(rootIndex);
+  if (typeFallbackIndex) indexes.push(typeFallbackIndex);
+
+  for (const index of indexes) {
+    const resolved = resolveIdsByName(names, index, relation);
+    if (resolved.length > 0) return resolved;
+  }
+  return [];
+}
+
 function collectProposedRecords(
   courseRows: CourseRow[],
   lessonRows: LessonRow[],
   mapping: MappingDecisionFile,
+  relationIndex: Map<string, IndexedEntity[]>,
+  rootIndex: Map<string, IndexedEntity[]>,
+  typeFallbackIndexes: Map<string, Map<string, IndexedEntity[]>>,
 ): DedupeProposedRecord[] {
   const records: DedupeProposedRecord[] = [];
 
@@ -596,6 +746,17 @@ function collectProposedRecords(
         const names = splitRelationValues(sourceValue, decision.relation).map((name) =>
           resolveNameWithManualMap(name, decision.relation),
         );
+        const fallbackIndex = decision.relation?.targetTypeId
+          ? typeFallbackIndexes.get(decision.relation.targetTypeId)
+          : undefined;
+        const existingTargetIds = resolveExistingTargets(
+          names,
+          decision.relation,
+          relationIndex,
+          rootIndex,
+          fallbackIndex,
+        );
+        if (existingTargetIds.length > 0) continue;
         for (const name of names) {
           records.push({
             entityName: name,
@@ -653,6 +814,7 @@ async function loadExistingRecords(spaceId: string): Promise<DedupeExistingRecor
 function runPythonDedupeCheck(
   proposed: DedupeProposedRecord[],
   existing: DedupeExistingRecord[],
+  thresholds: { high: number; medium: number } = { high: 0.99, medium: 0.92 },
 ): DedupeReport {
   const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "geo-dedupe-"));
   const proposedPath = path.join(tempDir, "proposed.json");
@@ -674,9 +836,9 @@ function runPythonDedupeCheck(
       "--out",
       outPath,
       "--high-threshold",
-      "0.92",
+      String(thresholds.high),
       "--medium-threshold",
-      "0.85",
+      String(thresholds.medium),
     ],
     { encoding: "utf8" },
   );
@@ -704,6 +866,7 @@ function createMissingTargetsIfAllowed(
   rule: RelationRule | undefined,
   index: Map<string, IndexedEntity[]>,
   allOps: Op[],
+  taxonomyEntries?: Map<string, TaxonomyEntry>,
 ): string[] {
   if (!rule || rule.targetCreation !== "create_if_missing") {
     return [];
@@ -718,7 +881,12 @@ function createMissingTargetsIfAllowed(
       continue;
     }
 
-    const createInput: { name: string; types?: string[] } = { name: resolvedName };
+    const normalizedTargetName = normalizeTaxonomyKey(resolvedName);
+    const descriptor = taxonomyEntries?.get(normalizedTargetName);
+    const createInput: { name: string; types?: string[]; description?: string } = {
+      name: resolvedName,
+      description: descriptor?.description,
+    };
     if (rule.targetTypeId) {
       createInput.types = [rule.targetTypeId];
     }
@@ -888,13 +1056,36 @@ async function main() {
       }
     }
 
+    const courseValueMappings = acceptedValueMappings(mapping.types.course.fields);
+    const courseRelationMappings = acceptedRelationMappings(mapping.types.course.fields);
+    const lessonRelationMappings = acceptedRelationMappings(mapping.types.lesson.fields);
+    const relationEntityIndex = await loadEntityNameIndex(mapping.targetSpaceId);
+    const rootEntityIndex = await loadEntityNameIndex(GEO_ROOT_SPACE_ID);
+    const relationTypeIds = new Set<string>();
+    const collectTypeId = (decision: MappingDecision) => {
+      const typeId = decision.relation?.targetTypeId;
+      if (typeId) relationTypeIds.add(typeId);
+    };
+    courseRelationMappings.forEach(collectTypeId);
+    lessonRelationMappings.forEach(collectTypeId);
+    const typeFallbackIndexes = await buildFallbackTypeIndexes(
+      relationTypeIds,
+      canonicalTaxonomySpaceId,
+    );
+
     const proposedRecords = collectProposedRecords(
       courseRows as CourseRow[],
       lessonRows as LessonRow[],
       mapping,
+      relationEntityIndex,
+      rootEntityIndex,
+      typeFallbackIndexes,
     );
     const existingRecords = await loadExistingRecords(mapping.targetSpaceId);
-    const dedupeReport = runPythonDedupeCheck(proposedRecords, existingRecords);
+    const dedupeReport = runPythonDedupeCheck(proposedRecords, existingRecords, {
+      high: 0.99,
+      medium: 0.92,
+    });
     dedupeHighMatches = dedupeReport.summary.highMatchCount;
 
     console.log(
@@ -955,13 +1146,26 @@ async function main() {
     const pendingCourseLessonLinks: PendingCourseLessonLinks[] = [];
     const courseLessonPlans = new Map<string, CourseLessonBlockPlan>();
 
-    const relationEntityIndex = await loadEntityNameIndex(mapping.targetSpaceId);
-    const canonicalTaxonomyEntityIndex = skipTaxonomyCheck
-      ? new Map<string, IndexedEntity[]>()
-      : await loadEntityNameIndex(canonicalTaxonomySpaceId);
+    const taxonomyFieldNames = new Set<string>();
+    const collectTaxonomyField = (decision: MappingDecision) => {
+      if (shouldLoadTaxonomyForDecision(decision)) {
+        taxonomyFieldNames.add(decision.sourceField);
+      }
+    };
+    courseRelationMappings.forEach(collectTaxonomyField);
+    lessonRelationMappings.forEach(collectTaxonomyField);
 
-    const courseValueMappings = acceptedValueMappings(mapping.types.course.fields);
-    const courseRelationMappings = acceptedRelationMappings(mapping.types.course.fields);
+    const taxonomyFileMap = listTaxonomyFiles();
+    const { lookup: taxonomyLookup, missing: missingTaxonomyFields } = buildTaxonomyLookup(
+      taxonomyFieldNames,
+      taxonomyFileMap,
+    );
+    if (missingTaxonomyFields.length > 0) {
+      const missingList = missingTaxonomyFields.join(", ");
+      console.warn(
+        `Warning: taxonomy data missing for ${missingList}. Add matching CSVs under ${TAXONOMY_DIR} to supply descriptions for those linked entities.`,
+      );
+    }
 
     for (const row of courseRows as CourseRow[]) {
       const courseName = String(getFieldValue(row, "name") ?? getFieldValue(row, "Name") ?? "Untitled Course");
@@ -1016,22 +1220,26 @@ async function main() {
           continue;
         }
 
-        let targetIds = resolveIdsByName(names, relationEntityIndex, decision.relation);
-        if (targetIds.length === 0 && decision.relation?.targetTypeId) {
-          const isTaxonomyType = [TYPES.goal, TYPES.skill, TYPES.topic, TYPES.tag, TYPES.role].includes(
-            decision.relation.targetTypeId,
-          );
-          if (isTaxonomyType) {
-            targetIds = resolveIdsByName(names, canonicalTaxonomyEntityIndex, decision.relation);
-          }
-        }
+        const fallbackIndex = decision.relation?.targetTypeId
+          ? typeFallbackIndexes.get(decision.relation.targetTypeId)
+          : undefined;
+        let targetIds = resolveExistingTargets(
+          names,
+          decision.relation,
+          relationEntityIndex,
+          rootEntityIndex,
+          fallbackIndex,
+        );
 
         if (targetIds.length === 0) {
+          const normalizedFieldKey = normalizeTaxonomyKey(decision.sourceField);
+          const taxonomyEntries = taxonomyLookup.get(normalizedFieldKey);
           targetIds = createMissingTargetsIfAllowed(
             names,
             decision.relation,
             relationEntityIndex,
             allOps,
+            taxonomyEntries,
           );
         }
 
@@ -1062,10 +1270,9 @@ async function main() {
     }
 
     const lessonValueMappings = acceptedValueMappings(mapping.types.lesson.fields);
-    const lessonRelationMappings = acceptedRelationMappings(mapping.types.lesson.fields);
 
     for (const row of lessonRows as LessonRow[]) {
-    const values = lessonValueMappings
+      const values = lessonValueMappings
       .map<PropertyValueParam | null>((decision) => {
         const accepted = decision.accepted;
         if (!accepted) return null;
@@ -1110,15 +1317,16 @@ async function main() {
         } else if (decision.relation?.mode === "by_slug") {
           targetIds = findCourseLinks(names.map((name) => slugify(name)), courseIdBySourceId);
         } else {
-          targetIds = resolveIdsByName(names, relationEntityIndex, decision.relation);
-          if (targetIds.length === 0 && decision.relation?.targetTypeId) {
-            const isTaxonomyType = [TYPES.goal, TYPES.skill, TYPES.topic, TYPES.tag, TYPES.role].includes(
-              decision.relation.targetTypeId,
-            );
-            if (isTaxonomyType) {
-              targetIds = resolveIdsByName(names, canonicalTaxonomyEntityIndex, decision.relation);
-            }
-          }
+          const fallbackIndex = decision.relation?.targetTypeId
+            ? typeFallbackIndexes.get(decision.relation.targetTypeId)
+            : undefined;
+          targetIds = resolveExistingTargets(
+            names,
+            decision.relation,
+            relationEntityIndex,
+            rootEntityIndex,
+            fallbackIndex,
+          );
         }
 
         if (
@@ -1129,11 +1337,14 @@ async function main() {
         }
 
         if (targetIds.length === 0) {
+          const normalizedFieldKey = normalizeTaxonomyKey(decision.sourceField);
+          const taxonomyEntries = taxonomyLookup.get(normalizedFieldKey);
           targetIds = createMissingTargetsIfAllowed(
             names,
             decision.relation,
             relationEntityIndex,
             allOps,
+            taxonomyEntries,
           );
         }
 

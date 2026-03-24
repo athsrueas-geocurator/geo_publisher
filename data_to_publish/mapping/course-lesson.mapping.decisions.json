@@ -1,12 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-12T20:12:38.764Z",
+  "generatedAt": "2026-03-24T18:02:07.269Z",
   "schemaSpaceId": "a19c345ab9866679b001d7d2138d88a1",
-  "targetSpaceId": "7aed0e58f713f656e2933f7635f08e62",
+  "targetSpaceId": "41e851610e13a19441c4d980f2f2ce6b",
   "source": {
     "courseFile": "data_to_publish/courses.csv",
     "lessonFile": "data_to_publish/lessons.csv",
     "courseFields": [
+      "Course ID",
       "Name",
       "Description",
       "Providers",
@@ -39,6 +40,77 @@
       "typeId": "ae724b5687254a098d7ea542bc587ebd",
       "schemaFingerprint": "8f522023e2f669c366e5fe2e4ba7bc75084ec2a35168cdcf14bc5bdfdf97b6f4",
       "fields": [
+        {
+          "sourceField": "Course ID",
+          "status": "accepted",
+          "proposed": {
+            "kind": "relation",
+            "id": "2b16790166f840b6b60ede0ce01fe4ba",
+            "name": "Goals",
+            "score": 0,
+            "confidence": "low",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "must_exist",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              }
+            }
+          },
+          "alternatives": [
+            {
+              "kind": "relation",
+              "id": "1e4e6986aea4481eba29ab0677b6d514",
+              "name": "Lessons",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "261fad421cc744938acbaa4a4c74220c",
+              "name": "Providers",
+              "score": 0,
+              "confidence": "low"
+            },
+            {
+              "kind": "relation",
+              "id": "5b722cd361d6494e88871310566437ba",
+              "name": "Related spaces",
+              "score": 0,
+              "confidence": "low"
+            }
+          ],
+          "accepted": {
+            "kind": "relation",
+            "id": "2b16790166f840b6b60ede0ce01fe4ba",
+            "name": "Goals",
+            "score": 0,
+            "confidence": "low",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "must_exist",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              }
+            }
+          },
+          "relation": {
+            "mode": "by_name",
+            "targetCreation": "must_exist",
+            "normalization": {
+              "delimiter": ";",
+              "trim": true,
+              "lowercase": false,
+              "dedupe": true
+            }
+          }
+        },
         {
           "sourceField": "Name",
           "status": "accepted",
@@ -129,7 +201,21 @@
             "id": "261fad421cc744938acbaa4a4c74220c",
             "name": "Providers",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "484a18c5030a499cb0f2ef588ff16d50",
+              "manualMap": {
+                "openclaw": "OpenClaw"
+              }
+            }
           },
           "alternatives": [
             {
@@ -159,7 +245,21 @@
             "id": "261fad421cc744938acbaa4a4c74220c",
             "name": "Providers",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "484a18c5030a499cb0f2ef588ff16d50",
+              "manualMap": {
+                "openclaw": "OpenClaw"
+              }
+            }
           },
           "relation": {
             "mode": "by_name",
@@ -225,7 +325,18 @@
             "id": "5b722cd361d6494e88871310566437ba",
             "name": "Related spaces",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "must_exist",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "362c1dbddc6444bba3c4652f38a642d7"
+            }
           },
           "alternatives": [
             {
@@ -255,7 +366,18 @@
             "id": "5b722cd361d6494e88871310566437ba",
             "name": "Related spaces",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "must_exist",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "362c1dbddc6444bba3c4652f38a642d7"
+            }
           },
           "relation": {
             "mode": "by_name",
@@ -277,7 +399,18 @@
             "id": "458fbc070dbf4c928f5716f3fdde7c32",
             "name": "Topics",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+            }
           },
           "alternatives": [
             {
@@ -307,7 +440,18 @@
             "id": "458fbc070dbf4c928f5716f3fdde7c32",
             "name": "Topics",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+            }
           },
           "relation": {
             "mode": "by_name",
@@ -329,7 +473,18 @@
             "id": "a38732e33a3d47f9a459fb369c287709",
             "name": "Skills",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+            }
           },
           "alternatives": [
             {
@@ -359,7 +514,18 @@
             "id": "a38732e33a3d47f9a459fb369c287709",
             "name": "Skills",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+            }
           },
           "relation": {
             "mode": "by_name",
@@ -381,7 +547,18 @@
             "id": "8fcfe5ef3d9147bd83223830a998d26b",
             "name": "Roles",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "e4e366e9d5554b6892bf7358e824afd2"
+            }
           },
           "alternatives": [
             {
@@ -411,7 +588,18 @@
             "id": "8fcfe5ef3d9147bd83223830a998d26b",
             "name": "Roles",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "e4e366e9d5554b6892bf7358e824afd2"
+            }
           },
           "relation": {
             "mode": "by_name",
@@ -433,7 +621,18 @@
             "id": "257090341ba5406f94e4d4af90042fba",
             "name": "Tags",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "e0fcc66c9e8643f480802469d8a1a93a"
+            }
           },
           "alternatives": [
             {
@@ -463,7 +662,18 @@
             "id": "257090341ba5406f94e4d4af90042fba",
             "name": "Tags",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "e0fcc66c9e8643f480802469d8a1a93a"
+            }
           },
           "relation": {
             "mode": "by_name",
@@ -485,7 +695,18 @@
             "id": "1e4e6986aea4481eba29ab0677b6d514",
             "name": "Lessons",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "must_exist",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "1baae8e9187041fb8e2a1eb1f84ba0d4"
+            }
           },
           "alternatives": [
             {
@@ -515,7 +736,18 @@
             "id": "1e4e6986aea4481eba29ab0677b6d514",
             "name": "Lessons",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "must_exist",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "1baae8e9187041fb8e2a1eb1f84ba0d4"
+            }
           },
           "relation": {
             "mode": "by_name",
@@ -537,7 +769,18 @@
             "id": "2b16790166f840b6b60ede0ce01fe4ba",
             "name": "Goals",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "1845ee9980c648a3abc3809de1753c63"
+            }
           },
           "alternatives": [
             {
@@ -567,7 +810,18 @@
             "id": "2b16790166f840b6b60ede0ce01fe4ba",
             "name": "Goals",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "1845ee9980c648a3abc3809de1753c63"
+            }
           },
           "relation": {
             "mode": "by_name",
@@ -678,7 +932,17 @@
             "id": "74c6253a07c24970b3a2f2e1f5c8f4d5",
             "name": "Stages",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "must_exist",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              }
+            }
           },
           "alternatives": [
             {
@@ -708,7 +972,17 @@
             "id": "74c6253a07c24970b3a2f2e1f5c8f4d5",
             "name": "Stages",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "must_exist",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              }
+            }
           },
           "relation": {
             "mode": "by_name",
@@ -729,7 +1003,18 @@
             "id": "458fbc070dbf4c928f5716f3fdde7c32",
             "name": "Topics",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+            }
           },
           "alternatives": [
             {
@@ -759,7 +1044,18 @@
             "id": "458fbc070dbf4c928f5716f3fdde7c32",
             "name": "Topics",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+            }
           },
           "relation": {
             "mode": "by_name",
@@ -822,7 +1118,22 @@
             "id": "9405a71b598e4783847165ac1aabab40",
             "name": "Courses",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_source_id",
+              "targetCreation": "must_exist",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "ae724b5687254a098d7ea542bc587ebd",
+              "crossFile": {
+                "targetEntitySet": "course",
+                "targetKeyField": "course_id"
+              }
+            }
           },
           "alternatives": [
             {
@@ -852,7 +1163,22 @@
             "id": "9405a71b598e4783847165ac1aabab40",
             "name": "Courses",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_source_id",
+              "targetCreation": "must_exist",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "ae724b5687254a098d7ea542bc587ebd",
+              "crossFile": {
+                "targetEntitySet": "course",
+                "targetKeyField": "course_id"
+              }
+            }
           },
           "relation": {
             "mode": "by_source_id",
@@ -878,7 +1204,18 @@
             "id": "5b722cd361d6494e88871310566437ba",
             "name": "Related spaces",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "must_exist",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "362c1dbddc6444bba3c4652f38a642d7"
+            }
           },
           "alternatives": [
             {
@@ -908,7 +1245,18 @@
             "id": "5b722cd361d6494e88871310566437ba",
             "name": "Related spaces",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "must_exist",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "362c1dbddc6444bba3c4652f38a642d7"
+            }
           },
           "relation": {
             "mode": "by_name",
@@ -930,7 +1278,18 @@
             "id": "a38732e33a3d47f9a459fb369c287709",
             "name": "Skills",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+            }
           },
           "alternatives": [
             {
@@ -960,7 +1319,18 @@
             "id": "a38732e33a3d47f9a459fb369c287709",
             "name": "Skills",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "9ca6ab1f3a114e49bbaf72e0c9a985cf"
+            }
           },
           "relation": {
             "mode": "by_name",
@@ -982,7 +1352,18 @@
             "id": "257090341ba5406f94e4d4af90042fba",
             "name": "Tags",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "e0fcc66c9e8643f480802469d8a1a93a"
+            }
           },
           "alternatives": [
             {
@@ -1012,7 +1393,18 @@
             "id": "257090341ba5406f94e4d4af90042fba",
             "name": "Tags",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "e0fcc66c9e8643f480802469d8a1a93a"
+            }
           },
           "relation": {
             "mode": "by_name",
@@ -1034,7 +1426,18 @@
             "id": "8fcfe5ef3d9147bd83223830a998d26b",
             "name": "Roles",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "e4e366e9d5554b6892bf7358e824afd2"
+            }
           },
           "alternatives": [
             {
@@ -1064,7 +1467,18 @@
             "id": "8fcfe5ef3d9147bd83223830a998d26b",
             "name": "Roles",
             "score": 1,
-            "confidence": "high"
+            "confidence": "high",
+            "target": {
+              "mode": "by_name",
+              "targetCreation": "create_if_missing",
+              "normalization": {
+                "delimiter": ";",
+                "trim": true,
+                "lowercase": false,
+                "dedupe": true
+              },
+              "targetTypeId": "e4e366e9d5554b6892bf7358e824afd2"
+            }
           },
           "relation": {
             "mode": "by_name",

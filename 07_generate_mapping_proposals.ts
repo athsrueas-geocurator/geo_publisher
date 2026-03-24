@@ -203,6 +203,31 @@ async function main() {
 
   applyRelationPresets(payload);
 
+  const schemaTypeIds = new Set<string>([courseTypeId, lessonTypeId]);
+  const extraRelationTypeIds = new Set<string>();
+  const typeIdToLabel = (id: string) => {
+    const match = Object.entries(TYPES).find(([, value]) => value === id);
+    return match ? match[0] : id;
+  };
+  for (const typeKey of Object.keys(payload.types) as Array<"course" | "lesson">) {
+    for (const field of payload.types[typeKey].fields) {
+      const targetId = field.relation?.targetTypeId;
+      if (targetId && !schemaTypeIds.has(targetId)) {
+        extraRelationTypeIds.add(targetId);
+      }
+    }
+  }
+  if (extraRelationTypeIds.size > 0) {
+    const extras = [...extraRelationTypeIds].map(typeIdToLabel).join(", ");
+    console.log(
+      "Note: this generator currently only pulls Course and Lesson schemas, so the following relation targets",
+    );
+    console.log(
+      `  ${extras}` +
+        " are created later via simple relation creation (descriptions only) rather than schema-driven mappings.",
+    );
+  }
+
   const outPath = path.resolve(args.mappingFile);
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   writeDecisionFile(outPath, payload);
