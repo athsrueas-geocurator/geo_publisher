@@ -46,6 +46,7 @@ PY
 
 ### Looking Forward
 - We can extend the tool with more helper presets (e.g., `spaceContent`, `topicRelations`) and even call into the Geo SDK constants for ID validation. This story should serve as a single source for why `~/.config/opencode/tools/geo-api.ts` is organized the way it is and how to operate it.
+- The latest helper addition, `entitySpaces`, reports the `spacesIn`/`spaceIds` values for any entity so we can confirm whether a record lives in both the Geo root and a tertiary space; use it to detect when the canonical `Skill` primitive (ID `9ca6ab1f3a114e49bbaf72e0c9a985cf`) is being aliased as `Practice`.
 
 ### Schema-first publishing updates
 - The helper set now includes `typeSchema`, which reads values/relations for a type within a schema space and optionally performs fuzzy source-field matching.
