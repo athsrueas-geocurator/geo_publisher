@@ -67,12 +67,13 @@ async function main() {
   }
 
   const shouldPublish = hasFlag("--publish");
+  const tabArg = getArg("--tab") ?? "learn";
   const viewArg = getArg("--view") ?? "gallery";
   const viewEntity = VIEWS[viewArg as keyof typeof VIEWS];
   if (!viewEntity) {
     throw new Error(`Unknown view '${viewArg}'. Choose one of: ${Object.keys(VIEWS).join(", ")}.`);
   }
-  console.log(`Using view: ${viewArg}`);
+  console.log(`Tab: ${tabArg}  View: ${viewArg}`);
 
   const snapshot = await gql<SpaceSnapshot>(
     `query LearnTabSpace($spaceId: UUID!) {
@@ -132,7 +133,7 @@ async function main() {
   );
 
   if (existingLearnTab) {
-    console.log(`Learn tab already exists (${existingLearnTab.toEntity?.id}). Updating view to '${viewArg}'.`);
+    console.log(`${tabArg} tab already exists (${existingLearnTab.toEntity?.id}). Updating view to '${viewArg}'.`);
 
     const learnTabId = existingLearnTab.toEntity?.id;
     if (!learnTabId) {
@@ -193,8 +194,8 @@ async function main() {
 
     console.log(`Prepared ${ops.length} ops to adjust Learn tab view.`);
     if (!shouldPublish) {
-      console.log("Dry run only. Add --publish to update the Learn tab view.");
-      return;
+    console.log(`Dry run only. Add --publish to update the ${tabArg} tab view.`);
+    return;
     }
 
     const txHash = await publishOps(ops, "Update Learn tab view", targetSpaceId);
@@ -204,49 +205,61 @@ async function main() {
 
   // ops already seeded with root page creation if needed
 
-  const learnCollectionBlock = Graph.createEntity({
-    name: "Learn",
-    types: [TYPES.data_block],
-    values: [
-      {
-        property: PROPERTIES.filter,
-        type: "text",
-        value: buildCourseFilter(targetSpaceId),
-      },
-    ],
-    relations: {
-      [PROPERTIES.data_source_type]: { toEntity: QUERY_DATA_SOURCE },
-      [PROPERTIES.view]: { toEntity: viewEntity },
-    },
-  });
-  ops.push(...learnCollectionBlock.ops);
+  let tabPage: ReturnType<typeof Graph.createEntity> | null = null;
 
-  const learnTab = Graph.createEntity({
-    name: "Learn",
-    types: [TYPES.page],
-    relations: {
-      [PROPERTIES.blocks]: [{ toEntity: learnCollectionBlock.id }],
-    },
-  });
-  ops.push(...learnTab.ops);
+  if (tabArg === "governance") {
+    tabPage = Graph.createEntity({
+      name: "Governance",
+      types: [TYPES.page],
+      relations: {},
+    });
+    ops.push(...tabPage.ops);
+    console.log(`Created Governance tab page ${tabPage.id}.`);
+  } else {
+    const learnCollectionBlock = Graph.createEntity({
+      name: "Learn",
+      types: [TYPES.data_block],
+      values: [
+        {
+          property: PROPERTIES.filter,
+          type: "text",
+          value: buildCourseFilter(targetSpaceId),
+        },
+      ],
+      relations: {
+        [PROPERTIES.data_source_type]: { toEntity: QUERY_DATA_SOURCE },
+        [PROPERTIES.view]: { toEntity: viewEntity },
+      },
+    });
+    ops.push(...learnCollectionBlock.ops);
+
+    tabPage = Graph.createEntity({
+      name: "Learn",
+      types: [TYPES.page],
+      relations: {
+        [PROPERTIES.blocks]: [{ toEntity: learnCollectionBlock.id }],
+      },
+    });
+    ops.push(...tabPage.ops);
+  }
 
   const linkFromRoot = Graph.createRelation({
     fromEntity: rootPageId,
-    toEntity: learnTab.id,
+    toEntity: tabPage!.id,
     type: PROPERTIES.tabs,
   });
   ops.push(...linkFromRoot.ops);
 
-  console.log(`Prepared ${ops.length} ops to add Learn tab to space ${targetSpaceId}.`);
+  console.log(`Prepared ${ops.length} ops to add ${tabArg} tab to space ${targetSpaceId}.`);
 
   if (!shouldPublish) {
-    console.log("Dry run only. Add --publish to submit the Learn tab edit.");
+    console.log(`Dry run only. Add --publish to submit the ${tabArg} tab edit.`);
     return;
   }
 
-  const txHash = await publishOps(ops, "Add Learn tab with course collection", targetSpaceId);
-  console.log(`Learn tab publish tx: ${txHash}`);
-  console.log(`Geo URL: https://www.geobrowser.io/space/${targetSpaceId}/${rootPageId}`);
+  const txHash = await publishOps(ops, `Add ${tabArg} tab`, targetSpaceId);
+  console.log(`${tabArg} tab publish tx: ${txHash}`);
+  console.log(`Geo URL: https://www.geobrowser.io/space/${targetSpaceId}/${rootPageId}/${tabArg}`);
   console.log(`Reference policy root: ${ROOT_SPACE_ID}`);
 }
 
