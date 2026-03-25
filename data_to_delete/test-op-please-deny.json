@@ -1,0 +1,32 @@
+[
+  {
+    "type": "createEntity",
+    "id": "9dd847b9c2fa467c9826a1ee14a2b2f4",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "LLMOps Workshop (Azure)",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      },
+      {
+        "property": "9b1f76ff9711404c861e59dc3fa7d037",
+        "value": {
+          "type": "text",
+          "value": "Hands-on labs cover the end-to-end LLMOps workflow from prompt design to monitored deployment on Azure services.",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "8be08237ba3f443397ee77a3608b7fa4",
+    "entity": "c7fc948e15f644bc94006aba195a6d6f",
+    "from": "9dd847b9c2fa467c9826a1ee14a2b2f4",
+    "to": "ae724b5687254a098d7ea542bc587ebd",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  }
+]
