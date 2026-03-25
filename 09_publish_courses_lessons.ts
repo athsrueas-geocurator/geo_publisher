@@ -312,6 +312,24 @@ function inferTypedValue(sourceValue: unknown): {
   return { type: "text", value: raw };
 }
 
+function buildPropertyValue(sourceValue: unknown): TypedValue | null {
+  if (sourceValue === undefined || sourceValue === null) return null;
+  const raw = typeof sourceValue === "string" ? sourceValue.trim() : sourceValue;
+  if (raw === "") return null;
+  const typed = inferTypedValue(raw);
+  if (typed.type === "text") {
+    return { type: "text", value: String(typed.value) };
+  }
+  if (typed.type === "checkbox") {
+    return { type: "boolean", value: Boolean(typed.value) };
+  }
+  const numeric = Number(typed.value);
+  if (Number.isInteger(numeric)) {
+    return { type: "integer", value: numeric };
+  }
+  return { type: "float", value: numeric };
+}
+
 function stripListOrdinalPrefix(value: string): string {
   return value.replace(/^\s*\d+\s*\.\s*/, "").trim();
 }
@@ -1361,27 +1379,21 @@ async function main() {
           const accepted = decision.accepted;
           if (!accepted) return null;
           const sourceValue = getFieldValue(row, decision.sourceField);
-          if (sourceValue == null || sourceValue === "") return null;
-          const typed = inferTypedValue(sourceValue);
-          const typedValue: TypedValue =
-            typed.type === "text"
-              ? { type: "text", value: String(typed.value) }
-              : typed.type === "checkbox"
-              ? { type: "boolean", value: Boolean(typed.value) }
-              : (() => {
-                  const numeric = Number(typed.value);
-                  if (Number.isInteger(numeric)) {
-                    return { type: "integer", value: numeric };
-                  }
-                  return { type: "float", value: numeric };
-                })();
-          const typedProperty: PropertyValueParam = {
+          const typedValue = buildPropertyValue(sourceValue);
+          if (!typedValue) return null;
+          return {
             property: accepted.id,
             ...typedValue,
           };
-          return typedProperty;
         })
         .filter((entry): entry is PropertyValueParam => entry !== null);
+
+      const websiteValue = buildPropertyValue(
+        getFieldValue(row, "Web URL") ?? getFieldValue(row, "Website"),
+      );
+      if (websiteValue) {
+        values.push({ property: PROPERTIES.web_url, ...websiteValue });
+      }
 
       const relations: Record<string, Array<{ toEntity: string }>> = {};
       for (const decision of courseRelationMappings) {
@@ -1467,20 +1479,8 @@ async function main() {
         const accepted = decision.accepted;
         if (!accepted) return null;
         const sourceValue = getFieldValue(row, decision.sourceField);
-        if (sourceValue == null || sourceValue === "") return null;
-        const typed = inferTypedValue(sourceValue);
-        const typedValue: TypedValue =
-          typed.type === "text"
-            ? { type: "text", value: String(typed.value) }
-            : typed.type === "checkbox"
-            ? { type: "boolean", value: Boolean(typed.value) }
-            : (() => {
-                const numeric = Number(typed.value);
-                if (Number.isInteger(numeric)) {
-                  return { type: "integer", value: numeric };
-                }
-                return { type: "float", value: numeric };
-              })();
+        const typedValue = buildPropertyValue(sourceValue);
+        if (!typedValue) return null;
         return {
           property: accepted.id,
           ...typedValue,
