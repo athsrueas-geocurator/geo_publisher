@@ -22,6 +22,19 @@ function hasFlag(name: string): boolean {
   return process.argv.includes(name);
 }
 
+function parseExtraTypes(): Array<{ typeId: string; label: string }> {
+  const raw = getArg("--extra-types");
+  if (!raw) return [];
+  return raw.split(",").
+    map((entry) => entry.trim()).
+    filter(Boolean).
+    map((entry) => {
+      const [typeId, label] = entry.split(":", 2).map((value) => value.trim());
+      if (!typeId) throw new Error(`Missing type ID in --extra-types entry '${entry}'`);
+      return { typeId, label: label || typeId };
+    });
+}
+
 async function verifySpaceExists(spaceId: string): Promise<void> {
   const result = await gql<{ space: { id: string } | null }>(
     `query VerifySpace($spaceId: UUID!) {
@@ -133,9 +146,14 @@ async function main() {
 
   await verifySpaceExists(targetSpace);
 
+  const extraTypes = parseExtraTypes();
+  if (extraTypes.length) {
+    console.log(`Blanking extra types: ${extraTypes.map((item) => `${item.label} (${item.typeId})`).join(", ")}`);
+  }
   const typeBuckets = [
     { typeId: mapping.types.course.typeId, label: mapping.types.course.typeName },
     { typeId: mapping.types.lesson.typeId, label: mapping.types.lesson.typeName },
+    ...extraTypes,
   ];
 
   const resolvedEntities: Array<{ label: string; entries: EntitySummary[] }> = [];

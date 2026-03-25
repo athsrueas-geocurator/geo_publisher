@@ -1,5 +1,5 @@
 import { Graph, type Op } from '@geoprotocol/geo-sdk';
-import { gql, printOps, publishOps } from './src/functions.ts';
+import { gql, printOps, publishOps } from './src/functions';
 
 export async function deleteEntity(entityId: string, spaceId: string) {
   console.log(`\nQuerying entity ${entityId} in space ${spaceId}...`);

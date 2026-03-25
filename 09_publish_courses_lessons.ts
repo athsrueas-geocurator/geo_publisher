@@ -31,14 +31,35 @@ dotenv.config();
 type CourseRow = Record<string, unknown>;
 type LessonRow = Record<string, unknown>;
 
+type EntityIndexNode = {
+  id: string;
+  name?: string | null;
+  typeIds?: string[] | null;
+  spaceIds?: string[] | null;
+};
+
 type EntityIndexResult = {
   entitiesConnection?: {
-    nodes: Array<{ id: string; name?: string; typeIds?: string[]; spaceIds?: string[] }>;
+    nodes: EntityIndexNode[];
     pageInfo?: {
       hasNextPage: boolean;
       endCursor?: string | null;
     };
   };
+};
+
+type EntityIndexStats = {
+  queries: number;
+  nodes: number;
+};
+
+type EntityConnectionPageInfo = {
+  hasNextPage: boolean;
+  endCursor?: string | null;
+};
+
+type EntitiesListResult = {
+  entities: Array<{ id: string; name?: string; typeIds?: string[] }>;
 };
 
 type IndexedEntity = {
@@ -492,63 +513,87 @@ function acceptedRelationMappings(entries: MappingDecision[]) {
   return entries.filter((entry) => entry.status === "accepted" && entry.accepted?.kind === "relation");
 }
 
+function analyzeRelationTargetTypes(entries: MappingDecision[]) {
+  const typeIds = new Set<string>();
+  let requiresUntypedIndex = false;
+  for (const entry of entries) {
+    if (entry.relation?.targetTypeId) {
+      typeIds.add(entry.relation.targetTypeId);
+    } else {
+      requiresUntypedIndex = true;
+    }
+  }
+  return { typeIds, requiresUntypedIndex };
+}
+
 function hasField(entries: MappingDecision[], sourceField: string): boolean {
   return entries.some((entry) => normalizeFieldName(entry.sourceField) === normalizeFieldName(sourceField));
 }
 
-async function loadEntityNameIndex(spaceIds: string | string[]): Promise<Map<string, IndexedEntity[]>> {
-  const ids = Array.isArray(spaceIds) ? spaceIds.filter(Boolean) : [spaceIds].filter(Boolean);
+async function loadEntityNameIndex(
+  spaceIds: string | string[],
+  options?: { typeFilter?: Iterable<string | null | undefined>; includeAllEntities?: boolean },
+): Promise<Map<string, IndexedEntity[]>> {
+  const ids = (Array.isArray(spaceIds) ? spaceIds : [spaceIds]).filter((value): value is string => Boolean(value));
   if (!ids.length) return new Map();
+
+  const typeIds = options?.typeFilter
+    ? Array.from(new Set(Array.from(options.typeFilter).filter((value): value is string => Boolean(value))))
+    : [];
+
+  const stats: EntityIndexStats = { queries: 0, nodes: 0 };
+  const start = Date.now();
+  const requiresFullSpaceFetch = options?.includeAllEntities || typeIds.length === 0;
+  const mode = requiresFullSpaceFetch ? "space" : "type";
+  const index = requiresFullSpaceFetch
+    ? await loadEntityNameIndexBySpace(ids, stats)
+    : await loadEntityNameIndexByType(ids, typeIds, stats);
+  const durationMs = Date.now() - start;
+  console.log(
+    `[entity-index] mode=${mode} spaces=${ids.length} types=${mode === "space" ? "ALL" : typeIds.length} nodes=${stats.nodes} queries=${stats.queries} duration=${durationMs}ms`,
+  );
+  return index;
+}
+
+async function loadEntityNameIndexBySpace(
+  spaceIds: string[],
+  stats: EntityIndexStats,
+): Promise<Map<string, IndexedEntity[]>> {
   const index = new Map<string, IndexedEntity[]>();
   const pageSize = 1000;
   let cursor: string | null = null;
   while (true) {
-  const result = await gql<EntityIndexResult>(
-    `query EntityNameIndex($spaceIds: UUIDFilter, $first: Int!, $after: Cursor) {
-      entitiesConnection(
-        spaceIds: $spaceIds
-        first: $first
-        after: $after
-        filter: { name: { isNot: null } }
-      ) {
-        pageInfo {
-          endCursor
-          hasNextPage
+    stats.queries++;
+    const result: EntityIndexResult = await gql<EntityIndexResult>(
+      `query EntityNameIndex($spaceIds: UUIDFilter, $first: Int!, $after: Cursor) {
+        entitiesConnection(
+          spaceIds: $spaceIds
+          first: $first
+          after: $after
+          filter: { name: { isNot: null } }
+        ) {
+          pageInfo {
+            endCursor
+            hasNextPage
+          }
+          nodes {
+            id
+            name
+            typeIds
+            spaceIds
+          }
         }
-        nodes {
-          id
-          name
-          typeIds
-          spaceIds
-        }
-      }
-    }`,
-    {
-      spaceIds: { in: ids },
-      first: pageSize,
-      after: cursor,
-    },
-  );
+      }`,
+      {
+        spaceIds: { in: spaceIds },
+        first: pageSize,
+        after: cursor,
+      },
+    );
 
-    const nodes = result.entitiesConnection?.nodes ?? [];
-    for (const entity of nodes) {
-      if (!entity.name) continue;
-      const normalizedName = entity.name.trim();
-      const keys = [normalizedName.toLowerCase(), slugify(normalizedName)];
-      const payload: IndexedEntity = {
-        id: entity.id,
-        name: normalizedName,
-        typeIds: entity.typeIds ?? [],
-        spaceIds: entity.spaceIds ?? [],
-      };
-      for (const key of keys) {
-        const existing = index.get(key) ?? [];
-        existing.push(payload);
-        index.set(key, existing);
-      }
-    }
+    stats.nodes += ingestEntityIndexNodes(index, result.entitiesConnection?.nodes ?? []);
 
-    const pageInfo = result.entitiesConnection?.pageInfo;
+    const pageInfo: EntityConnectionPageInfo | undefined = result.entitiesConnection?.pageInfo;
     if (!pageInfo || !pageInfo.hasNextPage) break;
     cursor = pageInfo.endCursor ?? null;
     if (!cursor) break;
@@ -557,22 +602,113 @@ async function loadEntityNameIndex(spaceIds: string | string[]): Promise<Map<str
   return index;
 }
 
+async function loadEntityNameIndexByType(
+  spaceIds: string[],
+  typeIds: string[],
+  stats: EntityIndexStats,
+): Promise<Map<string, IndexedEntity[]>> {
+  const index = new Map<string, IndexedEntity[]>();
+  const pageSize = 500;
+  for (const spaceId of spaceIds) {
+    for (const typeId of typeIds) {
+      let cursor: string | null = null;
+      while (true) {
+        stats.queries++;
+        const result: EntityIndexResult = await gql<EntityIndexResult>(
+          `query EntityNameIndexByType($spaceId: UUID!, $typeId: UUID!, $first: Int!, $after: Cursor) {
+            entitiesConnection(
+              spaceId: $spaceId
+              typeId: $typeId
+              first: $first
+              after: $after
+              filter: { name: { isNot: null } }
+            ) {
+              pageInfo {
+                endCursor
+                hasNextPage
+              }
+              nodes {
+                id
+                name
+                typeIds
+                spaceIds
+              }
+            }
+          }`,
+          {
+            spaceId,
+            typeId,
+            first: pageSize,
+            after: cursor,
+          },
+        );
+
+        stats.nodes += ingestEntityIndexNodes(index, result.entitiesConnection?.nodes ?? []);
+
+        const pageInfo: EntityConnectionPageInfo | undefined = result.entitiesConnection?.pageInfo;
+        if (!pageInfo || !pageInfo.hasNextPage) break;
+        cursor = pageInfo.endCursor ?? null;
+        if (!cursor) break;
+      }
+    }
+  }
+
+  return index;
+}
+
+function ingestEntityIndexNodes(index: Map<string, IndexedEntity[]>, nodes: EntityIndexNode[] = []) {
+  let ingested = 0;
+  for (const entity of nodes) {
+    if (!entity?.name) continue;
+    const normalizedName = entity.name.trim();
+    if (!normalizedName) continue;
+    const keys = [normalizedName.toLowerCase(), slugify(normalizedName)];
+    const payload: IndexedEntity = {
+      id: entity.id,
+      name: normalizedName,
+      typeIds: entity.typeIds ?? [],
+      spaceIds: entity.spaceIds ?? [],
+    };
+    for (const key of keys) {
+      const existing = index.get(key) ?? [];
+      existing.push(payload);
+      index.set(key, existing);
+    }
+    ingested++;
+  }
+  return ingested;
+}
+
 async function buildFallbackTypeIndexes(
   typeIds: Set<string>,
   canonicalSpaceId: string,
 ): Promise<Map<string, Map<string, IndexedEntity[]>>> {
+  const started = Date.now();
+  let lookupCalls = 0;
+  let indexedTypes = 0;
+  const spaceCounts: string[] = [];
   const fallback = new Map<string, Map<string, IndexedEntity[]>>();
   for (const typeId of typeIds) {
     if (!typeId) continue;
     const spaces = await fetchSpaceIdsWithType(typeId);
+    lookupCalls++;
     const ids = new Set<string>([canonicalSpaceId]);
     for (const space of spaces) {
       if (space.id) ids.add(space.id);
     }
     const candidateIds = [...ids].filter(Boolean);
     if (!candidateIds.length) continue;
-    fallback.set(typeId, await loadEntityNameIndex(candidateIds));
+    fallback.set(
+      typeId,
+      await loadEntityNameIndex(candidateIds, { typeFilter: [typeId] }),
+    );
+    indexedTypes++;
+    spaceCounts.push(`${typeId}:${candidateIds.length}`);
   }
+  const durationMs = Date.now() - started;
+  console.log(
+    `[fallback-index] types=${indexedTypes}/${typeIds.size} spaceLookups=${lookupCalls} details=${spaceCounts.join(",")} duration=${durationMs}ms`,
+  );
   return fallback;
 }
 
@@ -822,7 +958,8 @@ function collectProposedRecords(
 
 async function loadExistingRecords(spaceId: string): Promise<DedupeExistingRecord[]> {
   const { gql } = await import("./src/functions");
-  const result = await gql<EntityIndexResult>(
+  const started = Date.now();
+  const result = await gql<EntitiesListResult>(
     `query ExistingEntitiesForDedupe($spaceId: UUID!, $first: Int!) {
       entities(spaceId: $spaceId, first: $first, filter: { name: { isNot: null } }) {
         id
@@ -837,7 +974,7 @@ async function loadExistingRecords(spaceId: string): Promise<DedupeExistingRecor
   );
 
   const records: DedupeExistingRecord[] = [];
-  for (const entity of result.entities) {
+  for (const entity of result.entities ?? []) {
     if (!entity.name) continue;
     const typeIds = entity.typeIds && entity.typeIds.length > 0 ? entity.typeIds : [null];
     for (const typeId of typeIds) {
@@ -848,6 +985,9 @@ async function loadExistingRecords(spaceId: string): Promise<DedupeExistingRecor
       });
     }
   }
+  console.log(
+    `[dedupe-existing] space=${spaceId} fetched=${result.entities?.length ?? 0} expanded=${records.length} duration=${Date.now() - started}ms`,
+  );
   return records;
 }
 
@@ -1101,17 +1241,20 @@ async function main() {
     const courseValueMappings = acceptedValueMappings(mapping.types.course.fields);
     const courseRelationMappings = acceptedRelationMappings(mapping.types.course.fields);
     const lessonRelationMappings = acceptedRelationMappings(mapping.types.lesson.fields);
-    const relationEntityIndex = await loadEntityNameIndex(mapping.targetSpaceId);
-    const rootEntityIndex = await loadEntityNameIndex(GEO_ROOT_SPACE_ID);
-    const relationTypeIds = new Set<string>();
-    const collectTypeId = (decision: MappingDecision) => {
-      const typeId = decision.relation?.targetTypeId;
-      if (typeId) relationTypeIds.add(typeId);
-    };
-    courseRelationMappings.forEach(collectTypeId);
-    lessonRelationMappings.forEach(collectTypeId);
+    const relationTypeAnalysis = analyzeRelationTargetTypes([
+      ...courseRelationMappings,
+      ...lessonRelationMappings,
+    ]);
+    const relationEntityIndex = await loadEntityNameIndex(mapping.targetSpaceId, {
+      typeFilter: relationTypeAnalysis.typeIds,
+      includeAllEntities: relationTypeAnalysis.requiresUntypedIndex,
+    });
+    const rootEntityIndex = await loadEntityNameIndex(GEO_ROOT_SPACE_ID, {
+      typeFilter: relationTypeAnalysis.typeIds,
+      includeAllEntities: relationTypeAnalysis.requiresUntypedIndex,
+    });
     const typeFallbackIndexes = await buildFallbackTypeIndexes(
-      relationTypeIds,
+      relationTypeAnalysis.typeIds,
       canonicalTaxonomySpaceId,
     );
 
