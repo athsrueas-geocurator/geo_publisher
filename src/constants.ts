@@ -49,6 +49,7 @@ export const PROPERTIES = {
   collection_item:  "a99f9ce12ffa4dac8c61f6310d46064a",  // Points to an entity in a collection
   view:             "1907fd1c81114a3ca378b1f353425b65",  // View preference on a Blocks relation
   tabs:             "4d9cba1c4766469881cd3273891a018b",  // Tabs relation — links a space/page to child tabs
+  related_spaces:   "5b722cd361d6494e88871310566437ba",  // Related spaces relation links pages to their parent space
 };
 
 // ─── Data Source Singletons ──────────────────────────────────────────────────

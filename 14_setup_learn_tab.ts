@@ -84,11 +84,27 @@ async function main() {
     { spaceId: targetSpaceId },
   );
 
-  if (!snapshot.space?.page?.id) {
-    throw new Error(`Space ${targetSpaceId} has no page entity.`);
+  const ops: Op[] = [];
+  let rootPageId = snapshot.space?.page?.id;
+  if (!rootPageId) {
+    const rootPageName = getArg("--page-name") ?? "Home";
+    const rootPage = Graph.createEntity({
+      name: rootPageName,
+      types: [TYPES.page],
+      relations: {
+        [PROPERTIES.related_spaces]: [{ toEntity: targetSpaceId }],
+      },
+    });
+    ops.push(...rootPage.ops);
+    rootPageId = rootPage.id;
+    console.log(
+      `Created root page ${rootPageId} (${rootPageName}) and linked it to space ${targetSpaceId}.`,
+    );
   }
 
-  const rootPageId = snapshot.space.page.id;
+  if (!rootPageId) {
+    throw new Error(`Failed to determine root page for space ${targetSpaceId}.`);
+  }
   const existing = await gql<ExistingTabQuery>(
     `query ExistingLearnTab($pageId: UUID!, $spaceId: UUID!, $first: Int!) {
       relations(
@@ -146,7 +162,6 @@ async function main() {
       throw new Error("Learn tab has no data block to update");
     }
 
-    const ops: Op[] = [];
     const existingViewRelations = await gql<ViewRelationQuery>(
       `query BlockViewRelations($blockId: UUID!, $spaceId: UUID!, $relationType: UUID!, $first: Int!) {
         relations(
@@ -187,7 +202,7 @@ async function main() {
     return;
   }
 
-  const ops: Op[] = [];
+  // ops already seeded with root page creation if needed
 
   const learnCollectionBlock = Graph.createEntity({
     name: "Learn",

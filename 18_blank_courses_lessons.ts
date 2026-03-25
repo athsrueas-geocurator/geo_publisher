@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 import { Graph, type Op } from "@geoprotocol/geo-sdk";
 import { gql, printOps, publishOps } from "./src/functions";
 import { DEFAULT_MAPPING_FILE, readDecisionFile } from "./src/mapping-decisions";
+import { TYPES } from "./src/constants";
 
 dotenv.config();
 
@@ -48,6 +49,21 @@ async function verifySpaceExists(spaceId: string): Promise<void> {
   if (!result.space) {
     throw new Error(`Space not found: ${spaceId}`);
   }
+}
+
+async function fetchSpacePageId(spaceId: string): Promise<string | undefined> {
+  const result = await gql<{ space: { page?: { id: string } | null } | null }>(
+    `query SpacePage($spaceId: UUID!) {
+      space(id: $spaceId) {
+        page { id }
+      }
+    }`,
+    { spaceId },
+  );
+  if (!result.space) {
+    throw new Error(`Space not found: ${spaceId}`);
+  }
+  return result.space.page?.id ?? undefined;
 }
 
 async function fetchEntitiesByType(spaceId: string, typeId: string): Promise<EntitySummary[]> {
@@ -145,6 +161,10 @@ async function main() {
   }
 
   await verifySpaceExists(targetSpace);
+  const protectedPageId = await fetchSpacePageId(targetSpace);
+  if (protectedPageId) {
+    console.log(`Protecting root page ${protectedPageId} from blanking.`);
+  }
 
   const extraTypes = parseExtraTypes();
   if (extraTypes.length) {
@@ -155,16 +175,27 @@ async function main() {
     { typeId: mapping.types.lesson.typeId, label: mapping.types.lesson.typeName },
     ...extraTypes,
   ];
+  const filteredTypeBuckets = typeBuckets.filter((bucket) => bucket.typeId !== TYPES.page);
+  if (filteredTypeBuckets.length !== typeBuckets.length) {
+    console.log("Skipping page-type buckets to avoid clearing the root page.");
+  }
 
   const resolvedEntities: Array<{ label: string; entries: EntitySummary[] }> = [];
-  for (const bucket of typeBuckets) {
+  for (const bucket of filteredTypeBuckets) {
     console.log(`Fetching ${bucket.label} entities (type ${bucket.typeId})...`);
     const entries = await fetchEntitiesByType(targetSpace, bucket.typeId);
     console.log(`  Found ${entries.length} ${bucket.label}(s)`);
     resolvedEntities.push({ label: bucket.label, entries });
   }
 
-  const allEntityIds = resolvedEntities.flatMap((bucket) => bucket.entries.map((entry) => entry.id));
+  const protectedIds = new Set<string>();
+  if (protectedPageId) {
+    protectedIds.add(protectedPageId);
+  }
+
+  const allEntityIds = resolvedEntities
+    .flatMap((bucket) => bucket.entries.map((entry) => entry.id))
+    .filter((id) => !protectedIds.has(id));
   console.log(`Total entities to blank: ${allEntityIds.length}`);
 
   if (!allEntityIds.length) {
