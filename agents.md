@@ -12,6 +12,8 @@
 
 ## Geo API tooling guidance
 
-- For any live GraphQL lookups, use the global `geo-api` skill (`~/.config/opencode/skills/geo-api/SKILL.md`) together with the matching `geo-api` tool (`~/.config/opencode/tools/geo-api.ts`). That skill states the schema-first workflow, and the tool’s helpers already validate UUIDs and sanitize `helperArgs` so you don’t need to hand-write raw `curl` calls.
+- Canonical agent skills live in the `vendor/geo-skills` git submodule (`geo-query`, `geo-publish`). After clone: `bun run skills:init` then `bun run skills:link`. Update with `bun run skills:update`. Do not fork those `SKILL.md` files in this repo.
+- For live GraphQL lookups, use `geo-query` (`.opencode/skills/geo-query` → `vendor/geo-skills/geo-query`). For SDK writes, use `geo-publish` and this repo’s `publishOps` in `src/functions.ts` (env: `PK_SW`, not the skill CLI’s `GEO_PRIVATE_KEY`).
+- The optional global `geo-api` tool (`~/.config/opencode/tools/geo-api.ts`) may still be used for helper queries; prefer the vendored skills when they overlap.
 - The tool exposes a new `entitySpaces` helper that fetches `spacesIn` for an entity; use it when you need to confirm whether an entity lives in both the Geo root space (`a19c345ab9866679b001d7d2138d88a1`) and another (tertiary) space. Always prefer the Geo root’s definition of the `Skill` primitive (ID `9ca6ab1f3a114e49bbaf72e0c9a985cf`) even if the tertiary space surfaces the `Practice` alias.
 - Before trusting a type name, check its `spaceIds`/`spacesIn` data so you can tell which spaces currently claim the entity. If you find both `Skill` and `Practice` labels on the same ID, use the Geo root’s “Skill” text value as canonical and document any secondary alias changes.

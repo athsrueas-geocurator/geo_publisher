@@ -2,7 +2,7 @@ import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";
 import { spawnSync } from "node:child_process";
-import { Graph, type Op, type TypedValue, type PropertyValueParam } from "@geoprotocol/geo-sdk";
+import { Graph, Position, type Op, type TypedValue, type PropertyValueParam } from "@geoprotocol/geo-sdk";
 import dotenv from "dotenv";
 import { parse } from "csv-parse/sync";
 import { fetchSpaceIdsWithType, gql, printOps, publishOps } from "./src/functions";
@@ -1346,6 +1346,7 @@ async function main() {
     const allOps: Op[] = [];
     const courseIdBySourceId = new Map<string, string>();
     const plannedLessonIdsByName = new Map<string, string[]>();
+    const plannedLessonNumberById = new Map<string, number>();
     const pendingCourseLessonLinks: PendingCourseLessonLinks[] = [];
     const courseLessonPlans = new Map<string, CourseLessonBlockPlan>();
 
@@ -1560,6 +1561,13 @@ async function main() {
       });
       allOps.push(...result.ops);
       indexPlannedEntity(plannedLessonIdsByName, name, result.id);
+      const lessonNumberValue = values.find((value) => value.property === PROPERTIES.lesson_number);
+      const parsedNumber = lessonNumberValue
+        ? Number((lessonNumberValue as { value?: unknown }).value)
+        : Number.NaN;
+      if (Number.isFinite(parsedNumber)) {
+        plannedLessonNumberById.set(result.id, parsedNumber);
+      }
     }
 
     const unresolvedCourseLessonLinks: string[] = [];
@@ -1594,14 +1602,23 @@ async function main() {
           courseLessonPlans.set(pending.courseEntityId, plan);
         }
 
-        for (const lessonId of resolvedForCourse) {
-        const relationResult = Graph.createRelation({
-          fromEntity: pending.courseEntityId,
-          toEntity: lessonId,
-          type: pending.relationTypeId,
+        const orderedLessonIds = [...resolvedForCourse].sort((a, b) => {
+          const an = plannedLessonNumberById.get(a) ?? Number.POSITIVE_INFINITY;
+          const bn = plannedLessonNumberById.get(b) ?? Number.POSITIVE_INFINITY;
+          return an - bn;
         });
-        allOps.push(...relationResult.ops);
-      }
+        let lastPos: string | null = null;
+        for (const lessonId of orderedLessonIds) {
+          const position = lastPos ? Position.generateBetween(lastPos, null) : Position.generate();
+          lastPos = position;
+          const relationResult = Graph.createRelation({
+            fromEntity: pending.courseEntityId,
+            toEntity: lessonId,
+            type: pending.relationTypeId,
+            position,
+          });
+          allOps.push(...relationResult.ops);
+        }
     }
 
     if (unresolvedCourseLessonLinks.length > 0) {

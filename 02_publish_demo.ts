@@ -16,7 +16,7 @@
 
 import * as fs from "fs";
 import dotenv from "dotenv";
-import { Graph, Position, type Op, ContentIds } from "@geoprotocol/geo-sdk";
+import { Graph, Position, type Op, ContentIds, GeoTestnetConfig } from "@geoprotocol/geo-sdk";
 import { printOps, publishOps } from "./src/functions";
 import { TYPES, PROPERTIES, QUERY_DATA_SOURCE, COLLECTION_DATA_SOURCE, VIEWS } from "./src/constants";
 
@@ -239,7 +239,7 @@ async function main() {
     const { id: imageId, ops: imageOps, cid: imageCid } = await Graph.createImage({
       url: project.avatar_url,
       name: `${project.name} Avatar`,
-      network: "TESTNET",
+      network: GeoTestnetConfig,
     });
     allOps.push(...imageOps);
     console.log(`  Created image entity: ${imageId} (IPFS CID: ${imageCid})`);

@@ -21,10 +21,14 @@
     "ui:learn-tab": "bun run 14_setup_learn_tab.ts",
     "check:urls": "bun run 15_check_urls.ts",
     "check:taxonomy": "bun run 16_check_taxonomy_overlap.ts",
-    "check:prepublish": "bun run 17_check_prepublish.ts"
+    "check:prepublish": "bun run 17_check_prepublish.ts",
+    "skills:init": "git submodule update --init --recursive",
+    "skills:update": "git submodule update --remote --merge vendor/geo-skills",
+    "skills:link": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/link-geo-skills.ps1",
+    "order:lessons": "bun run scripts/order-lesson-relations.ts"
   },
   "dependencies": {
-    "@geoprotocol/geo-sdk": "^0.14.0",
+    "@geoprotocol/geo-sdk": "0.20.1",
     "csv-parse": "^6.1.0",
     "dotenv": "^17.2.4",
     "viem": "^2.45.3"

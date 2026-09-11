@@ -12,7 +12,7 @@
  * Usage:
  *   bun run 01_api_demo.ts
  *
- * API endpoint: https://testnet-api.geobrowser.io/graphql
+ * API endpoint: https://api-testnet.geobrowser.io/graphql
  *
  * Key API notes:
  *   - The API uses UUID scalar types (32-char hex, no dashes)
@@ -256,7 +256,7 @@ async function demo6_backlinks() {
 
 async function main() {
   console.log("=== Geo API Demo: Querying the Knowledge Graph ===\n");
-  console.log(`API Endpoint: https://testnet-api.geobrowser.io/graphql\n`);
+  console.log(`API Endpoint: https://api-testnet.geobrowser.io/graphql\n`);
 
   await demo1_getSpaceInfo();
   await demo2_listEntities();

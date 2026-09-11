@@ -1,4 +1,4 @@
-export const DEFAULT_GEO_API_ENDPOINT = "https://testnet-api.geobrowser.io/graphql";
+export const DEFAULT_GEO_API_ENDPOINT = "https://api-testnet.geobrowser.io/graphql";
 
 export type GraphQLRequestOptions = {
   variables?: Record<string, unknown>;

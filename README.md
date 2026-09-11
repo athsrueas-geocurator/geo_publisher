@@ -35,14 +35,16 @@ CANONICAL_TAXONOMY_SPACE_ID="41e851610e13a19441c4d980f2f2ce6b"
 3) Optional endpoint override (defaults to testnet API)
 
 ```bash
-export GEO_API_ENDPOINT="https://testnet-api.geobrowser.io/graphql"
+export GEO_API_ENDPOINT="https://api-testnet.geobrowser.io/graphql"
 ```
 
 ## Repository map
 
-Global OpenCode source of truth (no repo-local duplicate):
-- `~/.config/opencode/tools/geo-api.ts` - single Geo helper tool used by agents
-- `~/.config/opencode/skills/geo-api/SKILL.md` - single Geo publishing skill used by agents
+Official Geo agent skills (submodule, do not copy/edit):
+- `vendor/geo-skills` — https://github.com/geobrowser/geo-skills (`geo-query`, `geo-publish`)
+- After clone: `bun run skills:init` then `bun run skills:link` (junctions into `.opencode/skills/`)
+- Update pinned skills: `bun run skills:update`
+- Alternate harness install (does not replace the submodule): `npx skills add geobrowser/geo-skills`
 
 - `src/geo-api-client.ts` - shared GraphQL transport and error normalization
 - `src/functions.ts` - `gql`, `publishOps`, and op serialization helpers
@@ -187,26 +189,41 @@ If any lesson token cannot be resolved, publish fails fast with unresolved-link 
 Personal flow:
 
 ```ts
-const result = await personalSpace.publishEdit({
+const geo = createGeoClient({ network: GeoTestnetConfig });
+const result = await geo.personalSpaces.publishEdit({
   name: editName,
   spaceId,
   ops,
   author: spaceId,
-  network: "TESTNET",
 });
 ```
 
 DAO flow:
 
 ```ts
-const result = await daoSpace.proposeEdit({
+const proposal = await geo.daoSpaces.proposeEdit({
   name: editName,
   ops,
   author: callerSpaceId,
-  network: "TESTNET",
-  callerSpaceId: `0x${callerSpaceId}` as `0x${string}`,
-  daoSpaceId: `0x${spaceId}` as `0x${string}`,
-  daoSpaceAddress: daoAddress as `0x${string}`,
+  callerSpaceId,
+  daoSpaceId: spaceId,
+});
+await wallet.sendTransaction({ to: proposal.to, data: proposal.calldata });
+
+const vote = geo.daoSpaces.voteProposal({
+  authorSpaceId: callerSpaceId,
+  spaceId,
+  proposalId: proposal.proposalId,
+  versionId: proposal.versionId,
+  vote: "YES",
+});
+await wallet.sendTransaction({ to: vote.to, data: vote.calldata });
+
+// SLOW only: after endTime, before executeBy
+const execution = geo.daoSpaces.executeProposal({
+  authorSpaceId: callerSpaceId,
+  spaceId,
+  proposalId: proposal.proposalId,
 });
 ```
 
