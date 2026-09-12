@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-09-12T03:25:36.513Z",
+  "batchName": "Link Saga trial data to existing Chicago geography",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 6,
+  "checks": [
+    {
+      "relationId": "dd0a4dd2c09a40d0b6e47216fd46ea8d",
+      "pass": true
+    },
+    {
+      "relationId": "735d7db45cb14348a5f460b8b9a07cd2",
+      "pass": true
+    },
+    {
+      "relationId": "8be99b3d926a4f0686b9fc156aad4435",
+      "pass": true
+    },
+    {
+      "relationId": "ec3c147ad4b64f7a86988ccbf79efd71",
+      "pass": true
+    },
+    {
+      "relationId": "cbcd9f109b944910bd5a2ee135b05e4b",
+      "pass": true
+    },
+    {
+      "relationId": "2fd704a43d044ab09b887596bc80bd84",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

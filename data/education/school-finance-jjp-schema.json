@@ -1,0 +1,364 @@
+{
+  "checkedAt": "2026-09-11T22:24:40.204Z",
+  "entities": {
+    "populationProperty": {
+      "entity": {
+        "id": "aa77da401d9b4ca3b250fd24c9b8701f",
+        "name": "Population studied",
+        "description": "Identifies the participant group examined in a study, such as healthy adults, athletes, older adults, or people with specific conditions.",
+        "spaceIds": [
+          "52c7ae149838b6d47ce0f3b2a5974546"
+        ],
+        "types": [
+          {
+            "id": "808a04ceb21c4d888ad12e240613e5ca",
+            "name": "Property"
+          }
+        ],
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "6d29d57849bb4959baf72cc696b1671a",
+              "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+              "toEntity": {
+                "name": "Relation",
+                "description": null
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            },
+            {
+              "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+              "toEntityId": "95930302f7294124a85db5ab33c8ad38",
+              "toEntity": {
+                "name": "Population",
+                "description": "Demographic group defined by age, sex, or physiological status used to stratify reference ranges."
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+              "toEntity": {
+                "name": "Property",
+                "description": null
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "property": {
+        "dataTypeName": "Relation"
+      }
+    },
+    "perryPopulation": {
+      "entity": {
+        "id": "0f3db3824f9b43209048665c798bebfb",
+        "name": "Perry Preschool participants",
+        "description": "The full historical participant population in the HighScope Perry Preschool experiment in Ypsilanti, Michigan.",
+        "spaceIds": [
+          "dac259bad48a11adf97fe36857d85206"
+        ],
+        "types": [
+          {
+            "id": "95930302f7294124a85db5ab33c8ad38",
+            "name": "Population"
+          }
+        ],
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "95930302f7294124a85db5ab33c8ad38",
+              "toEntity": {
+                "name": "Population",
+                "description": "Demographic group defined by age, sex, or physiological status used to stratify reference ranges."
+              },
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "415914702fcb448a991b05734a84290a",
+              "toEntity": {
+                "name": "HighScope Perry Preschool study",
+                "description": "A preschool experiment involving 123 children in Ypsilanti, Michigan during the 1960s. Subsequent reassignment compromised the initial randomization, requiring adjustment in later analyses."
+              },
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "property": null
+    },
+    "effect": {
+      "entity": {
+        "id": "e500e2585a964d2c9df4a47b199616c3",
+        "name": "Effect estimate value",
+        "description": "Reported numerical effect; interpret only with the stated unit, estimand and study context.",
+        "spaceIds": [
+          "dac259bad48a11adf97fe36857d85206"
+        ],
+        "types": [
+          {
+            "id": "808a04ceb21c4d888ad12e240613e5ca",
+            "name": "Property"
+          }
+        ],
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "6d29d57849bb4959baf72cc696b1671a",
+              "toEntityId": "a3288c22a0564f6fb409fbcccb2c118c",
+              "toEntity": {
+                "name": "Decimal",
+                "description": "Arbitrary-precision decimal"
+              },
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+              "toEntity": {
+                "name": "Property",
+                "description": null
+              },
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "property": {
+        "dataTypeName": "Decimal"
+      }
+    },
+    "se": {
+      "entity": {
+        "id": "cc28953bd89e406096c9627021f4713d",
+        "name": "Standard error",
+        "description": "Reported standard error of an estimate in the same units as that estimate.",
+        "spaceIds": [
+          "dac259bad48a11adf97fe36857d85206"
+        ],
+        "types": [
+          {
+            "id": "808a04ceb21c4d888ad12e240613e5ca",
+            "name": "Property"
+          }
+        ],
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "6d29d57849bb4959baf72cc696b1671a",
+              "toEntityId": "a3288c22a0564f6fb409fbcccb2c118c",
+              "toEntity": {
+                "name": "Decimal",
+                "description": "Arbitrary-precision decimal"
+              },
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+              "toEntity": {
+                "name": "Property",
+                "description": null
+              },
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "property": {
+        "dataTypeName": "Decimal"
+      }
+    },
+    "populationSummary": {
+      "entity": {
+        "id": "7a1f6d017895206e84e1988c0c74621e",
+        "name": "Population summary",
+        "description": "Short text describing the population to which evidence applies.",
+        "spaceIds": [
+          "5c7851580401d2548e4f948d724b8794"
+        ],
+        "types": [
+          {
+            "id": "808a04ceb21c4d888ad12e240613e5ca",
+            "name": "Property"
+          }
+        ],
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+              "toEntity": {
+                "name": "Property",
+                "description": null
+              },
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            },
+            {
+              "typeId": "6d29d57849bb4959baf72cc696b1671a",
+              "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+              "toEntity": {
+                "name": "Text",
+                "description": null
+              },
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "property": {
+        "dataTypeName": "Text"
+      }
+    },
+    "populationStudiedAlternative": {
+      "entity": {
+        "id": "234b4043dd564920961042f1c37bbe1f",
+        "name": "Population studied",
+        "description": "People or biological samples examined in a study, described by their relevant characteristics.",
+        "spaceIds": [
+          "e01507b1bd7cb04c074ae8f52196096d"
+        ],
+        "types": [
+          {
+            "id": "808a04ceb21c4d888ad12e240613e5ca",
+            "name": "Property"
+          }
+        ],
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+              "toEntity": {
+                "name": "Property",
+                "description": null
+              },
+              "spaceId": "e01507b1bd7cb04c074ae8f52196096d"
+            },
+            {
+              "typeId": "6d29d57849bb4959baf72cc696b1671a",
+              "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+              "toEntity": {
+                "name": "Text",
+                "description": null
+              },
+              "spaceId": "e01507b1bd7cb04c074ae8f52196096d"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "property": {
+        "dataTypeName": "Text"
+      }
+    },
+    "inPopulation": {
+      "entity": {
+        "id": "2f20b60b8bd287a2ba2e1e63b51e4f7d",
+        "name": "In population",
+        "description": "Links a study finding to the population context studied.",
+        "spaceIds": [
+          "5c7851580401d2548e4f948d724b8794"
+        ],
+        "types": [
+          {
+            "id": "808a04ceb21c4d888ad12e240613e5ca",
+            "name": "Property"
+          }
+        ],
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "6d29d57849bb4959baf72cc696b1671a",
+              "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+              "toEntity": {
+                "name": "Relation",
+                "description": null
+              },
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+              "toEntity": {
+                "name": "Property",
+                "description": null
+              },
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "property": {
+        "dataTypeName": "Relation"
+      }
+    },
+    "appliesToPopulation": {
+      "entity": {
+        "id": "e004f7846df83a54965fc71103434522",
+        "name": "Applies to population",
+        "description": "Links evidence, claims, or notes to a population context.",
+        "spaceIds": [
+          "5c7851580401d2548e4f948d724b8794"
+        ],
+        "types": [
+          {
+            "id": "808a04ceb21c4d888ad12e240613e5ca",
+            "name": "Property"
+          }
+        ],
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+              "toEntity": {
+                "name": "Property",
+                "description": null
+              },
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            },
+            {
+              "typeId": "6d29d57849bb4959baf72cc696b1671a",
+              "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+              "toEntity": {
+                "name": "Relation",
+                "description": null
+              },
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "property": {
+        "dataTypeName": "Relation"
+      }
+    }
+  }
+}

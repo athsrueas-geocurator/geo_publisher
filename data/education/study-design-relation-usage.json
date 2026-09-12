@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-09-12T01:24:47.091Z",
+  "scope": "Bounded first ten relation uses; not exhaustive identity discovery",
+  "data": {
+    "relationsConnection": {
+      "nodes": [
+        {
+          "spaceId": "44eb138f564fbed6ed9ce543de1b849c",
+          "fromEntityId": "3d4b94bf5ebd42268f10ca3aa75b2232",
+          "fromEntity": {
+            "name": "Planetary Health Diet linked to lower cardiovascular disease risk in postmenopausal women, 20-year study finds",
+            "types": [
+              {
+                "id": "e550fe517e904b2c8fffdf13408f5634",
+                "name": "News story"
+              }
+            ]
+          },
+          "toEntityId": "73dd30ca5c9a4ae7be3e6dfaed332365",
+          "toEntity": {
+            "name": "Prospective observational",
+            "description": "A study that follows participants forward in time to observe outcomes without experimental manipulation.",
+            "types": [
+              {
+                "id": "07d23153ead146268af89189abe0b6f3",
+                "name": "Study category"
+              }
+            ]
+          }
+        },
+        {
+          "spaceId": "44eb138f564fbed6ed9ce543de1b849c",
+          "fromEntityId": "3d4b94bf5ebd42268f10ca3aa75b2232",
+          "fromEntity": {
+            "name": "Planetary Health Diet linked to lower cardiovascular disease risk in postmenopausal women, 20-year study finds",
+            "types": [
+              {
+                "id": "e550fe517e904b2c8fffdf13408f5634",
+                "name": "News story"
+              }
+            ]
+          },
+          "toEntityId": "cde36e490fd64fabab5f22dba39969cb",
+          "toEntity": {
+            "name": "Women's Health Initiative estrogen plus progestin trial",
+            "description": "Randomized trial within the Women's Health Initiative evaluating conjugated equine estrogens plus medroxyprogesterone acetate in postmenopausal women, finding increased risks of breast cancer, stroke, and cardiovascular events.",
+            "types": [
+              {
+                "id": "f306b5424f91426ea502c7e545b94967",
+                "name": "Clinical Trial"
+              }
+            ]
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmI3ZDJhYTgtMmQ0Ni00MTcyLWE1YzItNGM2Y2ZlMGMzYWM2Il1d"
+      }
+    },
+    "entity": {
+      "name": "Randomized controlled trial",
+      "description": "Random assignment to treatment/control; strongest internal validity when implemented and analyzed well.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206",
+        "52c7ae149838b6d47ce0f3b2a5974546",
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "1206e244cf314218b8519a07321337d7",
+          "name": "Evidence"
+        },
+        {
+          "id": "1206e244cf314218b8519a07321337d7",
+          "name": "Evidence"
+        },
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    }
+  }
+}

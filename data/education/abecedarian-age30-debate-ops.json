@@ -1,0 +1,329 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Governments should expand high-quality early-childhood education modeled on the Abecedarian program.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This policy position weighs the ABC trial’s age-30 education and employment findings against its non-significant primary income-to-needs result. One small, historical trial does not settle contemporary cost, delivery, scale, or priority choices.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "59ff43b552174e689e81b94d72462e6c"
+    },
+    "entity": {
+      "$bytes": "07d9cfa62f124a6f86053e30a30af53b"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08kl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ed4de7d4906e468b92bf5d382c068c3e"
+    },
+    "entity": {
+      "$bytes": "4706dff10dda44b6921fd65ed34110eb"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "a72a792642aa46b497587313102bfe39"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09x1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "182ef730783248fab5bc015d89eba148"
+    },
+    "entity": {
+      "$bytes": "c9fe826bfd8048828339a478b2934158"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09h4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b56b53bf74be4cd4aa77db4c6d401db5"
+    },
+    "entity": {
+      "$bytes": "ec6a44d376be4f1ca6ebde215aae1ecd"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "7f43e163663249928d51b7389e00fe94"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05VE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d50281993284428191bf4fe73b6d948a"
+    },
+    "entity": {
+      "$bytes": "f45805673da044f5af5c1cbc65ed1e54"
+    },
+    "from": {
+      "$bytes": "7f43e163663249928d51b7389e00fe94"
+    },
+    "to": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07lj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ac6ced0a91d64e7f9c43a85a683591c2"
+    },
+    "entity": {
+      "$bytes": "07e13494211b460482af66c56580a4c3"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "8a99d1f35acb43aeb68bcfc8870f189b"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01OM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e42791e09b19488997133cc5927d0002"
+    },
+    "entity": {
+      "$bytes": "1d8888192eb44df3b4eae356ed00570b"
+    },
+    "from": {
+      "$bytes": "8a99d1f35acb43aeb68bcfc8870f189b"
+    },
+    "to": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a049B"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d03e9d866b984d428d34a3e111ab9aca"
+    },
+    "entity": {
+      "$bytes": "63fa34925fff4fd4bfebe782832c5047"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "309aaaf476c644e69980f6173ed3bcc9"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a077t"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "35b0eeb64fbe431493af9d206b654371"
+    },
+    "entity": {
+      "$bytes": "436a7b30408742579ff8b85e5ff4f5c0"
+    },
+    "from": {
+      "$bytes": "309aaaf476c644e69980f6173ed3bcc9"
+    },
+    "to": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03sL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a8d66357558e41f59d83192aa45289b7"
+    },
+    "entity": {
+      "$bytes": "ac96f324a05f4a99bd6f29e1d0a4a258"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "d6d0402187dc49e7a337f18df4743194"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0093"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "96447cb8e5504b2497fcc163e54d37d6"
+    },
+    "entity": {
+      "$bytes": "cbdfca261a3c46c69ea73aa9d5554a1f"
+    },
+    "from": {
+      "$bytes": "d6d0402187dc49e7a337f18df4743194"
+    },
+    "to": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02S4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "29aee0ff9aee44dd8406f68c8d36c290"
+    },
+    "entity": {
+      "$bytes": "1c7cbeb888994d07891a67e25890b4e3"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "7f43e163663249928d51b7389e00fe94"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a02mC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a2bda3c95b334012b38b09e9d1bd0a10"
+    },
+    "entity": {
+      "$bytes": "3ede97244c094fc583979c4e409bc526"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "8a99d1f35acb43aeb68bcfc8870f189b"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a05D9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bd171ebc8b9a4c5487142f9712f3daa6"
+    },
+    "entity": {
+      "$bytes": "16b557dc03ed449f85f1ef84c9324616"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "309aaaf476c644e69980f6173ed3bcc9"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a09W0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4113e318abe44d0c8a53185b8df6037f"
+    },
+    "entity": {
+      "$bytes": "f555c8031c4842eebfb41ec3643afe40"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "d6d0402187dc49e7a337f18df4743194"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a034L"
+  }
+]

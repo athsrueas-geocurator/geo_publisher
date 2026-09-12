@@ -1,0 +1,20 @@
+{
+  "sourceKey": "datasets/evidence-for-essa",
+  "checkedAt": "2026-09-11T17:58:07.412Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://evidenceforessa.org/",
+      "needle": "evidenceforessa.org",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

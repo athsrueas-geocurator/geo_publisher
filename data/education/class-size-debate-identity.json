@@ -1,0 +1,535 @@
+{
+  "checkedAt": "2026-09-12T12:41:15.754Z",
+  "entities": [
+    {
+      "id": "d70f7e00c8fd4fb2b6a056df6b844b1f",
+      "name": "Economic Considerations and Class Size",
+      "description": "Alan B. Krueger’s 2003 Economic Journal article examines class-size evidence and models its economic returns.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "a2a5ed0cacef46b1835de457956ce915",
+          "name": "Article"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+            "text": "https://onlinelibrary.wiley.com/doi/10.1111/1468-0297.00098",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Economic Considerations and Class Size",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "Alan B. Krueger’s 2003 Economic Journal article examines class-size evidence and models its economic returns.",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "7cb59354e30c48119e99ff62fcf61646",
+            "text": "https://doi.org/10.1111/1468-0297.00098",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "128ceb75bbe145788cff6e2d116f1cee",
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "toEntityId": "af294c5f9d5b4b5aa42f8737fe51ef4c",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": null
+            }
+          },
+          {
+            "id": "736d8f5011734d15a4d31d87f9eb9703",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "a2a5ed0cacef46b1835de457956ce915",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Article"
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "d68c6d1d10af47418fc80ed09d4e097f",
+      "name": "Tennessee Project STAR",
+      "description": "A Tennessee experiment that randomly assigned students and teachers within schools to small classes, regular classes, or regular classes with full-time aides.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "3ef269bc5f114691abc02dcbf398fd63",
+          "name": "Study"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Tennessee Project STAR",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "A Tennessee experiment that randomly assigned students and teachers within schools to small classes, regular classes, or regular classes with full-time aides.",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "05fb64473b9140fa889373b366e46b1f",
+            "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+            "toEntityId": "efdefdaf3fbd4d02bd44228882c09359",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Experimental Estimates of Education Production Functions"
+            }
+          },
+          {
+            "id": "2672947b65d846699b63090afe6e089b",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "3ef269bc5f114691abc02dcbf398fd63",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Study"
+            }
+          },
+          {
+            "id": "7a96d02adf704b25a7ef3bc99ba9d52b",
+            "typeId": "76cac7bf35d44162a2961b12e99dc1a1",
+            "toEntityId": "82853715d57840fb93f79036e8acdad4",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Randomized controlled trial"
+            }
+          },
+          {
+            "id": "f1deed827b504a22be9c1400524d12b1",
+            "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+            "toEntityId": "b753211b9fd6470b8bb0ed709b97b789",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Tennessee"
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "6db38a6c620f4ca1bc2452137457d686",
+      "name": "STAR's modeled real annual internal return is 6.2% when assumed real wage growth is 1%.",
+      "description": "This author-modeled class-size calculation projects earnings over ages 18–65; it is not an observed investment return or a confidence bound.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "This author-modeled class-size calculation projects earnings over ages 18–65; it is not an observed investment return or a confidence bound.",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "STAR's modeled real annual internal return is 6.2% when assumed real wage growth is 1%.",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "879d207046024b44be6e3d64c32c60da",
+            "text": null,
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+            "text": "Table 5, F56 (PDF page 23); Internal Rate of Return row",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+            "text": "Projected earnings ages 18–65",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "51a331c9b55e40ed9ba9b3aa7eacbf0b",
+            "text": null,
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+            "text": null,
+            "boolean": true,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "1120cdc8cc384fd2bfdddbc799a6d543",
+            "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+            "toEntityId": "d70f7e00c8fd4fb2b6a056df6b844b1f",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Economic Considerations and Class Size"
+            }
+          },
+          {
+            "id": "30abcfd6b7cc4a508bcf28e7ff6890e8",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "96f859efa1ca4b229372c86ad58b694b",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Claim"
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "b0e661c838de4b8eb406a9c5a82249b1",
+      "name": "STAR model: 4% discount, 1% wage growth; $15180 earnings versus $7537 cost.",
+      "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "3a558d71454745a992c035040f648729",
+            "text": "per pupil; present value of modeled incremental cost",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "STAR model: 4% discount, 1% wage growth; $15180 earnings versus $7537 cost.",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "49fcf7e6ccea49dab672345486cd9df9",
+            "text": null,
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+            "text": "Projected earnings ages 18–65",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "51a331c9b55e40ed9ba9b3aa7eacbf0b",
+            "text": null,
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+            "text": null,
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+            "text": "Table 5, F56 (PDF page 23)",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+            "text": "USD",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "f9d6085e34014562aae4021009f5f390",
+            "text": null,
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "6ba2ce00db064687b108aa8449672886",
+            "text": null,
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "7fe61c59ceed48b3b725b5fa687de9a6",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "96f859efa1ca4b229372c86ad58b694b",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Claim"
+            }
+          },
+          {
+            "id": "849feb2cef5f42cf97c3110c1cca69a9",
+            "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+            "toEntityId": "d70f7e00c8fd4fb2b6a056df6b844b1f",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Economic Considerations and Class Size"
+            }
+          },
+          {
+            "id": "d88a48e37df648afb3c75928cd0a682c",
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "toEntityId": "42d8f03dbc9349679cb0f4f0601dccb9",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": null
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "7eeddeb79af54141b58e4cffe32d93a5",
+      "name": "In Tennessee STAR, small-class assignment raised kindergarten achievement by an estimated 5.36 percentile points.",
+      "description": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.36 points (class-clustered SE 1.21). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+            "text": null,
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.36 points (class-clustered SE 1.21). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+            "text": "End of kindergarten",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+            "text": "Table V, column 7, panel A, p. 512",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "In Tennessee STAR, small-class assignment raised kindergarten achievement by an estimated 5.36 percentile points.",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+            "text": null,
+            "boolean": true,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "cc28953bd89e406096c9627021f4713d",
+            "text": null,
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "ba643714da274c37a340a7f8396198dc",
+            "text": "reduced-form initial class-type assignment effect",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "8405509cc7354655a348591349a5f025",
+            "text": "percentile points",
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+            "text": null,
+            "boolean": null,
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "159be843f720486385041aaa4076473c",
+            "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+            "toEntityId": "efdefdaf3fbd4d02bd44228882c09359",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Experimental Estimates of Education Production Functions"
+            }
+          },
+          {
+            "id": "2ae6a9a0f2464de19132bfe5e9b1e1d6",
+            "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+            "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Tennessee Project STAR"
+            }
+          },
+          {
+            "id": "7d36c476a59743b4999652499a0c2e55",
+            "typeId": "98c0849922164db0822b5a78444c17b3",
+            "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Kindergarten (United States)"
+            }
+          },
+          {
+            "id": "87208dcf31664b20b109e6b79b350d25",
+            "typeId": "a0109f6192b1414fa93fb756779643ed",
+            "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "STAR small-class assignment"
+            }
+          },
+          {
+            "id": "d5028dfdd31c48eea7ee83227c0edd7f",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "96f859efa1ca4b229372c86ad58b694b",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Claim"
+            }
+          },
+          {
+            "id": "dc167987279c48d5bb669a7e7b4f1a62",
+            "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+            "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "STAR regular-class comparison assignment"
+            }
+          },
+          {
+            "id": "e76427f6547745c2b018bcd62855d1f8",
+            "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+            "toEntityId": "b753211b9fd6470b8bb0ed709b97b789",
+            "spaceId": "dac259bad48a11adf97fe36857d85206",
+            "toEntity": {
+              "name": "Tennessee"
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    }
+  ],
+  "identifiers": [
+    {
+      "text": "https://hanushek.stanford.edu/publications/evidence-politics-and-class-size-debate",
+      "data": {
+        "valuesConnection": {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "text": "https://hanushek.stanford.edu/sites/default/files/publications/Hanushek%202002%20ClassSizeDebate.pdf",
+      "data": {
+        "valuesConnection": {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    }
+  ]
+}

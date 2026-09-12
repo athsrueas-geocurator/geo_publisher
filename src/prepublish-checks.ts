@@ -227,7 +227,7 @@ export async function fetchSpaceEntityNames(spaceId: string): Promise<{
         spaceId: $spaceId
         first: $first
         orderBy: [PRIMARY_KEY_ASC]
-        filter: { name: { isNot: null } }
+        filter: { name: { isNull: false } }
       ) {
         id
         name

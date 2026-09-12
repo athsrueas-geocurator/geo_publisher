@@ -1,0 +1,29 @@
+{
+  "term": "emerging",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:35.084Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "1bacb5cf795e5a89483ada4892268b42",
+      "name": "Emerging",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "c684b553b367d7dca8b43b265d7f3aa2",
+          "name": "Evidence level"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMWJhY2I1Y2YtNzk1ZS01YTg5LTQ4M2EtZGE0ODkyMjY4YjQyIl1d"
+    }
+  ]
+}

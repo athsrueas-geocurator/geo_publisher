@@ -1,0 +1,158 @@
+[
+  {
+    "initiativeSlug": "double-dose-algebra-chicago",
+    "datasetId": "crdc",
+    "role": "contextual benchmarking",
+    "use": "Compare access to Algebra I and advanced coursework at schools, without treating CRDC as the intervention evaluation."
+  },
+  {
+    "initiativeSlug": "principal-pipeline-initiative",
+    "datasetId": "seda-v5",
+    "role": "outcome benchmarking",
+    "use": "Benchmark school achievement patterns where participating schools can be matched by NCES school ID."
+  },
+  {
+    "initiativeSlug": "dual-language-immersion-programs",
+    "datasetId": "edfacts-ed-data-express",
+    "role": "contextual benchmarking",
+    "use": "Compare chronic-absence context, not bilingual-program effects."
+  },
+  {
+    "initiativeSlug": "early-warning-intervention-monitoring-system",
+    "datasetId": "edfacts-ed-data-express",
+    "role": "outcome context",
+    "use": "Use chronic absence as a common outcome definition alongside the randomized evaluation."
+  },
+  {
+    "initiativeSlug": "ethnic-studies-curriculum-san-francisco",
+    "datasetId": "seda-v5",
+    "role": "outcome context",
+    "use": "Provide school achievement context; the regression-discontinuity study remains the causal source."
+  },
+  {
+    "initiativeSlug": "comprehensive-teacher-induction",
+    "datasetId": "seda-v5",
+    "role": "outcome benchmarking",
+    "use": "Benchmark achievement patterns only; retain the induction trial as the effect estimate."
+  },
+  {
+    "initiativeSlug": "community-eligibility-provision-universal-meals",
+    "datasetId": "edfacts-ed-data-express",
+    "role": "outcome context",
+    "use": "Compare chronic-absence context while avoiding an unsupported academic-effect claim."
+  },
+  {
+    "initiativeSlug": "national-guard-youth-challenge-program",
+    "datasetId": "college-scorecard",
+    "role": "postsecondary context",
+    "use": "Provide institution-level destination context; the randomized program study remains causal evidence."
+  },
+  {
+    "initiativeSlug": "enhanced-reading-opportunities-raals-xtreme-reading",
+    "datasetId": "seda-v5",
+    "role": "outcome benchmarking",
+    "use": "Benchmark school achievement trends; retain the randomized evaluation for intervention findings."
+  },
+  {
+    "initiativeSlug": "21st-century-community-learning-centers",
+    "datasetId": "crdc",
+    "role": "contextual benchmarking",
+    "use": "Compare school climate and discipline context, not after-school-program effects."
+  },
+  {
+    "initiativeSlug": "talent-development-high-schools",
+    "datasetId": "crdc",
+    "role": "contextual benchmarking",
+    "use": "Compare available school access and discipline measures; retain the WWC-reviewed study for outcomes."
+  },
+  {
+    "initiativeSlug": "teacher-coaching",
+    "datasetId": "ntps-tfs",
+    "role": "teacher workforce context",
+    "use": "Describe nationally representative teacher professional-development and working-condition context; do not infer coaching effects from survey associations."
+  },
+  {
+    "initiativeSlug": "comprehensive-teacher-induction",
+    "datasetId": "ntps-tfs",
+    "role": "retention context",
+    "use": "Benchmark novice-teacher support and mobility context while retaining the randomized induction evaluation for effects."
+  },
+  {
+    "initiativeSlug": "head-start",
+    "datasetId": "ecls-k",
+    "role": "early-childhood outcome context",
+    "use": "Describe longitudinal early-learning and development context; retain the Head Start randomized evaluation for causal claims."
+  },
+  {
+    "initiativeSlug": "boston-universal-pre-k",
+    "datasetId": "ecls-k",
+    "role": "early-childhood outcome context",
+    "use": "Compare cohort-level early-childhood measures only; ECLS-K does not identify the Boston program effect."
+  },
+  {
+    "initiativeSlug": "career-academies",
+    "datasetId": "hsls-09",
+    "role": "postsecondary pathway context",
+    "use": "Provide national course-taking, CTE, and postsecondary pathway context; retain the Career Academies trial for effects."
+  },
+  {
+    "initiativeSlug": "dual-enrollment-ap-and-advanced-coursework-expansion",
+    "datasetId": "hsls-09",
+    "role": "course-taking context",
+    "use": "Describe national transcript and postsecondary context without treating cohort associations as dual-enrollment effects."
+  },
+  {
+    "initiativeSlug": "restorative-practices",
+    "datasetId": "ssocs",
+    "role": "school climate context",
+    "use": "Compare nationally representative safety, discipline, and restorative-support reporting; retain the district RCT for effects."
+  },
+  {
+    "initiativeSlug": "pbis-mtss-behavior-systems",
+    "datasetId": "ssocs",
+    "role": "school climate context",
+    "use": "Use national safety and prevention-practice context without inferring PBIS effectiveness from cross-sectional survey responses."
+  },
+  {
+    "initiativeSlug": "high-quality-instructional-materials-initiatives",
+    "datasetId": "evidence-for-essa",
+    "role": "evidence discovery",
+    "use": "Screen reading and mathematics programs for ESSA-aligned reviews, then retain the underlying primary study for every claim."
+  },
+  {
+    "initiativeSlug": "core-knowledge-knowledge-rich-curriculum",
+    "datasetId": "evidence-for-essa",
+    "role": "evidence discovery",
+    "use": "Use the review database to locate related curriculum evaluations; do not substitute a database rating for the primary study."
+  },
+  {
+    "initiativeSlug": "early-college-high-schools",
+    "datasetId": "national-student-clearinghouse-research-center",
+    "role": "postsecondary trend context",
+    "use": "Use public aggregate enrollment reporting as national context; it cannot estimate Early College effects for individual applicants."
+  },
+  {
+    "initiativeSlug": "modern-cte-pathways-and-concentrator-programs",
+    "datasetId": "national-student-clearinghouse-research-center",
+    "role": "postsecondary trend context",
+    "use": "Use public aggregate postsecondary trends as context while retaining program-specific studies for effects."
+  },
+  {
+    "initiativeSlug": "school-improvement-grants",
+    "datasetId": "state-longitudinal-data-systems",
+    "role": "local evaluation feasibility",
+    "use": "A future state-approved extract could link program exposure, outcomes, and implementation timing; no national SLDS file is implied."
+  },
+  {
+    "initiativeSlug": "school-finance-reforms-adequacy-and-equity-funding",
+    "datasetId": "state-longitudinal-data-systems",
+    "role": "local evaluation feasibility",
+    "use": "A state-specific longitudinal system can support exposure and outcome linkage when legal access, identifiers, and a credible comparison design are available."
+  },
+  {
+    "initiativeSlug": "teacher-coaching",
+    "datasetId": "eric",
+    "role": "evidence discovery",
+    "use": "Use controlled queries to locate primary coaching evaluations and syntheses; save the exact query and cited record."
+  }
+]

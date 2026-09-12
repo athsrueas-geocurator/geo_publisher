@@ -1,0 +1,19 @@
+{
+  "name": "Add No Child Left Behind initiative and primary evaluation source",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/nclb-ops.json",
+  "sha256": "a421abbba953e8c8729a8ab648b233d78c7fdfb9165f2a5786d5e20b6e87da3a",
+  "journalPath": "data/education/nclb-publication.json",
+  "validationPath": "data/education/nclb-validation.json",
+  "entities": {
+    "article": "d83f04c4e8594faeb657a226c26c134c",
+    "initiative": "ed3fbb4f693c4785955b627ea98c03fb"
+  },
+  "operationCount": 6,
+  "sourceKeys": [
+    "src-003",
+    "initiatives:4"
+  ],
+  "limits": "This batch creates a source-linked initiative and Article. It does not create a quantitative effect Claim or imply that the Article exhausts NCLB evidence."
+}

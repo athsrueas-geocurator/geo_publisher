@@ -1,0 +1,272 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The three-year Youth ChalleNGe results justify expanding the program for eligible out-of-school youth.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is an evaluative policy position informed by one ten-site randomized evaluation. It requires judgments about scope, delivery, cost and alternatives.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "254d1e1479004c12a201ac096dbaac5b"
+    },
+    "entity": {
+      "$bytes": "e41c09dc8f4b49a4bbd8ac02d437c383"
+    },
+    "from": {
+      "$bytes": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08bd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d6020bfb006f461cbf6dd031725f8e2c"
+    },
+    "entity": {
+      "$bytes": "d2354ae846734802a7c530377aafc204"
+    },
+    "from": {
+      "$bytes": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    "to": {
+      "$bytes": "cfecb9c0a0e34175b228c35f8db7cdea"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08zt"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bdff429458024575a28a3c7e2423fc3b"
+    },
+    "entity": {
+      "$bytes": "6028cb3246b74a768d01508f0c0adf19"
+    },
+    "from": {
+      "$bytes": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    "to": {
+      "$bytes": "c52c01e8bab14e64b56b8ceb7c244da5"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    },
+    "position": "a08g7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "418a4db079914c97be224327a58b052e"
+    },
+    "entity": {
+      "$bytes": "74ce79bb509849cf93a90d70a3e941d5"
+    },
+    "from": {
+      "$bytes": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    "to": {
+      "$bytes": "1a7f36f09ac54d4daa4dffbaa7cacefe"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    },
+    "position": "a08wF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "95c12ffff6e24231afdb7e04962c3e23"
+    },
+    "entity": {
+      "$bytes": "02294e4d970943d489996772984fcfda"
+    },
+    "from": {
+      "$bytes": "1a7f36f09ac54d4daa4dffbaa7cacefe"
+    },
+    "to": {
+      "$bytes": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    },
+    "position": "a06Xw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d75a57a966634f05832609079d8077c7"
+    },
+    "entity": {
+      "$bytes": "e66942545fc547319e71b5ef8c9118f8"
+    },
+    "from": {
+      "$bytes": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    "to": {
+      "$bytes": "1a7f36f09ac54d4daa4dffbaa7cacefe"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a01lz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5c51325822384c44ab768847557550c9"
+    },
+    "entity": {
+      "$bytes": "47fe1397fda94e0cb4ba88792db9a185"
+    },
+    "from": {
+      "$bytes": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    "to": {
+      "$bytes": "d5be2a41a8bd4c9c8a1e0d061055ab1f"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    },
+    "position": "a00uE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "79abb37a44b047d888aeab820d2805be"
+    },
+    "entity": {
+      "$bytes": "8508dc2747074da3b62d7a0ed43c89cc"
+    },
+    "from": {
+      "$bytes": "d5be2a41a8bd4c9c8a1e0d061055ab1f"
+    },
+    "to": {
+      "$bytes": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    },
+    "position": "a0CKk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ce412159c2c9427881d7c6bc39a90246"
+    },
+    "entity": {
+      "$bytes": "bfc236c474e647d4bb17e46112171124"
+    },
+    "from": {
+      "$bytes": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    "to": {
+      "$bytes": "d5be2a41a8bd4c9c8a1e0d061055ab1f"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a02eP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cc0a10e464b94aad8c6d8641aefe8900"
+    },
+    "entity": {
+      "$bytes": "b3393bc0f74847a18fd98cc3f6aae5d7"
+    },
+    "from": {
+      "$bytes": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    "to": {
+      "$bytes": "83e32af1f37c4ecfa14894b1f8b7c02b"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    },
+    "position": "a052r"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f6a6c75876d24d30a952885b3f7e4b8d"
+    },
+    "entity": {
+      "$bytes": "d53ffcc564cc49289f74483f8c7f02cc"
+    },
+    "from": {
+      "$bytes": "83e32af1f37c4ecfa14894b1f8b7c02b"
+    },
+    "to": {
+      "$bytes": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    },
+    "position": "a0CFv"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "93f3548e048e4ecdaccd17909bd67012"
+    },
+    "entity": {
+      "$bytes": "4717d3bdb62f4ddfa423c9e1b988be4f"
+    },
+    "from": {
+      "$bytes": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    "to": {
+      "$bytes": "83e32af1f37c4ecfa14894b1f8b7c02b"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a04Cv"
+  }
+]

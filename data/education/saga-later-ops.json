@@ -1,0 +1,4545 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga later outcomes by Chicago trial",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c7aec7be08344134a9f827ed32567b78"
+    },
+    "entity": {
+      "$bytes": "819347c3d76d444cb86ac6197f1b329a"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bf980248321f41acb075e45d458b5fa3"
+    },
+    "entity": {
+      "$bytes": "f8c9379e858b4ea0846ae7387aeea2c0"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e61be2e9b159412890c9cb3e2b558f38"
+    },
+    "entity": {
+      "$bytes": "d5d054c12f8c4d9ab147d36e4c76f632"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "d1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9adedba80d4f462584f39880ffc1692e"
+    },
+    "entity": {
+      "$bytes": "100fbb38367046fc883990ab6cf25e02"
+    },
+    "from": {
+      "$bytes": "d5d054c12f8c4d9ab147d36e4c76f632"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e790497548b44f299a7724a955f7fdc0"
+    },
+    "entity": {
+      "$bytes": "acc6a282f1124fa1afc23f8d8170a6f3"
+    },
+    "from": {
+      "$bytes": "d5d054c12f8c4d9ab147d36e4c76f632"
+    },
+    "to": {
+      "$bytes": "03b87ec1e71f410db566c7f12920283d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a004F"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eb0da63c90b947c3bfd2ae0055f305de"
+    },
+    "entity": {
+      "$bytes": "9343219292de476197f4963ec79c9bdb"
+    },
+    "from": {
+      "$bytes": "d5d054c12f8c4d9ab147d36e4c76f632"
+    },
+    "to": {
+      "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1942"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bc57f2381ba147788e0aaff83aae494c"
+    },
+    "entity": {
+      "$bytes": "4bb0072310424ff698ec9cf9e312844b"
+    },
+    "from": {
+      "$bytes": "d5d054c12f8c4d9ab147d36e4c76f632"
+    },
+    "to": {
+      "$bytes": "ba643714da274c37a340a7f8396198dc"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a229y"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2da043dce5044c5d815c2b58ce6b7811"
+    },
+    "entity": {
+      "$bytes": "1b20b282961e49a8b8b463e636a30853"
+    },
+    "from": {
+      "$bytes": "d5d054c12f8c4d9ab147d36e4c76f632"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a307F"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d34b2c4292874629a6665dd5c6314131"
+    },
+    "entity": {
+      "$bytes": "c88595293c3047cfbd879dccf8cf795a"
+    },
+    "from": {
+      "$bytes": "d5d054c12f8c4d9ab147d36e4c76f632"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a4B1c"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "494d46f514c44860b0b8b8d590b7b345"
+    },
+    "entity": {
+      "$bytes": "8f1739731b5948fb9b1e7f5ef5f30a36"
+    },
+    "from": {
+      "$bytes": "d5d054c12f8c4d9ab147d36e4c76f632"
+    },
+    "to": {
+      "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a5AKJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "70bdea5caf664eb7934636291ca98bb3"
+    },
+    "entity": {
+      "$bytes": "4dde344040f04e0ca00e37e7fbb76721"
+    },
+    "from": {
+      "$bytes": "d5d054c12f8c4d9ab147d36e4c76f632"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a61qB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f633bf99da034fe68cdcc8c353cdbc75"
+    },
+    "entity": {
+      "$bytes": "d049eb6f628d4a63b2937597f9f6615e"
+    },
+    "from": {
+      "$bytes": "d5d054c12f8c4d9ab147d36e4c76f632"
+    },
+    "to": {
+      "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a781K"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ec0c776023874e6da6ae694e7ce83e61"
+    },
+    "entity": {
+      "$bytes": "be575aca6c3d419e91ec82638046a5b3"
+    },
+    "from": {
+      "$bytes": "d5d054c12f8c4d9ab147d36e4c76f632"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a8Akd"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "10e82920d4684dee993f420cbadefa97"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated eleventh-grade CPS math scores 0.159 standard deviations higher from offering tutoring.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT estimate 0.159 (SE 0.039; N=1528; Appendix Table 5, p. A-12). Reported row q=0.001; the adjusted evidence supports a later math improvement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "11th Grade CPS Math Test (Study Sample Z)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "159"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "39"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1528"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Eleventh-grade outcome as reported in Appendix Table 5",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "be7277e77b5c4f5c987c1bbb810c4d89"
+    },
+    "entity": {
+      "$bytes": "8b32deb58a3d4903beb3be7a9439f7af"
+    },
+    "from": {
+      "$bytes": "10e82920d4684dee993f420cbadefa97"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "afb9173dc5df45f7aec6cec00bc1ed14"
+    },
+    "entity": {
+      "$bytes": "ec404e64f43d476bb1854ee907f3993c"
+    },
+    "from": {
+      "$bytes": "10e82920d4684dee993f420cbadefa97"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "28ec0154392f416b96166de434be5f24"
+    },
+    "entity": {
+      "$bytes": "7cff407c88984b22ba757280c64545b2"
+    },
+    "from": {
+      "$bytes": "10e82920d4684dee993f420cbadefa97"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bcd59ca3396640598e9acf42ed6bdade"
+    },
+    "entity": {
+      "$bytes": "b043c08086c741eba4461c6765b357c3"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "10e82920d4684dee993f420cbadefa97"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e09f4fd8077b4d31b1d03f9986f8f833"
+    },
+    "entity": {
+      "$bytes": "698e7c351a4a49129ca0616637d06089"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "10e82920d4684dee993f420cbadefa97"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a000"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "84a82b3de9684325a9ccf7603a562cb5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated eleventh-grade CPS math scores 0.304 standard deviations higher from tutoring participation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT estimate 0.304 (SE 0.074; N=1528; Appendix Table 5, p. A-12). Reported row q=0.001; the adjusted evidence supports a later math improvement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "11th Grade CPS Math Test (Study Sample Z)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "304"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "74"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1528"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Eleventh-grade outcome as reported in Appendix Table 5",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5b5e4271327449fe8f2f08cc1634430d"
+    },
+    "entity": {
+      "$bytes": "e5b277604e0f4cbaac12b8749b061902"
+    },
+    "from": {
+      "$bytes": "84a82b3de9684325a9ccf7603a562cb5"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "41c0344b4a06478dad30db7b472085d6"
+    },
+    "entity": {
+      "$bytes": "801a8a5e3ba94bc8950550762ef23d20"
+    },
+    "from": {
+      "$bytes": "84a82b3de9684325a9ccf7603a562cb5"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e08b5f8150ac4f25b2cee641bb4f0e5f"
+    },
+    "entity": {
+      "$bytes": "5775603a1ba84e5d9b9badae36d9cae2"
+    },
+    "from": {
+      "$bytes": "84a82b3de9684325a9ccf7603a562cb5"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "271ed8ebe24d4fed8d77ebcc8fc8798c"
+    },
+    "entity": {
+      "$bytes": "eb6e5aa607a540e381aceab2bd79d17f"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "84a82b3de9684325a9ccf7603a562cb5"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6167ed2f410c419694ce579a57e314ef"
+    },
+    "entity": {
+      "$bytes": "87948a441fa44adaa4ea91b43daeb086"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "84a82b3de9684325a9ccf7603a562cb5"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a001"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "dcf46226151c4ef8ab596059adcb0ac0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated eleventh-grade math GPA 0.132 points higher from offering tutoring.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT estimate 0.132 (SE 0.053; N=1554; Appendix Table 5, p. A-12). Reported row q=0.013; the adjusted evidence supports a later math improvement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "11th Grade Math GPA",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "132"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "53"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1554"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "GPA points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Eleventh-grade outcome as reported in Appendix Table 5",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6ea9063d6cf84be8b1bde1c2cc76c080"
+    },
+    "entity": {
+      "$bytes": "8092de65e0a34d8ab79c377b86768623"
+    },
+    "from": {
+      "$bytes": "dcf46226151c4ef8ab596059adcb0ac0"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2cca851cc4224897a146268968f08d75"
+    },
+    "entity": {
+      "$bytes": "49082506dfd24d5ab3f5fc84405ea7bf"
+    },
+    "from": {
+      "$bytes": "dcf46226151c4ef8ab596059adcb0ac0"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8946c2891e5a47a689b13cadbd570d54"
+    },
+    "entity": {
+      "$bytes": "30c3a46db68c41d2b647c849e8b82a55"
+    },
+    "from": {
+      "$bytes": "dcf46226151c4ef8ab596059adcb0ac0"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6cbd9a2e30d645c4831b45389acd2eaa"
+    },
+    "entity": {
+      "$bytes": "d5506477bcf14360a5122d3c5154b637"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "dcf46226151c4ef8ab596059adcb0ac0"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9502c392cafa4a28b19d25d0e6e2182e"
+    },
+    "entity": {
+      "$bytes": "83b9bbb32a0d4dde83933de4d3eba557"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "dcf46226151c4ef8ab596059adcb0ac0"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a002"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "877eb1ded30c454b9767dc55a863ca32"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated eleventh-grade math GPA 0.250 points higher from tutoring participation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT estimate 0.250 (SE 0.100; N=1554; Appendix Table 5, p. A-12). Reported row q=0.013; the adjusted evidence supports a later math improvement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "11th Grade Math GPA",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "250"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "100"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1554"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "GPA points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Eleventh-grade outcome as reported in Appendix Table 5",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c3d64770313b4efb94636e5a183fd35e"
+    },
+    "entity": {
+      "$bytes": "26b9babf61c54a9e9e569bb810746f10"
+    },
+    "from": {
+      "$bytes": "877eb1ded30c454b9767dc55a863ca32"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b746b273257b4762aeb1065a171b0700"
+    },
+    "entity": {
+      "$bytes": "4358a9603e6b45fb9d97232d6c7c2fcf"
+    },
+    "from": {
+      "$bytes": "877eb1ded30c454b9767dc55a863ca32"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0e08fc4ba2f7445787a83772d6718a3d"
+    },
+    "entity": {
+      "$bytes": "af49fd9f60b94806ae0634cc83309641"
+    },
+    "from": {
+      "$bytes": "877eb1ded30c454b9767dc55a863ca32"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bf32e64a67be40cbb81e7ade3bc4b65d"
+    },
+    "entity": {
+      "$bytes": "dc2e5d753ed14b37b349afaef1ca5dbf"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "877eb1ded30c454b9767dc55a863ca32"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "71b77cbe2536454c921e75963cf1b58f"
+    },
+    "entity": {
+      "$bytes": "2cb720ca574b473cb9a8f7fb19ddddc5"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "877eb1ded30c454b9767dc55a863ca32"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a003"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "145a47ec061c4309acd83c33fc894fbd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated on-time graduation 0.1 percentage points higher from offering tutoring.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT estimate 0.001 on the fraction scale (SE 0.017; N=1819; Appendix Table 5, p. A-12). Reported row q=0.972; this imprecise estimate does not establish a graduation benefit or no effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Graduated On-Time",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "17"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1819"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "proportion difference",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "On-time high-school graduation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "73e8fcf119d84db8a09a31e885224bca"
+    },
+    "entity": {
+      "$bytes": "7b8932cdee264dc6998f2577e0a02c64"
+    },
+    "from": {
+      "$bytes": "145a47ec061c4309acd83c33fc894fbd"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "14c46c84a4944570acf0ff271e542607"
+    },
+    "entity": {
+      "$bytes": "45b8a47ba7674b7da65ccae75a1d8807"
+    },
+    "from": {
+      "$bytes": "145a47ec061c4309acd83c33fc894fbd"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0965bd1845464213ae049f3363ad698a"
+    },
+    "entity": {
+      "$bytes": "b3751e3f916449bea6058322863a8c63"
+    },
+    "from": {
+      "$bytes": "145a47ec061c4309acd83c33fc894fbd"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "84cc03aee34642a1b004c0c8f8ca85fc"
+    },
+    "entity": {
+      "$bytes": "131e399ddff64759b19b6f8d9f691160"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "145a47ec061c4309acd83c33fc894fbd"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f892816ee07444d7826d3462c01be89d"
+    },
+    "entity": {
+      "$bytes": "2bd53a3d14af457280c6118cee0f14bb"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "145a47ec061c4309acd83c33fc894fbd"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a004"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f32fcb97f3cb42a593f0b37efc3a16e4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated on-time graduation 0.1 percentage points higher from tutoring participation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT estimate 0.001 on the fraction scale (SE 0.037; N=1819; Appendix Table 5, p. A-12). Reported row q=0.972; this imprecise estimate does not establish a graduation benefit or no effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Graduated On-Time",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "37"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1819"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "proportion difference",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "On-time high-school graduation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d44a51dd313a4bd2a5588b35c2215d7c"
+    },
+    "entity": {
+      "$bytes": "123fa5ad820b4632aa6ace42ffc24034"
+    },
+    "from": {
+      "$bytes": "f32fcb97f3cb42a593f0b37efc3a16e4"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "68d91b36e06e4ae39b4f7528c2a661e5"
+    },
+    "entity": {
+      "$bytes": "08050c237efc4e6ab02d10de8d90470a"
+    },
+    "from": {
+      "$bytes": "f32fcb97f3cb42a593f0b37efc3a16e4"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "87930946169e4e19863fc793afbd14bc"
+    },
+    "entity": {
+      "$bytes": "e1eb8d4326124b00abdfeafb16bb64f3"
+    },
+    "from": {
+      "$bytes": "f32fcb97f3cb42a593f0b37efc3a16e4"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "856c38bcb41848768b2e1bf4ea835f5b"
+    },
+    "entity": {
+      "$bytes": "bc5c67abdcc149f4bcb649f9914aae5e"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "f32fcb97f3cb42a593f0b37efc3a16e4"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8c77a20da2074958906501f4c3cdef51"
+    },
+    "entity": {
+      "$bytes": "9347bdd719da4d988cd3544961f75fe0"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "f32fcb97f3cb42a593f0b37efc3a16e4"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a005"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0a0d32c10059420fb1af7bd2e998911c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated graduation within the observed window 0.4 percentage points higher from offering tutoring.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT estimate 0.004 on the fraction scale (SE 0.015; N=1825; Appendix Table 5, p. A-12). Reported row q=0.815; this imprecise estimate does not establish a graduation benefit or no effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Graduated Ever",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "15"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1825"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "proportion difference",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Graduated within the report's observed window; terminal date not established",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1ff3efddd07b4455be480994889b7568"
+    },
+    "entity": {
+      "$bytes": "99fe9857ac4947fbb6f0d24f5416c33c"
+    },
+    "from": {
+      "$bytes": "0a0d32c10059420fb1af7bd2e998911c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "70bd9e83ac7d4acaa4a0fc79a05d099e"
+    },
+    "entity": {
+      "$bytes": "5aac352dc2bd411e9a1cb55dfad7d675"
+    },
+    "from": {
+      "$bytes": "0a0d32c10059420fb1af7bd2e998911c"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "32ee66845d704a8c94369c9ccebfa98d"
+    },
+    "entity": {
+      "$bytes": "7e58ca06e5714d9ebd2dabcbf9249954"
+    },
+    "from": {
+      "$bytes": "0a0d32c10059420fb1af7bd2e998911c"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "23308ffa67dc4a5c8a89bac327ee6a8e"
+    },
+    "entity": {
+      "$bytes": "2604c48b84154d6a9d2e52ba33738190"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "0a0d32c10059420fb1af7bd2e998911c"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a224cfd696634e52af1525f7237fe74a"
+    },
+    "entity": {
+      "$bytes": "da29a280766f4c98b596af5e2258b50b"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "0a0d32c10059420fb1af7bd2e998911c"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a006"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a340298ab13d4bbd9572ba94d64b28ff"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated graduation within the observed window 0.8 percentage points higher from tutoring participation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT estimate 0.008 on the fraction scale (SE 0.033; N=1825; Appendix Table 5, p. A-12). Reported row q=0.815; this imprecise estimate does not establish a graduation benefit or no effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Graduated Ever",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "8"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "33"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1825"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "proportion difference",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Graduated within the report's observed window; terminal date not established",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "974a4b26b6304314a1ab575342bcd6ee"
+    },
+    "entity": {
+      "$bytes": "d4e1c083012a47ac8811f6f742294c2d"
+    },
+    "from": {
+      "$bytes": "a340298ab13d4bbd9572ba94d64b28ff"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1e98c86c49c24f93bdcbd80a0628d7b5"
+    },
+    "entity": {
+      "$bytes": "fa0140d293464fb282094fcca0cd5160"
+    },
+    "from": {
+      "$bytes": "a340298ab13d4bbd9572ba94d64b28ff"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bb7ee5d7449d4d8fbdc1343adca26af3"
+    },
+    "entity": {
+      "$bytes": "2fe2d2f7abe441429ffc68cb57a1347d"
+    },
+    "from": {
+      "$bytes": "a340298ab13d4bbd9572ba94d64b28ff"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "174719d6058b45b4af91c22021b144a3"
+    },
+    "entity": {
+      "$bytes": "8e3a61e68b944452a0868366883825b1"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "a340298ab13d4bbd9572ba94d64b28ff"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "656ee5f5306d4285952d866e62579fa1"
+    },
+    "entity": {
+      "$bytes": "c430ba89764649e487507f00b7b64f27"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "a340298ab13d4bbd9572ba94d64b28ff"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a007"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e52d2e100edf4e54954ee9b76480c094"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 2 estimated eleventh-grade CPS math scores 0.027 standard deviations higher from offering tutoring.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT estimate 0.027 (SE 0.040; N=1445; Appendix Table 5, p. A-12). Reported row q=0.502; the adjusted evidence does not establish a later math improvement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "11th Grade CPS Math Test (Study Sample Z)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "27"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "40"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1445"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Eleventh-grade outcome as reported in Appendix Table 5",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "58711f538e834b8aa407904a5d2e9580"
+    },
+    "entity": {
+      "$bytes": "ed8fb3f478774fc9aba536a3aa3a4a2b"
+    },
+    "from": {
+      "$bytes": "e52d2e100edf4e54954ee9b76480c094"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "105464041879448db7f578a750b9c98b"
+    },
+    "entity": {
+      "$bytes": "14ef9e06aeb143549c358a3b0f32db94"
+    },
+    "from": {
+      "$bytes": "e52d2e100edf4e54954ee9b76480c094"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "36f33d35803f471cbd70e91f1caa4f8d"
+    },
+    "entity": {
+      "$bytes": "d1746085b7d7403aa37bafba0113fc96"
+    },
+    "from": {
+      "$bytes": "e52d2e100edf4e54954ee9b76480c094"
+    },
+    "to": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7ee3f1bc1e70429cac5d5e74df5d5e74"
+    },
+    "entity": {
+      "$bytes": "610a85d853874077a32e6bff40b7069f"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "e52d2e100edf4e54954ee9b76480c094"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f00480800e2e47aca28de377bd6d94d1"
+    },
+    "entity": {
+      "$bytes": "2326cc59ba3a4a808f7d1cd29d742bec"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "e52d2e100edf4e54954ee9b76480c094"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a008"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1081a2fa417d4229adae4f92ac2c1288"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 2 estimated eleventh-grade CPS math scores 0.082 standard deviations higher from tutoring participation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT estimate 0.082 (SE 0.122; N=1445; Appendix Table 5, p. A-12). Reported row q=0.502; the adjusted evidence does not establish a later math improvement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "11th Grade CPS Math Test (Study Sample Z)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "82"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "122"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1445"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Eleventh-grade outcome as reported in Appendix Table 5",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "86c6addb5b3245ce8a3252fa7ee188d6"
+    },
+    "entity": {
+      "$bytes": "309e767b337b44fab25311c3afe5e670"
+    },
+    "from": {
+      "$bytes": "1081a2fa417d4229adae4f92ac2c1288"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "910474cf47844a2caa4f53eb20b9657f"
+    },
+    "entity": {
+      "$bytes": "a6e7a9f2632f45a2bfc4ae40597ae868"
+    },
+    "from": {
+      "$bytes": "1081a2fa417d4229adae4f92ac2c1288"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e8bbb092253a4835a53a67a8d11d4a76"
+    },
+    "entity": {
+      "$bytes": "3c419c116cf845c4864b60190044e326"
+    },
+    "from": {
+      "$bytes": "1081a2fa417d4229adae4f92ac2c1288"
+    },
+    "to": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4c067f6f35334f88903d4b72edaec984"
+    },
+    "entity": {
+      "$bytes": "b47af39f57744951a96ed6c3f87b2318"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "1081a2fa417d4229adae4f92ac2c1288"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ab8b4f95a13b4efaae79f03d4d882efe"
+    },
+    "entity": {
+      "$bytes": "132e153c3f104302adf4688e8b8d9cd1"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "1081a2fa417d4229adae4f92ac2c1288"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a009"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "276254e5907c4683ac266d81454f4356"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 2 estimated eleventh-grade math GPA 0.082 points higher from offering tutoring.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT estimate 0.082 (SE 0.053; N=1465; Appendix Table 5, p. A-12). Reported row q=0.121; the adjusted evidence does not establish a later math improvement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "11th Grade Math GPA",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "82"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "53"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1465"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "GPA points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Eleventh-grade outcome as reported in Appendix Table 5",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b46b1fca62b94ba0983c51542c449eab"
+    },
+    "entity": {
+      "$bytes": "a17d5a1f77714b4085212785a845ded3"
+    },
+    "from": {
+      "$bytes": "276254e5907c4683ac266d81454f4356"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b89ad28e1ebe4917b27e0c7e84f04a77"
+    },
+    "entity": {
+      "$bytes": "bf0e89393db84e6abafcac3d8cf5736e"
+    },
+    "from": {
+      "$bytes": "276254e5907c4683ac266d81454f4356"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6dd09b4ee7b44523a4e7f887fcc1ec54"
+    },
+    "entity": {
+      "$bytes": "150b546434c8408cad9b3e82eb6a5c11"
+    },
+    "from": {
+      "$bytes": "276254e5907c4683ac266d81454f4356"
+    },
+    "to": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ffaa5076d2c94ee3a6f51ef087a836fd"
+    },
+    "entity": {
+      "$bytes": "8eea3395ea8d4b7d8f44f51a8ad3c753"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "276254e5907c4683ac266d81454f4356"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1089f65d0e144e809cc13130f128095a"
+    },
+    "entity": {
+      "$bytes": "909b3bc95789463ab2ce27760e6c5c70"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "276254e5907c4683ac266d81454f4356"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a010"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0daabf65133842099a470bac70e2e48d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 2 estimated eleventh-grade math GPA 0.242 points higher from tutoring participation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT estimate 0.242 (SE 0.156; N=1465; Appendix Table 5, p. A-12). Reported row q=0.121; the adjusted evidence does not establish a later math improvement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "11th Grade Math GPA",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "242"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "156"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1465"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "GPA points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Eleventh-grade outcome as reported in Appendix Table 5",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ebd057847324446ea38845739d27aa15"
+    },
+    "entity": {
+      "$bytes": "17035dc5f83a40ea9d4e7ab7d086ce56"
+    },
+    "from": {
+      "$bytes": "0daabf65133842099a470bac70e2e48d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "72dfcd5cfdbb41c4aee60660c8486bd5"
+    },
+    "entity": {
+      "$bytes": "634b13a4cb4b4e90991e4eaffe7bea42"
+    },
+    "from": {
+      "$bytes": "0daabf65133842099a470bac70e2e48d"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "06c66eb126a949d8b071283b0885b28b"
+    },
+    "entity": {
+      "$bytes": "45397fff5b694510a348a8cf2ec4b02b"
+    },
+    "from": {
+      "$bytes": "0daabf65133842099a470bac70e2e48d"
+    },
+    "to": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "473a9089106c40e69006edbce952537f"
+    },
+    "entity": {
+      "$bytes": "eee34f548ca848f187eccaf7caafb2e8"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "0daabf65133842099a470bac70e2e48d"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0345926890bc425db923698843467a5a"
+    },
+    "entity": {
+      "$bytes": "3ebcc951a3874727ac1e408dcc3c801a"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "0daabf65133842099a470bac70e2e48d"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a011"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bc589d8c182d4931977831a0df3361f2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 2 estimated on-time graduation 1.1 percentage points higher from offering tutoring.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT estimate 0.011 on the fraction scale (SE 0.018; N=1775; Appendix Table 5, p. A-12). Reported row q=0.557; this imprecise estimate does not establish a graduation benefit or no effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Graduated On-Time",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "11"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "18"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1775"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "proportion difference",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "On-time high-school graduation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "05bf5298c75d4e80ba47e8cb661682d9"
+    },
+    "entity": {
+      "$bytes": "b3143be2ca68404ba47f678b0983ecc1"
+    },
+    "from": {
+      "$bytes": "bc589d8c182d4931977831a0df3361f2"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e5e79b68881c423e824b854542bddd04"
+    },
+    "entity": {
+      "$bytes": "fff7cf8e1cbd4d89b8a8eb72bdb0071c"
+    },
+    "from": {
+      "$bytes": "bc589d8c182d4931977831a0df3361f2"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "360d8c0ad72c41d19d7860649c8d38a5"
+    },
+    "entity": {
+      "$bytes": "6f1c79bf465b4f36b42cd7f665e57efa"
+    },
+    "from": {
+      "$bytes": "bc589d8c182d4931977831a0df3361f2"
+    },
+    "to": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3f91ebca0f06489893b10f727f1adc2a"
+    },
+    "entity": {
+      "$bytes": "a9686fa6347c4a63867a30acea275c6d"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "bc589d8c182d4931977831a0df3361f2"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7760eb12b94d4435b456f9fc443b5654"
+    },
+    "entity": {
+      "$bytes": "c31fd26de9634faeb18e675213daef85"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "bc589d8c182d4931977831a0df3361f2"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a012"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4f453905972741fa8876cf73dbccabcf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 2 estimated on-time graduation 3.3 percentage points higher from tutoring participation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT estimate 0.033 on the fraction scale (SE 0.057; N=1775; Appendix Table 5, p. A-12). Reported row q=0.557; this imprecise estimate does not establish a graduation benefit or no effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Graduated On-Time",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "33"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "57"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1775"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "proportion difference",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "On-time high-school graduation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "15991e9643d240e88f70c48b741adfd9"
+    },
+    "entity": {
+      "$bytes": "5d5597880b3f45c99a24390a9aa756c3"
+    },
+    "from": {
+      "$bytes": "4f453905972741fa8876cf73dbccabcf"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "daffac19a66c4404827b4c4551916076"
+    },
+    "entity": {
+      "$bytes": "e549aedc247f4bf1912c5dd7b6625e5c"
+    },
+    "from": {
+      "$bytes": "4f453905972741fa8876cf73dbccabcf"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "958341681dfb402f94c520ddf71ffaac"
+    },
+    "entity": {
+      "$bytes": "aca1d03e43ac4cc99801c04b90c5f449"
+    },
+    "from": {
+      "$bytes": "4f453905972741fa8876cf73dbccabcf"
+    },
+    "to": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "db08c0186a504657abdcbc5cf5374e8d"
+    },
+    "entity": {
+      "$bytes": "26a8a4753cb344c0b9d2777a6a19c3f1"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "4f453905972741fa8876cf73dbccabcf"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7bd774a812604aa2b549e08ba5d66c11"
+    },
+    "entity": {
+      "$bytes": "3d3f842460de4c8e80bb592fe8cce3ba"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "4f453905972741fa8876cf73dbccabcf"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a013"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2cf15f4ac847448c87f2a65999e0e577"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 2 estimated graduation within the observed window 0.4 percentage points lower from offering tutoring.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT estimate -0.004 on the fraction scale (SE 0.016; N=1789; Appendix Table 5, p. A-12). Reported row q=0.831; this imprecise estimate does not establish a graduation benefit or no effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Graduated Ever",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-4"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "16"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1789"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "proportion difference",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Graduated within the report's observed window; terminal date not established",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3575be262d7b4753a19e714f17c833c7"
+    },
+    "entity": {
+      "$bytes": "04e4d779b3664e58a93c7bd2886210cf"
+    },
+    "from": {
+      "$bytes": "2cf15f4ac847448c87f2a65999e0e577"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1b29b412189d4c889d0414a7d8eaf95c"
+    },
+    "entity": {
+      "$bytes": "752656d4dfb241dea26b32aa9c4b4200"
+    },
+    "from": {
+      "$bytes": "2cf15f4ac847448c87f2a65999e0e577"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "da460557ccb94dd3a56cc1c569e8f09e"
+    },
+    "entity": {
+      "$bytes": "c9644dca3b48467bafc2825ee9b442dd"
+    },
+    "from": {
+      "$bytes": "2cf15f4ac847448c87f2a65999e0e577"
+    },
+    "to": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "351e7d807c084efaa2cc99c2d7f3eac2"
+    },
+    "entity": {
+      "$bytes": "4d9128ff84744c22b076afa54d0751ff"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "2cf15f4ac847448c87f2a65999e0e577"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0a6cb0b67d494e1a905a54f8c9e473cb"
+    },
+    "entity": {
+      "$bytes": "2a5aba64ad7046b2816ef98a7612774e"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "2cf15f4ac847448c87f2a65999e0e577"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a014"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "94b710c0004b4269b42f24052587a04c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 2 estimated graduation within the observed window 1.1 percentage points lower from tutoring participation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT estimate -0.011 on the fraction scale (SE 0.052; N=1789; Appendix Table 5, p. A-12). Reported row q=0.831; this imprecise estimate does not establish a graduation benefit or no effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Graduated Ever",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-11"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "52"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1789"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "proportion difference",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Graduated within the report's observed window; terminal date not established",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9e27eeec0d6e4a6281fcf65ef90b8878"
+    },
+    "entity": {
+      "$bytes": "9b118ae1829f41f189302f7fb7629b95"
+    },
+    "from": {
+      "$bytes": "94b710c0004b4269b42f24052587a04c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9a797c28344d4b46a03fbb4626807030"
+    },
+    "entity": {
+      "$bytes": "e1b57f65da6a4037ab0bb932d05f7275"
+    },
+    "from": {
+      "$bytes": "94b710c0004b4269b42f24052587a04c"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d3a357039cd348119ed73398449870af"
+    },
+    "entity": {
+      "$bytes": "d4e2b681a9c6406bbdbd3e37ffedb15b"
+    },
+    "from": {
+      "$bytes": "94b710c0004b4269b42f24052587a04c"
+    },
+    "to": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "230370f809344907b90bf1606f98e03f"
+    },
+    "entity": {
+      "$bytes": "28a6d268d6e34dd0a7b25b197d414537"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "94b710c0004b4269b42f24052587a04c"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b1093641ced240f6b543c15e16b07788"
+    },
+    "entity": {
+      "$bytes": "35c4fca22f3b4e46b5e8f5536a5fb032"
+    },
+    "from": {
+      "$bytes": "83c9c6a366e14992a951ec702dbc67a3"
+    },
+    "to": {
+      "$bytes": "94b710c0004b4269b42f24052587a04c"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a015"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "66592f3a5a6e47d9827513af17f56829"
+    },
+    "entity": {
+      "$bytes": "a5326548e70d4b91ab03a1876711ad7d"
+    },
+    "from": {
+      "$bytes": "10e82920d4684dee993f420cbadefa97"
+    },
+    "to": {
+      "$bytes": "84a82b3de9684325a9ccf7603a562cb5"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "39af4ee154d640cb992e652cf57284f0"
+    },
+    "entity": {
+      "$bytes": "aa58af81d8484f0ba6b5c259454dd286"
+    },
+    "from": {
+      "$bytes": "84a82b3de9684325a9ccf7603a562cb5"
+    },
+    "to": {
+      "$bytes": "10e82920d4684dee993f420cbadefa97"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d177bfda768b4498bce5ddf3fb3df95b"
+    },
+    "entity": {
+      "$bytes": "51254cf0ad5344549b05257be2970d2d"
+    },
+    "from": {
+      "$bytes": "dcf46226151c4ef8ab596059adcb0ac0"
+    },
+    "to": {
+      "$bytes": "877eb1ded30c454b9767dc55a863ca32"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fcc118abb9d94e1ba0f65aa839fcb420"
+    },
+    "entity": {
+      "$bytes": "af7dea313637448a85a9ab34622cffef"
+    },
+    "from": {
+      "$bytes": "877eb1ded30c454b9767dc55a863ca32"
+    },
+    "to": {
+      "$bytes": "dcf46226151c4ef8ab596059adcb0ac0"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7ef3815957784bb193851261f6806955"
+    },
+    "entity": {
+      "$bytes": "789134fd6aaf46e88338c9fe4cc0292e"
+    },
+    "from": {
+      "$bytes": "145a47ec061c4309acd83c33fc894fbd"
+    },
+    "to": {
+      "$bytes": "f32fcb97f3cb42a593f0b37efc3a16e4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "355015b841164e26bd208b076d8698dc"
+    },
+    "entity": {
+      "$bytes": "22d7321b1b4c47baab650784711a9994"
+    },
+    "from": {
+      "$bytes": "f32fcb97f3cb42a593f0b37efc3a16e4"
+    },
+    "to": {
+      "$bytes": "145a47ec061c4309acd83c33fc894fbd"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e0f44e14f98d4728b161d8a39a49ce1f"
+    },
+    "entity": {
+      "$bytes": "583ab97b420a4e74a89dd9d2e66cd4bf"
+    },
+    "from": {
+      "$bytes": "0a0d32c10059420fb1af7bd2e998911c"
+    },
+    "to": {
+      "$bytes": "a340298ab13d4bbd9572ba94d64b28ff"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5229ae77d549473d8ef659d29729b01a"
+    },
+    "entity": {
+      "$bytes": "afae4ddbf8b04ce0b2144f15898d9c67"
+    },
+    "from": {
+      "$bytes": "a340298ab13d4bbd9572ba94d64b28ff"
+    },
+    "to": {
+      "$bytes": "0a0d32c10059420fb1af7bd2e998911c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "826db30c42c74b0b984cf67c478c449a"
+    },
+    "entity": {
+      "$bytes": "e9b6e1ad33cb4a2198aa26e893d65316"
+    },
+    "from": {
+      "$bytes": "e52d2e100edf4e54954ee9b76480c094"
+    },
+    "to": {
+      "$bytes": "1081a2fa417d4229adae4f92ac2c1288"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f0ec9e651c6b4240a51feb76c3bb8053"
+    },
+    "entity": {
+      "$bytes": "b03695a3726548b2b006ccfc3fd7560d"
+    },
+    "from": {
+      "$bytes": "1081a2fa417d4229adae4f92ac2c1288"
+    },
+    "to": {
+      "$bytes": "e52d2e100edf4e54954ee9b76480c094"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "553215166855400cbca46cc21dfb85bd"
+    },
+    "entity": {
+      "$bytes": "01f7b53a890b402db2839f5fa25ce8e5"
+    },
+    "from": {
+      "$bytes": "276254e5907c4683ac266d81454f4356"
+    },
+    "to": {
+      "$bytes": "0daabf65133842099a470bac70e2e48d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c7483d37dd804fda8f29b27fcb323603"
+    },
+    "entity": {
+      "$bytes": "2ec7e84bb7a94253a09ed41f7fe4c4d0"
+    },
+    "from": {
+      "$bytes": "0daabf65133842099a470bac70e2e48d"
+    },
+    "to": {
+      "$bytes": "276254e5907c4683ac266d81454f4356"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a188aa5b73d44b8584cde74de1d040c7"
+    },
+    "entity": {
+      "$bytes": "eeee0670c7624e9fa83606f125217ae5"
+    },
+    "from": {
+      "$bytes": "bc589d8c182d4931977831a0df3361f2"
+    },
+    "to": {
+      "$bytes": "4f453905972741fa8876cf73dbccabcf"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9d5198461e8b4dccbc061bd63c16f5c0"
+    },
+    "entity": {
+      "$bytes": "7532f7faaeaf4821830bd966b946e2bb"
+    },
+    "from": {
+      "$bytes": "4f453905972741fa8876cf73dbccabcf"
+    },
+    "to": {
+      "$bytes": "bc589d8c182d4931977831a0df3361f2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2b62a5deef9249d1979b3ad4864cc04a"
+    },
+    "entity": {
+      "$bytes": "d2f3e204fbcb442d92f5c140cce51db0"
+    },
+    "from": {
+      "$bytes": "2cf15f4ac847448c87f2a65999e0e577"
+    },
+    "to": {
+      "$bytes": "94b710c0004b4269b42f24052587a04c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "54a46d794bf143049ce1c3b133336774"
+    },
+    "entity": {
+      "$bytes": "92e3a75f931449afa59e035362c0625e"
+    },
+    "from": {
+      "$bytes": "94b710c0004b4269b42f24052587a04c"
+    },
+    "to": {
+      "$bytes": "2cf15f4ac847448c87f2a65999e0e577"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "536cb4aaa4234aada321ff844278635b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga trial-specific follow-up: methods and uncertainty",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Separate results for the two Chicago trials\n\nAppendix Table 5 reports eleventh-grade mathematics and high-school graduation outcomes separately for Study 1 and Study 2. The main article explicitly points to these cohort-specific results in footnote 17 on printed page 752. These are follow-up analyses of the existing trials, not additional experiments. ITT and TOT describe alternate estimands for the same outcome; neither they nor the pooled results add independent studies.\n\n## Follow-up definition\n\nThe main article describes its pooled eleventh-grade outcomes using the year a student would have reached eleventh grade without retention. The appendix notes that students may have multiple eleventh-grade years. These records retain the appendix's reported eleventh-grade label; the handling of repeated grade years is not fully specified here, so a common elapsed follow-up interval is not assigned. Graduated ever refers to the observed window, whose terminal date has not been established, not lifetime graduation.\n\n## Uncertainty and sample\n\nEach estimate retains the reported standard error and outcome-specific number of observations. The appendix retains both randomizations for 65 Study 2 students randomized twice and clusters robust standard errors by individual. The control-complier mean is an estimate; the row's FDR q-value is not an ordinary per-estimand p-value. Low adjusted q-values for Study 1 math and higher q-values for Study 2 do not by themselves establish a between-study difference. Graduation point estimates are imprecise and do not establish either a benefit or no effect.\n\n## Source\n\n[Official online appendix](https://www.aeaweb.org/content/file?id=18262), Appendix Table 5, printed A-12 (PDF page 13), to [Guryan et al. (2023)](https://doi.org/10.1257/aer.20210434).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c7a05107e90d43558ea89fc58a893efb"
+    },
+    "entity": {
+      "$bytes": "d06d660369a94940816236351ac1a3a9"
+    },
+    "from": {
+      "$bytes": "536cb4aaa4234aada321ff844278635b"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "01177866e8134deebb2ee4200bb37a46"
+    },
+    "entity": {
+      "$bytes": "88e2b26f8a8b436ca5b53ed802fe9b7f"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "536cb4aaa4234aada321ff844278635b"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "d0"
+  }
+]

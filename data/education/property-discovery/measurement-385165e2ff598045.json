@@ -1,0 +1,67 @@
+{
+  "term": "Measurement",
+  "checkedAt": "2026-09-11T20:32:38.418Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "563e993bdbd54a71b7926095be9e4974",
+      "name": "Measurement period",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "5c67ae17c84ce783f3b8cd8ffa063661",
+      "name": "Measurement unit",
+      "description": "Unit used for an outcome measurement, such as mg/dL, mmHg, minutes, scale points, or standardized mean difference.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "6eaccffcb1bb9d25964a6ba03ae0f75e",
+      "name": "Measurement method",
+      "description": "AI Music ontology field for measurement_method; data type controlled vocabulary; vocabulary MeasurementMethod; cardinality one; publish policy facet_or_required_when_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "88d020ba7ff94d24b412a6e8d102a941",
+      "name": "Measurement",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ]
+    },
+    {
+      "id": "896131dbae654ee7bfa73a1bc8c69985",
+      "name": "Measurement period",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "bb204fcfa9e14eb99e753002e3b36ad0",
+      "name": "Measurement period",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiODk2MTMxZGItYWU2NS00ZWU3LWJmYTctM2ExYmM4YzY5OTg1Il1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYmIyMDRmY2YtYTllMS00ZWI5LTllNzUtMzAwMmUzYjM2YWQwIl1d"
+    }
+  ]
+}

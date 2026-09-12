@@ -1,0 +1,2000 @@
+[
+  {
+    "id": "a7b93648275543749f94227553d4f63a",
+    "key": "instruction-total-g1/native",
+    "before": {
+      "name": "Reading First grade 1: Instruction in five reading dimensions combined (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed time teaching the five reading components in grade 1 by an estimated 6.92 minutes per daily reading block.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 2.44; 95% CI 2.13 to 11.71; p = 0.005; RFIS 2.1/D.2). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "6.92",
+      "unit": "minutes per daily reading block",
+      "standardError": "2.44",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "2.13",
+        "upper": "11.71"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.005"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.1",
+        "printedPage": "18",
+        "pdfPage": 47,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.2",
+        "printedPage": "D-3",
+        "pdfPage": 193,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "d0e0918ce0ef43088e8342550ab96fb2",
+    "key": "instruction-total-g1/standardized",
+    "before": {
+      "name": "Reading First grade 1: Instruction in five reading dimensions combined (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed time teaching the five reading components in grade 1 by an estimated 0.33 SD.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.12; 95% CI 0.10 to 0.56; p = 0.005; RFIS 2.1/D.2). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.33",
+      "unit": "standard deviations",
+      "standardError": "0.12",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.10",
+        "upper": "0.56"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.005"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.1",
+        "printedPage": "18",
+        "pdfPage": 47,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.2",
+        "printedPage": "D-3",
+        "pdfPage": 193,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "7db594b10154436db6696cb2951cb91e",
+    "key": "instruction-explicit-g1/native",
+    "before": {
+      "name": "Reading First grade 1: Intervals in five dimensions with highly explicit instruction (percentage points)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased share of observed reading intervals with highly explicit instruction in grade 1 by an estimated 3.29 percentage points.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 1.39; 95% CI 0.57 to 6.01; p = 0.018; RFIS 2.1/D.2). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "3.29",
+      "unit": "percentage points",
+      "standardError": "1.39",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.57",
+        "upper": "6.01"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.018"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.1",
+        "printedPage": "18",
+        "pdfPage": 47,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.2",
+        "printedPage": "D-3",
+        "pdfPage": 193,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "d445a1b822bc4937b6359ab65beb5848",
+    "key": "instruction-explicit-g1/standardized",
+    "before": {
+      "name": "Reading First grade 1: Intervals in five dimensions with highly explicit instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased share of observed reading intervals with highly explicit instruction in grade 1 by an estimated 0.18 SD.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.08; 95% CI 0.03 to 0.33; p = 0.018; RFIS 2.1/D.2). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.18",
+      "unit": "standard deviations",
+      "standardError": "0.08",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.03",
+        "upper": "0.33"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.018"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.1",
+        "printedPage": "18",
+        "pdfPage": 47,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.2",
+        "printedPage": "D-3",
+        "pdfPage": 193,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "44d15e5671184bfba83c82417d6fb6e1",
+    "key": "instruction-practice-g1/native",
+    "before": {
+      "name": "Reading First grade 1: Intervals in five dimensions with high quality student practice (percentage points)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in share of observed reading intervals with high-quality student practice in grade 1 (estimate: 0.82 percentage points).",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 1.25; 95% CI -1.63 to 3.27; p = 0.513; RFIS 2.1/D.2). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.82",
+      "unit": "percentage points",
+      "standardError": "1.25",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-1.63",
+        "upper": "3.27"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.513"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.1",
+        "printedPage": "18",
+        "pdfPage": 47,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.2",
+        "printedPage": "D-3",
+        "pdfPage": 193,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "57ff1c3bac6c496492c6f3b83f3530ad",
+    "key": "instruction-practice-g1/standardized",
+    "before": {
+      "name": "Reading First grade 1: Intervals in five dimensions with high quality student practice (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in share of observed reading intervals with high-quality student practice in grade 1 (estimate: 0.05 SD).",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.07; 95% CI -0.10 to 0.19; p = 0.513; RFIS 2.1/D.2). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.05",
+      "unit": "standard deviations",
+      "standardError": "0.07",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.10",
+        "upper": "0.19"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.513"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.1",
+        "printedPage": "18",
+        "pdfPage": 47,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.2",
+        "printedPage": "D-3",
+        "pdfPage": 193,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "5826e6a8487e49baabdc5ccb716df7cf",
+    "key": "instruction-total-g2/native",
+    "before": {
+      "name": "Reading First grade 2: Instruction in five reading dimensions combined (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed time teaching the five reading components in grade 2 by an estimated 9.79 minutes per daily reading block.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 2.46; 95% CI 4.97 to 14.60; p < 0.001; RFIS 2.1/D.2). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "9.79",
+      "unit": "minutes per daily reading block",
+      "standardError": "2.46",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "4.97",
+        "upper": "14.60"
+      }
+    },
+    "pValue": {
+      "operator": "<",
+      "value": "0.001"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.1",
+        "printedPage": "18",
+        "pdfPage": 47,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.2",
+        "printedPage": "D-3",
+        "pdfPage": 193,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "ec78cae2ad8446cc940c2570360d7f03",
+    "key": "instruction-total-g2/standardized",
+    "before": {
+      "name": "Reading First grade 2: Instruction in five reading dimensions combined (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed time teaching the five reading components in grade 2 by an estimated 0.46 SD.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.12; 95% CI 0.23 to 0.69; p < 0.001; RFIS 2.1/D.2). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.46",
+      "unit": "standard deviations",
+      "standardError": "0.12",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.23",
+        "upper": "0.69"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "<",
+      "value": "0.001"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.1",
+        "printedPage": "18",
+        "pdfPage": 47,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.2",
+        "printedPage": "D-3",
+        "pdfPage": 193,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "49d3c45c2151490f9a44c75a60bffe3d",
+    "key": "instruction-explicit-g2/native",
+    "before": {
+      "name": "Reading First grade 2: Intervals in five dimensions with highly explicit instruction (percentage points)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased share of observed reading intervals with highly explicit instruction in grade 2 by an estimated 3.00 percentage points.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 1.45; 95% CI 0.16 to 5.84; p = 0.040; RFIS 2.1/D.2). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "3.00",
+      "unit": "percentage points",
+      "standardError": "1.45",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.16",
+        "upper": "5.84"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.040"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.1",
+        "printedPage": "18",
+        "pdfPage": 47,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.2",
+        "printedPage": "D-3",
+        "pdfPage": 193,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "bec88901b45c480aaaa943474b04418f",
+    "key": "instruction-explicit-g2/standardized",
+    "before": {
+      "name": "Reading First grade 2: Intervals in five dimensions with highly explicit instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased share of observed reading intervals with highly explicit instruction in grade 2 by an estimated 0.16 SD.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.08; 95% CI 0.01 to 0.30; p = 0.040; RFIS 2.1/D.2). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.16",
+      "unit": "standard deviations",
+      "standardError": "0.08",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.01",
+        "upper": "0.30"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.040"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.1",
+        "printedPage": "18",
+        "pdfPage": 47,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.2",
+        "printedPage": "D-3",
+        "pdfPage": 193,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "46d1a145910c4d24bbd64c83f1f1602f",
+    "key": "instruction-practice-g2/native",
+    "before": {
+      "name": "Reading First grade 2: Intervals in five dimensions with high quality student practice (percentage points)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased share of observed reading intervals with high-quality student practice in grade 2 by an estimated 2.94 percentage points.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 1.25; 95% CI 0.50 to 5.39; p = 0.019; RFIS 2.1/D.2). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "2.94",
+      "unit": "percentage points",
+      "standardError": "1.25",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.50",
+        "upper": "5.39"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.019"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.1",
+        "printedPage": "18",
+        "pdfPage": 47,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.2",
+        "printedPage": "D-3",
+        "pdfPage": 193,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "f3053ad71b0c4daf8b3453385f6b3fa6",
+    "key": "instruction-practice-g2/standardized",
+    "before": {
+      "name": "Reading First grade 2: Intervals in five dimensions with high quality student practice (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased share of observed reading intervals with high-quality student practice in grade 2 by an estimated 0.16 SD.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.07; 95% CI 0.03 to 0.30; p = 0.019; RFIS 2.1/D.2). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.16",
+      "unit": "standard deviations",
+      "standardError": "0.07",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.03",
+        "upper": "0.30"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.019"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.1",
+        "printedPage": "18",
+        "pdfPage": 47,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.2",
+        "printedPage": "D-3",
+        "pdfPage": 193,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "c017745fb03b493a82c219a3d2c531b9",
+    "key": "instruction-phonemic-g1/native",
+    "before": {
+      "name": "Reading First grade 1: Phonemic awareness instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed phonemic-awareness instruction in grade 1 by an estimated 0.61 minutes per daily reading block.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.28; 95% CI 0.06 to 1.16; p = 0.030; RFIS 2.2/D.3). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.61",
+      "unit": "minutes per daily reading block",
+      "standardError": "0.28",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.06",
+        "upper": "1.16"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.030"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "329772d2385744e1b94117d5abf83caf",
+    "key": "instruction-phonemic-g1/standardized",
+    "before": {
+      "name": "Reading First grade 1: Phonemic awareness instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed phonemic-awareness instruction in grade 1 by an estimated 0.23 SD.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.10; 95% CI 0.02 to 0.43; p = 0.030; RFIS 2.2/D.3). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.23",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.02",
+        "upper": "0.43"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.030"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "f051087745894297934a899d5b718a4f",
+    "key": "instruction-phonics-g1/native",
+    "before": {
+      "name": "Reading First grade 1: Phonics instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed phonics instruction in grade 1 by an estimated 2.86 minutes per daily reading block.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 1.44; 95% CI 0.04 to 5.68; p = 0.048; RFIS 2.2/D.3). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "2.86",
+      "unit": "minutes per daily reading block",
+      "standardError": "1.44",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.04",
+        "upper": "5.68"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.048"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "56556c9d0bb84fe5b0037fe4c7952373",
+    "key": "instruction-phonics-g1/standardized",
+    "before": {
+      "name": "Reading First grade 1: Phonics instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed phonics instruction in grade 1 by an estimated 0.21 SD.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.11; 95% CI 0.00 to 0.42; p = 0.048; RFIS 2.2/D.3). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.21",
+      "unit": "standard deviations",
+      "standardError": "0.11",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.00",
+        "upper": "0.42"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.048"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "080908c4da6c421bbf5b1fb12e940b22",
+    "key": "instruction-vocabulary-g1/native",
+    "before": {
+      "name": "Reading First grade 1: Vocabulary instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in observed vocabulary instruction in grade 1 (estimate: 0.57 minutes per daily reading block).",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.66; 95% CI -0.72 to 1.86; p = 0.386; RFIS 2.2/D.3). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.57",
+      "unit": "minutes per daily reading block",
+      "standardError": "0.66",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.72",
+        "upper": "1.86"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.386"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "354379ce40d14743941fd47b25eea4c7",
+    "key": "instruction-vocabulary-g1/standardized",
+    "before": {
+      "name": "Reading First grade 1: Vocabulary instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in observed vocabulary instruction in grade 1 (estimate: 0.09 SD).",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.10; 95% CI -0.11 to 0.28; p = 0.386; RFIS 2.2/D.3). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.09",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.11",
+        "upper": "0.28"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.386"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "ab93117898b14ab7be334ddda3916d20",
+    "key": "instruction-fluency-g1/native",
+    "before": {
+      "name": "Reading First grade 1: Fluency instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed fluency instruction in grade 1 by an estimated 1.24 minutes per daily reading block.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.61; 95% CI 0.05 to 2.43; p = 0.043; RFIS 2.2/D.3). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "1.24",
+      "unit": "minutes per daily reading block",
+      "standardError": "0.61",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.05",
+        "upper": "2.43"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.043"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "2892a8183be54f5698ee17f7fc2e2376",
+    "key": "instruction-fluency-g1/standardized",
+    "before": {
+      "name": "Reading First grade 1: Fluency instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed fluency instruction in grade 1 by an estimated 0.20 SD.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.10; 95% CI 0.01 to 0.40; p = 0.043; RFIS 2.2/D.3). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.20",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.01",
+        "upper": "0.40"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.043"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "66503ca1ea924b368608e543604d5795",
+    "key": "instruction-comprehension-g1/native",
+    "before": {
+      "name": "Reading First grade 1: Comprehension instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in observed comprehension instruction in grade 1 (estimate: 1.78 minutes per daily reading block).",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 1.53; 95% CI -1.22 to 4.77; p = 0.247; RFIS 2.2/D.3). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "1.78",
+      "unit": "minutes per daily reading block",
+      "standardError": "1.53",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-1.22",
+        "upper": "4.77"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.247"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "3b01a01c5b784c96b93e38a647984313",
+    "key": "instruction-comprehension-g1/standardized",
+    "before": {
+      "name": "Reading First grade 1: Comprehension instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in observed comprehension instruction in grade 1 (estimate: 0.12 SD).",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.11; 95% CI -0.08 to 0.33; p = 0.247; RFIS 2.2/D.3). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.12",
+      "unit": "standard deviations",
+      "standardError": "0.11",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.08",
+        "upper": "0.33"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.247"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "5cc18a25b77f4a9ebc220a9524e4dc08",
+    "key": "instruction-phonemic-g2/native",
+    "before": {
+      "name": "Reading First grade 2: Phonemic awareness instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in observed phonemic-awareness instruction in grade 2 (estimate: 0.12 minutes per daily reading block).",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.12; 95% CI -0.12 to 0.36; p = 0.319; RFIS 2.2/D.3). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.12",
+      "unit": "minutes per daily reading block",
+      "standardError": "0.12",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.12",
+        "upper": "0.36"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.319"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "393d353d16354c29a79e9ed59659b45f",
+    "key": "instruction-phonemic-g2/standardized",
+    "before": {
+      "name": "Reading First grade 2: Phonemic awareness instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in observed phonemic-awareness instruction in grade 2 (estimate: 0.10 SD).",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.10; 95% CI -0.09 to 0.29; p = 0.319; RFIS 2.2/D.3). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.10",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.09",
+        "upper": "0.29"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.319"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "c25d5bf3d2144c14966c7f193b68fe45",
+    "key": "instruction-phonics-g2/native",
+    "before": {
+      "name": "Reading First grade 2: Phonics instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed phonics instruction in grade 2 by an estimated 3.27 minutes per daily reading block.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 1.17; 95% CI 0.97 to 5.57; p = 0.006; RFIS 2.2/D.3). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "3.27",
+      "unit": "minutes per daily reading block",
+      "standardError": "1.17",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.97",
+        "upper": "5.57"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.006"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "67d08d12c1ed41869e2227a09df8b607",
+    "key": "instruction-phonics-g2/standardized",
+    "before": {
+      "name": "Reading First grade 2: Phonics instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed phonics instruction in grade 2 by an estimated 0.31 SD.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.11; 95% CI 0.09 to 0.53; p = 0.006; RFIS 2.2/D.3). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.31",
+      "unit": "standard deviations",
+      "standardError": "0.11",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.09",
+        "upper": "0.53"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.006"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "2c3c71d68e2e481c8f4f93cfad9a77a5",
+    "key": "instruction-vocabulary-g2/native",
+    "before": {
+      "name": "Reading First grade 2: Vocabulary instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed vocabulary instruction in grade 2 by an estimated 1.73 minutes per daily reading block.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.82; 95% CI 0.13 to 3.34; p = 0.036; RFIS 2.2/D.3). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "1.73",
+      "unit": "minutes per daily reading block",
+      "standardError": "0.82",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.13",
+        "upper": "3.34"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.036"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "8376945bd3e84bdf9bc5b9d5cc187b38",
+    "key": "instruction-vocabulary-g2/standardized",
+    "before": {
+      "name": "Reading First grade 2: Vocabulary instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed vocabulary instruction in grade 2 by an estimated 0.20 SD.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.09; 95% CI 0.01 to 0.38; p = 0.036; RFIS 2.2/D.3). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.20",
+      "unit": "standard deviations",
+      "standardError": "0.09",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.01",
+        "upper": "0.38"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.036"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "450593005da44e6d9b3ca2fb804dea72",
+    "key": "instruction-fluency-g2/native",
+    "before": {
+      "name": "Reading First grade 2: Fluency instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in observed fluency instruction in grade 2 (estimate: 0.58 minutes per daily reading block).",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.56; 95% CI -0.51 to 1.67; p = 0.297; RFIS 2.2/D.3). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.58",
+      "unit": "minutes per daily reading block",
+      "standardError": "0.56",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.51",
+        "upper": "1.67"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.297"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "1a16333277574f3c93970773faf16527",
+    "key": "instruction-fluency-g2/standardized",
+    "before": {
+      "name": "Reading First grade 2: Fluency instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in observed fluency instruction in grade 2 (estimate: 0.11 SD).",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.10; 95% CI -0.09 to 0.31; p = 0.297; RFIS 2.2/D.3). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.11",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.09",
+        "upper": "0.31"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.297"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "b6d90e392e634cde9f3904784e179184",
+    "key": "instruction-comprehension-g2/native",
+    "before": {
+      "name": "Reading First grade 2: Comprehension instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed comprehension instruction in grade 2 by an estimated 4.01 minutes per daily reading block.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 1.69; 95% CI 0.70 to 7.32; p = 0.019; RFIS 2.2/D.3). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "4.01",
+      "unit": "minutes per daily reading block",
+      "standardError": "1.69",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.70",
+        "upper": "7.32"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.019"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "dc5cbc3b34cf499eaac9191fc6ac1e33",
+    "key": "instruction-comprehension-g2/standardized",
+    "before": {
+      "name": "Reading First grade 2: Comprehension instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First increased observed comprehension instruction in grade 2 by an estimated 0.24 SD.",
+      "description": "2005–2007 observations: adjusted impact versus estimated outcomes without funding (SE 0.10; 95% CI 0.04 to 0.44; p = 0.019; RFIS 2.2/D.3). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.24",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.04",
+        "upper": "0.44"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.019"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.2",
+        "printedPage": "19",
+        "pdfPage": 48,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.3",
+        "printedPage": "D-4",
+        "pdfPage": 194,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "e6def14e137a4990ae61edc1d8c3d113",
+    "key": "print-engagement-g1/native",
+    "before": {
+      "name": "Reading First grade 1: Students engaged with print (percentage points)",
+      "description": "Adjusted impact on observed engagement with print. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in observed share of students engaged with print in grade 1 (estimate: 5.33 percentage points).",
+      "description": "2006–2007 school-year observations: adjusted impact versus estimated outcomes without funding (SE 2.92; 95% CI -0.40 to 11.05; p = 0.070; RFIS 2.3/D.4). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "5.33",
+      "unit": "percentage points",
+      "standardError": "2.92",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.40",
+        "upper": "11.05"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.070"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.3",
+        "printedPage": "20",
+        "pdfPage": 49,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.4",
+        "printedPage": "D-5",
+        "pdfPage": 195,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "991c2abff5d0410a85c41bfa5f14bb59",
+    "key": "print-engagement-g1/standardized",
+    "before": {
+      "name": "Reading First grade 1: Students engaged with print (SD)",
+      "description": "Adjusted impact on observed engagement with print. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in observed share of students engaged with print in grade 1 (estimate: 0.18 SD).",
+      "description": "2006–2007 school-year observations: adjusted impact versus estimated outcomes without funding (SE 0.10; 95% CI -0.01 to 0.38; p = 0.070; RFIS 2.3/D.4). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.18",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.01",
+        "upper": "0.38"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across fall 2005 and spring 2006 STEP data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.070"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.3",
+        "printedPage": "20",
+        "pdfPage": 49,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.4",
+        "printedPage": "D-5",
+        "pdfPage": 195,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "5090ee1ec09b495da489723bf76d140d",
+    "key": "print-engagement-g2/native",
+    "before": {
+      "name": "Reading First grade 2: Students engaged with print (percentage points)",
+      "description": "Adjusted impact on observed engagement with print. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in observed share of students engaged with print in grade 2 (estimate: -4.75 percentage points).",
+      "description": "2006–2007 school-year observations: adjusted impact versus estimated outcomes without funding (SE 2.91; 95% CI -10.45 to 0.96; p = 0.104; RFIS 2.3/D.4). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "-4.75",
+      "unit": "percentage points",
+      "standardError": "2.91",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-10.45",
+        "upper": "0.96"
+      }
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.104"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.3",
+        "printedPage": "20",
+        "pdfPage": 49,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.4",
+        "printedPage": "D-5",
+        "pdfPage": 195,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "98ae0f59802b431fba3b2e2b32380cd5",
+    "key": "print-engagement-g2/standardized",
+    "before": {
+      "name": "Reading First grade 2: Students engaged with print (SD)",
+      "description": "Adjusted impact on observed engagement with print. Native and standardized versions of this outcome share the same study contrast."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in observed share of students engaged with print in grade 2 (estimate: -0.17 SD).",
+      "description": "2006–2007 school-year observations: adjusted impact versus estimated outcomes without funding (SE 0.10; 95% CI -0.37 to 0.03; p = 0.104; RFIS 2.3/D.4). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "-0.17",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.37",
+        "upper": "0.03"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across fall 2005 and spring 2006 STEP data, separately by grade."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.104"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.3",
+        "printedPage": "20",
+        "pdfPage": 49,
+        "role": "means, p-value and headline estimates"
+      },
+      {
+        "exhibit": "D.4",
+        "printedPage": "D-5",
+        "pdfPage": 195,
+        "role": "precise estimates, SEs and 95% CIs"
+      }
+    ]
+  },
+  {
+    "id": "5625b4670a674a9cbc56f2f5f01dce21",
+    "key": "survey-pd-hours/native",
+    "before": {
+      "name": "Reading First survey: Professional development in reading received by teachers (hours)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First increased teacher-reported reading professional development by an estimated 12.13 hours.",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p < 0.001; SE and CI not reported; RFIS 2.4). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "12.13",
+      "unit": "hours",
+      "standardError": null,
+      "confidenceInterval": null
+    },
+    "pValue": {
+      "operator": "<",
+      "value": "0.001"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "dc0f7b38234b4189aa4f6046cd60a768",
+    "key": "survey-pd-hours/standardized",
+    "before": {
+      "name": "Reading First survey: Professional development in reading received by teachers (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First increased teacher-reported reading professional development by an estimated 0.51 SD.",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p < 0.001; SE and CI not reported; RFIS 2.4). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.51",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+    },
+    "pValue": {
+      "operator": "<",
+      "value": "0.001"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "03c4448f0de944199db5cdfb9dea50f1",
+    "key": "survey-pd-components/native",
+    "before": {
+      "name": "Reading First survey: Reading components covered in teacher professional development (components on a 0-5 scale)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First increased teacher-reported coverage of reading components in professional development by an estimated 0.55 components on a 0-5 scale.",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p = 0.010; SE and CI not reported; RFIS 2.4). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.55",
+      "unit": "components on a 0-5 scale",
+      "standardError": null,
+      "confidenceInterval": null
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.010"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "74175f0a23de4414be1860873f74402a",
+    "key": "survey-pd-components/standardized",
+    "before": {
+      "name": "Reading First survey: Reading components covered in teacher professional development (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First increased teacher-reported coverage of reading components in professional development by an estimated 0.31 SD.",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p = 0.010; SE and CI not reported; RFIS 2.4). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.31",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.010"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "4af4e3514b8f4939ab5d8a843acb0a36",
+    "key": "survey-coaching/native",
+    "before": {
+      "name": "Reading First survey: Teacher receipt of coaching (proportion difference)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First increased reported share of teachers receiving coaching by an estimated 0.20 proportion difference.",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p < 0.001; SE and CI not reported; RFIS 2.4). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.20",
+      "unit": "proportion difference",
+      "standardError": null,
+      "confidenceInterval": null
+    },
+    "pValue": {
+      "operator": "<",
+      "value": "0.001"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "b210d6ec50e44b24af2433500969ab67",
+    "key": "survey-coaching/standardized",
+    "before": {
+      "name": "Reading First survey: Teacher receipt of coaching (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First increased reported share of teachers receiving coaching by an estimated 0.41 SD.",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p < 0.001; SE and CI not reported; RFIS 2.4). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.41",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+    },
+    "pValue": {
+      "operator": "<",
+      "value": "0.001"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "630abd905b4b4193be52b2fee0281a78",
+    "key": "survey-coach-time/native",
+    "before": {
+      "name": "Reading First survey: Time dedicated to serving as K-3 reading coach (percentage points)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First increased reported share of coaches’ time dedicated to K–3 reading coaching by an estimated 33.49 percentage points.",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p < 0.001; SE and CI not reported; RFIS 2.4). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "33.49",
+      "unit": "percentage points",
+      "standardError": null,
+      "confidenceInterval": null
+    },
+    "pValue": {
+      "operator": "<",
+      "value": "0.001"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "dc59f0e273594536a194a80308b9a54c",
+    "key": "survey-coach-time/standardized",
+    "before": {
+      "name": "Reading First survey: Time dedicated to serving as K-3 reading coach (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First increased reported share of coaches’ time dedicated to K–3 reading coaching by an estimated 1.03 SD.",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p < 0.001; SE and CI not reported; RFIS 2.4). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "1.03",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+    },
+    "pValue": {
+      "operator": "<",
+      "value": "0.001"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "19ef85b3139d41c99aa9712fbf640c38",
+    "key": "survey-reading-minutes/native",
+    "before": {
+      "name": "Reading First survey: Reading instruction per day (minutes per day)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First increased teacher-reported daily reading instruction by an estimated 18.47 minutes per day.",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p < 0.001; SE and CI not reported; RFIS 2.4). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "18.47",
+      "unit": "minutes per day",
+      "standardError": null,
+      "confidenceInterval": null
+    },
+    "pValue": {
+      "operator": "<",
+      "value": "0.001"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "1e73e94704da4786b6f4170b9b3f27b3",
+    "key": "survey-reading-minutes/standardized",
+    "before": {
+      "name": "Reading First survey: Reading instruction per day (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First increased teacher-reported daily reading instruction by an estimated 0.63 SD.",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p < 0.001; SE and CI not reported; RFIS 2.4). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.63",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+    },
+    "pValue": {
+      "operator": "<",
+      "value": "0.001"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "72cfd0265a2a45b198521187df3a6bf8",
+    "key": "survey-differentiated-materials/native",
+    "before": {
+      "name": "Reading First survey: Availability of differentiated instructional materials for struggling readers (proportion difference)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in reported availability of differentiated materials for struggling readers (estimate: 0.01 proportion difference).",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p = 0.661; SE and CI not reported; RFIS 2.4). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.01",
+      "unit": "proportion difference",
+      "standardError": null,
+      "confidenceInterval": null
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.661"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "140834b42c824dae89e24a88b29eb013",
+    "key": "survey-differentiated-materials/standardized",
+    "before": {
+      "name": "Reading First survey: Availability of differentiated instructional materials for struggling readers (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in reported availability of differentiated materials for struggling readers (estimate: 0.15 SD).",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p = 0.661; SE and CI not reported; RFIS 2.4). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.15",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.661"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "9482e558289d42dba8f081c1ecf390bc",
+    "key": "survey-extra-practice/native",
+    "before": {
+      "name": "Reading First survey: Extra classroom practice for struggling readers (points on a 0-4 scale)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First increased teacher-reported extra practice for struggling readers by an estimated 0.19 points on a 0-4 scale.",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p = 0.018; SE and CI not reported; RFIS 2.4). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.19",
+      "unit": "points on a 0-4 scale",
+      "standardError": null,
+      "confidenceInterval": null
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.018"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "7359c54b1c524c1d89d1a8c6db69dc71",
+    "key": "survey-extra-practice/standardized",
+    "before": {
+      "name": "Reading First survey: Extra classroom practice for struggling readers (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First increased teacher-reported extra practice for struggling readers by an estimated 0.20 SD.",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p = 0.018; SE and CI not reported; RFIS 2.4). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.20",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.018"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "4feb60ea734f4a7b848255600b80023a",
+    "key": "survey-assessments/native",
+    "before": {
+      "name": "Reading First survey: Use of assessments to inform classroom practice (points on a 0-3 scale)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in teacher-reported use of assessments to inform classroom practice (estimate: 0.18 points on a 0-3 scale).",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p = 0.090; SE and CI not reported; RFIS 2.4). These sampled-school findings concern teaching practices, not gains in student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.18",
+      "unit": "points on a 0-3 scale",
+      "standardError": null,
+      "confidenceInterval": null
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.090"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  },
+  {
+    "id": "7555e84390d941bc833856ffdc363dee",
+    "key": "survey-assessments/standardized",
+    "before": {
+      "name": "Reading First survey: Use of assessments to inform classroom practice (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval."
+    },
+    "after": {
+      "name": "Reading First did not establish a clear change in teacher-reported use of assessments to inform classroom practice (estimate: 0.19 SD).",
+      "description": "Spring 2007 self-reports: adjusted impact versus estimated outcomes without funding (p = 0.090; SE and CI not reported; RFIS 2.4). This is the same contrast in standard deviations of the measured practice, not student achievement.",
+      "factual": true
+    },
+    "estimate": {
+      "value": "0.19",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+    },
+    "pValue": {
+      "operator": "=",
+      "value": "0.090"
+    },
+    "sourceLocations": [
+      {
+        "exhibit": "2.4",
+        "printedPage": "22",
+        "pdfPage": 51,
+        "role": "means, p-value and headline estimates"
+      }
+    ]
+  }
+]

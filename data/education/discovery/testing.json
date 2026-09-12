@@ -1,0 +1,75 @@
+{
+  "term": "testing",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:27.496Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "1cca0334e75846c698bb464f89f6f1ae",
+      "name": "Testing",
+      "description": null,
+      "spaceIds": [
+        "48cdf77de78349873fd85465c4cf5f0f"
+      ],
+      "types": [
+        {
+          "id": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+          "name": "Skill"
+        }
+      ]
+    },
+    {
+      "id": "41c02ec92f6949bda7bd31bee4cbac78",
+      "name": "Testing",
+      "description": null,
+      "spaceIds": [
+        "870e3b3068661e6280fad2ab456829bc"
+      ],
+      "types": [
+        {
+          "id": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+          "name": "Skill"
+        }
+      ]
+    },
+    {
+      "id": "5cf0fc1c4b4b4e2d93920ef6bcc70668",
+      "name": "Testing",
+      "description": "Testing 123\n",
+      "spaceIds": [
+        "645b1c610334c7aef693027e676af7a4"
+      ],
+      "types": []
+    },
+    {
+      "id": "6b55d848cd364e3aaf6c79b29c05020e",
+      "name": "testing",
+      "description": null,
+      "spaceIds": [
+        "18795bf4b863fac8e0c10d8601dd51a3"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    },
+    {
+      "id": "dc53c54e0f8448729744290fcf82d9d4",
+      "name": "Testing",
+      "description": "Just testing",
+      "spaceIds": [
+        "a20193a533873604422b0ad1febbd7cc"
+      ],
+      "types": []
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZGM1M2M1NGUtMGY4NC00ODcyLTk3NDQtMjkwZmNmODJkOWQ0Il1d"
+    }
+  ]
+}

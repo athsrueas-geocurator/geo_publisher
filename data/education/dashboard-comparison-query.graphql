@@ -1,0 +1,13 @@
+query EducationDashboardComparison($spaceId: UUID!, $filter: EntityFilter!, $after: Cursor) {
+  entitiesConnection(spaceId: $spaceId, typeId: "96f859efa1ca4b229372c86ad58b694b", first: 50, after: $after, filter: $filter) {
+    nodes {
+      id
+      name
+      description
+      values(first: 30, filter: {spaceId: {is: $spaceId}}) { nodes { propertyId text decimal integer boolean } pageInfo { hasNextPage endCursor } }
+      relations(first: 30, filter: {spaceId: {is: $spaceId}}) { nodes { typeId toEntityId } pageInfo { hasNextPage endCursor } }
+    }
+    pageInfo { hasNextPage endCursor }
+  }
+}
+

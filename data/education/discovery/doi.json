@@ -1,0 +1,62 @@
+{
+  "term": "DOI",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T17:40:47.929Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "29d4e80245b14e54a110af8c0a410bc3",
+      "name": "DOI",
+      "description": null,
+      "spaceIds": [
+        "19f11bc6f1a62ac434936af814d1f8b5"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "7cb59354e30c48119e99ff62fcf61646",
+      "name": "DOI",
+      "description": "The Digital Object Identifier is a unique, persistent alphanumeric string assigned to digital objects, primarily scholarly research, articles, and datasets, to provide a permanent, reliable link to their location online.",
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b",
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        },
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "eefa2461f21d3d6a983cad440bb70098",
+      "name": "Doi",
+      "description": "AI Music ontology field for doi; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZWVmYTI0NjEtZjIxZC0zZDZhLTk4M2MtYWQ0NDBiYjcwMDk4Il1d"
+    }
+  ]
+}

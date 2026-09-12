@@ -1,0 +1,137 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "fa615e21492c40b68c6f3483f1466bcb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "College Scorecard",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "College Scorecard provides institution- and cohort-level postsecondary completion, earnings, debt, repayment, and aid data. It supplies pathway and return context; it does not establish that an initiative caused an outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://collegescorecard.ed.gov/data/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "31ec1a5cb1ae4d0f8256b33c681667c1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "College Scorecard catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** U.S. Department of Education.\n- **Access:** Downloadable files and API.\n- **Unit:** Postsecondary institution and student-cohort summaries.\n- **Coverage:** Release-dependent historical files.\n- **Geography:** Institution, state, and nation.\n- **Join keys:** UNITID, OPEID, state, and reporting year.\n- **Measures:** Completion, earnings, debt, repayment, and aid.\n- **Use boundary:** Preserve released cohort definitions; institution averages are not individual program effects.\n\nCollege Scorecard provides career-pathway and postsecondary-return context. Its released values do not alone establish that a program caused an outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d76d364837354456b557a8a9581df8a9"
+    },
+    "entity": {
+      "$bytes": "a36586e200344de78d528e0cd96eb15d"
+    },
+    "from": {
+      "$bytes": "fa615e21492c40b68c6f3483f1466bcb"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AO5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4e63630ce91648a89068200306847e12"
+    },
+    "entity": {
+      "$bytes": "f247d902c3a641d2acdb9ab2c3fb3917"
+    },
+    "from": {
+      "$bytes": "31ec1a5cb1ae4d0f8256b33c681667c1"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03Fr"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b38b8de41e7a4488ad263e763d33d674"
+    },
+    "entity": {
+      "$bytes": "2b18dfef82d54913904abb62fb0b2a22"
+    },
+    "from": {
+      "$bytes": "fa615e21492c40b68c6f3483f1466bcb"
+    },
+    "to": {
+      "$bytes": "31ec1a5cb1ae4d0f8256b33c681667c1"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a003R"
+  }
+]

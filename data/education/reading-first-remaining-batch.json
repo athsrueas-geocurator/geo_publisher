@@ -1,0 +1,3184 @@
+{
+  "name": "Add remaining Reading First achievement and implementation impacts",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/reading-first-remaining-ops.json",
+  "sha256": "28113fd08a0c29a473282bc865e204bb60cdd673db8782ab9a26179fe4bf6acb",
+  "operationCount": 773,
+  "datasetId": "02b40a84dd87410f9ad78f0481ad237a",
+  "selected": [
+    {
+      "key": "sat10-score-g1/standardized",
+      "contrastKey": "sat10-score-g1",
+      "representation": "standardized",
+      "domain": "student achievement",
+      "measure": "Reading comprehension scaled score",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "grade": "1",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "value": "0.10",
+      "unit": "standard deviations",
+      "standardError": "0.06",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.01",
+        "upper": "0.21"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005 and 2006 SAT 10 scores, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.083"
+      },
+      "pairedKey": "sat10-score-g1/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "32d089b21fb64e68838420d851144759",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.10",
+        "cc28953bd89e406096c9627021f4713d": "0.06",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.01",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.21",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "sat10-score-g2/native",
+      "contrastKey": "sat10-score-g2",
+      "representation": "native",
+      "domain": "student achievement",
+      "measure": "Reading comprehension scaled score",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "grade": "2",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "value": "1.69",
+      "unit": "SAT 10 scaled-score points",
+      "standardError": "2.29",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-2.83",
+        "upper": "6.21"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.462"
+      },
+      "pairedKey": "sat10-score-g2/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "0d1e184534bf40de8ed81c3f60c837d8",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "1.69",
+        "cc28953bd89e406096c9627021f4713d": "2.29",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-2.83",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "6.21",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "sat10-score-g2/standardized",
+      "contrastKey": "sat10-score-g2",
+      "representation": "standardized",
+      "domain": "student achievement",
+      "measure": "Reading comprehension scaled score",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "grade": "2",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "value": "0.04",
+      "unit": "standard deviations",
+      "standardError": "0.05",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.07",
+        "upper": "0.15"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005 and 2006 SAT 10 scores, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.462"
+      },
+      "pairedKey": "sat10-score-g2/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "dc8cbe377a1b402b927fd577496a52c6",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.04",
+        "cc28953bd89e406096c9627021f4713d": "0.05",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.07",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.15",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "sat10-score-g3/native",
+      "contrastKey": "sat10-score-g3",
+      "representation": "native",
+      "domain": "student achievement",
+      "measure": "Reading comprehension scaled score",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "grade": "3",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "value": "0.30",
+      "unit": "SAT 10 scaled-score points",
+      "standardError": "2.12",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-3.88",
+        "upper": "4.48"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.887"
+      },
+      "pairedKey": "sat10-score-g3/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "0aed4da3d0354a8e921808d13e6c4108",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.30",
+        "cc28953bd89e406096c9627021f4713d": "2.12",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-3.88",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "4.48",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "sat10-score-g3/standardized",
+      "contrastKey": "sat10-score-g3",
+      "representation": "standardized",
+      "domain": "student achievement",
+      "measure": "Reading comprehension scaled score",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "grade": "3",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "value": "0.01",
+      "unit": "standard deviations",
+      "standardError": "0.05",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.10",
+        "upper": "0.11"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005 and 2006 SAT 10 scores, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.887"
+      },
+      "pairedKey": "sat10-score-g3/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "49cbe44f10c7413a9822e9f0041fb5ae",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.01",
+        "cc28953bd89e406096c9627021f4713d": "0.05",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.10",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.11",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "sat10-grade-level-g1/native",
+      "contrastKey": "sat10-grade-level-g1",
+      "representation": "native",
+      "domain": "student achievement",
+      "measure": "Reading at or above grade level",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "grade": "1",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "value": "4.22",
+      "unit": "percentage points",
+      "standardError": "2.58",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.87",
+        "upper": "9.31"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.104"
+      },
+      "pairedKey": null,
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "bdab00b728f34b9fac037eb7275c4da5",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "4.22",
+        "cc28953bd89e406096c9627021f4713d": "2.58",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.87",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "9.31",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "sat10-grade-level-g2/native",
+      "contrastKey": "sat10-grade-level-g2",
+      "representation": "native",
+      "domain": "student achievement",
+      "measure": "Reading at or above grade level",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "grade": "2",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "value": "1.60",
+      "unit": "percentage points",
+      "standardError": "2.38",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-3.11",
+        "upper": "6.30"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.504"
+      },
+      "pairedKey": null,
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "b5790e11b8a54055a067c495bf006e95",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "1.60",
+        "cc28953bd89e406096c9627021f4713d": "2.38",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-3.11",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "6.30",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "sat10-grade-level-g3/native",
+      "contrastKey": "sat10-grade-level-g3",
+      "representation": "native",
+      "domain": "student achievement",
+      "measure": "Reading at or above grade level",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "grade": "3",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "value": "-0.08",
+      "unit": "percentage points",
+      "standardError": "2.40",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-4.81",
+        "upper": "4.65"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.973"
+      },
+      "pairedKey": null,
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "d75cefda66c74d29aa73a93f35eecc91",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "-0.08",
+        "cc28953bd89e406096c9627021f4713d": "2.40",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-4.81",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "4.65",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "toswrf-decoding-g1/native",
+      "contrastKey": "toswrf-decoding-g1",
+      "representation": "native",
+      "domain": "student achievement",
+      "measure": "Decoding skill standard score",
+      "instrument": "Test of Silent Word Reading Fluency (TOSWRF)",
+      "analysisLevel": "student",
+      "grade": "1",
+      "followup": "Spring 2007 only",
+      "value": "2.51",
+      "unit": "TOSWRF standard-score points",
+      "standardError": "1.11",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.32",
+        "upper": "4.69"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.025"
+      },
+      "pairedKey": "toswrf-decoding-g1/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.6",
+          "printedPage": "26",
+          "pdfPage": 55,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "09e38f2ef30241cb98a66ec75ac28c37",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "2.51",
+        "cc28953bd89e406096c9627021f4713d": "1.11",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.32",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "4.69",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "toswrf-decoding-g1/standardized",
+      "contrastKey": "toswrf-decoding-g1",
+      "representation": "standardized",
+      "domain": "student achievement",
+      "measure": "Decoding skill standard score",
+      "instrument": "Test of Silent Word Reading Fluency (TOSWRF)",
+      "analysisLevel": "student",
+      "grade": "1",
+      "followup": "Spring 2007 only",
+      "value": "0.17",
+      "unit": "standard deviations",
+      "standardError": "0.07",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.02",
+        "upper": "0.31"
+      },
+      "normalization": "Non-Reading First outcome SD from spring 2007 grade-one TOSWRF scores.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.025"
+      },
+      "pairedKey": "toswrf-decoding-g1/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.6",
+          "printedPage": "26",
+          "pdfPage": 55,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "feafd14dd97e41e29239189b6a09b911",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.17",
+        "cc28953bd89e406096c9627021f4713d": "0.07",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.02",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.31",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-total-g1/native",
+      "contrastKey": "instruction-total-g1",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Instruction in five reading dimensions combined",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "6.92",
+      "unit": "minutes per daily reading block",
+      "standardError": "2.44",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "2.13",
+        "upper": "11.71"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.005"
+      },
+      "pairedKey": "instruction-total-g1/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "a7b93648275543749f94227553d4f63a",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "6.92",
+        "cc28953bd89e406096c9627021f4713d": "2.44",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "2.13",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "11.71",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-total-g1/standardized",
+      "contrastKey": "instruction-total-g1",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Instruction in five reading dimensions combined",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.33",
+      "unit": "standard deviations",
+      "standardError": "0.12",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.10",
+        "upper": "0.56"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.005"
+      },
+      "pairedKey": "instruction-total-g1/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "d0e0918ce0ef43088e8342550ab96fb2",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.33",
+        "cc28953bd89e406096c9627021f4713d": "0.12",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.10",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.56",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-explicit-g1/native",
+      "contrastKey": "instruction-explicit-g1",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Intervals in five dimensions with highly explicit instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "3.29",
+      "unit": "percentage points",
+      "standardError": "1.39",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.57",
+        "upper": "6.01"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.018"
+      },
+      "pairedKey": "instruction-explicit-g1/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "7db594b10154436db6696cb2951cb91e",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "3.29",
+        "cc28953bd89e406096c9627021f4713d": "1.39",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.57",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "6.01",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-explicit-g1/standardized",
+      "contrastKey": "instruction-explicit-g1",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Intervals in five dimensions with highly explicit instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.18",
+      "unit": "standard deviations",
+      "standardError": "0.08",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.03",
+        "upper": "0.33"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.018"
+      },
+      "pairedKey": "instruction-explicit-g1/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "d445a1b822bc4937b6359ab65beb5848",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.18",
+        "cc28953bd89e406096c9627021f4713d": "0.08",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.03",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.33",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-practice-g1/native",
+      "contrastKey": "instruction-practice-g1",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Intervals in five dimensions with high quality student practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.82",
+      "unit": "percentage points",
+      "standardError": "1.25",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-1.63",
+        "upper": "3.27"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.513"
+      },
+      "pairedKey": "instruction-practice-g1/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "44d15e5671184bfba83c82417d6fb6e1",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.82",
+        "cc28953bd89e406096c9627021f4713d": "1.25",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-1.63",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "3.27",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-practice-g1/standardized",
+      "contrastKey": "instruction-practice-g1",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Intervals in five dimensions with high quality student practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.05",
+      "unit": "standard deviations",
+      "standardError": "0.07",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.10",
+        "upper": "0.19"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.513"
+      },
+      "pairedKey": "instruction-practice-g1/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "57ff1c3bac6c496492c6f3b83f3530ad",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.05",
+        "cc28953bd89e406096c9627021f4713d": "0.07",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.10",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.19",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-total-g2/native",
+      "contrastKey": "instruction-total-g2",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Instruction in five reading dimensions combined",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "9.79",
+      "unit": "minutes per daily reading block",
+      "standardError": "2.46",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "4.97",
+        "upper": "14.60"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "pairedKey": "instruction-total-g2/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "5826e6a8487e49baabdc5ccb716df7cf",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "9.79",
+        "cc28953bd89e406096c9627021f4713d": "2.46",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "4.97",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "14.60",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-total-g2/standardized",
+      "contrastKey": "instruction-total-g2",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Instruction in five reading dimensions combined",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.46",
+      "unit": "standard deviations",
+      "standardError": "0.12",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.23",
+        "upper": "0.69"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "pairedKey": "instruction-total-g2/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "ec78cae2ad8446cc940c2570360d7f03",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.46",
+        "cc28953bd89e406096c9627021f4713d": "0.12",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.23",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.69",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-explicit-g2/native",
+      "contrastKey": "instruction-explicit-g2",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Intervals in five dimensions with highly explicit instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "3.00",
+      "unit": "percentage points",
+      "standardError": "1.45",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.16",
+        "upper": "5.84"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.040"
+      },
+      "pairedKey": "instruction-explicit-g2/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "49d3c45c2151490f9a44c75a60bffe3d",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "3.00",
+        "cc28953bd89e406096c9627021f4713d": "1.45",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.16",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "5.84",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-explicit-g2/standardized",
+      "contrastKey": "instruction-explicit-g2",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Intervals in five dimensions with highly explicit instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.16",
+      "unit": "standard deviations",
+      "standardError": "0.08",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.01",
+        "upper": "0.30"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.040"
+      },
+      "pairedKey": "instruction-explicit-g2/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "bec88901b45c480aaaa943474b04418f",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.16",
+        "cc28953bd89e406096c9627021f4713d": "0.08",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.01",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.30",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-practice-g2/native",
+      "contrastKey": "instruction-practice-g2",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Intervals in five dimensions with high quality student practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "2.94",
+      "unit": "percentage points",
+      "standardError": "1.25",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.50",
+        "upper": "5.39"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.019"
+      },
+      "pairedKey": "instruction-practice-g2/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "46d1a145910c4d24bbd64c83f1f1602f",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "2.94",
+        "cc28953bd89e406096c9627021f4713d": "1.25",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.50",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "5.39",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-practice-g2/standardized",
+      "contrastKey": "instruction-practice-g2",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Intervals in five dimensions with high quality student practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.16",
+      "unit": "standard deviations",
+      "standardError": "0.07",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.03",
+        "upper": "0.30"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.019"
+      },
+      "pairedKey": "instruction-practice-g2/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "f3053ad71b0c4daf8b3453385f6b3fa6",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.16",
+        "cc28953bd89e406096c9627021f4713d": "0.07",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.03",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.30",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-phonemic-g1/native",
+      "contrastKey": "instruction-phonemic-g1",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Phonemic awareness instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.61",
+      "unit": "minutes per daily reading block",
+      "standardError": "0.28",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.06",
+        "upper": "1.16"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.030"
+      },
+      "pairedKey": "instruction-phonemic-g1/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "c017745fb03b493a82c219a3d2c531b9",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.61",
+        "cc28953bd89e406096c9627021f4713d": "0.28",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.06",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "1.16",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-phonemic-g1/standardized",
+      "contrastKey": "instruction-phonemic-g1",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Phonemic awareness instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.23",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.02",
+        "upper": "0.43"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.030"
+      },
+      "pairedKey": "instruction-phonemic-g1/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "329772d2385744e1b94117d5abf83caf",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.23",
+        "cc28953bd89e406096c9627021f4713d": "0.10",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.02",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.43",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-phonics-g1/native",
+      "contrastKey": "instruction-phonics-g1",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Phonics instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "2.86",
+      "unit": "minutes per daily reading block",
+      "standardError": "1.44",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.04",
+        "upper": "5.68"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.048"
+      },
+      "pairedKey": "instruction-phonics-g1/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "f051087745894297934a899d5b718a4f",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "2.86",
+        "cc28953bd89e406096c9627021f4713d": "1.44",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.04",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "5.68",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-phonics-g1/standardized",
+      "contrastKey": "instruction-phonics-g1",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Phonics instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.21",
+      "unit": "standard deviations",
+      "standardError": "0.11",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.00",
+        "upper": "0.42"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.048"
+      },
+      "pairedKey": "instruction-phonics-g1/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "56556c9d0bb84fe5b0037fe4c7952373",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.21",
+        "cc28953bd89e406096c9627021f4713d": "0.11",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.00",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.42",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-vocabulary-g1/native",
+      "contrastKey": "instruction-vocabulary-g1",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Vocabulary instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.57",
+      "unit": "minutes per daily reading block",
+      "standardError": "0.66",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.72",
+        "upper": "1.86"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.386"
+      },
+      "pairedKey": "instruction-vocabulary-g1/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "080908c4da6c421bbf5b1fb12e940b22",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.57",
+        "cc28953bd89e406096c9627021f4713d": "0.66",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.72",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "1.86",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-vocabulary-g1/standardized",
+      "contrastKey": "instruction-vocabulary-g1",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Vocabulary instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.09",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.11",
+        "upper": "0.28"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.386"
+      },
+      "pairedKey": "instruction-vocabulary-g1/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "354379ce40d14743941fd47b25eea4c7",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.09",
+        "cc28953bd89e406096c9627021f4713d": "0.10",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.11",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.28",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-fluency-g1/native",
+      "contrastKey": "instruction-fluency-g1",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Fluency instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "1.24",
+      "unit": "minutes per daily reading block",
+      "standardError": "0.61",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.05",
+        "upper": "2.43"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.043"
+      },
+      "pairedKey": "instruction-fluency-g1/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "ab93117898b14ab7be334ddda3916d20",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "1.24",
+        "cc28953bd89e406096c9627021f4713d": "0.61",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.05",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "2.43",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-fluency-g1/standardized",
+      "contrastKey": "instruction-fluency-g1",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Fluency instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.20",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.01",
+        "upper": "0.40"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.043"
+      },
+      "pairedKey": "instruction-fluency-g1/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "2892a8183be54f5698ee17f7fc2e2376",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.20",
+        "cc28953bd89e406096c9627021f4713d": "0.10",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.01",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.40",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-comprehension-g1/native",
+      "contrastKey": "instruction-comprehension-g1",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Comprehension instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "1.78",
+      "unit": "minutes per daily reading block",
+      "standardError": "1.53",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-1.22",
+        "upper": "4.77"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.247"
+      },
+      "pairedKey": "instruction-comprehension-g1/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "66503ca1ea924b368608e543604d5795",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "1.78",
+        "cc28953bd89e406096c9627021f4713d": "1.53",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-1.22",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "4.77",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-comprehension-g1/standardized",
+      "contrastKey": "instruction-comprehension-g1",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Comprehension instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.12",
+      "unit": "standard deviations",
+      "standardError": "0.11",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.08",
+        "upper": "0.33"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.247"
+      },
+      "pairedKey": "instruction-comprehension-g1/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "3b01a01c5b784c96b93e38a647984313",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.12",
+        "cc28953bd89e406096c9627021f4713d": "0.11",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.08",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.33",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-phonemic-g2/native",
+      "contrastKey": "instruction-phonemic-g2",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Phonemic awareness instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.12",
+      "unit": "minutes per daily reading block",
+      "standardError": "0.12",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.12",
+        "upper": "0.36"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.319"
+      },
+      "pairedKey": "instruction-phonemic-g2/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "5cc18a25b77f4a9ebc220a9524e4dc08",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.12",
+        "cc28953bd89e406096c9627021f4713d": "0.12",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.12",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.36",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-phonemic-g2/standardized",
+      "contrastKey": "instruction-phonemic-g2",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Phonemic awareness instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.10",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.09",
+        "upper": "0.29"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.319"
+      },
+      "pairedKey": "instruction-phonemic-g2/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "393d353d16354c29a79e9ed59659b45f",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.10",
+        "cc28953bd89e406096c9627021f4713d": "0.10",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.09",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.29",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-phonics-g2/native",
+      "contrastKey": "instruction-phonics-g2",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Phonics instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "3.27",
+      "unit": "minutes per daily reading block",
+      "standardError": "1.17",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.97",
+        "upper": "5.57"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.006"
+      },
+      "pairedKey": "instruction-phonics-g2/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "c25d5bf3d2144c14966c7f193b68fe45",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "3.27",
+        "cc28953bd89e406096c9627021f4713d": "1.17",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.97",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "5.57",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-phonics-g2/standardized",
+      "contrastKey": "instruction-phonics-g2",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Phonics instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.31",
+      "unit": "standard deviations",
+      "standardError": "0.11",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.09",
+        "upper": "0.53"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.006"
+      },
+      "pairedKey": "instruction-phonics-g2/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "67d08d12c1ed41869e2227a09df8b607",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.31",
+        "cc28953bd89e406096c9627021f4713d": "0.11",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.09",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.53",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-vocabulary-g2/native",
+      "contrastKey": "instruction-vocabulary-g2",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Vocabulary instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "1.73",
+      "unit": "minutes per daily reading block",
+      "standardError": "0.82",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.13",
+        "upper": "3.34"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.036"
+      },
+      "pairedKey": "instruction-vocabulary-g2/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "2c3c71d68e2e481c8f4f93cfad9a77a5",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "1.73",
+        "cc28953bd89e406096c9627021f4713d": "0.82",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.13",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "3.34",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-vocabulary-g2/standardized",
+      "contrastKey": "instruction-vocabulary-g2",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Vocabulary instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.20",
+      "unit": "standard deviations",
+      "standardError": "0.09",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.01",
+        "upper": "0.38"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.036"
+      },
+      "pairedKey": "instruction-vocabulary-g2/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "8376945bd3e84bdf9bc5b9d5cc187b38",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.20",
+        "cc28953bd89e406096c9627021f4713d": "0.09",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.01",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.38",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-fluency-g2/native",
+      "contrastKey": "instruction-fluency-g2",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Fluency instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.58",
+      "unit": "minutes per daily reading block",
+      "standardError": "0.56",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.51",
+        "upper": "1.67"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.297"
+      },
+      "pairedKey": "instruction-fluency-g2/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "450593005da44e6d9b3ca2fb804dea72",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.58",
+        "cc28953bd89e406096c9627021f4713d": "0.56",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.51",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "1.67",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-fluency-g2/standardized",
+      "contrastKey": "instruction-fluency-g2",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Fluency instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.11",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.09",
+        "upper": "0.31"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.297"
+      },
+      "pairedKey": "instruction-fluency-g2/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "1a16333277574f3c93970773faf16527",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.11",
+        "cc28953bd89e406096c9627021f4713d": "0.10",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.09",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.31",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-comprehension-g2/native",
+      "contrastKey": "instruction-comprehension-g2",
+      "representation": "native",
+      "domain": "observed instructional practice",
+      "measure": "Comprehension instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "4.01",
+      "unit": "minutes per daily reading block",
+      "standardError": "1.69",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.70",
+        "upper": "7.32"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.019"
+      },
+      "pairedKey": "instruction-comprehension-g2/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "b6d90e392e634cde9f3904784e179184",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "4.01",
+        "cc28953bd89e406096c9627021f4713d": "1.69",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.70",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "7.32",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "instruction-comprehension-g2/standardized",
+      "contrastKey": "instruction-comprehension-g2",
+      "representation": "standardized",
+      "domain": "observed instructional practice",
+      "measure": "Comprehension instruction",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.24",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "0.04",
+        "upper": "0.44"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.019"
+      },
+      "pairedKey": "instruction-comprehension-g2/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "dc5cbc3b34cf499eaac9191fc6ac1e33",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.24",
+        "cc28953bd89e406096c9627021f4713d": "0.10",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "0.04",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.44",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "print-engagement-g1/native",
+      "contrastKey": "print-engagement-g1",
+      "representation": "native",
+      "domain": "observed student engagement",
+      "measure": "Students engaged with print",
+      "instrument": "Student Time-on-Task and Engagement with Print (STEP)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "5.33",
+      "unit": "percentage points",
+      "standardError": "2.92",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.40",
+        "upper": "11.05"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.070"
+      },
+      "pairedKey": "print-engagement-g1/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.3",
+          "printedPage": "20",
+          "pdfPage": 49,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.4",
+          "printedPage": "D-5",
+          "pdfPage": 195,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "e6def14e137a4990ae61edc1d8c3d113",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "5.33",
+        "cc28953bd89e406096c9627021f4713d": "2.92",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.40",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "11.05",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "print-engagement-g1/standardized",
+      "contrastKey": "print-engagement-g1",
+      "representation": "standardized",
+      "domain": "observed student engagement",
+      "measure": "Students engaged with print",
+      "instrument": "Student Time-on-Task and Engagement with Print (STEP)",
+      "analysisLevel": "classroom",
+      "grade": "1",
+      "followup": "Fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "0.18",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.01",
+        "upper": "0.38"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across fall 2005 and spring 2006 STEP data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.070"
+      },
+      "pairedKey": "print-engagement-g1/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.3",
+          "printedPage": "20",
+          "pdfPage": 49,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.4",
+          "printedPage": "D-5",
+          "pdfPage": 195,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "991c2abff5d0410a85c41bfa5f14bb59",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.18",
+        "cc28953bd89e406096c9627021f4713d": "0.10",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.01",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.38",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "print-engagement-g2/native",
+      "contrastKey": "print-engagement-g2",
+      "representation": "native",
+      "domain": "observed student engagement",
+      "measure": "Students engaged with print",
+      "instrument": "Student Time-on-Task and Engagement with Print (STEP)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "-4.75",
+      "unit": "percentage points",
+      "standardError": "2.91",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-10.45",
+        "upper": "0.96"
+      },
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.104"
+      },
+      "pairedKey": "print-engagement-g2/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.3",
+          "printedPage": "20",
+          "pdfPage": 49,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.4",
+          "printedPage": "D-5",
+          "pdfPage": 195,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "5090ee1ec09b495da489723bf76d140d",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "-4.75",
+        "cc28953bd89e406096c9627021f4713d": "2.91",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-10.45",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.96",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "print-engagement-g2/standardized",
+      "contrastKey": "print-engagement-g2",
+      "representation": "standardized",
+      "domain": "observed student engagement",
+      "measure": "Students engaged with print",
+      "instrument": "Student Time-on-Task and Engagement with Print (STEP)",
+      "analysisLevel": "classroom",
+      "grade": "2",
+      "followup": "Fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "value": "-0.17",
+      "unit": "standard deviations",
+      "standardError": "0.10",
+      "confidenceInterval": {
+        "level": "0.95",
+        "lower": "-0.37",
+        "upper": "0.03"
+      },
+      "normalization": "Non-Reading First outcome SD pooled across fall 2005 and spring 2006 STEP data, separately by grade.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.104"
+      },
+      "pairedKey": "print-engagement-g2/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.3",
+          "printedPage": "20",
+          "pdfPage": 49,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.4",
+          "printedPage": "D-5",
+          "pdfPage": 195,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "98ae0f59802b431fba3b2e2b32380cd5",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "-0.17",
+        "cc28953bd89e406096c9627021f4713d": "0.10",
+        "60e8b11660d04c94b1e1ebe4321bedcf": "-0.37",
+        "2b6e1e8fa3324dc08e9b9051f3dee669": "0.03",
+        "6463e2fdc01a4b0694e40ccc499f6eca": "0.95"
+      }
+    },
+    {
+      "key": "survey-pd-hours/native",
+      "contrastKey": "survey-pd-hours",
+      "representation": "native",
+      "domain": "self-reported implementation",
+      "measure": "Professional development in reading received by teachers",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "12.13",
+      "unit": "hours",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": null,
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "pairedKey": "survey-pd-hours/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "5625b4670a674a9cbc56f2f5f01dce21",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "12.13"
+      }
+    },
+    {
+      "key": "survey-pd-hours/standardized",
+      "contrastKey": "survey-pd-hours",
+      "representation": "standardized",
+      "domain": "self-reported implementation",
+      "measure": "Professional development in reading received by teachers",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "0.51",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data.",
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "pairedKey": "survey-pd-hours/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "dc0f7b38234b4189aa4f6046cd60a768",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.51"
+      }
+    },
+    {
+      "key": "survey-pd-components/native",
+      "contrastKey": "survey-pd-components",
+      "representation": "native",
+      "domain": "self-reported implementation",
+      "measure": "Reading components covered in teacher professional development",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "0.55",
+      "unit": "components on a 0-5 scale",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.010"
+      },
+      "pairedKey": "survey-pd-components/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "03c4448f0de944199db5cdfb9dea50f1",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.55"
+      }
+    },
+    {
+      "key": "survey-pd-components/standardized",
+      "contrastKey": "survey-pd-components",
+      "representation": "standardized",
+      "domain": "self-reported implementation",
+      "measure": "Reading components covered in teacher professional development",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "0.31",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.010"
+      },
+      "pairedKey": "survey-pd-components/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "74175f0a23de4414be1860873f74402a",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.31"
+      }
+    },
+    {
+      "key": "survey-coaching/native",
+      "contrastKey": "survey-coaching",
+      "representation": "native",
+      "domain": "self-reported implementation",
+      "measure": "Teacher receipt of coaching",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "0.20",
+      "unit": "proportion difference",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": null,
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "pairedKey": "survey-coaching/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "4af4e3514b8f4939ab5d8a843acb0a36",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.20"
+      }
+    },
+    {
+      "key": "survey-coaching/standardized",
+      "contrastKey": "survey-coaching",
+      "representation": "standardized",
+      "domain": "self-reported implementation",
+      "measure": "Teacher receipt of coaching",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "0.41",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data.",
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "pairedKey": "survey-coaching/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "b210d6ec50e44b24af2433500969ab67",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.41"
+      }
+    },
+    {
+      "key": "survey-coach-time/native",
+      "contrastKey": "survey-coach-time",
+      "representation": "native",
+      "domain": "self-reported implementation",
+      "measure": "Time dedicated to serving as K-3 reading coach",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "school",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "33.49",
+      "unit": "percentage points",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": null,
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "pairedKey": "survey-coach-time/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "630abd905b4b4193be52b2fee0281a78",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "33.49"
+      }
+    },
+    {
+      "key": "survey-coach-time/standardized",
+      "contrastKey": "survey-coach-time",
+      "representation": "standardized",
+      "domain": "self-reported implementation",
+      "measure": "Time dedicated to serving as K-3 reading coach",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "school",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "1.03",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data.",
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "pairedKey": "survey-coach-time/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "dc59f0e273594536a194a80308b9a54c",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "1.03"
+      }
+    },
+    {
+      "key": "survey-reading-minutes/native",
+      "contrastKey": "survey-reading-minutes",
+      "representation": "native",
+      "domain": "self-reported implementation",
+      "measure": "Reading instruction per day",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "18.47",
+      "unit": "minutes per day",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": null,
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "pairedKey": "survey-reading-minutes/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "19ef85b3139d41c99aa9712fbf640c38",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "18.47"
+      }
+    },
+    {
+      "key": "survey-reading-minutes/standardized",
+      "contrastKey": "survey-reading-minutes",
+      "representation": "standardized",
+      "domain": "self-reported implementation",
+      "measure": "Reading instruction per day",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "0.63",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data.",
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "pairedKey": "survey-reading-minutes/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "1e73e94704da4786b6f4170b9b3f27b3",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.63"
+      }
+    },
+    {
+      "key": "survey-differentiated-materials/native",
+      "contrastKey": "survey-differentiated-materials",
+      "representation": "native",
+      "domain": "self-reported implementation",
+      "measure": "Availability of differentiated instructional materials for struggling readers",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "school",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "0.01",
+      "unit": "proportion difference",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.661"
+      },
+      "pairedKey": "survey-differentiated-materials/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "72cfd0265a2a45b198521187df3a6bf8",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.01"
+      }
+    },
+    {
+      "key": "survey-differentiated-materials/standardized",
+      "contrastKey": "survey-differentiated-materials",
+      "representation": "standardized",
+      "domain": "self-reported implementation",
+      "measure": "Availability of differentiated instructional materials for struggling readers",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "school",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "0.15",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.661"
+      },
+      "pairedKey": "survey-differentiated-materials/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "140834b42c824dae89e24a88b29eb013",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.15"
+      }
+    },
+    {
+      "key": "survey-extra-practice/native",
+      "contrastKey": "survey-extra-practice",
+      "representation": "native",
+      "domain": "self-reported implementation",
+      "measure": "Extra classroom practice for struggling readers",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "0.19",
+      "unit": "points on a 0-4 scale",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.018"
+      },
+      "pairedKey": "survey-extra-practice/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "9482e558289d42dba8f081c1ecf390bc",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.19"
+      }
+    },
+    {
+      "key": "survey-extra-practice/standardized",
+      "contrastKey": "survey-extra-practice",
+      "representation": "standardized",
+      "domain": "self-reported implementation",
+      "measure": "Extra classroom practice for struggling readers",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "0.20",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.018"
+      },
+      "pairedKey": "survey-extra-practice/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "7359c54b1c524c1d89d1a8c6db69dc71",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.20"
+      }
+    },
+    {
+      "key": "survey-assessments/native",
+      "contrastKey": "survey-assessments",
+      "representation": "native",
+      "domain": "self-reported implementation",
+      "measure": "Use of assessments to inform classroom practice",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "0.18",
+      "unit": "points on a 0-3 scale",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": null,
+      "pValue": {
+        "operator": "=",
+        "value": "0.090"
+      },
+      "pairedKey": "survey-assessments/standardized",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "4feb60ea734f4a7b848255600b80023a",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.18"
+      }
+    },
+    {
+      "key": "survey-assessments/standardized",
+      "contrastKey": "survey-assessments",
+      "representation": "standardized",
+      "domain": "self-reported implementation",
+      "measure": "Use of assessments to inform classroom practice",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "grade": null,
+      "followup": "Spring 2007 only",
+      "value": "0.19",
+      "unit": "standard deviations",
+      "standardError": null,
+      "confidenceInterval": null,
+      "normalization": "Non-Reading First outcome SD in spring 2007 survey data.",
+      "pValue": {
+        "operator": "=",
+        "value": "0.090"
+      },
+      "pairedKey": "survey-assessments/native",
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "id": "7555e84390d941bc833856ffdc363dee",
+      "numbers": {
+        "e500e2585a964d2c9df4a47b199616c3": "0.19"
+      }
+    }
+  ],
+  "entities": [
+    {
+      "id": "a24f95ac924c4fff9560bbe55d5de890",
+      "name": "Student achievement: standardized effects",
+      "type": "b8803a8665de412bbb357e0c84adf473"
+    },
+    {
+      "id": "9f550a80005446659786464bffb9aa2d",
+      "name": "Observed instructional practices: native units",
+      "type": "b8803a8665de412bbb357e0c84adf473"
+    },
+    {
+      "id": "41b82dbded59476b85de6fd7593a1b05",
+      "name": "Observed instructional practices: standardized effects",
+      "type": "b8803a8665de412bbb357e0c84adf473"
+    },
+    {
+      "id": "b5d7d3b9257041dc8faf646a1cb36ee9",
+      "name": "Observed engagement with print: native units",
+      "type": "b8803a8665de412bbb357e0c84adf473"
+    },
+    {
+      "id": "37ca50fbd9934e3ebb346975fb52dc18",
+      "name": "Observed engagement with print: standardized effects",
+      "type": "b8803a8665de412bbb357e0c84adf473"
+    },
+    {
+      "id": "39dc3e973acd4be18b1abf5ac997470f",
+      "name": "Self-reported implementation: native units",
+      "type": "b8803a8665de412bbb357e0c84adf473"
+    },
+    {
+      "id": "61cbfc3e81284b2284e18bd21c60dc2f",
+      "name": "Self-reported implementation: standardized effects",
+      "type": "b8803a8665de412bbb357e0c84adf473"
+    },
+    {
+      "id": "32d089b21fb64e68838420d851144759",
+      "name": "Reading First grade 1: Reading comprehension scaled score (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "0d1e184534bf40de8ed81c3f60c837d8",
+      "name": "Reading First grade 2: Reading comprehension scaled score (SAT 10 scaled-score points)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "dc8cbe377a1b402b927fd577496a52c6",
+      "name": "Reading First grade 2: Reading comprehension scaled score (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "0aed4da3d0354a8e921808d13e6c4108",
+      "name": "Reading First grade 3: Reading comprehension scaled score (SAT 10 scaled-score points)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "49cbe44f10c7413a9822e9f0041fb5ae",
+      "name": "Reading First grade 3: Reading comprehension scaled score (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "bdab00b728f34b9fac037eb7275c4da5",
+      "name": "Reading First grade 1: Reading at or above grade level (percentage points)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "b5790e11b8a54055a067c495bf006e95",
+      "name": "Reading First grade 2: Reading at or above grade level (percentage points)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "d75cefda66c74d29aa73a93f35eecc91",
+      "name": "Reading First grade 3: Reading at or above grade level (percentage points)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "09e38f2ef30241cb98a66ec75ac28c37",
+      "name": "Reading First grade 1: Decoding skill standard score (TOSWRF standard-score points)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "feafd14dd97e41e29239189b6a09b911",
+      "name": "Reading First grade 1: Decoding skill standard score (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "a7b93648275543749f94227553d4f63a",
+      "name": "Reading First grade 1: Instruction in five reading dimensions combined (minutes per daily reading block)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "d0e0918ce0ef43088e8342550ab96fb2",
+      "name": "Reading First grade 1: Instruction in five reading dimensions combined (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "7db594b10154436db6696cb2951cb91e",
+      "name": "Reading First grade 1: Intervals in five dimensions with highly explicit instruction (percentage points)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "d445a1b822bc4937b6359ab65beb5848",
+      "name": "Reading First grade 1: Intervals in five dimensions with highly explicit instruction (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "44d15e5671184bfba83c82417d6fb6e1",
+      "name": "Reading First grade 1: Intervals in five dimensions with high quality student practice (percentage points)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "57ff1c3bac6c496492c6f3b83f3530ad",
+      "name": "Reading First grade 1: Intervals in five dimensions with high quality student practice (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "5826e6a8487e49baabdc5ccb716df7cf",
+      "name": "Reading First grade 2: Instruction in five reading dimensions combined (minutes per daily reading block)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "ec78cae2ad8446cc940c2570360d7f03",
+      "name": "Reading First grade 2: Instruction in five reading dimensions combined (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "49d3c45c2151490f9a44c75a60bffe3d",
+      "name": "Reading First grade 2: Intervals in five dimensions with highly explicit instruction (percentage points)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "bec88901b45c480aaaa943474b04418f",
+      "name": "Reading First grade 2: Intervals in five dimensions with highly explicit instruction (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "46d1a145910c4d24bbd64c83f1f1602f",
+      "name": "Reading First grade 2: Intervals in five dimensions with high quality student practice (percentage points)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "f3053ad71b0c4daf8b3453385f6b3fa6",
+      "name": "Reading First grade 2: Intervals in five dimensions with high quality student practice (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "c017745fb03b493a82c219a3d2c531b9",
+      "name": "Reading First grade 1: Phonemic awareness instruction (minutes per daily reading block)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "329772d2385744e1b94117d5abf83caf",
+      "name": "Reading First grade 1: Phonemic awareness instruction (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "f051087745894297934a899d5b718a4f",
+      "name": "Reading First grade 1: Phonics instruction (minutes per daily reading block)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "56556c9d0bb84fe5b0037fe4c7952373",
+      "name": "Reading First grade 1: Phonics instruction (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "080908c4da6c421bbf5b1fb12e940b22",
+      "name": "Reading First grade 1: Vocabulary instruction (minutes per daily reading block)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "354379ce40d14743941fd47b25eea4c7",
+      "name": "Reading First grade 1: Vocabulary instruction (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "ab93117898b14ab7be334ddda3916d20",
+      "name": "Reading First grade 1: Fluency instruction (minutes per daily reading block)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "2892a8183be54f5698ee17f7fc2e2376",
+      "name": "Reading First grade 1: Fluency instruction (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "66503ca1ea924b368608e543604d5795",
+      "name": "Reading First grade 1: Comprehension instruction (minutes per daily reading block)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "3b01a01c5b784c96b93e38a647984313",
+      "name": "Reading First grade 1: Comprehension instruction (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "5cc18a25b77f4a9ebc220a9524e4dc08",
+      "name": "Reading First grade 2: Phonemic awareness instruction (minutes per daily reading block)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "393d353d16354c29a79e9ed59659b45f",
+      "name": "Reading First grade 2: Phonemic awareness instruction (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "c25d5bf3d2144c14966c7f193b68fe45",
+      "name": "Reading First grade 2: Phonics instruction (minutes per daily reading block)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "67d08d12c1ed41869e2227a09df8b607",
+      "name": "Reading First grade 2: Phonics instruction (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "2c3c71d68e2e481c8f4f93cfad9a77a5",
+      "name": "Reading First grade 2: Vocabulary instruction (minutes per daily reading block)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "8376945bd3e84bdf9bc5b9d5cc187b38",
+      "name": "Reading First grade 2: Vocabulary instruction (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "450593005da44e6d9b3ca2fb804dea72",
+      "name": "Reading First grade 2: Fluency instruction (minutes per daily reading block)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "1a16333277574f3c93970773faf16527",
+      "name": "Reading First grade 2: Fluency instruction (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "b6d90e392e634cde9f3904784e179184",
+      "name": "Reading First grade 2: Comprehension instruction (minutes per daily reading block)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "dc5cbc3b34cf499eaac9191fc6ac1e33",
+      "name": "Reading First grade 2: Comprehension instruction (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "e6def14e137a4990ae61edc1d8c3d113",
+      "name": "Reading First grade 1: Students engaged with print (percentage points)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "991c2abff5d0410a85c41bfa5f14bb59",
+      "name": "Reading First grade 1: Students engaged with print (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "5090ee1ec09b495da489723bf76d140d",
+      "name": "Reading First grade 2: Students engaged with print (percentage points)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "98ae0f59802b431fba3b2e2b32380cd5",
+      "name": "Reading First grade 2: Students engaged with print (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "5625b4670a674a9cbc56f2f5f01dce21",
+      "name": "Reading First survey: Professional development in reading received by teachers (hours)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "dc0f7b38234b4189aa4f6046cd60a768",
+      "name": "Reading First survey: Professional development in reading received by teachers (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "03c4448f0de944199db5cdfb9dea50f1",
+      "name": "Reading First survey: Reading components covered in teacher professional development (components on a 0-5 scale)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "74175f0a23de4414be1860873f74402a",
+      "name": "Reading First survey: Reading components covered in teacher professional development (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "4af4e3514b8f4939ab5d8a843acb0a36",
+      "name": "Reading First survey: Teacher receipt of coaching (proportion difference)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "b210d6ec50e44b24af2433500969ab67",
+      "name": "Reading First survey: Teacher receipt of coaching (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "630abd905b4b4193be52b2fee0281a78",
+      "name": "Reading First survey: Time dedicated to serving as K-3 reading coach (percentage points)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "dc59f0e273594536a194a80308b9a54c",
+      "name": "Reading First survey: Time dedicated to serving as K-3 reading coach (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "19ef85b3139d41c99aa9712fbf640c38",
+      "name": "Reading First survey: Reading instruction per day (minutes per day)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "1e73e94704da4786b6f4170b9b3f27b3",
+      "name": "Reading First survey: Reading instruction per day (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "72cfd0265a2a45b198521187df3a6bf8",
+      "name": "Reading First survey: Availability of differentiated instructional materials for struggling readers (proportion difference)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "140834b42c824dae89e24a88b29eb013",
+      "name": "Reading First survey: Availability of differentiated instructional materials for struggling readers (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "9482e558289d42dba8f081c1ecf390bc",
+      "name": "Reading First survey: Extra classroom practice for struggling readers (points on a 0-4 scale)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "7359c54b1c524c1d89d1a8c6db69dc71",
+      "name": "Reading First survey: Extra classroom practice for struggling readers (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "4feb60ea734f4a7b848255600b80023a",
+      "name": "Reading First survey: Use of assessments to inform classroom practice (points on a 0-3 scale)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "7555e84390d941bc833856ffdc363dee",
+      "name": "Reading First survey: Use of assessments to inform classroom practice (SD)",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "id": "d3bcd7af4adc418db65850b90086d446",
+      "name": "Reading First standardization notes",
+      "type": "76474f2f00894e77a0410b39fb17d0bf"
+    }
+  ],
+  "tables": [
+    {
+      "key": "achievement",
+      "domain": "student achievement",
+      "title": "Student achievement",
+      "representation": "native",
+      "id": "afb866bcc2064a58a07e0fd2b3fedd2b",
+      "count": 7
+    },
+    {
+      "key": "achievement",
+      "domain": "student achievement",
+      "title": "Student achievement",
+      "representation": "standardized",
+      "id": "a24f95ac924c4fff9560bbe55d5de890",
+      "count": 4
+    },
+    {
+      "key": "instruction",
+      "domain": "observed instructional practice",
+      "title": "Observed instructional practices",
+      "representation": "native",
+      "id": "9f550a80005446659786464bffb9aa2d",
+      "count": 16
+    },
+    {
+      "key": "instruction",
+      "domain": "observed instructional practice",
+      "title": "Observed instructional practices",
+      "representation": "standardized",
+      "id": "41b82dbded59476b85de6fd7593a1b05",
+      "count": 16
+    },
+    {
+      "key": "engagement",
+      "domain": "observed student engagement",
+      "title": "Observed engagement with print",
+      "representation": "native",
+      "id": "b5d7d3b9257041dc8faf646a1cb36ee9",
+      "count": 2
+    },
+    {
+      "key": "engagement",
+      "domain": "observed student engagement",
+      "title": "Observed engagement with print",
+      "representation": "standardized",
+      "id": "37ca50fbd9934e3ebb346975fb52dc18",
+      "count": 2
+    },
+    {
+      "key": "implementation",
+      "domain": "self-reported implementation",
+      "title": "Self-reported implementation",
+      "representation": "native",
+      "id": "39dc3e973acd4be18b1abf5ac997470f",
+      "count": 8
+    },
+    {
+      "key": "implementation",
+      "domain": "self-reported implementation",
+      "title": "Self-reported implementation",
+      "representation": "standardized",
+      "id": "61cbfc3e81284b2284e18bd21c60dc2f",
+      "count": 8
+    }
+  ],
+  "sourceHash": "b725db03095b70ca15aeb7db3fddde6d1385ed61d035fdc3f07bfd557485c20d",
+  "journalPath": "data/education/reading-first-remaining-publication.json",
+  "validationPath": "data/education/reading-first-remaining-validation.json"
+}

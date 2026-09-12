@@ -1,0 +1,3148 @@
+{
+  "checkedAt": "2026-09-12T02:15:56.048Z",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "queryPath": "data/education/star-comparison-query.graphql",
+  "cases": [
+    {
+      "name": "All STAR estimates",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d68c6d1d10af47418fc80ed09d4e097f"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "expectedIds": [
+        "1712d6b99fdd4e2cb6bea8bee28d61a3",
+        "28500731d7ea47869b219483710e0b1c",
+        "7eeddeb79af54141b58e4cffe32d93a5",
+        "831a394e674a4826b8343d205df764d6",
+        "88a750e93ad64f5784a62644f8f4a9db",
+        "939d786645e44217b3c435ca3a0c2b6b",
+        "a06f616cfe594329b80245b88960a5e5",
+        "c234b1291e90415b9fa31a9f02782339"
+      ],
+      "actualIds": [
+        "1712d6b99fdd4e2cb6bea8bee28d61a3",
+        "28500731d7ea47869b219483710e0b1c",
+        "7eeddeb79af54141b58e4cffe32d93a5",
+        "831a394e674a4826b8343d205df764d6",
+        "88a750e93ad64f5784a62644f8f4a9db",
+        "939d786645e44217b3c435ca3a0c2b6b",
+        "a06f616cfe594329b80245b88960a5e5",
+        "c234b1291e90415b9fa31a9f02782339"
+      ],
+      "passed": true,
+      "data": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "1712d6b99fdd4e2cb6bea8bee28d61a3",
+              "name": "In Tennessee STAR, small-class assignment raised grade 3 achievement by an estimated 5.30 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel D, p. 513",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.30 points (class-clustered SE 1.03). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "5.3",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 3",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "6109"
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.03",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, small-class assignment raised grade 3 achievement by an estimated 5.30 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "28500731d7ea47869b219483710e0b1c",
+              "name": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 3 achievement.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 3",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "0.13",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 0.13 points (class-clustered SE 0.81). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.81",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 3 achievement.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "6109"
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel D, p. 513",
+                    "decimal": null,
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "04cc2815daee4657879fd16d5cbec2b2"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "7eeddeb79af54141b58e4cffe32d93a5",
+              "name": "In Tennessee STAR, small-class assignment raised kindergarten achievement by an estimated 5.36 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "5.36",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.36 points (class-clustered SE 1.21). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of kindergarten",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel A, p. 512",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, small-class assignment raised kindergarten achievement by an estimated 5.36 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.21",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "5861"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "831a394e674a4826b8343d205df764d6",
+              "name": "In Tennessee STAR, full-time-aide assignment did not clearly improve kindergarten achievement.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel A, p. 512",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of kindergarten",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "0.53",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, full-time-aide assignment did not clearly improve kindergarten achievement.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 0.53 points (class-clustered SE 1.09). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "5861"
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.09",
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "04cc2815daee4657879fd16d5cbec2b2"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "88a750e93ad64f5784a62644f8f4a9db",
+              "name": "In Tennessee STAR, small-class assignment raised grade 1 achievement by an estimated 6.79 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "6452"
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel B, p. 512",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 1",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "6.79",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, small-class assignment raised grade 1 achievement by an estimated 6.79 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 6.79 points (class-clustered SE 1.10). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.1",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "939d786645e44217b3c435ca3a0c2b6b",
+              "name": "In Tennessee STAR, small-class assignment raised grade 2 achievement by an estimated 5.27 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.27 points (class-clustered SE 1.10). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 2",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.1",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel C, p. 513",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "5.27",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, small-class assignment raised grade 2 achievement by an estimated 5.27 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "5950"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "a06f616cfe594329b80245b88960a5e5",
+              "name": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 2 achievement.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "1.16",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "5950"
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 2 achievement.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 1.16 points (class-clustered SE 0.81). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel C, p. 513",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 2",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.81",
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "04cc2815daee4657879fd16d5cbec2b2"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "c234b1291e90415b9fa31a9f02782339",
+              "name": "In Tennessee STAR, full-time-aide assignment raised grade 1 achievement by an estimated 1.64 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "1.64",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.76",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 1.64 points (class-clustered SE 0.76). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel B, p. 512",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "6452"
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, full-time-aide assignment raised grade 1 achievement by an estimated 1.64 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 1",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "04cc2815daee4657879fd16d5cbec2b2"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYzIzNGIxMjktMWU5MC00MTViLTlmYTMtMWE5ZjAyNzgyMzM5Il1d"
+          }
+        }
+      }
+    },
+    {
+      "name": "Grade K",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d68c6d1d10af47418fc80ed09d4e097f"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "98c0849922164db0822b5a78444c17b3"
+                  },
+                  "toEntityId": {
+                    "is": "32ef1b9c498b42c18725f72a93fd2917"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "expectedIds": [
+        "7eeddeb79af54141b58e4cffe32d93a5",
+        "831a394e674a4826b8343d205df764d6"
+      ],
+      "actualIds": [
+        "7eeddeb79af54141b58e4cffe32d93a5",
+        "831a394e674a4826b8343d205df764d6"
+      ],
+      "passed": true,
+      "data": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "7eeddeb79af54141b58e4cffe32d93a5",
+              "name": "In Tennessee STAR, small-class assignment raised kindergarten achievement by an estimated 5.36 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "5.36",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.36 points (class-clustered SE 1.21). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of kindergarten",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel A, p. 512",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, small-class assignment raised kindergarten achievement by an estimated 5.36 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.21",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "5861"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "831a394e674a4826b8343d205df764d6",
+              "name": "In Tennessee STAR, full-time-aide assignment did not clearly improve kindergarten achievement.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel A, p. 512",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of kindergarten",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "0.53",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, full-time-aide assignment did not clearly improve kindergarten achievement.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 0.53 points (class-clustered SE 1.09). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "5861"
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.09",
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "04cc2815daee4657879fd16d5cbec2b2"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiODMxYTM5NGUtNjc0YS00ODI2LWI4MzQtM2QyMDVkZjc2NGQ2Il1d"
+          }
+        }
+      }
+    },
+    {
+      "name": "Grade 1",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d68c6d1d10af47418fc80ed09d4e097f"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "98c0849922164db0822b5a78444c17b3"
+                  },
+                  "toEntityId": {
+                    "is": "c66d539b68a54250889bee59b97fcfc0"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "expectedIds": [
+        "88a750e93ad64f5784a62644f8f4a9db",
+        "c234b1291e90415b9fa31a9f02782339"
+      ],
+      "actualIds": [
+        "88a750e93ad64f5784a62644f8f4a9db",
+        "c234b1291e90415b9fa31a9f02782339"
+      ],
+      "passed": true,
+      "data": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "88a750e93ad64f5784a62644f8f4a9db",
+              "name": "In Tennessee STAR, small-class assignment raised grade 1 achievement by an estimated 6.79 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "6452"
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel B, p. 512",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 1",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "6.79",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, small-class assignment raised grade 1 achievement by an estimated 6.79 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 6.79 points (class-clustered SE 1.10). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.1",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "c234b1291e90415b9fa31a9f02782339",
+              "name": "In Tennessee STAR, full-time-aide assignment raised grade 1 achievement by an estimated 1.64 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "1.64",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.76",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 1.64 points (class-clustered SE 0.76). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel B, p. 512",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "6452"
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, full-time-aide assignment raised grade 1 achievement by an estimated 1.64 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 1",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "04cc2815daee4657879fd16d5cbec2b2"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYzIzNGIxMjktMWU5MC00MTViLTlmYTMtMWE5ZjAyNzgyMzM5Il1d"
+          }
+        }
+      }
+    },
+    {
+      "name": "Grade 2",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d68c6d1d10af47418fc80ed09d4e097f"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "98c0849922164db0822b5a78444c17b3"
+                  },
+                  "toEntityId": {
+                    "is": "74a01717791841c3beef132e8e5cec4e"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "expectedIds": [
+        "939d786645e44217b3c435ca3a0c2b6b",
+        "a06f616cfe594329b80245b88960a5e5"
+      ],
+      "actualIds": [
+        "939d786645e44217b3c435ca3a0c2b6b",
+        "a06f616cfe594329b80245b88960a5e5"
+      ],
+      "passed": true,
+      "data": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "939d786645e44217b3c435ca3a0c2b6b",
+              "name": "In Tennessee STAR, small-class assignment raised grade 2 achievement by an estimated 5.27 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.27 points (class-clustered SE 1.10). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 2",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.1",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel C, p. 513",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "5.27",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, small-class assignment raised grade 2 achievement by an estimated 5.27 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "5950"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "a06f616cfe594329b80245b88960a5e5",
+              "name": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 2 achievement.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "1.16",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "5950"
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 2 achievement.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 1.16 points (class-clustered SE 0.81). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel C, p. 513",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 2",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.81",
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "04cc2815daee4657879fd16d5cbec2b2"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYTA2ZjYxNmMtZmU1OS00MzI5LWI4MDItNDViODg5NjBhNWU1Il1d"
+          }
+        }
+      }
+    },
+    {
+      "name": "Grade 3",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d68c6d1d10af47418fc80ed09d4e097f"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "98c0849922164db0822b5a78444c17b3"
+                  },
+                  "toEntityId": {
+                    "is": "6fc7ceeb03bf486da5b79bb3874b46ef"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "expectedIds": [
+        "1712d6b99fdd4e2cb6bea8bee28d61a3",
+        "28500731d7ea47869b219483710e0b1c"
+      ],
+      "actualIds": [
+        "1712d6b99fdd4e2cb6bea8bee28d61a3",
+        "28500731d7ea47869b219483710e0b1c"
+      ],
+      "passed": true,
+      "data": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "1712d6b99fdd4e2cb6bea8bee28d61a3",
+              "name": "In Tennessee STAR, small-class assignment raised grade 3 achievement by an estimated 5.30 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel D, p. 513",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.30 points (class-clustered SE 1.03). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "5.3",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 3",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "6109"
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.03",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, small-class assignment raised grade 3 achievement by an estimated 5.30 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "28500731d7ea47869b219483710e0b1c",
+              "name": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 3 achievement.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 3",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "0.13",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 0.13 points (class-clustered SE 0.81). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.81",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 3 achievement.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "6109"
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel D, p. 513",
+                    "decimal": null,
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "04cc2815daee4657879fd16d5cbec2b2"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjg1MDA3MzEtZDdlYS00Nzg2LTliMjEtOTQ4MzcxMGUwYjFjIl1d"
+          }
+        }
+      }
+    },
+    {
+      "name": "Arm small",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d68c6d1d10af47418fc80ed09d4e097f"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "a0109f6192b1414fa93fb756779643ed"
+                  },
+                  "toEntityId": {
+                    "is": "9c49d94122dc4f54b9311d20b9b10c33"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "expectedIds": [
+        "1712d6b99fdd4e2cb6bea8bee28d61a3",
+        "7eeddeb79af54141b58e4cffe32d93a5",
+        "88a750e93ad64f5784a62644f8f4a9db",
+        "939d786645e44217b3c435ca3a0c2b6b"
+      ],
+      "actualIds": [
+        "1712d6b99fdd4e2cb6bea8bee28d61a3",
+        "7eeddeb79af54141b58e4cffe32d93a5",
+        "88a750e93ad64f5784a62644f8f4a9db",
+        "939d786645e44217b3c435ca3a0c2b6b"
+      ],
+      "passed": true,
+      "data": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "1712d6b99fdd4e2cb6bea8bee28d61a3",
+              "name": "In Tennessee STAR, small-class assignment raised grade 3 achievement by an estimated 5.30 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel D, p. 513",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.30 points (class-clustered SE 1.03). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "5.3",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 3",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "6109"
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.03",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, small-class assignment raised grade 3 achievement by an estimated 5.30 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "7eeddeb79af54141b58e4cffe32d93a5",
+              "name": "In Tennessee STAR, small-class assignment raised kindergarten achievement by an estimated 5.36 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "5.36",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.36 points (class-clustered SE 1.21). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of kindergarten",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel A, p. 512",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, small-class assignment raised kindergarten achievement by an estimated 5.36 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.21",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "5861"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "88a750e93ad64f5784a62644f8f4a9db",
+              "name": "In Tennessee STAR, small-class assignment raised grade 1 achievement by an estimated 6.79 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "6452"
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel B, p. 512",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 1",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "6.79",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, small-class assignment raised grade 1 achievement by an estimated 6.79 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 6.79 points (class-clustered SE 1.10). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.1",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "939d786645e44217b3c435ca3a0c2b6b",
+              "name": "In Tennessee STAR, small-class assignment raised grade 2 achievement by an estimated 5.27 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.27 points (class-clustered SE 1.10). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 2",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.1",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel C, p. 513",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "5.27",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, small-class assignment raised grade 2 achievement by an estimated 5.27 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "5950"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOTM5ZDc4NjYtNDVlNC00MjE3LWIzYzQtMzVjYTNhMGMyYjZiIl1d"
+          }
+        }
+      }
+    },
+    {
+      "name": "Arm aide",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d68c6d1d10af47418fc80ed09d4e097f"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "a0109f6192b1414fa93fb756779643ed"
+                  },
+                  "toEntityId": {
+                    "is": "04cc2815daee4657879fd16d5cbec2b2"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "expectedIds": [
+        "28500731d7ea47869b219483710e0b1c",
+        "831a394e674a4826b8343d205df764d6",
+        "a06f616cfe594329b80245b88960a5e5",
+        "c234b1291e90415b9fa31a9f02782339"
+      ],
+      "actualIds": [
+        "28500731d7ea47869b219483710e0b1c",
+        "831a394e674a4826b8343d205df764d6",
+        "a06f616cfe594329b80245b88960a5e5",
+        "c234b1291e90415b9fa31a9f02782339"
+      ],
+      "passed": true,
+      "data": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "28500731d7ea47869b219483710e0b1c",
+              "name": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 3 achievement.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 3",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "0.13",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 0.13 points (class-clustered SE 0.81). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.81",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 3 achievement.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "6109"
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel D, p. 513",
+                    "decimal": null,
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "04cc2815daee4657879fd16d5cbec2b2"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "831a394e674a4826b8343d205df764d6",
+              "name": "In Tennessee STAR, full-time-aide assignment did not clearly improve kindergarten achievement.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel A, p. 512",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of kindergarten",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "0.53",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, full-time-aide assignment did not clearly improve kindergarten achievement.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 0.53 points (class-clustered SE 1.09). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "5861"
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.09",
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "04cc2815daee4657879fd16d5cbec2b2"
+                  },
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "a06f616cfe594329b80245b88960a5e5",
+              "name": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 2 achievement.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "1.16",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "5950"
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 2 achievement.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 1.16 points (class-clustered SE 0.81). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel C, p. 513",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 2",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.81",
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "04cc2815daee4657879fd16d5cbec2b2"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "c234b1291e90415b9fa31a9f02782339",
+              "name": "In Tennessee STAR, full-time-aide assignment raised grade 1 achievement by an estimated 1.64 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "1.64",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.76",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 1.64 points (class-clustered SE 0.76). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel B, p. 512",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "6452"
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, full-time-aide assignment raised grade 1 achievement by an estimated 1.64 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 1",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "04cc2815daee4657879fd16d5cbec2b2"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYzIzNGIxMjktMWU5MC00MTViLTlmYTMtMWE5ZjAyNzgyMzM5Il1d"
+          }
+        }
+      }
+    },
+    {
+      "name": "Grade 1, small class",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d68c6d1d10af47418fc80ed09d4e097f"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "98c0849922164db0822b5a78444c17b3"
+                  },
+                  "toEntityId": {
+                    "is": "c66d539b68a54250889bee59b97fcfc0"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "a0109f6192b1414fa93fb756779643ed"
+                  },
+                  "toEntityId": {
+                    "is": "9c49d94122dc4f54b9311d20b9b10c33"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "expectedIds": [
+        "88a750e93ad64f5784a62644f8f4a9db"
+      ],
+      "actualIds": [
+        "88a750e93ad64f5784a62644f8f4a9db"
+      ],
+      "passed": true,
+      "data": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "88a750e93ad64f5784a62644f8f4a9db",
+              "name": "In Tennessee STAR, small-class assignment raised grade 1 achievement by an estimated 6.79 percentile points.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+                    "text": null,
+                    "decimal": null,
+                    "integer": "6452"
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "Table V, column 7, panel B, p. 512",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "End of grade 1",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "percentile points",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+                    "text": null,
+                    "decimal": "6.79",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "In Tennessee STAR, small-class assignment raised grade 1 achievement by an estimated 6.79 percentile points.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 6.79 points (class-clustered SE 1.10). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+                    "decimal": null,
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.1",
+                    "integer": null
+                  },
+                  {
+                    "propertyId": "ba643714da274c37a340a7f8396198dc",
+                    "text": "reduced-form initial class-type assignment effect",
+                    "decimal": null,
+                    "integer": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "061dbc4816b0413b83ebe771ef3d9875",
+                    "toEntityId": "4fcc10047b6648f9a9d3aa077e33aadf"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "efdefdaf3fbd4d02bd44228882c09359"
+                  },
+                  {
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "b753211b9fd6470b8bb0ed709b97b789"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d68c6d1d10af47418fc80ed09d4e097f"
+                  },
+                  {
+                    "typeId": "a0109f6192b1414fa93fb756779643ed",
+                    "toEntityId": "9c49d94122dc4f54b9311d20b9b10c33"
+                  },
+                  {
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiODhhNzUwZTktM2FkNi00ZjU3LTg0YTYtMjY0NGY4ZjRhOWRiIl1d"
+          }
+        }
+      }
+    }
+  ],
+  "passed": true
+}

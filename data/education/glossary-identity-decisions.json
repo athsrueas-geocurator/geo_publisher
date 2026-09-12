@@ -1,0 +1,43 @@
+{
+  "sourceCommit": "3cd97449ce9ca73cccb77efe22aac69cc56131e5",
+  "scope": "Reviewed identity decisions for glossary concepts; not a publication manifest",
+  "decisions": [
+    {
+      "sourceTerm": "RCT",
+      "decision": "reuse",
+      "entityId": "ad9f48f68b804ddd9f9e8ffa5869ef02",
+      "sourceSpaces": ["52c7ae149838b6d47ce0f3b2a5974546", "44eb138f564fbed6ed9ce543de1b849c"],
+      "evidence": "discovery/randomized-controlled-trial.json",
+      "reason": "Expanded acronym matches the described random-assignment study design. Reuse the described entity; do not create another concept for the abbreviation. Another Health study-category ID is an existing duplicate candidate, not grounds for a third entity.",
+      "otherCandidateIds": ["82853715d57840fb93f79036e8acdad4"]
+    },
+    {
+      "sourceTerm": "Meta-analysis / systematic review",
+      "decision": "composite-entry-links-to-existing-concepts",
+      "entityIds": ["fd48f57b65f44436b393d448eca5d5bd", "2ccb428287674d80b73214e7f3aac5de"],
+      "sourceSpaces": ["52c7ae149838b6d47ce0f3b2a5974546"],
+      "evidence": ["discovery/meta-analysis.json", "discovery/systematic-review.json"],
+      "reason": "The imported glossary entry combines two related but distinct concepts. Preserve its combined wording as editorial context and link both concepts; do not merge the concepts or overwrite either definition with the combined entry."
+    },
+    {
+      "sourceTerm": "SEDA",
+      "decision": "reject-name-candidates-continue-discovery",
+      "rejectedIds": ["2f34d515353b9dd3b0180415cc88dd85", "b84e5637acf7ce7ffa08872a4b12cd77"],
+      "evidence": ["discovery/seda.json", "discovery/stanford-education-data-archive.json"],
+      "reason": "Returned entities are cities in Latvia and Lithuania. The imported term denotes Stanford Education Data Archive. Resolve together with the dataset catalog record, not as a separate generic Topic."
+    },
+    {
+      "sourceTerm": "Confidence interval",
+      "decision": "reject-property-as-concept-continue-discovery",
+      "candidateIds": ["1773a3b16a3e0bee4ca92124efeefcb2", "d21c736598fc58e7d095633be0c1b86b"],
+      "evidence": "discovery/confidence-interval.json",
+      "reason": "Both hits are properties for storing intervals, not the statistical concept described by the glossary. Do not change their property definitions into glossary prose."
+    },
+    {
+      "sourceTerm": "Cost-effectiveness",
+      "decision": "one-concept-multiple-editorial-contexts",
+      "reason": "The glossary contains this term in two sections with different text. Preserve both source keys and both contextual definitions; do not create two concept entities or overwrite one definition with the other. Entity identity remains unresolved."
+    }
+  ],
+  "publicationReady": false
+}

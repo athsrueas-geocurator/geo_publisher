@@ -1,0 +1,644 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0d1e184534bf40de8ed81c3f60c837d8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0aed4da3d0354a8e921808d13e6c4108"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading First's decoding gains justify treating the program as an educational success.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This evaluative position gives substantial weight to improved first-grade decoding despite no statistically significant comprehension gains in grades 1–3. The evaluation supplies the findings; it does not establish this judgment of overall success.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8f151ba49c24572fc9ca96f859efa1ca"
+    },
+    "entity": {
+      "$bytes": "8f151ba496f859efa1ca9c24572fc9ca"
+    },
+    "from": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "49c5d5e19c24572fc9cadb0ea3354845"
+    },
+    "entity": {
+      "$bytes": "49c5d5e1db0ea33548459c24572fc9ca"
+    },
+    "from": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "to": {
+      "$bytes": "db0ea33548454e1780c78231066b7d71"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dfa6aebe9c24572fc9cad87bc8f30fb8"
+    },
+    "entity": {
+      "$bytes": "dfa6aebed87bc8f30fb89c24572fc9ca"
+    },
+    "from": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "to": {
+      "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dfa6aebe9c24572fc9ca02b40a84dd87"
+    },
+    "entity": {
+      "$bytes": "dfa6aebe02b40a84dd879c24572fc9ca"
+    },
+    "from": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "to": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dfa6aebe02b40a84dd879c24572fc9ca"
+    },
+    "entity": {
+      "$bytes": "dfa6aebe9c24572fc9ca02b40a84dd87"
+    },
+    "from": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "to": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading First should not be judged successful without demonstrated gains in reading comprehension.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This evaluative position treats demonstrated comprehension gains as necessary for program success. It acknowledges the measured first-grade decoding improvement while disputing whether that benefit is sufficient.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8f151ba48a6617309f7396f859efa1ca"
+    },
+    "entity": {
+      "$bytes": "8f151ba496f859efa1ca8a6617309f73"
+    },
+    "from": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "49c5d5e18a6617309f73db0ea3354845"
+    },
+    "entity": {
+      "$bytes": "49c5d5e1db0ea33548458a6617309f73"
+    },
+    "from": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "to": {
+      "$bytes": "db0ea33548454e1780c78231066b7d71"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dfa6aebe8a6617309f73d87bc8f30fb8"
+    },
+    "entity": {
+      "$bytes": "dfa6aebed87bc8f30fb88a6617309f73"
+    },
+    "from": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "to": {
+      "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dfa6aebe8a6617309f7302b40a84dd87"
+    },
+    "entity": {
+      "$bytes": "dfa6aebe02b40a84dd878a6617309f73"
+    },
+    "from": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "to": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dfa6aebe02b40a84dd878a6617309f73"
+    },
+    "entity": {
+      "$bytes": "dfa6aebe8a6617309f7302b40a84dd87"
+    },
+    "from": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "to": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57769c24572fc9ca8a6617309f73"
+    },
+    "entity": {
+      "$bytes": "504e57768a6617309f739c24572fc9ca"
+    },
+    "from": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "to": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57768a6617309f739c24572fc9ca"
+    },
+    "entity": {
+      "$bytes": "504e57769c24572fc9ca8a6617309f73"
+    },
+    "from": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "to": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57769c24572fc9ca09e38f2ef302"
+    },
+    "entity": {
+      "$bytes": "504e577609e38f2ef3029c24572fc9ca"
+    },
+    "from": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "to": {
+      "$bytes": "09e38f2ef30241cb98a66ec75ac28c37"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e577609e38f2ef3029c24572fc9ca"
+    },
+    "entity": {
+      "$bytes": "504e57769c24572fc9ca09e38f2ef302"
+    },
+    "from": {
+      "$bytes": "09e38f2ef30241cb98a66ec75ac28c37"
+    },
+    "to": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57769c24572fc9caf004fa2ccffa"
+    },
+    "entity": {
+      "$bytes": "504e5776f004fa2ccffa9c24572fc9ca"
+    },
+    "from": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "to": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e5776f004fa2ccffa9c24572fc9ca"
+    },
+    "entity": {
+      "$bytes": "504e57769c24572fc9caf004fa2ccffa"
+    },
+    "from": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "to": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57769c24572fc9ca0d1e184534bf"
+    },
+    "entity": {
+      "$bytes": "504e57760d1e184534bf9c24572fc9ca"
+    },
+    "from": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "to": {
+      "$bytes": "0d1e184534bf40de8ed81c3f60c837d8"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57760d1e184534bf9c24572fc9ca"
+    },
+    "entity": {
+      "$bytes": "504e57769c24572fc9ca0d1e184534bf"
+    },
+    "from": {
+      "$bytes": "0d1e184534bf40de8ed81c3f60c837d8"
+    },
+    "to": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57769c24572fc9ca0aed4da3d035"
+    },
+    "entity": {
+      "$bytes": "504e57760aed4da3d0359c24572fc9ca"
+    },
+    "from": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "to": {
+      "$bytes": "0aed4da3d0354a8e921808d13e6c4108"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57760aed4da3d0359c24572fc9ca"
+    },
+    "entity": {
+      "$bytes": "504e57769c24572fc9ca0aed4da3d035"
+    },
+    "from": {
+      "$bytes": "0aed4da3d0354a8e921808d13e6c4108"
+    },
+    "to": {
+      "$bytes": "9c24572fc9ca4650a056bbb0c16c36fa"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57768a6617309f7309e38f2ef302"
+    },
+    "entity": {
+      "$bytes": "504e577609e38f2ef3028a6617309f73"
+    },
+    "from": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "to": {
+      "$bytes": "09e38f2ef30241cb98a66ec75ac28c37"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e577609e38f2ef3028a6617309f73"
+    },
+    "entity": {
+      "$bytes": "504e57768a6617309f7309e38f2ef302"
+    },
+    "from": {
+      "$bytes": "09e38f2ef30241cb98a66ec75ac28c37"
+    },
+    "to": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57768a6617309f73f004fa2ccffa"
+    },
+    "entity": {
+      "$bytes": "504e5776f004fa2ccffa8a6617309f73"
+    },
+    "from": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "to": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e5776f004fa2ccffa8a6617309f73"
+    },
+    "entity": {
+      "$bytes": "504e57768a6617309f73f004fa2ccffa"
+    },
+    "from": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "to": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57768a6617309f730d1e184534bf"
+    },
+    "entity": {
+      "$bytes": "504e57760d1e184534bf8a6617309f73"
+    },
+    "from": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "to": {
+      "$bytes": "0d1e184534bf40de8ed81c3f60c837d8"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57760d1e184534bf8a6617309f73"
+    },
+    "entity": {
+      "$bytes": "504e57768a6617309f730d1e184534bf"
+    },
+    "from": {
+      "$bytes": "0d1e184534bf40de8ed81c3f60c837d8"
+    },
+    "to": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57768a6617309f730aed4da3d035"
+    },
+    "entity": {
+      "$bytes": "504e57760aed4da3d0358a6617309f73"
+    },
+    "from": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "to": {
+      "$bytes": "0aed4da3d0354a8e921808d13e6c4108"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504e57760aed4da3d0358a6617309f73"
+    },
+    "entity": {
+      "$bytes": "504e57768a6617309f730aed4da3d035"
+    },
+    "from": {
+      "$bytes": "0aed4da3d0354a8e921808d13e6c4108"
+    },
+    "to": {
+      "$bytes": "8a6617309f7343d9994ceee76c0c550d"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  }
+]

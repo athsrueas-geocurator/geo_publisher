@@ -1,0 +1,48 @@
+{
+  "name": "Add Reading First actual and counterfactual mean pilot",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "datasetId": "02b40a84dd87410f9ad78f0481ad237a",
+  "opsPath": "data/education/reading-first-means-pilot-ops.json",
+  "sha256": "19eacb257dc32f227b3f189ff146174c0baa4daa5a77b394e739480566ee8f61",
+  "operationCount": 40,
+  "selected": [
+    {
+      "key": "sat10-score-g1",
+      "id": "f004fa2ccffa444f9daa5e36e19ab8be",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "5438",
+          "exponent": -1
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "5391",
+          "exponent": -1
+        }
+      ],
+      "unit": "SAT 10 scaled-score points"
+    },
+    {
+      "key": "sat10-grade-level-g1",
+      "id": "bdab00b728f34b9fac037eb7275c4da5",
+      "values": [
+        {
+          "property": "73b35a4ce05f45908118a089d9995bae",
+          "mantissa": "460",
+          "exponent": -3
+        },
+        {
+          "property": "e625ac07ee054ddc8e21c791c027791c",
+          "mantissa": "418",
+          "exponent": -3
+        }
+      ],
+      "unit": "fraction"
+    }
+  ],
+  "sourceHash": "b725db03095b70ca15aeb7db3fddde6d1385ed61d035fdc3f07bfd557485c20d",
+  "journalPath": "data/education/reading-first-means-pilot-publication.json",
+  "validationPath": "data/education/reading-first-means-pilot-validation.json"
+}

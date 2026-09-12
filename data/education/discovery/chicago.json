@@ -1,0 +1,47 @@
+{
+  "term": "Chicago",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:37.541Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "e82f3bfc991a4578aa8b7a503640b95e",
+      "name": "Chicago",
+      "description": "The largest city in the Midwest, set on the shore of Lake Michigan. Known for its pioneering skyscrapers, deep-dish pizza, and blues and jazz heritage, it is a major hub of finance, transport, and culture.",
+      "spaceIds": [
+        "84a679ce188f061ac9a92380bac2bab5"
+      ],
+      "types": [
+        {
+          "id": "01b05333941a4b00bc78fac5a15b467d",
+          "name": "City"
+        },
+        {
+          "id": "01b05333941a4b00bc78fac5a15b467d",
+          "name": "City"
+        }
+      ]
+    },
+    {
+      "id": "fc59f2d7aaff43e68899864987851450",
+      "name": "Chicago",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmM1OWYyZDctYWFmZi00M2U2LTg4OTktODY0OTg3ODUxNDUwIl1d"
+    }
+  ]
+}

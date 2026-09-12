@@ -1,0 +1,23 @@
+{
+  "name": "Add National Charter School Study III matched-growth evidence",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/ncss3-ops.json",
+  "sha256": "d1576482a6b95ed7bdb4e4b121995aed922e1a2d00af78fc7cb936e06ea6857d",
+  "journalPath": "data/education/ncss3-publication.json",
+  "validationPath": "data/education/ncss3-validation.json",
+  "entities": {
+    "article": "e250e966938549269ac74b1935fa380d",
+    "initiative": "06ce03fee15844c18a6bfce808f03d12",
+    "claims": {
+      "overall-reading": "ae72d01cfc13405a9632fa9c1a0d0f61",
+      "overall-math": "96553fbe54d44eb3bad7ff1e7486add7",
+      "cmo-reading": "418b23ad246b4312855e72e56c26d46e",
+      "cmo-math": "b40799e079774e74bbbda89af4d0076d",
+      "standalone-reading": "dc036c8ceb504035a0b7a79fdf90b54c",
+      "jurisdiction-reading-spread": "442b6446a1b54fd3a6c60a85e46e9e8e",
+      "jurisdiction-math-spread": "3f1aaf1f5e754fdb8fb55926e3368dba"
+    }
+  },
+  "operationCount": 34
+}

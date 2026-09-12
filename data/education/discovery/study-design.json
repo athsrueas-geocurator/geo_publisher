@@ -1,0 +1,85 @@
+{
+  "term": "Study design",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T19:20:29.914Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "8e46e3eff9dea2b55d32a5ca7de61938",
+      "name": "Study design",
+      "description": "Study design for the source study.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "ac67153a8c3ce68603ca8453b7586dda",
+      "name": "Study design",
+      "description": "Study design category such as meta-analysis, systematic review, randomized controlled trial, observational study, mechanistic study, or anecdote.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "b1fdc75afb6841a18d8286427099ea44",
+      "name": "Study design",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "cd79fa9881ee47e19b1f99e48d5901c8",
+      "name": "Study design",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    },
+    {
+      "id": "e278c93fc5504f0e98b9f9519e739856",
+      "name": "Study design",
+      "description": "Methodology of the trial: randomized, double-blind, open-label",
+      "spaceIds": [
+        "c45e5508572e026a7e78715e113529d1"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTI3OGM5M2YtYzU1MC00ZjBlLTk4YjktZjk1MTllNzM5ODU2Il1d"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bb0f9095fd6b476cb6a4a3eab822ba5a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "CUNY ASAP’s eight-year net educational cost was $13,838 per program-group member in 2019 dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This CUNY community-college perspective is the program-group minus control-group education cost over eight years. It is not a benefit-cost ratio or a cost estimate for Ohio ASAP.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "13838"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2019"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Net CUNY educational cost per program-group member over eight years, program minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5c7a1c8cc14c4ce18fa52f7adb608e10"
+    },
+    "entity": {
+      "$bytes": "e876d7e743704a3db9f58d0464500c3d"
+    },
+    "from": {
+      "$bytes": "bb0f9095fd6b476cb6a4a3eab822ba5a"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09fY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9231f643ec934c85917df1dfd0249943"
+    },
+    "entity": {
+      "$bytes": "08b25cab542e4c3eafd6ca57b789a19d"
+    },
+    "from": {
+      "$bytes": "bb0f9095fd6b476cb6a4a3eab822ba5a"
+    },
+    "to": {
+      "$bytes": "536b5cd10a65417ea4e1d52b3322dcad"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0AEI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1d9f50d3c512405fb8da28aa9a38bf63"
+    },
+    "entity": {
+      "$bytes": "95cdfd9063a049aea2a3c0a8a37bf08e"
+    },
+    "from": {
+      "$bytes": "bb0f9095fd6b476cb6a4a3eab822ba5a"
+    },
+    "to": {
+      "$bytes": "3f6f2b82f8b94d3c85a5198a40e34199"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01VY"
+  }
+]

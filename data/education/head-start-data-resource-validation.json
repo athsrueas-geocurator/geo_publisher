@@ -1,0 +1,71 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T03:54:13.577Z",
+  "opsHash": "9587eb5db3cab8f5e84cbfc10a9cc8b89020d8ade3b682399eda1889c0abf785",
+  "checks": [
+    "Complete all-space exact Dataset-name discovery found no candidate",
+    "Live property type 8f151ba4de204e3c9cb499ddf96f48f1",
+    "Live property type 49c5d5e1679a4dbdbfd33f618f227c94",
+    "Live property type dfa6aebe1ca94bf29faccc4cc7afb24c",
+    "Live property type da4a6c1f9d4446f9832ff3b49a4400ef",
+    "Live property type 412ff593e9154012a43d4c27ec5c68b6",
+    "Live property type 7cb59354e30c48119e99ff62fcf61646",
+    "Live property type 806d52bc27e94c9193c057978b093351",
+    "Existing Head Start follow-up endpoints are stable",
+    "Persistent ID is unoccupied: 3e4404bac6e842b598e0b0a809a4928f",
+    "Persistent ID is unoccupied: b63ab84606664cbfae0bd503922beff9"
+  ],
+  "edges": [
+    {
+      "from": "3e4404bac6e842b598e0b0a809a4928f",
+      "type": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "0c4babfb43893486af827341bbf32e09"
+    },
+    {
+      "from": "3e4404bac6e842b598e0b0a809a4928f",
+      "type": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    {
+      "from": "3e4404bac6e842b598e0b0a809a4928f",
+      "type": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "to": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    {
+      "from": "3e4404bac6e842b598e0b0a809a4928f",
+      "type": "806d52bc27e94c9193c057978b093351",
+      "to": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    {
+      "from": "b63ab84606664cbfae0bd503922beff9",
+      "type": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "from": "b63ab84606664cbfae0bd503922beff9",
+      "type": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    {
+      "from": "b63ab84606664cbfae0bd503922beff9",
+      "type": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "to": "3e4404bac6e842b598e0b0a809a4928f"
+    },
+    {
+      "from": "b63ab84606664cbfae0bd503922beff9",
+      "type": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "to": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    {
+      "from": "b63ab84606664cbfae0bd503922beff9",
+      "type": "806d52bc27e94c9193c057978b093351",
+      "to": "0df9fad9098d4b11bacb9af0f7a79182"
+    }
+  ],
+  "source": {
+    "archive": "ICPSR 35003",
+    "doi": "10.3886/ICPSR35003.v2",
+    "url": "https://www.childandfamilydataarchive.org/cfda/archives/cfda/studies/35003",
+    "access": "Documentation public; protected files require ICPSR restricted-data agreement."
+  }
+}

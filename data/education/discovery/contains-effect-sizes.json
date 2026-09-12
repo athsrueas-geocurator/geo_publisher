@@ -1,0 +1,56 @@
+{
+  "term": "Effect sizes",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:44:34.601Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "52e982ec01f755b6e4e0b17eed5c966b",
+      "name": "The released database contains 15 randomized trials and hundreds of extracted effect sizes across instruments...",
+      "description": "The released database contains 15 randomized trials and hundreds of extracted effect sizes across instruments, time points, and outcome types.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "667841870450437ca459099344f4efef",
+      "name": "Publication bias may inflate effect sizes, and it remains unclear whether benefits stem from exercise itself or from social engagement and routine.",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": []
+    },
+    {
+      "id": "8354c034ed5b45b685a315295d40c50d",
+      "name": "Effect sizes are modest and vary by exercise timing, with evening vigorous exercise potentially disrupting sleep in some individuals",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": []
+    },
+    {
+      "id": "c08c7fd830f1491ba9388a53604944a5",
+      "name": "Effect sizes vary substantially by program intensity and adherence, and benefits diminish quickly once supervised training stops.",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": []
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYzA4YzdmZDgtMzBmMS00OTFiLWE5MzgtOGE1MzYwNDk0NGE1Il1d"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T15:12:56.684Z",
+  "reviewer": "publisher preparation review",
+  "planHash": "77624712e4c6d902382e0d670557319a0ff31e604dd75106b5d78e1db15e32a9",
+  "factsHash": "6e6575c1c29aa13cf08408fbeea215c575a37d074bb65cd0bc3ab0a2d93a1431",
+  "sources": [
+    {
+      "path": "docs/year-up-study-notes.md",
+      "sha256": "d77c56e2fa20c2dc24d526462a79a3410cdbc6820e2c127eb134f2d638133376",
+      "sourceId": "ce3170d43bfc4a98ba1594ebc591e6d7",
+      "version": "Year Up PACE long-term report; source-backed outcome batch"
+    }
+  ],
+  "discovery": {
+    "path": "data/education/year-up-collection-discovery.json",
+    "sha256": "cdfb3a697cba97ea8f0c452e413d2bf8ff49b0d8dafe4b2bf19ab4dfe26203b2"
+  },
+  "decisions": {
+    "source": {
+      "status": "accepted",
+      "rationale": "Existing Year Up outcome batch and study notes identify the source report."
+    },
+    "identity": {
+      "status": "accepted",
+      "rationale": "Complete all-space exact searches returned no candidate collection."
+    },
+    "content": {
+      "status": "accepted",
+      "rationale": "Facts preserve existing Claim headers, locators and typed values; the shared builder will compare them live."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "term": "observed",
+  "checkedAt": "2026-09-11T21:30:02.571Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "1400ffc3e5fe46a49c7a9ceb145c07af",
+      "name": "Observed monetary mean",
+      "description": "Observed group mean of a monetary outcome, interpreted with currency, price year and follow-up. It is not a between-group causal effect.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ]
+    },
+    {
+      "id": "73b35a4ce05f45908118a089d9995bae",
+      "name": "Observed proportion",
+      "description": "Observed group proportion for a specified outcome and follow-up, expressed as a fraction. It is not a between-group causal effect.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNzNiMzVhNGMtZTA1Zi00NTkwLTgxMTgtYTA4OWQ5OTk1YmFlIl1d"
+    }
+  ]
+}

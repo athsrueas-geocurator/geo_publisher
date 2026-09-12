@@ -1,0 +1,1297 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "503ab3175cbc4274997c5c64278a604f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The Long-Term Effects of Universal Preschool in Boston",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A lottery-based study of Boston public preschool’s educational, test-score, and disciplinary outcomes through young adulthood.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.1093/qje/qjac036",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.nber.org/system/files/working_papers/w28756/w28756.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "96fb8d8ceee143ef9e92805cb0231a07"
+    },
+    "entity": {
+      "$bytes": "8754e3126a0d44caa88d66e3e27301fc"
+    },
+    "from": {
+      "$bytes": "503ab3175cbc4274997c5c64278a604f"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BQm"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c77b1107b93643b4870dfa11c0677d8f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Boston universal pre-K",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Boston Public Schools preschool for four-year-olds. This evidence concerns oversubscribed admissions lotteries in historical applicant cohorts, rather than all contemporary preschool delivery.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.nber.org/system/files/working_papers/w28756/w28756.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3615c0f60e3145cd8a686465dc1e7d1b"
+    },
+    "entity": {
+      "$bytes": "b5548437eb814399b63ad85c003402dd"
+    },
+    "from": {
+      "$bytes": "c77b1107b93643b4870dfa11c0677d8f"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09e2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cbc49c4ade624bbdb5df04d49844f327"
+    },
+    "entity": {
+      "$bytes": "7cba8183bac7421a9de829beb3e47983"
+    },
+    "from": {
+      "$bytes": "c77b1107b93643b4870dfa11c0677d8f"
+    },
+    "to": {
+      "$bytes": "503ab3175cbc4274997c5c64278a604f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09I7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8f7679d3d1924a7daf761ce462daea4c"
+    },
+    "entity": {
+      "$bytes": "5f180a04df624b2c99ac9477bb26cb70"
+    },
+    "from": {
+      "$bytes": "c77b1107b93643b4870dfa11c0677d8f"
+    },
+    "to": {
+      "$bytes": "503ab3175cbc4274997c5c64278a604f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07tG"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c97a2cfc79f44820ba93ef66deaf5f96"
+    },
+    "entity": {
+      "$bytes": "292c4d84b8c2412d98d3a1498002b7a3"
+    },
+    "from": {
+      "$bytes": "c77b1107b93643b4870dfa11c0677d8f"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a0CJi"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0a78c17b257e4e179a839ef7be1a60ff"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Boston preschool attendance increased on-time college enrollment by 8.3 percentage points (46.0% control mean).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2SLS estimate is 0.083 (SE 0.030; p<.01; N=4,175), using a preschool-offer lottery as the instrument. It measures enrollment within six months of projected high-school graduation, not degree completion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "83"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "30"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "4175"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point effect of Boston preschool attendance on on-time any-college enrollment; 2SLS/CACE estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 3; Any college, on-time; p. 386.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "41cc20ed5e1c46f39d632b06fac7f6b8"
+    },
+    "entity": {
+      "$bytes": "7e60bc99431a423a9ac5e96231b449c2"
+    },
+    "from": {
+      "$bytes": "0a78c17b257e4e179a839ef7be1a60ff"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09vp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9167d34db7cb44cc80d11b9ba3e0298d"
+    },
+    "entity": {
+      "$bytes": "196d4e04e21c4d0da25a7d91e4239e34"
+    },
+    "from": {
+      "$bytes": "0a78c17b257e4e179a839ef7be1a60ff"
+    },
+    "to": {
+      "$bytes": "503ab3175cbc4274997c5c64278a604f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a025W"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a408db54facf4fe0be522026d37eb61b"
+    },
+    "entity": {
+      "$bytes": "6213829ae8a84713a062042dde0c8bc3"
+    },
+    "from": {
+      "$bytes": "0a78c17b257e4e179a839ef7be1a60ff"
+    },
+    "to": {
+      "$bytes": "c77b1107b93643b4870dfa11c0677d8f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02fS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "08df3b0036c143d3b93c695ac36d5d9d"
+    },
+    "entity": {
+      "$bytes": "28740b14d1ee4d89812350b221db58d9"
+    },
+    "from": {
+      "$bytes": "0a78c17b257e4e179a839ef7be1a60ff"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a0BiJ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a6edc7c918bf4de7b2e3b9ef76b4f231"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Boston preschool attendance increased ever high-school graduation by 6.0 percentage points (63.6% control mean).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2SLS estimate is 0.060 (SE 0.030; p<.05; N=3,883), instrumenting attendance with the preschool offer. The administrative outcome is graduation from a Massachusetts public high school, not college graduation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "60"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "30"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "3883"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point effect of Boston preschool attendance on ever high-school graduation; 2SLS/CACE estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 4; Ever graduated high school; p. 388.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ae91955d582c4c869d25ae7823ff4170"
+    },
+    "entity": {
+      "$bytes": "9058be5957b24dbaa81c848e6a4e71c2"
+    },
+    "from": {
+      "$bytes": "a6edc7c918bf4de7b2e3b9ef76b4f231"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BPf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b79463c839d849e5999d278c13914dbf"
+    },
+    "entity": {
+      "$bytes": "ce9eec13153b41acb62b3aaf35e56351"
+    },
+    "from": {
+      "$bytes": "a6edc7c918bf4de7b2e3b9ef76b4f231"
+    },
+    "to": {
+      "$bytes": "503ab3175cbc4274997c5c64278a604f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09AT"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8d8858e4555c479b95dc93f56c2f07a6"
+    },
+    "entity": {
+      "$bytes": "5d20e5bbf609465fb71df192cd46eeb7"
+    },
+    "from": {
+      "$bytes": "a6edc7c918bf4de7b2e3b9ef76b4f231"
+    },
+    "to": {
+      "$bytes": "c77b1107b93643b4870dfa11c0677d8f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Bfo"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3b600f6cf6994faeb5d159a5fe889109"
+    },
+    "entity": {
+      "$bytes": "32a2452501564274abd338e0cf0a4c3f"
+    },
+    "from": {
+      "$bytes": "a6edc7c918bf4de7b2e3b9ef76b4f231"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a09TK"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2002f58278474141999d44019ebab325"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Boston preschool attendance increased SAT test-taking by 8.5 percentage points (68.5% control mean).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2SLS estimate is 0.085 (SE 0.034; p<.05; N=2,559), among the paper’s tenth-grade-MCAS analysis sample. Taking the SAT is a preparation/participation outcome, not a score increase.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "85"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "34"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2559"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point effect of Boston preschool attendance on taking the SAT; 2SLS/CACE estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5; Took SAT; p. 390.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "165329a1435c4b5cb02f5591d861787a"
+    },
+    "entity": {
+      "$bytes": "4d0490e93cfc4e7ab65d9c6466bfc354"
+    },
+    "from": {
+      "$bytes": "2002f58278474141999d44019ebab325"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0CLj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f8f02024e0d044df8631db4df7e64bc5"
+    },
+    "entity": {
+      "$bytes": "4425df29531d4bdb95b1ab496ca35e72"
+    },
+    "from": {
+      "$bytes": "2002f58278474141999d44019ebab325"
+    },
+    "to": {
+      "$bytes": "503ab3175cbc4274997c5c64278a604f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05GR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8f1b654f517945e088f82a16f8c6b2a1"
+    },
+    "entity": {
+      "$bytes": "56803768a2424a54980d654803661275"
+    },
+    "from": {
+      "$bytes": "2002f58278474141999d44019ebab325"
+    },
+    "to": {
+      "$bytes": "c77b1107b93643b4870dfa11c0677d8f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a051l"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5bb4a87969f245f49900350dfb3a6f23"
+    },
+    "entity": {
+      "$bytes": "7d93ae4277dc45e1bd82700f611bd4b3"
+    },
+    "from": {
+      "$bytes": "2002f58278474141999d44019ebab325"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a011k"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "30a75bb34b4c44fe9f49971bf6eb9cb7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Boston preschool attendance had no detectable effect on stacked MCAS math scores (estimate 0.029 SD).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2SLS estimate is 0.029 SD (SE 0.056; N=3,615) across observed grades 3–8 and 10. This imprecise null estimate is not evidence of zero effect and does not contradict the paper’s non-test outcomes.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "29"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "56"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "3615"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Standard-deviation effect of Boston preschool attendance on stacked MCAS math scores; 2SLS/CACE estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6; Math scores, all grades stacked; p. 392.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b17e82c3c5f74ae283002e340494a59a"
+    },
+    "entity": {
+      "$bytes": "f9a808de68734951a2cf7281781f4591"
+    },
+    "from": {
+      "$bytes": "30a75bb34b4c44fe9f49971bf6eb9cb7"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06Yf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e6e5d3d7081a467cbabb793e0d956704"
+    },
+    "entity": {
+      "$bytes": "0fbe7bfc43a34a41be5723e40b940dc8"
+    },
+    "from": {
+      "$bytes": "30a75bb34b4c44fe9f49971bf6eb9cb7"
+    },
+    "to": {
+      "$bytes": "503ab3175cbc4274997c5c64278a604f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Bqa"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "13bcbad87e144091b68d679dc91328fe"
+    },
+    "entity": {
+      "$bytes": "9a1aefa20a5e49dc9433f024db212714"
+    },
+    "from": {
+      "$bytes": "30a75bb34b4c44fe9f49971bf6eb9cb7"
+    },
+    "to": {
+      "$bytes": "c77b1107b93643b4870dfa11c0677d8f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02Yj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "08a3bcdc9eeb4093a9da4de68232ff9d"
+    },
+    "entity": {
+      "$bytes": "dcfa6622112f4a9dbf9d16042fb39abe"
+    },
+    "from": {
+      "$bytes": "30a75bb34b4c44fe9f49971bf6eb9cb7"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a0C8O"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "edcf093fb8534943966d00a093a03d17"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Boston preschool attendance had no detectable effect on stacked MCAS English-language-arts scores (estimate 0.005 SD).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2SLS estimate is 0.005 SD (SE 0.057; N=3,569) across observed grades 3–8 and 10. It is a standardized-test result and does not determine the study’s later educational-attainment outcomes.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "57"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "3569"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Standard-deviation effect of Boston preschool attendance on stacked MCAS English-language-arts scores; 2SLS/CACE estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6; ELA scores, all grades stacked; p. 392.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b08f40e93ef84a588ddd26a42ad2e8af"
+    },
+    "entity": {
+      "$bytes": "f19c1e404721440cb2f90b898fb7ca4d"
+    },
+    "from": {
+      "$bytes": "edcf093fb8534943966d00a093a03d17"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09Iq"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f4f2c7557006493cb3115fe7d5ae32c0"
+    },
+    "entity": {
+      "$bytes": "04e40025bb444332a97f7597745e1470"
+    },
+    "from": {
+      "$bytes": "edcf093fb8534943966d00a093a03d17"
+    },
+    "to": {
+      "$bytes": "503ab3175cbc4274997c5c64278a604f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08g9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c738886277734cb2bb724c2e012ddee7"
+    },
+    "entity": {
+      "$bytes": "a925fd3c471f4f72b9c199f7e5d87cc3"
+    },
+    "from": {
+      "$bytes": "edcf093fb8534943966d00a093a03d17"
+    },
+    "to": {
+      "$bytes": "c77b1107b93643b4870dfa11c0677d8f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Bes"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5fe2dfb1f4904024a56704e63ff1c8d3"
+    },
+    "entity": {
+      "$bytes": "5f2c7910c1574eacb33666a2bf816335"
+    },
+    "from": {
+      "$bytes": "edcf093fb8534943966d00a093a03d17"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a0BtT"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "26f7adc11a164070abfcca691612a7af"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Boston preschool attendance reduced recorded juvenile incarceration by 0.8 percentage points (0.7% control mean).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2SLS estimate is −0.008 (SE 0.005; p<.10; N=3,335) for an ever-recorded incarceration or Department of Youth Services placement. The paper treats this as a relatively imprecise disciplinary outcome, not a mechanism or general crime estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-8"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "3335"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point effect of Boston preschool attendance on recorded juvenile incarceration; 2SLS/CACE estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 7; Juvenile incarceration; p. 394.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "94949a3c8a6849aead35b51e175e5085"
+    },
+    "entity": {
+      "$bytes": "c4a14354b3fc409881f5b2d6f3aa0c16"
+    },
+    "from": {
+      "$bytes": "26f7adc11a164070abfcca691612a7af"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07d2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b7412335684e481997470d48bec18dba"
+    },
+    "entity": {
+      "$bytes": "02296da79a1d442492ac22db0eafe6ed"
+    },
+    "from": {
+      "$bytes": "26f7adc11a164070abfcca691612a7af"
+    },
+    "to": {
+      "$bytes": "503ab3175cbc4274997c5c64278a604f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0ATo"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ece22f8525184c27bd8695c4748e8d7a"
+    },
+    "entity": {
+      "$bytes": "7e4ba62d73844e5a82e0be9d69cda656"
+    },
+    "from": {
+      "$bytes": "26f7adc11a164070abfcca691612a7af"
+    },
+    "to": {
+      "$bytes": "c77b1107b93643b4870dfa11c0677d8f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09Z4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3fa476fdb9874244b2b995fa9f5a4887"
+    },
+    "entity": {
+      "$bytes": "6077ee5649084c57b74803b3954a3bf0"
+    },
+    "from": {
+      "$bytes": "26f7adc11a164070abfcca691612a7af"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a04fX"
+  }
+]

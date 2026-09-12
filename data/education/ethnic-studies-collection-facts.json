@@ -1,0 +1,80 @@
+[
+  {
+    "id": "385e7cb36c144d04b09508c0d49876a2",
+    "sourceId": "7cf51d06726242b88157ca3ea1f5b228",
+    "locator": "Table 4, column 6 and local-IV interpretation; pp. 145–146.",
+    "classification": "observed",
+    "context": "Local-IV estimates from the San Francisco ethnic-studies RDD near the eighth-grade GPA 2.0 cutoff; the three outcomes are from one pilot study.",
+    "name": "For students near San Francisco’s 2.0 eighth-grade-GPA cutoff, taking ethnic studies increased ninth-grade GPA by 1.4 grade points.",
+    "description": "The authors derive this local IV estimate from a 0.387 reduced-form GPA discontinuity (robust SE 0.132; N=1,404) and the 0.273 take-up jump. It is a cutoff-local pilot result, not a district-wide average or a result for every implementation.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "1.4"
+      },
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "1404"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Grade-point local-IV effect of taking San Francisco ethnic studies on ninth-grade GPA near the 2.0 GPA cutoff."
+      }
+    ]
+  },
+  {
+    "id": "115917ad7cba4ee38e591b93a5c1426d",
+    "sourceId": "7cf51d06726242b88157ca3ea1f5b228",
+    "locator": "Table 4, column 9 and local-IV interpretation; pp. 145–146.",
+    "classification": "observed",
+    "context": "Local-IV estimates from the San Francisco ethnic-studies RDD near the eighth-grade GPA 2.0 cutoff; the three outcomes are from one pilot study.",
+    "name": "For students near San Francisco’s 2.0 eighth-grade-GPA cutoff, taking ethnic studies increased ninth-grade credits earned by 23 credits.",
+    "description": "The authors derive this local IV estimate from a 6.328 reduced-form credit discontinuity (robust SE 2.201; N=1,404) and the 0.273 take-up jump. The paper characterizes 23 credits as roughly four courses and notes that dropout reductions may contribute to the result.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "23"
+      },
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "1404"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Credit local-IV effect of taking San Francisco ethnic studies on ninth-grade credits earned near the 2.0 GPA cutoff."
+      }
+    ]
+  },
+  {
+    "id": "8197239bfd0f417ca57263877d8c2021",
+    "sourceId": "7cf51d06726242b88157ca3ea1f5b228",
+    "locator": "Table 4, column 3 and local-IV interpretation; pp. 145–146.",
+    "classification": "observed",
+    "context": "Local-IV estimates from the San Francisco ethnic-studies RDD near the eighth-grade GPA 2.0 cutoff; the three outcomes are from one pilot study.",
+    "name": "For students near San Francisco’s 2.0 eighth-grade-GPA cutoff, taking ethnic studies increased ninth-grade attendance by 21 percentage points.",
+    "description": "The authors derive this local IV estimate from the fuzzy assignment rule; the reduced-form attendance discontinuity is 6.328 points (robust SE 2.201; N=1,404). It applies near this threshold in the high-fidelity pilot, not to all students or ethnic-studies courses.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "0.21"
+      },
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "1404"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Percentage-point local-IV effect of taking San Francisco ethnic studies on ninth-grade attendance near the 2.0 GPA cutoff."
+      }
+    ]
+  }
+]

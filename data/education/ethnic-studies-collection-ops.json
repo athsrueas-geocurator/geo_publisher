@@ -1,0 +1,393 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d6613ae29bd34fb393c86f1a13409062"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "San Francisco ethnic-studies RDD findings",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Local-IV estimates from the San Francisco ethnic-studies curriculum evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a3863f4a957242c1a7503e545517199b"
+    },
+    "entity": {
+      "$bytes": "edc0cee7a8294c1ab1628657d66f928c"
+    },
+    "from": {
+      "$bytes": "d6613ae29bd34fb393c86f1a13409062"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AMO"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ac6fb82d8192425bbe0af17e0d87031b"
+    },
+    "entity": {
+      "$bytes": "177f7328998842c6bf0e84b9f1afa20b"
+    },
+    "from": {
+      "$bytes": "d6613ae29bd34fb393c86f1a13409062"
+    },
+    "to": {
+      "$bytes": "7cf51d06726242b88157ca3ea1f5b228"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09aI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "264941c1c98247e48c751c3b8d44d781"
+    },
+    "entity": {
+      "$bytes": "1bf1921385fd478c8b9635ed90fb0c88"
+    },
+    "from": {
+      "$bytes": "d6613ae29bd34fb393c86f1a13409062"
+    },
+    "to": {
+      "$bytes": "d597ffb8910b46158a2eb2c20ad4e48b"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03CD"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "06bcb62553d744d5a0ea23f474176eb7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading the findings",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "Rows reuse three Claims from the RDD study near the eighth-grade GPA 2.0 cutoff. Keep this pilot threshold design separate from the later districtwide expansion study.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8e63fa2bd10248bfa10bda0a89dd2411"
+    },
+    "entity": {
+      "$bytes": "9df3264f63f746b9be2eb0150a74f88d"
+    },
+    "from": {
+      "$bytes": "06bcb62553d744d5a0ea23f474176eb7"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02gY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0bdbc09798ed489aba357ad056eb9ff1"
+    },
+    "entity": {
+      "$bytes": "58dc652875dc4ce582131fe7c6bbe44e"
+    },
+    "from": {
+      "$bytes": "d6613ae29bd34fb393c86f1a13409062"
+    },
+    "to": {
+      "$bytes": "06bcb62553d744d5a0ea23f474176eb7"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0B6c"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "77185b96484c4a869f9ea09da37b004c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Ethnic-studies local-IV findings",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e43216e214c64dbabc56bc9ea30b1ddf"
+    },
+    "entity": {
+      "$bytes": "0034e2b960b04a2b9605d666776d3848"
+    },
+    "from": {
+      "$bytes": "77185b96484c4a869f9ea09da37b004c"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AQO"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "08ac61ae39cf4d88aceb7ec60347d5ad"
+    },
+    "entity": {
+      "$bytes": "f5dc0925fddd4b299a7b8779c201e178"
+    },
+    "from": {
+      "$bytes": "77185b96484c4a869f9ea09da37b004c"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a05EU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7785997532f843819e7fe1a46295fdef"
+    },
+    "entity": {
+      "$bytes": "351eb662d8754e368387270db7863397"
+    },
+    "from": {
+      "$bytes": "d6613ae29bd34fb393c86f1a13409062"
+    },
+    "to": {
+      "$bytes": "77185b96484c4a869f9ea09da37b004c"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a13Mm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "42fa7385f304432c8009e3ba7a631778"
+    },
+    "entity": {
+      "$bytes": "81a117f0cbbb4f6fa0540e3e8c49fb2c"
+    },
+    "from": {
+      "$bytes": "351eb662d8754e368387270db7863397"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a02DV"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e84070d1c1fc4048b717896d18c9470c"
+    },
+    "entity": {
+      "$bytes": "4de0ebd13a2b4c39b6283e4c03b92ca9"
+    },
+    "from": {
+      "$bytes": "351eb662d8754e368387270db7863397"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a05Kh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "658aa1be63ef427b8a983e3e89f09696"
+    },
+    "entity": {
+      "$bytes": "180bd77aca3546fcb1efe5fe55e9b4cd"
+    },
+    "from": {
+      "$bytes": "351eb662d8754e368387270db7863397"
+    },
+    "to": {
+      "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1BS9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d90070f49186428499aefe9d0d0fc7e8"
+    },
+    "entity": {
+      "$bytes": "3e70e086b7db495cbca3d1b0a2dc2ee6"
+    },
+    "from": {
+      "$bytes": "351eb662d8754e368387270db7863397"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a23nD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3c87b285fc32417abea1cd152e05d5a6"
+    },
+    "entity": {
+      "$bytes": "d8172d18e88e43fc8b0973064e9f8dcc"
+    },
+    "from": {
+      "$bytes": "77185b96484c4a869f9ea09da37b004c"
+    },
+    "to": {
+      "$bytes": "385e7cb36c144d04b09508c0d49876a2"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a03zZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e0cc44de643f4640a1e7e283efe4c307"
+    },
+    "entity": {
+      "$bytes": "f4d42e12db684a4eb39ab849ee8247dd"
+    },
+    "from": {
+      "$bytes": "77185b96484c4a869f9ea09da37b004c"
+    },
+    "to": {
+      "$bytes": "115917ad7cba4ee38e591b93a5c1426d"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a12SP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0991e13bb29441c59059f3e50b471b67"
+    },
+    "entity": {
+      "$bytes": "30c8ce157f9649d4bee126146e6084f0"
+    },
+    "from": {
+      "$bytes": "77185b96484c4a869f9ea09da37b004c"
+    },
+    "to": {
+      "$bytes": "8197239bfd0f417ca57263877d8c2021"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a2BU1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e1385dd8cdac42f58d022832b78b5eed"
+    },
+    "entity": {
+      "$bytes": "744b2576da8f43de93104138748ca530"
+    },
+    "from": {
+      "$bytes": "2279edef1bbe479c872caeb72ee90022"
+    },
+    "to": {
+      "$bytes": "d6613ae29bd34fb393c86f1a13409062"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aGf7H"
+  }
+]

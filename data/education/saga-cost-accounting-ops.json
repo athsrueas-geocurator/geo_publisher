@@ -1,0 +1,86 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0adff420a6bc480b8973880dfdb5f296"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Approximate nominal tutoring budget cost per available treatment slot across the study years. The reported range combines slot and participant denominators and is not statistical uncertainty.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "available treatment slot per program year; approximate nominal budget average",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Online Appendix V, printed pp. A-6–A-7 (PDF pp. 7–8), and Table 18, p. A-24 (PDF p. 25)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c87a25d13e7f4562983ded1112d94dc9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Budget basis\n\nThe authors use Saga's proposed nominal budgets for the study years and a planning year. The approximately 3,500 USD headline is the average total cost per available treatment slot across the two program years, excluding sunk planning-year costs. It is not an audited expenditure or a common-price-year cost.\n\n## Why the range differs\n\nThe reported 3,200–4,800 USD range spans the second year's cost per available slot and the first year's cost per participant. Appendix Table 18 reports those endpoints as 3,228.45 and 4,835.47 USD. Slot capacity and actual participation are different denominators. The range describes accounting choices rather than sampling uncertainty.\n\n## Comparison limits\n\nThe appendix separately reports variable costs and totals including the planning year. Its later lower-cost, technology-assisted model uses a different tutor ratio and an AmeriCorps subsidy; that later price is not the cost of the original trial model. The baseline budget figures also exclude a tax-financing deadweight-loss adjustment.\n\nA single constant-dollar price year remains unset because these are nominal budgets spanning two school years. A comparable annual cost requires choosing a consistent denominator, accounting scope and price basis. No new benefit-cost ratio is calculated here.\n\n## Source\n\n[Official online appendix](https://www.aeaweb.org/content/file?id=18262) to [Guryan et al. (2023)](https://doi.org/10.1257/aer.20210434), section V, pp. A-6–A-7, and Tables 17–18, p. A-24.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "06040247bfac4fa0988a3f45276444c6"
+    },
+    "entity": {
+      "$bytes": "452afc4fe3e94ae0931134bc58bcb9dd"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "c87a25d13e7f4562983ded1112d94dc9"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    }
+  }
+]

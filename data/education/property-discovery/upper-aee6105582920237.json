@@ -1,0 +1,31 @@
+{
+  "term": "upper",
+  "checkedAt": "2026-09-11T20:59:21.704Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "13cc4f64fc2f416ea398094d02a18a53",
+      "name": "Cost upper bound",
+      "description": "Upper end of a reported cost range; not necessarily a confidence bound.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ]
+    },
+    {
+      "id": "2f61be01ee135b66a9bcb50770f93631",
+      "name": "Upper bound",
+      "description": "Maximum allowable flux through this reaction in millimoles per gram dry weight per hour (mmol/gDW/h). Default value of 1000 is effectively unconstrained for most reactions under typical growth conditions.",
+      "spaceIds": [
+        "aec359295ff90d00aea6696f0ddb1bbc"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMmY2MWJlMDEtZWUxMy01YjY2LWE5YmMtYjUwNzcwZjkzNjMxIl1d"
+    }
+  ]
+}

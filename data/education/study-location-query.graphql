@@ -1,0 +1,18 @@
+query StudyRecordsByLocation($spaceId: UUID!, $locationId: UUID!) {
+  relationsConnection(
+    first: 50
+    filter: {
+      spaceId: { is: $spaceId }
+      typeId: { is: "95d770021faf4f7cb7deb21a7d48cda0" }
+      toEntityId: { is: $locationId }
+    }
+  ) {
+    nodes {
+      id
+      spaceId
+      fromEntity { id name }
+      toEntity { id name }
+    }
+    pageInfo { hasNextPage endCursor }
+  }
+}

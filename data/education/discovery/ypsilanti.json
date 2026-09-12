@@ -1,0 +1,29 @@
+{
+  "term": "Ypsilanti",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T20:03:44.461Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "03800f1056255931508ec9648111a075",
+      "name": "Ypsilanti",
+      "description": "Ypsilanti is a city in Michigan, United States with a population of 20,648.",
+      "spaceIds": [
+        "84a679ce188f061ac9a92380bac2bab5"
+      ],
+      "types": [
+        {
+          "id": "01b05333941a4b00bc78fac5a15b467d",
+          "name": "City"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMDM4MDBmMTAtNTYyNS01OTMxLTUwOGUtYzk2NDgxMTFhMDc1Il1d"
+    }
+  ]
+}

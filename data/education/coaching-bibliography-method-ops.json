@@ -1,0 +1,82 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6a85813ac8734141b55affa06793661c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://doi.org/10.3102/0034654318759268",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "21d2559494184ed8b099b48ade136b5c"
+    },
+    "entity": {
+      "$bytes": "ff5386fa441544ad8400091c039ce79d"
+    },
+    "from": {
+      "$bytes": "6a85813ac8734141b55affa06793661c"
+    },
+    "to": {
+      "$bytes": "fd48f57b65f44436b393d448eca5d5bd"
+    },
+    "relationType": {
+      "$bytes": "b1fdc75afb6841a18d8286427099ea44"
+    },
+    "position": "a007S"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ff5386fa441544ad8400091c039ce79d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The paper synthesizes 60 studies using causal designs; it is not a single randomized trial. Its pooled and subgroup estimates summarize overlapping sets of coaching programs.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ded6bd712b4d4427b28478bf3036886e"
+    },
+    "entity": {
+      "$bytes": "7f20649a084a43918350a53d3bc510aa"
+    },
+    "from": {
+      "$bytes": "ff5386fa441544ad8400091c039ce79d"
+    },
+    "to": {
+      "$bytes": "6a85813ac8734141b55affa06793661c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BZL"
+  }
+]

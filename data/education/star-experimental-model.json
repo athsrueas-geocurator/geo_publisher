@@ -1,0 +1,28 @@
+{
+  "datasetName": "STAR class sizes and classroom aides: experimental results (Krueger, 1999)",
+  "datasetDescription": "Measured achievement effects from Tennessee’s randomized class-size experiment, organized by grade and assigned classroom condition. Effects are percentile points, with standard errors and source citations.",
+  "studyName": "Tennessee Project STAR",
+  "studyType": "3ef269bc5f114691abc02dcbf398fd63",
+  "studyCategoryProperty": "76cac7bf35d44162a2961b12e99dc1a1",
+  "rctCategory": "82853715d57840fb93f79036e8acdad4",
+  "rctDescription": "A research design that assigns participants to intervention or comparison conditions by a random process.",
+  "gradeLevels": [
+    {"key":"K","name":"Kindergarten (United States)","description":"The United States school grade preceding first grade."},
+    {"key":"1","name":"First grade (United States)","description":"The first numbered grade in United States elementary education, following kindergarten."},
+    {"key":"2","name":"Second grade (United States)","description":"The second numbered grade in United States elementary education, following first grade."},
+    {"key":"3","name":"Third grade (United States)","description":"The third numbered grade in United States elementary education, following second grade."}
+  ],
+  "armType": {"name":"Study arm","description":"A study-specific group defined by its assigned intervention or comparison condition. Assignment, participation and changes over time must be distinguished."},
+  "arms": [
+    {"key":"small","sourceLabel":"small class","name":"STAR small-class assignment","description":"Initial assignment to a class planned for 13–17 students in Tennessee Project STAR."},
+    {"key":"aide","sourceLabel":"regular class with full-time aide","name":"STAR regular-class assignment with full-time aide","description":"Initial assignment to a class planned for 22–25 students with a full-time classroom aide in Tennessee Project STAR."},
+    {"key":"regular","sourceLabel":"regular class without a full-time aide","name":"STAR regular-class comparison assignment","description":"Initial assignment to a class planned for 22–25 students without a full-time aide in Tennessee Project STAR. Some regular classes had part-time aide access in grades 1–3."}
+  ],
+  "properties": [
+    {"key":"grades","name":"Grade levels","description":"School-grade concepts relevant to a record, with the education system identified by each target.","target":"topic"},
+    {"key":"interventionArms","name":"Intervention arms","description":"Study-specific assigned intervention groups evaluated by an outcome estimate.","target":"arm"},
+    {"key":"comparisonArms","name":"Comparison arms","description":"Study-specific assigned comparison groups used as the reference for an outcome estimate.","target":"arm"}
+  ],
+  "identityDecision": "Reuse the existing Study type, Study categories relation, RCT category and Tennessee place. Create the study-specific arms and US grade concepts after completed all-space exact and alias searches; retain the separate glossary RCT ID. Add the missing RCT definition only in Education datasets, leaving Health unchanged.",
+  "limitations": "This batch does not establish compatible observed costs or standard-deviation conversions. Full program, implementation, instrument and population mappings remain required by the dashboard contract."
+}

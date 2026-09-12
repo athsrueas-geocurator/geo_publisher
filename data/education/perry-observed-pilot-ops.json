@@ -1,0 +1,1496 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "73b35a4ce05f45908118a089d9995bae"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Observed proportion",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Observed group proportion for a specified outcome and follow-up, expressed as a fraction. It is not a between-group causal effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "396f8c72dfd04b5791ea09c1b9321b2f"
+        },
+        "value": {
+          "type": "text",
+          "value": "measure-unit/percent scale/100 precision-unlimited",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b7dcabf4faa64553ada2ae72aa98d5f6"
+    },
+    "entity": {
+      "$bytes": "95475412c261438983ab2f81ce4e99b2"
+    },
+    "from": {
+      "$bytes": "73b35a4ce05f45908118a089d9995bae"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a028K"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "60cc644b3fbc453e9eb89801ddc3d9b8"
+    },
+    "entity": {
+      "$bytes": "6c7ba6f537ba442aa46107b7bb7c0f51"
+    },
+    "from": {
+      "$bytes": "73b35a4ce05f45908118a089d9995bae"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a03fO"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1400ffc3e5fe46a49c7a9ceb145c07af"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Observed monetary mean",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Observed group mean of a monetary outcome, interpreted with currency, price year and follow-up. It is not a between-group causal effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "914d135a39b149e6a4ed7dee414cc3a1"
+    },
+    "entity": {
+      "$bytes": "16249c6bae604314a6d0735f47123926"
+    },
+    "from": {
+      "$bytes": "1400ffc3e5fe46a49c7a9ceb145c07af"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07eG"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a5270b6a8d3649dabe4e1f254eaf3600"
+    },
+    "entity": {
+      "$bytes": "5634d04f83a742b5a1682fde19dd5d43"
+    },
+    "from": {
+      "$bytes": "1400ffc3e5fe46a49c7a9ceb145c07af"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a06B3"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "66e061cbcc3a49d48c99bb0db41c255c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Study arms",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Study-specific assignment groups to which a reported observation or estimate applies.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c5b51b77857c4d778058bdbdbc936d81"
+    },
+    "entity": {
+      "$bytes": "dbd3116dd4ed4948a4878a72b3852eb6"
+    },
+    "from": {
+      "$bytes": "66e061cbcc3a49d48c99bb0db41c255c"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06c4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "755fff4d23d54a61bab12b400474febf"
+    },
+    "entity": {
+      "$bytes": "c6319b41448e4f1bab9e0fa255520fa9"
+    },
+    "from": {
+      "$bytes": "66e061cbcc3a49d48c99bb0db41c255c"
+    },
+    "to": {
+      "$bytes": "4b6d9fc1fbfe474c861c83398e1b50d9"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a00HP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e5795222566446a8b7f81f9946e1562c"
+    },
+    "entity": {
+      "$bytes": "62fe07e4201449c2b577318d0228a568"
+    },
+    "from": {
+      "$bytes": "66e061cbcc3a49d48c99bb0db41c255c"
+    },
+    "to": {
+      "$bytes": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    "relationType": {
+      "$bytes": "9eea393f17dd4971a62ea603e8bfec20"
+    },
+    "position": "a007Y"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "dcc1b5442f644966a1ae1417986cf378"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Perry Preschool treatment group",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The treatment group reported in the historical Perry Preschool study. Interpret assignment with the documented post-randomization reassignments.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "020079b5d05b4f0facc0ec87d15b3cd5"
+    },
+    "entity": {
+      "$bytes": "b5e9f40475c14f15a72c9caa68080edf"
+    },
+    "from": {
+      "$bytes": "dcc1b5442f644966a1ae1417986cf378"
+    },
+    "to": {
+      "$bytes": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07Y5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "677047caa1e74c58820dd0109d244192"
+    },
+    "entity": {
+      "$bytes": "6725d815d1bf4f68acf3cc3bc91db176"
+    },
+    "from": {
+      "$bytes": "dcc1b5442f644966a1ae1417986cf378"
+    },
+    "to": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05kq"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a295a0e607984d12bfa840a3e8dec711"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Perry Preschool control group",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The control group reported in the historical Perry Preschool study. Interpret assignment with the documented post-randomization reassignments.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5bf9c5f300224f35884ec7dd3edcbe7a"
+    },
+    "entity": {
+      "$bytes": "b3b306e6afec4c7eae8e612e6e9ff14e"
+    },
+    "from": {
+      "$bytes": "a295a0e607984d12bfa840a3e8dec711"
+    },
+    "to": {
+      "$bytes": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07dC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "127821e8a4d84582b0320fe483fb997a"
+    },
+    "entity": {
+      "$bytes": "98a7c96f7bb54ef1ae7dd713c92246f8"
+    },
+    "from": {
+      "$bytes": "a295a0e607984d12bfa840a3e8dec711"
+    },
+    "to": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08Mc"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d1d46ecf3c1446469d88a58d99c87dce"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Observed group proportions",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3770734e8c744eefb4a45217b63ebc5d"
+    },
+    "entity": {
+      "$bytes": "26192a82e46c47daba9a1c1d0549be2a"
+    },
+    "from": {
+      "$bytes": "d1d46ecf3c1446469d88a58d99c87dce"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06qF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3a1c5cace615405fa618068dc3a4e329"
+    },
+    "entity": {
+      "$bytes": "e2c0225ddd9f48ad8da100204643e4b7"
+    },
+    "from": {
+      "$bytes": "d1d46ecf3c1446469d88a58d99c87dce"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a07mq"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "022d19ca2650472ca0a530c91c375563"
+    },
+    "entity": {
+      "$bytes": "fc1271a55f5b437bafff16f497a700a3"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "d1d46ecf3c1446469d88a58d99c87dce"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4d9ca40defb54261b4d871d2623422ed"
+    },
+    "entity": {
+      "$bytes": "b63f6d93e98a46db817b7934b58b733d"
+    },
+    "from": {
+      "$bytes": "fc1271a55f5b437bafff16f497a700a3"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a0340"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d809e33058c146c58f550d33a2568878"
+    },
+    "entity": {
+      "$bytes": "a03635781ff04f2b98c7a18c73822e92"
+    },
+    "from": {
+      "$bytes": "fc1271a55f5b437bafff16f497a700a3"
+    },
+    "to": {
+      "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a032l"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "14f07871922346b6b2085891ef22a46c"
+    },
+    "entity": {
+      "$bytes": "d8d84fb76634489cb263b20f7fbd6366"
+    },
+    "from": {
+      "$bytes": "fc1271a55f5b437bafff16f497a700a3"
+    },
+    "to": {
+      "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a18VC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a05ff21f61e54e1dade081c4f55c690e"
+    },
+    "entity": {
+      "$bytes": "6305774d5c304489a462ce87e8ca67b1"
+    },
+    "from": {
+      "$bytes": "fc1271a55f5b437bafff16f497a700a3"
+    },
+    "to": {
+      "$bytes": "73b35a4ce05f45908118a089d9995bae"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a27S5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "537780602628491ab68c15b38df0eae3"
+    },
+    "entity": {
+      "$bytes": "987c70d3efdc4fcdb2e24e449a42f9e6"
+    },
+    "from": {
+      "$bytes": "fc1271a55f5b437bafff16f497a700a3"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a34P1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "74e474b7120b49319be21fe8a1a5d690"
+    },
+    "entity": {
+      "$bytes": "c359a698250d474dbe2c8445837f86cb"
+    },
+    "from": {
+      "$bytes": "fc1271a55f5b437bafff16f497a700a3"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a49Wu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e0bd29d1b33449949b745149673be3e9"
+    },
+    "entity": {
+      "$bytes": "31422b79bbcc46d88c559a3e9a3c8d87"
+    },
+    "from": {
+      "$bytes": "fc1271a55f5b437bafff16f497a700a3"
+    },
+    "to": {
+      "$bytes": "aa77da401d9b4ca3b250fd24c9b8701f"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a52m7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f4faf17bbb8b40a6b6547723f6a9f60a"
+    },
+    "entity": {
+      "$bytes": "b18627294b184c1da18353e1fd3d3fe7"
+    },
+    "from": {
+      "$bytes": "fc1271a55f5b437bafff16f497a700a3"
+    },
+    "to": {
+      "$bytes": "66e061cbcc3a49d48c99bb0db41c255c"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a68XW"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "44cc638572034708932896670acff7f0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Observed yearly earnings",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "abbc0086f0124973876db90c6b362098"
+    },
+    "entity": {
+      "$bytes": "41c72b2f974644ae9b22e1dba1950d73"
+    },
+    "from": {
+      "$bytes": "44cc638572034708932896670acff7f0"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05yY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b97fcc08aa4b438b865ecdc931734f87"
+    },
+    "entity": {
+      "$bytes": "67549dd230ad4d2fa236f140e7a91ab0"
+    },
+    "from": {
+      "$bytes": "44cc638572034708932896670acff7f0"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a06r5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8680403c982b42778830ba7e33ceb93d"
+    },
+    "entity": {
+      "$bytes": "9e4eb2e2af8f440a92a9e2e3c4eb2947"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "44cc638572034708932896670acff7f0"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6c4ca82d628d4edd95ed7a787b389848"
+    },
+    "entity": {
+      "$bytes": "1b81641508624d09b97ff31268071ccc"
+    },
+    "from": {
+      "$bytes": "9e4eb2e2af8f440a92a9e2e3c4eb2947"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a03eD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ce1d26d2a0f748fe800d333ec7af06a6"
+    },
+    "entity": {
+      "$bytes": "5dade1e3782546f3825081bf436ee4dc"
+    },
+    "from": {
+      "$bytes": "9e4eb2e2af8f440a92a9e2e3c4eb2947"
+    },
+    "to": {
+      "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a04lC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eaf303d0189f4001a8c5a60f23ad0158"
+    },
+    "entity": {
+      "$bytes": "9997e885e86f4965a02b02643f74d879"
+    },
+    "from": {
+      "$bytes": "9e4eb2e2af8f440a92a9e2e3c4eb2947"
+    },
+    "to": {
+      "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a12io"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a1b7ac2158694153afd03530a7672c54"
+    },
+    "entity": {
+      "$bytes": "f53713d197fb4183975ad32890fee493"
+    },
+    "from": {
+      "$bytes": "9e4eb2e2af8f440a92a9e2e3c4eb2947"
+    },
+    "to": {
+      "$bytes": "1400ffc3e5fe46a49c7a9ceb145c07af"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a23fd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9a2994277ba54424ba09235b29f09951"
+    },
+    "entity": {
+      "$bytes": "f7f2d740fcb047ca8cafce6309187a3a"
+    },
+    "from": {
+      "$bytes": "9e4eb2e2af8f440a92a9e2e3c4eb2947"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a33xb"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d2b02421f82944afafb8d0a929a3e1ca"
+    },
+    "entity": {
+      "$bytes": "0034dc9d50274866845f0f96e7f6621b"
+    },
+    "from": {
+      "$bytes": "9e4eb2e2af8f440a92a9e2e3c4eb2947"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a4Asg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1fd184fcef0f494fbab1ce0b7ca15bf0"
+    },
+    "entity": {
+      "$bytes": "5d6d647366d745d190143977ce3f31d7"
+    },
+    "from": {
+      "$bytes": "9e4eb2e2af8f440a92a9e2e3c4eb2947"
+    },
+    "to": {
+      "$bytes": "aa77da401d9b4ca3b250fd24c9b8701f"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a59u5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8e716bd340f6484cbfe46adfe0b147a2"
+    },
+    "entity": {
+      "$bytes": "f92e732f2c104294864dab5721b8ca1b"
+    },
+    "from": {
+      "$bytes": "9e4eb2e2af8f440a92a9e2e3c4eb2947"
+    },
+    "to": {
+      "$bytes": "66e061cbcc3a49d48c99bb0db41c255c"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a62k0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "46274207ae6b44ffa346105222c9814b"
+    },
+    "entity": {
+      "$bytes": "0e10d8af76184087801b5f34a90f3858"
+    },
+    "from": {
+      "$bytes": "9e4eb2e2af8f440a92a9e2e3c4eb2947"
+    },
+    "to": {
+      "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a7AbP"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0435fd80c5344935929957662894e30f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Interpreting observed outcomes\n\nThese are source-reported descriptive group means from Table 2, not adjusted causal effects. Treatment/control differences do not by themselves reproduce the economic paper’s adjusted estimates. Do not interpret the groups as independent experiments.\n\nProportions display as percentages, while their standard errors remain fractional values: 0.09 means 9 percentage points. Yearly earnings and their standard errors are USD in 2006 prices. Follow-up ages and welfare observation windows differ across rows.\n\nOriginal assignment groups contained 26 female controls, 25 female treatment participants, 39 male controls and 33 male treatment participants. These counts do not establish each outcome’s complete-case denominator; per-outcome sample size remains unknown. Initial randomization was subsequently compromised by reassignment.\n\nSource: [Heckman and colleagues (2010)](https://doi.org/10.1016/j.jpubeco.2009.11.001), Table 2, printed p. 117 (PDF page 4).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "594888295d0445f49818ba196aa9ea04"
+    },
+    "entity": {
+      "$bytes": "6b6d2552b8fa44c1b9a876fc1a260358"
+    },
+    "from": {
+      "$bytes": "0435fd80c5344935929957662894e30f"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02uB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fadff253cede45b4a4765067b7f5e3a5"
+    },
+    "entity": {
+      "$bytes": "d16088d093ce426ab358a1c566bd5e3e"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "0435fd80c5344935929957662894e30f"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "48e79c41e51344da96849c6a76acd2d9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Perry High-school graduation: female control, age 27",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A source-reported descriptive mean for the specified Perry study group and follow-up. It is not an adjusted causal treatment effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "High-school graduation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "age 27",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "73b35a4ce05f45908118a089d9995bae"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "31"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "9"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2, printed p. 117 (PDF page 4)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d0fa0b8c6efc43958d297ba002cf3047"
+    },
+    "entity": {
+      "$bytes": "dc67d9f2798949f39cbc0b02b3dbcb9e"
+    },
+    "from": {
+      "$bytes": "48e79c41e51344da96849c6a76acd2d9"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09Tk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1efc1bb9fce14dfda25dd78ae135d550"
+    },
+    "entity": {
+      "$bytes": "10f9d9f9d9a54d0089f22144105c5d08"
+    },
+    "from": {
+      "$bytes": "48e79c41e51344da96849c6a76acd2d9"
+    },
+    "to": {
+      "$bytes": "783f6a0c029249f9a10f73fb02a4c385"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BSi"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c773b4546d844d10abeecce33624adc2"
+    },
+    "entity": {
+      "$bytes": "3595cb2829f04ed184e1f6825f66f58b"
+    },
+    "from": {
+      "$bytes": "48e79c41e51344da96849c6a76acd2d9"
+    },
+    "to": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Aw9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8575e1258f304d4ea9594e92251a6a16"
+    },
+    "entity": {
+      "$bytes": "b7f4eb464430460eb43c8a31492dd734"
+    },
+    "from": {
+      "$bytes": "48e79c41e51344da96849c6a76acd2d9"
+    },
+    "to": {
+      "$bytes": "b8ebd7d5109d4b57994df54a5167a479"
+    },
+    "relationType": {
+      "$bytes": "aa77da401d9b4ca3b250fd24c9b8701f"
+    },
+    "position": "a08wP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "37fe2539852d4e408aa597bf97055a2d"
+    },
+    "entity": {
+      "$bytes": "966da10bbd4649318fc2c00704d048e3"
+    },
+    "from": {
+      "$bytes": "48e79c41e51344da96849c6a76acd2d9"
+    },
+    "to": {
+      "$bytes": "a295a0e607984d12bfa840a3e8dec711"
+    },
+    "relationType": {
+      "$bytes": "66e061cbcc3a49d48c99bb0db41c255c"
+    },
+    "position": "a01ci"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3ad807fa4fc842899aca9885bd84a8b3"
+    },
+    "entity": {
+      "$bytes": "2e172fe7b6074f61bbe0033e24784f2f"
+    },
+    "from": {
+      "$bytes": "48e79c41e51344da96849c6a76acd2d9"
+    },
+    "to": {
+      "$bytes": "03800f1056255931508ec9648111a075"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a0AKw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dc6c21136d964a5db9d224de606017e2"
+    },
+    "entity": {
+      "$bytes": "2c892901528d456ab26fe398b48169fe"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "48e79c41e51344da96849c6a76acd2d9"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a00FH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d24fe1f2dbc2494e9fe17f37ff24e195"
+    },
+    "entity": {
+      "$bytes": "b61a804c1815489ea29b0e5ecfcbb670"
+    },
+    "from": {
+      "$bytes": "d1d46ecf3c1446469d88a58d99c87dce"
+    },
+    "to": {
+      "$bytes": "48e79c41e51344da96849c6a76acd2d9"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a05aB"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "89e6b1b7d6b4455cbee0f9bfe91c47d4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Perry Yearly earnings: female control, age 27",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A source-reported descriptive mean for the specified Perry study group and follow-up. It is not an adjusted causal treatment effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Yearly earnings",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "age 27",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "1400ffc3e5fe46a49c7a9ceb145c07af"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "10523"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2068"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2, printed p. 117 (PDF page 4)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2006"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e42efb1d209a4de48caa6ef34fad4d3d"
+    },
+    "entity": {
+      "$bytes": "f3167676526d4121996b8b0469b11897"
+    },
+    "from": {
+      "$bytes": "89e6b1b7d6b4455cbee0f9bfe91c47d4"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03NL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c4387833e8e14232bf07a87c760ec314"
+    },
+    "entity": {
+      "$bytes": "294840489bec4b5da8301e44f85e4a68"
+    },
+    "from": {
+      "$bytes": "89e6b1b7d6b4455cbee0f9bfe91c47d4"
+    },
+    "to": {
+      "$bytes": "783f6a0c029249f9a10f73fb02a4c385"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0AU8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d034c64a7e3a44218d843227f2eb5ce0"
+    },
+    "entity": {
+      "$bytes": "02beb7eac6594358b3a9b2768d26af00"
+    },
+    "from": {
+      "$bytes": "89e6b1b7d6b4455cbee0f9bfe91c47d4"
+    },
+    "to": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a028p"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2446b358d7bc4ea6ac9df87adfd4e2cd"
+    },
+    "entity": {
+      "$bytes": "7945b7e8c9a7416ba8839f4a9c7cbae2"
+    },
+    "from": {
+      "$bytes": "89e6b1b7d6b4455cbee0f9bfe91c47d4"
+    },
+    "to": {
+      "$bytes": "b8ebd7d5109d4b57994df54a5167a479"
+    },
+    "relationType": {
+      "$bytes": "aa77da401d9b4ca3b250fd24c9b8701f"
+    },
+    "position": "a06bY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c2687f81a49c4494872631caff8c6bff"
+    },
+    "entity": {
+      "$bytes": "8612776158da4527b39faf14b10a31fd"
+    },
+    "from": {
+      "$bytes": "89e6b1b7d6b4455cbee0f9bfe91c47d4"
+    },
+    "to": {
+      "$bytes": "a295a0e607984d12bfa840a3e8dec711"
+    },
+    "relationType": {
+      "$bytes": "66e061cbcc3a49d48c99bb0db41c255c"
+    },
+    "position": "a00sx"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "012a98d6f9e84f89a896bd24faa8e319"
+    },
+    "entity": {
+      "$bytes": "7b99eff5281e4c958bd83981bcf63dc0"
+    },
+    "from": {
+      "$bytes": "89e6b1b7d6b4455cbee0f9bfe91c47d4"
+    },
+    "to": {
+      "$bytes": "03800f1056255931508ec9648111a075"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a01e5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f73d2c80a7404fb49261158ce15c4b7d"
+    },
+    "entity": {
+      "$bytes": "ed77ade9883448dbb8f26be55a197702"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "89e6b1b7d6b4455cbee0f9bfe91c47d4"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a09fH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "be86ef6bee97430187be598959355623"
+    },
+    "entity": {
+      "$bytes": "831d98a70d56450eb6e7eeaad1a93de0"
+    },
+    "from": {
+      "$bytes": "44cc638572034708932896670acff7f0"
+    },
+    "to": {
+      "$bytes": "89e6b1b7d6b4455cbee0f9bfe91c47d4"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0Ayv"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c712fcddf2d44901967c1fe08a1d90cb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Cost scope and comparison limits\n\nThe reported cost is **17,759 USD per child in 2006 prices**, undiscounted for the preschool program. It includes operating expenses (teachers and administration) and capital resources (classrooms and facilities), reported from Barnett (1996) by Heckman and colleagues. It is not a per-year cost.\n\nTax-financing assumptions alter economic costs and benefits. This initial resource cost is not the denominator for every published benefit/cost scenario. No standard error is reported for this cost.\n\n## Study and evidence coverage\n\nDisadvantaged African-American children in the historical Perry study; early to mid-1960s; five entering cohorts. Children entered at age 3, with a planned 2-year intervention: 2.5-hour preschool sessions on school weekdays and weekly teacher home visits. Initial randomization was subsequently compromised by reassignment. Original sample size 123 does not establish the complete-case denominator for each outcome.\n\nObserved follow-ups and projected lifetime earnings are distinct evidence. Table 2 group means are descriptive, not adjusted causal contrasts; Table 1 economic estimates combine observations, imputations and projections through age 65.\n\nThis page presents the initial program cost and all 51 extracted Table 1 economic estimates. The first two descriptive outcome means are included; the remaining 30 selected means are not yet published.\n\nSource: [The rate of return to the HighScope Perry Preschool Program](https://jenni.uchicago.edu/Spencer_Conference/Papers%202010/Heckman_Moon_etal_2010_Rate%20of%20Return%20Perry.pdf), Section 3.1, printed p. 117 (PDF page 4).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  }
+]

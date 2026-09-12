@@ -1,0 +1,57 @@
+{
+  "term": "discipline",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:33.110Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "03379993309941169c3daf09f4916355",
+      "name": "Discipline",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    },
+    {
+      "id": "24a383457d2748ce9a35fe8d7638b83a",
+      "name": "Discipline",
+      "description": "An academic field or branch of study — covering the humanities and classical disciplines that intersect with AI archaeology, such as palaeography, epigraphy, classical philology, and digital humanities.",
+      "spaceIds": [
+        "bf8d69f36987dee797bae24f586a99fa"
+      ],
+      "types": [
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        }
+      ]
+    },
+    {
+      "id": "fbd79fc22e8e45488e321a8f4b1670de",
+      "name": "Discipline",
+      "description": "An academic field or branch of study — covering the humanities and classical disciplines that intersect with AI archaeology, such as palaeography, epigraphy, classical philology, and digital humanities.",
+      "spaceIds": [
+        "cf0e11338b33fcd6cdb032c625c85454"
+      ],
+      "types": [
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmJkNzlmYzItMmU4ZS00NTQ4LThlMzItMWE4ZjRiMTY3MGRlIl1d"
+    }
+  ]
+}

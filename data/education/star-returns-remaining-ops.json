@@ -1,0 +1,328 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6db38a6c620f4ca1bc2452137457d686"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR modeled real return: 1% annual wage growth",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled annual real internal rate of return on early-grade class-size reduction. Interpret it with the wage-growth assumption and the shared economic-model limitations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "879d207046024b44be6e3d64c32c60da"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "62"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23); Internal Rate of Return row",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "30abcfd6b7cc4a508bcf28e7ff6890e8"
+    },
+    "entity": {
+      "$bytes": "57c9f986e68f4ac59b2b29ad2f7e7eb2"
+    },
+    "from": {
+      "$bytes": "6db38a6c620f4ca1bc2452137457d686"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04cg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1120cdc8cc384fd2bfdddbc799a6d543"
+    },
+    "entity": {
+      "$bytes": "2195eeef8abc40b38740490f7c6f476b"
+    },
+    "from": {
+      "$bytes": "6db38a6c620f4ca1bc2452137457d686"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06ES"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4ea41aa4c67d4ba4bfcf509587309faf"
+    },
+    "entity": {
+      "$bytes": "3bb743addb1d4107bd8c4f5254c2e62f"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "6db38a6c620f4ca1bc2452137457d686"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a07lF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "485449fa30e14d0d9bb0541c54fd6edf"
+    },
+    "entity": {
+      "$bytes": "571cbc776e544d44b6376c9945dfa411"
+    },
+    "from": {
+      "$bytes": "8676d367bcf14892944f14a22d273053"
+    },
+    "to": {
+      "$bytes": "6db38a6c620f4ca1bc2452137457d686"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "cc14cee1099d4271841287a2455d9045"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR modeled real return: 2% annual wage growth",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled annual real internal rate of return on early-grade class-size reduction. Interpret it with the wage-growth assumption and the shared economic-model limitations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "879d207046024b44be6e3d64c32c60da"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "73"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23); Internal Rate of Return row",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d2f78ee56dc24bfaa90f402a954a55d5"
+    },
+    "entity": {
+      "$bytes": "b9c5d631440a48be93021cee95acb9ab"
+    },
+    "from": {
+      "$bytes": "cc14cee1099d4271841287a2455d9045"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04DW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aa7fe7bf727b42bc8d9c84b18594e653"
+    },
+    "entity": {
+      "$bytes": "a006fa19d45b47bda8617b5d2f06747b"
+    },
+    "from": {
+      "$bytes": "cc14cee1099d4271841287a2455d9045"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08Xj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e67fe51a2a404025b443d1bfdac609d1"
+    },
+    "entity": {
+      "$bytes": "311e26bf9fca43169e608a55d5e47957"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "cc14cee1099d4271841287a2455d9045"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a0378"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c8847446d81f4d9093f79c23e9cbeaf2"
+    },
+    "entity": {
+      "$bytes": "18ca025eb6ad41379f5c8875eeba9f6f"
+    },
+    "from": {
+      "$bytes": "8676d367bcf14892944f14a22d273053"
+    },
+    "to": {
+      "$bytes": "cc14cee1099d4271841287a2455d9045"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a2"
+  }
+]

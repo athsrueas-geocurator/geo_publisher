@@ -1,0 +1,99 @@
+{
+  "term": "Metric",
+  "checkedAt": "2026-09-11T20:33:18.762Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "1a4303d804de0e4fa50a30628e1b212f",
+      "name": "Metrics",
+      "description": "What the benchmark measures (accuracy, pass@1, etc.)",
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ]
+    },
+    {
+      "id": "5f368c44ae613502642ac5350e9b6f2d",
+      "name": "Metric",
+      "description": "Quantitative or qualitative proof point.",
+      "spaceIds": [
+        "8a4955bcd9d0fc0d8613f17f01de3b9f"
+      ]
+    },
+    {
+      "id": "64a1148c3cd98e7709d867137e798046",
+      "name": "Metric implementation",
+      "description": "AI Music ontology field for metric_implementation; data type relation to MetricImplementation; cardinality one; publish policy required_when_referenced_or_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "82090cd8551f7c263581225c3d8cdba7",
+      "name": "Metric",
+      "description": "AI Music ontology field for metric; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "9b4eeff737d09c97b5b33f79a3d5786b",
+      "name": "Reports metric",
+      "description": "AI Music ontology relation reports_metric; domain EvaluationResult; range Metric; publish policy plain_relation_ok_after_schema_review.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "ac83839c5dc175df23eb8fac8982697e",
+      "name": "Metric direction",
+      "description": "AI Music ontology field for metric_direction; data type controlled vocabulary; vocabulary MetricDirection; cardinality one; publish policy facet_or_required_when_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "c94a8f4eeee48aed68a50ea7ccd9038f",
+      "name": "Metric category",
+      "description": "AI Music ontology field for metric_category; data type controlled vocabulary; vocabulary MetricCategory; cardinality one; publish policy facet_or_required_when_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "eee0987557571aaa281c49aab6d5426c",
+      "name": "Has metric",
+      "description": "AI Music ontology relation has_metric; domain Benchmark, BenchmarkTask, EvaluationProtocol; range Metric; publish policy plain_relation_ok_after_schema_review.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "f18cf06635f34b9ebb2aedd19f16a7ff",
+      "name": "Health metrics tracked",
+      "description": "Measures recorded by a device or system to monitor physiological or behavioral health indicators.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "f69310576eed5dd7d4148eac734ecdbc",
+      "name": "Metrics",
+      "description": "AI Music ontology field for metrics; data type relation to Metric; cardinality one_or_many; publish policy required_when_referenced_or_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOWI0ZWVmZjctMzdkMC05Yzk3LWI1YjMtM2Y3OWEzZDU3ODZiIl1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjY5MzEwNTctNmVlZC01ZGQ3LWQ0MTQtOGVhYzczNGVjZGJjIl1d"
+    }
+  ]
+}

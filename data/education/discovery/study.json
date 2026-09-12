@@ -1,0 +1,43 @@
+{
+  "term": "Study",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:48:32.373Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "3ef269bc5f114691abc02dcbf398fd63",
+      "name": "Study",
+      "description": "Scientific investigation or publication that addresses a defined research question and reports its design, methods, and findings.",
+      "spaceIds": [
+        "e01507b1bd7cb04c074ae8f52196096d"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "e45dd5b414d546c089e2cead56c1fd97",
+      "name": "Study",
+      "description": "Classifies research by design, methodology, or evidence structure, such as randomized controlled trial, cohort study, pilot study, systematic review, or meta-analysis.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTQ1ZGQ1YjQtMTRkNS00NmMwLTg5ZTItY2VhZDU2YzFmZDk3Il1d"
+    }
+  ]
+}

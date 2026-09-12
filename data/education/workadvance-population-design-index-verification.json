@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-09-12T06:40:51.369Z",
+  "batchName": "Add WorkAdvance structured population and design facets",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 5,
+  "checks": [
+    {
+      "entityId": "6edae2af128f47c0a7359b1ae52eba28",
+      "propertyId": "7a1f6d017895206e84e1988c0c74621e",
+      "pass": true
+    },
+    {
+      "entityId": "6edae2af128f47c0a7359b1ae52eba28",
+      "propertyId": "8e46e3eff9dea2b55d32a5ca7de61938",
+      "pass": true
+    },
+    {
+      "entityId": "c609e1790a274c6cb1dffc05ce509649",
+      "propertyId": "7a1f6d017895206e84e1988c0c74621e",
+      "pass": true
+    },
+    {
+      "entityId": "c609e1790a274c6cb1dffc05ce509649",
+      "propertyId": "8e46e3eff9dea2b55d32a5ca7de61938",
+      "pass": true
+    },
+    {
+      "entityId": "d2f8240d139545ca92e67b868ad792e5",
+      "propertyId": "7a1f6d017895206e84e1988c0c74621e",
+      "pass": true
+    },
+    {
+      "entityId": "d2f8240d139545ca92e67b868ad792e5",
+      "propertyId": "8e46e3eff9dea2b55d32a5ca7de61938",
+      "pass": true
+    },
+    {
+      "entityId": "c0fb562fcddd4fe1a3a97def4fe90899",
+      "propertyId": "7a1f6d017895206e84e1988c0c74621e",
+      "pass": true
+    },
+    {
+      "entityId": "c0fb562fcddd4fe1a3a97def4fe90899",
+      "propertyId": "8e46e3eff9dea2b55d32a5ca7de61938",
+      "pass": true
+    },
+    {
+      "entityId": "aaf2430558924ac5acf2f55fd3973620",
+      "propertyId": "7a1f6d017895206e84e1988c0c74621e",
+      "pass": true
+    },
+    {
+      "entityId": "aaf2430558924ac5acf2f55fd3973620",
+      "propertyId": "8e46e3eff9dea2b55d32a5ca7de61938",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

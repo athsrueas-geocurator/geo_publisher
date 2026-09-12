@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-09-12T06:09:28.482Z",
+  "batchName": "Tag Project QUEST with existing workforce Topics",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 1,
+  "checks": [
+    {
+      "relationId": "9dbd747e91a4461a921d35333fe5ecb9",
+      "pass": true
+    },
+    {
+      "relationId": "00833991354b4afbbf8418f030c5a512",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

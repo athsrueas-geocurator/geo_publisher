@@ -1,0 +1,22 @@
+{
+  "name": "Add Boston universal preschool lottery evidence",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/boston-prek-ops.json",
+  "sha256": "a1216d3a4c8c27c4deee040f7719f9380eda71a8c6990ee46fcc3d560d425956",
+  "journalPath": "data/education/boston-prek-publication.json",
+  "validationPath": "data/education/boston-prek-validation.json",
+  "entities": {
+    "article": "503ab3175cbc4274997c5c64278a604f",
+    "initiative": "c77b1107b93643b4870dfa11c0677d8f",
+    "claims": {
+      "college": "0a78c17b257e4e179a839ef7be1a60ff",
+      "graduation": "a6edc7c918bf4de7b2e3b9ef76b4f231",
+      "sat": "2002f58278474141999d44019ebab325",
+      "mcas-math": "30a75bb34b4c44fe9f49971bf6eb9cb7",
+      "mcas-ela": "edcf093fb8534943966d00a093a03d17",
+      "incarceration": "26f7adc11a164070abfcca691612a7af"
+    }
+  },
+  "operationCount": 37
+}

@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-09-12T08:33:43.995Z",
+  "batchName": "Shorten three policy Claim descriptions",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 3,
+  "checks": [
+    {
+      "entityId": "6a17e75eef784856b20aa358a5eb7660",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "ef2a762698ee48d1b663193758dd3ae2",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "89724696a30644478a285d856a412b1f",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

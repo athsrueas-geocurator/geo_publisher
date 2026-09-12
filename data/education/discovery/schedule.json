@@ -1,0 +1,43 @@
+{
+  "term": "schedule",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:33.991Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "0879b8f42bdae60f475e5c4be47bd231",
+      "name": "Schedule",
+      "description": "Timing and sequence of recommended doses or administrations for a health intervention.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "caf4dd12ba4844b99171aff6c1313b50",
+      "name": "Schedule",
+      "description": "RFC 5545 schedule or availability",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "a35e058b52d148d2b02d773933d90b7e",
+          "name": "Data type"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiY2FmNGRkMTItYmE0OC00NGI5LTkxNzEtYWZmNmMxMzEzYjUwIl1d"
+    }
+  ]
+}

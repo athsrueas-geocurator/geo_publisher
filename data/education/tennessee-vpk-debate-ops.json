@@ -1,0 +1,253 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "419a5027a30c46a7aea13cf5cf986205"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Tennessee should reconsider expanding its voluntary pre-K model on the basis of short-term readiness gains alone.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This policy proposition weighs the trial’s early pre-K test gains against its later third-grade achievement finding and mixed school-record outcomes. One Tennessee evaluation does not settle the value of every public pre-K model, delivery approach, or policy objective.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "430092f2dc0042d0bd1033783d96b46b"
+    },
+    "entity": {
+      "$bytes": "899db04acc5b49a6b2da0a6cdaa6c16d"
+    },
+    "from": {
+      "$bytes": "419a5027a30c46a7aea13cf5cf986205"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02Cp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a9763a884a224c439b605b91c4d0512b"
+    },
+    "entity": {
+      "$bytes": "4dc13177500d4df2b283ceea7ebb938f"
+    },
+    "from": {
+      "$bytes": "419a5027a30c46a7aea13cf5cf986205"
+    },
+    "to": {
+      "$bytes": "732cfa110f25499ba22a3f8025c9f903"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0AUx"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "24cef1fd70b947f2bd38634a437f5e3d"
+    },
+    "entity": {
+      "$bytes": "c9cb348d010a410a851788606267a323"
+    },
+    "from": {
+      "$bytes": "419a5027a30c46a7aea13cf5cf986205"
+    },
+    "to": {
+      "$bytes": "4384e208b2964c6c9432823574a5a1e2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07db"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "73e1651f3d8c4829939c3b2668fd5f26"
+    },
+    "entity": {
+      "$bytes": "4d66ff09018640a5ab2bfdac5dee240f"
+    },
+    "from": {
+      "$bytes": "419a5027a30c46a7aea13cf5cf986205"
+    },
+    "to": {
+      "$bytes": "3356d0eba4e54eeeab1db7a8d9691077"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09fB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5b4055600e554e00a73373f34d315c23"
+    },
+    "entity": {
+      "$bytes": "952f043518b346928dabfc5885773b85"
+    },
+    "from": {
+      "$bytes": "3356d0eba4e54eeeab1db7a8d9691077"
+    },
+    "to": {
+      "$bytes": "419a5027a30c46a7aea13cf5cf986205"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0B0G"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4b0b548c9a794168ae8156ebd8fe44cd"
+    },
+    "entity": {
+      "$bytes": "908d660b569646038720b4ee77c0ae5b"
+    },
+    "from": {
+      "$bytes": "419a5027a30c46a7aea13cf5cf986205"
+    },
+    "to": {
+      "$bytes": "3b87b7c104cb44a6b82e8db91c163dc9"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0C4X"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "55c61e59a9d3496ea2d78b6e98b2ceb6"
+    },
+    "entity": {
+      "$bytes": "7831b7bb4f434a1288ab7e3f942b8cca"
+    },
+    "from": {
+      "$bytes": "3b87b7c104cb44a6b82e8db91c163dc9"
+    },
+    "to": {
+      "$bytes": "419a5027a30c46a7aea13cf5cf986205"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0By7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0ad1b5a0ea0d4e358cb9f0f96354323d"
+    },
+    "entity": {
+      "$bytes": "2dbda96ab97b46b88420539b07ceebe5"
+    },
+    "from": {
+      "$bytes": "419a5027a30c46a7aea13cf5cf986205"
+    },
+    "to": {
+      "$bytes": "4fbfa11f56634a2a9206e79db9dc1d6a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0B6f"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3d592d9a3fcc447aad5dbfd291ad367f"
+    },
+    "entity": {
+      "$bytes": "dce8713f699d4cfbb3488976ebf980fd"
+    },
+    "from": {
+      "$bytes": "4fbfa11f56634a2a9206e79db9dc1d6a"
+    },
+    "to": {
+      "$bytes": "419a5027a30c46a7aea13cf5cf986205"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Aby"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7999d83ce548476a9cd3b0b83c1843f6"
+    },
+    "entity": {
+      "$bytes": "b09c8e820b7441bfb8d548f144de197a"
+    },
+    "from": {
+      "$bytes": "419a5027a30c46a7aea13cf5cf986205"
+    },
+    "to": {
+      "$bytes": "3356d0eba4e54eeeab1db7a8d9691077"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a0014"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a10d601dcbf144ccac7f4f3777df30bf"
+    },
+    "entity": {
+      "$bytes": "c7082f1bcb914db0a7d07b34875d6818"
+    },
+    "from": {
+      "$bytes": "419a5027a30c46a7aea13cf5cf986205"
+    },
+    "to": {
+      "$bytes": "3b87b7c104cb44a6b82e8db91c163dc9"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a00Ul"
+  }
+]

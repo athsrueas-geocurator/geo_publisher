@@ -1,0 +1,660 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "de88c706c7644e9a8681c221d5c2536e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The Effect of Free School Meals on Household Food Purchases: Evidence from the Community Eligibility Provision",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A lottery-based study of Boston public preschool’s educational, test-score, and disciplinary outcomes through young adulthood.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://michellemmarcus.com/wp-content/uploads/2022/06/jhe_final_manuscript.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fc0201bb140849d49d43058944551e1e"
+    },
+    "entity": {
+      "$bytes": "65d7fd9f2368466a9b8c577868898411"
+    },
+    "from": {
+      "$bytes": "de88c706c7644e9a8681c221d5c2536e"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0C9W"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "327eef80a0dd423f846fbd50def5bf87"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Community Eligibility Provision",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A federal option allowing eligible schools or groups of schools to offer meals at no charge to all students. The linked study evaluates variation in CEP exposure, not an academic-outcome intervention.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://michellemmarcus.com/wp-content/uploads/2022/06/jhe_final_manuscript.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d0cdd22ad8394d41a069035d8b64beeb"
+    },
+    "entity": {
+      "$bytes": "aa73c3d373224ddc8dec7025186cdb1a"
+    },
+    "from": {
+      "$bytes": "327eef80a0dd423f846fbd50def5bf87"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02gj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d58b5ce182544954ab28d053aa316c08"
+    },
+    "entity": {
+      "$bytes": "1009c1cfafed48168006bd07d92d4a81"
+    },
+    "from": {
+      "$bytes": "327eef80a0dd423f846fbd50def5bf87"
+    },
+    "to": {
+      "$bytes": "de88c706c7644e9a8681c221d5c2536e"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06b0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3f9f8e65d48b42de9e97494f2e183d3a"
+    },
+    "entity": {
+      "$bytes": "58eb7940065b462cbf57d837f300c3c4"
+    },
+    "from": {
+      "$bytes": "327eef80a0dd423f846fbd50def5bf87"
+    },
+    "to": {
+      "$bytes": "de88c706c7644e9a8681c221d5c2536e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00RL"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9b60b79a061f4931a20aa6147d1bed1e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "CEP exposure reduced monthly household all-food purchases by $10.65 for households with children.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The post-exposure difference-in-differences estimate is -$10.65 (SE $1.457; N=4,498,537; p<.01). It is a household grocery-purchase result, not a student achievement effect or a program cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-1065"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1457"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "4498537"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in monthly all-food purchases for households with children after any CEP exposure.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 3 Panel A, column 1.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ee58ebda0cec4b2c86d7b33af1bb56b4"
+    },
+    "entity": {
+      "$bytes": "875e00a9b91345dfac305a6bec652fc4"
+    },
+    "from": {
+      "$bytes": "9b60b79a061f4931a20aa6147d1bed1e"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08sY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b042a17ff0f84ddda3f9420110d3b354"
+    },
+    "entity": {
+      "$bytes": "383cd207c9cd4d4e842b0e9107eea94a"
+    },
+    "from": {
+      "$bytes": "9b60b79a061f4931a20aa6147d1bed1e"
+    },
+    "to": {
+      "$bytes": "de88c706c7644e9a8681c221d5c2536e"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06Hs"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1e1b6a1c6cbf4deb80e262866f8c0fb4"
+    },
+    "entity": {
+      "$bytes": "e1396747e73540a3a4feea819eb5dd15"
+    },
+    "from": {
+      "$bytes": "9b60b79a061f4931a20aa6147d1bed1e"
+    },
+    "to": {
+      "$bytes": "327eef80a0dd423f846fbd50def5bf87"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a099B"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "88e3660656e74b14bb0c209134b69a41"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "A zero-to-100% CEP exposure contrast reduced monthly household all-food purchases by $38.76.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The continuous-exposure estimate is -$38.76 (SE $11.54; N=4,369,278; p<.01). It is an alternate exposure specification from the same study, not an independent replication of the any-exposure result.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-3876"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1154"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "4369278"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in monthly all-food purchases for households with children, zero-to-100% overall CEP exposure contrast.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 3 Panel B, column 1.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "be7846a0e1a14218aacf374cc55f4b63"
+    },
+    "entity": {
+      "$bytes": "7b1fcb94f071420c816ea0665f81b565"
+    },
+    "from": {
+      "$bytes": "88e3660656e74b14bb0c209134b69a41"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08gx"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d2fb262f0d234adc8b8f283417e63831"
+    },
+    "entity": {
+      "$bytes": "af14d386a8f5491693d6510aaeb09ea2"
+    },
+    "from": {
+      "$bytes": "88e3660656e74b14bb0c209134b69a41"
+    },
+    "to": {
+      "$bytes": "de88c706c7644e9a8681c221d5c2536e"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07dY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "14c794e739b6494c9cb3ee90ce629a75"
+    },
+    "entity": {
+      "$bytes": "f139a560e15041e8accf419b0b43194d"
+    },
+    "from": {
+      "$bytes": "88e3660656e74b14bb0c209134b69a41"
+    },
+    "to": {
+      "$bytes": "327eef80a0dd423f846fbd50def5bf87"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08ph"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e2319933570f466ab02023b00c288464"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "CEP exposure reduced the study food-insecure-household indicator by 2.11 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The state-level post-exposure estimate is -2.11 percentage points (SE 0.581; N=569,293; p<.01), from a 45% reference mean. It is a household food-security outcome, not a claim about academic attainment.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-211"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "581"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "569293"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in USDA-defined food-insecure-household indicator for households with children after CEP exposure.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 8 Panel A, column 2.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0eb85e746b524439aceadb063bf08d43"
+    },
+    "entity": {
+      "$bytes": "a08af171918047e486f2ada830d5d651"
+    },
+    "from": {
+      "$bytes": "e2319933570f466ab02023b00c288464"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09s5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7495a40a47be4366b99bc5f432dda50b"
+    },
+    "entity": {
+      "$bytes": "50bfc38418ef4a6f82f5b36b4fcfdd36"
+    },
+    "from": {
+      "$bytes": "e2319933570f466ab02023b00c288464"
+    },
+    "to": {
+      "$bytes": "de88c706c7644e9a8681c221d5c2536e"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03Tm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1639a8dd074a4e768d4ebe05be307333"
+    },
+    "entity": {
+      "$bytes": "91d6bbc937ab41269eef07c1e862cfbd"
+    },
+    "from": {
+      "$bytes": "e2319933570f466ab02023b00c288464"
+    },
+    "to": {
+      "$bytes": "327eef80a0dd423f846fbd50def5bf87"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a017F"
+  }
+]

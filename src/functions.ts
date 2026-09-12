@@ -151,7 +151,15 @@ function isSlowExecutable(proposal: ProposalRow | undefined, versionId: number):
 // automatically from the API.  For DAO spaces the caller's member space is
 // resolved by matching SW_ADDRESS against the DAO's members or editors list.
 
-export async function publishOps(ops: Op[], editName: string, input_space?: string) {
+export type PublishOptions = {
+  proposalOnly?: boolean;
+  onPrepared?: (details: { kind:'personal'|'proposal'; spaceId:string; editId:string; cid:string; to:string; calldata:string; proposalId?:string; versionId?:number }) => void | Promise<void>;
+  onSubmitting?: () => void | Promise<void>;
+  onSubmitted?: (hash:string) => void | Promise<void>;
+};
+
+export async function publishOps(ops: Op[], editName: string, input_space?: string, options:PublishOptions={}) {
+  if (!ops.length) throw new Error('Cannot publish an empty operation list');
   let spaceId = process.env.TARGET_SPACE_ID;
   if (input_space) {
     spaceId = input_space
@@ -166,14 +174,15 @@ export async function publishOps(ops: Op[], editName: string, input_space?: stri
     signer,
     network: GeoTestnetConfig,
   });
-  const author = client.account?.address;
-  if (!author) {
+  const account = client.account;
+  if (!account) {
     throw new Error("Smart Wallet address not found from private key.");
   }
+  const author = account.address;
 
   const personalSpaceData = await gql(
     `query PersonalSpacesByAddress($author: String!) {
-      spaces(filter: { address: { is: $author } }) {
+      spaces(filter: { address: { isInsensitive: $author } }) {
         id
         type
       }
@@ -222,6 +231,7 @@ export async function publishOps(ops: Op[], editName: string, input_space?: stri
     });
     console.log("CID:", result.cid);
     console.log("Edit ID:", result.editId);
+    await options.onPrepared?.({kind:'personal',spaceId,editId:result.editId,cid:result.cid,to:result.to,calldata:result.calldata});
     to = result.to;
     calldata = result.calldata;
   } else {
@@ -280,8 +290,13 @@ export async function publishOps(ops: Op[], editName: string, input_space?: stri
     console.log("Proposal ID:", result.proposalId);
     console.log("Version ID:", result.versionId);
 
-    const proposeHash = await client.sendTransaction({ to: result.to, data: result.calldata });
+    await options.onPrepared?.({kind:'proposal',spaceId,editId:result.editId,cid:result.cid,to:result.to,calldata:result.calldata,proposalId:result.proposalId,versionId:result.versionId});
+    await options.onSubmitting?.();
+
+    const proposeHash = await client.sendTransaction({ account, chain: client.chain, to: result.to, data: result.calldata });
+    await options.onSubmitted?.(proposeHash);
     console.log("Propose tx:", proposeHash);
+    if(options.proposalOnly) return proposeHash;
 
     const vote = geo.daoSpaces.voteProposal({
       authorSpaceId: toHexId(callerSpaceId),
@@ -290,7 +305,7 @@ export async function publishOps(ops: Op[], editName: string, input_space?: stri
       versionId: result.versionId,
       vote: "YES",
     });
-    const voteHash = await client.sendTransaction({ to: vote.to, data: vote.calldata });
+    const voteHash = await client.sendTransaction({ account, chain: client.chain, to: vote.to, data: vote.calldata });
     console.log("Vote YES tx:", voteHash);
 
     if (votingMode !== "SLOW") {
@@ -329,6 +344,8 @@ export async function publishOps(ops: Op[], editName: string, input_space?: stri
       proposalId: result.proposalId,
     });
     const executeHash = await client.sendTransaction({
+      account,
+      chain: client.chain,
       to: execution.to,
       data: execution.calldata,
     });
@@ -336,7 +353,9 @@ export async function publishOps(ops: Op[], editName: string, input_space?: stri
     return executeHash;
   }
 
-  const txHash = await client.sendTransaction({ to, data: calldata });
+  await options.onSubmitting?.();
+  const txHash = await client.sendTransaction({ account, chain: client.chain, to, data: calldata });
+  await options.onSubmitted?.(txHash);
   console.log("Transaction hash:", txHash);
   return txHash;
 }

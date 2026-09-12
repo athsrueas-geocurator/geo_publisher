@@ -1,0 +1,686 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "84231ad5631249a99f56e89dc540e3d6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Doubling Graduation Rates: Three-Year Effects of CUNY’s Accelerated Study in Associate Programs (ASAP) for Developmental Education Students",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "MDRC’s three-year randomized evaluation of the original CUNY ASAP community-college support program.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/doubling-graduation-rates",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "70abbcaeb75f45668719af5bd83e9d2c"
+    },
+    "entity": {
+      "$bytes": "3fe4404130004df2b24ba3a980a52d3f"
+    },
+    "from": {
+      "$bytes": "84231ad5631249a99f56e89dc540e3d6"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08Dl"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d67b77b6641247d4bae9af3e346d7d34"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The CUNY ASAP evaluation randomly assigned 896 low-income students needing one or two developmental courses to program or usual services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "MDRC evaluated ASAP at Borough of Manhattan, Kingsborough, and LaGuardia community colleges. The full randomized sample has 451 program-group and 445 control-group students; this is the original CUNY trial, not an ASAP replication.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Executive Summary; pp. ES-1–ES-6.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "896"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a1bf8dbd67de4e5a806424671cd5d622"
+    },
+    "entity": {
+      "$bytes": "1d75e87223924d1f847108f2e1f56028"
+    },
+    "from": {
+      "$bytes": "d67b77b6641247d4bae9af3e346d7d34"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05OG"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f73b839d4fbd484090cd6a308a7b546b"
+    },
+    "entity": {
+      "$bytes": "9baed80a0eaf48d68052cce29601692a"
+    },
+    "from": {
+      "$bytes": "d67b77b6641247d4bae9af3e346d7d34"
+    },
+    "to": {
+      "$bytes": "84231ad5631249a99f56e89dc540e3d6"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a00V2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e24aff026cc74441a2767e46d3948d03"
+    },
+    "entity": {
+      "$bytes": "6340bbfdaf454be5929f3794497ba8e6"
+    },
+    "from": {
+      "$bytes": "d67b77b6641247d4bae9af3e346d7d34"
+    },
+    "to": {
+      "$bytes": "3f6f2b82f8b94d3c85a5198a40e34199"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05Vl"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8bc4688bf6cd469aae76433fde1e67a2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "After three years, CUNY ASAP increased degree receipt by 18.3 percentage points (40.1% versus 21.8%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The adjusted original-CUNY randomized-trial estimate has p < .001 in the 896-student sample. Degree receipt is cumulative at any college over three years, not a later earnings or benefit-cost result.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 4.4; printed p. 62 / PDF p. 88.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "183"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in cumulative degree receipt at any college after three years, ASAP minus usual services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "896"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "< .001",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a0c8801617fb4b04a3a611fa01e58dbf"
+    },
+    "entity": {
+      "$bytes": "53b2e9a77a664310a197d36792ed82f4"
+    },
+    "from": {
+      "$bytes": "8bc4688bf6cd469aae76433fde1e67a2"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08bs"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "89b9db97f25b4b6294d4f91faf5f5af8"
+    },
+    "entity": {
+      "$bytes": "3de4d5e88bd94de29d5bad480c05aedc"
+    },
+    "from": {
+      "$bytes": "8bc4688bf6cd469aae76433fde1e67a2"
+    },
+    "to": {
+      "$bytes": "84231ad5631249a99f56e89dc540e3d6"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09x1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1c5eae48a4a240d5a9eb082e1d13d24d"
+    },
+    "entity": {
+      "$bytes": "52f21707dc17431e90367804448e6ad4"
+    },
+    "from": {
+      "$bytes": "8bc4688bf6cd469aae76433fde1e67a2"
+    },
+    "to": {
+      "$bytes": "3f6f2b82f8b94d3c85a5198a40e34199"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01rX"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "413205d66d2d465380c8cab7e7960aa5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "After three years, CUNY ASAP students earned 8.67 more total credits than controls (47.68 versus 39.01).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The adjusted original-CUNY randomized-trial estimate has SE 1.95 and p < .001 in the 896-student sample. It counts cumulative total credits over three years and is not a degree-completion or cost-effectiveness measure.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table C.5; printed p. 123 / PDF p. 149.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "867"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Credit difference in cumulative total credits earned after three years, ASAP minus usual services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "195"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "896"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "< .001",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "954c3dfd69cd4ff8b0ad00fb9fc6056e"
+    },
+    "entity": {
+      "$bytes": "2946ba1e4618404ba723c9c877adcdfc"
+    },
+    "from": {
+      "$bytes": "413205d66d2d465380c8cab7e7960aa5"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09GO"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "670a943610964f3fae19151e329681a2"
+    },
+    "entity": {
+      "$bytes": "f05e5ec0288b433abbe0110edc7f605d"
+    },
+    "from": {
+      "$bytes": "413205d66d2d465380c8cab7e7960aa5"
+    },
+    "to": {
+      "$bytes": "84231ad5631249a99f56e89dc540e3d6"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BmY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bc952edd25aa457aa29bea9cc66151d0"
+    },
+    "entity": {
+      "$bytes": "002911621172415fb5919520bba5de5f"
+    },
+    "from": {
+      "$bytes": "413205d66d2d465380c8cab7e7960aa5"
+    },
+    "to": {
+      "$bytes": "3f6f2b82f8b94d3c85a5198a40e34199"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a098Q"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0beecfa08f39431b827a08d4d2076719"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "In semester six, CUNY ASAP increased enrollment in a four-year college by 7.8 percentage points (25.1% versus 17.3%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The adjusted original-CUNY randomized-trial estimate has p = .0040 in the 896-student sample. This is four-year-college enrollment in the final semester of the three-year follow-up, not bachelor’s-degree completion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 4.4; printed p. 62 / PDF p. 88.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "78"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in four-year-college enrollment during semester six, ASAP minus usual services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "896"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "= .0040",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "692f56216bb34f4097f7064645f68567"
+    },
+    "entity": {
+      "$bytes": "1082a30336974f93b1f66de17bbd4f88"
+    },
+    "from": {
+      "$bytes": "0beecfa08f39431b827a08d4d2076719"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0878"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "85f7e8d9b7424b9eab67bd3f0ed9209c"
+    },
+    "entity": {
+      "$bytes": "4beac65683ba4758b4e42bff73939900"
+    },
+    "from": {
+      "$bytes": "0beecfa08f39431b827a08d4d2076719"
+    },
+    "to": {
+      "$bytes": "84231ad5631249a99f56e89dc540e3d6"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02X4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7b6ce913817b446db74cb2cec2df7746"
+    },
+    "entity": {
+      "$bytes": "5de967dba56740558c440d67fc97f7c4"
+    },
+    "from": {
+      "$bytes": "0beecfa08f39431b827a08d4d2076719"
+    },
+    "to": {
+      "$bytes": "3f6f2b82f8b94d3c85a5198a40e34199"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03l0"
+  }
+]

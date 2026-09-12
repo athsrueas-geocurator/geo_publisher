@@ -1,0 +1,218 @@
+{
+  "checkedAt": "2026-09-12T13:48:51.570Z",
+  "searches": [
+    {
+      "term": "Teacher coaching",
+      "nodes": [
+        {
+          "id": "1c6c7ea0742c4dc8849b983c8437296e",
+          "name": "Teacher coaching’s pooled science-achievement estimate was 0.352 SD and not statistically significant.",
+          "description": "The estimate uses six effect sizes from three studies with robust SE 0.242. The small evidence base makes this imprecise and the paper gives no exact p value.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "96f859efa1ca4b229372c86ad58b694b",
+              "name": "Claim"
+            }
+          ]
+        },
+        {
+          "id": "4d20a987683a4686af61d1b9710475d2",
+          "name": "Teacher coaching’s pooled math-achievement estimate was 0.044 SD and not statistically significant.",
+          "description": "The estimate uses 20 effect sizes from five studies with robust SE 0.042. The paper gives no exact p value for this unstarred Table 2 cell.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "96f859efa1ca4b229372c86ad58b694b",
+              "name": "Claim"
+            }
+          ]
+        },
+        {
+          "id": "5416e25c785a4daf967b7d4e02dcc9ef",
+          "name": "Teacher coaching improved student achievement by 0.178 SD across 31 causal studies.",
+          "description": "The pooled estimate uses 113 achievement effect sizes with robust SE 0.037 (p < .001). Many measures were researcher selected or aligned to coaching programs.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "96f859efa1ca4b229372c86ad58b694b",
+              "name": "Claim"
+            }
+          ]
+        },
+        {
+          "id": "6a85813ac8734141b55affa06793661c",
+          "name": "The Effect of Teacher Coaching on Instruction and Achievement: A Meta-Analysis of the Causal Evidence",
+          "description": "A meta-analysis of causal evidence on teacher coaching, pooling heterogeneous programs and outcomes.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "a2a5ed0cacef46b1835de457956ce915",
+              "name": "Article"
+            }
+          ]
+        },
+        {
+          "id": "ac70981427fb402994c2a7526febea9f",
+          "name": "Teacher coaching improved instructional practice by 0.488 SD across 43 causal studies.",
+          "description": "The pooled meta-analytic estimate uses 186 instructional-practice effect sizes with robust SE 0.056 (p < .001). It summarizes heterogeneous coaching programs, not one intervention.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "96f859efa1ca4b229372c86ad58b694b",
+              "name": "Claim"
+            }
+          ]
+        },
+        {
+          "id": "caaf065aee054ae385f184dbf6043028",
+          "name": "Teacher coaching improved reading achievement by 0.163 SD across 26 causal studies.",
+          "description": "The pooled reading estimate uses 87 effect sizes with robust SE 0.032 (p < .001). Reading dominates the achievement evidence, so it is not a general-subject estimate.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "96f859efa1ca4b229372c86ad58b694b",
+              "name": "Claim"
+            }
+          ]
+        },
+        {
+          "id": "d81e456297ae46d0bdaaeeefb1fcab22",
+          "name": "Districts should fund sustained teacher coaching across subjects and implementation models.",
+          "description": "The meta-analysis reports positive pooled instruction and achievement estimates across its causal-study samples. Smaller math, science, and general-practice achievement subsets make a claim of uniform effects across subjects and models debatable.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "96f859efa1ca4b229372c86ad58b694b",
+              "name": "Claim"
+            }
+          ]
+        },
+        {
+          "id": "e181f6b918e548b79304a674743753fd",
+          "name": "Teacher coaching programs",
+          "description": "Sustained coaching support for teachers, often combined with other professional-development components; the linked source synthesizes many distinct programs.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "d272f19cef87485fb83e26fb68957395",
+              "name": "Initiative"
+            }
+          ]
+        }
+      ],
+      "complete": true
+    },
+    {
+      "term": "Coaching meta-analysis",
+      "nodes": [
+        {
+          "id": "2aa5bdd80736455db07ec8d1ab7c12a9",
+          "name": "Add teacher-coaching meta-analysis evidence",
+          "description": "System entity for proposal 2aa5bdd8-0736-455d-b07e-c8d1ab7c12a9 in space dac259ba-d48a-11ad-f97f-e36857d85206",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206",
+            "d00460c203779d21d96fcfc6102d7a72"
+          ],
+          "types": [
+            {
+              "id": "490a7c90ad4b4029b2b4d85d22fe203a",
+              "name": "Proposal"
+            }
+          ]
+        }
+      ],
+      "complete": true
+    }
+  ],
+  "memberships": [
+    {
+      "key": "claim/all-instruction",
+      "id": "ac70981427fb402994c2a7526febea9f",
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    {
+      "key": "claim/all-achievement",
+      "id": "5416e25c785a4daf967b7d4e02dcc9ef",
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    {
+      "key": "claim/reading-achievement",
+      "id": "caaf065aee054ae385f184dbf6043028",
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    {
+      "key": "claim/math-achievement",
+      "id": "4d20a987683a4686af61d1b9710475d2",
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    {
+      "key": "claim/science-achievement",
+      "id": "1c6c7ea0742c4dc8849b983c8437296e",
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    {
+      "key": "claim/content-instruction",
+      "id": "f59cafc1b3fa4beaba24a898a890f23a",
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    {
+      "key": "claim/content-achievement",
+      "id": "07bcc36415354dbabb6e34b230065dd5",
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    {
+      "key": "claim/general-instruction",
+      "id": "18020b92e89d4eb8a9693def8682771c",
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    {
+      "key": "claim/general-achievement",
+      "id": "03cd942d5566419bb39a1608580c6f8a",
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  ]
+}

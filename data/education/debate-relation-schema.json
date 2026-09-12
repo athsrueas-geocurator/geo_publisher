@@ -1,0 +1,80 @@
+[
+  {
+    "id": "da4a6c1f9d4446f9832ff3b49a4400ef",
+    "property": {
+      "dataTypeName": "Checkbox"
+    },
+    "entity": {
+      "name": "Is factual",
+      "description": "A claim that carries one or more factual statement that sources or evidence could in principle verify or dispute. Factual does not mean it's necessarily true, it means that it's checkable with sources.",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1dc6a843458848198e7a6e672268f811",
+    "property": {
+      "dataTypeName": "Relation"
+    },
+    "entity": {
+      "name": "Supporting arguments",
+      "description": null,
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1",
+        "d69608290513c2a91102c939b3265bd7"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4e6ec5d14292498a84e5f607ca1a08ce",
+    "property": {
+      "dataTypeName": "Relation"
+    },
+    "entity": {
+      "name": "Opposing arguments",
+      "description": null,
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1",
+        "d69608290513c2a91102c939b3265bd7"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  },
+  {
+    "id": "504e5776788844f6a77dba3ee811d8f0",
+    "property": {
+      "dataTypeName": "Relation"
+    },
+    "entity": {
+      "name": "Related claims",
+      "description": null,
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  }
+]

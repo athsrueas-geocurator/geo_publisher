@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-09-12T01:18:50.766Z",
+  "batchName": "Preserve Reading First imported overview and route identity",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "entityId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+      "propertyId": "b0305ef28312c519d954bc0efe22f013",
+      "pass": true
+    },
+    {
+      "relationId": "65a385fd285346e2867cad7bfb55de14",
+      "pass": true
+    },
+    {
+      "entityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "relationId": "eb44e156102a4c5fb63845b40729be05",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

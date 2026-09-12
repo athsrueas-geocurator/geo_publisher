@@ -1,0 +1,135 @@
+{
+  "term": "value",
+  "checkedAt": "2026-09-11T21:30:11.992Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "103701ddcabe4a8e835b10345327b647",
+      "name": "Vote Weighted Value",
+      "description": "Vote's weighted value.",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ]
+    },
+    {
+      "id": "20e513c15c6e49d9a25eca7517772c94",
+      "name": "Tax withholding value",
+      "description": "The value of shares surrendered to an issuer to satisfy tax obligations on vesting equity. Distinct from open-market sales, which involve a market counterparty.",
+      "spaceIds": [
+        "d69608290513c2a91102c939b3265bd7"
+      ]
+    },
+    {
+      "id": "3163ea823b4c9ebf0d26ce3a20eb855f",
+      "name": "Result value numeric",
+      "description": "AI Music ontology field for result_value_numeric; data type number; cardinality one; publish policy required_when_referenced_by_relation_or_profile.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "49ee1b8918204e75a1ae38a2dcaad4a5",
+      "name": "Vote Ordinal Value",
+      "description": "Vote's ordinal (rank-position) value.",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ]
+    },
+    {
+      "id": "49fcf7e6ccea49dab672345486cd9df9",
+      "name": "Present value of benefits",
+      "description": "Discounted monetary benefits; interpret with currency, price year, denominator, discount rate and modeled benefit scope.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ]
+    },
+    {
+      "id": "4c1db169257bc736c23b214f9d7929fa",
+      "name": "Result value or summary",
+      "description": "AI Music ontology field for result_value_or_summary; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "4f22c0903234456898037206f7b53242",
+      "name": "Value (billions)",
+      "description": null,
+      "spaceIds": [
+        "34e753bb68888c02a574d0a112c8d047"
+      ]
+    },
+    {
+      "id": "7346ec674ccddf0eb4229babc81f5459",
+      "name": "Identifier value",
+      "description": "AI Music ontology field for identifier_value; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "81ff33dc1e3c4c0eae531f014113371c",
+      "name": "Values",
+      "description": "A set of values that are held",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ]
+    },
+    {
+      "id": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+      "name": "P value",
+      "description": "Published p-value string, preserving operators such as < or =.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    },
+    {
+      "id": "dbad304fc83a13a2f84b6260501a562c",
+      "name": "P value",
+      "description": "P value for an extracted result when available.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "e1ffac9fbeb446548a5000e1d6c662fb",
+      "name": "Rank position value",
+      "description": "Aggregated score assigned to an entity within a ranking block.",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ]
+    },
+    {
+      "id": "e500e2585a964d2c9df4a47b199616c3",
+      "name": "Effect estimate value",
+      "description": "Reported numerical effect; interpret only with the stated unit, estimand and study context.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ]
+    },
+    {
+      "id": "f6e654253ec0c1decbe6a6058f003868",
+      "name": "P value numeric",
+      "description": "Numeric p-value or conservative threshold used for sorting.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNDlmY2Y3ZTYtY2NlYS00OWRhLWI2NzItMzQ1NDg2Y2Q5ZGY5Il1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYmE1ZjhmZTktZDFjZC05YTYwLTk0MzMtOGQyZjM3Yjc0YTVlIl1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjZlNjU0MjUtM2VjMC1jMWRlLWNiZTYtYTYwNThmMDAzODY4Il1d"
+    }
+  ]
+}

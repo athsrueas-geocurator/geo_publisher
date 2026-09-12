@@ -1,0 +1,386 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Community colleges should scale developmental summer bridge programs based on early course gains.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The randomized Texas study found higher first-fall college-level math attempt and pass rates and higher writing pass rates. The evidence is preliminary, the programs varied across eight colleges, fall registration did not differ significantly, and the source reports resources rather than cost effectiveness.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "912379ab77cc49e7ba3af092d30103bc"
+    },
+    "entity": {
+      "$bytes": "c7f0c4fe55d5463597ef0132216f4591"
+    },
+    "from": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AKA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8d7e7cd651e849fcab8b385680fade6a"
+    },
+    "entity": {
+      "$bytes": "8e0ad394f8bb4ffdae66f0cbe0b2c84d"
+    },
+    "from": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "to": {
+      "$bytes": "9a01e3c8d25145ada294e929bdb75870"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04d3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7e9932a5709d4600b592864c16ecf495"
+    },
+    "entity": {
+      "$bytes": "738be56b6dcb4888b1da2d3d9356e20e"
+    },
+    "from": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "to": {
+      "$bytes": "85d44ca8fe064a72a586e7c64f9aa1bc"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09qc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "02b63b64c85641f889356fd3d26b47c4"
+    },
+    "entity": {
+      "$bytes": "7bf69d07294a4e96ad81072186eb80eb"
+    },
+    "from": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "to": {
+      "$bytes": "22a40b2d33c34352a5fd4fa60f870840"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a042a"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "078b5b2ce09f490eb0f41162823a425e"
+    },
+    "entity": {
+      "$bytes": "ec46847f07ac476f8b0581c89c686a15"
+    },
+    "from": {
+      "$bytes": "22a40b2d33c34352a5fd4fa60f870840"
+    },
+    "to": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BVn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d1be5b49054344cb853cd4b3bb3f0366"
+    },
+    "entity": {
+      "$bytes": "a88a8769201c46aa969f96e5d3100503"
+    },
+    "from": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "to": {
+      "$bytes": "96ca6b3cbdcc4308b20865a7a1ba8039"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0C17"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1137bb68d06d463593ffcdc50d8d886e"
+    },
+    "entity": {
+      "$bytes": "ce86a7e55b4146ab94136491946efe6d"
+    },
+    "from": {
+      "$bytes": "96ca6b3cbdcc4308b20865a7a1ba8039"
+    },
+    "to": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02yf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c6c335a4928e4d2ca87d8832d744020b"
+    },
+    "entity": {
+      "$bytes": "8495c459c00043bcadc4b743e1bd6994"
+    },
+    "from": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "to": {
+      "$bytes": "73e27306ea7f45559fd2865e085c9d7d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a063P"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d5536ccd0bc7415ab9494e1510749764"
+    },
+    "entity": {
+      "$bytes": "af4c573b35a9475e8b4ba5c427554248"
+    },
+    "from": {
+      "$bytes": "73e27306ea7f45559fd2865e085c9d7d"
+    },
+    "to": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0282"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3aeaac1a80c648aeb572887f269c38cc"
+    },
+    "entity": {
+      "$bytes": "ca2b6e9f6be94023990b216c4c6c8671"
+    },
+    "from": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "to": {
+      "$bytes": "782bbddb09874b91ae52c84d933979b4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06lK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6c9a401d323f49429593b0af731161f3"
+    },
+    "entity": {
+      "$bytes": "5b8b75a6ecc04de1a35ecadbae73ecb7"
+    },
+    "from": {
+      "$bytes": "782bbddb09874b91ae52c84d933979b4"
+    },
+    "to": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04te"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d5a20fddbd034d22a863fadd8869a31c"
+    },
+    "entity": {
+      "$bytes": "02cd4c77ab8e4b4b983ab41726ee0408"
+    },
+    "from": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "to": {
+      "$bytes": "d8a65b2583e641448d872f8c85208d6e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05dP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ec937dad314d4481981efd11cdcec05b"
+    },
+    "entity": {
+      "$bytes": "bc270a23e8b344f5b37f17ff621dffd2"
+    },
+    "from": {
+      "$bytes": "d8a65b2583e641448d872f8c85208d6e"
+    },
+    "to": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02cp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9b7631b0b7514194a9c766230de20a87"
+    },
+    "entity": {
+      "$bytes": "5f7fa66634f040b493dfc894f5340bc4"
+    },
+    "from": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "to": {
+      "$bytes": "22a40b2d33c34352a5fd4fa60f870840"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a0AsQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a3883373a68f4fd884a675eba113bad5"
+    },
+    "entity": {
+      "$bytes": "3b3ae300e00b45e58b707c0d495d4b02"
+    },
+    "from": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "to": {
+      "$bytes": "96ca6b3cbdcc4308b20865a7a1ba8039"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a02IJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3a2d5aafc3b44f95b062c715f340b255"
+    },
+    "entity": {
+      "$bytes": "f3a937669ba74fcba40770e825b8163d"
+    },
+    "from": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "to": {
+      "$bytes": "73e27306ea7f45559fd2865e085c9d7d"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a08PY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9c4b631de47b4b659631ac2c5e3fc3ce"
+    },
+    "entity": {
+      "$bytes": "aa73f588888e497ca467a959d88a0ea0"
+    },
+    "from": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "to": {
+      "$bytes": "782bbddb09874b91ae52c84d933979b4"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a06Js"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3df7a18bcf52432da9c7f101ca7262ff"
+    },
+    "entity": {
+      "$bytes": "ddc15feea8b2496f9d00ad1567659617"
+    },
+    "from": {
+      "$bytes": "7da8e7f4212c430e9ed2164fb43d6ac4"
+    },
+    "to": {
+      "$bytes": "d8a65b2583e641448d872f8c85208d6e"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a074K"
+  }
+]

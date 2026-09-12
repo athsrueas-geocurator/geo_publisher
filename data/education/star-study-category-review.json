@@ -1,0 +1,247 @@
+{
+  "scope": "Deliberate cross-space property and RCT review; first five usage examples, not exhaustive",
+  "data": {
+    "entity": {
+      "id": "76cac7bf35d44162a2961b12e99dc1a1",
+      "name": "Study categories",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "values": {
+        "nodes": [
+          {
+            "property": {
+              "id": "9b1f76ff9711404c861e59dc3fa7d037",
+              "name": "Description"
+            },
+            "text": "Groups studies by broad research approach, such as clinical, observational, experimental, review, or preclinical research.",
+            "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+          },
+          {
+            "property": {
+              "id": "a126ca530c8e48d5b88882c734c38935",
+              "name": "Name"
+            },
+            "text": "Study categories",
+            "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "type": {
+              "id": "6d29d57849bb4959baf72cc696b1671a",
+              "name": "Data type"
+            },
+            "toEntity": {
+              "id": "4b6d9fc1fbfe474c861c83398e1b50d9",
+              "name": "Relation"
+            },
+            "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+          },
+          {
+            "type": {
+              "id": "9eea393f17dd4971a62ea603e8bfec20",
+              "name": "To entity types"
+            },
+            "toEntity": {
+              "id": "07d23153ead146268af89189abe0b6f3",
+              "name": "Study category"
+            },
+            "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+          },
+          {
+            "type": {
+              "id": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "name": "Types"
+            },
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "relationsConnection": {
+      "nodes": [
+        {
+          "fromEntity": {
+            "id": "935c5360140e46d8a2c6c3be11528f8e",
+            "name": "Adapted cold shower as a potential treatment for depression"
+          },
+          "toEntity": {
+            "id": "11ebf0a42e5a482cbfd25cfea8110147",
+            "name": "Hypothesis / Pilot study",
+            "types": [
+              {
+                "id": "07d23153ead146268af89189abe0b6f3",
+                "name": "Study category"
+              }
+            ]
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "fromEntity": {
+            "id": "33433cff08314af1ab9be38cc3e537d8",
+            "name": "Altered brown fat thermoregulation and enhanced cold-induced thermogenesis in young, healthy, winter-swimming men"
+          },
+          "toEntity": {
+            "id": "39ea63fd61974f42b5e0fa3128d4e788",
+            "name": "Controlled experiment",
+            "types": [
+              {
+                "id": "07d23153ead146268af89189abe0b6f3",
+                "name": "Study category"
+              }
+            ]
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "fromEntity": {
+            "id": "5678cd446cac41e68cd8b2ad3cee4909",
+            "name": "Cardiovascular responses to water immersion in humans: Impact of thermoregulatory response"
+          },
+          "toEntity": {
+            "id": "39ea63fd61974f42b5e0fa3128d4e788",
+            "name": "Controlled experiment",
+            "types": [
+              {
+                "id": "07d23153ead146268af89189abe0b6f3",
+                "name": "Study category"
+              }
+            ]
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "fromEntity": {
+            "id": "424d08a0ac26423b9417f23f3cc0faa3",
+            "name": "Whole-body cryotherapy as adjunct treatment of depressive and anxiety disorders"
+          },
+          "toEntity": {
+            "id": "d15b2dbf86d14635863632b6bfb822aa",
+            "name": "Controlled clinical trial",
+            "types": [
+              {
+                "id": "07d23153ead146268af89189abe0b6f3",
+                "name": "Study category"
+              }
+            ]
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "fromEntity": {
+            "id": "dd01584ac3e040c6986b0d3529430e1d",
+            "name": "Immersion in cold water following exercise — Safety and physiological aspects"
+          },
+          "toEntity": {
+            "id": "39ea63fd61974f42b5e0fa3128d4e788",
+            "name": "Controlled experiment",
+            "types": [
+              {
+                "id": "07d23153ead146268af89189abe0b6f3",
+                "name": "Study category"
+              }
+            ]
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": true,
+        "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiN2M0ZGQ5N2QtMzY0My00YTMyLWExZDUtNzlhNTU1MDFlOTFmIl1d"
+      }
+    },
+    "rct": {
+      "id": "ad9f48f68b804ddd9f9e8ffa5869ef02",
+      "name": "Randomized controlled trial",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206",
+        "52c7ae149838b6d47ce0f3b2a5974546",
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "values": {
+        "nodes": [
+          {
+            "property": {
+              "id": "a126ca530c8e48d5b88882c734c38935",
+              "name": "Name"
+            },
+            "text": "Randomized controlled trial",
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "property": {
+              "id": "9b1f76ff9711404c861e59dc3fa7d037",
+              "name": "Description"
+            },
+            "text": "Experimental study design in which participants are randomly assigned to intervention or control conditions, considered the gold standard for establishing causal relationships in health research.",
+            "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+          },
+          {
+            "property": {
+              "id": "9b1f76ff9711404c861e59dc3fa7d037",
+              "name": "Description"
+            },
+            "text": "Random assignment to treatment/control; strongest internal validity when implemented and analyzed well.",
+            "spaceId": "dac259bad48a11adf97fe36857d85206"
+          },
+          {
+            "property": {
+              "id": "a126ca530c8e48d5b88882c734c38935",
+              "name": "Name"
+            },
+            "text": "Randomized controlled trial",
+            "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+          },
+          {
+            "property": {
+              "id": "9b1f76ff9711404c861e59dc3fa7d037",
+              "name": "Description"
+            },
+            "text": "Experimental study design in which participants are randomly assigned to intervention or control conditions, considered the gold standard for establishing causal relationships in health research.",
+            "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+          },
+          {
+            "property": {
+              "id": "a126ca530c8e48d5b88882c734c38935",
+              "name": "Name"
+            },
+            "text": "Randomized controlled trial",
+            "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "types": [
+        {
+          "id": "1206e244cf314218b8519a07321337d7",
+          "name": "Evidence"
+        },
+        {
+          "id": "1206e244cf314218b8519a07321337d7",
+          "name": "Evidence"
+        },
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    }
+  },
+  "checkedAt": "2026-09-11T19:26:57.6409451Z"
+}

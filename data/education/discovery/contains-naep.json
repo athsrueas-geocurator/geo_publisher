@@ -1,0 +1,29 @@
+{
+  "term": "NAEP",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:44:36.761Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "31d5b054aedb419581a550f1954b0b7b",
+      "name": "Oregon ranked 50th in the nation for 4th and 8th grade NAEP scores in English and math, after adjusting for demographics.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMzFkNWIwNTQtYWVkYi00MTk1LTgxYTUtNTBmMTk1NGIwYjdiIl1d"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "term": "Sample size",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:00:33.328Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "157cfd818d4a45caa19904905e4dae81",
+      "name": "Sample size",
+      "description": "Number of subjects or samples analyzed in the study.",
+      "spaceIds": [
+        "e01507b1bd7cb04c074ae8f52196096d"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "210e9b352b454d6eb7a32906d24d3c8d",
+      "name": "Sample size",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "8720c2ac02801f7364fe7bdb47005586",
+      "name": "Sample size",
+      "description": "Number of participants represented in a study finding.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "bf0249bb71924460bfe6b35394ed0781",
+      "name": "Sample size",
+      "description": "Number of participants, samples, or observations included in a study.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "e3dbc31c549c1686b875901cac3f877f",
+      "name": "Sample size",
+      "description": "Sample size or registry enrollment count when applicable.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTNkYmMzMWMtNTQ5Yy0xNjg2LWI4NzUtOTAxY2FjM2Y4NzdmIl1d"
+    }
+  ]
+}

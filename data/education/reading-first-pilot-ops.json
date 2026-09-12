@@ -1,0 +1,1490 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "60e8b11660d04c94b1e1ebe4321bedcf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Confidence interval lower bound",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Lower endpoint of a confidence interval for the estimate on this record, in the estimate's stated unit.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a57bb95275644e4f99933e05fed5f232"
+    },
+    "entity": {
+      "$bytes": "f55d72dbf6cb48d19034b0874dddfc30"
+    },
+    "from": {
+      "$bytes": "60e8b11660d04c94b1e1ebe4321bedcf"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02W8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0eb14e1e6ef842bb8a0494da40e94154"
+    },
+    "entity": {
+      "$bytes": "830d6750b6ae44f1b5f5974ed2ff9858"
+    },
+    "from": {
+      "$bytes": "60e8b11660d04c94b1e1ebe4321bedcf"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a05uq"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2b6e1e8fa3324dc08e9b9051f3dee669"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Confidence interval upper bound",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Upper endpoint of a confidence interval for the estimate on this record, in the estimate's stated unit.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b5e8c999c2c94ee4a9bac9c172de11a5"
+    },
+    "entity": {
+      "$bytes": "cc3c8127f2874ddd834717ad5fd32bde"
+    },
+    "from": {
+      "$bytes": "2b6e1e8fa3324dc08e9b9051f3dee669"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BlN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "24fa503d234d46799e486ba70640bea5"
+    },
+    "entity": {
+      "$bytes": "51216fbbd0314fea9c7d93df57235be8"
+    },
+    "from": {
+      "$bytes": "2b6e1e8fa3324dc08e9b9051f3dee669"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a06VW"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6463e2fdc01a4b0694e40ccc499f6eca"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Confidence interval level",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Confidence level expressed as a fraction, such as 0.95 for a 95% interval.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "396f8c72dfd04b5791ea09c1b9321b2f"
+        },
+        "value": {
+          "type": "text",
+          "value": "measure-unit/percent scale/100 precision-unlimited",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "92d221db591a43d8a4d1659a8e0d0640"
+    },
+    "entity": {
+      "$bytes": "5ac3785438144b69939e13e97750eb4d"
+    },
+    "from": {
+      "$bytes": "6463e2fdc01a4b0694e40ccc499f6eca"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BsO"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aa0f5526416348ad908ac5239da28f6d"
+    },
+    "entity": {
+      "$bytes": "a742db7ccfb9444fa1a8c5f0ddbae9ab"
+    },
+    "from": {
+      "$bytes": "6463e2fdc01a4b0694e40ccc499f6eca"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a01xZ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "db0ea33548454e1780c78231066b7d71"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading First Impact Study Final Report",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A federal evaluation of Reading First funding, reporting achievement, instruction and implementation findings from 18 US sites.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncee/pdf/20094038.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a04b660dbf5d46368662e7edad3771ce"
+    },
+    "entity": {
+      "$bytes": "e2b9da5a5cee48c38c4cf371fbfb4ef9"
+    },
+    "from": {
+      "$bytes": "db0ea33548454e1780c78231066b7d71"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0CMy"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "00d12a0a2cff47c487b460d8bc77a9ff"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Publication details\n\nBeth C. Gamse; Robin Tepper Jacob; Megan Horst; Beth Boulay; Fatih Unlu. November 2008. NCEE 2009-4038. US Department of Education, Institute of Education Sciences.\n\nAuthors follow the report's suggested citation; additional contributors appear on the title page.\n\n[Read the complete report](https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncee/pdf/20094038.pdf). This dataset uses Exhibits 2.1–2.6 and D.1–D.4; it does not reproduce every analysis in the report.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "317e26c99035450fba1076819d22d1c8"
+    },
+    "entity": {
+      "$bytes": "96c0f65870524a61aa9c2261d75c1007"
+    },
+    "from": {
+      "$bytes": "00d12a0a2cff47c487b460d8bc77a9ff"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07PW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "99df547805d44421ac5dff8672b281ad"
+    },
+    "entity": {
+      "$bytes": "8c4073e39f43451a9091d17360e1b70b"
+    },
+    "from": {
+      "$bytes": "db0ea33548454e1780c78231066b7d71"
+    },
+    "to": {
+      "$bytes": "00d12a0a2cff47c487b460d8bc77a9ff"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading First Impact Study (2008 final report)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "An evaluation of early-reading grants using regression discontinuity in 17 sites and group random assignment in one site.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8e46e3eff9dea2b55d32a5ca7de61938"
+        },
+        "value": {
+          "type": "text",
+          "value": "17 regression-discontinuity sites and one group-randomized site",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "37597f2c5b7c4b35a1545e419bc352a2"
+    },
+    "entity": {
+      "$bytes": "0cb75c658857449ea456d7727ba78cea"
+    },
+    "from": {
+      "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+    },
+    "to": {
+      "$bytes": "3ef269bc5f114691abc02dcbf398fd63"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07xP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bd4a13989295445ea6a182da2aa82588"
+    },
+    "entity": {
+      "$bytes": "52a1eb20dc924b37b7d1c77ee2b01fdf"
+    },
+    "from": {
+      "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+    },
+    "to": {
+      "$bytes": "db0ea33548454e1780c78231066b7d71"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06WI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "950506af706f4781bd42f14c1d7c510f"
+    },
+    "entity": {
+      "$bytes": "00b7fe5a36c348449840fddc3b3b0158"
+    },
+    "from": {
+      "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+    },
+    "to": {
+      "$bytes": "0093d90725d94cb08903515673538d40"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a06fC"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "02b361941ec44410a2d188935d49673c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading First funded schools (RFIS)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Schools receiving Reading First funding in the impact study. Grant allocation used regression-discontinuity rules in 17 sites and random assignment in one site.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "51aa8232449948fdb82586d71530aa8e"
+    },
+    "entity": {
+      "$bytes": "c98d9422d05847379b555566993b35d6"
+    },
+    "from": {
+      "$bytes": "02b361941ec44410a2d188935d49673c"
+    },
+    "to": {
+      "$bytes": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a036d"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d92346f990a44392a9c0a051f2540818"
+    },
+    "entity": {
+      "$bytes": "3c214c14aaad41bab2bfbe643b71c14b"
+    },
+    "from": {
+      "$bytes": "02b361941ec44410a2d188935d49673c"
+    },
+    "to": {
+      "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01bX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "29b9073814bf42a88ee1af72ed0ac02d"
+    },
+    "entity": {
+      "$bytes": "c16b65edffa34564ab3cdd31cd6cf878"
+    },
+    "from": {
+      "$bytes": "02b361941ec44410a2d188935d49673c"
+    },
+    "to": {
+      "$bytes": "db0ea33548454e1780c78231066b7d71"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04ur"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "70384a088b554109b0a8c581c4dd9071"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading First unfunded comparison schools (RFIS)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Schools without Reading First funding used to estimate the study's counterfactual. Their observed means are distinct from the report's adjusted estimates of outcomes without funding.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ce7ac80e4da9446b8f5a6cdb41f36699"
+    },
+    "entity": {
+      "$bytes": "4d30a24bb6c74b898f6ec708f1dcf87c"
+    },
+    "from": {
+      "$bytes": "70384a088b554109b0a8c581c4dd9071"
+    },
+    "to": {
+      "$bytes": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06C4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8e22d81e844143ae97e9f21bab798e58"
+    },
+    "entity": {
+      "$bytes": "3f78780211974fcdaad6d13570cb3e88"
+    },
+    "from": {
+      "$bytes": "70384a088b554109b0a8c581c4dd9071"
+    },
+    "to": {
+      "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02FC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "55ee42b0c9bc40639848f0c61c30b6f2"
+    },
+    "entity": {
+      "$bytes": "3e5c6480775a420cbe0cf02e8b19eb20"
+    },
+    "from": {
+      "$bytes": "70384a088b554109b0a8c581c4dd9071"
+    },
+    "to": {
+      "$bytes": "db0ea33548454e1780c78231066b7d71"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05K3"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading First: achievement and implementation impacts (Gamse et al., 2008)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Estimated effects of a US early-reading grant program on achievement, classroom instruction and implementation. Results distinguish measured learning outcomes from observed practices and self-reported delivery.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncee/pdf/20094038.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e3fdbd1e5fbf410f87f5797579e8aaca"
+    },
+    "entity": {
+      "$bytes": "5654cb3ef60045439ebb7155aa4c18ce"
+    },
+    "from": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a062G"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d05b74f418cf4e0c8a7df803c755f023"
+    },
+    "entity": {
+      "$bytes": "14cc1f6be1f74a46ab27b4f9ca7d2773"
+    },
+    "from": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "to": {
+      "$bytes": "db0ea33548454e1780c78231066b7d71"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01Hc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "568f387bcbed415882cf993d5a8aa08f"
+    },
+    "entity": {
+      "$bytes": "6550aa19700c4bd79b994725e04f590f"
+    },
+    "from": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "to": {
+      "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Asf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "107ba46c6e1e4b088535f6aad025f81a"
+    },
+    "entity": {
+      "$bytes": "5b613122d7184c2bb11b7f1c2a446506"
+    },
+    "from": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "to": {
+      "$bytes": "0093d90725d94cb08903515673538d40"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a00BG"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "afb866bcc2064a58a07e0fd2b3fedd2b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student achievement: reported impact and uncertainty",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "56f0742d9f1b45f78f23d5c65d825823"
+    },
+    "entity": {
+      "$bytes": "eeb3aa8964314dcb9dc4f56b2ef7431b"
+    },
+    "from": {
+      "$bytes": "afb866bcc2064a58a07e0fd2b3fedd2b"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a051y"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c6721785dedd43c4864d855bdf5f53a7"
+    },
+    "entity": {
+      "$bytes": "b6ea0ad8f32f4ceeacda7cb55fc761d1"
+    },
+    "from": {
+      "$bytes": "afb866bcc2064a58a07e0fd2b3fedd2b"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a04gc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e0524bf45dfc4ed081f90d88baa3f5b6"
+    },
+    "entity": {
+      "$bytes": "3f7bc5fc8e324687af5ce097769e027c"
+    },
+    "from": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "to": {
+      "$bytes": "afb866bcc2064a58a07e0fd2b3fedd2b"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1723107be0d84be492ee2d9a84be660a"
+    },
+    "entity": {
+      "$bytes": "e9ac84c447fa435e84b50a4fbb01e5d5"
+    },
+    "from": {
+      "$bytes": "3f7bc5fc8e324687af5ce097769e027c"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a02et"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4d9b7822b13847859df8342a520227c7"
+    },
+    "entity": {
+      "$bytes": "ef48bb3330f24193bc956b8a50d2453f"
+    },
+    "from": {
+      "$bytes": "3f7bc5fc8e324687af5ce097769e027c"
+    },
+    "to": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0BZ9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "52506f185f594d38b0e6449838d8eb05"
+    },
+    "entity": {
+      "$bytes": "1716410d45024fbcaa1714ae43401d5c"
+    },
+    "from": {
+      "$bytes": "3f7bc5fc8e324687af5ce097769e027c"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a17ac"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e32b6f311a7e415cacc382a03d3d7afb"
+    },
+    "entity": {
+      "$bytes": "f7d23c7a83364abcaca64550eafb615d"
+    },
+    "from": {
+      "$bytes": "3f7bc5fc8e324687af5ce097769e027c"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a24vN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1dd4bab72aff43e39bde3b7771b7b92e"
+    },
+    "entity": {
+      "$bytes": "6d1946d43bb14c7e83e3e521f6105aed"
+    },
+    "from": {
+      "$bytes": "3f7bc5fc8e324687af5ce097769e027c"
+    },
+    "to": {
+      "$bytes": "60e8b11660d04c94b1e1ebe4321bedcf"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a32ZN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7289dced098347278d5ecaeda3132fb5"
+    },
+    "entity": {
+      "$bytes": "3c1e16c969224fadaaca7d995f517657"
+    },
+    "from": {
+      "$bytes": "3f7bc5fc8e324687af5ce097769e027c"
+    },
+    "to": {
+      "$bytes": "2b6e1e8fa3324dc08e9b9051f3dee669"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a48RS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b0db57a7f37041c484a5fa29cc17955f"
+    },
+    "entity": {
+      "$bytes": "81cafdac520a4279ae7d7827d72426a6"
+    },
+    "from": {
+      "$bytes": "3f7bc5fc8e324687af5ce097769e027c"
+    },
+    "to": {
+      "$bytes": "6463e2fdc01a4b0694e40ccc499f6eca"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a53T8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7906a4df26ed46b6a85396408fa9538b"
+    },
+    "entity": {
+      "$bytes": "9f12027d00e644c6a17af3d5905fcfc7"
+    },
+    "from": {
+      "$bytes": "3f7bc5fc8e324687af5ce097769e027c"
+    },
+    "to": {
+      "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a69vK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a7712ddc6f594b6a96a418c85333954e"
+    },
+    "entity": {
+      "$bytes": "317bed80085344f3b55d2693877fa628"
+    },
+    "from": {
+      "$bytes": "3f7bc5fc8e324687af5ce097769e027c"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a7CLH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1c719dedeb374bd3b694125db143fbb7"
+    },
+    "entity": {
+      "$bytes": "54392a9f8dee414fb824126d2899b354"
+    },
+    "from": {
+      "$bytes": "3f7bc5fc8e324687af5ce097769e027c"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a88Hq"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b9a81a6b17974b6c8ddbbcfead4b83cd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Study design and interpretation\n\n17 regression-discontinuity sites and one group-randomized site. Regression-adjusted impact of Reading First funding, averaged across sites in proportion to their number of Reading First sample schools. Linear site rating specification and selected covariates; multilevel models account for clustering. See Chapter 2 and Appendix B for outcome-specific details.\n\nThe final sample contains 248 schools (125 funded and 123 unfunded) in 18 sites across 13 states. This is a school count, not the student N for each estimate. The study sample was selected near local funding cut-points; it is not a nationally representative sample of all schools.\n\nComprehension is measured using SAT 10. Its pooled results cover spring 2005, 2006 and 2007. Decoding uses TOSWRF and was measured only in first grade in spring 2007. Instructional observations and implementation surveys measure distinct outcomes.\n\nWhere available, estimates and uncertainty use Appendix D's reported precision. SEs and confidence bounds share the estimate's unit; the confidence level is stored as 0.95 and displayed as 95%. P-values are two-tailed and retain reported operators. Percentage-point differences are not percentage changes.\n\nNative and standardized forms are the same outcome contrast. Do not count them as independent effects or studies.\n\nA common SD label does not establish comparability across outcomes, populations or standardization samples.\n\nNonsignificant estimates are not zero effects; preserve their negative and positive confidence bounds.\n\nDecoding was measured only in grade one in spring 2007. Comprehension estimates pool three spring collections.\n\nInstructional practices, engagement and self-reported implementation are distinct from measured achievement.\n\nSurvey SEs and confidence intervals are not supplied in these selected exhibits; no values are inferred from p-values.\n\nReading-coach survey response rates differ between funded and unfunded schools (p=0.037); self-reports and missingness limit interpretation.\n\nThe 248-school study sample is not the number of students in each outcome analysis; some grade/year cells omit a school.\n\nPercentage-point impacts are differences, not percent changes; proportion-difference units are separately retained.\n\nRounded CI endpoints can equal zero for an estimate marked significant; retain source p-values and bounds without alteration.\n\nThis extraction covers Exhibits 2.1-2.6 and D.1-D.4, not all subgroup, yearly, mechanism or robustness analyses in the report.\n\n[Source report](https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncee/pdf/20094038.pdf), Chapter 2, printed pp. 17 and 24; Appendix B, printed B-3 to B-5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "04154c24b5f6471b9a8164eaf1bc67c7"
+    },
+    "entity": {
+      "$bytes": "c1771a9484ac4106bbabf1d197dfa5f5"
+    },
+    "from": {
+      "$bytes": "b9a81a6b17974b6c8ddbbcfead4b83cd"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a093h"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "44ef325c004b45639b9c4b7ddda1934c"
+    },
+    "entity": {
+      "$bytes": "d321cef76dd7452784c04acc158efb70"
+    },
+    "from": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "to": {
+      "$bytes": "b9a81a6b17974b6c8ddbbcfead4b83cd"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f3d7dd479fd4495d9fcd35d212bbb2e1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Publication coverage\n\nThis initial table contains the grade-one SAT 10 impact in scaled-score points. The reviewed extraction includes 33 outcome contrasts (63 native or standardized representations); the remaining results are not yet published here.\n\nMatched delivery costs and complete program, implementation and measurement-concept links remain unresolved. No cost-effectiveness ranking is supported by this pilot.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3e3df9e4b2344f9bbed7cc5183ceb2fa"
+    },
+    "entity": {
+      "$bytes": "759273d6513844849dbaf0baf902e619"
+    },
+    "from": {
+      "$bytes": "f3d7dd479fd4495d9fcd35d212bbb2e1"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07ZS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d12fd536f3ef424fa64ca253db4b236f"
+    },
+    "entity": {
+      "$bytes": "cb74f3b0e5854af481fe8acda8edf7c4"
+    },
+    "from": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "to": {
+      "$bytes": "f3d7dd479fd4495d9fcd35d212bbb2e1"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading First grade 1 comprehension impact: SAT 10 points (2005-2007)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Adjusted reading-comprehension impact pooled across three spring assessments. The confidence interval includes zero; the estimate is not evidence of exactly no effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "474"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "272"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "60e8b11660d04c94b1e1ebe4321bedcf"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-63"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "2b6e1e8fa3324dc08e9b9051f3dee669"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1011"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6463e2fdc01a4b0694e40ccc499f6eca"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "95"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = 0.083",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading comprehension scaled score (SAT 10 reading comprehension)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "SAT 10 scaled-score points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Spring 2005, 2006 and 2007 pooled",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Regression-adjusted impact of Reading First funding, averaged across sites in proportion to their number of Reading First sample schools.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 2.5, printed p. 25 (PDF p. 54); Exhibit D.1, printed p. D-2 (PDF p. 192)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8aef1fb0c9054d83a6c9d33ca74418d0"
+    },
+    "entity": {
+      "$bytes": "88783af9c60e40779a8280f32791f4ab"
+    },
+    "from": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06CR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7a6ce966182048a5aa583631e2e6e9d3"
+    },
+    "entity": {
+      "$bytes": "56ec745132034238a35d526f5fc98b73"
+    },
+    "from": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "to": {
+      "$bytes": "c66d539b68a54250889bee59b97fcfc0"
+    },
+    "relationType": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "position": "a06KN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0591c00f8e8a47448d51e74ed504b5ef"
+    },
+    "entity": {
+      "$bytes": "765802227b3c45f9ad728e9750916cee"
+    },
+    "from": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "to": {
+      "$bytes": "02b361941ec44410a2d188935d49673c"
+    },
+    "relationType": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "position": "a030H"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "54899e7af21743418d2f21e147103d42"
+    },
+    "entity": {
+      "$bytes": "3dabd1a930bb4be5b15dcc13be8674a9"
+    },
+    "from": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "to": {
+      "$bytes": "70384a088b554109b0a8c581c4dd9071"
+    },
+    "relationType": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "position": "a00KP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5e1e0a5f4aa64fdbbb1bfd17a10a11f5"
+    },
+    "entity": {
+      "$bytes": "e85f3cbf69a541cf9dea8040dcaba62c"
+    },
+    "from": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "to": {
+      "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08ux"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fc4b2c96c1fc4d8c96feff9ba6877d78"
+    },
+    "entity": {
+      "$bytes": "b456adb21d094a34a61c2b65aae5edd4"
+    },
+    "from": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "to": {
+      "$bytes": "db0ea33548454e1780c78231066b7d71"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a032l"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "354e3d22048b4caeb4b8885fbeeb1e6e"
+    },
+    "entity": {
+      "$bytes": "d5e95ff9738a4a21a4b147ca7ca4acae"
+    },
+    "from": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "to": {
+      "$bytes": "0093d90725d94cb08903515673538d40"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a00rr"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2da658d2d7f54e5dabc5f9b63fdba8c6"
+    },
+    "entity": {
+      "$bytes": "26dc21a3447b412fb3ce05ddd754517e"
+    },
+    "from": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "to": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a01uP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1a37251fee0546c39b39e79a681259e5"
+    },
+    "entity": {
+      "$bytes": "cc9111ef500648c895ad0fca316683e9"
+    },
+    "from": {
+      "$bytes": "afb866bcc2064a58a07e0fd2b3fedd2b"
+    },
+    "to": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0"
+  }
+]

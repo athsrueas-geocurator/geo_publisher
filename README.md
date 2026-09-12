@@ -5,16 +5,20 @@ This repo is an opinionated Geo publishing toolchain built on `@geoprotocol/geo-
 The core design choice is simple: **always stay aligned with the live graph schema and ontology**.
 We do not hardcode assumptions and hope they remain valid. We check the live API shape, verify mapping decisions against live type schema, and fail early when drift appears.
 
-## Why this repo works
+## Education publishing entry point
 
-This repository works reliably because it enforces four guardrails:
+For new collections of existing research Claims, follow [the shared collection workflow](docs/education-collection-workflow.md). It provides structured plan/source-fact/review inputs, live preparation checks, stable IDs and positions, and hash-bound review evidence. Start with `bun run education:test-workflow`, `bun run education:check-readiness`, and `bun run typecheck`. `bun run education:status` reports local publication and reconciliation evidence separately. Data publishing is currently paused; these commands do not authorize resuming it.
+
+## Existing workflow boundaries
+
+The Course/Lesson workflow supplies these checks. They are not a repository-wide guarantee and do not certify research accuracy:
 
 1. **Schema guardrail**: query scripts check required GraphQL fields/args before making deep calls.
 2. **Ontology guardrail**: mapping proposals are generated from live type schema, not guessed from CSV headers alone.
 3. **Publish guardrail**: publish scripts block on pending mapping decisions, schema drift, content-policy violations, and broken URLs.
 4. **Taxonomy guardrail**: prepublish checks compare proposed Goals/Skills/Topics/Tags/Roles/Stages against canonical AI taxonomy entities and flag likely duplicates.
 
-The result is fewer broken publishes and fewer edits that create invalid graph structure.
+Education's historical bespoke scripts have different coverage. Read [the reliability review](docs/publisher-reliability-review.md) for confirmed failures and the checks now in place; never use payload equality as proof that a source supports the content.
 
 ## Setup
 
@@ -41,10 +45,10 @@ export GEO_API_ENDPOINT="https://api-testnet.geobrowser.io/graphql"
 ## Repository map
 
 Official Geo agent skills (submodule, do not copy/edit):
-- `vendor/geo-skills` — https://github.com/geobrowser/geo-skills (`geo-query`, `geo-publish`)
+- `vendor/geo-skills` — https://github.com/geo-explorers/content-management (`geo-query`, `geo-publish`, `ontology-advisor`)
 - After clone: `bun run skills:init` then `bun run skills:link` (junctions into `.opencode/skills/`)
 - Update pinned skills: `bun run skills:update`
-- Alternate harness install (does not replace the submodule): `npx skills add geobrowser/geo-skills`
+- Alternate harness install (does not replace the submodule): `npx skills add geo-explorers/content-management`
 
 - `src/geo-api-client.ts` - shared GraphQL transport and error normalization
 - `src/functions.ts` - `gql`, `publishOps`, and op serialization helpers
@@ -252,6 +256,8 @@ Additional publish-time checks:
 This is intentionally conservative so agents do not create near-duplicate entities on-chain.
 
 ## Daily command flow
+
+Run `bun run typecheck` for an offline TypeScript check of root entrypoints, `src`, and `scripts`. This does not publish or validate live API/indexing behavior.
 
 Use this sequence for safe iteration:
 

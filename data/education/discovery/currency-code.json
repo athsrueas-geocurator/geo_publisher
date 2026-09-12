@@ -1,0 +1,29 @@
+{
+  "term": "Currency code",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:01:29.143Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "6e7371ca96cb44348f16932f77f55e75",
+      "name": "Currency code",
+      "description": "ISO 4217 three-letter currency code.",
+      "spaceIds": [
+        "84a679ce188f061ac9a92380bac2bab5"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNmU3MzcxY2EtOTZjYi00NDM0LThmMTYtOTMyZjc3ZjU1ZTc1Il1d"
+    }
+  ]
+}

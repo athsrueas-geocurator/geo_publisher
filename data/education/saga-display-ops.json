@@ -1,0 +1,459 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3f178d30985c477094dbdd90937d8268"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated a year-one math ITT effect of 0.091 standard deviations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention-to-treat estimate; standard error 0.035; outcome-complete N=1852. Table 3, p. 749, panel A. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9cfaa5763efb4651bbc197286ce72c08"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated a year-one math TOT effect of 0.179 standard deviations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Treatment-on-the-treated estimate; standard error 0.066; outcome-complete N=1852. Table 3, p. 749, panel A. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "36570925385b495e9de1777b82d01b9b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 2 estimated a year-one math ITT effect of 0.135 standard deviations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention-to-treat estimate; standard error 0.036; outcome-complete N=1865. Table 4, p. 750, panel A. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "604fb6007d6a4cc5ab52d489c9dc17bd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 2 estimated a year-one math TOT effect of 0.398 standard deviations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Treatment-on-the-treated estimate; standard error 0.105; outcome-complete N=1865. Table 4, p. 750, panel A. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3fd5a3e82ccb4267bde900ce82fc077e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Math effects: compare within each trial",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2e39fd2ab8044ac1b54cf5b5fe96c6fb"
+    },
+    "entity": {
+      "$bytes": "31830b0285754cd1bd6c58f14c89808d"
+    },
+    "from": {
+      "$bytes": "3fd5a3e82ccb4267bde900ce82fc077e"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00V7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4aaa6ba5def1452fa961a817ef77a47e"
+    },
+    "entity": {
+      "$bytes": "e4c2ef412fc24b60a58ad8ea553cf632"
+    },
+    "from": {
+      "$bytes": "3fd5a3e82ccb4267bde900ce82fc077e"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a07Pq"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eb4c9e92c416422ca345d95bcbf303b6"
+    },
+    "entity": {
+      "$bytes": "80167d8e9d17489c9e59f40e21efc2b1"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "3fd5a3e82ccb4267bde900ce82fc077e"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a04BX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "996eef3a398d47339d1ad2f7bda02cb2"
+    },
+    "entity": {
+      "$bytes": "348e1a35a12c42b89b398452817d09b5"
+    },
+    "from": {
+      "$bytes": "80167d8e9d17489c9e59f40e21efc2b1"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a0BoJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9eb7406391e64b1b81a8791de3ddf47b"
+    },
+    "entity": {
+      "$bytes": "10787835e3eb421c992c219f5da545b2"
+    },
+    "from": {
+      "$bytes": "80167d8e9d17489c9e59f40e21efc2b1"
+    },
+    "to": {
+      "$bytes": "a126ca530c8e48d5b88882c734c38935"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "825e4a3566b143a7971d86afdd7f729e"
+    },
+    "entity": {
+      "$bytes": "95d9091299f64f02910249ea0e03764e"
+    },
+    "from": {
+      "$bytes": "80167d8e9d17489c9e59f40e21efc2b1"
+    },
+    "to": {
+      "$bytes": "03b87ec1e71f410db566c7f12920283d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b2cbc936efa2484bb3247bc21a0d87b7"
+    },
+    "entity": {
+      "$bytes": "0c866a266ab04a43bf05b02a111045c7"
+    },
+    "from": {
+      "$bytes": "80167d8e9d17489c9e59f40e21efc2b1"
+    },
+    "to": {
+      "$bytes": "ba643714da274c37a340a7f8396198dc"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2afcddb538384ab4a183575448938768"
+    },
+    "entity": {
+      "$bytes": "c1d06ef27e384f4ebd2fc6e528d841bb"
+    },
+    "from": {
+      "$bytes": "80167d8e9d17489c9e59f40e21efc2b1"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6ae224140aac44e7917153af739bca16"
+    },
+    "entity": {
+      "$bytes": "d86beb44e77543538074db1dc308824f"
+    },
+    "from": {
+      "$bytes": "80167d8e9d17489c9e59f40e21efc2b1"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0334eff98496421f910b50b267c1da49"
+    },
+    "entity": {
+      "$bytes": "3f0c00e2b1664929ba51349ef9a88bc6"
+    },
+    "from": {
+      "$bytes": "80167d8e9d17489c9e59f40e21efc2b1"
+    },
+    "to": {
+      "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0c2f16ddb9374614ac21ebab3eca125f"
+    },
+    "entity": {
+      "$bytes": "9a7e1c49af6247df93ac337d5b3b8732"
+    },
+    "from": {
+      "$bytes": "80167d8e9d17489c9e59f40e21efc2b1"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9824228065a94270b12ddf282cfbe222"
+    },
+    "entity": {
+      "$bytes": "6e8daa0faa074047b943a4c401dd36e1"
+    },
+    "from": {
+      "$bytes": "80167d8e9d17489c9e59f40e21efc2b1"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8908908976f9412cb0278767856d88da"
+    },
+    "entity": {
+      "$bytes": "5b434e5a160e49f39f691a79e894c4d4"
+    },
+    "from": {
+      "$bytes": "3fd5a3e82ccb4267bde900ce82fc077e"
+    },
+    "to": {
+      "$bytes": "3f178d30985c477094dbdd90937d8268"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bc1211db027d4e3492f3fc6c30213912"
+    },
+    "entity": {
+      "$bytes": "90ea1007b8ce41019e82de422ef2c6a5"
+    },
+    "from": {
+      "$bytes": "3fd5a3e82ccb4267bde900ce82fc077e"
+    },
+    "to": {
+      "$bytes": "9cfaa5763efb4651bbc197286ce72c08"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8b59c5fbefde4434bbb039f47aa217e8"
+    },
+    "entity": {
+      "$bytes": "19f74d637693402d81f3c241bed02fed"
+    },
+    "from": {
+      "$bytes": "3fd5a3e82ccb4267bde900ce82fc077e"
+    },
+    "to": {
+      "$bytes": "36570925385b495e9de1777b82d01b9b"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6352abaa4a1a42119d63017ccf78e1eb"
+    },
+    "entity": {
+      "$bytes": "8e5759352608448b820d8d4b4bde46d7"
+    },
+    "from": {
+      "$bytes": "3fd5a3e82ccb4267bde900ce82fc077e"
+    },
+    "to": {
+      "$bytes": "604fb6007d6a4cc5ab52d489c9dc17bd"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a3"
+  }
+]

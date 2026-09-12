@@ -1,0 +1,71 @@
+{
+  "term": "safety",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:41.235Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "07e43cd323654c5da93f29c606dc7c37",
+      "name": "Safety",
+      "description": "Research topic (Topic).",
+      "spaceIds": [
+        "baddbe29ee5c1764925996eafba6d00f"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    },
+    {
+      "id": "82851847f0a442ccb66087a066123614",
+      "name": "Safety",
+      "description": "IOM quality aim: avoiding harm to patients from the care intended to help them.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546",
+        "969a46205eccfd9cfe837ac09fff596b",
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        },
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        },
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        },
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        }
+      ]
+    },
+    {
+      "id": "8f2e6d2a994d434f8913cf7271af8984",
+      "name": "Safety",
+      "description": "Practices aimed at minimizing risks in AI systems. Essential for responsible deployment.",
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOGYyZTZkMmEtOTk0ZC00MzRmLTg5MTMtY2Y3MjcxYWY4OTg0Il1d"
+    }
+  ]
+}

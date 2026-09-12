@@ -1,0 +1,45 @@
+{
+  "sourceDoi": "10.1257/aer.20210434",
+  "sourceUrl": "https://educationlab.uchicago.edu/wp-content/uploads/sites/3/2023/10/UChicago-Education-Lab-Not-Too-Late-Paper_03.23.pdf",
+  "sourcePages": "Printed pp. 740–743, including footnotes 6 and 10",
+  "organization": {
+    "name": "Saga Education",
+    "types": ["9547f4fb78744de0a9a9fdd7b4c01c0c", "484a18c5030a499cb0f2ef588ff16d50"],
+    "description": "A nonprofit supporting high-impact tutoring in U.S. schools. Formerly SAGA Innovations, it developed from Match Education's tutoring work.",
+    "website": "https://saga.org/"
+  },
+  "program": {
+    "name": "Saga high-dosage math tutoring (Chicago trial model)",
+    "type": "2f3e568ca8cb4d6ea130829c3012648f",
+    "description": "In-school tutoring evaluated in two Chicago high-school trials. The studied model paired one tutor with two students for daily math instruction.",
+    "markdown": "## Studied delivery model\n\nStudents received 50-minute sessions each school day, combining remedial and grade-level mathematics with frequent assessments. Paraprofessional tutors worked with two students; tutoring supplemented regular math classes. Its timetable displaced different courses in the two trials.\n\n## Provider history and scope\n\nThe article calls the developer Saga Education and explains its origins in Match Education, its spin-off as SAGA Innovations, and its 2019 name change. The provider link identifies that organization and program lineage; it does not assert that the current legal organization operated independently throughout the first trial. This record represents the studied Chicago model, not every later Saga service or technology-assisted variant.\n\n## Evidence\n\n[Final journal article](https://doi.org/10.1257/aer.20210434), printed pp. 740–743. The two trials have distinct study records. Their costs retain an unverified price year; no new efficiency metric is inferred."
+  },
+  "studyType": "3ef269bc5f114691abc02dcbf398fd63",
+  "providersProperty": "261fad421cc744938acbaa4a4c74220c",
+  "populationProperty": "7a1f6d017895206e84e1988c0c74621e",
+  "designProperty": "8e46e3eff9dea2b55d32a5ca7de61938",
+  "chicagoId": "e82f3bfc991a4578aa8b7a503640b95e",
+  "studies": [
+    {
+      "key": "1",
+      "name": "Saga Chicago tutoring study 1 (2013–2014)",
+      "description": "A randomized tutoring evaluation in 12 Chicago public high schools beginning in the 2013–2014 school year. Its male-student sample also underwent independent randomization to Becoming a Man.",
+      "design": "Randomized controlled trial; 2 × 2 factorial assignment with independent Becoming a Man assignment",
+      "population": "Male students entering grades 9 or 10 in selected Chicago public high schools, 2013–2014",
+      "followup": "Year-one estimates: 2013–2014 academic year; tutoring offer up to two years",
+      "locator": "Printed pp. 741–743; Table 3, p. 749",
+      "markdown": "## Sample and comparison\n\nThe trial randomized 2,633 students before school entry. Usual school supports remained available to controls. The outcome-complete sample sizes on the linked estimates are not total randomized enrollment.\n\n## Source\n\n[Final journal article](https://doi.org/10.1257/aer.20210434), printed pp. 741–743 and Table 3."
+    },
+    {
+      "key": "2",
+      "name": "Saga Chicago tutoring study 2 (2014–2015)",
+      "description": "A separate randomized tutoring evaluation in 15 Chicago public high schools during 2014–2015. The sample included female and male students and retained duplicate randomization records.",
+      "design": "Randomized controlled trial; one-year tutoring offer; no independent Becoming a Man randomization",
+      "population": "Female and male students, mostly entering grade 9 with some grade 10, in selected Chicago public high schools, 2014–2015",
+      "followup": "Year-one estimates: 2014–2015 academic year; tutoring offer one year",
+      "locator": "Printed pp. 741–743, footnote 10; Table 4, p. 750",
+      "markdown": "## Sample and comparison\n\nThe trial involved 2,645 students but 2,710 randomization records because 65 students were randomized twice. Analyses retained those records and clustered standard errors by student. Controls could receive usual school supports.\n\n## Source\n\n[Final journal article](https://doi.org/10.1257/aer.20210434), printed p. 743, footnote 10, and Table 4."
+    }
+  ],
+  "mappingLimits": "Service is the studied tutoring delivery model, not the provider organization or a Study. The imported Saga-style/technology-infused umbrella remains a separate unresolved record. Specific school/operator identities, grade entities, shared cohort relations, delivery-dose properties and remaining outcomes still require mapping. Do not assign 2710 as a count of distinct students."
+}

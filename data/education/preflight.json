@@ -1,0 +1,156 @@
+{
+  "checkedAt": "2026-09-12T13:59:31.970Z",
+  "network": "Geo Testnet",
+  "targetSpaceId": "dac259bad48a11adf97fe36857d85206",
+  "personalSpaces": [
+    {
+      "id": "d00460c203779d21d96fcfc6102d7a72",
+      "type": "PERSONAL"
+    }
+  ],
+  "editor": true,
+  "member": true,
+  "governance": {
+    "id": "dac259bad48a11adf97fe36857d85206",
+    "type": "DAO",
+    "topic": {
+      "id": "16a032fb91794444859a6c1a44a32955",
+      "name": "Education datasets"
+    },
+    "members": {
+      "nodes": [
+        {
+          "memberSpaceId": "1310f810454cd482e35ce81cb86ca383"
+        },
+        {
+          "memberSpaceId": "d00460c203779d21d96fcfc6102d7a72"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZDAwNDYwYzItMDM3Ny05ZDIxLWQ5NmYtY2ZjNjEwMmQ3YTcyIiwiZGFjMjU5YmEtZDQ4YS0xMWFkLWY5N2YtZTM2ODU3ZDg1MjA2Il1d"
+      }
+    },
+    "editors": {
+      "nodes": [
+        {
+          "memberSpaceId": "1310f810454cd482e35ce81cb86ca383"
+        },
+        {
+          "memberSpaceId": "d00460c203779d21d96fcfc6102d7a72"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZDAwNDYwYzItMDM3Ny05ZDIxLWQ5NmYtY2ZjNjEwMmQ3YTcyIiwiZGFjMjU5YmEtZDQ4YS0xMWFkLWY5N2YtZTM2ODU3ZDg1MjA2Il1d"
+      }
+    },
+    "spaceVotingSetting": {
+      "duration": "86400",
+      "quorum": "1",
+      "partialPercentageSupportThreshold": "5100000",
+      "universalPercentageSupportThreshold": "5100000",
+      "flatSupportThreshold": "0",
+      "disableFastPathAccessForNewMembers": false,
+      "executionGracePeriod": "604800"
+    },
+    "proposals": [
+      {
+        "id": "0358a55414274fe1aba39983d816fcde",
+        "executedAt": "1789201145",
+        "currentVersion": 1,
+        "proposalVersions": [
+          {
+            "proposalVersion": 1,
+            "votingMode": "FAST",
+            "startTime": "1789201145",
+            "endTime": "1789287545",
+            "executeBy": "1789892345",
+            "quorum": "1",
+            "threshold": "0",
+            "yesCount": "1",
+            "noCount": "0",
+            "abstainCount": "0"
+          }
+        ]
+      },
+      {
+        "id": "03c11c8b0eb34fe9b69bc59da9d2920c",
+        "executedAt": "1789195657",
+        "currentVersion": 1,
+        "proposalVersions": [
+          {
+            "proposalVersion": 1,
+            "votingMode": "FAST",
+            "startTime": "1789195657",
+            "endTime": "1789282057",
+            "executeBy": "1789886857",
+            "quorum": "1",
+            "threshold": "0",
+            "yesCount": "1",
+            "noCount": "0",
+            "abstainCount": "0"
+          }
+        ]
+      },
+      {
+        "id": "03d503fdf8614a938a514493bf24ff7d",
+        "executedAt": "1789183296",
+        "currentVersion": 1,
+        "proposalVersions": [
+          {
+            "proposalVersion": 1,
+            "votingMode": "FAST",
+            "startTime": "1789183296",
+            "endTime": "1789269696",
+            "executeBy": "1789874496",
+            "quorum": "1",
+            "threshold": "0",
+            "yesCount": "1",
+            "noCount": "0",
+            "abstainCount": "0"
+          }
+        ]
+      },
+      {
+        "id": "0446b492361946af8639ffe7b526a5a0",
+        "executedAt": "1789193584",
+        "currentVersion": 1,
+        "proposalVersions": [
+          {
+            "proposalVersion": 1,
+            "votingMode": "FAST",
+            "startTime": "1789193584",
+            "endTime": "1789279984",
+            "executeBy": "1789884784",
+            "quorum": "1",
+            "threshold": "0",
+            "yesCount": "1",
+            "noCount": "0",
+            "abstainCount": "0"
+          }
+        ]
+      },
+      {
+        "id": "059726128b504af9a40af73c82c59d1f",
+        "executedAt": "1789192156",
+        "currentVersion": 1,
+        "proposalVersions": [
+          {
+            "proposalVersion": 1,
+            "votingMode": "FAST",
+            "startTime": "1789192156",
+            "endTime": "1789278556",
+            "executeBy": "1789883356",
+            "quorum": "1",
+            "threshold": "0",
+            "yesCount": "1",
+            "noCount": "0",
+            "abstainCount": "0"
+          }
+        ]
+      }
+    ]
+  },
+  "writesPerformed": false
+}

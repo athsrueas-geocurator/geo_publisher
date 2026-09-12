@@ -1,0 +1,137 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "26aa14b7c05c4b0d86260e3f405b1653"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "EDFacts / Ed Data Express",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "EDFacts provides annual school-, district-, and state-level education data with subgroup detail. It supplies outcome and accountability context; it does not establish an initiative effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://eddataexpress.ed.gov/download/data-builder/data-download-tool",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f47c61f312fe448f8c15db44569d4411"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "EDFacts catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** U.S. Department of Education.\n- **Access:** Custom CSV downloads and released ZIP files with data notes.\n- **Unit:** Education agency or school, annual and subgroup-disaggregated.\n- **Coverage:** Varies by file specification and outcome; record school year and data group.\n- **Join keys:** State, LEA ID, school ID, school year, and subgroup.\n- **Measures:** Assessment, graduation, chronic absence, accountability, CTE, and English-learner progress.\n- **Use boundary:** Preserve file specification, data notes, suppression rules, and denominator with every extract.\n\nEDFacts can provide attendance, graduation, subgroup, implementation, and accountability context. Its released values do not alone establish that a program caused an outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f1b4bddc53de4d338e657d4508409c9e"
+    },
+    "entity": {
+      "$bytes": "b5617976a8b64dacb2acc2f589234864"
+    },
+    "from": {
+      "$bytes": "26aa14b7c05c4b0d86260e3f405b1653"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04Bg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8f187304a83848fe8a42cbce616ba091"
+    },
+    "entity": {
+      "$bytes": "c6c46eb23a8d4527a361fadad6f97ce4"
+    },
+    "from": {
+      "$bytes": "f47c61f312fe448f8c15db44569d4411"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a087U"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eeb8214639074b5f9a9edb2664cc70d1"
+    },
+    "entity": {
+      "$bytes": "2f22131abf654b12b5e7fe6d25f8dae4"
+    },
+    "from": {
+      "$bytes": "26aa14b7c05c4b0d86260e3f405b1653"
+    },
+    "to": {
+      "$bytes": "f47c61f312fe448f8c15db44569d4411"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a00sL"
+  }
+]

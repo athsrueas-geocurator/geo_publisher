@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T16:33:52.221Z",
+  "reviewer": "publisher preparation review",
+  "planHash": "d1f83eaca24086110529b3becf23e65ef31eb1a029527c02206b10c609187a5d",
+  "factsHash": "5c724598400062f40e391623c5feb39a38b6e92390df7cf8cf7f7e230b3fa560",
+  "sources": [
+    {
+      "path": "docs/ethnic-studies-study-notes.md",
+      "sha256": "37d0334ebe58bec0fbc160558cc2dd28e4b68283aae75646c13ce614787ff856",
+      "sourceId": "7cf51d06726242b88157ca3ea1f5b228",
+      "version": "Dee and Penner (2017), local-IV RDD study"
+    }
+  ],
+  "discovery": {
+    "path": "data/education/ethnic-studies-collection-discovery.json",
+    "sha256": "3128105325dcc99639adeccf8d96fe275aeb7e10b944eabb65ebcd994a26e363"
+  },
+  "decisions": {
+    "source": {
+      "status": "accepted",
+      "rationale": "Article identity, DOI and RDD source are documented."
+    },
+    "identity": {
+      "status": "accepted",
+      "rationale": "Complete all-space discovery found only the expected Article and zero incoming memberships."
+    },
+    "content": {
+      "status": "accepted",
+      "rationale": "Facts reuse live Claims and their exact source locators, values and contexts; later expansion rows remain separate."
+    }
+  }
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1387520fa32c42d1bd1d4464d5c91b12"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "RAND modeled a 6.4% internal rate of return for Youth ChalleNGe under its baseline societal model.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "RAND Table 5.1 reports this internal rate of return alongside its 2.66 benefit-cost ratio, using 2010 dollars, a 3% social discount rate, and a 15% tax-deadweight assumption. It is a modeled lifetime societal return, not an observed annual earnings gain or a comparable return for every youth program.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "879d207046024b44be6e3d64c32c60da"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "64"
+            }
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "66df79baba4e4627ae06a0772a0b94a1"
+    },
+    "entity": {
+      "$bytes": "c18fc14dae964116a575bb6fb0cf3a5d"
+    },
+    "from": {
+      "$bytes": "1387520fa32c42d1bd1d4464d5c91b12"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AEI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d783efcdc2e5435a8f7b4e34496e6924"
+    },
+    "entity": {
+      "$bytes": "2920e6b875044d319a63522048d72b10"
+    },
+    "from": {
+      "$bytes": "1387520fa32c42d1bd1d4464d5c91b12"
+    },
+    "to": {
+      "$bytes": "4abdb70198d949288df61d50f0b458cc"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02jb"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "112df5a4a091495eb4f47e9c16bcfc7e"
+    },
+    "entity": {
+      "$bytes": "6e00b13ffc114e8d89a98a5fa3328be9"
+    },
+    "from": {
+      "$bytes": "1387520fa32c42d1bd1d4464d5c91b12"
+    },
+    "to": {
+      "$bytes": "c52c01e8bab14e64b56b8ceb7c244da5"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02JX"
+  }
+]

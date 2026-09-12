@@ -1,0 +1,212 @@
+[
+  {
+    "key": "education-years/all",
+    "id": "f10830673c5e4f079c83698e147189e8",
+    "before": {
+      "name": "School-finance reforms: Years of education (all, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model estimated more completed schooling from higher spending for sampled U.S. children.",
+      "description": "Preferred IV coefficient 3.1488 years per unit increase in natural-log school-age per-pupil spending (district-clustered SE 0.7906; p <0.01; Table III, p. 191). These are reform-based model estimates for the sampled 1955–1985 birth cohorts, not randomized trial effects."
+    },
+    "coefficient": "3.1488",
+    "standardError": "0.7906"
+  },
+  {
+    "key": "education-years/low-income",
+    "id": "12495ccb45fd44699425a6e5b026f00a",
+    "before": {
+      "name": "School-finance reforms: Years of education (low-income, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model estimated more completed schooling from higher spending for children in its low-income group.",
+      "description": "Preferred IV coefficient 4.5899 years per unit increase in natural-log school-age per-pupil spending (district-clustered SE 1.2072; p <0.01; Table III, p. 191). This group had parental family income below twice the poverty line in at least one childhood year."
+    },
+    "coefficient": "4.5899",
+    "standardError": "1.2072"
+  },
+  {
+    "key": "education-years/nonpoor",
+    "id": "6511d55226594a618934510e406bc5e2",
+    "before": {
+      "name": "School-finance reforms: Years of education (nonpoor, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model did not establish that higher spending increased completed schooling for children in its nonpoor group.",
+      "description": "Preferred IV coefficient 0.7156 years per unit increase in natural-log school-age per-pupil spending (district-clustered SE 1.3193; Table III, p. 191). This group never had parental family income below twice the poverty line during measured childhood."
+    },
+    "coefficient": "0.7156",
+    "standardError": "1.3193"
+  },
+  {
+    "key": "high-school-graduation/all",
+    "id": "22b00bc01de44607b4b193545c740333",
+    "before": {
+      "name": "School-finance reforms: Probability of high school graduation (all, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model estimated a higher probability of high-school graduation from higher spending for sampled U.S. children.",
+      "description": "Preferred IV coefficient 0.7053 probability units per unit increase in natural-log school-age per-pupil spending (district-clustered SE 0.1436; p <0.01; Table III, p. 191). These are reform-based model estimates for the sampled 1955–1985 birth cohorts, not randomized trial effects."
+    },
+    "coefficient": "0.7053",
+    "standardError": "0.1436"
+  },
+  {
+    "key": "high-school-graduation/low-income",
+    "id": "b2d5cd4a6e5b4ca39fa8898060a1948e",
+    "before": {
+      "name": "School-finance reforms: Probability of high school graduation (low-income, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model estimated a higher probability of high-school graduation from higher spending for children in its low-income group.",
+      "description": "Preferred IV coefficient 0.9878 probability units per unit increase in natural-log school-age per-pupil spending (district-clustered SE 0.2744; p <0.01; Table III, p. 191). This group had parental family income below twice the poverty line in at least one childhood year."
+    },
+    "coefficient": "0.9878",
+    "standardError": "0.2744"
+  },
+  {
+    "key": "high-school-graduation/nonpoor",
+    "id": "291cf6b1205044baaf3f4f8ce364775c",
+    "before": {
+      "name": "School-finance reforms: Probability of high school graduation (nonpoor, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model did not establish that higher spending increased high-school graduation for children in its nonpoor group.",
+      "description": "Preferred IV coefficient 0.2470 probability units per unit increase in natural-log school-age per-pupil spending (district-clustered SE 0.1757; Table III, p. 191). This group never had parental family income below twice the poverty line during measured childhood."
+    },
+    "coefficient": "0.2470",
+    "standardError": "0.1757"
+  },
+  {
+    "key": "adult-log-wages/all",
+    "id": "51b8df20e0d24b339d7a3ae5d9ee8a39",
+    "before": {
+      "name": "School-finance reforms: Log wages, ages 20–45 (all, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model estimated higher wages at ages 20–45 from higher spending for sampled U.S. children.",
+      "description": "Preferred IV coefficient 0.7743 log-wage units per unit increase in natural-log school-age per-pupil spending (district-clustered SE 0.1959; p <0.01; Table IV, p. 198). These are reform-based model estimates for the sampled 1955–1985 birth cohorts, not randomized trial effects."
+    },
+    "coefficient": "0.7743",
+    "standardError": "0.1959"
+  },
+  {
+    "key": "adult-log-wages/low-income",
+    "id": "767caa10f6c34143bbca6ac7359f374d",
+    "before": {
+      "name": "School-finance reforms: Log wages, ages 20–45 (low-income, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model estimated higher wages at ages 20–45 from higher spending for children in its low-income group.",
+      "description": "Preferred IV coefficient 0.9598 log-wage units per unit increase in natural-log school-age per-pupil spending (district-clustered SE 0.3003; p <0.01; Table IV, p. 198). This group had parental family income below twice the poverty line in at least one childhood year."
+    },
+    "coefficient": "0.9598",
+    "standardError": "0.3003"
+  },
+  {
+    "key": "adult-log-wages/nonpoor",
+    "id": "04944747256442ee820713d9f091f225",
+    "before": {
+      "name": "School-finance reforms: Log wages, ages 20–45 (nonpoor, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model did not establish that higher spending increased wages at ages 20–45 for children in its nonpoor group.",
+      "description": "Preferred IV coefficient 0.5525 log-wage units per unit increase in natural-log school-age per-pupil spending (district-clustered SE 0.4461; Table IV, p. 198). This group never had parental family income below twice the poverty line during measured childhood."
+    },
+    "coefficient": "0.5525",
+    "standardError": "0.4461"
+  },
+  {
+    "key": "adult-log-family-income/all",
+    "id": "e068b0ffe67d4e21b6547932dc51dcf7",
+    "before": {
+      "name": "School-finance reforms: Log family income, ages 20–45 (all, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model estimated higher family income at ages 20–45 from higher spending for sampled U.S. children.",
+      "description": "Preferred IV coefficient 0.9819 log-income units per unit increase in natural-log school-age per-pupil spending (district-clustered SE 0.2849; p <0.01; Table IV, p. 198). These are reform-based model estimates for the sampled 1955–1985 birth cohorts, not randomized trial effects."
+    },
+    "coefficient": "0.9819",
+    "standardError": "0.2849"
+  },
+  {
+    "key": "adult-log-family-income/low-income",
+    "id": "dd6a0e20de474076881cea3ef6008a55",
+    "before": {
+      "name": "School-finance reforms: Log family income, ages 20–45 (low-income, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model estimated higher family income at ages 20–45 from higher spending for children in its low-income group.",
+      "description": "Preferred IV coefficient 1.7146 log-income units per unit increase in natural-log school-age per-pupil spending (district-clustered SE 0.3585; p <0.01; Table IV, p. 198). This group had parental family income below twice the poverty line in at least one childhood year."
+    },
+    "coefficient": "1.7146",
+    "standardError": "0.3585"
+  },
+  {
+    "key": "adult-log-family-income/nonpoor",
+    "id": "41c9968713154767ab89d6ebe0a604f2",
+    "before": {
+      "name": "School-finance reforms: Log family income, ages 20–45 (nonpoor, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model did not establish that higher spending increased family income at ages 20–45 for children in its nonpoor group.",
+      "description": "Preferred IV coefficient 0.2021 log-income units per unit increase in natural-log school-age per-pupil spending (district-clustered SE 0.4223; Table IV, p. 198). This group never had parental family income below twice the poverty line during measured childhood."
+    },
+    "coefficient": "0.2021",
+    "standardError": "0.4223"
+  },
+  {
+    "key": "adult-poverty/all",
+    "id": "63dda8743a5745eaa9e6403889fdd3c3",
+    "before": {
+      "name": "School-finance reforms: Probability of poverty, ages 20–45 (all, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model estimated less poverty at ages 20–45 from higher spending for sampled U.S. children.",
+      "description": "Preferred IV coefficient -0.2678 probability units per unit increase in natural-log school-age per-pupil spending (district-clustered SE 0.0710; p <0.01; Table V, p. 203). These are reform-based model estimates for the sampled 1955–1985 birth cohorts, not randomized trial effects."
+    },
+    "coefficient": "-0.2678",
+    "standardError": "0.0710"
+  },
+  {
+    "key": "adult-poverty/low-income",
+    "id": "563ddf93c85241c3b5e8011a81f03edd",
+    "before": {
+      "name": "School-finance reforms: Probability of poverty, ages 20–45 (low-income, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model estimated less poverty at ages 20–45 from higher spending for children in its low-income group.",
+      "description": "Preferred IV coefficient -0.6132 probability units per unit increase in natural-log school-age per-pupil spending (district-clustered SE 0.1242; p <0.01; Table V, p. 203). This group had parental family income below twice the poverty line in at least one childhood year."
+    },
+    "coefficient": "-0.6132",
+    "standardError": "0.1242"
+  },
+  {
+    "key": "adult-poverty/nonpoor",
+    "id": "e74c03470c274d0c943a5d1c60b7b0ce",
+    "before": {
+      "name": "School-finance reforms: Probability of poverty, ages 20–45 (nonpoor, preferred IV)",
+      "description": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error."
+    },
+    "after": {
+      "name": "The school-finance model did not establish that higher spending reduced poverty at ages 20–45 for children in its nonpoor group.",
+      "description": "Preferred IV coefficient 0.0385 probability units per unit increase in natural-log school-age per-pupil spending (district-clustered SE 0.0850; Table V, p. 203). This group never had parental family income below twice the poverty line during measured childhood."
+    },
+    "coefficient": "0.0385",
+    "standardError": "0.0850"
+  }
+]

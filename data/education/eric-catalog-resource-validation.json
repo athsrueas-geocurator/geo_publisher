@@ -1,0 +1,21 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T09:00:42.787Z",
+  "opsHash": "b31503ff065fb9860ccd347fe6b2723d3fbe5c054a09f74c7ad81338fe21957f",
+  "checks": [
+    "Live Relation property: 8f151ba4de204e3c9cb499ddf96f48f1",
+    "Live Text property: 412ff593e9154012a43d4c27ec5c68b6",
+    "Live Relation property: beaba5cba67741a8b35377030613fc70",
+    "Live Text property: e3e363d1dd294ccb8e6ff3b76d99bc33",
+    "Persistent Dataset ID is unused",
+    "Complete all-space exact-title discovery has no candidate",
+    "Complete all-space specific discovery has no candidate: ERIC database",
+    "Persistent metadata block ID is unused"
+  ],
+  "source": {
+    "catalogKey": "eric",
+    "sourcePath": "data/education/source/research-data/dataset-catalog.json",
+    "officialUrl": "https://ies.ed.gov/use-work/education-research-database-eric"
+  },
+  "scope": "Catalog metadata only. No raw ERIC export, derived outcome, causal claim, initiative effect, or unsupported initiative relation is published."
+}

@@ -1,0 +1,2091 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "038f546c2508401eb3890f0fc6954b53"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Early College, Continued Success: Longer-Term Impact of Early College High Schools",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "AIR’s 2019 Year-10 follow-up of Early College High School admission-lottery applicants.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://files.eric.ed.gov/fulltext/ED602451.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "81a8bb75d07c4debbda82801be17fe6f"
+    },
+    "entity": {
+      "$bytes": "f7bf70626ff447eb9d226475634bf0e6"
+    },
+    "from": {
+      "$bytes": "038f546c2508401eb3890f0fc6954b53"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08Mc"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0b285e99daa5436f8d02e608fea4fb2b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The Costs and Benefits of Early College High Schools",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "AIR’s 2019 source-reported cost-benefit model for six Early College sites and attainment evidence from the 10-school lottery study.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://files.eric.ed.gov/fulltext/ED606242.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e88f7fa6c9df41a0af8179a34fdac805"
+    },
+    "entity": {
+      "$bytes": "8bae104831b84cf2a4132249a3bb7d8b"
+    },
+    "from": {
+      "$bytes": "0b285e99daa5436f8d02e608fea4fb2b"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05GE"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Early College High Schools in AIR's admissions-lottery study",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Early College High Schools in the AIR study: ten admissions-lottery sites in five states, with cost estimates available for six sites.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://files.eric.ed.gov/fulltext/ED602451.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0e3414185d374cb99240f31911fed6dd"
+    },
+    "entity": {
+      "$bytes": "296b93ad92af41f5843c4ddaa486d473"
+    },
+    "from": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06i4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fe563bbf0b954d3e8530b6e1e1856690"
+    },
+    "entity": {
+      "$bytes": "bdc7e77ab62b47f9901e85e69509a48b"
+    },
+    "from": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "to": {
+      "$bytes": "038f546c2508401eb3890f0fc6954b53"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07DF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "efc5addfb25c449ead7db04abf9f0a6b"
+    },
+    "entity": {
+      "$bytes": "c1280aacca384bb0916a90125d6cc7e2"
+    },
+    "from": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "to": {
+      "$bytes": "0b285e99daa5436f8d02e608fea4fb2b"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a041R"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ad84e7d6d67c4afab9aca739c9754312"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "AIR evaluated 2,458 applicants to 10 Early College High Schools using admissions lotteries in five states.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2005–06 through 2007–08 applicant cohorts included 1,044 students offered enrollment and 1,414 not offered. The outcome estimates are intent-to-treat effects of an offer, not separate evidence from the report’s complier analysis.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2458"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Lottery-based intent-to-treat evaluation of an offer of enrollment in 10 Early College High Schools versus no offer; Year 10 is six years after expected high-school graduation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Song et al. (2019), pp. 3–4; Appendix F.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7d28bdfc98144b5eb68487c3f5b4239d"
+    },
+    "entity": {
+      "$bytes": "ee8a4999a4274e90a53820a2f3e88aa8"
+    },
+    "from": {
+      "$bytes": "ad84e7d6d67c4afab9aca739c9754312"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03oi"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6e9710d666fb415ea6bf98c4c31b230a"
+    },
+    "entity": {
+      "$bytes": "7a1e7ccf890b4296a1b98cafcdce2b36"
+    },
+    "from": {
+      "$bytes": "ad84e7d6d67c4afab9aca739c9754312"
+    },
+    "to": {
+      "$bytes": "038f546c2508401eb3890f0fc6954b53"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a061u"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e1ca96d772704dd4b55342b4d09dfcd8"
+    },
+    "entity": {
+      "$bytes": "86b3a2e0bec94a41858f1194f33bcff3"
+    },
+    "from": {
+      "$bytes": "ad84e7d6d67c4afab9aca739c9754312"
+    },
+    "to": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a083O"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "91c94f3b330b4fdabc93641550ad8b7d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "An Early College offer increased any college enrollment by Year 10 by 7.2 percentage points (84.2% versus 77.0%; p < .001).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is the intent-to-treat effect of being offered enrollment in the 10-school lottery study. It measures any postsecondary enrollment by Year 10, not degree completion or an effect for every Early College model.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2458"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point intent-to-treat difference in any college enrollment by Year 10, offer minus no offer.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit F-1, PDF p. 76.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "72"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "< .001",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f6ddde0e968444f1b1b52ee39897d6fc"
+    },
+    "entity": {
+      "$bytes": "9968f980cc1742a4b5b49dc6b2f22993"
+    },
+    "from": {
+      "$bytes": "91c94f3b330b4fdabc93641550ad8b7d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01KI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9e0ffd75c35740949f6c220cd3a4347e"
+    },
+    "entity": {
+      "$bytes": "3cb3687064574161b4efdc12192c792f"
+    },
+    "from": {
+      "$bytes": "91c94f3b330b4fdabc93641550ad8b7d"
+    },
+    "to": {
+      "$bytes": "038f546c2508401eb3890f0fc6954b53"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04HM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b94e9052b3cc405db1e86c86f44cfab1"
+    },
+    "entity": {
+      "$bytes": "a635612a4589481c9acb7574d97652ad"
+    },
+    "from": {
+      "$bytes": "91c94f3b330b4fdabc93641550ad8b7d"
+    },
+    "to": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0ASC"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "aba7c2b614334f42a245f910c8058bcf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "An Early College offer increased any postsecondary degree by Year 10 by 11.9 percentage points (45.4% versus 33.5%; p < .001).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This intent-to-treat estimate covers any postsecondary degree in the lottery-study sample. It does not isolate a particular Early College component or establish a lifetime earnings effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2458"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point intent-to-treat difference in earning any postsecondary degree by Year 10, offer minus no offer.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit F-3, PDF p. 79.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "119"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "< .001",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "12e94fae93a8435190a4e5d1c2fa46b2"
+    },
+    "entity": {
+      "$bytes": "afff8998c73145499a949112cb1145ed"
+    },
+    "from": {
+      "$bytes": "aba7c2b614334f42a245f910c8058bcf"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02ww"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "02d0b2d090174669a5184b0f5400ff01"
+    },
+    "entity": {
+      "$bytes": "343b047aaa574526af4d6063dc923354"
+    },
+    "from": {
+      "$bytes": "aba7c2b614334f42a245f910c8058bcf"
+    },
+    "to": {
+      "$bytes": "038f546c2508401eb3890f0fc6954b53"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02dt"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c11749ddcb824f878dc267d45388b696"
+    },
+    "entity": {
+      "$bytes": "8cbafed453d446cead393f54723b0305"
+    },
+    "from": {
+      "$bytes": "aba7c2b614334f42a245f910c8058bcf"
+    },
+    "to": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0At6"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "53567bfbab8b49e1a2944244a552a888"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "An Early College offer increased associate-degree or certificate attainment by Year 10 by 18.2 percentage points (29.3% versus 11.1%; p < .001).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is the intent-to-treat effect for associate degrees or certificates in the lottery-study sample. It should not be combined with the bachelor’s estimate as independent study evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2458"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point intent-to-treat difference in associate-degree or certificate attainment by Year 10, offer minus no offer.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit F-3, PDF p. 79.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "182"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "< .001",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "96cb9f6c8e7d43b49ee196af70c72dbe"
+    },
+    "entity": {
+      "$bytes": "53ce1393f17b493da54d9a4b75ac0b9b"
+    },
+    "from": {
+      "$bytes": "53567bfbab8b49e1a2944244a552a888"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08du"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "becd9ca784cd44139e6193e8f99663c0"
+    },
+    "entity": {
+      "$bytes": "e845aa69113d4fc0bffc5292c7412ac4"
+    },
+    "from": {
+      "$bytes": "53567bfbab8b49e1a2944244a552a888"
+    },
+    "to": {
+      "$bytes": "038f546c2508401eb3890f0fc6954b53"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04Y3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9a8bdcdd9d0a4eb3acd36c79eeb64032"
+    },
+    "entity": {
+      "$bytes": "7367b92fb7d74a5f886e8e93fd2de93e"
+    },
+    "from": {
+      "$bytes": "53567bfbab8b49e1a2944244a552a888"
+    },
+    "to": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01OF"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5304d1e175894c56b9149cb0572d2e4d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "An Early College offer increased bachelor’s-degree attainment by Year 10 by 5.2 percentage points (30.1% versus 24.9%; p = .037).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is the intent-to-treat bachelor’s-degree result from the same lottery evaluation and horizon as the other attainment records. It is not a separate replication.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2458"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point intent-to-treat difference in bachelor’s-degree attainment by Year 10, offer minus no offer.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit F-3, PDF p. 79.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "52"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "= .037",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b7f616d482ab487f9e6a5c4f0dbd3675"
+    },
+    "entity": {
+      "$bytes": "103ee371b2c94da5a638c3e89a204288"
+    },
+    "from": {
+      "$bytes": "5304d1e175894c56b9149cb0572d2e4d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Ai0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "300f7de2821d4cdc85479f79958c6a71"
+    },
+    "entity": {
+      "$bytes": "82d265eb5cd143858fef59ee61dbec9f"
+    },
+    "from": {
+      "$bytes": "5304d1e175894c56b9149cb0572d2e4d"
+    },
+    "to": {
+      "$bytes": "038f546c2508401eb3890f0fc6954b53"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02sR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "de82af1086664b73b1b86d7f5df56c2d"
+    },
+    "entity": {
+      "$bytes": "c671044f641a42d48bd60214073d513f"
+    },
+    "from": {
+      "$bytes": "5304d1e175894c56b9149cb0572d2e4d"
+    },
+    "to": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08AK"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f0866aef191c4ae8a83a2471a23b977c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "An Early College offer showed a 0.8-point difference in four-year-college enrollment by Year 10 (57.6% versus 56.7%; p = .744).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report’s intent-to-treat estimate is not statistically distinguishable from zero for this outcome. It does not negate the study’s other enrollment and degree findings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2458"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point intent-to-treat difference in enrollment at a four-year college by Year 10, offer minus no offer.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit F-1, PDF p. 76.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "8"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "= .744",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0eb756db9bbd4282ac9c32bebf01ea4b"
+    },
+    "entity": {
+      "$bytes": "f73b8122afea41c8b01e4b16da6590b3"
+    },
+    "from": {
+      "$bytes": "f0866aef191c4ae8a83a2471a23b977c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02A2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "37ed1e3fb3924fc482e59aeee4e8bcfc"
+    },
+    "entity": {
+      "$bytes": "3c4c8e3445744800a2a699b0bccf91f6"
+    },
+    "from": {
+      "$bytes": "f0866aef191c4ae8a83a2471a23b977c"
+    },
+    "to": {
+      "$bytes": "038f546c2508401eb3890f0fc6954b53"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a00MP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ce46e9a5027748d89c7952d7a349f84f"
+    },
+    "entity": {
+      "$bytes": "021ecba396c2474abb392d9e29c1221c"
+    },
+    "from": {
+      "$bytes": "f0866aef191c4ae8a83a2471a23b977c"
+    },
+    "to": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05Ab"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "990470a979454286be0fdccf78b0bebf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "AIR’s model estimated $57,682 in lifetime private and public benefits per Early College student (2017 dollars).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is a source-reported modeled lifetime value from estimated attainment differences and prior-return studies, not observed earnings. The preferred estimate combines $33,709 private and $23,973 public benefits.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2458"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2017 USD modeled lifetime private and public benefits per Early College student, attributed through estimated postsecondary-attainment differences.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Atchison et al. (2019), Table 1, PDF p. 11.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "57682"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2017"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-reported model value; use the Claim description and locator for benefit/cost scope and assumptions.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ed9ddd97831a4bea9778111814c4c4aa"
+    },
+    "entity": {
+      "$bytes": "44f1972b1c0747f8a3a89afd5231a19a"
+    },
+    "from": {
+      "$bytes": "990470a979454286be0fdccf78b0bebf"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AMp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bbfda8d79b1042efb899cea071c8ed05"
+    },
+    "entity": {
+      "$bytes": "c7f0ed937f494dae8733d7520cbf82bf"
+    },
+    "from": {
+      "$bytes": "990470a979454286be0fdccf78b0bebf"
+    },
+    "to": {
+      "$bytes": "0b285e99daa5436f8d02e608fea4fb2b"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0AHu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "09bf6e9207d84860956afd4a0a7770c1"
+    },
+    "entity": {
+      "$bytes": "34289f0c11554c90bce13edcc89246f8"
+    },
+    "from": {
+      "$bytes": "990470a979454286be0fdccf78b0bebf"
+    },
+    "to": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06Im"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "335b8af106064f938eb110a09bcb958d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "AIR estimated a midpoint additional cost of $3,819 per Early College student over four high-school years (2017 dollars).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The source averages the midpoint yearly cost difference ($955) across six Early College–traditional-high-school comparisons. It includes school spending, college instruction, and incremental dual-enrollment administration, while some centralized costs such as transportation were not fully captured.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "6"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2017 USD modeled incremental cost per Early College student over four high-school years, midpoint across six Early College–traditional-school comparisons.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Atchison et al. (2019), pp. 11–15; Figure 3.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3819"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2017"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-reported model value; use the Claim description and locator for benefit/cost scope and assumptions.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "278482217a3a47bab04c4522f05d6fb7"
+    },
+    "entity": {
+      "$bytes": "c26ab7c1642544efbc24be8fdd6cfee8"
+    },
+    "from": {
+      "$bytes": "335b8af106064f938eb110a09bcb958d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03NJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "798938ec4c9b4157ab0f34aeeca51dc7"
+    },
+    "entity": {
+      "$bytes": "4fc0926b4abc4811a9b558edbdcd3150"
+    },
+    "from": {
+      "$bytes": "335b8af106064f938eb110a09bcb958d"
+    },
+    "to": {
+      "$bytes": "0b285e99daa5436f8d02e608fea4fb2b"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0C5e"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d34b5adba2a04c128a202693d16e8688"
+    },
+    "entity": {
+      "$bytes": "cae5a2f46e1a46ad9c00c6c34ea7aa07"
+    },
+    "from": {
+      "$bytes": "335b8af106064f938eb110a09bcb958d"
+    },
+    "to": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a075V"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8bb0ab8623a54febb05cefe723ca2dfb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "AIR’s preferred model estimated a $53,863 net present value per Early College student (2017 dollars).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The paper defines net present value as modeled lifetime benefits minus modeled incremental four-year cost. This is not a measured participant payment or a result from a separate experiment.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "6"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2017 USD source-reported modeled net present value per Early College student: total modeled benefits ($57,682) less midpoint modeled four-year incremental cost ($3,819).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Atchison et al. (2019), Figure 4 and p. 15.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "53863"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2017"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-reported model value; use the Claim description and locator for benefit/cost scope and assumptions.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "39747fac0c204b949d4963af7ad352ff"
+    },
+    "entity": {
+      "$bytes": "bb8d9ad533604897a3c7e14fcbcac054"
+    },
+    "from": {
+      "$bytes": "8bb0ab8623a54febb05cefe723ca2dfb"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0CNB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fcd6a246608b4dd3b5e85f227129d89b"
+    },
+    "entity": {
+      "$bytes": "25d3c7142d3a49e1a9ba987143bd8730"
+    },
+    "from": {
+      "$bytes": "8bb0ab8623a54febb05cefe723ca2dfb"
+    },
+    "to": {
+      "$bytes": "0b285e99daa5436f8d02e608fea4fb2b"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BIE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "30cb06e3ff694c6ea73740e21d231d00"
+    },
+    "entity": {
+      "$bytes": "aa4126fc2e264085a963934c1b538c38"
+    },
+    "from": {
+      "$bytes": "8bb0ab8623a54febb05cefe723ca2dfb"
+    },
+    "to": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01AF"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0f81b38de2e74aab9b70bf3d9002fe95"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "AIR’s preferred model reported a 15.1 benefit-to-cost ratio for Early College High Schools.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This source-reported model divides $57,682 in estimated lifetime private and public benefits by the $3,819 midpoint incremental cost. It is not an observed return or a universal estimate across Early College sites.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "6"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-reported modeled benefit-to-cost ratio using average lifetime benefits and midpoint four-year incremental costs, 2017 dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Atchison et al. (2019), Figure 4 and p. 15.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "151"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2017"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled lifetime benefits divided by modeled four-year incremental Early College cost; source scenario, not an observed return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9a2e52e97eab44d9b7c5afbcc74b0c07"
+    },
+    "entity": {
+      "$bytes": "3b5ec54ff0164fdab91374dc90282201"
+    },
+    "from": {
+      "$bytes": "0f81b38de2e74aab9b70bf3d9002fe95"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08cf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e2b678f041be492790596f35a72cdaed"
+    },
+    "entity": {
+      "$bytes": "71b06b6464ba41c4a367c44be4abcfb8"
+    },
+    "from": {
+      "$bytes": "0f81b38de2e74aab9b70bf3d9002fe95"
+    },
+    "to": {
+      "$bytes": "0b285e99daa5436f8d02e608fea4fb2b"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07zC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2fb8c85401cd4ee2ae24697784a45325"
+    },
+    "entity": {
+      "$bytes": "88c5704befe14b48af5de53956300c43"
+    },
+    "from": {
+      "$bytes": "0f81b38de2e74aab9b70bf3d9002fe95"
+    },
+    "to": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01Bd"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4340b6c985034278b4ed85824842da2a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "AIR’s conservative model reported a 4.6 benefit-to-cost ratio for Early College High Schools.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The source combines $34,834 in conservative modeled benefits with a $7,615 upper-bound four-year cost. It remains a scenario analysis rather than an observed rate of return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "6"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-reported conservative modeled benefit-to-cost ratio using lower-bound benefits and upper-bound four-year incremental costs, 2017 dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Atchison et al. (2019), p. 15.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "46"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2017"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled lifetime benefits divided by modeled four-year incremental Early College cost; source scenario, not an observed return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6c3ff402757049d38ad84eef479b9176"
+    },
+    "entity": {
+      "$bytes": "f84585bfe4d8443a8c9f1020ddfd21cf"
+    },
+    "from": {
+      "$bytes": "4340b6c985034278b4ed85824842da2a"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02cI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fa8e45fed8344d9ead01a1b660f4c5bc"
+    },
+    "entity": {
+      "$bytes": "68c56e358bb9481ebb6c672b4cfb9013"
+    },
+    "from": {
+      "$bytes": "4340b6c985034278b4ed85824842da2a"
+    },
+    "to": {
+      "$bytes": "0b285e99daa5436f8d02e608fea4fb2b"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BZf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "06e115af238741a4ad9b2fb9d16788f0"
+    },
+    "entity": {
+      "$bytes": "c52202b60f0745d2a873a70fdad97a7f"
+    },
+    "from": {
+      "$bytes": "4340b6c985034278b4ed85824842da2a"
+    },
+    "to": {
+      "$bytes": "5c33ee4be2fc4c38ae220a4fff9a3d69"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a048Z"
+  }
+]

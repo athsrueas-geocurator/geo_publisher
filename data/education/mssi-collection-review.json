@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T16:00:00Z",
+  "reviewer": "publisher preparation review",
+  "planHash": "2aa89fa83c4c29463924d75789c0da0ce8581c045c6751c541f6f155d7e149c3",
+  "factsHash": "af4ef624e9eadf4a392a4c67b25f1dfce0b7d1424ffb156c02065d60b0c156ce",
+  "sources": [
+    {
+      "path": "docs/mssi-study-notes.md",
+      "sha256": "6d0e6cb8f78d3377992705ea205830c91878b6c32948fbe31fa4d93459dbe22b",
+      "sourceId": "4eb6ce035ec046b59e29ac3a49cac986",
+      "version": "MSSI mixed-methods evaluation report, 2023"
+    }
+  ],
+  "discovery": {
+    "path": "data/education/mssi-collection-discovery.json",
+    "sha256": "a5d257c54745ed1ae1b3774fc79171fbfa873eceeea87318dde9d773a34c2be5"
+  },
+  "decisions": {
+    "source": {
+      "status": "accepted",
+      "rationale": "Primary report and study notes identify the source."
+    },
+    "identity": {
+      "status": "accepted",
+      "rationale": "Complete all-space search found no result collection and zero incoming memberships."
+    },
+    "content": {
+      "status": "accepted",
+      "rationale": "Facts preserve Claim headers, locators, sample counts and separate implementation/outcome scopes."
+    }
+  }
+}

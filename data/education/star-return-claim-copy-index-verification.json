@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-09-12T04:16:34.551Z",
+  "batchName": "Repair STAR modeled-return Claims with actual estimates",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 3,
+  "checks": [
+    {
+      "entityId": "3e69566289c14f80b6fb19a84a0300e4",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "3e69566289c14f80b6fb19a84a0300e4",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "3e69566289c14f80b6fb19a84a0300e4",
+      "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+      "pass": true
+    },
+    {
+      "entityId": "6db38a6c620f4ca1bc2452137457d686",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "6db38a6c620f4ca1bc2452137457d686",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "6db38a6c620f4ca1bc2452137457d686",
+      "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+      "pass": true
+    },
+    {
+      "entityId": "cc14cee1099d4271841287a2455d9045",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "cc14cee1099d4271841287a2455d9045",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "cc14cee1099d4271841287a2455d9045",
+      "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

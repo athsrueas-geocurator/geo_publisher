@@ -1,0 +1,1282 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4eb6ce035ec046b59e29ac3a49cac986"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Pathway to College Achievement: A Mixed-Methods Evaluation of the Male Student Success Initiative for Men of Color",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "MDRC’s 2023 randomized impact, implementation, and cost evaluation of CCBC’s Male Student Success Initiative for men of color.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/pathway-college-achievement/file-full",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "792b09ed5a864ba2ab4ec556258e992b"
+    },
+    "entity": {
+      "$bytes": "19760bae0c124d58a95678bb491807cb"
+    },
+    "from": {
+      "$bytes": "4eb6ce035ec046b59e29ac3a49cac986"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04mf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "269475d808ab44749c1bf21a5f49b201"
+    },
+    "entity": {
+      "$bytes": "4c187456e96b45a5befd6bdff78f7cdc"
+    },
+    "from": {
+      "$bytes": "4eb6ce035ec046b59e29ac3a49cac986"
+    },
+    "to": {
+      "$bytes": "629b86b1f4074326a0f14227f87a9e88"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a053A"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a68db5eefb7c442dbd3aee5d25ebc27d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Male Student Success Initiative evaluated CCBC program model",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A two-semester CCBC program combining a culturally contextualized course, mentoring, student-support referrals, leadership and career activities, and community-building for eligible male students of color.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/pathway-college-achievement/file-full",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8eda98cacc96468c8f912a30bdbf4c19"
+    },
+    "entity": {
+      "$bytes": "962260b5affb4063b374cc2be4c08203"
+    },
+    "from": {
+      "$bytes": "a68db5eefb7c442dbd3aee5d25ebc27d"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04Vv"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7aa1227383354ce7aaf0ed05f7dc88ac"
+    },
+    "entity": {
+      "$bytes": "60f31d686ca54b16bb39cc58706e1af5"
+    },
+    "from": {
+      "$bytes": "a68db5eefb7c442dbd3aee5d25ebc27d"
+    },
+    "to": {
+      "$bytes": "4eb6ce035ec046b59e29ac3a49cac986"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08QT"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "397d941bc9a943039b157af34ca9c8d3"
+    },
+    "entity": {
+      "$bytes": "32eabbbb7a054b0aadfaebb44add4ce6"
+    },
+    "from": {
+      "$bytes": "a68db5eefb7c442dbd3aee5d25ebc27d"
+    },
+    "to": {
+      "$bytes": "4eb6ce035ec046b59e29ac3a49cac986"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Asj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d1849d55e0b04b7bbad9a8e5cfdb5c5a"
+    },
+    "entity": {
+      "$bytes": "6727a938237549c1a5c75e2ab8d24fb1"
+    },
+    "from": {
+      "$bytes": "a68db5eefb7c442dbd3aee5d25ebc27d"
+    },
+    "to": {
+      "$bytes": "629b86b1f4074326a0f14227f87a9e88"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a0AyV"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "037750baacc64cf9ad9f52926edd7954"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "MSSI randomly assigned 514 eligible CCBC male students of color to program or usual services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2019–2022 evaluation assigned 304 students to MSSI and 210 to usual CCBC services. It evaluates a two-semester culturally contextualized course and support package; the control group retained campus services available to all students.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "514"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Individual-level randomized controlled trial; 304 program group and 210 control group.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Overview, p. iii; Executive Summary pp. ES-2–ES-3.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ada8a50efcbd42d79a548174c5cd91af"
+    },
+    "entity": {
+      "$bytes": "f29c0aaadb62412c90f252d397cfc9f6"
+    },
+    "from": {
+      "$bytes": "037750baacc64cf9ad9f52926edd7954"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06gc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "717c1d530db34a4db77917e10575bd0f"
+    },
+    "entity": {
+      "$bytes": "a9f712b0f8ed4b64a3877e583664fa20"
+    },
+    "from": {
+      "$bytes": "037750baacc64cf9ad9f52926edd7954"
+    },
+    "to": {
+      "$bytes": "4eb6ce035ec046b59e29ac3a49cac986"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a017V"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "71139ef336c4401c842e3b3662f15090"
+    },
+    "entity": {
+      "$bytes": "509ff8b3a5f144329fdae2aa5a0ae865"
+    },
+    "from": {
+      "$bytes": "037750baacc64cf9ad9f52926edd7954"
+    },
+    "to": {
+      "$bytes": "a68db5eefb7c442dbd3aee5d25ebc27d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a062p"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f9c6f1309e8d4f08b8ff4c98fde5711a"
+    },
+    "entity": {
+      "$bytes": "49f9b75c518346708cd628d328fdf781"
+    },
+    "from": {
+      "$bytes": "037750baacc64cf9ad9f52926edd7954"
+    },
+    "to": {
+      "$bytes": "629b86b1f4074326a0f14227f87a9e88"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a04TW"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e7e548bbaef44881abdb9d71a82a474b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "MSSI cost $885 per intended program participant in real 2021 dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The spring-2019-to-fall-2021 average is an intent-to-treat service cost based on intended students, including those who did not enroll. The report says early persistence and completion impacts did not permit a cost-effectiveness calculation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "304"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Real 2021 USD average program cost per intended participant across six terms.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.2, p. ES-8; Table 4.5, p. 68.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "885"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2021"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Average real 2021-dollar program cost per intended participant over six terms; intended students include recruited students and students in their second eligible term whether or not enrolled.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b63337e6fe4643929c6e4224cc901a79"
+    },
+    "entity": {
+      "$bytes": "df8fdd292bab445e94845da56e9fce00"
+    },
+    "from": {
+      "$bytes": "e7e548bbaef44881abdb9d71a82a474b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a053r"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d58eff73a8bb412db04d9fa7d81e598b"
+    },
+    "entity": {
+      "$bytes": "9e07037479fd4bb7958bcc60d51fd6af"
+    },
+    "from": {
+      "$bytes": "e7e548bbaef44881abdb9d71a82a474b"
+    },
+    "to": {
+      "$bytes": "4eb6ce035ec046b59e29ac3a49cac986"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0AbW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "50298c5fbf244a34bc635a0bb56fdcaf"
+    },
+    "entity": {
+      "$bytes": "a078698ed2344811a1813fdcc6feb6cb"
+    },
+    "from": {
+      "$bytes": "e7e548bbaef44881abdb9d71a82a474b"
+    },
+    "to": {
+      "$bytes": "a68db5eefb7c442dbd3aee5d25ebc27d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Am8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bb6841ebb07e4e7da61f0ea6c981c06e"
+    },
+    "entity": {
+      "$bytes": "9309abf4afb341bf8c1ae1414eb0f067"
+    },
+    "from": {
+      "$bytes": "e7e548bbaef44881abdb9d71a82a474b"
+    },
+    "to": {
+      "$bytes": "629b86b1f4074326a0f14227f87a9e88"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a0BXP"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "55b95943730d4330be8752d6d7486164"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "MSSI increased first-semester ACDV-course enrollment by 10.3 percentage points (66.4% versus 56.1%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This full-sample first-semester transcript outcome is course enrollment, not overall college persistence. The reported randomized difference has p = .012 and standard error 4.1 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "514"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in first-semester enrollment in the Academic Development course, MSSI minus usual services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.1, p. ES-7; Table 4.1, p. 56.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "103"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "p = 0.012",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f02cf0de7ea64b209d589f85d73badbd"
+    },
+    "entity": {
+      "$bytes": "0e0014b21d4149fdba168f384708a7b6"
+    },
+    "from": {
+      "$bytes": "55b95943730d4330be8752d6d7486164"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0ARe"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "76a20628e33048268746536681a958a2"
+    },
+    "entity": {
+      "$bytes": "d3b9495eaaa34ea382815bd002fcaf48"
+    },
+    "from": {
+      "$bytes": "55b95943730d4330be8752d6d7486164"
+    },
+    "to": {
+      "$bytes": "4eb6ce035ec046b59e29ac3a49cac986"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05k5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3161e5c99eaa447bb56674e3a0da6821"
+    },
+    "entity": {
+      "$bytes": "b728f1ef1999489fbd53c4954f15148b"
+    },
+    "from": {
+      "$bytes": "55b95943730d4330be8752d6d7486164"
+    },
+    "to": {
+      "$bytes": "a68db5eefb7c442dbd3aee5d25ebc27d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04Br"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b3b588e844fb45d1b9c6bc41a0722054"
+    },
+    "entity": {
+      "$bytes": "ff10acf67f3f4715a954ce4cb956ff62"
+    },
+    "from": {
+      "$bytes": "55b95943730d4330be8752d6d7486164"
+    },
+    "to": {
+      "$bytes": "629b86b1f4074326a0f14227f87a9e88"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a01li"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c59ad64b84cc41bd98b184962149fd6c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "MSSI increased first-semester ACDV-course passing by 15.2 percentage points (43.4% versus 28.1%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This full-sample first-semester transcript outcome concerns passing the intervention-linked course. It does not establish a later degree or persistence effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "514"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in passing the Academic Development course in the first semester, MSSI minus usual services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.1, p. ES-7; Table 4.1, p. 56.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "152"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "p = < .001",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f9db2d558c8646e987fb357aea3e8f99"
+    },
+    "entity": {
+      "$bytes": "bf54fae211b14762aaa9290c0d61524d"
+    },
+    "from": {
+      "$bytes": "c59ad64b84cc41bd98b184962149fd6c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a052T"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "538569aefb1d48e3ac9aebc76285a984"
+    },
+    "entity": {
+      "$bytes": "1c0342c3dced45d8b854b7889e124733"
+    },
+    "from": {
+      "$bytes": "c59ad64b84cc41bd98b184962149fd6c"
+    },
+    "to": {
+      "$bytes": "4eb6ce035ec046b59e29ac3a49cac986"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03ub"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b7c743763d234e4d928e7788e2ac44da"
+    },
+    "entity": {
+      "$bytes": "cb7e23753d8f46c89a7371c7042341dd"
+    },
+    "from": {
+      "$bytes": "c59ad64b84cc41bd98b184962149fd6c"
+    },
+    "to": {
+      "$bytes": "a68db5eefb7c442dbd3aee5d25ebc27d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07D3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e7bfa2ea41d9495f9bdeb0fa1a7360eb"
+    },
+    "entity": {
+      "$bytes": "0a6301f65f2e448baa4ef0d4470c27d7"
+    },
+    "from": {
+      "$bytes": "c59ad64b84cc41bd98b184962149fd6c"
+    },
+    "to": {
+      "$bytes": "629b86b1f4074326a0f14227f87a9e88"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a0A6S"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f2b1c830cfee4f45aa609ea038a9ecdd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "MSSI showed no statistically significant first-semester difference in credits earned (+0.3; 4.3 versus 3.9).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The full-sample first-semester transcript result has p = .446 and standard error 0.4 credits. The source also found no early persistence effect, so this result should not be presented as evidence of completion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "514"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Difference in first-semester credits earned, MSSI minus usual services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.1, p. ES-7; Table 4.1, p. 56.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "p = 0.446",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ab2c9c649b654ce7b6b9b6c4af4e4fa2"
+    },
+    "entity": {
+      "$bytes": "9a46ce793c0944d0b8d82b50ad42206a"
+    },
+    "from": {
+      "$bytes": "f2b1c830cfee4f45aa609ea038a9ecdd"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08dK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bbacb5b82c064be9b5c4b0ab84594dba"
+    },
+    "entity": {
+      "$bytes": "f25d98709379497b8a22d970cdbd089b"
+    },
+    "from": {
+      "$bytes": "f2b1c830cfee4f45aa609ea038a9ecdd"
+    },
+    "to": {
+      "$bytes": "4eb6ce035ec046b59e29ac3a49cac986"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09JZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "70fdee6be584463a86f08fe68b26fef1"
+    },
+    "entity": {
+      "$bytes": "2b1f20547a034c91ae19d0baaf6de73e"
+    },
+    "from": {
+      "$bytes": "f2b1c830cfee4f45aa609ea038a9ecdd"
+    },
+    "to": {
+      "$bytes": "a68db5eefb7c442dbd3aee5d25ebc27d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BcA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e5dd554f0a834ceaade8de81eb818ec1"
+    },
+    "entity": {
+      "$bytes": "321020cf1ebd472a88ba00df4a32e6f4"
+    },
+    "from": {
+      "$bytes": "f2b1c830cfee4f45aa609ea038a9ecdd"
+    },
+    "to": {
+      "$bytes": "629b86b1f4074326a0f14227f87a9e88"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a05gN"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "025a37856a9b4f3fb5b212cd97e983ea"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "MSSI increased fourth-semester A/B/C grades in all courses by 7.3 percentage points (12.5% versus 5.2%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This cohorts-1-to-3 follow-up result has p = .048 and standard error 3.6 percentage points (N = 256). It is later course-performance evidence, not a persistence or degree-completion effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "256"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in receiving A, B, or C in all courses in the fourth semester, MSSI minus usual services; cohorts 1–3 only.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.2, p. ES-8; Table 4.3, p. 60.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "73"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "p = 0.048",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ad4e8c3ce49a4072912c92500493f232"
+    },
+    "entity": {
+      "$bytes": "733cd0bfaad84101bb80fd057428fb65"
+    },
+    "from": {
+      "$bytes": "025a37856a9b4f3fb5b212cd97e983ea"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a024w"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "149910b77e71493b873267c741b3f82b"
+    },
+    "entity": {
+      "$bytes": "c32021e5a657491b95322de16638a43a"
+    },
+    "from": {
+      "$bytes": "025a37856a9b4f3fb5b212cd97e983ea"
+    },
+    "to": {
+      "$bytes": "4eb6ce035ec046b59e29ac3a49cac986"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a038F"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c6d0e1bf445b49838542a9869b8412bf"
+    },
+    "entity": {
+      "$bytes": "99806fe9a5e941139f8a53bb2932a4d2"
+    },
+    "from": {
+      "$bytes": "025a37856a9b4f3fb5b212cd97e983ea"
+    },
+    "to": {
+      "$bytes": "a68db5eefb7c442dbd3aee5d25ebc27d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BIu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2ab3803f47c745e482ae455a58a16c2c"
+    },
+    "entity": {
+      "$bytes": "d9a8f3142c1348b9bf3884571ef1b537"
+    },
+    "from": {
+      "$bytes": "025a37856a9b4f3fb5b212cd97e983ea"
+    },
+    "to": {
+      "$bytes": "629b86b1f4074326a0f14227f87a9e88"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a02wi"
+  }
+]

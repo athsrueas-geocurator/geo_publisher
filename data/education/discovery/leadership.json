@@ -1,0 +1,66 @@
+{
+  "term": "leadership",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:37.743Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "07217afa921442a09b87313680d60e4c",
+      "name": "Leadership",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    },
+    {
+      "id": "536a5c9dcbd3c9560092f6e58ec7f49a",
+      "name": "Leadership",
+      "description": null,
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    },
+    {
+      "id": "537d15a0ba3147948b6cc77ca430c5b4",
+      "name": "Leadership",
+      "description": "Guiding individuals and teams toward shared goals through clear direction, accountability, motivation, and sound decision making while fostering trust, collaboration, and continuous growth.",
+      "spaceIds": [
+        "d69608290513c2a91102c939b3265bd7"
+      ],
+      "types": [
+        {
+          "id": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+          "name": "Skill"
+        }
+      ]
+    },
+    {
+      "id": "6291cb982d2d4ce5a25b0001c4c3de24",
+      "name": "Leadership",
+      "description": null,
+      "spaceIds": [
+        "89bd89bf28ff8a0963faf92a8c905e20"
+      ],
+      "types": []
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNjI5MWNiOTgtMmQyZC00Y2U1LWEyNWItMDAwMWM0YzNkZTI0Il1d"
+    }
+  ]
+}

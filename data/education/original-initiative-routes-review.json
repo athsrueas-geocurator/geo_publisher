@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-09-12T11:44:46.179Z",
+  "property": "b0305ef28312c519d954bc0efe22f013",
+  "schema": {
+    "entity": {
+      "name": "Route slug",
+      "description": null
+    },
+    "property": {
+      "dataTypeName": "Text"
+    }
+  },
+  "accepted": [
+    {
+      "key": "initiatives:4",
+      "id": "ed3fbb4f693c4785955b627ea98c03fb",
+      "name": "No Child Left Behind",
+      "slug": "no-child-left-behind",
+      "state": "missing",
+      "description": "A US federal education policy that paired annual testing, subgroup reporting and accountability consequences. Its evidence record includes reported math gains, weaker reading effects and implementation incentives that can affect interpretation."
+    },
+    {
+      "key": "initiatives:43",
+      "id": "d03b32bd416443e49b9aa376e744cb03",
+      "name": "Head Start",
+      "slug": "head-start",
+      "state": "missing",
+      "description": "A US federal early-childhood program serving children from low-income families. The linked study evaluates access against the care arrangements available to its control group."
+    },
+    {
+      "key": "initiatives:66",
+      "id": "965cad4502d449579f74866a4ed922a8",
+      "name": "Chicago double-dose algebra",
+      "slug": "double-dose-algebra-chicago",
+      "state": "missing",
+      "description": "A Chicago Public Schools ninth-grade policy that paired algebra with an additional support period for students below a prior-math-score threshold. Its effects depend on assignment, instructional time and classroom organization."
+    },
+    {
+      "key": "initiatives:69",
+      "id": "0728c2e68dcc4d7fa50a0dd61b787cae",
+      "name": "Early Warning Intervention and Monitoring System (EWIMS)",
+      "slug": "early-warning-intervention-monitoring-system",
+      "state": "missing",
+      "description": "A seven-step early-warning process that uses attendance, behavior and course-performance data to identify students, assign supports and monitor progress. The linked trial evaluates one first-year implementation, not every local data tool."
+    },
+    {
+      "key": "initiatives:71",
+      "id": "7568174c9ce043d09aee74e46aee35a9",
+      "name": "Comprehensive teacher induction",
+      "slug": "comprehensive-teacher-induction",
+      "state": "missing",
+      "description": "An induction model using trained full-time mentors, instructional support, professional development, observation, and feedback for beginning teachers. The study distinguishes one- and two-year district implementations."
+    }
+  ],
+  "review": [
+    {
+      "key": "initiatives:24",
+      "id": "743632b3929c40eba49c57d86401dbef",
+      "reason": "Published secondary-math evaluation scope is narrower than original alternate-route umbrella"
+    },
+    {
+      "key": "initiatives:72",
+      "id": "327eef80a0dd423f846fbd50def5bf87",
+      "sourceName": "Community Eligibility Provision / universal free school meals",
+      "liveName": "Community Eligibility Provision",
+      "reason": "Identity equivalence needs review"
+    }
+  ]
+}

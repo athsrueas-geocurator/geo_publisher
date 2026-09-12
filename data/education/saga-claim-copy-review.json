@@ -1,0 +1,698 @@
+[
+  {
+    "key": "s1/math-gpa/itt",
+    "id": "022d596aadaf40709f4e0c2f04db8c8a",
+    "beforeName": "Saga Chicago study 1: Math GPA (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated math GPA 0.279 points higher from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate 0.279 (SE 0.040; 2,215 observations; Table 3, p. 749). This supports the paper's finding that tutoring improved mathematics outcomes."
+    },
+    "sourceValue": "0.279",
+    "sourceSE": "0.040",
+    "unit": "GPA points (0–4 scale)"
+  },
+  {
+    "key": "s1/math-gpa/tot",
+    "id": "ffeec687e0af446aa2e90e798acc9fdd",
+    "beforeName": "Saga Chicago study 1: Math GPA (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated math GPA 0.571 points higher from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate 0.571 (SE 0.079; 2,215 observations; Table 3, p. 749). This supports the paper's finding that tutoring improved mathematics outcomes."
+    },
+    "sourceValue": "0.571",
+    "sourceSE": "0.079",
+    "unit": "GPA points (0–4 scale)"
+  },
+  {
+    "key": "s1/math-failure/itt",
+    "id": "73d8c133826b4bcea2aacbfa72d4c836",
+    "beforeName": "Saga Chicago study 1: Math courses failed (percent) (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated the share of math courses failed 4.2 percentage points lower from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.042 on the fraction scale (SE 0.013; 2,215 observations; Table 3, p. 749). This supports the paper's finding that tutoring improved mathematics outcomes."
+    },
+    "sourceValue": "-0.042",
+    "sourceSE": "0.013",
+    "unit": "proportion of math courses failed (fraction)"
+  },
+  {
+    "key": "s1/math-failure/tot",
+    "id": "bab84aac05f24a478f448c2ec226250e",
+    "beforeName": "Saga Chicago study 1: Math courses failed (percent) (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated the share of math courses failed 8.6 percentage points lower from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.086 on the fraction scale (SE 0.026; 2,215 observations; Table 3, p. 749). This supports the paper's finding that tutoring improved mathematics outcomes."
+    },
+    "sourceValue": "-0.086",
+    "sourceSE": "0.026",
+    "unit": "proportion of math courses failed (fraction)"
+  },
+  {
+    "key": "s1/research-math/itt",
+    "id": "3c7b0abe15a14e9bacf0a2ee52cc5662",
+    "beforeName": "Saga Chicago study 1: Research team-administered math test (study sample Z) (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated researcher-administered math scores 0.116 standard deviations higher from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate 0.116 (SE 0.056; 617 observations; Table 3, p. 749). This supports the paper's finding that tutoring improved mathematics outcomes."
+    },
+    "sourceValue": "0.116",
+    "sourceSE": "0.056",
+    "unit": "study-sample standard deviations"
+  },
+  {
+    "key": "s1/research-math/tot",
+    "id": "6b4c2c054cc546bab4fbd168afc31880",
+    "beforeName": "Saga Chicago study 1: Research team-administered math test (study sample Z) (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated researcher-administered math scores 0.199 standard deviations higher from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate 0.199 (SE 0.090; 617 observations; Table 3, p. 749). This supports the paper's finding that tutoring improved mathematics outcomes."
+    },
+    "sourceValue": "0.199",
+    "sourceSE": "0.090",
+    "unit": "study-sample standard deviations"
+  },
+  {
+    "key": "s1/cps-reading/itt",
+    "id": "d111b31b9f144a9c8ee95a8532b6830b",
+    "beforeName": "Saga Chicago study 1: CPS reading test (study sample Z) (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated CPS reading scores 0.017 standard deviations higher from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate 0.017 (SE 0.039; 1,851 observations; Table 3, p. 749). The paper did not establish a clear improvement in reading-test scores."
+    },
+    "sourceValue": "0.017",
+    "sourceSE": "0.039",
+    "unit": "study-sample standard deviations"
+  },
+  {
+    "key": "s1/cps-reading/tot",
+    "id": "a36823d383b04afa9ae5bdd563cf6ea3",
+    "beforeName": "Saga Chicago study 1: CPS reading test (study sample Z) (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated CPS reading scores 0.033 standard deviations higher from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate 0.033 (SE 0.074; 1,851 observations; Table 3, p. 749). The paper did not establish a clear improvement in reading-test scores."
+    },
+    "sourceValue": "0.033",
+    "sourceSE": "0.074",
+    "unit": "study-sample standard deviations"
+  },
+  {
+    "key": "s1/nonmath-gpa/itt",
+    "id": "78a17a3d699d4195bc2e12ac5875bb4f",
+    "beforeName": "Saga Chicago study 1: Nonmath GPA (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated nonmath GPA 0.083 points higher from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate 0.083 (SE 0.033; 2,244 observations; Table 3, p. 749). This supports the paper's finding of improved nonmath course performance in Study 1."
+    },
+    "sourceValue": "0.083",
+    "sourceSE": "0.033",
+    "unit": "GPA points (0–4 scale)"
+  },
+  {
+    "key": "s1/nonmath-gpa/tot",
+    "id": "db908777c1d14295bda598d4d6731375",
+    "beforeName": "Saga Chicago study 1: Nonmath GPA (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated nonmath GPA 0.173 points higher from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate 0.173 (SE 0.068; 2,244 observations; Table 3, p. 749). This supports the paper's finding of improved nonmath course performance in Study 1."
+    },
+    "sourceValue": "0.173",
+    "sourceSE": "0.068",
+    "unit": "GPA points (0–4 scale)"
+  },
+  {
+    "key": "s1/nonmath-failure/itt",
+    "id": "b022d3385c8f4c1fa91298164d073646",
+    "beforeName": "Saga Chicago study 1: Nonmath core courses failed (percent) (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated the share of nonmath core courses failed 2.7 percentage points lower from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.027 on the fraction scale (SE 0.011; 2,244 observations; Table 3, p. 749). This supports the paper's finding of improved nonmath course performance in Study 1."
+    },
+    "sourceValue": "-0.027",
+    "sourceSE": "0.011",
+    "unit": "proportion of nonmath core courses failed (fraction)"
+  },
+  {
+    "key": "s1/nonmath-failure/tot",
+    "id": "4e43e9b25682445d8850ff72c47d5981",
+    "beforeName": "Saga Chicago study 1: Nonmath core courses failed (percent) (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated the share of nonmath core courses failed 5.7 percentage points lower from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.057 on the fraction scale (SE 0.022; 2,244 observations; Table 3, p. 749). This supports the paper's finding of improved nonmath course performance in Study 1."
+    },
+    "sourceValue": "-0.057",
+    "sourceSE": "0.022",
+    "unit": "proportion of nonmath core courses failed (fraction)"
+  },
+  {
+    "key": "s1/disciplinary-incidents/itt",
+    "id": "d084762247004c4c8e4549091ab8c73e",
+    "beforeName": "Saga Chicago study 1: Disciplinary incidents (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.082 more disciplinary incidents per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate 0.082 (SE 0.104; 2,494 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "0.082",
+    "sourceSE": "0.104",
+    "unit": "incidents per student in the first postrandomization school year"
+  },
+  {
+    "key": "s1/disciplinary-incidents/tot",
+    "id": "64e0fda505e14a60ba8407fd38a081ec",
+    "beforeName": "Saga Chicago study 1: Disciplinary incidents (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.189 more disciplinary incidents per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate 0.189 (SE 0.235; 2,494 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "0.189",
+    "sourceSE": "0.235",
+    "unit": "incidents per student in the first postrandomization school year"
+  },
+  {
+    "key": "s1/days-absent/itt",
+    "id": "8b80340e6b1a46b09e70a9510e613425",
+    "beforeName": "Saga Chicago study 1: Days absent (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.180 more days absent per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate 0.180 (SE 0.812; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "0.180",
+    "sourceSE": "0.812",
+    "unit": "days in the first postrandomization school year"
+  },
+  {
+    "key": "s1/days-absent/tot",
+    "id": "587f445f37f740ca92280544d3285972",
+    "beforeName": "Saga Chicago study 1: Days absent (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.441 more days absent per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate 0.441 (SE 1.960; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "0.441",
+    "sourceSE": "1.960",
+    "unit": "days in the first postrandomization school year"
+  },
+  {
+    "key": "s1/suspensions/itt",
+    "id": "7410eff9a28741ca810383b7ac0abd53",
+    "beforeName": "Saga Chicago study 1: Out-of-school suspensions (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 found no clear first-year effect of offering tutoring on out-of-school suspensions.",
+      "description": "Intention-to-treat estimate 0.184 (SE 0.153; 2,494 observations; Table 3, p. 749). The suspension unit remains unresolved: the table does not clearly distinguish days from events."
+    },
+    "sourceValue": "0.184",
+    "sourceSE": "0.153",
+    "unit": null
+  },
+  {
+    "key": "s1/suspensions/tot",
+    "id": "fcbbe95d9b79475c8662740d2cfdc301",
+    "beforeName": "Saga Chicago study 1: Out-of-school suspensions (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 found no clear first-year effect of tutoring participation on out-of-school suspensions.",
+      "description": "Treatment-on-treated estimate 0.424 (SE 0.345; 2,494 observations; Table 3, p. 749). The suspension unit remains unresolved: the table does not clearly distinguish days from events."
+    },
+    "sourceValue": "0.424",
+    "sourceSE": "0.345",
+    "unit": null
+  },
+  {
+    "key": "s1/arrests-violent/itt",
+    "id": "11973d57b9294059802ad0a153ed5d1d",
+    "beforeName": "Saga Chicago study 1: Number of arrests for violent crimes (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.016 fewer violent-crime arrests per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.016 (SE 0.015; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "-0.016",
+    "sourceSE": "0.015",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s1/arrests-violent/tot",
+    "id": "b34ebb6eb5a040af8c65ab8f04486283",
+    "beforeName": "Saga Chicago study 1: Number of arrests for violent crimes (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.038 fewer violent-crime arrests per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.038 (SE 0.035; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "-0.038",
+    "sourceSE": "0.035",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s1/arrests-property/itt",
+    "id": "65989f5345b942a5981f5b677885fbb1",
+    "beforeName": "Saga Chicago study 1: Number of arrests for property crimes (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.010 fewer property-crime arrests per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.010 (SE 0.010; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "-0.010",
+    "sourceSE": "0.010",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s1/arrests-property/tot",
+    "id": "a920403fde2c42f19862ba95f9d09ecb",
+    "beforeName": "Saga Chicago study 1: Number of arrests for property crimes (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.025 fewer property-crime arrests per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.025 (SE 0.025; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "-0.025",
+    "sourceSE": "0.025",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s1/arrests-drug/itt",
+    "id": "65ea118fa3344499ba7382aedaf6dd54",
+    "beforeName": "Saga Chicago study 1: Number of arrests for drug crimes (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.019 more drug-crime arrests per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate 0.019 (SE 0.013; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "0.019",
+    "sourceSE": "0.013",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s1/arrests-drug/tot",
+    "id": "7f652df7ec994d0899de710c0776af54",
+    "beforeName": "Saga Chicago study 1: Number of arrests for drug crimes (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.047 more drug-crime arrests per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate 0.047 (SE 0.032; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "0.047",
+    "sourceSE": "0.032",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s1/arrests-other/itt",
+    "id": "29c050e3d93f4213b8a24cb2db950701",
+    "beforeName": "Saga Chicago study 1: Number of arrests for other crimes (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.002 fewer other-crime arrests per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.002 (SE 0.022; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "-0.002",
+    "sourceSE": "0.022",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s1/arrests-other/tot",
+    "id": "d22ce7ef013a46d989ba873feefa7a90",
+    "beforeName": "Saga Chicago study 1: Number of arrests for other crimes (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.005 fewer other-crime arrests per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.005 (SE 0.053; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "-0.005",
+    "sourceSE": "0.053",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s1/ever-arrested/itt",
+    "id": "397690e922384ecc909b0011a1acbcc7",
+    "beforeName": "Saga Chicago study 1: Ever arrested for any crime (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated the probability of any arrest 0.7 percentage points lower from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.007 on the fraction scale (SE 0.013; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "-0.007",
+    "sourceSE": "0.013",
+    "unit": "probability of any arrest in the first postrandomization school year (fraction)"
+  },
+  {
+    "key": "s1/ever-arrested/tot",
+    "id": "1b58db11a2274a88ad3338998bd8d591",
+    "beforeName": "Saga Chicago study 1: Ever arrested for any crime (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated the probability of any arrest 1.8 percentage points lower from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.018 on the fraction scale (SE 0.031; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "-0.018",
+    "sourceSE": "0.031",
+    "unit": "probability of any arrest in the first postrandomization school year (fraction)"
+  },
+  {
+    "key": "s1/arrests-any/itt",
+    "id": "f11226fdc1454d58a24c256a5a022c25",
+    "beforeName": "Saga Chicago study 1: Number of arrests for any crime (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.008 fewer arrests per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.008 (SE 0.036; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "-0.008",
+    "sourceSE": "0.036",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s1/arrests-any/tot",
+    "id": "05f0175aeaa34327af79326f4b2bd2b8",
+    "beforeName": "Saga Chicago study 1: Number of arrests for any crime (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 1 estimated 0.021 fewer arrests per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.021 (SE 0.087; 2,633 observations; Table 3, p. 749). The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect."
+    },
+    "sourceValue": "-0.021",
+    "sourceSE": "0.087",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s2/math-gpa/itt",
+    "id": "f580cfc1350941f59727fe079654b0bc",
+    "beforeName": "Saga Chicago study 2: Math GPA (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated math GPA 0.144 points higher from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate 0.144 (SE 0.043; 2,061 observations; Table 4, p. 750). This supports the paper's finding that tutoring improved mathematics outcomes."
+    },
+    "sourceValue": "0.144",
+    "sourceSE": "0.043",
+    "unit": "GPA points (0–4 scale)"
+  },
+  {
+    "key": "s2/math-gpa/tot",
+    "id": "2bf0c181dbe54ed296d08ad712f42c25",
+    "beforeName": "Saga Chicago study 2: Math GPA (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated math GPA 0.412 points higher from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate 0.412 (SE 0.122; 2,061 observations; Table 4, p. 750). This supports the paper's finding that tutoring improved mathematics outcomes."
+    },
+    "sourceValue": "0.412",
+    "sourceSE": "0.122",
+    "unit": "GPA points (0–4 scale)"
+  },
+  {
+    "key": "s2/math-failure/itt",
+    "id": "d922118658944b3bbbb4395718534ca1",
+    "beforeName": "Saga Chicago study 2: Math courses failed (percent) (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated the share of math courses failed 2.8 percentage points lower from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.028 on the fraction scale (SE 0.013; 2,061 observations; Table 4, p. 750). This supports the paper's finding that tutoring improved mathematics outcomes."
+    },
+    "sourceValue": "-0.028",
+    "sourceSE": "0.013",
+    "unit": "proportion of math courses failed (fraction)"
+  },
+  {
+    "key": "s2/math-failure/tot",
+    "id": "12995ac0a7f24984a291c05f848a7cad",
+    "beforeName": "Saga Chicago study 2: Math courses failed (percent) (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated the share of math courses failed 8 percentage points lower from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.080 on the fraction scale (SE 0.037; 2,061 observations; Table 4, p. 750). This supports the paper's finding that tutoring improved mathematics outcomes."
+    },
+    "sourceValue": "-0.080",
+    "sourceSE": "0.037",
+    "unit": "proportion of math courses failed (fraction)"
+  },
+  {
+    "key": "s2/cps-reading/itt",
+    "id": "2d4dccccff0e4b44bb26827f1dbd39e8",
+    "beforeName": "Saga Chicago study 2: CPS reading test (study sample Z) (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated CPS reading scores 0.002 standard deviations higher from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate 0.002 (SE 0.039; 1,865 observations; Table 4, p. 750). The paper did not establish a clear improvement in reading-test scores."
+    },
+    "sourceValue": "0.002",
+    "sourceSE": "0.039",
+    "unit": "study-sample standard deviations"
+  },
+  {
+    "key": "s2/cps-reading/tot",
+    "id": "8a4183784932474dbc188d4ebd816365",
+    "beforeName": "Saga Chicago study 2: CPS reading test (study sample Z) (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated CPS reading scores 0.005 standard deviations higher from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate 0.005 (SE 0.115; 1,865 observations; Table 4, p. 750). The paper did not establish a clear improvement in reading-test scores."
+    },
+    "sourceValue": "0.005",
+    "sourceSE": "0.115",
+    "unit": "study-sample standard deviations"
+  },
+  {
+    "key": "s2/nonmath-gpa/itt",
+    "id": "c64f6401ade2461ebec70cde6aab7e89",
+    "beforeName": "Saga Chicago study 2: Nonmath GPA (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated nonmath GPA 0.063 points higher from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate 0.063 (SE 0.034; 2,110 observations; Table 4, p. 750). The authors found no statistically significant nonmath spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "0.063",
+    "sourceSE": "0.034",
+    "unit": "GPA points (0–4 scale)"
+  },
+  {
+    "key": "s2/nonmath-gpa/tot",
+    "id": "da3e4b89a6484f34b19c64ef017cd7f5",
+    "beforeName": "Saga Chicago study 2: Nonmath GPA (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated nonmath GPA 0.181 points higher from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate 0.181 (SE 0.100; 2,110 observations; Table 4, p. 750). The authors found no statistically significant nonmath spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "0.181",
+    "sourceSE": "0.100",
+    "unit": "GPA points (0–4 scale)"
+  },
+  {
+    "key": "s2/nonmath-failure/itt",
+    "id": "08e3392a47834e09a355185c1b86842e",
+    "beforeName": "Saga Chicago study 2: Nonmath core courses failed (percent) (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated the share of nonmath core courses failed 1 percentage point lower from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.010 on the fraction scale (SE 0.010; 2,110 observations; Table 4, p. 750). The authors found no statistically significant nonmath spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.010",
+    "sourceSE": "0.010",
+    "unit": "proportion of nonmath core courses failed (fraction)"
+  },
+  {
+    "key": "s2/nonmath-failure/tot",
+    "id": "57641505121e45ccae90501a10413932",
+    "beforeName": "Saga Chicago study 2: Nonmath core courses failed (percent) (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated the share of nonmath core courses failed 3 percentage points lower from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.030 on the fraction scale (SE 0.028; 2,110 observations; Table 4, p. 750). The authors found no statistically significant nonmath spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.030",
+    "sourceSE": "0.028",
+    "unit": "proportion of nonmath core courses failed (fraction)"
+  },
+  {
+    "key": "s2/disciplinary-incidents/itt",
+    "id": "d9c40f1c3ad04740ae43c0c17b150213",
+    "beforeName": "Saga Chicago study 2: Disciplinary incidents (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 0.012 fewer disciplinary incidents per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.012 (SE 0.139; 2,474 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.012",
+    "sourceSE": "0.139",
+    "unit": "incidents per student in the first postrandomization school year"
+  },
+  {
+    "key": "s2/disciplinary-incidents/tot",
+    "id": "f0acaa91cb9c41cbaad759c45a9880b0",
+    "beforeName": "Saga Chicago study 2: Disciplinary incidents (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 0.037 fewer disciplinary incidents per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.037 (SE 0.437; 2,474 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.037",
+    "sourceSE": "0.437",
+    "unit": "incidents per student in the first postrandomization school year"
+  },
+  {
+    "key": "s2/days-absent/itt",
+    "id": "1434c20867244cbeb50bfbd14c1fe360",
+    "beforeName": "Saga Chicago study 2: Days absent (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 0.570 more days absent per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate 0.570 (SE 0.789; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "0.570",
+    "sourceSE": "0.789",
+    "unit": "days in the first postrandomization school year"
+  },
+  {
+    "key": "s2/days-absent/tot",
+    "id": "585fbcc245f54bf39d5d428ca06b32f8",
+    "beforeName": "Saga Chicago study 2: Days absent (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 1.899 more days absent per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate 1.899 (SE 2.625; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "1.899",
+    "sourceSE": "2.625",
+    "unit": "days in the first postrandomization school year"
+  },
+  {
+    "key": "s2/suspensions/itt",
+    "id": "c4bc13c8f73b4952947e094dbc35da0c",
+    "beforeName": "Saga Chicago study 2: Out-of-school suspensions (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 found no clear first-year effect of offering tutoring on out-of-school suspensions.",
+      "description": "Intention-to-treat estimate 0.065 (SE 0.092; 2,474 observations; Table 4, p. 750). The suspension unit remains unresolved: the table does not clearly distinguish days from events."
+    },
+    "sourceValue": "0.065",
+    "sourceSE": "0.092",
+    "unit": null
+  },
+  {
+    "key": "s2/suspensions/tot",
+    "id": "37a5e00bc1d349dda3aaa2627c3b2235",
+    "beforeName": "Saga Chicago study 2: Out-of-school suspensions (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 found no clear first-year effect of tutoring participation on out-of-school suspensions.",
+      "description": "Treatment-on-treated estimate 0.206 (SE 0.288; 2,474 observations; Table 4, p. 750). The suspension unit remains unresolved: the table does not clearly distinguish days from events."
+    },
+    "sourceValue": "0.206",
+    "sourceSE": "0.288",
+    "unit": null
+  },
+  {
+    "key": "s2/arrests-violent/itt",
+    "id": "398f32cb8211496e82943f015b7b6e6a",
+    "beforeName": "Saga Chicago study 2: Number of arrests for violent crimes (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 0.011 fewer violent-crime arrests per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.011 (SE 0.016; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.011",
+    "sourceSE": "0.016",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s2/arrests-violent/tot",
+    "id": "0cdee22b85854bf08630c95353300b59",
+    "beforeName": "Saga Chicago study 2: Number of arrests for violent crimes (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 0.038 fewer violent-crime arrests per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.038 (SE 0.052; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.038",
+    "sourceSE": "0.052",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s2/arrests-property/itt",
+    "id": "a0a2ca184dfd48e382b551412df4cfbb",
+    "beforeName": "Saga Chicago study 2: Number of arrests for property crimes (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 0.027 fewer property-crime arrests per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.027 (SE 0.017; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.027",
+    "sourceSE": "0.017",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s2/arrests-property/tot",
+    "id": "2da7e59b410b41f1949dd000336081f1",
+    "beforeName": "Saga Chicago study 2: Number of arrests for property crimes (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 0.090 fewer property-crime arrests per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.090 (SE 0.056; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.090",
+    "sourceSE": "0.056",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s2/arrests-drug/itt",
+    "id": "5049d294c8204c49aff5b40cc2958b37",
+    "beforeName": "Saga Chicago study 2: Number of arrests for drug crimes (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 0.001 more drug-crime arrests per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate 0.001 (SE 0.012; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "0.001",
+    "sourceSE": "0.012",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s2/arrests-drug/tot",
+    "id": "92dd63c465494ac28b0666047e240b52",
+    "beforeName": "Saga Chicago study 2: Number of arrests for drug crimes (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 0.003 more drug-crime arrests per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate 0.003 (SE 0.040; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "0.003",
+    "sourceSE": "0.040",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s2/arrests-other/itt",
+    "id": "6b04a24abb1a4decb2cae77a2906a05d",
+    "beforeName": "Saga Chicago study 2: Number of arrests for other crimes (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 0.048 fewer other-crime arrests per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.048 (SE 0.028; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.048",
+    "sourceSE": "0.028",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s2/arrests-other/tot",
+    "id": "04cc3f06b56d4e59a7c697c80e51c2d0",
+    "beforeName": "Saga Chicago study 2: Number of arrests for other crimes (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 0.160 fewer other-crime arrests per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.160 (SE 0.092; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.160",
+    "sourceSE": "0.092",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s2/ever-arrested/itt",
+    "id": "24abec08f40148a2963f27465f91f3d6",
+    "beforeName": "Saga Chicago study 2: Ever arrested for any crime (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated the probability of any arrest 1.8 percentage points lower from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.018 on the fraction scale (SE 0.013; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.018",
+    "sourceSE": "0.013",
+    "unit": "probability of any arrest in the first postrandomization school year (fraction)"
+  },
+  {
+    "key": "s2/ever-arrested/tot",
+    "id": "b47e12f8a53c4bf8a6862d0d17a7351e",
+    "beforeName": "Saga Chicago study 2: Ever arrested for any crime (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated the probability of any arrest 5.9 percentage points lower from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.059 on the fraction scale (SE 0.043; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.059",
+    "sourceSE": "0.043",
+    "unit": "probability of any arrest in the first postrandomization school year (fraction)"
+  },
+  {
+    "key": "s2/arrests-any/itt",
+    "id": "ffc7eccfd4524215a23fc0d722310275",
+    "beforeName": "Saga Chicago study 2: Number of arrests for any crime (ITT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 0.086 fewer arrests per student from offering tutoring in year one.",
+      "description": "Intention-to-treat estimate -0.086 (SE 0.045; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.086",
+    "sourceSE": "0.045",
+    "unit": "arrests per student in the first postrandomization school year"
+  },
+  {
+    "key": "s2/arrests-any/tot",
+    "id": "cd521f91b4e9455da6590175854a75f3",
+    "beforeName": "Saga Chicago study 2: Number of arrests for any crime (TOT, year one)",
+    "after": {
+      "name": "Saga's Chicago study 2 estimated 0.286 fewer arrests per student from tutoring participation in year one.",
+      "description": "Treatment-on-treated estimate -0.286 (SE 0.151; 2,710 observations; Table 4, p. 750). The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+    },
+    "sourceValue": "-0.286",
+    "sourceSE": "0.151",
+    "unit": "arrests per student in the first postrandomization school year"
+  }
+]

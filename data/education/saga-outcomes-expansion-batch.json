@@ -1,0 +1,378 @@
+{
+  "name": "Complete Saga first-year academic, attendance, discipline and arrest estimates",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/saga-outcomes-expansion-ops.json",
+  "sha256": "f40cb5a12d3032ecfdc8589279fef056e227bafeb5e5bb234d6e2ba8c12da91b",
+  "operationCount": 450,
+  "journalPath": "data/education/saga-outcomes-expansion-publication.json",
+  "validationPath": "data/education/saga-outcomes-expansion-validation.json",
+  "records": [
+    {
+      "key": "s1/cps-math/itt",
+      "id": "3f178d30985c477094dbdd90937d8268",
+      "existing": true,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/cps-math/tot",
+      "id": "9cfaa5763efb4651bbc197286ce72c08",
+      "existing": true,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/math-gpa/tot",
+      "id": "ffeec687e0af446aa2e90e798acc9fdd",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/math-failure/itt",
+      "id": "73d8c133826b4bcea2aacbfa72d4c836",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/math-failure/tot",
+      "id": "bab84aac05f24a478f448c2ec226250e",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/research-math/itt",
+      "id": "3c7b0abe15a14e9bacf0a2ee52cc5662",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/research-math/tot",
+      "id": "6b4c2c054cc546bab4fbd168afc31880",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/cps-reading/itt",
+      "id": "d111b31b9f144a9c8ee95a8532b6830b",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/cps-reading/tot",
+      "id": "a36823d383b04afa9ae5bdd563cf6ea3",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/nonmath-gpa/itt",
+      "id": "78a17a3d699d4195bc2e12ac5875bb4f",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/nonmath-gpa/tot",
+      "id": "db908777c1d14295bda598d4d6731375",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/nonmath-failure/itt",
+      "id": "b022d3385c8f4c1fa91298164d073646",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/nonmath-failure/tot",
+      "id": "4e43e9b25682445d8850ff72c47d5981",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/disciplinary-incidents/itt",
+      "id": "d084762247004c4c8e4549091ab8c73e",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/disciplinary-incidents/tot",
+      "id": "64e0fda505e14a60ba8407fd38a081ec",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/days-absent/itt",
+      "id": "8b80340e6b1a46b09e70a9510e613425",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/days-absent/tot",
+      "id": "587f445f37f740ca92280544d3285972",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/suspensions/itt",
+      "id": "7410eff9a28741ca810383b7ac0abd53",
+      "existing": false,
+      "unitKnown": false
+    },
+    {
+      "key": "s1/suspensions/tot",
+      "id": "fcbbe95d9b79475c8662740d2cfdc301",
+      "existing": false,
+      "unitKnown": false
+    },
+    {
+      "key": "s1/arrests-violent/itt",
+      "id": "11973d57b9294059802ad0a153ed5d1d",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/arrests-violent/tot",
+      "id": "b34ebb6eb5a040af8c65ab8f04486283",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/arrests-property/itt",
+      "id": "65989f5345b942a5981f5b677885fbb1",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/arrests-property/tot",
+      "id": "a920403fde2c42f19862ba95f9d09ecb",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/arrests-drug/itt",
+      "id": "65ea118fa3344499ba7382aedaf6dd54",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/arrests-drug/tot",
+      "id": "7f652df7ec994d0899de710c0776af54",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/arrests-other/itt",
+      "id": "29c050e3d93f4213b8a24cb2db950701",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/arrests-other/tot",
+      "id": "d22ce7ef013a46d989ba873feefa7a90",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/ever-arrested/itt",
+      "id": "397690e922384ecc909b0011a1acbcc7",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/ever-arrested/tot",
+      "id": "1b58db11a2274a88ad3338998bd8d591",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/arrests-any/itt",
+      "id": "f11226fdc1454d58a24c256a5a022c25",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s1/arrests-any/tot",
+      "id": "05f0175aeaa34327af79326f4b2bd2b8",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/cps-math/itt",
+      "id": "36570925385b495e9de1777b82d01b9b",
+      "existing": true,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/cps-math/tot",
+      "id": "604fb6007d6a4cc5ab52d489c9dc17bd",
+      "existing": true,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/math-gpa/itt",
+      "id": "f580cfc1350941f59727fe079654b0bc",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/math-gpa/tot",
+      "id": "2bf0c181dbe54ed296d08ad712f42c25",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/math-failure/itt",
+      "id": "d922118658944b3bbbb4395718534ca1",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/math-failure/tot",
+      "id": "12995ac0a7f24984a291c05f848a7cad",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/cps-reading/itt",
+      "id": "2d4dccccff0e4b44bb26827f1dbd39e8",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/cps-reading/tot",
+      "id": "8a4183784932474dbc188d4ebd816365",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/nonmath-gpa/itt",
+      "id": "c64f6401ade2461ebec70cde6aab7e89",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/nonmath-gpa/tot",
+      "id": "da3e4b89a6484f34b19c64ef017cd7f5",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/nonmath-failure/itt",
+      "id": "08e3392a47834e09a355185c1b86842e",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/nonmath-failure/tot",
+      "id": "57641505121e45ccae90501a10413932",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/disciplinary-incidents/itt",
+      "id": "d9c40f1c3ad04740ae43c0c17b150213",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/disciplinary-incidents/tot",
+      "id": "f0acaa91cb9c41cbaad759c45a9880b0",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/days-absent/itt",
+      "id": "1434c20867244cbeb50bfbd14c1fe360",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/days-absent/tot",
+      "id": "585fbcc245f54bf39d5d428ca06b32f8",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/suspensions/itt",
+      "id": "c4bc13c8f73b4952947e094dbc35da0c",
+      "existing": false,
+      "unitKnown": false
+    },
+    {
+      "key": "s2/suspensions/tot",
+      "id": "37a5e00bc1d349dda3aaa2627c3b2235",
+      "existing": false,
+      "unitKnown": false
+    },
+    {
+      "key": "s2/arrests-violent/itt",
+      "id": "398f32cb8211496e82943f015b7b6e6a",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/arrests-violent/tot",
+      "id": "0cdee22b85854bf08630c95353300b59",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/arrests-property/itt",
+      "id": "a0a2ca184dfd48e382b551412df4cfbb",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/arrests-property/tot",
+      "id": "2da7e59b410b41f1949dd000336081f1",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/arrests-drug/itt",
+      "id": "5049d294c8204c49aff5b40cc2958b37",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/arrests-drug/tot",
+      "id": "92dd63c465494ac28b0666047e240b52",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/arrests-other/itt",
+      "id": "6b04a24abb1a4decb2cae77a2906a05d",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/arrests-other/tot",
+      "id": "04cc3f06b56d4e59a7c697c80e51c2d0",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/ever-arrested/itt",
+      "id": "24abec08f40148a2963f27465f91f3d6",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/ever-arrested/tot",
+      "id": "b47e12f8a53c4bf8a6862d0d17a7351e",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/arrests-any/itt",
+      "id": "ffc7eccfd4524215a23fc0d722310275",
+      "existing": false,
+      "unitKnown": true
+    },
+    {
+      "key": "s2/arrests-any/tot",
+      "id": "cd521f91b4e9455da6590175854a75f3",
+      "existing": false,
+      "unitKnown": true
+    }
+  ]
+}

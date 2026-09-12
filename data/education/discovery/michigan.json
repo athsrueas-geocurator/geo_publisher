@@ -1,0 +1,33 @@
+{
+  "term": "Michigan",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T20:03:44.758Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "97d1a256414e45e58ea16ab1b871ee51",
+      "name": "Michigan",
+      "description": "Great Lakes state known for automotive leadership, advanced manufacturing, freshwater coastlines, and Detroit culture.",
+      "spaceIds": [
+        "84a679ce188f061ac9a92380bac2bab5"
+      ],
+      "types": [
+        {
+          "id": "783bc688e65f4e54b67fa5643d78345e",
+          "name": "Place"
+        },
+        {
+          "id": "dbe62a14ec954a7193767db33b661ff5",
+          "name": "State"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOTdkMWEyNTYtNDE0ZS00NWU1LThlYTEtNmFiMWI4NzFlZTUxIl1d"
+    }
+  ]
+}

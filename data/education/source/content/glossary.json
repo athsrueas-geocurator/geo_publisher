@@ -1,0 +1,297 @@
+[
+  {
+    "term": "Dataset versus causal study",
+    "definition": "A dataset records observations such as test scores, enrollment, attendance, or spending. It does not establish cause by itself. A causal study uses a research design and a comparison group to estimate what would likely have happened without the intervention.",
+    "section": "Causal inference"
+  },
+  {
+    "term": "Causal inference",
+    "definition": "A conclusion that an intervention changed an outcome, supported by a design that addresses plausible alternative explanations.",
+    "section": "Causal inference"
+  },
+  {
+    "term": "Counterfactual",
+    "definition": "The outcome that would have occurred for the same people or schools without the intervention. Because it cannot be observed directly, studies approximate it with a control or comparison group.",
+    "section": "Causal inference"
+  },
+  {
+    "term": "Comparison group",
+    "definition": "People, schools, or districts that did not receive the intervention and are used to estimate the counterfactual outcome.",
+    "section": "Causal inference"
+  },
+  {
+    "term": "Confounding",
+    "definition": "When another factor affects both who receives an intervention and the outcome. For example, a district may direct tutoring to students already at highest risk of falling behind.",
+    "section": "Causal inference"
+  },
+  {
+    "term": "Selection bias",
+    "definition": "A form of confounding caused by systematic differences between people who receive an intervention and people who do not.",
+    "section": "Causal inference"
+  },
+  {
+    "term": "Confidence interval",
+    "definition": "A range around an estimated effect that reflects statistical uncertainty. It does not capture every source of bias or implementation error.",
+    "section": "Causal inference"
+  },
+  {
+    "term": "Statistical significance",
+    "definition": "A test of whether an observed estimate would be unlikely under a specified no-effect model. It is not a measure of practical importance or proof of causality.",
+    "section": "Causal inference"
+  },
+  {
+    "term": "Strong causal evidence",
+    "definition": "Multiple RCTs, high-quality RCT/lottery evidence, or strong quasi-experimental evidence with clear student outcome effects.",
+    "section": "Evidence signal"
+  },
+  {
+    "term": "Promising causal/quasi",
+    "definition": "Credible lottery, regression discontinuity, difference-in-differences, or well-controlled evidence, but narrower samples or mixed replication.",
+    "section": "Evidence signal"
+  },
+  {
+    "term": "Mixed/conditional",
+    "definition": "Evidence varies by context, outcome, implementation, or student group; may include positive and null/negative findings.",
+    "section": "Evidence signal"
+  },
+  {
+    "term": "Limited/descriptive",
+    "definition": "Implementation, trend, or correlational evidence without strong causal identification.",
+    "section": "Evidence signal"
+  },
+  {
+    "term": "Not an outcome intervention",
+    "definition": "A research infrastructure, standard, or framework that shapes evidence use but is not itself a student intervention.",
+    "section": "Evidence signal"
+  },
+  {
+    "term": "RCT",
+    "definition": "Random assignment to treatment/control; strongest internal validity when implemented and analyzed well.",
+    "section": "Design glossary"
+  },
+  {
+    "term": "Lottery design",
+    "definition": "Uses oversubscribed admissions lotteries as random or near-random offers; estimates effects for applicants.",
+    "section": "Design glossary"
+  },
+  {
+    "term": "Regression discontinuity",
+    "definition": "Compares students/schools just above and below an eligibility cutoff; local to the cutoff.",
+    "section": "Design glossary"
+  },
+  {
+    "term": "Difference-in-differences / event study",
+    "definition": "Compares pre-post changes for treated vs comparison groups; relies on parallel pre-trends.",
+    "section": "Design glossary"
+  },
+  {
+    "term": "Matched comparison / virtual control",
+    "definition": "Matches treated students/schools to similar untreated units; sensitive to unobserved selection.",
+    "section": "Design glossary"
+  },
+  {
+    "term": "Meta-analysis / systematic review",
+    "definition": "Aggregates effects across studies; results depend on inclusion rules and comparability.",
+    "section": "Design glossary"
+  },
+  {
+    "term": "Effect sizes",
+    "definition": "Convert outcome differences to standard deviations to compare tests and grades; interpret with outcome and age context.",
+    "section": "Normalization"
+  },
+  {
+    "term": "Common scales",
+    "definition": "Use low-stakes national or harmonized data such as NAEP or SEDA when state tests change.",
+    "section": "Normalization"
+  },
+  {
+    "term": "ITT vs TOT",
+    "definition": "Intent-to-treat estimates effect of offer/assignment; treatment-on-treated estimates effect among compliers and needs stronger assumptions.",
+    "section": "Normalization"
+  },
+  {
+    "term": "Cost-effectiveness",
+    "definition": "Pair credible effect estimates with full implementation costs, not only grant totals or software licenses.",
+    "section": "Normalization"
+  },
+  {
+    "term": "What Works Clearinghouse",
+    "definition": "Central federal source for systematic evidence reviews and intervention reports.",
+    "section": "Core resource"
+  },
+  {
+    "term": "ESSA evidence tiers",
+    "definition": "Operational evidence tiers for federal education program decisions.",
+    "section": "Core resource"
+  },
+  {
+    "term": "NAEP",
+    "definition": "Low-stakes nationally representative assessment useful for cross-state comparison and trend checks.",
+    "section": "Core resource"
+  },
+  {
+    "term": "SEDA",
+    "definition": "Harmonized district/county achievement and gap data for cross-place comparisons.",
+    "section": "Core resource"
+  },
+  {
+    "term": "Education Recovery Scorecard",
+    "definition": "Harvard/Stanford recovery data linking pandemic recovery patterns, relief, and district outcomes.",
+    "section": "Core resource"
+  },
+  {
+    "term": "Target population",
+    "definition": "Use baseline covariates, subgroup indicators, baseline achievement quantiles, and cohort definitions.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Dosage and intensity",
+    "definition": "Convert planned exposure to attended exposure; report ITT and treatment-on-treated where possible.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Staffing ratio and adult contact",
+    "definition": "Normalize to effective contact hours and adult qualification level.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Curriculum content",
+    "definition": "Use common rubrics, curriculum review ratings, lesson artifacts, topic coverage, and teacher usage surveys.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Pedagogy and instructional model",
+    "definition": "Use validated observation rubrics, video coding, instructional logs, and common categories.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Technology role",
+    "definition": "Separate access, active academic use, teacher-mediated use, and substitution for in-person instruction.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Teacher supports",
+    "definition": "Report content focus, active practice, coaching cycles, and alignment to adopted materials.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Accountability and incentives",
+    "definition": "Code stakes, affected grades/subjects, thresholds, consequences, and timing.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Governance and choice",
+    "definition": "Use lottery offers for ITT where possible; otherwise match on prior achievement and demographics.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Time structure",
+    "definition": "Convert to active learning time using attendance and instructional-use measures.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Early childhood quality",
+    "definition": "Use classroom quality observations, curriculum indicators, and counterfactual care type.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Whole-child supports",
+    "definition": "Track service eligibility, take-up, completion, and schoolwide climate exposure.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Finance and resources",
+    "definition": "Use real dollars, exposure years, district fixed effects, and cost-effectiveness ratios.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Implementation and fidelity",
+    "definition": "Separate intent-to-treat, implementation-on-treated, and mediator analyses.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Counterfactual context",
+    "definition": "Use baseline trends, matched controls, cohort fixed effects, and sensitivity analyses.",
+    "section": "Input variable"
+  },
+  {
+    "term": "Achievement test scores",
+    "definition": "Convert to student-level or grade-level SD; use common NAEP/SEDA scales for cross-state comparisons.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Proficiency and cut-score metrics",
+    "definition": "Do not equate state proficient with NAEP Proficient; map state standards carefully.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Reading subskills",
+    "definition": "Report domains separately; early decoding gains do not guarantee comprehension gains.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Math subskills and course readiness",
+    "definition": "Normalize by grade, course content, and test alignment.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Academic growth",
+    "definition": "Growth metrics are less sensitive to baseline level but still depend on test scale and ceiling/floor.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Coursework and grades",
+    "definition": "Normalize course titles and rigor; credit inflation can mask learning.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Attendance and engagement",
+    "definition": "Use same chronic absenteeism threshold and handle remote/partial days consistently.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Behavior and climate",
+    "definition": "Standardize reporting rules; separate actual behavior from adult referral behavior.",
+    "section": "Outcome"
+  },
+  {
+    "term": "SEL and noncognitive outcomes",
+    "definition": "Use common scales or standardize within sample; triangulate self, teacher, and admin measures.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Grade progression",
+    "definition": "Define on-track consistently; account for policy-induced retention.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Completion",
+    "definition": "Use consistent cohort graduation definitions and diploma requirements.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Postsecondary outcomes",
+    "definition": "Compare enrollment quality, persistence, and degree, not only initial entry.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Labor market and adult outcomes",
+    "definition": "Use real dollars and discounting; account for local labor markets and mobility.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Health, crime, and civic outcomes",
+    "definition": "Use consistent legal/reporting definitions and subgroup precision checks.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Cost-effectiveness",
+    "definition": "Include start-up, training, administrative, facilities, opportunity costs, and participant time.",
+    "section": "Outcome"
+  },
+  {
+    "term": "Implementation mediators",
+    "definition": "Use as mechanism evidence, not final student outcome unless the theory is explicitly adult practice.",
+    "section": "Outcome"
+  }
+]

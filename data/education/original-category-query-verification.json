@@ -1,0 +1,106 @@
+{
+  "checkedAt": "2026-09-12T12:08:13.045Z",
+  "passed": true,
+  "reports": [
+    {
+      "category": "5a86d2f3657b4b5baabef07a3393e408",
+      "nodes": [
+        {
+          "id": "873ba46a8371483a9b1e0398c8031d4a",
+          "fromEntityId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+          "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "fromEntity": {
+            "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+            "name": "Reading First"
+          },
+          "toEntity": {
+            "id": "5a86d2f3657b4b5baabef07a3393e408",
+            "name": "U.S. literacy education"
+          }
+        },
+        {
+          "id": "e7bbab9b81494e838a68283691b293eb",
+          "fromEntityId": "891cbf9044384a04b8a7fc47d444d749",
+          "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "fromEntity": {
+            "id": "891cbf9044384a04b8a7fc47d444d749",
+            "name": "Enhanced Reading Opportunities / Reading Apprenticeship and Xtreme Reading"
+          },
+          "toEntity": {
+            "id": "5a86d2f3657b4b5baabef07a3393e408",
+            "name": "U.S. literacy education"
+          }
+        }
+      ],
+      "expected": [
+        {
+          "migrationKey": "initiatives:12",
+          "entityId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+          "sourceCategory": "Literacy",
+          "categoryId": "5a86d2f3657b4b5baabef07a3393e408",
+          "relationId": "873ba46a8371483a9b1e0398c8031d4a"
+        },
+        {
+          "migrationKey": "initiatives:74",
+          "entityId": "891cbf9044384a04b8a7fc47d444d749",
+          "sourceCategory": "Literacy",
+          "categoryId": "5a86d2f3657b4b5baabef07a3393e408",
+          "relationId": "e7bbab9b81494e838a68283691b293eb"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "category": "0df9fad9098d4b11bacb9af0f7a79182",
+      "nodes": [
+        {
+          "id": "8688409da29740f3bfd23a7f5150034c",
+          "fromEntityId": "c77b1107b93643b4870dfa11c0677d8f",
+          "toEntityId": "0df9fad9098d4b11bacb9af0f7a79182",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "fromEntity": {
+            "id": "c77b1107b93643b4870dfa11c0677d8f",
+            "name": "Boston universal pre-K"
+          },
+          "toEntity": {
+            "id": "0df9fad9098d4b11bacb9af0f7a79182",
+            "name": "Early childhood education"
+          }
+        },
+        {
+          "id": "b31602279e054ba8bfdbec1d5365fd0c",
+          "fromEntityId": "d03b32bd416443e49b9aa376e744cb03",
+          "toEntityId": "0df9fad9098d4b11bacb9af0f7a79182",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "fromEntity": {
+            "id": "d03b32bd416443e49b9aa376e744cb03",
+            "name": "Head Start"
+          },
+          "toEntity": {
+            "id": "0df9fad9098d4b11bacb9af0f7a79182",
+            "name": "Early childhood education"
+          }
+        }
+      ],
+      "expected": [
+        {
+          "migrationKey": "initiatives:43",
+          "entityId": "d03b32bd416443e49b9aa376e744cb03",
+          "sourceCategory": "Early childhood",
+          "categoryId": "0df9fad9098d4b11bacb9af0f7a79182",
+          "relationId": "b31602279e054ba8bfdbec1d5365fd0c"
+        },
+        {
+          "migrationKey": "initiatives:46",
+          "entityId": "c77b1107b93643b4870dfa11c0677d8f",
+          "sourceCategory": "Early childhood",
+          "categoryId": "0df9fad9098d4b11bacb9af0f7a79182",
+          "relationId": "8688409da29740f3bfd23a7f5150034c"
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

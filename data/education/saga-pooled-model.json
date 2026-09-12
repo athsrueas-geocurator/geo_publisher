@@ -1,0 +1,20 @@
+{
+  "status": "Preparation model; identity review and publication still required",
+  "datasetId": "52448bbbf0cd4c1bb8e949ebe9d628d2",
+  "articleId": "8812b3d57a4c4221a10c1024557a764a",
+  "studyIds": ["6ff69ada18b54b1db98375da1b90df65", "86c407ce9e7e49819e1cd8d07b20f4c8"],
+  "claimType": "96f859efa1ca4b229372c86ad58b694b",
+  "factualProperty": "da4a6c1f9d4446f9832ff3b49a4400ef",
+  "sourceProperty": "49c5d5e1679a4dbdbfd33f618f227c94",
+  "relatedProperty": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+  "outcomeProperty": "0e1320cbf9b3b4f5fe066780d1803b13",
+  "sampleProperty": "bf0249bb71924460bfe6b35394ed0781",
+  "studyNumberPolicy": "Omit the single-trial integer; never use 0 or 3 to represent pooled studies.",
+  "studyRelationPolicy": "Every pooled Claim links to both existing trials through Related entities, and to the final Article through Sources. No new independent Study entity is needed.",
+  "deduplicationPolicy": "Group ITT and TOT by sourceRowKey; group pooled and individual analyses by the two underlying trial IDs. Neither representation nor pooling adds an independent trial.",
+  "tables": [
+    {"sourceTable": 5, "name": "Saga pooled first-year findings", "expectedEstimates": 30},
+    {"sourceTable": 7, "name": "Saga pooled later follow-up findings", "expectedEstimates": 8}
+  ],
+  "methodsMarkdown": "## Pooled analyses of two trials\n\nThese findings combine the two Chicago randomized tutoring studies reported in the final AER article. They are additional analyses of those trials, not a third experiment. ITT estimates the effect of a tutoring offer; TOT uses randomized assignment as an instrument for participation. Alternate estimands and pooled results must not be counted as independent evidence.\n\n## Follow-up and uncertainty\n\nTable 5 reports the first postrandomization school year. Table 7 measures eleventh-grade outcomes in the year students would have reached that grade without retention, rather than one common elapsed follow-up interval. The authors describe persistent math effects but imprecise graduation effects. The terminal date for the outcome labeled Graduated ever is not yet established; it must not be interpreted as lifetime graduation. Table 7 retains duplicate randomization observations and clusters standard errors by individual.\n\n## Shared statistics and units\n\nThe control mean and estimated control-complier mean are different quantities. Reported FDR q-values belong to the source row and must not be relabeled as ordinary per-estimand p-values. Fraction-valued outcomes retain their original scale. The suspension label does not resolve whether its unit is days or events; leave its unit absent rather than inventing one.\n\n## Coverage\n\n[Final AER article](https://doi.org/10.1257/aer.20210434), Tables 5 and 7, printed pages 751 and 753. Table 6's weighted per-year effect and upper bounds require separate modeling and are not included in these point-estimate tables. Study-specific later outcomes in the appendix remain separate required coverage."
+}

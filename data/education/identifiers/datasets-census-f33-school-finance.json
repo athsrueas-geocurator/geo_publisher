@@ -1,0 +1,32 @@
+{
+  "sourceKey": "datasets/census-f33-school-finance",
+  "checkedAt": "2026-09-11T17:55:57.563Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://www.census.gov/programs-surveys/school-finances/about.html",
+      "needle": "www.census.gov/programs-surveys/school-finances/about.html",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    },
+    {
+      "url": "https://api.census.gov/data/timeseries/govsschfin.html",
+      "needle": "api.census.gov/data/timeseries/govsschfin.html",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

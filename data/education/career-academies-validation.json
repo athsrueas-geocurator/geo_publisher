@@ -1,0 +1,112 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T04:02:40.300Z",
+  "opsHash": "fcef2beab1d622d841e255ea7952def9ddaa81645d13cfc2a7ecb26645e47df4",
+  "checks": [
+    "Complete discovery data/education/discovery/career-academies-long-term-impacts-on-work-education-and-transitions-to-adulthood.json has no candidate",
+    "Complete discovery data/education/discovery/career-academies.json has no candidate",
+    "Complete discovery data/education/discovery/contains-career-academies.json has no candidate",
+    "Live property 8f151ba4de204e3c9cb499ddf96f48f1",
+    "Live property 49c5d5e1679a4dbdbfd33f618f227c94",
+    "Live property dfa6aebe1ca94bf29faccc4cc7afb24c",
+    "Live property da4a6c1f9d4446f9832ff3b49a4400ef",
+    "Live property 412ff593e9154012a43d4c27ec5c68b6",
+    "Live property e500e2585a964d2c9df4a47b199616c3",
+    "Live property 8405509cc7354655a348591349a5f025",
+    "Unused ID 724040519bc34a14b00481a30c89eb38",
+    "Unused ID d9a9f591762b463ba192d99ba922263d",
+    "Unused ID ad46bd08a240475ea7e837be5b50ffe5",
+    "Unused ID 308e7f13d2b64e5ab703ff0c6efaf02e",
+    "Unused ID f9e2d6635ad94fb8acbefcc9d78b15cd",
+    "Unused ID 7fce844370e840cc855866e85ed84b0b"
+  ],
+  "edges": [
+    {
+      "f": "724040519bc34a14b00481a30c89eb38",
+      "t": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    {
+      "f": "d9a9f591762b463ba192d99ba922263d",
+      "t": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "d272f19cef87485fb83e26fb68957395"
+    },
+    {
+      "f": "d9a9f591762b463ba192d99ba922263d",
+      "t": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "724040519bc34a14b00481a30c89eb38"
+    },
+    {
+      "f": "d9a9f591762b463ba192d99ba922263d",
+      "t": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "to": "724040519bc34a14b00481a30c89eb38"
+    },
+    {
+      "f": "ad46bd08a240475ea7e837be5b50ffe5",
+      "t": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "f": "ad46bd08a240475ea7e837be5b50ffe5",
+      "t": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "724040519bc34a14b00481a30c89eb38"
+    },
+    {
+      "f": "ad46bd08a240475ea7e837be5b50ffe5",
+      "t": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "to": "d9a9f591762b463ba192d99ba922263d"
+    },
+    {
+      "f": "308e7f13d2b64e5ab703ff0c6efaf02e",
+      "t": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "f": "308e7f13d2b64e5ab703ff0c6efaf02e",
+      "t": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "724040519bc34a14b00481a30c89eb38"
+    },
+    {
+      "f": "308e7f13d2b64e5ab703ff0c6efaf02e",
+      "t": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "to": "d9a9f591762b463ba192d99ba922263d"
+    },
+    {
+      "f": "f9e2d6635ad94fb8acbefcc9d78b15cd",
+      "t": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "f": "f9e2d6635ad94fb8acbefcc9d78b15cd",
+      "t": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "724040519bc34a14b00481a30c89eb38"
+    },
+    {
+      "f": "f9e2d6635ad94fb8acbefcc9d78b15cd",
+      "t": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "to": "d9a9f591762b463ba192d99ba922263d"
+    },
+    {
+      "f": "7fce844370e840cc855866e85ed84b0b",
+      "t": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "f": "7fce844370e840cc855866e85ed84b0b",
+      "t": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "724040519bc34a14b00481a30c89eb38"
+    },
+    {
+      "f": "7fce844370e840cc855866e85ed84b0b",
+      "t": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "to": "d9a9f591762b463ba192d99ba922263d"
+    }
+  ],
+  "source": {
+    "title": "Career Academies: Long-Term Impacts on Work, Education, and Transitions to Adulthood",
+    "publisher": "MDRC",
+    "year": 2008,
+    "design": "Random assignment in nine high schools; eight-year post-graduation follow-up",
+    "limits": "All earnings in 2006 dollars; educational and labor-market outcomes stay distinct."
+  }
+}

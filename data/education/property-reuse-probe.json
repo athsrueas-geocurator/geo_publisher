@@ -1,0 +1,373 @@
+{
+  "checkedAt": "2026-09-11T18:30:27.029Z",
+  "entities": [
+    {
+      "id": "06c899fb04334e679feb1fd56687c3d6",
+      "name": "Category",
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "4b6d9fc1fbfe474c861c83398e1b50d9",
+              "name": "Relation"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "toEntity": {
+              "id": "52e68966a4f743d3a7ae6cca8f838514",
+              "name": "Category"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "257090341ba5406f94e4d4af90042fba",
+      "name": "Tags",
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "4b6d9fc1fbfe474c861c83398e1b50d9",
+              "name": "Relation"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "4b3fe43fe11a7334f767b3c66e24cf8a"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "toEntity": {
+              "id": "e0fcc66c9e8643f480802469d8a1a93a",
+              "name": "Tag"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "name": "Related entities",
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "4b6d9fc1fbfe474c861c83398e1b50d9",
+              "name": "Relation"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "toEntity": {
+              "id": "42a0a7618c82459fad0834bfeb437cde",
+              "name": "Country"
+            },
+            "spaceId": "da96a4c26e718bfa6c27c3b1f3c316cd"
+          },
+          {
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "toEntity": {
+              "id": "9547f4fb78744de0a9a9fdd7b4c01c0c",
+              "name": "Organization"
+            },
+            "spaceId": "da96a4c26e718bfa6c27c3b1f3c316cd"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "da96a4c26e718bfa6c27c3b1f3c316cd"
+          },
+          {
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "toEntity": {
+              "id": "7ed45f2bc48b419e8e4664d5ff680b0d",
+              "name": "Person"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "4b6d9fc1fbfe474c861c83398e1b50d9",
+              "name": "Relation"
+            },
+            "spaceId": "cf0e11338b33fcd6cdb032c625c85454"
+          },
+          {
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "toEntity": {
+              "id": "e7d737c536764c609fa16aa64a8c90ad",
+              "name": "Type"
+            },
+            "spaceId": "d69608290513c2a91102c939b3265bd7"
+          },
+          {
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "toEntity": {
+              "id": "7ed45f2bc48b419e8e4664d5ff680b0d",
+              "name": "Person"
+            },
+            "spaceId": "da96a4c26e718bfa6c27c3b1f3c316cd"
+          },
+          {
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "toEntity": {
+              "id": "42a0a7618c82459fad0834bfeb437cde",
+              "name": "Country"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "783bc688e65f4e54b67fa5643d78345e",
+              "name": "Place"
+            },
+            "spaceId": "da96a4c26e718bfa6c27c3b1f3c316cd"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "toEntity": {
+              "id": "b9a456d44ee44f418f9cca322871cafa",
+              "name": "Project"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "toEntity": {
+              "id": "b9a456d44ee44f418f9cca322871cafa",
+              "name": "Project"
+            },
+            "spaceId": "da96a4c26e718bfa6c27c3b1f3c316cd"
+          },
+          {
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "toEntity": {
+              "id": "3317d044a7004a9dbbaf4c16ade42f76",
+              "name": "Continent"
+            },
+            "spaceId": "da96a4c26e718bfa6c27c3b1f3c316cd"
+          },
+          {
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "toEntity": {
+              "id": "783bc688e65f4e54b67fa5643d78345e",
+              "name": "Place"
+            },
+            "spaceId": "da96a4c26e718bfa6c27c3b1f3c316cd"
+          },
+          {
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "toEntity": {
+              "id": "984598c5b4b84389a58cee1110dea242",
+              "name": "Discovery"
+            },
+            "spaceId": "cf0e11338b33fcd6cdb032c625c85454"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "cf0e11338b33fcd6cdb032c625c85454"
+          },
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "4b6d9fc1fbfe474c861c83398e1b50d9",
+              "name": "Relation"
+            },
+            "spaceId": "da96a4c26e718bfa6c27c3b1f3c316cd"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "5e92c8a417144ee79a09389ef4336aeb",
+      "name": "Source database identifier",
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "9edb6fcce4544aa5861139d7f024c010",
+              "name": "Text"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "b0305ef28312c519d954bc0efe22f013",
+      "name": "Route slug",
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "f65885c9012be9a9201ddeb6e8c92b61"
+          },
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "9edb6fcce4544aa5861139d7f024c010",
+              "name": "Text"
+            },
+            "spaceId": "f65885c9012be9a9201ddeb6e8c92b61"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "6d25739b9217e7c35103b37c3db12709",
+      "name": "Notes",
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "9edb6fcce4544aa5861139d7f024c010",
+              "name": "Text"
+            },
+            "spaceId": "5c7851580401d2548e4f948d724b8794"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "5c7851580401d2548e4f948d724b8794"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "0e281b911118e64e953f6e6b2cf9c939",
+      "name": "Publication year",
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "149fd752d9d04f80820d1d942eea7841",
+              "name": "Integer"
+            },
+            "spaceId": "0e964b063541ae7df0f8b8365fb25882"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "0e964b063541ae7df0f8b8365fb25882"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "ac67153a8c3ce68603ca8453b7586dda",
+      "name": "Study design",
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "9edb6fcce4544aa5861139d7f024c010",
+              "name": "Text"
+            },
+            "spaceId": "5c7851580401d2548e4f948d724b8794"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "5c7851580401d2548e4f948d724b8794"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    }
+  ]
+}

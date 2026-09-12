@@ -1,0 +1,252 @@
+[
+  {
+    "entity": {
+      "id": "8e46e3eff9dea2b55d32a5ca7de61938",
+      "name": "Study design",
+      "description": "Study design for the source study.",
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+          },
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "9edb6fcce4544aa5861139d7f024c010",
+              "name": "Text"
+            },
+            "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "valuesConnection": {
+      "nodes": [
+        {
+          "entity": {
+            "id": "da24dc2815516d108c90d8bd258624c4",
+            "name": "IV ketamine plus cognitive training for depression (ClinicalIntuition card)"
+          },
+          "text": "Randomized controlled clinical trial result card",
+          "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+        },
+        {
+          "entity": {
+            "id": "5213427787b54ad0207c3aa76f1930c9",
+            "name": "NCT06430541: Study of Psilocybin Assisted Psychotherapy to Address Fear of Recurrence"
+          },
+          "text": "Type: Interventional; Allocation: Na; Model: Single Group; Purpose: Supportive Care; Masking: None",
+          "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+        },
+        {
+          "entity": {
+            "id": "a1deee3f7da95cff626da7bce577ee8e",
+            "name": "Long-lasting neuroprotective effect of sildenafil against MDMA-induced 5-HT deficits in the rat brain"
+          },
+          "text": "Preclinical rat experiment with delayed sildenafil pretreatment before repeated MDMA dosing",
+          "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": true
+      }
+    },
+    "relationsConnection": {
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  },
+  {
+    "entity": {
+      "id": "ac67153a8c3ce68603ca8453b7586dda",
+      "name": "Study design",
+      "description": "Study design category such as meta-analysis, systematic review, randomized controlled trial, observational study, mechanistic study, or anecdote.",
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "9edb6fcce4544aa5861139d7f024c010",
+              "name": "Text"
+            },
+            "spaceId": "5c7851580401d2548e4f948d724b8794"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "5c7851580401d2548e4f948d724b8794"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "valuesConnection": {
+      "nodes": [
+        {
+          "entity": {
+            "id": "2c3f1422c9dd0dd904063eef048a288f",
+            "name": "JAMA International Medicine"
+          },
+          "text": "Study",
+          "spaceId": "5c7851580401d2548e4f948d724b8794"
+        },
+        {
+          "entity": {
+            "id": "6aa72f93fd992600c0eb8d409db58877",
+            "name": "American Journal of Geriatric Psychiatry"
+          },
+          "text": "Study",
+          "spaceId": "5c7851580401d2548e4f948d724b8794"
+        },
+        {
+          "entity": {
+            "id": "7795dad6ba35e445f52b78b207bf5190",
+            "name": "Journal of Environmental Science and Health"
+          },
+          "text": "Study",
+          "spaceId": "5c7851580401d2548e4f948d724b8794"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": true
+      }
+    },
+    "relationsConnection": {
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  },
+  {
+    "entity": {
+      "id": "b1fdc75afb6841a18d8286427099ea44",
+      "name": "Study design",
+      "description": null,
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "4b6d9fc1fbfe474c861c83398e1b50d9",
+              "name": "Relation"
+            },
+            "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "valuesConnection": {
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    "relationsConnection": {
+      "nodes": [
+        {
+          "fromEntity": {
+            "id": "3d4b94bf5ebd42268f10ca3aa75b2232",
+            "name": "Planetary Health Diet linked to lower cardiovascular disease risk in postmenopausal women, 20-year study finds"
+          },
+          "toEntity": {
+            "id": "73dd30ca5c9a4ae7be3e6dfaed332365",
+            "name": "Prospective observational"
+          },
+          "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+        },
+        {
+          "fromEntity": {
+            "id": "3d4b94bf5ebd42268f10ca3aa75b2232",
+            "name": "Planetary Health Diet linked to lower cardiovascular disease risk in postmenopausal women, 20-year study finds"
+          },
+          "toEntity": {
+            "id": "cde36e490fd64fabab5f22dba39969cb",
+            "name": "Women's Health Initiative estrogen plus progestin trial"
+          },
+          "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  },
+  {
+    "entity": {
+      "id": "e278c93fc5504f0e98b9f9519e739856",
+      "name": "Study design",
+      "description": "Methodology of the trial: randomized, double-blind, open-label",
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "toEntity": {
+              "id": "9edb6fcce4544aa5861139d7f024c010",
+              "name": "Text"
+            },
+            "spaceId": "c45e5508572e026a7e78715e113529d1"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            },
+            "spaceId": "c45e5508572e026a7e78715e113529d1"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "valuesConnection": {
+      "nodes": [
+        {
+          "entity": {
+            "id": "90cf138433934fccab97fadb2df0d755",
+            "name": "RECOVERY Trial"
+          },
+          "text": "Randomized, open-label, adaptive platform",
+          "spaceId": "c45e5508572e026a7e78715e113529d1"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    "relationsConnection": {
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  }
+]

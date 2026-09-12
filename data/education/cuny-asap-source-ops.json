@@ -1,0 +1,156 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "536b5cd10a65417ea4e1d52b3322dcad"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "An Eight-Year Cost Analysis from a Randomized Controlled Trial of CUNY’s Accelerated Study in Associate Programs",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "MDRC’s eight-year randomized-trial cost analysis of CUNY ASAP, a comprehensive community-college student-support program.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/eight-year-cost-analysis-randomized-controlled-trial-cunys-accelerated-study",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "578b6c81f7c54ca893a0be3027074868"
+    },
+    "entity": {
+      "$bytes": "8dba5b7fbc4b4cbe80764dd2cc6c1f20"
+    },
+    "from": {
+      "$bytes": "536b5cd10a65417ea4e1d52b3322dcad"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00r0"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3f6f2b82f8b94d3c85a5198a40e34199"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "CUNY Accelerated Study in Associate Programs (ASAP)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A CUNY community-college support program combining financial, academic and advising services for eligible full-time students. The linked evidence is specific to the original CUNY randomized trial.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a74b937ef68c4a748aa73fa33a17ecba"
+    },
+    "entity": {
+      "$bytes": "ee79f14cb79e41528f5846c3fe6e52ad"
+    },
+    "from": {
+      "$bytes": "3f6f2b82f8b94d3c85a5198a40e34199"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00Xv"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5a0cf19c1e55463c99d939c2c6911563"
+    },
+    "entity": {
+      "$bytes": "f635cbc9860e477d9cbc7ceb1ef144d8"
+    },
+    "from": {
+      "$bytes": "3f6f2b82f8b94d3c85a5198a40e34199"
+    },
+    "to": {
+      "$bytes": "536b5cd10a65417ea4e1d52b3322dcad"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04Tb"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8b76c7b571854114b5db9eb3d99c52cf"
+    },
+    "entity": {
+      "$bytes": "a56e17c202a64256bc2d0c80ae18382c"
+    },
+    "from": {
+      "$bytes": "3f6f2b82f8b94d3c85a5198a40e34199"
+    },
+    "to": {
+      "$bytes": "536b5cd10a65417ea4e1d52b3322dcad"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04WS"
+  }
+]

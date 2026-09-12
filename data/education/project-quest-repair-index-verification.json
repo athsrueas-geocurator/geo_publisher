@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-09-12T05:57:07.267Z",
+  "batchName": "Repair Project QUEST unit, locator, and cost denominator mapping",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "entityId": "bab671b1e148491d93384fbed1c5ed1d",
+      "propertyId": "8405509cc7354655a348591349a5f025",
+      "pass": true
+    },
+    {
+      "entityId": "bab671b1e148491d93384fbed1c5ed1d",
+      "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+      "pass": true
+    },
+    {
+      "entityId": "ad8c7271fbb14119a582cf581601cb39",
+      "propertyId": "3a558d71454745a992c035040f648729",
+      "pass": true
+    },
+    {
+      "entityId": "ad8c7271fbb14119a582cf581601cb39",
+      "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

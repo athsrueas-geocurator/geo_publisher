@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "status": "mapping decisions for remaining 83 records; new property and target IDs not allocated",
+  "destinationSpaceId": "dac259bad48a11adf97fe36857d85206",
+  "datasetId": "7e86c7f34c614db49497272063f43485",
+  "studyId": "415914702fcb448a991b05734a84290a",
+  "publicationId": "783f6a0c029249f9a10f73fb02a4c385",
+  "input": "data/education/perry-publication-records.json",
+  "reusedProperties": {
+    "internalReturn": {"id":"879d207046024b44be6e3d64c32c60da","datatype":"Decimal","unit":"fraction"},
+    "discountRate": {"id":"f9d6085e34014562aae4021009f5f390","datatype":"Decimal","unit":"fraction"},
+    "standardError": {"id":"cc28953bd89e406096c9627021f4713d","datatype":"Decimal","rule":"Reuse for all uncertainty in the estimate's stored units, including fractional rates. Never change global formatting to percent; explicitly label fractional SE units in rate-table notes and retain structured unit metadata."},
+    "population": {"id":"aa77da401d9b4ca3b250fd24c9b8701f","datatype":"Relation","targetTypeId":"95930302f7294124a85db5ab33c8ad38","sourceSpaceId":"52c7ae149838b6d47ce0f3b2a5974546","evidence":"perry-property-samples.json"},
+    "source": {"id":"49c5d5e1679a4dbdbfd33f618f227c94","datatype":"Relation"},
+    "study": {"id":"dfa6aebe1ca94bf29faccc4cc7afb24c","datatype":"Relation"},
+    "location": {"id":"95d770021faf4f7cb7deb21a7d48cda0","datatype":"Relation","targetId":"03800f1056255931508ec9648111a075"},
+    "locator": {"id":"84dacbddca6a44079edb5e11a4c66b40","datatype":"Text"},
+    "followup": {"id":"c962e0fb4a3148e5ba125144691236a8","datatype":"Text"},
+    "unit": {"id":"8405509cc7354655a348591349a5f025","datatype":"Text"},
+    "priceYear": {"id":"97e14050fc49467bb3aaf4d7eccbbb69","datatype":"Integer"},
+    "currency": {"id":"6e7371ca96cb44348f16932f77f55e75","datatype":"Text"}
+  },
+  "proposedProperties": [
+    {"key":"benefitCostRatio","name":"Benefit-cost ratio","datatype":"Decimal","description":"Ratio of discounted benefits to discounted costs under the stated accounting perspective and assumptions. A value of 2 means two units of benefit per unit of cost.","format":"precision-unlimited","searchStatus":"Benefit, Cost-benefit, Benefit to cost and exact punctuation variants completed without a compatible candidate"},
+    {"key":"deadweightLoss","name":"Tax deadweight loss","datatype":"Decimal","description":"Assumed additional welfare loss per unit of tax revenue raised, expressed as a fraction. A value of 0.5 means an additional loss of 50% of the revenue amount.","format":"measure-unit/percent scale/100 precision-unlimited","searchStatus":"Deadweight, Excess burden and Tax distortion completed without candidates"},
+    {"key":"economicPerspectives","name":"Economic perspectives","datatype":"Relation","targetTypeId":"5ef5a5860f274d8e8f6c59ae5b3e89e2","description":"Accounting perspectives specifying whose costs and benefits enter an economic evaluation.","searchStatus":"Economic, Accounting and Analysis perspective variants completed without a compatible candidate; generic root Perspectives has undefined economic semantics"},
+    {"key":"murderValuation","name":"Murder valuation","datatype":"Decimal","description":"Monetary value assigned to a murder in an economic model, interpreted with currency, price year and included harms.","searchStatus":"Crime valuation, Homicide valuation and exact Murder valuation completed without candidates"},
+    {"key":"observedProportion","name":"Observed proportion","datatype":"Decimal","description":"Observed group proportion for a specified outcome and follow-up, expressed as a fraction. It is not a between-group causal effect.","format":"measure-unit/percent scale/100 precision-unlimited","searchStatus":"Proportion, Statistical mean and Group mean completed without candidates; Health Prevalence sampled and rejected because its datatype is Text"},
+    {"key":"observedMonetaryMean","name":"Observed monetary mean","datatype":"Decimal","description":"Observed group mean of a monetary outcome, interpreted with currency, price year and follow-up. It is not a between-group causal effect.","searchStatus":"Statistical mean, Group mean, Observed monetary mean, Average earnings and Mean earnings completed without compatible candidates"}
+  ],
+  "populationTargets": [
+    {"key":"all","name":"Perry Preschool participants","typeId":"95930302f7294124a85db5ab33c8ad38","description":"The full historical participant population in the HighScope Perry Preschool experiment in Ypsilanti, Michigan.","identityStatus":"create candidate: exact name and completed Perry Preschool, HighScope and High/Scope searches found no population match"},
+    {"key":"male","name":"Male Perry Preschool participants","typeId":"95930302f7294124a85db5ab33c8ad38","description":"Male participants in the historical HighScope Perry Preschool experiment in Ypsilanti, Michigan.","identityStatus":"create candidate: exact name and completed Perry Preschool, HighScope and High/Scope searches found no population match"},
+    {"key":"female","name":"Female Perry Preschool participants","typeId":"95930302f7294124a85db5ab33c8ad38","description":"Female participants in the historical HighScope Perry Preschool experiment in Ypsilanti, Michigan.","identityStatus":"create candidate: exact name and completed Perry Preschool, HighScope and High/Scope searches found no population match"}
+  ],
+  "perspectiveTargets": [
+    {"key":"individual","name":"Participant perspective","description":"An economic evaluation perspective counting costs and benefits accruing to intervention participants.","identityStatus":"create candidate: exact/substring Participant perspective, Individual perspective and Participant cost searches completed without candidates"},
+    {"key":"society","name":"Societal perspective","description":"An economic evaluation perspective counting costs and benefits across participants and the wider public.","identityStatus":"create candidate: exact/substring Societal perspective, Social perspective and Societal cost searches completed without candidates"}
+  ],
+  "publicationSequence": [
+    "Finish outstanding synonym and target-identity checks; inspect reused property datatypes immediately before building.",
+    "Publish one IRR and one ratio pilot with all scenario axes and separate tables; verify rendering before the remaining economic rows.",
+    "Resolve outcome metrics and assignment-arm links, then pilot one proportion and one monetary mean before publishing all observed rows.",
+    "Update the existing dataset coverage block to describe actual published content; preserve cost/source/study IDs.",
+    "Verify all 83 remaining records and filters by study, population, perspective, deadweight loss, discount rate, metric and follow-up; verify each bounty link."
+  ],
+  "invariants": [
+    "All scenarios belong to one underlying study; pooled returns are not averages of sex-specific returns.",
+    "No crime valuation on individual-perspective returns; missing is not zero.",
+    "IRR varies deadweight loss; benefit-cost ratios vary discount rate at deadweight loss 0.5.",
+    "The source high murder valuation includes statistical life and low valuation excludes it; preserve this scope in a methods block, not only the numeric amount.",
+    "Observed treatment/control means require explicit assignment links and must not be published through the causal Effect estimate property.",
+    "Original assignment counts are not per-outcome complete-case sample sizes.",
+    "Every numeric estimate and SE has matching units; source percent values are converted to fractions exactly."
+  ]
+}

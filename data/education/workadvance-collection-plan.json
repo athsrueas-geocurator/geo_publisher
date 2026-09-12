@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "key": "workadvance-collection",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "catalogId": "2279edef1bbe479c872caeb72ee90022",
+  "name": "WorkAdvance long-term findings",
+  "description": "Source-reported WorkAdvance findings from the 2020 long-term evaluation, organized by compatible typed columns.",
+  "notes": "These rows reuse existing source-backed Claims. Read each title and description with its locator; pooled and site-specific estimates are distinct scopes and must not be averaged. This draft requires fresh all-space identity and collection-membership review before publication.",
+  "sourceIds": [
+    "2278407dc1df480e8a297cd9beb44a4a"
+  ],
+  "relatedIds": [
+    "6edae2af128f47c0a7359b1ae52eba28"
+  ],
+  "groups": [
+    {
+      "key": "findings-1",
+      "name": "WorkAdvance findings — compatible fields 1",
+      "columns": [
+        {
+          "id": "210e9b352b454d6eb7a32906d24d3c8d",
+          "dataType": "Integer"
+        }
+      ],
+      "members": [
+        "52102b2ff01f460a86d0afc946bfb242"
+      ]
+    },
+    {
+      "key": "findings-2",
+      "name": "WorkAdvance findings — compatible fields 2",
+      "columns": [
+        {
+          "id": "e500e2585a964d2c9df4a47b199616c3",
+          "dataType": "Decimal"
+        },
+        {
+          "id": "210e9b352b454d6eb7a32906d24d3c8d",
+          "dataType": "Integer"
+        },
+        {
+          "id": "8405509cc7354655a348591349a5f025",
+          "dataType": "Text"
+        },
+        {
+          "id": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+          "dataType": "Text"
+        }
+      ],
+      "members": [
+        "430852724e084021b8f43d252646c8fc",
+        "74367c0ffb3b46b0aa84df113b274eb6",
+        "d7ee28bfdd9c41aeb87773f3a46c67a7",
+        "9f3dba3778dc4876842e1f4cfd11c32f",
+        "8db4d077d0db4621b4538da19bac0eee",
+        "1f96645855cc4c0490aba23f7e7b9581",
+        "93460ea13cb54da0b42d5f6832f12b66",
+        "91922f7aee044e77988098f6153024b1",
+        "7dc0972751e341a6ab8dba378b342716",
+        "2dffecb5ad3c413aae31b39f127398dd"
+      ]
+    },
+    {
+      "key": "findings-3",
+      "name": "WorkAdvance findings — compatible fields 3",
+      "columns": [
+        {
+          "id": "e500e2585a964d2c9df4a47b199616c3",
+          "dataType": "Decimal"
+        },
+        {
+          "id": "97e14050fc49467bb3aaf4d7eccbbb69",
+          "dataType": "Integer"
+        },
+        {
+          "id": "6e7371ca96cb44348f16932f77f55e75",
+          "dataType": "Text"
+        },
+        {
+          "id": "8405509cc7354655a348591349a5f025",
+          "dataType": "Text"
+        }
+      ],
+      "members": [
+        "5b110052f25b46fc8af44d6e3df93fcb",
+        "e4034125340b4138b3abe70e78fabecf",
+        "c64c6e66b9ac43fca969ed176b0f8a86",
+        "94ddb74bc92a49c694e7d88a2e6db045",
+        "a4412d3b808742a697a720dd846724d3",
+        "7b8d6b29f5fc4b3081c5c969756c52b3",
+        "20bc4d3575514eba93d600e6bd53ce3d",
+        "06a8bc4e4ac446e2875ae52e15021645",
+        "1c9a732b882d4bcdb489e7a84a15cab6",
+        "aa103b0c731044e88754c01111b7f994",
+        "5418fe79f304458e95b073683662da7b",
+        "cf5189eae8d541d189e71bfc13a85ea3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "reviewedAt": "2026-09-11",
+  "sourceUrl": "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncee/pdf/20094038.pdf",
+  "visuallyReviewedPdfPages": [47, 48, 49, 51, 54, 55, 192, 193, 194, 195],
+  "mainColumns": ["actualMeanWithReadingFirst", "estimatedMeanWithoutReadingFirst", "impact", "standardizedImpact", "pValue"],
+  "appendixColumns": ["impact", "standardError", "lower95", "upper95", "standardizedImpact", "standardizedStandardError", "standardizedLower95", "standardizedUpper95"],
+  "tables": [
+    {
+      "mainExhibit": "2.5", "mainPdfPage": 54, "mainPrintedPage": "25",
+      "appendixExhibit": "D.1", "appendixPdfPage": 192, "appendixPrintedPage": "D-2",
+      "domain": "student achievement", "instrument": "SAT 10 reading comprehension",
+      "followup": "Spring 2005, 2006 and 2007 pooled", "analysisLevel": "student",
+      "standardization": "Non-Reading First outcome SD pooled across spring 2005 and 2006 SAT 10 scores, separately by grade.",
+      "rows": [
+        {"key":"sat10-score-g1","measure":"Reading comprehension scaled score","grade":"1","unit":"SAT 10 scaled-score points","meanUnit":"SAT 10 scaled-score points","main":["543.8","539.1","4.7","0.10","0.083"],"appendix":["4.74","2.72","-0.63","10.11","0.10","0.06","-0.01","0.21"]},
+        {"key":"sat10-score-g2","measure":"Reading comprehension scaled score","grade":"2","unit":"SAT 10 scaled-score points","meanUnit":"SAT 10 scaled-score points","main":["584.4","582.8","1.7","0.04","0.462"],"appendix":["1.69","2.29","-2.83","6.21","0.04","0.05","-0.07","0.15"]},
+        {"key":"sat10-score-g3","measure":"Reading comprehension scaled score","grade":"3","unit":"SAT 10 scaled-score points","meanUnit":"SAT 10 scaled-score points","main":["609.1","608.8","0.3","0.01","0.887"],"appendix":["0.30","2.12","-3.88","4.48","0.01","0.05","-0.10","0.11"]},
+        {"key":"sat10-grade-level-g1","measure":"Reading at or above grade level","grade":"1","unit":"percentage points","meanUnit":"percent","main":["46.0","41.8","4.2",null,"0.104"],"appendix":["4.22","2.58","-0.87","9.31",null,null,null,null]},
+        {"key":"sat10-grade-level-g2","measure":"Reading at or above grade level","grade":"2","unit":"percentage points","meanUnit":"percent","main":["38.9","37.3","1.6",null,"0.504"],"appendix":["1.60","2.38","-3.11","6.30",null,null,null,null]},
+        {"key":"sat10-grade-level-g3","measure":"Reading at or above grade level","grade":"3","unit":"percentage points","meanUnit":"percent","main":["38.7","38.8","-0.1",null,"0.973"],"appendix":["-0.08","2.40","-4.81","4.65",null,null,null,null]}
+      ]
+    },
+    {
+      "mainExhibit": "2.6", "mainPdfPage": 55, "mainPrintedPage": "26",
+      "appendixExhibit": "D.1", "appendixPdfPage": 192, "appendixPrintedPage": "D-2",
+      "domain": "student achievement", "instrument": "Test of Silent Word Reading Fluency (TOSWRF)",
+      "followup": "Spring 2007 only", "analysisLevel": "student",
+      "standardization": "Non-Reading First outcome SD from spring 2007 grade-one TOSWRF scores.",
+      "rows": [
+        {"key":"toswrf-decoding-g1","measure":"Decoding skill standard score","grade":"1","unit":"TOSWRF standard-score points","meanUnit":"TOSWRF standard-score points","main":["96.9","94.4","2.5","0.17","0.025"],"appendix":["2.51","1.11","0.32","4.69","0.17","0.07","0.02","0.31"]}
+      ]
+    },
+    {
+      "mainExhibit": "2.1", "mainPdfPage": 47, "mainPrintedPage": "18",
+      "appendixExhibit": "D.2", "appendixPdfPage": 193, "appendixPrintedPage": "D-3",
+      "domain": "observed instructional practice", "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled", "analysisLevel": "classroom",
+      "standardization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "rows": [
+        {"key":"instruction-total-g1","measure":"Instruction in five reading dimensions combined","grade":"1","unit":"minutes per daily reading block","meanUnit":"minutes per daily reading block","main":["59.23","52.31","6.92","0.33","0.005"],"appendix":["6.92","2.44","2.13","11.71","0.33","0.12","0.10","0.56"]},
+        {"key":"instruction-explicit-g1","measure":"Intervals in five dimensions with highly explicit instruction","grade":"1","unit":"percentage points","meanUnit":"percent","main":["29.39","26.10","3.29","0.18","0.018"],"appendix":["3.29","1.39","0.57","6.01","0.18","0.08","0.03","0.33"]},
+        {"key":"instruction-practice-g1","measure":"Intervals in five dimensions with high quality student practice","grade":"1","unit":"percentage points","meanUnit":"percent","main":["18.44","17.61","0.82","0.05","0.513"],"appendix":["0.82","1.25","-1.63","3.27","0.05","0.07","-0.10","0.19"]},
+        {"key":"instruction-total-g2","measure":"Instruction in five reading dimensions combined","grade":"2","unit":"minutes per daily reading block","meanUnit":"minutes per daily reading block","main":["59.08","49.30","9.79","0.46","<0.001"],"appendix":["9.79","2.46","4.97","14.60","0.46","0.12","0.23","0.69"]},
+        {"key":"instruction-explicit-g2","measure":"Intervals in five dimensions with highly explicit instruction","grade":"2","unit":"percentage points","meanUnit":"percent","main":["30.95","27.95","3.00","0.16","0.040"],"appendix":["3.00","1.45","0.16","5.84","0.16","0.08","0.01","0.30"]},
+        {"key":"instruction-practice-g2","measure":"Intervals in five dimensions with high quality student practice","grade":"2","unit":"percentage points","meanUnit":"percent","main":["17.82","14.88","2.94","0.16","0.019"],"appendix":["2.94","1.25","0.50","5.39","0.16","0.07","0.03","0.30"]}
+      ]
+    },
+    {
+      "mainExhibit": "2.2", "mainPdfPage": 48, "mainPrintedPage": "19",
+      "appendixExhibit": "D.3", "appendixPdfPage": 194, "appendixPrintedPage": "D-4",
+      "domain": "observed instructional practice", "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled", "analysisLevel": "classroom",
+      "standardization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade.",
+      "rows": [
+        {"key":"instruction-phonemic-g1","measure":"Phonemic awareness instruction","grade":"1","unit":"minutes per daily reading block","meanUnit":"minutes per daily reading block","main":["2.32","1.71","0.61","0.23","0.030"],"appendix":["0.61","0.28","0.06","1.16","0.23","0.10","0.02","0.43"]},
+        {"key":"instruction-phonics-g1","measure":"Phonics instruction","grade":"1","unit":"minutes per daily reading block","meanUnit":"minutes per daily reading block","main":["21.32","18.45","2.86","0.21","0.048"],"appendix":["2.86","1.44","0.04","5.68","0.21","0.11","0.00","0.42"]},
+        {"key":"instruction-vocabulary-g1","measure":"Vocabulary instruction","grade":"1","unit":"minutes per daily reading block","meanUnit":"minutes per daily reading block","main":["7.92","7.35","0.57","0.09","0.386"],"appendix":["0.57","0.66","-0.72","1.86","0.09","0.10","-0.11","0.28"]},
+        {"key":"instruction-fluency-g1","measure":"Fluency instruction","grade":"1","unit":"minutes per daily reading block","meanUnit":"minutes per daily reading block","main":["4.67","3.43","1.24","0.20","0.043"],"appendix":["1.24","0.61","0.05","2.43","0.20","0.10","0.01","0.40"]},
+        {"key":"instruction-comprehension-g1","measure":"Comprehension instruction","grade":"1","unit":"minutes per daily reading block","meanUnit":"minutes per daily reading block","main":["23.01","21.23","1.78","0.12","0.247"],"appendix":["1.78","1.53","-1.22","4.77","0.12","0.11","-0.08","0.33"]},
+        {"key":"instruction-phonemic-g2","measure":"Phonemic awareness instruction","grade":"2","unit":"minutes per daily reading block","meanUnit":"minutes per daily reading block","main":["0.49","0.37","0.12","0.10","0.319"],"appendix":["0.12","0.12","-0.12","0.36","0.10","0.10","-0.09","0.29"]},
+        {"key":"instruction-phonics-g2","measure":"Phonics instruction","grade":"2","unit":"minutes per daily reading block","meanUnit":"minutes per daily reading block","main":["13.92","10.65","3.27","0.31","0.006"],"appendix":["3.27","1.17","0.97","5.57","0.31","0.11","0.09","0.53"]},
+        {"key":"instruction-vocabulary-g2","measure":"Vocabulary instruction","grade":"2","unit":"minutes per daily reading block","meanUnit":"minutes per daily reading block","main":["11.79","10.06","1.73","0.20","0.036"],"appendix":["1.73","0.82","0.13","3.34","0.20","0.09","0.01","0.38"]},
+        {"key":"instruction-fluency-g2","measure":"Fluency instruction","grade":"2","unit":"minutes per daily reading block","meanUnit":"minutes per daily reading block","main":["4.14","3.56","0.58","0.11","0.297"],"appendix":["0.58","0.56","-0.51","1.67","0.11","0.10","-0.09","0.31"]},
+        {"key":"instruction-comprehension-g2","measure":"Comprehension instruction","grade":"2","unit":"minutes per daily reading block","meanUnit":"minutes per daily reading block","main":["28.74","24.73","4.01","0.24","0.019"],"appendix":["4.01","1.69","0.70","7.32","0.24","0.10","0.04","0.44"]}
+      ]
+    },
+    {
+      "mainExhibit": "2.3", "mainPdfPage": 49, "mainPrintedPage": "20",
+      "appendixExhibit": "D.4", "appendixPdfPage": 195, "appendixPrintedPage": "D-5",
+      "domain": "observed student engagement", "instrument": "Student Time-on-Task and Engagement with Print (STEP)",
+      "followup": "Fall 2005, spring 2006, fall 2006 and spring 2007 pooled", "analysisLevel": "classroom",
+      "standardization": "Non-Reading First outcome SD pooled across fall 2005 and spring 2006 STEP data, separately by grade.",
+      "rows": [
+        {"key":"print-engagement-g1","measure":"Students engaged with print","grade":"1","unit":"percentage points","meanUnit":"percent","main":["47.84","42.52","5.33","0.18","0.070"],"appendix":["5.33","2.92","-0.40","11.05","0.18","0.10","-0.01","0.38"]},
+        {"key":"print-engagement-g2","measure":"Students engaged with print","grade":"2","unit":"percentage points","meanUnit":"percent","main":["50.53","55.27","-4.75","-0.17","0.104"],"appendix":["-4.75","2.91","-10.45","0.96","-0.17","0.10","-0.37","0.03"]}
+      ]
+    },
+    {
+      "mainExhibit": "2.4", "mainPdfPage": 51, "mainPrintedPage": "22",
+      "domain": "self-reported implementation", "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "followup": "Spring 2007 only", "analysisLevel": "varies by outcome",
+      "standardization": "Non-Reading First outcome SD in spring 2007 survey data.",
+      "rows": [
+        {"key":"survey-pd-hours","measure":"Professional development in reading received by teachers","grade":null,"analysisLevel":"classroom","unit":"hours","meanUnit":"hours","main":["25.84","13.71","12.13","0.51","<0.001"]},
+        {"key":"survey-pd-components","measure":"Reading components covered in teacher professional development","grade":null,"analysisLevel":"classroom","unit":"components on a 0-5 scale","meanUnit":"components on a 0-5 scale","main":["4.30","3.75","0.55","0.31","0.010"]},
+        {"key":"survey-coaching","measure":"Teacher receipt of coaching","grade":null,"analysisLevel":"classroom","unit":"proportion difference","meanUnit":"proportion","main":["0.83","0.63","0.20","0.41","<0.001"]},
+        {"key":"survey-coach-time","measure":"Time dedicated to serving as K-3 reading coach","grade":null,"analysisLevel":"school","unit":"percentage points","meanUnit":"percent","main":["91.06","57.57","33.49","1.03","<0.001"]},
+        {"key":"survey-reading-minutes","measure":"Reading instruction per day","grade":null,"analysisLevel":"classroom","unit":"minutes per day","meanUnit":"minutes per day","main":["105.71","87.24","18.47","0.63","<0.001"]},
+        {"key":"survey-differentiated-materials","measure":"Availability of differentiated instructional materials for struggling readers","grade":null,"analysisLevel":"school","unit":"proportion difference","meanUnit":"proportion","main":["0.98","0.97","0.01","0.15","0.661"]},
+        {"key":"survey-extra-practice","measure":"Extra classroom practice for struggling readers","grade":null,"analysisLevel":"classroom","unit":"points on a 0-4 scale","meanUnit":"points on a 0-4 scale","main":["3.79","3.59","0.19","0.20","0.018"]},
+        {"key":"survey-assessments","measure":"Use of assessments to inform classroom practice","grade":null,"analysisLevel":"classroom","unit":"points on a 0-3 scale","meanUnit":"points on a 0-3 scale","main":["2.63","2.45","0.18","0.19","0.090"]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "term": "Tags",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:29:37.290Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "257090341ba5406f94e4d4af90042fba",
+      "name": "Tags",
+      "description": null,
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1",
+        "4b3fe43fe11a7334f767b3c66e24cf8a"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        },
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "4a57b796ce0b4a24b9bc04ddd98c0765",
+      "name": "Tags",
+      "description": "System entity for proposal 4a57b796-ce0b-4a24-b9bc-04ddd98c0765 in space 44eb138f-564f-bed6-ed9c-e543de1b849c",
+      "spaceIds": [
+        "d23eaaed1ded3f52b5116e254473f96d",
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "490a7c90ad4b4029b2b4d85d22fe203a",
+          "name": "Proposal"
+        }
+      ]
+    },
+    {
+      "id": "4cc1db5eb707452d9612872e2c090d5a",
+      "name": "Tags",
+      "description": null,
+      "spaceIds": [
+        "cc4bcd8335fd1e4bea7447e6cf2a5a5a"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "72952d512ca24bd4b6492c509c861627",
+      "name": "Tags",
+      "description": null,
+      "spaceIds": [
+        "ddfd01098a71083119eb130a01a6d4c5"
+      ],
+      "types": [
+        {
+          "id": "480e3fc267f3499385fbacdf4ddeaa6b",
+          "name": "Page"
+        }
+      ]
+    },
+    {
+      "id": "77c34721b5344fc7abdf5a2a5ee9a644",
+      "name": "Tags",
+      "description": null,
+      "spaceIds": [
+        "4a8a9a231a25536f306d23d91ee9f2b1"
+      ],
+      "types": [
+        {
+          "id": "480e3fc267f3499385fbacdf4ddeaa6b",
+          "name": "Page"
+        }
+      ]
+    },
+    {
+      "id": "9e66838e4a7d44a49fcb8715f3495d41",
+      "name": "Tags",
+      "description": null,
+      "spaceIds": [
+        "4a8a9a231a25536f306d23d91ee9f2b1"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    },
+    {
+      "id": "b3bd002dcc6d4074a39b86e98a9d121d",
+      "name": "Tags",
+      "description": null,
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    },
+    {
+      "id": "c0392bfbb25244e884ffaef447946eb8",
+      "name": "Proposal c0392bfb-b252-44e8-84ff-aef447946eb8",
+      "description": "System entity for proposal c0392bfb-b252-44e8-84ff-aef447946eb8 in space 44eb138f-564f-bed6-ed9c-e543de1b849c",
+      "spaceIds": [
+        "d23eaaed1ded3f52b5116e254473f96d",
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "490a7c90ad4b4029b2b4d85d22fe203a",
+          "name": "Proposal"
+        }
+      ]
+    },
+    {
+      "id": "c4900aee736d4681ab041cedcd103120",
+      "name": "Tags",
+      "description": null,
+      "spaceIds": [
+        "49a1db3407e5295c2b2340fe58f0e66d"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "c5f9eb4ff5d245daa3726b24b77b45bb",
+      "name": "Tags",
+      "description": null,
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNzdjMzQ3MjEtYjUzNC00ZmM3LWFiZGYtNWEyYTVlZTlhNjQ0Il1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYzVmOWViNGYtZjVkMi00NWRhLWEzNzItNmIyNGI3N2I0NWJiIl1d"
+    }
+  ]
+}

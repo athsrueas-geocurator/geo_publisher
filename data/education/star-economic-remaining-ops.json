@@ -1,0 +1,3194 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8d771b3a82e8475c945f258e35af6390"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 2% discount, 0% wage growth; $21725 earnings versus $7787 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "0"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7787"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "21725"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3106e255779f400f820665d25201ac4f"
+    },
+    "entity": {
+      "$bytes": "84f9d3bfdaf4446fabcfcd0c090f241f"
+    },
+    "from": {
+      "$bytes": "8d771b3a82e8475c945f258e35af6390"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0B28"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a2d3d7165e5741aaa544cecbf3763502"
+    },
+    "entity": {
+      "$bytes": "63dcf3ab159d43979cea246cc4f4529f"
+    },
+    "from": {
+      "$bytes": "8d771b3a82e8475c945f258e35af6390"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0C5V"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e1028bc1f6bf4fa0adfa661632ae8b7e"
+    },
+    "entity": {
+      "$bytes": "58756fa9f9c541bdbd47c8432c78683b"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "8d771b3a82e8475c945f258e35af6390"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a040u"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d389d781d4a94e50ae5c2daf5337c877"
+    },
+    "entity": {
+      "$bytes": "0cf61eade14a469bac959d56fa042e40"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "8d771b3a82e8475c945f258e35af6390"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a03T4"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5bd25b7faf3e46c7b6072d99ef1c8db8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 2% discount, 1% wage growth; $31478 earnings versus $7787 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7787"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "31478"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "26abc1e862e040db84141d817ae39b04"
+    },
+    "entity": {
+      "$bytes": "aa442959d86f4019a3d4c5ee04180852"
+    },
+    "from": {
+      "$bytes": "5bd25b7faf3e46c7b6072d99ef1c8db8"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09ls"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e2ec845a198d42b8aa4d1ac54e990840"
+    },
+    "entity": {
+      "$bytes": "cdb74e88593444ea97b8a928eb71c35d"
+    },
+    "from": {
+      "$bytes": "5bd25b7faf3e46c7b6072d99ef1c8db8"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06Un"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "74f1d66fcaf345869c44e861f800de10"
+    },
+    "entity": {
+      "$bytes": "5ec9c6c43c1c435b85102318db66e7f8"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "5bd25b7faf3e46c7b6072d99ef1c8db8"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a00NJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d0f82540409c456f82d5ecb713b4f3ab"
+    },
+    "entity": {
+      "$bytes": "b6e61c016bb54eacb17d43d65f6f9efe"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "5bd25b7faf3e46c7b6072d99ef1c8db8"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0AkJ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "818fe1434caf4d0c8e416c99f001d961"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 2% discount, 2% wage growth; $46294 earnings versus $7787 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7787"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "46294"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "07cc3bce78034fe18da020077c547e55"
+    },
+    "entity": {
+      "$bytes": "f75d9955cd224d0aa5f3335f199038b6"
+    },
+    "from": {
+      "$bytes": "818fe1434caf4d0c8e416c99f001d961"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00gG"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "117e2e799ed24ab1a6225f669638bc08"
+    },
+    "entity": {
+      "$bytes": "7f3c020ee5014fe3915d568bbd779e08"
+    },
+    "from": {
+      "$bytes": "818fe1434caf4d0c8e416c99f001d961"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01iQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ef2c4021ea8b496eb06b13ce917b3fe7"
+    },
+    "entity": {
+      "$bytes": "a578188a23634aac98f342daee4b3c85"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "818fe1434caf4d0c8e416c99f001d961"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a02U6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9a339c68eb634940b2123bdf8c00085c"
+    },
+    "entity": {
+      "$bytes": "58b38baa180347bd995c1ddb9427591e"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "818fe1434caf4d0c8e416c99f001d961"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a03qp"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c2dde1afcd154f4fb1245ebbca516c0c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 3% discount, 0% wage growth; $15174 earnings versus $7660 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "0"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7660"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "15174"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "54c4a264805a49058d60074bba4e0046"
+    },
+    "entity": {
+      "$bytes": "6dc9e6094b854429b22048c48dad2346"
+    },
+    "from": {
+      "$bytes": "c2dde1afcd154f4fb1245ebbca516c0c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03Dy"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4771208f368a4c56bac108d6fa452b17"
+    },
+    "entity": {
+      "$bytes": "10864cd346584395a24b2e8fe064795f"
+    },
+    "from": {
+      "$bytes": "c2dde1afcd154f4fb1245ebbca516c0c"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a000E"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0c47b0f8cf9949edbe118b3d0de7b5e3"
+    },
+    "entity": {
+      "$bytes": "58aec4e729df4607a9616b3e1381740a"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "c2dde1afcd154f4fb1245ebbca516c0c"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a087I"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6f0a300ce7f6489b82dae67d156f8847"
+    },
+    "entity": {
+      "$bytes": "df56c43386a343a49e24cb1233aed83b"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "c2dde1afcd154f4fb1245ebbca516c0c"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a00nX"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f7078c3786294db8885c4868a63d0046"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 3% discount, 1% wage growth; $21667 earnings versus $7660 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7660"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "21667"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cbdce470ba0f4aad8fe2a17050516dca"
+    },
+    "entity": {
+      "$bytes": "9f94ac8c5c2349d89b782e26bf143ed0"
+    },
+    "from": {
+      "$bytes": "f7078c3786294db8885c4868a63d0046"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0CDN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f461a7e793b144729364935b11f7b9c8"
+    },
+    "entity": {
+      "$bytes": "8a18059fa5a948dcbd84aa009bb7aad5"
+    },
+    "from": {
+      "$bytes": "f7078c3786294db8885c4868a63d0046"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04u2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "136354cab515431cb2dd0f3873925537"
+    },
+    "entity": {
+      "$bytes": "67808e82e49f4c9c986098feb5da0852"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "f7078c3786294db8885c4868a63d0046"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a00hE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "807830eda0344458846a8dfd6b297eed"
+    },
+    "entity": {
+      "$bytes": "6871e6e05aab4f578ddceb7f17b957a8"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "f7078c3786294db8885c4868a63d0046"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0Ayg"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a987df7e9dc14f81a04892eafbaf4fd3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 3% discount, 2% wage growth; $31403 earnings versus $7660 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7660"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "31403"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bd8034afe08e4073ad73d05f8e88be14"
+    },
+    "entity": {
+      "$bytes": "60e4d9b6c801494a9bbc6f9f1287f98b"
+    },
+    "from": {
+      "$bytes": "a987df7e9dc14f81a04892eafbaf4fd3"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05nH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3372ab05b2614e798e3302f0b7fb42f8"
+    },
+    "entity": {
+      "$bytes": "88fa0fb9925c4e838c6a8879124b02dc"
+    },
+    "from": {
+      "$bytes": "a987df7e9dc14f81a04892eafbaf4fd3"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a00kA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "86ebed63c3284d1b9bef6b145355d061"
+    },
+    "entity": {
+      "$bytes": "c4bfbe79011e4d18818eb698acd78465"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "a987df7e9dc14f81a04892eafbaf4fd3"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a08Hp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "616f13b61d3c4abbb2488d8d196f56fa"
+    },
+    "entity": {
+      "$bytes": "32263f34df5c40a49f8a6cfa2349669b"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "a987df7e9dc14f81a04892eafbaf4fd3"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a05B8"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7467a37094084d529f36e14c7e75599a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 4% discount, 0% wage growth; $10784 earnings versus $7537 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "0"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7537"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "10784"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2910d0179e444499b730da812d937370"
+    },
+    "entity": {
+      "$bytes": "1ecd497811454ac7afaa971217cd4894"
+    },
+    "from": {
+      "$bytes": "7467a37094084d529f36e14c7e75599a"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06q5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "16d9627edbb845f5917b5de0e9596c35"
+    },
+    "entity": {
+      "$bytes": "69268fdb426b4d6c9279a2fc7b99330a"
+    },
+    "from": {
+      "$bytes": "7467a37094084d529f36e14c7e75599a"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07hz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "85136b1dd84f4b198723d61008320322"
+    },
+    "entity": {
+      "$bytes": "8a47c58947f5420cb9812c73c08e87be"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "7467a37094084d529f36e14c7e75599a"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a07RE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2c8d5e5f86ed40779458de71a8ae2442"
+    },
+    "entity": {
+      "$bytes": "a2c86069c2624bcf95eaa03835a6638f"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "7467a37094084d529f36e14c7e75599a"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a06Kb"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5e2a860dd8aa4f90bf1b8953e9bbb924"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 4% discount, 2% wage growth; $21686 earnings versus $7537 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7537"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "21686"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5b996e3bb4574a3da962d9703e5b6563"
+    },
+    "entity": {
+      "$bytes": "694d0e15796a46d09d5c38f48daff31d"
+    },
+    "from": {
+      "$bytes": "5e2a860dd8aa4f90bf1b8953e9bbb924"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AUU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2524b99c5f2749db8eccdb7cfe65ae7b"
+    },
+    "entity": {
+      "$bytes": "a3c11dcadf964f0d9383c4bd2c074b27"
+    },
+    "from": {
+      "$bytes": "5e2a860dd8aa4f90bf1b8953e9bbb924"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Axd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "84c1b83626b348f58c9bf97bfdce58e0"
+    },
+    "entity": {
+      "$bytes": "0173c7fcf72d4044a10b731468bff0bf"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "5e2a860dd8aa4f90bf1b8953e9bbb924"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a0AZa"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "194ead75b97b4a47a7b19f7734b449f1"
+    },
+    "entity": {
+      "$bytes": "b47e4a9599e144a6a504a6a33141be87"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "5e2a860dd8aa4f90bf1b8953e9bbb924"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a08tp"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "34cae62372cd429fb66d09bfdc6aa290"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 5% discount, 0% wage growth; $7791 earnings versus $7417 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "0"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7417"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7791"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "45ad9238086a485bac5712e360132f13"
+    },
+    "entity": {
+      "$bytes": "f2def01c374a47bc8779e9d49b0855fa"
+    },
+    "from": {
+      "$bytes": "34cae62372cd429fb66d09bfdc6aa290"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02ez"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4eaec19f4d544ceba0ea986653bfceda"
+    },
+    "entity": {
+      "$bytes": "c955355745b8450bb40660e5a91363ee"
+    },
+    "from": {
+      "$bytes": "34cae62372cd429fb66d09bfdc6aa290"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09kL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "53da90ea67f942f8a112d511153bb35c"
+    },
+    "entity": {
+      "$bytes": "dd9c7d9223dd4a3b81e0116f8aa6d635"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "34cae62372cd429fb66d09bfdc6aa290"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a01tN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1e3a99fd779b47289c948dc982ed6af7"
+    },
+    "entity": {
+      "$bytes": "42d52a403d4f4254a5969feeaeaedb27"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "34cae62372cd429fb66d09bfdc6aa290"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a00LT"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "48045ce49a334e4cafee8c6de38a10e8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 5% discount, 1% wage growth; $10819 earnings versus $7417 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7417"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "10819"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "46e19b9437eb4054be2aa0727a4de3b4"
+    },
+    "entity": {
+      "$bytes": "2aad472a2fe34a279a49e9fc6785598a"
+    },
+    "from": {
+      "$bytes": "48045ce49a334e4cafee8c6de38a10e8"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a082a"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ebce269c4ef94fe09894a29023532efb"
+    },
+    "entity": {
+      "$bytes": "b6204399015b4a8aa9e3ce3e7f5bdb68"
+    },
+    "from": {
+      "$bytes": "48045ce49a334e4cafee8c6de38a10e8"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05lf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1d68a7320f44481d9347ad42b907a8be"
+    },
+    "entity": {
+      "$bytes": "cabbadb92abe43cb94a7c3f559a7bb36"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "48045ce49a334e4cafee8c6de38a10e8"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a0Asr"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "71df0b6a055e4315a6dd546772c54055"
+    },
+    "entity": {
+      "$bytes": "ec26ba2090904f95837f9e25518f8169"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "48045ce49a334e4cafee8c6de38a10e8"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a00wl"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "89ee9184e65448229773c81addfa4d6c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 5% discount, 2% wage growth; $15238 earnings versus $7417 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7417"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "15238"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ab8a9697360a42148d490a7c3ee784a4"
+    },
+    "entity": {
+      "$bytes": "dfeda18a9fdb40d083764d831da66670"
+    },
+    "from": {
+      "$bytes": "89ee9184e65448229773c81addfa4d6c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04aW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "62cce112ceb04a82ab55a87ec2513e9c"
+    },
+    "entity": {
+      "$bytes": "4c4e50a4f64a4f96b27b232ad8b5213a"
+    },
+    "from": {
+      "$bytes": "89ee9184e65448229773c81addfa4d6c"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02QS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e415f2a2393847948ed64742cf15c482"
+    },
+    "entity": {
+      "$bytes": "7af57548fd094f0989f40399e06e7d36"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "89ee9184e65448229773c81addfa4d6c"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a06Yn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6bfd0e37150e452893c65a3a7aea0054"
+    },
+    "entity": {
+      "$bytes": "a8f2d330559a4daabb25c35d08fb1d79"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "89ee9184e65448229773c81addfa4d6c"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a04No"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1b10a3ca00654eb29e4f794329e0032e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 6% discount, 0% wage growth; $5718 earnings versus $7300 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "6"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "0"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7300"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5718"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5067ac16d5e34137b254dc56ea2d07ac"
+    },
+    "entity": {
+      "$bytes": "63a45fedcff64c1a8699bca3467cda02"
+    },
+    "from": {
+      "$bytes": "1b10a3ca00654eb29e4f794329e0032e"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07VQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "94d6ccdca51d4c0db85978a209ba5d09"
+    },
+    "entity": {
+      "$bytes": "b4309b7a5d7a45a7aa13360e25e7aff2"
+    },
+    "from": {
+      "$bytes": "1b10a3ca00654eb29e4f794329e0032e"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09yF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2a9918a3a3a545ff8ca247456b6f1be5"
+    },
+    "entity": {
+      "$bytes": "b1abdee2b23b41848f19703c615019be"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "1b10a3ca00654eb29e4f794329e0032e"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a06JG"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0ba1b03f6af54ae3bbeaf90923a35f6c"
+    },
+    "entity": {
+      "$bytes": "a02dbb6dc75c41d3a81cde62f23209ad"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "1b10a3ca00654eb29e4f794329e0032e"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a07ri"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3de72d69a6e9490191d875c27510ad96"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 6% discount, 1% wage growth; $7836 earnings versus $7300 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "6"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7300"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7836"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5653745ffeeb49ff8eb42235cf623019"
+    },
+    "entity": {
+      "$bytes": "db0807aad49249a7b3177fb6e55b8073"
+    },
+    "from": {
+      "$bytes": "3de72d69a6e9490191d875c27510ad96"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08B2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8e1d40f5cc2547bebf54680907b1b147"
+    },
+    "entity": {
+      "$bytes": "ea1a9465dea44ea085fbda12dfb9bdb4"
+    },
+    "from": {
+      "$bytes": "3de72d69a6e9490191d875c27510ad96"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0CFU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "653409f43d51459ca383eba14e901eba"
+    },
+    "entity": {
+      "$bytes": "0e88f857ce4548da8ba3bfa29e5bb8cf"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "3de72d69a6e9490191d875c27510ad96"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a080q"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "16cb111ebe80461c959abd2f4b6dcfe2"
+    },
+    "entity": {
+      "$bytes": "3ce2a7d7e8a643c897ff755b7908b3b8"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "3de72d69a6e9490191d875c27510ad96"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a01HT"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "559f5b1464b747648219f51b0ee05dc6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 6% discount, 2% wage growth; $10889 earnings versus $7300 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "6"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7300"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "10889"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fd94b55c8f7c468c8d11db3f4929e5c6"
+    },
+    "entity": {
+      "$bytes": "d46c5cf1252546d4b1b53af830bafbe4"
+    },
+    "from": {
+      "$bytes": "559f5b1464b747648219f51b0ee05dc6"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02tK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6a7f11e850b64614aaa8a624f7ec1ea2"
+    },
+    "entity": {
+      "$bytes": "2a6f0dc7d646400bb918d9973d359c77"
+    },
+    "from": {
+      "$bytes": "559f5b1464b747648219f51b0ee05dc6"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01ax"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ef08494a3a944b6683fd2cec36c453e0"
+    },
+    "entity": {
+      "$bytes": "aff983ad3bf0474f94b336c17991a650"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "559f5b1464b747648219f51b0ee05dc6"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a0ACr"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "65ec6c41abbf478c9c002c1dbb10d000"
+    },
+    "entity": {
+      "$bytes": "150247c7d9c541b895c94b2771137db3"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "559f5b1464b747648219f51b0ee05dc6"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a02to"
+  }
+]

@@ -1,0 +1,1455 @@
+{
+  "checkedAt": "2026-09-11T21:43:28.004Z",
+  "scope": "Live program-type candidate schemas with bounded instance samples; not exhaustive instance discovery",
+  "candidates": [
+    {
+      "id": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+      "schema": {
+        "entity": {
+          "id": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+          "name": "Grant program",
+          "description": "A funding program that provides grants to researchers, builders, or organizations.",
+          "spaceIds": [
+            "d69608290513c2a91102c939b3265bd7"
+          ],
+          "types": [
+            {
+              "id": "e7d737c536764c609fa16aa64a8c90ad",
+              "name": "Type"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "412ff593e9154012a43d4c27ec5c68b6",
+                "toEntity": {
+                  "name": "Web URL",
+                  "description": null
+                },
+                "spaceId": "d69608290513c2a91102c939b3265bd7"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "type": {
+                  "name": "Types"
+                },
+                "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+                "toEntity": {
+                  "name": "Type",
+                  "description": null
+                },
+                "spaceId": "d69608290513c2a91102c939b3265bd7"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "02d0b9117c4f119d4b986ded266d7028",
+                "toEntity": {
+                  "name": "Focus areas",
+                  "description": "What the program funds (safety, open source, applied research, etc.)"
+                },
+                "spaceId": "d69608290513c2a91102c939b3265bd7"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "538f51685ab04b7a89c78d8cca5b52b0",
+                "toEntity": {
+                  "name": "Deadline",
+                  "description": "The date by which the item must be completed."
+                },
+                "spaceId": "d69608290513c2a91102c939b3265bd7"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "257090341ba5406f94e4d4af90042fba",
+                "toEntity": {
+                  "name": "Tags",
+                  "description": null
+                },
+                "spaceId": "d69608290513c2a91102c939b3265bd7"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "a9595248a6b271405e0609c97f685f70",
+                "toEntity": {
+                  "name": "Grant range",
+                  "description": "Min/max per grant (e.g. $10K–$100K)"
+                },
+                "spaceId": "d69608290513c2a91102c939b3265bd7"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "ff1a12df6aeb4ab0bb202c285725d32d",
+                "toEntity": {
+                  "name": "Funding priorities",
+                  "description": "The specific topics or themes this program prioritizes for funding."
+                },
+                "spaceId": "d69608290513c2a91102c939b3265bd7"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "cba786f36539a451539a8e0f6e381ab3",
+                "toEntity": {
+                  "name": "Budget",
+                  "description": "Total funding pool in USD"
+                },
+                "spaceId": "d69608290513c2a91102c939b3265bd7"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "024a5fea54edac43a87cc9a183e5769b",
+                "toEntity": {
+                  "name": "Program status",
+                  "description": "The current stage of the program."
+                },
+                "spaceId": "d69608290513c2a91102c939b3265bd7"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "806d52bc27e94c9193c057978b093351",
+                "toEntity": {
+                  "name": "Topics",
+                  "description": "Topics connected to this entity."
+                },
+                "spaceId": "d69608290513c2a91102c939b3265bd7"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "5be1a4eb55cdbc9496d06eb5f54b96a1",
+                "toEntity": {
+                  "name": "Past recipients",
+                  "description": "People and projects that previously received this item."
+                },
+                "spaceId": "d69608290513c2a91102c939b3265bd7"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "f23242cdf224cd84483442ae1b1fe9aa",
+                "toEntity": {
+                  "name": "Organization",
+                  "description": null
+                },
+                "spaceId": "d69608290513c2a91102c939b3265bd7"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "dc09a6469da9685a82ee76d56d1e1756",
+                "toEntity": {
+                  "name": "Application process",
+                  "description": "Rolling, cohort-based, or RFP"
+                },
+                "spaceId": "d69608290513c2a91102c939b3265bd7"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "instances": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "0916c5e2ddfc49c5b9cf98c64a2c6466",
+              "name": "Maelstrom Bitcoin Grant Program",
+              "description": "This fund supports open-source developers who are building critical infrastructure and privacy features for the original cryptocurrency. It aims to ensure the long-term resilience and decentralization of the network through dedicated technical contributions.",
+              "spaceIds": [
+                "c9f267dcb0d270718c2a3c45a64afd32"
+              ]
+            },
+            {
+              "id": "0d04eb3f2c9a4480a91e8d26807f31b3",
+              "name": "Ethereum Academic Grants",
+              "description": "These funds support rigorous research and educational initiatives aimed at advancing the theoretical foundations of blockchain technology. They are specifically designed for students and researchers exploring complex decentralized systems.",
+              "spaceIds": [
+                "c9f267dcb0d270718c2a3c45a64afd32"
+              ]
+            },
+            {
+              "id": "79d1f943b3c544e894457c038b4379d3",
+              "name": "Monad Nitro accelerator program",
+              "description": "This initiative focuses on scaling high-performance decentralized applications through technical support and seed funding. It targets early-stage startups aiming to leverage parallel execution for significantly higher transaction throughput.",
+              "spaceIds": [
+                "c9f267dcb0d270718c2a3c45a64afd32"
+              ]
+            },
+            {
+              "id": "7d7fb9c3c97540d6b13b76783a269edb",
+              "name": "Ethereum ecosystem support program (ESP)",
+              "description": "This branch provides both financial and non-financial aid to projects that enhance the network's core infrastructure and developer tooling. It serves as the primary gateway for contributors to secure resources directly from the foundation.",
+              "spaceIds": [
+                "c9f267dcb0d270718c2a3c45a64afd32"
+              ]
+            },
+            {
+              "id": "8699dce60cfa42e2b69c648410467ea1",
+              "name": "Amazon research awards",
+              "description": "ML, sustainability, and AI theoretical foundations.",
+              "spaceIds": [
+                "41e851610e13a19441c4d980f2f2ce6b"
+              ]
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    {
+      "id": "d272f19cef87485fb83e26fb68957395",
+      "schema": {
+        "entity": {
+          "id": "d272f19cef87485fb83e26fb68957395",
+          "name": "Initiative",
+          "description": null,
+          "spaceIds": [
+            "4cd9cca5530b69056aead853c8088e7e"
+          ],
+          "types": [
+            {
+              "id": "e7d737c536764c609fa16aa64a8c90ad",
+              "name": "Type"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "806d52bc27e94c9193c057978b093351",
+                "toEntity": {
+                  "name": "Topics",
+                  "description": "Topics connected to this entity."
+                },
+                "spaceId": "4cd9cca5530b69056aead853c8088e7e"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "0cc78e0d9cbb4eb09a814939c54bbdd6",
+                "toEntity": {
+                  "name": "Relevant era",
+                  "description": null
+                },
+                "spaceId": "4cd9cca5530b69056aead853c8088e7e"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "5033587e5592468891f7c3e58d86d818",
+                "toEntity": {
+                  "name": "Problems solved",
+                  "description": null
+                },
+                "spaceId": "4cd9cca5530b69056aead853c8088e7e"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "412ff593e9154012a43d4c27ec5c68b6",
+                "toEntity": {
+                  "name": "Web URL",
+                  "description": null
+                },
+                "spaceId": "4cd9cca5530b69056aead853c8088e7e"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "a4669693d26748ffb405519d6b32dd43",
+                "toEntity": {
+                  "name": "Technology used",
+                  "description": null
+                },
+                "spaceId": "4cd9cca5530b69056aead853c8088e7e"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "458fe8fdf4a741b38aadc1cf54ac858b",
+                "toEntity": {
+                  "name": "Materials",
+                  "description": null
+                },
+                "spaceId": "4cd9cca5530b69056aead853c8088e7e"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "a07e5514bbd04df4b12a12b4497a5a4f",
+                "toEntity": {
+                  "name": "Discovery date",
+                  "description": null
+                },
+                "spaceId": "4cd9cca5530b69056aead853c8088e7e"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "d3af56e37fa3482d899706aa74f34e6a",
+                "toEntity": {
+                  "name": "Prize pool",
+                  "description": null
+                },
+                "spaceId": "4cd9cca5530b69056aead853c8088e7e"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "3880b33fa4fa4a59be074d0658785f30",
+                "toEntity": {
+                  "name": "Civilization",
+                  "description": null
+                },
+                "spaceId": "4cd9cca5530b69056aead853c8088e7e"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "dc23f0b17b9d4b14935cba936b3b50e7",
+                "toEntity": {
+                  "name": "Target artifacts",
+                  "description": null
+                },
+                "spaceId": "4cd9cca5530b69056aead853c8088e7e"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "type": {
+                  "name": "Types"
+                },
+                "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+                "toEntity": {
+                  "name": "Type",
+                  "description": null
+                },
+                "spaceId": "4cd9cca5530b69056aead853c8088e7e"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "c9de85154bdd4494b8ae71de60204952",
+                "toEntity": {
+                  "name": "Research institution",
+                  "description": null
+                },
+                "spaceId": "4cd9cca5530b69056aead853c8088e7e"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "instances": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "1023cfbed2064452946385baf7ab8cb0",
+              "name": "Belt and Road Initiative",
+              "description": "Global infrastructure and investment initiative launched by China in 2013, proposed by Xi Jinping in Astana. The land-based Silk Road Economic Belt component is anchored in Central Asia and drives most major Chinese infrastructure projects in the region.",
+              "spaceIds": [
+                "34e753bb68888c02a574d0a112c8d047"
+              ]
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "id": "b9a456d44ee44f418f9cca322871cafa",
+      "schema": {
+        "entity": {
+          "id": "b9a456d44ee44f418f9cca322871cafa",
+          "name": "Project",
+          "description": "A scoped unit of planned work with a goal, timeline, and deliverables.",
+          "spaceIds": [
+            "a19c345ab9866679b001d7d2138d88a1"
+          ],
+          "types": [
+            {
+              "id": "e7d737c536764c609fa16aa64a8c90ad",
+              "name": "Type"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "84034c45c0c244e7b59d77cf6dde4c16",
+                "toEntity": {
+                  "name": "Lead",
+                  "description": "The person who owns this project."
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "83240c7c1a9b4332bbb567a76e02c003",
+                "toEntity": {
+                  "name": "Subprojects",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "a644dbb1d29c43908aa9fc18afc95e0a",
+                "toEntity": {
+                  "name": "Milestones",
+                  "description": "Milestones within this project."
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "toEntity": {
+                  "name": "Description",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "28b3ee04c2b946c3bb9d4c450e0f26fd",
+                "toEntity": {
+                  "name": "Broader projects",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "type": {
+                  "name": "Types"
+                },
+                "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+                "toEntity": {
+                  "name": "Type",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "1a55a37fad6c4545bce8a49ed84b33de",
+                "toEntity": {
+                  "name": "Tasks",
+                  "description": "Tasks within this project."
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "28362a0ca8c146f28492b4628e76a33a",
+                "toEntity": {
+                  "name": "Priority",
+                  "description": "The urgency level of a project or task."
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "type": {
+                  "name": "Blocks"
+                },
+                "toEntityId": "796c22c7d1dc4eae9dbaa1a0dc1a6a0b",
+                "toEntity": {
+                  "name": "AI space Projects",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "538f51685ab04b7a89c78d8cca5b52b0",
+                "toEntity": {
+                  "name": "Deadline",
+                  "description": "The date by which the item must be completed."
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "257090341ba5406f94e4d4af90042fba",
+                "toEntity": {
+                  "name": "Tags",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "81b34e0a9d4f455ab098df1b92729c99",
+                "toEntity": {
+                  "name": "Project status",
+                  "description": "The current status of the project."
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "440a440635fc4d9c83da22f1d3a73c81",
+                "toEntity": {
+                  "name": "Start Date",
+                  "description": "Date a season officially begins."
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "a126ca530c8e48d5b88882c734c38935",
+                "toEntity": {
+                  "name": "Name",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "a09625a4b98448768f0da28a65e47f85",
+                "toEntity": {
+                  "name": "Team members",
+                  "description": "Individuals who belong to a team and contribute to its goals."
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "c7d1732b48844b3892ab20d757581044",
+                "toEntity": {
+                  "name": "Completed at",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "type": {
+                  "name": "Blocks"
+                },
+                "toEntityId": "57e6609d832d4dfb991adbbfdac6a4cc",
+                "toEntity": {
+                  "name": "Health space Projects",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "806d52bc27e94c9193c057978b093351",
+                "toEntity": {
+                  "name": "Topics",
+                  "description": "Topics connected to this entity."
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "instances": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "0a6301b54dd01a0e9b12c7ca7b2c85e9",
+              "name": "Meta Superintelligence Labs",
+              "description": "A futuristic AI research laboratory focused on developing advanced artificial intelligence systems and next-generation computing.",
+              "spaceIds": [
+                "41e851610e13a19441c4d980f2f2ce6b"
+              ]
+            },
+            {
+              "id": "0de19e7962624c20b73c3faa1c33e8ed",
+              "name": "ADNI",
+              "description": "Longitudinal imaging and biomarker study for Alzheimer's disease",
+              "spaceIds": [
+                "52c7ae149838b6d47ce0f3b2a5974546"
+              ]
+            },
+            {
+              "id": "0ed4ad0687354e9099529a1558dd0fb6",
+              "name": "Elephant",
+              "description": "The largest land animal on Earth with remarkable memory and strong family bonds.",
+              "spaceIds": [
+                "997f43342770848fbb7986299eeef56e"
+              ]
+            },
+            {
+              "id": "127eff1fb97b4712a05d8f697fe7662f",
+              "name": "Penguin",
+              "description": "A flightless seabird native to the Southern Hemisphere that uses its wings as flippers to swim.",
+              "spaceIds": [
+                "997f43342770848fbb7986299eeef56e"
+              ]
+            },
+            {
+              "id": "12c66491ae604d18b6cadd69199c4fd3",
+              "name": "Pictory",
+              "description": "AI video platform that automatically converts long-form text and video content into short, branded video clips with captions and voiceovers.",
+              "spaceIds": [
+                "41e851610e13a19441c4d980f2f2ce6b"
+              ]
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    {
+      "id": "484a18c5030a499cb0f2ef588ff16d50",
+      "schema": {
+        "entity": {
+          "id": "484a18c5030a499cb0f2ef588ff16d50",
+          "name": "Project",
+          "description": "A company, protocol, or product created by an individual or group of people.",
+          "spaceIds": [
+            "870e3b3068661e6280fad2ab456829bc",
+            "a19c345ab9866679b001d7d2138d88a1",
+            "c9f267dcb0d270718c2a3c45a64afd32"
+          ],
+          "types": [
+            {
+              "id": "e7d737c536764c609fa16aa64a8c90ad",
+              "name": "Type"
+            },
+            {
+              "id": "e7d737c536764c609fa16aa64a8c90ad",
+              "name": "Type"
+            },
+            {
+              "id": "e7d737c536764c609fa16aa64a8c90ad",
+              "name": "Type"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "c459500ac2fc4fcaa04bd8ef87e55093",
+                "toEntity": {
+                  "name": "Funding rounds",
+                  "description": null
+                },
+                "spaceId": "870e3b3068661e6280fad2ab456829bc"
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "type": {
+                  "name": "Blocks"
+                },
+                "toEntityId": "529b02d7961e42e4a9113bf5644bdc7b",
+                "toEntity": {
+                  "name": "Projects",
+                  "description": null
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "66386c9b72d6403fa31ffa53b94ab4c7",
+                "toEntity": {
+                  "name": "Provided services",
+                  "description": "The services made available by an entity. This encompasses the range of activities or functions delivered to address specific needs or demands."
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "bc073be27d8a5cf28486b4be2deb3e2a",
+                "toEntity": {
+                  "name": "Telegram",
+                  "description": "Points to a Telegram link."
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "type": {
+                  "name": "Blocks"
+                },
+                "toEntityId": "00c9b4ddb48d4fe197d6918a1e497ea3",
+                "toEntity": {
+                  "name": "Crypto space Projects",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "257090341ba5406f94e4d4af90042fba",
+                "toEntity": {
+                  "name": "Tags",
+                  "description": null
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "1bb88a7a6b29406496503992a3009e7a",
+                "type": {
+                  "name": "Property groups"
+                },
+                "toEntityId": "d6f7c4db35ac422db4e43d7ec8ed73e3",
+                "toEntity": {
+                  "name": "Identity",
+                  "description": null
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "01c718a53fa8410dae1ab8ef2ebc55c5",
+                "toEntity": {
+                  "name": "Treasury categories",
+                  "description": "Categorizes a Bitcoin treasury company by holder type."
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "a79523e6aaa5dfc0701711234df6af9d",
+                "toEntity": {
+                  "name": "GitHub stars",
+                  "description": "GitHub star count."
+                },
+                "spaceId": "870e3b3068661e6280fad2ab456829bc"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "5b722cd361d6494e88871310566437ba",
+                "toEntity": {
+                  "name": "Related spaces",
+                  "description": null
+                },
+                "spaceId": "870e3b3068661e6280fad2ab456829bc"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "257090341ba5406f94e4d4af90042fba",
+                "toEntity": {
+                  "name": "Tags",
+                  "description": null
+                },
+                "spaceId": "870e3b3068661e6280fad2ab456829bc"
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "type": {
+                  "name": "Blocks"
+                },
+                "toEntityId": "4eed281e9ea74248ac04f80e719ac58b",
+                "toEntity": {
+                  "name": "Projects",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "type": {
+                  "name": "Types"
+                },
+                "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+                "toEntity": {
+                  "name": "Type",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "28b3ee04c2b946c3bb9d4c450e0f26fd",
+                "toEntity": {
+                  "name": "Broader projects",
+                  "description": null
+                },
+                "spaceId": "870e3b3068661e6280fad2ab456829bc"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "806d52bc27e94c9193c057978b093351",
+                "toEntity": {
+                  "name": "Topics",
+                  "description": "Topics connected to this entity."
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "1bb88a7a6b29406496503992a3009e7a",
+                "type": {
+                  "name": "Property groups"
+                },
+                "toEntityId": "3ff8756dc5694cb497e69d936c1d4d95",
+                "toEntity": {
+                  "name": "Taxonomy",
+                  "description": null
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "a446528df6b24ecab04bc4dd7dedfbd9",
+                "toEntity": {
+                  "name": "Docs",
+                  "description": "The URL of the official developer documentation. Provides a reference to technical resources, guides, and references for building or integrating with it."
+                },
+                "spaceId": "870e3b3068661e6280fad2ab456829bc"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "806d52bc27e94c9193c057978b093351",
+                "toEntity": {
+                  "name": "Topics",
+                  "description": "Topics connected to this entity."
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "0d6259784b3c4b57a86fde45c997c73c",
+                "toEntity": {
+                  "name": "X",
+                  "description": "Directs to an X account."
+                },
+                "spaceId": "870e3b3068661e6280fad2ab456829bc"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "c459500ac2fc4fcaa04bd8ef87e55093",
+                "toEntity": {
+                  "name": "Funding rounds",
+                  "description": null
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "0d6259784b3c4b57a86fde45c997c73c",
+                "toEntity": {
+                  "name": "X",
+                  "description": "Directs to an X account."
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "83240c7c1a9b4332bbb567a76e02c003",
+                "toEntity": {
+                  "name": "Subprojects",
+                  "description": null
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "acf8ffffe94d470eb1a3e3977727610a",
+                "toEntity": {
+                  "name": "Year founded",
+                  "description": "The year in which the entity was officially established or created."
+                },
+                "spaceId": "870e3b3068661e6280fad2ab456829bc"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "eed38e74e67946bf8a42ea3e4f8fb5fb",
+                "toEntity": {
+                  "name": "Website",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "cdf139bce610446cac42d57cd7967478",
+                "toEntity": {
+                  "name": "LinkedIn",
+                  "description": "Points to a LinkedIn profile."
+                },
+                "spaceId": "870e3b3068661e6280fad2ab456829bc"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "7f397325170e4e2a8f9be7d3c8715ef6",
+                "toEntity": {
+                  "name": "Teams",
+                  "description": "Teams that make up an organization."
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "28b3ee04c2b946c3bb9d4c450e0f26fd",
+                "toEntity": {
+                  "name": "Broader projects",
+                  "description": null
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "753ccca8e7fc5d16932911ca9e8e2726",
+                "toEntity": {
+                  "name": "Discord",
+                  "description": "Link to a Discord account."
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "6e3503fab974460ea3dbab8af9a41427",
+                "toEntity": {
+                  "name": "Related projects",
+                  "description": null
+                },
+                "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "f17dfdcb033b6810ef6802ff244d9af1",
+                "toEntity": {
+                  "name": "Latest release date",
+                  "description": "Date of most recent release"
+                },
+                "spaceId": "870e3b3068661e6280fad2ab456829bc"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": true
+            }
+          }
+        }
+      },
+      "instances": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "00002e0c38524c548777fc1feac61479",
+              "name": "test123",
+              "description": null,
+              "spaceIds": [
+                "73a82967cb12f604f9589ac4bc8024cb"
+              ]
+            },
+            {
+              "id": "001084d89c784a7e9252e0185f2808ae",
+              "name": "CratD2C",
+              "description": "A DPoS Layer 1 blockchain designed to revolutionize e-commerce by connecting businesses directly with consumers through a transparent, secure, and cost-effective smart contract system.",
+              "spaceIds": [
+                "c9f267dcb0d270718c2a3c45a64afd32",
+                "73a82967cb12f604f9589ac4bc8024cb"
+              ]
+            },
+            {
+              "id": "002286edc94e450793b19f7a46357a23",
+              "name": "Rainbow",
+              "description": "Mobile-first crypto wallet with an emphasis on NFT display and discovery, providing a streamlined interface for interacting with Ethereum-based dapps.",
+              "spaceIds": [
+                "c9f267dcb0d270718c2a3c45a64afd32"
+              ]
+            },
+            {
+              "id": "002b858258e64a948dc588a115c2250c",
+              "name": "EigenDA",
+              "description": "Data availability layer built on EigenLayer, providing cheap DA for rollups via restaking.",
+              "spaceIds": [
+                "c9f267dcb0d270718c2a3c45a64afd32",
+                "a2b2c0df0d1590b2c4b03f130adc747c"
+              ]
+            },
+            {
+              "id": "004521a7c6da48d9928c6d1fd87c992e",
+              "name": "Chia Network",
+              "description": "A blockchain platform using proofs of space and time as an alternative consensus mechanism to proof-of-work. Designed to be less energy-intensive, more decentralized, and more secure than traditional cryptocurrencies.",
+              "spaceIds": [
+                "c9f267dcb0d270718c2a3c45a64afd32"
+              ]
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    {
+      "id": "7f237bddd95f4d3f8686f52a5dd29386",
+      "schema": {
+        "entity": {
+          "id": "7f237bddd95f4d3f8686f52a5dd29386",
+          "name": "Policy",
+          "description": null,
+          "spaceIds": [
+            "a19c345ab9866679b001d7d2138d88a1"
+          ],
+          "types": [
+            {
+              "id": "e7d737c536764c609fa16aa64a8c90ad",
+              "name": "Type"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                "toEntity": {
+                  "name": "Related entities",
+                  "description": "Other entities meaningfully connected to this one, such as people, events, places, topics, products, findings, or any subject it relates to. Captures broader associations that don't fit the type's dedicated relation properties, giving readers a path to wider context."
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "type": {
+                  "name": "Types"
+                },
+                "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+                "toEntity": {
+                  "name": "Type",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "type": {
+                  "name": "Blocks"
+                },
+                "toEntityId": "9dd590bdbb4f4da4922767b80fda2f29",
+                "toEntity": {
+                  "name": "Policies",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "806d52bc27e94c9193c057978b093351",
+                "toEntity": {
+                  "name": "Topics",
+                  "description": "Topics connected to this entity."
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "type": {
+                  "name": "Properties"
+                },
+                "toEntityId": "257090341ba5406f94e4d4af90042fba",
+                "toEntity": {
+                  "name": "Tags",
+                  "description": null
+                },
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "instances": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "00152a786461fc6bb8e9b0b7b8505f5b",
+              "name": "Extracto del Acuerdo G/JGA/47/2026, denominado \"Suplencia de persona Magistrada, en la Tercera Ponencia de la Segunda Sala Regional en Coahuila\".",
+              "description": "Courts & constitutional review. TRIBUNAL FEDERAL DE JUSTICIA ADMINISTRATIVA; official-gazette-entry. DOF 5785864.",
+              "spaceIds": [
+                "8a4955bcd9d0fc0d8613f17f01de3b9f"
+              ]
+            },
+            {
+              "id": "006e9338c0ec37a0f21bdde199bab15b",
+              "name": "Convenio Marco de Coordinación que celebran la Secretaría de Medio Ambiente y Recursos Naturales, a través de la Comisión Nacional del Agua, y el Estado de Veracruz de Ignacio de la Llave, con el objeto de establecer las bases para que la Comisión otorgue recursos federales al estado bajo la figura de subsidios, al amparo de los programas de cultura del agua, de infraestructura hidroagrícola y de agua potable, drenaje y tratamiento, así como para fortalecer la gestión y conservación de los recursos hídricos a través de la ejecución conjunta de actividades y proyectos para el cumplimiento del derecho humano al agua y saneamiento.",
+              "description": "Federal executive. SECRETARIA DE MEDIO AMBIENTE Y RECURSOS NATURALES; official-gazette-entry. DOF 5789463.",
+              "spaceIds": [
+                "8a4955bcd9d0fc0d8613f17f01de3b9f"
+              ]
+            },
+            {
+              "id": "00e0da00e5d693def5fbeb889bbba750",
+              "name": "Decreto por el que se expropia por causa de utilidad pública la superficie de 48,661.703 m² (cuarenta y ocho mil seiscientos sesenta y uno punto setecientos tres metros cuadrados), a favor de la Federación, por conducto de Tren Maya, S.A. de C.V., para la ejecución de los tramos 1, 2, 3, 5 y 6 del Proyecto Tren Maya, correspondiente a 14 (catorce) inmuebles de propiedad privada, ubicados en los municipios de Candelaria, Champotón y Campeche en el estado de Campeche; Tenosique en el estado de Tabasco; Umán en el estado de Yucatán; Othón P. Blanco, Puerto Morelos, Solidaridad, Tulum y Felipe Carrillo Puerto en el estado de Quintana Roo.",
+              "description": "Federal executive. PRESIDENCIA DE LA REPUBLICA; official-gazette-entry. DOF 5785177.",
+              "spaceIds": [
+                "8a4955bcd9d0fc0d8613f17f01de3b9f"
+              ]
+            },
+            {
+              "id": "00e713abead4197d5d3c52c07acd9dc9",
+              "name": "Acuerdo por el que se comunica el cambio de domicilio oficial de la Dirección General de Investigación y Responsabilidades A y de la Dirección General de Investigación y Responsabilidades B, adscritas a la Unidad Especializada en Seguimiento e Investigación de la Auditoría Superior de la Federación.",
+              "description": "Federal executive. AUDITORIA SUPERIOR DE LA FEDERACION; official-gazette-entry. DOF 5785848.",
+              "spaceIds": [
+                "8a4955bcd9d0fc0d8613f17f01de3b9f"
+              ]
+            },
+            {
+              "id": "017e9816fdbbbc9bf8e1bb84a01e9f89",
+              "name": "Primer Convenio Modificatorio al Convenio Específico de Coordinación en relación al Programa denominado Senderos Seguros, que celebran la Secretaría de Bienestar, la Secretaría de Infraestructura, Comunicaciones y Transportes, el Estado de México y los municipios de Chalco, Chicoloapan, Chimalhuacán, Ecatepec de Morelos, Ixtapaluca, La Paz, Nezahualcóyotl, Texcoco, Tlalnepantla de Baz y Valle de Chalco Solidaridad.",
+              "description": "Federal executive. SECRETARIA DE INFRAESTRUCTURA, COMUNICACIONES Y TRANSPORTES; official-gazette-entry. DOF 5782599.",
+              "spaceIds": [
+                "8a4955bcd9d0fc0d8613f17f01de3b9f"
+              ]
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    {
+      "id": "26413b7ddd4a479e9b59e2c822d1b2eb",
+      "schema": {
+        "entity": {
+          "id": "26413b7ddd4a479e9b59e2c822d1b2eb",
+          "name": "Intervention",
+          "description": null,
+          "spaceIds": [
+            "44eb138f564fbed6ed9ce543de1b849c"
+          ],
+          "types": [],
+          "relations": {
+            "nodes": [],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "instances": {
+        "entitiesConnection": {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    }
+  ],
+  "typeSearches": [
+    {
+      "term": "program",
+      "complete": true,
+      "nodes": [
+        {
+          "id": "8fdc602aaa96f7991ba0cd02358dc136",
+          "name": "Programming language",
+          "description": "Software programming language used in a project",
+          "spaceIds": [
+            "9b611b848b12491b9b6b43f3cf019b8b"
+          ]
+        },
+        {
+          "id": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+          "name": "Grant program",
+          "description": "A funding program that provides grants to researchers, builders, or organizations.",
+          "spaceIds": [
+            "d69608290513c2a91102c939b3265bd7"
+          ]
+        },
+        {
+          "id": "9bcfdf2df63d40528bbc7d5205f135f8",
+          "name": "Programme",
+          "description": "A sanctions programme or legal authority (executive order, regulation) under which designations are made.",
+          "spaceIds": [
+            "89bd89bf28ff8a0963faf92a8c905e20"
+          ]
+        },
+        {
+          "id": "ac19a61ca2059470873aa7a2a0e1265b",
+          "name": "Program status",
+          "description": "Current status of a grant or funding program.",
+          "spaceIds": [
+            "d69608290513c2a91102c939b3265bd7"
+          ]
+        },
+        {
+          "id": "b134b1ccb0e54993a03685807faa7df6",
+          "name": "Healthcare program",
+          "description": "Government-administered health coverage or service program that provides medical benefits or healthcare services to a defined population.",
+          "spaceIds": [
+            "52c7ae149838b6d47ce0f3b2a5974546"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYjEzNGIxY2MtYjBlNS00OTkzLWEwMzYtODU4MDdmYWE3ZGY2Il1d"
+        }
+      ]
+    },
+    {
+      "term": "initiative",
+      "complete": true,
+      "nodes": [
+        {
+          "id": "d272f19cef87485fb83e26fb68957395",
+          "name": "Initiative",
+          "description": null,
+          "spaceIds": [
+            "4cd9cca5530b69056aead853c8088e7e"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZDI3MmYxOWMtZWY4Ny00ODVmLWI4M2UtMjZmYjY4OTU3Mzk1Il1d"
+        }
+      ]
+    },
+    {
+      "term": "intervention",
+      "complete": true,
+      "nodes": [
+        {
+          "id": "b1f18f197010455a94d2d162c67cc06d",
+          "name": "Intervention category",
+          "description": "Defines classification labels for grouping interventions by approach, mechanism, or delivery method such as behavioral, educational, environmental, or policy-based strategies.",
+          "spaceIds": [
+            "52c7ae149838b6d47ce0f3b2a5974546"
+          ]
+        },
+        {
+          "id": "f079c8dcee13435bae383f2cf2247c2c",
+          "name": "Health behavior intervention",
+          "description": "Describes an action or program designed to influence health-related behaviors to improve outcomes or reduce risk.",
+          "spaceIds": [
+            "52c7ae149838b6d47ce0f3b2a5974546"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjA3OWM4ZGMtZWUxMy00MzViLWFlMzgtM2YyY2YyMjQ3YzJjIl1d"
+        }
+      ]
+    },
+    {
+      "term": "implementation",
+      "complete": true,
+      "nodes": [
+        {
+          "id": "2b1c22d8c0ec4249993be0178934253a",
+          "name": "Model implementation",
+          "description": "Model implementation a deployed configuration of an AI model that defines its behavior, capabilities, and performance characteristics.\n",
+          "spaceIds": [
+            "41e851610e13a19441c4d980f2f2ce6b"
+          ]
+        },
+        {
+          "id": "45a2f4c182bf3b02c49db2872d3b048b",
+          "name": "MetricImplementation",
+          "description": "Specific scorer, code implementation, model-backed metric, versioned evaluation script, reference set, or metric package used to compute a metric. Required: name, description, metric, source. Recommended: repository, version, parameters, reference_set, metric_direction, aggregation_method, known_limitations, reproducibility_status. Publish tier: secondary_browse.",
+          "spaceIds": [
+            "0e964b063541ae7df0f8b8365fb25882"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNDVhMmY0YzEtODJiZi0zYjAyLWM0OWQtYjI4NzJkM2IwNDhiIl1d"
+        }
+      ]
+    }
+  ]
+}

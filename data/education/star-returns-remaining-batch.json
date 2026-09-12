@@ -1,0 +1,25 @@
+{
+  "name": "Complete STAR modeled internal-return estimates",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/star-returns-remaining-ops.json",
+  "sha256": "e9e041bac87ae61855b04de5eb229b6091b2504e776bfc2085a0a687ba9a5c89",
+  "operationCount": 10,
+  "selected": [
+    {
+      "annualWageGrowth": 0.01,
+      "realAnnualIRR": 0.062,
+      "id": "6db38a6c620f4ca1bc2452137457d686"
+    },
+    {
+      "annualWageGrowth": 0.02,
+      "realAnnualIRR": 0.073,
+      "id": "cc14cee1099d4271841287a2455d9045"
+    }
+  ],
+  "datasetId": "4874a8385a594633ab244f47889f9cab",
+  "blockId": "8676d367bcf14892944f14a22d273053",
+  "journalPath": "data/education/star-returns-remaining-publication.json",
+  "validationPath": "data/education/star-returns-remaining-validation.json",
+  "registry": "data/education/star-returns-registry.json"
+}

@@ -1,0 +1,618 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "724040519bc34a14b00481a30c89eb38"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Career Academies: Long-Term Impacts on Work, Education, and Transitions to Adulthood",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "MDRC’s eight-year randomized follow-up of Career Academies on work, education and transitions to adulthood.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://nocache.mdrc.org/work/publications/career-academies-long-term-impacts-work-education-and-transitions-adulthood",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bbb3f55ce75f472fb7e8b39ca4aa8aa7"
+    },
+    "entity": {
+      "$bytes": "6b26c21659824121a97983d3941222d9"
+    },
+    "from": {
+      "$bytes": "724040519bc34a14b00481a30c89eb38"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BCf"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d9a9f591762b463ba192d99ba922263d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Career Academies",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Small high-school learning communities that combine academic and career-themed curricula with employer partnerships and work-based learning. The linked study evaluates a multi-component Academy model, not a single course.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://nocache.mdrc.org/work/publications/career-academies-long-term-impacts-work-education-and-transitions-adulthood",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3b63bc59968f4ad0a8ee450cd395793a"
+    },
+    "entity": {
+      "$bytes": "40ba7e6e22ef434782580833a9277780"
+    },
+    "from": {
+      "$bytes": "d9a9f591762b463ba192d99ba922263d"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04lB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "83ace3921e3b4b14acef874e5ad49694"
+    },
+    "entity": {
+      "$bytes": "8491ab894a9946e1ba79af3a84b552e1"
+    },
+    "from": {
+      "$bytes": "d9a9f591762b463ba192d99ba922263d"
+    },
+    "to": {
+      "$bytes": "724040519bc34a14b00481a30c89eb38"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09Mw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8a1da5b536cc463982d8f6ee3c001a84"
+    },
+    "entity": {
+      "$bytes": "1c53d4e1c80b4816aa4e5c1add66be49"
+    },
+    "from": {
+      "$bytes": "d9a9f591762b463ba192d99ba922263d"
+    },
+    "to": {
+      "$bytes": "724040519bc34a14b00481a30c89eb38"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Aw6"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ad46bd08a240475ea7e837be5b50ffe5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The Career Academies evaluation randomly assigned applicants in nine high schools and followed outcomes for eight years after scheduled graduation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The MDRC report draws on more than 1,400 young people, most Hispanic or African-American, in a diverse set of participating sites. It evaluates Academies that sustained their core features; scope should not be generalized to partial implementations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f468412944c145d5904613009ea3c823"
+    },
+    "entity": {
+      "$bytes": "3853003693de41eeb909e0cfd42b55c8"
+    },
+    "from": {
+      "$bytes": "ad46bd08a240475ea7e837be5b50ffe5"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03le"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "df38aabecae14eb686423b3e4438f900"
+    },
+    "entity": {
+      "$bytes": "f296e768a5cf4b02a94933da1e49070a"
+    },
+    "from": {
+      "$bytes": "ad46bd08a240475ea7e837be5b50ffe5"
+    },
+    "to": {
+      "$bytes": "724040519bc34a14b00481a30c89eb38"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03t3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7c91fe6ab4ba44859ee22ce707ccda33"
+    },
+    "entity": {
+      "$bytes": "fac62be61bf44f1f83313091c13837af"
+    },
+    "from": {
+      "$bytes": "ad46bd08a240475ea7e837be5b50ffe5"
+    },
+    "to": {
+      "$bytes": "d9a9f591762b463ba192d99ba922263d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09r7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "308e7f13d2b64e5ab703ff0c6efaf02e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Career Academy group members earned an average 11% more per year than controls over the eight-year follow-up ($2,088 in 2006 dollars).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report attributes a total $16,704 earnings gain over eight years to the randomized Academy offer. This is a historical 2006-dollar labor-market result, not a current wage estimate or benefit-cost ratio.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2088"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD per year, 2006 dollars; Academy-minus-control average over eight years.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b03ab4eeb40a477ab862d36f432cd138"
+    },
+    "entity": {
+      "$bytes": "b8a2323514764a22a225b60031ad5bef"
+    },
+    "from": {
+      "$bytes": "308e7f13d2b64e5ab703ff0c6efaf02e"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06Xk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "32015af89e5d4d539475ef92ca176ca5"
+    },
+    "entity": {
+      "$bytes": "9251e93fd8ac403a8c0e6d9dceaac912"
+    },
+    "from": {
+      "$bytes": "308e7f13d2b64e5ab703ff0c6efaf02e"
+    },
+    "to": {
+      "$bytes": "724040519bc34a14b00481a30c89eb38"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a041t"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "983dd1ad86f24245906805447c42e4c5"
+    },
+    "entity": {
+      "$bytes": "25bb1fded0584a7b905932d5e612b5ea"
+    },
+    "from": {
+      "$bytes": "308e7f13d2b64e5ab703ff0c6efaf02e"
+    },
+    "to": {
+      "$bytes": "d9a9f591762b463ba192d99ba922263d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01KJ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f9e2d6635ad94fb8acbefcc9d78b15cd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Career Academies did not show an overall advantage in postsecondary educational attainment over eight years.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report says both groups had high completion and postsecondary participation; this is an overall educational-attainment result, not evidence against the separate earnings finding or every subgroup outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0e2dd52e7b9a4d9c9818b02354aeddd1"
+    },
+    "entity": {
+      "$bytes": "c27aa40f6e91487d84cffe5fd31d26a6"
+    },
+    "from": {
+      "$bytes": "f9e2d6635ad94fb8acbefcc9d78b15cd"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07hZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "edf2dedfe67b4ec4b969c0b8e98947c2"
+    },
+    "entity": {
+      "$bytes": "41488d3fc7fc4ab7a8718f69bb0caf21"
+    },
+    "from": {
+      "$bytes": "f9e2d6635ad94fb8acbefcc9d78b15cd"
+    },
+    "to": {
+      "$bytes": "724040519bc34a14b00481a30c89eb38"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06xe"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b9f07d0d47ee4d639b956a278c5201d6"
+    },
+    "entity": {
+      "$bytes": "6e4b9ecc418141139e471d36e8fd1004"
+    },
+    "from": {
+      "$bytes": "f9e2d6635ad94fb8acbefcc9d78b15cd"
+    },
+    "to": {
+      "$bytes": "d9a9f591762b463ba192d99ba922263d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00ea"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7fce844370e840cc855866e85ed84b0b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Career Academy earnings gains were concentrated among young men: $3,731 per year (17%) over the eight-year follow-up.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report attributes this subgroup pattern to higher wages, hours and employment stability. It must not be applied to young women or the full sample as a universal subgroup effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3731"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD per year, 2006 dollars; young-men subgroup, Academy-minus-control average over eight years.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "09ebf0e1be8147f788002548560ab03c"
+    },
+    "entity": {
+      "$bytes": "0c1d3bb3b33543e7b1f4c62524351660"
+    },
+    "from": {
+      "$bytes": "7fce844370e840cc855866e85ed84b0b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00yd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2184ef21deaa4c4f974f5b3645da7ce0"
+    },
+    "entity": {
+      "$bytes": "7b9bfd71353042d5951cf29313c966de"
+    },
+    "from": {
+      "$bytes": "7fce844370e840cc855866e85ed84b0b"
+    },
+    "to": {
+      "$bytes": "724040519bc34a14b00481a30c89eb38"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08vs"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "18f6c2faa7e34dc0a09441c5020732d3"
+    },
+    "entity": {
+      "$bytes": "7514b0d75ea34476b7b72f0dfa48884e"
+    },
+    "from": {
+      "$bytes": "7fce844370e840cc855866e85ed84b0b"
+    },
+    "to": {
+      "$bytes": "d9a9f591762b463ba192d99ba922263d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08v1"
+  }
+]

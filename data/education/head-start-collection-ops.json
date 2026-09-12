@@ -1,0 +1,2107 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Head Start: randomized-access impacts through third grade",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Findings from the national randomized Head Start access study and its follow-up through third grade. Entry-age cohorts, reporters and ITT versus participation-adjusted estimates remain distinct.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "daec8dffc59a44cf9f29d5aa1ffff333"
+    },
+    "entity": {
+      "$bytes": "7338f961be174006a464a3e9d376d4a1"
+    },
+    "from": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Be7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "073c9f53cba04741a0d289449266f406"
+    },
+    "entity": {
+      "$bytes": "4e10afb19da54ab38f02f7b47a35e2c6"
+    },
+    "from": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "to": {
+      "$bytes": "a0d0dfad77074f10a028bf89ccebb17f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01vL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9034057e644b4a658d6723bb9b74e86e"
+    },
+    "entity": {
+      "$bytes": "58cb194c871d4d25b8886d323efab49d"
+    },
+    "from": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a00O5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "55cf76c4ec5841faa6bf251bc537a432"
+    },
+    "entity": {
+      "$bytes": "e33e6552f26242c79e1d6644d93a473e"
+    },
+    "from": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03tR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "66d2833d34694fcfbe04a5300148020d"
+    },
+    "entity": {
+      "$bytes": "513ba15174244018ad2e6c012c254a51"
+    },
+    "from": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "to": {
+      "$bytes": "3e4404bac6e842b598e0b0a809a4928f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0AN0"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ac7a89598dfe43b897d0bb3e39772873"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Interpreting the findings",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "The comparison is an offer of Head Start access versus available alternative care, not universal absence of services. The 2010 report follows children through first grade; the 2012 report extends follow-up through third grade. Numeric rows use native scores or fractions, not a common standardized scale. Read each unit and reporter before interpreting the direction. ITT describes assignment; IOT adjusts for participation and is available here only for selected outcomes. Linked ITT/IOT pairs are alternate estimands from the same study, not independent replications. Some reported results meet only a 10% significance threshold. These selected published findings are not a complete transcription of every exhibit; missing SEs and sample counts remain unknown.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "212146e142e549b48a81b508272653bb"
+    },
+    "entity": {
+      "$bytes": "0243095b949f43598ea862130dc0e975"
+    },
+    "from": {
+      "$bytes": "ac7a89598dfe43b897d0bb3e39772873"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a098q"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "17c5c47bbe30408eae8c5a85c4c57aba"
+    },
+    "entity": {
+      "$bytes": "647a71f9c5bc40f7902de89f2f239654"
+    },
+    "from": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "to": {
+      "$bytes": "ac7a89598dfe43b897d0bb3e39772873"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0e5090dfd1c040ba8064cd725bc48cd3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Access and findings through first grade",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8354b2783a5a49f48ff303a86bb5b344"
+    },
+    "entity": {
+      "$bytes": "d13f384c46584f33a3747e1f521e1ea3"
+    },
+    "from": {
+      "$bytes": "0e5090dfd1c040ba8064cd725bc48cd3"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05ce"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3b16d62e5f2f42babaf20cf8e7dc7e6c"
+    },
+    "entity": {
+      "$bytes": "069197ca33c344cdb075b819b7d5da75"
+    },
+    "from": {
+      "$bytes": "0e5090dfd1c040ba8064cd725bc48cd3"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a09fe"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "23d12faf5c244047b7d9ee296b457317"
+    },
+    "entity": {
+      "$bytes": "c523f8a03c54463daa507699c7a26560"
+    },
+    "from": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "to": {
+      "$bytes": "0e5090dfd1c040ba8064cd725bc48cd3"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "763f0835a3984d029f15f58b4f485852"
+    },
+    "entity": {
+      "$bytes": "fd91ac16ef964ad78692aa0752d34bb2"
+    },
+    "from": {
+      "$bytes": "c523f8a03c54463daa507699c7a26560"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a0AqQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5cde6f1240154ebc9d9f0bb8142bc25c"
+    },
+    "entity": {
+      "$bytes": "402fe251ceae440bb424384e22515a05"
+    },
+    "from": {
+      "$bytes": "c523f8a03c54463daa507699c7a26560"
+    },
+    "to": {
+      "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "210c616333c3498fb6eacadc48fa53c2"
+    },
+    "entity": {
+      "$bytes": "dac0d5b0730e4fb0a0a6b589c13fc2de"
+    },
+    "from": {
+      "$bytes": "0e5090dfd1c040ba8064cd725bc48cd3"
+    },
+    "to": {
+      "$bytes": "ccb338ae58a44f3e81541f9cb958fcb3"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a07fX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0c928db8eea84ff493f35ad52d6870a1"
+    },
+    "entity": {
+      "$bytes": "1f7a5e91ef4340f99ebc793b2977ba68"
+    },
+    "from": {
+      "$bytes": "0e5090dfd1c040ba8064cd725bc48cd3"
+    },
+    "to": {
+      "$bytes": "c94ca8e97b2a40f297ffbe86db191a07"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a1B43"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dbee0dce47f947e2a75a9fbab6638fea"
+    },
+    "entity": {
+      "$bytes": "8773d5a5a731438c9ba67a71bd217b19"
+    },
+    "from": {
+      "$bytes": "0e5090dfd1c040ba8064cd725bc48cd3"
+    },
+    "to": {
+      "$bytes": "5f893830d2a249c29143f904fe4882eb"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a2097"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "424d0ed0085545a892fd5a9024c254bc"
+    },
+    "entity": {
+      "$bytes": "dde6e957595545438e6d6c99ef811b15"
+    },
+    "from": {
+      "$bytes": "0e5090dfd1c040ba8064cd725bc48cd3"
+    },
+    "to": {
+      "$bytes": "82668a2ddf8646c59a81cee556974d0d"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a344L"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a28c0bc735144f83822c2d64bef585f9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Third-grade interpretation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bad5472cf21a4ae48f4401ad609d9621"
+    },
+    "entity": {
+      "$bytes": "bc182c52ac8c4f758d5b053b31c2d4b7"
+    },
+    "from": {
+      "$bytes": "a28c0bc735144f83822c2d64bef585f9"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05Xw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ed360e7ce2dd410fb9a09d85c7920816"
+    },
+    "entity": {
+      "$bytes": "d3a7d6adcb0a4be5a49ba3f512603791"
+    },
+    "from": {
+      "$bytes": "a28c0bc735144f83822c2d64bef585f9"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a06di"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c77adf6a715f40a0b1c4da9205ab45b5"
+    },
+    "entity": {
+      "$bytes": "2d7eeef707e146599f51e02d7741c5a2"
+    },
+    "from": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "to": {
+      "$bytes": "a28c0bc735144f83822c2d64bef585f9"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0eec48b1e7f84f359262aab32ad341b1"
+    },
+    "entity": {
+      "$bytes": "3ecaad90e9a141b0a15a50524eeb20dc"
+    },
+    "from": {
+      "$bytes": "2d7eeef707e146599f51e02d7741c5a2"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a05Rp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f1795ecd72124cf9b1d29c29b5a4364f"
+    },
+    "entity": {
+      "$bytes": "615fbefafd164f5993977d4e4ef5575c"
+    },
+    "from": {
+      "$bytes": "2d7eeef707e146599f51e02d7741c5a2"
+    },
+    "to": {
+      "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "636cc56ec8db4348baa92e0d3100ecfd"
+    },
+    "entity": {
+      "$bytes": "6e6e25804dc44884b8016ddcb914236e"
+    },
+    "from": {
+      "$bytes": "a28c0bc735144f83822c2d64bef585f9"
+    },
+    "to": {
+      "$bytes": "68b02f7a1980436e9bdb6fd908278a5c"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0CE5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "57636a6cb90249e0948f4d2b7ed0c123"
+    },
+    "entity": {
+      "$bytes": "7f654c50f6764d5cb1e8e0e3583c53d5"
+    },
+    "from": {
+      "$bytes": "a28c0bc735144f83822c2d64bef585f9"
+    },
+    "to": {
+      "$bytes": "c7ede29bb16543889aee96049231a4c6"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a17rM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "312d47b277d24e06aba7557faf58b260"
+    },
+    "entity": {
+      "$bytes": "992aa6d421f54b82bd61210a736091c4"
+    },
+    "from": {
+      "$bytes": "a28c0bc735144f83822c2d64bef585f9"
+    },
+    "to": {
+      "$bytes": "3dd5519b7eae4a6ea1f6b708e20829f1"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a22X3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "20ae31bf759e4f88964c05475b2cb720"
+    },
+    "entity": {
+      "$bytes": "1cd5ba8da04044af81f99260391c5707"
+    },
+    "from": {
+      "$bytes": "a28c0bc735144f83822c2d64bef585f9"
+    },
+    "to": {
+      "$bytes": "738352627e694053ae6d7384d7293d01"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a34sN"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0c714209bd454917a483ba5cfea835c8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Third-grade cognition: age-four entry cohort (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4cf3398c486a4f1c8e894e7eff8ba159"
+    },
+    "entity": {
+      "$bytes": "6fab4f3a68744a4fa572a5e6d0a5c3dd"
+    },
+    "from": {
+      "$bytes": "0c714209bd454917a483ba5cfea835c8"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05nU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c465e501615340c4983a43e6fe3dd0b8"
+    },
+    "entity": {
+      "$bytes": "dfe20c0e9a4a49d8a653f8622029d0f8"
+    },
+    "from": {
+      "$bytes": "0c714209bd454917a483ba5cfea835c8"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a05Lj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3fe940fab9d84eef81b77a8e068671b6"
+    },
+    "entity": {
+      "$bytes": "d8bf93ed6fc7497199a550fa84bc8e0c"
+    },
+    "from": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "to": {
+      "$bytes": "0c714209bd454917a483ba5cfea835c8"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4f34788362bc469b84cccde1e77f303e"
+    },
+    "entity": {
+      "$bytes": "6c2fe5b7d61740c79a7e943d0e3ce854"
+    },
+    "from": {
+      "$bytes": "d8bf93ed6fc7497199a550fa84bc8e0c"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a00qF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b10081897cc144b1aeb65148ae15e6c5"
+    },
+    "entity": {
+      "$bytes": "44e357b9b0714f31b7a7e4cdf5f3347c"
+    },
+    "from": {
+      "$bytes": "d8bf93ed6fc7497199a550fa84bc8e0c"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "00d2ff484a7045b0abe67a07bf4ae208"
+    },
+    "entity": {
+      "$bytes": "b8dea0d9e033495d85fcb15763ac25cd"
+    },
+    "from": {
+      "$bytes": "d8bf93ed6fc7497199a550fa84bc8e0c"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "216e3eee99624e4a91f2fda0f6991519"
+    },
+    "entity": {
+      "$bytes": "92996dedcdf84a7e87cbd48e6ee44d25"
+    },
+    "from": {
+      "$bytes": "d8bf93ed6fc7497199a550fa84bc8e0c"
+    },
+    "to": {
+      "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1cc1385eb1d749b6989aef9f1d98d2a3"
+    },
+    "entity": {
+      "$bytes": "56eed36b34fc4bba9b088458b2c0b818"
+    },
+    "from": {
+      "$bytes": "0c714209bd454917a483ba5cfea835c8"
+    },
+    "to": {
+      "$bytes": "e2fd2a1b244d4102bafebbb8981780c7"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a06Fd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "597f5e35eeda47fb8f6bb2be98ee46b5"
+    },
+    "entity": {
+      "$bytes": "4d0d7d8bef38404faff663652c4c2cd3"
+    },
+    "from": {
+      "$bytes": "0c714209bd454917a483ba5cfea835c8"
+    },
+    "to": {
+      "$bytes": "5c82c782947c47028a47400e16702870"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a16IX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ef7b32de4f1b464d98bdc01d87852b52"
+    },
+    "entity": {
+      "$bytes": "07f6803fb8ef420e921f0ca3d30d893b"
+    },
+    "from": {
+      "$bytes": "0c714209bd454917a483ba5cfea835c8"
+    },
+    "to": {
+      "$bytes": "5b02e1f4ded1472e824dc4ec72d3a772"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a27zH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6426da7b1ddb4618bf66338c4dbbbc30"
+    },
+    "entity": {
+      "$bytes": "056ba43ffc394b1aa27513f0b72cbab5"
+    },
+    "from": {
+      "$bytes": "0c714209bd454917a483ba5cfea835c8"
+    },
+    "to": {
+      "$bytes": "077db384eb6c44ffa603cdb1df6babca"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a34v8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d5e2d808e3234a3ab185699e44c740ec"
+    },
+    "entity": {
+      "$bytes": "4233db68000f47948d73b464332dc46f"
+    },
+    "from": {
+      "$bytes": "0c714209bd454917a483ba5cfea835c8"
+    },
+    "to": {
+      "$bytes": "abe06302835b40b191d09c50ecc0527d"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a46qx"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "22d47abb4dd3427da03823483c136c8e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Third-grade cognition: age-three entry cohort (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1e9aa30c580146dbbb3f91f9a77b9993"
+    },
+    "entity": {
+      "$bytes": "a7593736d032459f83e56bfdff8e0180"
+    },
+    "from": {
+      "$bytes": "22d47abb4dd3427da03823483c136c8e"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02EA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "572febced0204e8ebb3cbb62cd024faf"
+    },
+    "entity": {
+      "$bytes": "ac18999cc7ee43a09d016bf5effc1876"
+    },
+    "from": {
+      "$bytes": "22d47abb4dd3427da03823483c136c8e"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a08TB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6822a194ffc24eebb49ea18de88c2b79"
+    },
+    "entity": {
+      "$bytes": "044c1148be6046048054ab2e726e3878"
+    },
+    "from": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "to": {
+      "$bytes": "22d47abb4dd3427da03823483c136c8e"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eacbd2b8ce254d5e9fca2be081f228c4"
+    },
+    "entity": {
+      "$bytes": "4aa5bc213e1b40eeb80439e202e45c13"
+    },
+    "from": {
+      "$bytes": "044c1148be6046048054ab2e726e3878"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a0AI6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1c4c4299d6324023ac760c4f900a1f34"
+    },
+    "entity": {
+      "$bytes": "37e2469ea4254307b90edb02a7a6c9b0"
+    },
+    "from": {
+      "$bytes": "044c1148be6046048054ab2e726e3878"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3f2e65b92d884c678c97556a1d8e4182"
+    },
+    "entity": {
+      "$bytes": "6a8039d2947c41db9a2813b559404ed1"
+    },
+    "from": {
+      "$bytes": "044c1148be6046048054ab2e726e3878"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f5f79dc2f83145b1ae6630745ef42118"
+    },
+    "entity": {
+      "$bytes": "1bc1d53602504c9f97e15bd877baa59c"
+    },
+    "from": {
+      "$bytes": "044c1148be6046048054ab2e726e3878"
+    },
+    "to": {
+      "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cd9ca0cbd726494f863bdfa793683d99"
+    },
+    "entity": {
+      "$bytes": "956349bfc3ba44f28a04aedabee30dc5"
+    },
+    "from": {
+      "$bytes": "22d47abb4dd3427da03823483c136c8e"
+    },
+    "to": {
+      "$bytes": "5a9bcb3bcefe4ba7aca2d65a34b40268"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0ALo"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8276b104a6ec47c3aa33c2ddc75c0ba4"
+    },
+    "entity": {
+      "$bytes": "ecee18af597b451f87ccb19e36f8de11"
+    },
+    "from": {
+      "$bytes": "22d47abb4dd3427da03823483c136c8e"
+    },
+    "to": {
+      "$bytes": "63f6ee056e884f9e98a9695740af5b30"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a14IG"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6073d50e2cdf4de3bedda53d805c982b"
+    },
+    "entity": {
+      "$bytes": "8adfea3bf5b94a6faced469987bf56d0"
+    },
+    "from": {
+      "$bytes": "22d47abb4dd3427da03823483c136c8e"
+    },
+    "to": {
+      "$bytes": "88b7f88424de4eefa20b5a53fede323f"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a23wH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "331d8e7dd12245e9a290c99201a383ff"
+    },
+    "entity": {
+      "$bytes": "8d8730fcfd8c4e0fb34a6b6504d1079c"
+    },
+    "from": {
+      "$bytes": "22d47abb4dd3427da03823483c136c8e"
+    },
+    "to": {
+      "$bytes": "6878e89ead3840bea0fc42003d648ebc"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a34ZH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6d3f365a5120478a810078831c223313"
+    },
+    "entity": {
+      "$bytes": "9970cd6acf3c4eb6be07ad0731bdc03a"
+    },
+    "from": {
+      "$bytes": "22d47abb4dd3427da03823483c136c8e"
+    },
+    "to": {
+      "$bytes": "32fd5b7fd71748ddbfaf66c26dfba396"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a48ba"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "545bc7a2c33f486c8180df2c8d83953c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Third-grade behavior, relationships and promotion (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ead7f2e7b0be4806b98013dc21681bbd"
+    },
+    "entity": {
+      "$bytes": "9da39a6d0bcb48c49eb7ddf63c1c2326"
+    },
+    "from": {
+      "$bytes": "545bc7a2c33f486c8180df2c8d83953c"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AML"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1bdbe7cb6819448faba743d6a24a7a45"
+    },
+    "entity": {
+      "$bytes": "179ffee6a07a400bab1a541fc0b1e38e"
+    },
+    "from": {
+      "$bytes": "545bc7a2c33f486c8180df2c8d83953c"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a07Fp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0633a83a1c594042899c90f95790e9e6"
+    },
+    "entity": {
+      "$bytes": "fbd94112f55e4f8184f594e7f435f83a"
+    },
+    "from": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "to": {
+      "$bytes": "545bc7a2c33f486c8180df2c8d83953c"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c4b900e252af4a86a2b32a97d2070696"
+    },
+    "entity": {
+      "$bytes": "f8e5e724e835442dae083d8766bfeea6"
+    },
+    "from": {
+      "$bytes": "fbd94112f55e4f8184f594e7f435f83a"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a04Qj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f441e64a3bf748d59c7896a23774c0e8"
+    },
+    "entity": {
+      "$bytes": "acc74ac7d40a4202bd4765b58e0d5afb"
+    },
+    "from": {
+      "$bytes": "fbd94112f55e4f8184f594e7f435f83a"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6598b11bea1b42569b7c947924fe24c6"
+    },
+    "entity": {
+      "$bytes": "e3d3b08ee7404ceb91c24dfbcaa2f139"
+    },
+    "from": {
+      "$bytes": "fbd94112f55e4f8184f594e7f435f83a"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "da43695de551419ea03e547e0742a54b"
+    },
+    "entity": {
+      "$bytes": "ee3e1e6d58da4a43b642e3e543396ff2"
+    },
+    "from": {
+      "$bytes": "fbd94112f55e4f8184f594e7f435f83a"
+    },
+    "to": {
+      "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6b8aa405f8ff4e748f57bea4f42fbfad"
+    },
+    "entity": {
+      "$bytes": "1d889e20fdae4ede9edf0a1726ae3941"
+    },
+    "from": {
+      "$bytes": "545bc7a2c33f486c8180df2c8d83953c"
+    },
+    "to": {
+      "$bytes": "a185b84516a340beb6ca1d2308780ee7"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a09l9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dd74532d34ca4d4fa229721c3362e6ed"
+    },
+    "entity": {
+      "$bytes": "457c14ae445e4d72ab636fddc2df9141"
+    },
+    "from": {
+      "$bytes": "545bc7a2c33f486c8180df2c8d83953c"
+    },
+    "to": {
+      "$bytes": "bc2089feb5a448eeafa9a7c95f7a4dd0"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a13df"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b2a119b2a734441dbde1b783718cf855"
+    },
+    "entity": {
+      "$bytes": "646a59fec1fd442aa3cbe106115dcf24"
+    },
+    "from": {
+      "$bytes": "545bc7a2c33f486c8180df2c8d83953c"
+    },
+    "to": {
+      "$bytes": "7c9180da2b3c4d698ed196db8423d943"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a25ef"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "511501ecdba54eb4a7e3a42775a63037"
+    },
+    "entity": {
+      "$bytes": "b83dfcae56ed47d69198ffd1bd1a65ed"
+    },
+    "from": {
+      "$bytes": "545bc7a2c33f486c8180df2c8d83953c"
+    },
+    "to": {
+      "$bytes": "e6bcb5c29ea74e5e93cfcb550fb9b127"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a30Mh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "758ca22f78264746aa278255c1d78c2e"
+    },
+    "entity": {
+      "$bytes": "4266a603eb6f45d49c9135ad5fe72c2d"
+    },
+    "from": {
+      "$bytes": "545bc7a2c33f486c8180df2c8d83953c"
+    },
+    "to": {
+      "$bytes": "641abfc8e0dd457792906643e2989850"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a40JK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cc0203cbcb574dd2b1fb3ae135c7bf1f"
+    },
+    "entity": {
+      "$bytes": "eda0cfabe73f42f0b6e6b4f3cbf842b2"
+    },
+    "from": {
+      "$bytes": "545bc7a2c33f486c8180df2c8d83953c"
+    },
+    "to": {
+      "$bytes": "92f33511b5b84541be7ac3f6ec699338"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a58iY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d8ddd7a396ae44f79a22e2bbea5610d2"
+    },
+    "entity": {
+      "$bytes": "fb3a8d9c68f34cb9851a2e1ee6e56846"
+    },
+    "from": {
+      "$bytes": "545bc7a2c33f486c8180df2c8d83953c"
+    },
+    "to": {
+      "$bytes": "c33e113e99dc4f6883a47d67d0842c35"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a628Q"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "56d6b267de82415aad7034747ff7c7e9"
+    },
+    "entity": {
+      "$bytes": "3acf5c6053a84f6285bc2640d56df905"
+    },
+    "from": {
+      "$bytes": "545bc7a2c33f486c8180df2c8d83953c"
+    },
+    "to": {
+      "$bytes": "f2fde6171f684e5688bad62638d5fb23"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a77r0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c0f1c4b306e048d3b8a4c1f189929495"
+    },
+    "entity": {
+      "$bytes": "640ce62dbb1d4e37822440dc47b6f968"
+    },
+    "from": {
+      "$bytes": "545bc7a2c33f486c8180df2c8d83953c"
+    },
+    "to": {
+      "$bytes": "af2d8b40901042e9a3d1b9b0fb54c459"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a82EN"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Third-grade participation-adjusted counterparts (IOT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "934f328766ab4ed5b509488546f0a775"
+    },
+    "entity": {
+      "$bytes": "966dbea524574973afbf0b3835025e23"
+    },
+    "from": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07tp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1cf16ae44e5a4453985f228a655177af"
+    },
+    "entity": {
+      "$bytes": "401971535b3c4b0884df3f4bbb7ff7b1"
+    },
+    "from": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a08mg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "628a5cd500bc432d8321bf6898f40024"
+    },
+    "entity": {
+      "$bytes": "1aa5279120974bb3b837f02e6d1c5fb1"
+    },
+    "from": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "to": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "154ac526b5a5467998aac24affc5f460"
+    },
+    "entity": {
+      "$bytes": "7fd4790b9f92413b809e39ae44ec0fe5"
+    },
+    "from": {
+      "$bytes": "1aa5279120974bb3b837f02e6d1c5fb1"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a06xE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d439b6b1b92a4e1b948b72964946b4f5"
+    },
+    "entity": {
+      "$bytes": "f76f311c97ce488994a621cab0c01f0b"
+    },
+    "from": {
+      "$bytes": "1aa5279120974bb3b837f02e6d1c5fb1"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b74b32518eb445c098b3b879fd490c19"
+    },
+    "entity": {
+      "$bytes": "ad0730dc006642599da63ee1555d70e5"
+    },
+    "from": {
+      "$bytes": "1aa5279120974bb3b837f02e6d1c5fb1"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1de97560090341a3a87b9c51c855dcea"
+    },
+    "entity": {
+      "$bytes": "845030ddffb34b5082046f8f74086531"
+    },
+    "from": {
+      "$bytes": "1aa5279120974bb3b837f02e6d1c5fb1"
+    },
+    "to": {
+      "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9c170157158b4c7f989fa72433314464"
+    },
+    "entity": {
+      "$bytes": "4a71ef3136d54925acd2a51033b43650"
+    },
+    "from": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "to": {
+      "$bytes": "2355c47904614503b2c107b6fcb5475a"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a08vs"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9b57a18b08ec45fca1ad1d5b337d9368"
+    },
+    "entity": {
+      "$bytes": "f32b0df8f8574d508efd769f81691d22"
+    },
+    "from": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "to": {
+      "$bytes": "e106644ea9c3493eaff5d9202472427a"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a1AHv"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ec394c9e8d3d490ab16ff1fd76b9d660"
+    },
+    "entity": {
+      "$bytes": "a0920bbba2cd49449c7bbd303b6cbc1b"
+    },
+    "from": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "to": {
+      "$bytes": "854919bb6d1e43a7a279a5e1e126204f"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a293o"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "376ade2bad4c4dad9fad200315eb9d24"
+    },
+    "entity": {
+      "$bytes": "8266de1bb16c4c4d919a9b23953a618e"
+    },
+    "from": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "to": {
+      "$bytes": "d861591f27be4d0c9432632f12dfdc0b"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a35sZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ec833ca013104ae38e97e1ecb5f8d0c2"
+    },
+    "entity": {
+      "$bytes": "b21087622336480ea4fb48022b8aaa8a"
+    },
+    "from": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "to": {
+      "$bytes": "406a5d2ea1f44b128f3610c8fbd872e1"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a453i"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3da5dcdc43a24609855f6de6e824eb85"
+    },
+    "entity": {
+      "$bytes": "94e5476d679c4e04932216fe123c2afd"
+    },
+    "from": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "to": {
+      "$bytes": "f157c7f622a14502a871b6840a3b1c2b"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a59wi"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "48c7f0f1d47c4523950d894213efd549"
+    },
+    "entity": {
+      "$bytes": "ecab823254e24a13a8d06cf0d19bd64d"
+    },
+    "from": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "to": {
+      "$bytes": "5d104e15b60f4aa6a7270551984129ad"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a6CHM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "de6b28c43a70461887f9de235075e86e"
+    },
+    "entity": {
+      "$bytes": "164c51adab2c469d8e1b9d566cb3c5e1"
+    },
+    "from": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "to": {
+      "$bytes": "d95d03698ee947e692bf84aa2f181371"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a77Gl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2d44769ce8ac4bc28357cc04f40fb7dd"
+    },
+    "entity": {
+      "$bytes": "3387eb9126ef42cea9ad1cf57be4b2bb"
+    },
+    "from": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "to": {
+      "$bytes": "931014fa9a4841c183a964ef3f85f2e4"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a89NF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d1726add708c454e9c10007c34662998"
+    },
+    "entity": {
+      "$bytes": "0e1cbd4386384fcfb2c2c454290d0734"
+    },
+    "from": {
+      "$bytes": "e5e6c5df9ed145bdb8b7daf06e2f73bb"
+    },
+    "to": {
+      "$bytes": "e6708fe654214deaab1e20664f3f8ded"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a9555"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "077db384eb6c44ffa603cdb1df6babca"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5b02e1f4ded1472e824dc4ec72d3a772"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a185b84516a340beb6ca1d2308780ee7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "32fd5b7fd71748ddbfaf66c26dfba396"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5c82c782947c47028a47400e16702870"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bc2089feb5a448eeafa9a7c95f7a4dd0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "88b7f88424de4eefa20b5a53fede323f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "641abfc8e0dd457792906643e2989850"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "63f6ee056e884f9e98a9695740af5b30"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6878e89ead3840bea0fc42003d648ebc"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e2fd2a1b244d4102bafebbb8981780c7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c33e113e99dc4f6883a47d67d0842c35"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5a9bcb3bcefe4ba7aca2d65a34b40268"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "abe06302835b40b191d09c50ecc0527d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention to treat (ITT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c33e113e99dc4f6883a47d67d0842c35"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Regression-adjusted teacher-reported probability difference (fraction scale), ITT, for the normal emotional-symptoms category at third grade; 4-year-old cohort; lower is less favorable.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "406a5d2ea1f44b128f3610c8fbd872e1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Regression-adjusted teacher-reported probability difference (fraction scale), treatment on the treated (IOT), for the normal emotional-symptoms category at third grade; 4-year-old cohort; lower is less favorable.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "007ad2aceb68443fa8d12b6e363b7f39"
+    },
+    "entity": {
+      "$bytes": "d2fca91cc95a4cb9af8298d603939bc6"
+    },
+    "from": {
+      "$bytes": "2279edef1bbe479c872caeb72ee90022"
+    },
+    "to": {
+      "$bytes": "bde747c9dd7b4b34a4115b1f2cf0b468"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a9fBM"
+  }
+]

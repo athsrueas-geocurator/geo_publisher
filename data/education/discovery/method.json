@@ -1,0 +1,43 @@
+{
+  "term": "Method",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:29:36.784Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "ee224c455d6ce3f9e653f109a5c20521",
+      "name": "Method",
+      "description": "AI Music ontology field for method; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "fbe158b1543f497abb273bb1b3881b94",
+      "name": "Method",
+      "description": "Approach or technique used to deliver an intervention including modality and execution details.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmJlMTU4YjEtNTQzZi00OTdhLWJiMjctM2JiMWIzODgxYjk0Il1d"
+    }
+  ]
+}

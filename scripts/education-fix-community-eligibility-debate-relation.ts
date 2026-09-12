@@ -1,0 +1,23 @@
+import { createHash } from 'node:crypto';
+import { readFileSync, writeFileSync } from 'node:fs';
+import { Ops } from '@geoprotocol/geo-sdk';
+import { gql } from '../src/functions';
+import { EDUCATION_PUBLICATION } from '../src/education-bounty';
+
+const root = 'data/education';
+const registry = JSON.parse(readFileSync(`${root}/community-eligibility-provision-debate-registry.json`, 'utf8'));
+const relationId = registry['edge/oppose/88e3660656e74b14bb0c209134b69a41'];
+const relationEntityId = registry['relation/oppose/88e3660656e74b14bb0c209134b69a41'];
+const expected = { from: registry.parent, to: '88e3660656e74b14bb0c209134b69a41', type: '4e6ec5d14292498a84e5f607ca1a08ce', space: EDUCATION_PUBLICATION.spaceId };
+const { relations } = await gql(`query($id: UUID!) { relations(filter: { id: { is: $id } }) { id entityId fromEntityId toEntityId typeId spaceId } }`, { id: relationId });
+if (relations.length !== 1) throw new Error('Expected exactly one recorded CEP opposing relation');
+const relation = relations[0];
+if (relation.entityId !== relationEntityId || relation.fromEntityId !== expected.from || relation.toEntityId !== expected.to || relation.typeId !== expected.type || relation.spaceId !== expected.space) throw new Error('Recorded CEP opposing relation no longer matches the narrowly scoped correction');
+const ops = Ops.relations.delete({ id: relationId }).ops;
+const bytes = JSON.stringify(ops, (_key, value) => value instanceof Uint8Array ? { $bytes: Buffer.from(value).toString('hex') } : value, 2) + '\n';
+const sha256 = createHash('sha256').update(bytes).digest('hex');
+const batch = { name: 'Remove erroneous opposing link from Community Eligibility Provision debate claim', spaceId: EDUCATION_PUBLICATION.spaceId, bounty: EDUCATION_PUBLICATION.bountyId, opsPath: `${root}/community-eligibility-provision-debate-relation-fix-ops.json`, sha256, journalPath: `${root}/community-eligibility-provision-debate-relation-fix-publication.json`, validationPath: `${root}/community-eligibility-provision-debate-relation-fix-validation.json`, operationCount: ops.length };
+writeFileSync(batch.opsPath, bytes);
+writeFileSync(`${root}/community-eligibility-provision-debate-relation-fix-batch.json`, JSON.stringify(batch, null, 2) + '\n');
+writeFileSync(batch.validationPath, JSON.stringify({ ready: true, checkedAt: new Date().toISOString(), opsHash: sha256, scope: 'Delete only the erroneous Opposing arguments edge from the CEP policy claim to the continuous-exposure food-spending estimate. The estimate remains related in both directions; no entities, values, or source links are changed.', verifiedRelation: relation }, null, 2) + '\n');
+console.log(JSON.stringify({ ...batch, deletedRelation: relationId }, null, 2));

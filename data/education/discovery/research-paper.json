@@ -1,0 +1,80 @@
+{
+  "term": "Research paper",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T17:40:46.132Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "0cf2e41ff1fa46ce9a0cab2e0dc3a3e6",
+      "name": "Research Paper",
+      "description": null,
+      "spaceIds": [
+        "6b05a4fc85e69e56c15e2c6891e1df32"
+      ],
+      "types": []
+    },
+    {
+      "id": "1bab266226484ad88e3e49be99feab20",
+      "name": "Research Paper",
+      "description": null,
+      "spaceIds": [
+        "baddbe29ee5c1764925996eafba6d00f"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "2eba38a67a3e0db0cc40eb65932626d8",
+      "name": "Research paper",
+      "description": "Psychedelic Research ontology type: Research paper.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "88c3f099b61a445e82e8f67633cfea9f",
+      "name": "Research paper",
+      "description": "Repositories that accompany a research publication, sharing the code, datasets, or samples it references. They support reproducibility and further study, often covering alignment, safety, and interpretability of machine learning systems.",
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "types": [
+        {
+          "id": "52e68966a4f743d3a7ae6cca8f838514",
+          "name": "Category"
+        }
+      ]
+    },
+    {
+      "id": "97887bc52a3d4ee8a07020a4fd409cfb",
+      "name": "Research paper",
+      "description": "Repositories that accompany Anthropic research publications, sharing code, datasets, or samples referenced in a paper. They support reproducibility and further study, often covering alignment, safety, and interpretability of language models.",
+      "spaceIds": [
+        "0c747ad3af58ed6b27221a256498068e"
+      ],
+      "types": [
+        {
+          "id": "52e68966a4f743d3a7ae6cca8f838514",
+          "name": "Category"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOTc4ODdiYzUtMmEzZC00ZWU4LWEwNzAtMjBhNGZkNDA5Y2ZiIl1d"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "term": "Outcome",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T17:40:46.235Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "21b3b2faee1144ccb440c1d5eba7eb09",
+      "name": "Outcome",
+      "description": "A decentralized prediction market platform building a fully on-chain open market with mechanisms to verify market authenticity.",
+      "spaceIds": [
+        "c9f267dcb0d270718c2a3c45a64afd32"
+      ],
+      "types": [
+        {
+          "id": "484a18c5030a499cb0f2ef588ff16d50",
+          "name": "Project"
+        }
+      ]
+    },
+    {
+      "id": "b2741b888588c51d8f977ff6376c863d",
+      "name": "Outcome",
+      "description": "What happened after (funds returned, fork, shutdown, insurance)",
+      "spaceIds": [
+        "c9f267dcb0d270718c2a3c45a64afd32"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "caf83a614c5aa1c4e575e235cf2f9545",
+      "name": "Outcome",
+      "description": "AI Music ontology field for outcome; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiY2FmODNhNjEtNGM1YS1hMWM0LWU1NzUtZTIzNWNmMmY5NTQ1Il1d"
+    }
+  ]
+}

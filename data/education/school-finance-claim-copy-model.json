@@ -1,0 +1,20 @@
+{
+  "outcomes": {
+    "education-years":{"finding":"more completed schooling","uncertain":"increased completed schooling"},
+    "high-school-graduation":{"finding":"a higher probability of high-school graduation","uncertain":"increased high-school graduation"},
+    "adult-log-wages":{"finding":"higher wages at ages 20–45","uncertain":"increased wages at ages 20–45"},
+    "adult-log-family-income":{"finding":"higher family income at ages 20–45","uncertain":"increased family income at ages 20–45"},
+    "adult-poverty":{"finding":"less poverty at ages 20–45","uncertain":"reduced poverty at ages 20–45"}
+  },
+  "groups": {
+    "all":"sampled U.S. children",
+    "low-income":"children in its low-income group",
+    "nonpoor":"children in its nonpoor group"
+  },
+  "context": {
+    "all":"These are reform-based model estimates for the sampled 1955–1985 birth cohorts, not randomized trial effects.",
+    "low-income":"This group had parental family income below twice the poverty line in at least one childhood year.",
+    "nonpoor":"This group never had parental family income below twice the poverty line during measured childhood."
+  },
+  "policy":"State a proposition in the title; keep source coefficients on their original scale. Unmarked nonpoor estimates must not become claims of established effects or proof of no effect. No new percentage, cost-effectiveness or benefit-cost calculation."
+}

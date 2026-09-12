@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-09-12T11:46:23.754Z",
+  "batchName": "Preserve original initiative routes on verified existing Geo identities",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 5,
+  "checks": [
+    {
+      "entityId": "ed3fbb4f693c4785955b627ea98c03fb",
+      "propertyId": "b0305ef28312c519d954bc0efe22f013",
+      "pass": true
+    },
+    {
+      "entityId": "d03b32bd416443e49b9aa376e744cb03",
+      "propertyId": "b0305ef28312c519d954bc0efe22f013",
+      "pass": true
+    },
+    {
+      "entityId": "965cad4502d449579f74866a4ed922a8",
+      "propertyId": "b0305ef28312c519d954bc0efe22f013",
+      "pass": true
+    },
+    {
+      "entityId": "0728c2e68dcc4d7fa50a0dd61b787cae",
+      "propertyId": "b0305ef28312c519d954bc0efe22f013",
+      "pass": true
+    },
+    {
+      "entityId": "7568174c9ce043d09aee74e46aee35a9",
+      "propertyId": "b0305ef28312c519d954bc0efe22f013",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

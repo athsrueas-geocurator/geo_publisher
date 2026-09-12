@@ -52,7 +52,7 @@ export async function geoGraphqlRequest<TData>(
       signal: AbortSignal.timeout(15000),
     });
   } catch (error) {
-    if (error instanceof Error && error.name === "AbortError") {
+    if (error instanceof Error && (error.name === "AbortError" || error.name === "TimeoutError")) {
       throw new GeoApiRequestError("Geo API request timed out", 408, "Request Timeout");
     }
     throw error;

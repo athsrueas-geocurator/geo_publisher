@@ -1,0 +1,1827 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Study arm",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A study-specific group defined by its assigned intervention or comparison condition. Assignment, participation and changes over time must be distinguished.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c5d8e98d4a41486f8aa5ff4a3bc1755c"
+    },
+    "entity": {
+      "$bytes": "8e3a407af73b413696d1ae2aebec0e3e"
+    },
+    "from": {
+      "$bytes": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    "to": {
+      "$bytes": "e7d737c536764c609fa16aa64a8c90ad"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03qH"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Grade levels",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-grade concepts relevant to a record, with the education system identified by each target.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "919e4df62ebb4820b8e22a65532cb8e5"
+    },
+    "entity": {
+      "$bytes": "a3937b6d1576424c97b70f9a3caf90e6"
+    },
+    "from": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07wz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "efc621636ef64751b0358300046d02e1"
+    },
+    "entity": {
+      "$bytes": "6f056ff7e7b848c7b32ab606b0f6b3fc"
+    },
+    "from": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "to": {
+      "$bytes": "4b6d9fc1fbfe474c861c83398e1b50d9"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a0B8V"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8dacfce16a274070b30d3f2c53a3803e"
+    },
+    "entity": {
+      "$bytes": "64e2d09ebe5346f09e757d493d7f34d1"
+    },
+    "from": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "9eea393f17dd4971a62ea603e8bfec20"
+    },
+    "position": "a0BeS"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intervention arms",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Study-specific assigned intervention groups evaluated by an outcome estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "160f64e56943484aa04d1211ee1a00f3"
+    },
+    "entity": {
+      "$bytes": "c8974ead1168484bbae001e889bb4303"
+    },
+    "from": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06jI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3d6fde10ce1a4d459c81ca6f7fd19982"
+    },
+    "entity": {
+      "$bytes": "7f1d0eff609d412c9b3729e8d717da5a"
+    },
+    "from": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "to": {
+      "$bytes": "4b6d9fc1fbfe474c861c83398e1b50d9"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a0Bw9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "54bbab22ec6848f281a610011945d8df"
+    },
+    "entity": {
+      "$bytes": "dc1917af05bd4a889b307bda26d39f15"
+    },
+    "from": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "to": {
+      "$bytes": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    "relationType": {
+      "$bytes": "9eea393f17dd4971a62ea603e8bfec20"
+    },
+    "position": "a04Va"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Comparison arms",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Study-specific assigned comparison groups used as the reference for an outcome estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3b2c8ed3535444548197f22894727043"
+    },
+    "entity": {
+      "$bytes": "3f3f6bbdff9746f5a884b115dd5e3dda"
+    },
+    "from": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04Rb"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c358ceffcba2485fa326e9957325bc53"
+    },
+    "entity": {
+      "$bytes": "123e62367f86461582c6783afbf11dcf"
+    },
+    "from": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "to": {
+      "$bytes": "4b6d9fc1fbfe474c861c83398e1b50d9"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a01iE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "59a5fc43c1594be4a3a119ed9d9d6191"
+    },
+    "entity": {
+      "$bytes": "67c0f01e52634c3fb2df4f5ba98d0303"
+    },
+    "from": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "to": {
+      "$bytes": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    "relationType": {
+      "$bytes": "9eea393f17dd4971a62ea603e8bfec20"
+    },
+    "position": "a02U9"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "32ef1b9c498b42c18725f72a93fd2917"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Kindergarten (United States)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The United States school grade preceding first grade.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e30a9f92de62416e91e3a467149ae408"
+    },
+    "entity": {
+      "$bytes": "495860ac57e643fa89455c6b62c4c8a7"
+    },
+    "from": {
+      "$bytes": "32ef1b9c498b42c18725f72a93fd2917"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08vX"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c66d539b68a54250889bee59b97fcfc0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "First grade (United States)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The first numbered grade in United States elementary education, following kindergarten.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cd4790a22866413d9bfcef0bb192949e"
+    },
+    "entity": {
+      "$bytes": "e07369911f944c6abd09857a586ea2be"
+    },
+    "from": {
+      "$bytes": "c66d539b68a54250889bee59b97fcfc0"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Afx"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "74a01717791841c3beef132e8e5cec4e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second grade (United States)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The second numbered grade in United States elementary education, following first grade.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8d9909dae5304c7bbe5cecb9a7f7976e"
+    },
+    "entity": {
+      "$bytes": "82dfd298246f46a5a23fbf9aa4828d52"
+    },
+    "from": {
+      "$bytes": "74a01717791841c3beef132e8e5cec4e"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09T7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6fc7ceeb03bf486da5b79bb3874b46ef"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Third grade (United States)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The third numbered grade in United States elementary education, following second grade.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0c278be58578496cbdcfed1222f46f26"
+    },
+    "entity": {
+      "$bytes": "60b03e7697d444b4be9ae9569dc8fcc0"
+    },
+    "from": {
+      "$bytes": "6fc7ceeb03bf486da5b79bb3874b46ef"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06lg"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "82853715d57840fb93f79036e8acdad4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A research design that assigns participants to intervention or comparison conditions by a random process.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Tennessee Project STAR",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A Tennessee experiment that randomly assigned students and teachers within schools to small classes, regular classes, or regular classes with full-time aides.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2672947b65d846699b63090afe6e089b"
+    },
+    "entity": {
+      "$bytes": "10cf8a228449477eb896605fc65762eb"
+    },
+    "from": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "to": {
+      "$bytes": "3ef269bc5f114691abc02dcbf398fd63"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0CM3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f1deed827b504a22be9c1400524d12b1"
+    },
+    "entity": {
+      "$bytes": "a54caf28b4da4f7690a2f8ecfb3f1dfc"
+    },
+    "from": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "to": {
+      "$bytes": "b753211b9fd6470b8bb0ed709b97b789"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a07vG"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7a96d02adf704b25a7ef3bc99ba9d52b"
+    },
+    "entity": {
+      "$bytes": "e27c2fa784f2498090f54ec36806a20b"
+    },
+    "from": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "to": {
+      "$bytes": "82853715d57840fb93f79036e8acdad4"
+    },
+    "relationType": {
+      "$bytes": "76cac7bf35d44162a2961b12e99dc1a1"
+    },
+    "position": "a02h9"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Experimental Estimates of Education Production Functions",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A published analysis of Tennessee Project STAR’s effects on student achievement, using classroom assignment and observed class size.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.1162/003355399556052",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://hceconomics.uchicago.edu/sites/default/files/events/Krueger_1999_QJE_v114_n2.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "656155da3f7142f3acb3b88218d50852"
+    },
+    "entity": {
+      "$bytes": "339f88666a054a60b69576c060e5d577"
+    },
+    "from": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a045y"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "05fb64473b9140fa889373b366e46b1f"
+    },
+    "entity": {
+      "$bytes": "befb91a7ab8c4a12a970fe4c8e4ee19b"
+    },
+    "from": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "to": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01EI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a41e955d16354f64bb6f401fb2e476ff"
+    },
+    "entity": {
+      "$bytes": "873f371e9ba548b3b668f3eaf9848916"
+    },
+    "from": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "to": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05rB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "15a1fe407c874feeb317b2bc37576313"
+    },
+    "entity": {
+      "$bytes": "052c9ff5d7c34903b8e566c4df13d1d5"
+    },
+    "from": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BfG"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9d4d040732d84e2cb8bd68ed758735c6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Publication details\n\nAlan B. Krueger; Quarterly Journal of Economics 114(2), 497–532 (1999).\n\nPublished DOI: 10.1162/003355399556052. Earlier working-paper version: https://doi.org/10.3386/w6051. This dataset extracts the published version’s Table V, column 7.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "52f8614731504ba1a9faa03a265c94d1"
+    },
+    "entity": {
+      "$bytes": "5a5f6b78976343f9b1a587dfc5f9b5ec"
+    },
+    "from": {
+      "$bytes": "9d4d040732d84e2cb8bd68ed758735c6"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BwH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b3a2fa6d825546ee9f4b08b9045b6c35"
+    },
+    "entity": {
+      "$bytes": "f4b8414b959547eaa8ceeb20740a2b3d"
+    },
+    "from": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "to": {
+      "$bytes": "9d4d040732d84e2cb8bd68ed758735c6"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a02Ya"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9c49d94122dc4f54b9311d20b9b10c33"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR small-class assignment",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Initial assignment to a class planned for 13–17 students in Tennessee Project STAR.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3415814dc8af44018bb6c8ab190be3e2"
+    },
+    "entity": {
+      "$bytes": "4e4d40f0fe794107b9265f38fdd6071a"
+    },
+    "from": {
+      "$bytes": "9c49d94122dc4f54b9311d20b9b10c33"
+    },
+    "to": {
+      "$bytes": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04MS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5bb88d0a9f0e4e11b91a95574b422678"
+    },
+    "entity": {
+      "$bytes": "70766b14a9854a1a84003f04f2bdf35b"
+    },
+    "from": {
+      "$bytes": "9c49d94122dc4f54b9311d20b9b10c33"
+    },
+    "to": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a064q"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bb9ab8ef58014dd98b5679119f6fe400"
+    },
+    "entity": {
+      "$bytes": "cda8f05101f24fab9abe6d166432bf35"
+    },
+    "from": {
+      "$bytes": "9c49d94122dc4f54b9311d20b9b10c33"
+    },
+    "to": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03Wz"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "04cc2815daee4657879fd16d5cbec2b2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR regular-class assignment with full-time aide",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Initial assignment to a class planned for 22–25 students with a full-time classroom aide in Tennessee Project STAR.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e63e52c972c5438ca2b8db681c4dc7ea"
+    },
+    "entity": {
+      "$bytes": "34815dfa077b400b8c50c0619d0aae5b"
+    },
+    "from": {
+      "$bytes": "04cc2815daee4657879fd16d5cbec2b2"
+    },
+    "to": {
+      "$bytes": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08xc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "540a5d69503c4199af4ff9e497d4354b"
+    },
+    "entity": {
+      "$bytes": "043014fa903a4ac8b681336f5b257c47"
+    },
+    "from": {
+      "$bytes": "04cc2815daee4657879fd16d5cbec2b2"
+    },
+    "to": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a075N"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a17bc0b7dbf049aa962fb59984f29ead"
+    },
+    "entity": {
+      "$bytes": "a3b73ca182944f71875598f9980d5ceb"
+    },
+    "from": {
+      "$bytes": "04cc2815daee4657879fd16d5cbec2b2"
+    },
+    "to": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BMV"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4fcc10047b6648f9a9d3aa077e33aadf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR regular-class comparison assignment",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Initial assignment to a class planned for 22–25 students without a full-time aide in Tennessee Project STAR. Some regular classes had part-time aide access in grades 1–3.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b39c789c538143e39ad28db455878428"
+    },
+    "entity": {
+      "$bytes": "b7d1a1708eef4a84aeac7d83019370db"
+    },
+    "from": {
+      "$bytes": "4fcc10047b6648f9a9d3aa077e33aadf"
+    },
+    "to": {
+      "$bytes": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00BH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "45c4e23a1a9948f39d6f7e2e45dee40e"
+    },
+    "entity": {
+      "$bytes": "ec2ef60474a24ddc9afd5328b68a2188"
+    },
+    "from": {
+      "$bytes": "4fcc10047b6648f9a9d3aa077e33aadf"
+    },
+    "to": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08Ty"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2cc904e95045403e8d472feed2dda8b0"
+    },
+    "entity": {
+      "$bytes": "261f89c8747e4b8e96a1238272c0c4a2"
+    },
+    "from": {
+      "$bytes": "4fcc10047b6648f9a9d3aa077e33aadf"
+    },
+    "to": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01BK"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR class sizes and classroom aides: experimental results (Krueger, 1999)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Measured achievement effects from Tennessee’s randomized class-size experiment, organized by grade and assigned classroom condition. Effects are percentile points, with standard errors and source citations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://hceconomics.uchicago.edu/sites/default/files/events/Krueger_1999_QJE_v114_n2.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3bd4cde48f29465d90da90b8b8222e8e"
+    },
+    "entity": {
+      "$bytes": "4837c1df49744007ae4cf7c21d8ea076"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a016d"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "16952c7d85e34826945f8176b8694d04"
+    },
+    "entity": {
+      "$bytes": "6ffab09391a641afae3b1bc1b1e0b6f0"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06kh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "387bbe61a41847c9952e3828286faa48"
+    },
+    "entity": {
+      "$bytes": "9a42d71691fb41d4b380579ece0374d7"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a048v"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d508be4aeb2f4f079b1ef2738243a56c"
+    },
+    "entity": {
+      "$bytes": "ee60148b313d4edeb40d15781ee58dc1"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "b753211b9fd6470b8bb0ed709b97b789"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a0BB8"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8de2afc87d99401b99c6db5e8d25460b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Achievement effects by grade and assigned class condition",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ff1727741eeb4758a7891425ea91c192"
+    },
+    "entity": {
+      "$bytes": "7cb3dc156a7b42b5bacb12e5f04c4375"
+    },
+    "from": {
+      "$bytes": "8de2afc87d99401b99c6db5e8d25460b"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08TH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3acf8e35863045b8b25ed47bc2b68226"
+    },
+    "entity": {
+      "$bytes": "76f4a306bb4341b6bb13f6478760ac39"
+    },
+    "from": {
+      "$bytes": "8de2afc87d99401b99c6db5e8d25460b"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a02cY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d49688d6321f4a8097006b510a18ea3e"
+    },
+    "entity": {
+      "$bytes": "d828da6f03244ecdbde24622398fe7dd"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "8de2afc87d99401b99c6db5e8d25460b"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "540bdf75737a4dd5b1a7c855008ea6ab"
+    },
+    "entity": {
+      "$bytes": "3ad6e43f956b4f2298f03d2b4e639be2"
+    },
+    "from": {
+      "$bytes": "d828da6f03244ecdbde24622398fe7dd"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a07Xm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "39b8e1d20d8d438ba308e688a756babf"
+    },
+    "entity": {
+      "$bytes": "a93078c3b2a440e896ac658c9eda04e6"
+    },
+    "from": {
+      "$bytes": "d828da6f03244ecdbde24622398fe7dd"
+    },
+    "to": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0BmI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fceac521b040435985ea03b443b186b9"
+    },
+    "entity": {
+      "$bytes": "55e545a498b441caae5d9742e563b386"
+    },
+    "from": {
+      "$bytes": "d828da6f03244ecdbde24622398fe7dd"
+    },
+    "to": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a18K1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b2036db0428c496ca3c1449f11ae6e57"
+    },
+    "entity": {
+      "$bytes": "2ec05570e1964e06b7c91b8c52d02bcc"
+    },
+    "from": {
+      "$bytes": "d828da6f03244ecdbde24622398fe7dd"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a29OB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bf314e92444f4def98be9520497a4132"
+    },
+    "entity": {
+      "$bytes": "303f7511059e4928ad9578700251e414"
+    },
+    "from": {
+      "$bytes": "d828da6f03244ecdbde24622398fe7dd"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a36NT"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "65869f8c2de9460b92d5286a86dad99a"
+    },
+    "entity": {
+      "$bytes": "1d752afebaa0436f84577d40ae31f052"
+    },
+    "from": {
+      "$bytes": "d828da6f03244ecdbde24622398fe7dd"
+    },
+    "to": {
+      "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a48A2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b613ed09a8734a1484df34717a5bfafd"
+    },
+    "entity": {
+      "$bytes": "9d58fcbcf50142918ce97344f28480c4"
+    },
+    "from": {
+      "$bytes": "d828da6f03244ecdbde24622398fe7dd"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a57En"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "97ee63c211c94c1fa6b19d8b7639c77e"
+    },
+    "entity": {
+      "$bytes": "6cb2300ed252432e9783870fe270a190"
+    },
+    "from": {
+      "$bytes": "d828da6f03244ecdbde24622398fe7dd"
+    },
+    "to": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a65pT"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3b4530a8d6fa4ed99db36209b0fdb18c"
+    },
+    "entity": {
+      "$bytes": "27c75189d97b4b1bbeeb1af77472577d"
+    },
+    "from": {
+      "$bytes": "d828da6f03244ecdbde24622398fe7dd"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a75xB"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "87cf73fb46844e55846a8d6158b947f4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\n1985–86 through 1988–89; within-school random assignment. The outcome is average subject percentile rank on the Stanford Achievement Test: reading, word recognition and mathematics. Each subject ranked against pooled regular and regular/aide students within grade; three subject percentiles averaged.\n\nThese are reduced-form initial class-type assignment effects from Table V, column 7. Controls include school fixed effects, student race, student gender, free-lunch status; teacher covariates are excluded. Standard errors are robust, allowing within-class correlated residuals. N is the grade-level analysis sample across all three arms, not the number assigned to the intervention. Follow-up is end of the indicated grade.\n\nGrade estimates share participants and comparison groups; they are not eight independent trials.\n\nAttrition, class switching and first-grade re-randomization complicate interpretation.\n\nRegular classes had some part-time aide access in grades 1–3.\n\nColumn 7 excludes teacher covariates; column 8 is a different specification.\n\nPercentile-point effects cannot be ranked directly against Saga standard-deviation effects.\n\nThe 2003 economic model's 0.20 SD assumption is not this column's outcome unit.\n\nThe 2003 economic analysis is a separate model, not a matched observed-cost series for these eight estimates. No cost-effectiveness ranking or SD conversion is implied.\n\nSource: [Experimental Estimates of Education Production Functions](https://hceconomics.uchicago.edu/sites/default/files/events/Krueger_1999_QJE_v114_n2.pdf), Table V, pp. 512–513; methods pp. 507–511; Table V notes p. 513.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "817c219d8d134f0782f7e50baaa479ac"
+    },
+    "entity": {
+      "$bytes": "0777c6ef7ec14c3ea96e486d46d93415"
+    },
+    "from": {
+      "$bytes": "87cf73fb46844e55846a8d6158b947f4"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08bJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9552fa5018bb4b79a576ea994835e5f1"
+    },
+    "entity": {
+      "$bytes": "621bcd248d61400fa5ae2e5d50c57844"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "87cf73fb46844e55846a8d6158b947f4"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR kindergarten: small class assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "536"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "121"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "5861"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "percentile points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "End of kindergarten",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "reduced-form initial class-type assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V, column 7, panel A, p. 512",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d5028dfdd31c48eea7ee83227c0edd7f"
+    },
+    "entity": {
+      "$bytes": "e6e77ad9938a4bcd86911d6d3a59e9cc"
+    },
+    "from": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08IQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7d36c476a59743b4999652499a0c2e55"
+    },
+    "entity": {
+      "$bytes": "c6eea91005a942b4972be4f27348111c"
+    },
+    "from": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "to": {
+      "$bytes": "32ef1b9c498b42c18725f72a93fd2917"
+    },
+    "relationType": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "position": "a07mM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "87208dcf31664b20b109e6b79b350d25"
+    },
+    "entity": {
+      "$bytes": "5c91caf444084c7ea1d2ae136cff9bc7"
+    },
+    "from": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "to": {
+      "$bytes": "9c49d94122dc4f54b9311d20b9b10c33"
+    },
+    "relationType": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "position": "a08uL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dc167987279c48d5bb669a7e7b4f1a62"
+    },
+    "entity": {
+      "$bytes": "e6594eb05c8341689159e51160cceebe"
+    },
+    "from": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "to": {
+      "$bytes": "4fcc10047b6648f9a9d3aa077e33aadf"
+    },
+    "relationType": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "position": "a07QJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2ae6a9a0f2464de19132bfe5e9b1e1d6"
+    },
+    "entity": {
+      "$bytes": "aa0f5186b0a745789eda9409f01c4e27"
+    },
+    "from": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "to": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0753"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "159be843f720486385041aaa4076473c"
+    },
+    "entity": {
+      "$bytes": "acec7671366c445389d16a39a78fcabc"
+    },
+    "from": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "to": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07Wb"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e76427f6547745c2b018bcd62855d1f8"
+    },
+    "entity": {
+      "$bytes": "1b253afd454347788516ac9b3c9c1308"
+    },
+    "from": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "to": {
+      "$bytes": "b753211b9fd6470b8bb0ed709b97b789"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a03e6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ae377235d4314273a0d89fb735606e8c"
+    },
+    "entity": {
+      "$bytes": "b34055fab55843389f96427dc3661b2b"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a09Rj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a3ad985166f84690b510eca5ebab6e86"
+    },
+    "entity": {
+      "$bytes": "2cac3388857d4174aeb9c7eec2262c5c"
+    },
+    "from": {
+      "$bytes": "8de2afc87d99401b99c6db5e8d25460b"
+    },
+    "to": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0"
+  }
+]

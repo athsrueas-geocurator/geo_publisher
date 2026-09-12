@@ -1,0 +1,43 @@
+{
+  "term": "mastery",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:37.035Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "582ad803aa8e440fb1e442f6dfbb0839",
+      "name": "Mastery",
+      "description": "A book on the path to achieving mastery in any field. Robert Greene examines how exceptional individuals develop their skills and power.",
+      "spaceIds": [
+        "0477636ace64280fc43a9f440a502291"
+      ],
+      "types": [
+        {
+          "id": "8864304115334498b8ea6c1ae833628e",
+          "name": "Book"
+        }
+      ]
+    },
+    {
+      "id": "e496121e01b04d52bd3de6e2f46fe39e",
+      "name": "Mastery",
+      "description": "Apprenticeship, purpose, self-expression.",
+      "spaceIds": [
+        "dc0f0d366defa86c485c443ff5b9e2d0"
+      ],
+      "types": [
+        {
+          "id": "706779bf537744a68694ea06cf87a3a2",
+          "name": "Source"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTQ5NjEyMWUtMDFiMC00ZDUyLWJkM2QtZTZlMmY0NmZlMzllIl1d"
+    }
+  ]
+}

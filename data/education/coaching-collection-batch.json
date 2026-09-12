@@ -1,0 +1,34 @@
+{
+  "name": "Group nine existing teacher-coaching findings into cataloged result tables",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/coaching-collection-ops.json",
+  "sha256": "555cf013b56e4f6e01be14952b4a2ea5f6c69abea641538d4539c27ec39df8f2",
+  "journalPath": "data/education/coaching-collection-publication.json",
+  "validationPath": "data/education/coaching-collection-validation.json",
+  "datasetId": "46a483eddc824e4ea7b14cf9b8cc9180",
+  "groups": [
+    {
+      "key": "instruction",
+      "blockId": "5b3d9603e11145148c8fba073b7c3ddb",
+      "memberIds": [
+        "ac70981427fb402994c2a7526febea9f",
+        "f59cafc1b3fa4beaba24a898a890f23a",
+        "18020b92e89d4eb8a9693def8682771c"
+      ]
+    },
+    {
+      "key": "achievement",
+      "blockId": "ddb0f3143bbb4666b526cffce7cfbfd9",
+      "memberIds": [
+        "5416e25c785a4daf967b7d4e02dcc9ef",
+        "caaf065aee054ae385f184dbf6043028",
+        "4d20a987683a4686af61d1b9710475d2",
+        "1c6c7ea0742c4dc8849b983c8437296e",
+        "07bcc36415354dbabb6e34b230065dd5",
+        "03cd942d5566419bb39a1608580c6f8a"
+      ]
+    }
+  ],
+  "operationCount": 31
+}

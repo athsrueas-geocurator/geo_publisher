@@ -1,0 +1,168 @@
+[
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f94a635d5d8c47d48c6d99f347b429ec"
+    },
+    "entity": {
+      "$bytes": "8407945db7544be89960358de0916221"
+    },
+    "from": {
+      "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+    },
+    "to": {
+      "$bytes": "561872867e1b4b80a5f37ddeb27570b5"
+    },
+    "relationType": {
+      "$bytes": "07546da1a8a04c0d8e0dac5351dcb25b"
+    },
+    "position": "a03Iz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b9f9d14de82a4730b3ec0aa733b8e8d5"
+    },
+    "entity": {
+      "$bytes": "239506a7789d4b2ba8ad638e72517523"
+    },
+    "from": {
+      "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+    },
+    "to": {
+      "$bytes": "32ef1b9c498b42c18725f72a93fd2917"
+    },
+    "relationType": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "position": "a02f6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "be426d90e2af45829e9b23b4ceb87b6f"
+    },
+    "entity": {
+      "$bytes": "c753c9cb48c7488cbf32765f364d62de"
+    },
+    "from": {
+      "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+    },
+    "to": {
+      "$bytes": "c66d539b68a54250889bee59b97fcfc0"
+    },
+    "relationType": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "position": "a12BL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d8c0182eac7946bb8b73fbec35803a5b"
+    },
+    "entity": {
+      "$bytes": "64cb6ae0fb6442539168e76e99121bbb"
+    },
+    "from": {
+      "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+    },
+    "to": {
+      "$bytes": "74a01717791841c3beef132e8e5cec4e"
+    },
+    "relationType": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "position": "a25b4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d4447a46bd7249e49b449674c1ffda81"
+    },
+    "entity": {
+      "$bytes": "5154262bc6ae41f7ab15c7b98017fd5b"
+    },
+    "from": {
+      "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+    },
+    "to": {
+      "$bytes": "6fc7ceeb03bf486da5b79bb3874b46ef"
+    },
+    "relationType": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "position": "a30Us"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9b7c11b6a5684461bfc8c4bae7a5afd8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading First intended audience and exposure",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Intended audience and funding priority\n\nReading First was intended to support reading instruction from kindergarten through third grade. The Children demographic and grade links identify the intended learners; they do not mean every child or school qualified for a grant. Districts and schools with greater reading-proficiency and poverty-related need were intended to receive funding priority.\n\n## Intended coverage and actual exposure\n\nThe intended four-grade span is distinct from each student’s actual exposure. The report describes student mobility and differences in program timing that limited full exposure for some study participants. The evaluation sample, outcome-specific grade coverage and measured follow-up periods remain separate from program eligibility.\n\nSource: [Reading First Impact Study Final Report](https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncee/pdf/20094038.pdf), Executive Summary, printed p. xvii (PDF p. 18), and Chapter 3, printed p. 30 (PDF p. 59).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3adcbf1c63c94cacba4a985fe8c0720e"
+    },
+    "entity": {
+      "$bytes": "c148d9649738405a9318e8e8d8d5fdcd"
+    },
+    "from": {
+      "$bytes": "9b7c11b6a5684461bfc8c4bae7a5afd8"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08cK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b11b327a5a2d4755a90733c6bc9d71b5"
+    },
+    "entity": {
+      "$bytes": "c8d887b315ac4ce1b94e94b5e5a5a29a"
+    },
+    "from": {
+      "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+    },
+    "to": {
+      "$bytes": "9b7c11b6a5684461bfc8c4bae7a5afd8"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a06Vu"
+  }
+]

@@ -1,0 +1,1502 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e2fd2a1b244d4102bafebbb8981780c7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age four, the third-grade ECLS-K Reading ITT impact was +2.23 points (p = .075).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 4-year-old cohort estimate is regression-adjusted and statistically significant only at the report’s 10% threshold. It is one third-grade cognitive outcome from the national randomized access study.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "223"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ECLS-K Reading-score ITT difference at third grade, Head Start access minus control; 4-year-old cohort.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.1, printed p. 77.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .075",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c650d4fe4ae14e21aeda7b8ab1ac8b31"
+    },
+    "entity": {
+      "$bytes": "f29c5e62e84b46179ed8580a4709b93d"
+    },
+    "from": {
+      "$bytes": "e2fd2a1b244d4102bafebbb8981780c7"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02MK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "504bd26fbeac48aaa97711bb286976a6"
+    },
+    "entity": {
+      "$bytes": "85cd00e0918d46e6a35f8d895a4b6a39"
+    },
+    "from": {
+      "$bytes": "e2fd2a1b244d4102bafebbb8981780c7"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05YN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "018cd12c803548d08fe59d1aa4b2bfea"
+    },
+    "entity": {
+      "$bytes": "21c25b4b685c4202b26c114809836359"
+    },
+    "from": {
+      "$bytes": "e2fd2a1b244d4102bafebbb8981780c7"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02si"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5c82c782947c47028a47400e16702870"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age four, the third-grade PPVT ITT impact was +2.17 points (p = .246).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This regression-adjusted vocabulary estimate is not statistically significant at conventional thresholds. It is not evidence of a separate trial or later-life outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "217"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "PPVT adapted-score ITT difference at third grade, Head Start access minus control; 4-year-old cohort.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.1, printed p. 77.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .246",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6d9688a51a214be5b697950579e597aa"
+    },
+    "entity": {
+      "$bytes": "16091c92d1d34015bf8cd4a8f921e5c1"
+    },
+    "from": {
+      "$bytes": "5c82c782947c47028a47400e16702870"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09T1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "49524c3f24a142bcbf645cbb91180d7d"
+    },
+    "entity": {
+      "$bytes": "d13c0691c0a0417e90dc5c1cdc79d8c5"
+    },
+    "from": {
+      "$bytes": "5c82c782947c47028a47400e16702870"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08Jc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b6f487f157ab4676929908de82556220"
+    },
+    "entity": {
+      "$bytes": "b805d490641c4c92a57b29fc739c1d82"
+    },
+    "from": {
+      "$bytes": "5c82c782947c47028a47400e16702870"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03Bz"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5b02e1f4ded1472e824dc4ec72d3a772"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age four, the third-grade WJ III Letter-Word Identification ITT impact was +2.11 points (p = .275).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This regression-adjusted literacy estimate is not statistically significant at conventional thresholds. The source reports it for the same randomized access cohort.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "211"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "WJ III Letter-Word Identification-score ITT difference at third grade, Head Start access minus control; 4-year-old cohort.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.1, printed p. 77.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .275",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2dc0f1a76ca346ad98ee1bfbfba90dbf"
+    },
+    "entity": {
+      "$bytes": "d8958072b8884017aa140243b02131ee"
+    },
+    "from": {
+      "$bytes": "5b02e1f4ded1472e824dc4ec72d3a772"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a015k"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "226f0365886a452b9f49300212419e8e"
+    },
+    "entity": {
+      "$bytes": "e662e585288e4f3283130ad112283f63"
+    },
+    "from": {
+      "$bytes": "5b02e1f4ded1472e824dc4ec72d3a772"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01d7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7eca7bbaa2d44d399af583419e246dac"
+    },
+    "entity": {
+      "$bytes": "5b7120b8f40c44c2a2d530ba3403132d"
+    },
+    "from": {
+      "$bytes": "5b02e1f4ded1472e824dc4ec72d3a772"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a086j"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "077db384eb6c44ffa603cdb1df6babca"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age four, the third-grade WJ III Applied Problems ITT impact was -0.43 points (p = .729).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This regression-adjusted math estimate is not statistically significant at conventional thresholds. It does not prove a zero effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-43"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "WJ III Applied Problems-score ITT difference at third grade, Head Start access minus control; 4-year-old cohort.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.1, printed p. 77.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .729",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "27a182e2b6d548b7a0b0a7a9462a2a16"
+    },
+    "entity": {
+      "$bytes": "e322839b2d89467bb1774153517b3976"
+    },
+    "from": {
+      "$bytes": "077db384eb6c44ffa603cdb1df6babca"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0013"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f3890cad6203482eac8ab889270544ba"
+    },
+    "entity": {
+      "$bytes": "b1d70cfa76774b2eb354e71746c7b037"
+    },
+    "from": {
+      "$bytes": "077db384eb6c44ffa603cdb1df6babca"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09Lk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b3b37a8c0f334d6c8ca622b037f46318"
+    },
+    "entity": {
+      "$bytes": "030ec76ae98d4b35939ee2d2d86e753c"
+    },
+    "from": {
+      "$bytes": "077db384eb6c44ffa603cdb1df6babca"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06iz"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "abe06302835b40b191d09c50ecc0527d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age four, the third-grade WJ III Calculation ITT impact was 0.00 points (p = .997).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This regression-adjusted math estimate is not statistically significant at conventional thresholds. A zero point estimate does not prove no effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "0"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "WJ III Calculation-score ITT difference at third grade, Head Start access minus control; 4-year-old cohort.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.1, printed p. 77.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .997",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f78357a96e1f4d32af36c5f53a7dd4df"
+    },
+    "entity": {
+      "$bytes": "c5785f5cf8cd45969d87bec7d5a382f7"
+    },
+    "from": {
+      "$bytes": "abe06302835b40b191d09c50ecc0527d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0CBV"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "12ea7c402cef4125821a9cf7dbc01c98"
+    },
+    "entity": {
+      "$bytes": "7ecb8a4a5ce34fb6a27fafa0e372096d"
+    },
+    "from": {
+      "$bytes": "abe06302835b40b191d09c50ecc0527d"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a00Y7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b35cac5ab9e6468bb7ea92fe8aa5e33e"
+    },
+    "entity": {
+      "$bytes": "32ac5feac24447bdad51786723c915f7"
+    },
+    "from": {
+      "$bytes": "abe06302835b40b191d09c50ecc0527d"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a013s"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5a9bcb3bcefe4ba7aca2d65a34b40268"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age three, the third-grade ECLS-K Reading ITT impact was -0.18 points (p = .876).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This regression-adjusted literacy estimate is not statistically significant at conventional thresholds. It is for the distinct entry-age cohort within the same national randomized access study.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-18"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ECLS-K Reading-score ITT difference at third grade, Head Start access minus control; 3-year-old cohort.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.2, printed p. 78.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .876",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e30ffec8b798459eb28e8f039b949eb0"
+    },
+    "entity": {
+      "$bytes": "462907d3958c4a13a3b716a22efa8780"
+    },
+    "from": {
+      "$bytes": "5a9bcb3bcefe4ba7aca2d65a34b40268"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08MZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cd7c553fe50f456e9fadd57eacebf458"
+    },
+    "entity": {
+      "$bytes": "a4096ec230274eeb9913559273427882"
+    },
+    "from": {
+      "$bytes": "5a9bcb3bcefe4ba7aca2d65a34b40268"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01V2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "247c8c371c144641bc60794cb50f92c1"
+    },
+    "entity": {
+      "$bytes": "ed6f7e97559248268daf122a206d4bc9"
+    },
+    "from": {
+      "$bytes": "5a9bcb3bcefe4ba7aca2d65a34b40268"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BF2"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "63f6ee056e884f9e98a9695740af5b30"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age three, the third-grade PPVT ITT impact was +1.83 points (p = .146).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This regression-adjusted vocabulary estimate is not statistically significant at conventional thresholds. It is not a separate trial.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "183"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "PPVT adapted-score ITT difference at third grade, Head Start access minus control; 3-year-old cohort.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.2, printed p. 78.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .146",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a340a2bc8d094d0f827e0abad0134d0e"
+    },
+    "entity": {
+      "$bytes": "59854d1b884a4f2889a2f4c64966edb7"
+    },
+    "from": {
+      "$bytes": "63f6ee056e884f9e98a9695740af5b30"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04ot"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5d67b1c5738e4cc7a439783eb3a12805"
+    },
+    "entity": {
+      "$bytes": "cd510493e69a4db4b6afa0f6cfbf852f"
+    },
+    "from": {
+      "$bytes": "63f6ee056e884f9e98a9695740af5b30"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a023n"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a1c7f10b892743d78a6c2cb3c8f36eef"
+    },
+    "entity": {
+      "$bytes": "52e20427a2f1446ab92ed2e34c6f019b"
+    },
+    "from": {
+      "$bytes": "63f6ee056e884f9e98a9695740af5b30"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04bW"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "88b7f88424de4eefa20b5a53fede323f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age three, the third-grade WJ III Letter-Word Identification ITT impact was +0.44 points (p = .818).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This regression-adjusted literacy estimate is not statistically significant at conventional thresholds. It is one outcome from the same randomized access study.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "44"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "WJ III Letter-Word Identification-score ITT difference at third grade, Head Start access minus control; 3-year-old cohort.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.2, printed p. 78.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .818",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7e4842b8984d40e49cb5453369fea4b3"
+    },
+    "entity": {
+      "$bytes": "0ff848978c1f48c28defa76efbc88c39"
+    },
+    "from": {
+      "$bytes": "88b7f88424de4eefa20b5a53fede323f"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08k9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "763d0d86acc84c129645b07546595a3b"
+    },
+    "entity": {
+      "$bytes": "f1eaeba0983944e1b9cfefe2ca03520f"
+    },
+    "from": {
+      "$bytes": "88b7f88424de4eefa20b5a53fede323f"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05Eg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ee895cf62c004585bb0e8ff195650fd5"
+    },
+    "entity": {
+      "$bytes": "93d3a050482d48b79c66520bab5ef893"
+    },
+    "from": {
+      "$bytes": "88b7f88424de4eefa20b5a53fede323f"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08wN"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6878e89ead3840bea0fc42003d648ebc"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age three, the third-grade WJ III Applied Problems ITT impact was +0.03 points (p = .985).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This regression-adjusted math estimate is not statistically significant at conventional thresholds. A near-zero estimate does not prove no effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "WJ III Applied Problems-score ITT difference at third grade, Head Start access minus control; 3-year-old cohort.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.2, printed p. 78.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .985",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b285c0f8f0044667b73daadd8fbd106f"
+    },
+    "entity": {
+      "$bytes": "b09ebf14478b463ba4cb269b8a249384"
+    },
+    "from": {
+      "$bytes": "6878e89ead3840bea0fc42003d648ebc"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03xw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "501dd1a32d5e4bd58f03af53060722bd"
+    },
+    "entity": {
+      "$bytes": "4770b349804f48dfaa401f016563165c"
+    },
+    "from": {
+      "$bytes": "6878e89ead3840bea0fc42003d648ebc"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01ts"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fafcee8f011146ada88bd278b04f1a0d"
+    },
+    "entity": {
+      "$bytes": "d127d2ad587042688f55790a0a93304c"
+    },
+    "from": {
+      "$bytes": "6878e89ead3840bea0fc42003d648ebc"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07rb"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "32fd5b7fd71748ddbfaf66c26dfba396"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age three, the third-grade WJ III Calculation ITT impact was -0.05 points (p = .960).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This regression-adjusted math estimate is not statistically significant at conventional thresholds. It remains a measured third-grade outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-5"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "WJ III Calculation-score ITT difference at third grade, Head Start access minus control; 3-year-old cohort.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.2, printed p. 78.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .960",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "336b1cc9bd994309b8aa4dc9edab1e5b"
+    },
+    "entity": {
+      "$bytes": "f1f5737eeda5475e9f079051965e1a6e"
+    },
+    "from": {
+      "$bytes": "32fd5b7fd71748ddbfaf66c26dfba396"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0348"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5faca30c1087439ba087b1817d692f93"
+    },
+    "entity": {
+      "$bytes": "42c2c54388814ffba66d64c0a8f07cee"
+    },
+    "from": {
+      "$bytes": "32fd5b7fd71748ddbfaf66c26dfba396"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0685"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "12c80c13f8ef4eae9b5462c226d9370d"
+    },
+    "entity": {
+      "$bytes": "a036cf05549c4a12a6644ffc7bfd9304"
+    },
+    "from": {
+      "$bytes": "32fd5b7fd71748ddbfaf66c26dfba396"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05vW"
+  }
+]

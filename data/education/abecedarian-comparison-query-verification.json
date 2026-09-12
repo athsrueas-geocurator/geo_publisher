@@ -1,0 +1,2638 @@
+{
+  "checkedAt": "2026-09-12T02:10:31.364Z",
+  "scope": "Destination-scoped forecasts, numeric/source reconciliation and horizon filters; not method/benefit-scope filters or ranking eligibility",
+  "cases": [
+    {
+      "name": "All 11 source-reported forecasts",
+      "filter": {
+        "and": [
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "49c5d5e1679a4dbdbfd33f618f227c94"
+                },
+                "toEntityId": {
+                  "is": "ca413140fa584837a21c9eefc76e15c3"
+                }
+              }
+            }
+          },
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                },
+                "toEntityId": {
+                  "is": "66657d9776214aec9cf816b8d50b644a"
+                }
+              }
+            }
+          },
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                },
+                "toEntityId": {
+                  "is": "32993a9fe1fa4d88b2c59405ccb8996e"
+                }
+              }
+            }
+          },
+          {
+            "values": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "propertyId": {
+                  "is": "45ce8dc80a74432e9a2483cd1c8e86e1"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "01db2c2b44534fc4a7da5ff6e614d231",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 1.56 for labor-income benefits over the life cycle using the Kline–Walters-style forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.08",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 5, column 4",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 1.56 for labor-income benefits over the life cycle using the Kline–Walters-style forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Life-cycle",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.08 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "1.56",
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "03ddf15303dd46d296b807be2364e765",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 3.80 for all monetized benefits over the life cycle using the Kline–Walters-style forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.29",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "3.8",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 6, column 4",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.29 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Life-cycle",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 3.80 for all monetized benefits over the life cycle using the Kline–Walters-style forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "2a33915f54ba48f293186c85d0ddeeb6",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 1.55 for labor-income benefits over the life cycle using the authors' forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "1.55",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.76",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Life-cycle",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 1.55 for labor-income benefits over the life cycle using the authors' forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 5, column 5",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.76 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "42c41e183f7c43af91721639f3ea8615",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 1.09 for labor-income benefits through age 27 using the authors' forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "1.09",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 1.09 for labor-income benefits through age 27 using the authors' forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 2, column 5",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.04 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 27",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.04",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "451c0393be9944a8bcb4c799db8206e9",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 3.20 for all monetized benefits through age 34 using the authors' forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 3.20 for all monetized benefits through age 34 using the authors' forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 34",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "3.2",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 1.04 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 4, column 5",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.04",
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "6433a31942b64a8ea978a3fbdbe4825d",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 0.58 for labor-income benefits through age 27 using the Kline–Walters-style forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 0.58 for labor-income benefits through age 27 using the Kline–Walters-style forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 1, column 4",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 27",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.28 for this August 2, 2018 author manuscript model estimate. It uses Chetty et al. (2011) net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.28",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "0.58",
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "814151850e0841c5861bf9e3189a1565",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 7.33 for all monetized benefits over the life cycle using the authors' forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 7.33 for all monetized benefits over the life cycle using the authors' forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "7.33",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 6, column 5",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.84",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Life-cycle",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 1.84 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "97b98366083c4ea78127ad956ecf9163",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 0.37 for labor-income benefits through age 34 using the Kline–Walters-style forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 0.37 for labor-income benefits through age 34 using the Kline–Walters-style forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "0.37",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.04",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 3, column 4",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.04 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 34",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "a73d973eef5745c38d647ae7b5f11e0f",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 0.15 for labor-income benefits through age 34 using the authors' forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.05 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 3, column 5",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 0.15 for labor-income benefits through age 34 using the authors' forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "0.15",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 34",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.05",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "ab8db4a1c6e04600ac60b3fc29d36b0a",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 1.21 for all monetized benefits through age 34 using the Kline–Walters-style forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 34",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "1.21",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 4, column 4",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 1.21 for all monetized benefits through age 34 using the Kline–Walters-style forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.05",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.05 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYWI4ZGI0YTEtYzZlMC00NjAwLWFjNjAtYjNmYzI5ZDM2YjBhIl1d"
+          }
+        },
+        {
+          "nodes": [
+            {
+              "id": "bc94817e50e741c2af3b8d72e86e72ec",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 0.09 for labor-income benefits through age 27 using the Kline–Walters-style forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 27",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "0.09",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.04",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 2, column 4",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 0.09 for labor-income benefits through age 27 using the Kline–Walters-style forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.04 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYmM5NDgxN2UtNTBlNy00MWMyLWFmM2ItOGQ3MmU4NmU3MmVjIl1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "expectedIds": [
+        "01db2c2b44534fc4a7da5ff6e614d231",
+        "03ddf15303dd46d296b807be2364e765",
+        "2a33915f54ba48f293186c85d0ddeeb6",
+        "42c41e183f7c43af91721639f3ea8615",
+        "451c0393be9944a8bcb4c799db8206e9",
+        "6433a31942b64a8ea978a3fbdbe4825d",
+        "814151850e0841c5861bf9e3189a1565",
+        "97b98366083c4ea78127ad956ecf9163",
+        "a73d973eef5745c38d647ae7b5f11e0f",
+        "ab8db4a1c6e04600ac60b3fc29d36b0a",
+        "bc94817e50e741c2af3b8d72e86e72ec"
+      ],
+      "actualIds": [
+        "01db2c2b44534fc4a7da5ff6e614d231",
+        "03ddf15303dd46d296b807be2364e765",
+        "2a33915f54ba48f293186c85d0ddeeb6",
+        "42c41e183f7c43af91721639f3ea8615",
+        "451c0393be9944a8bcb4c799db8206e9",
+        "6433a31942b64a8ea978a3fbdbe4825d",
+        "814151850e0841c5861bf9e3189a1565",
+        "97b98366083c4ea78127ad956ecf9163",
+        "a73d973eef5745c38d647ae7b5f11e0f",
+        "ab8db4a1c6e04600ac60b3fc29d36b0a",
+        "bc94817e50e741c2af3b8d72e86e72ec"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Through age 27",
+      "filter": {
+        "and": [
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "49c5d5e1679a4dbdbfd33f618f227c94"
+                },
+                "toEntityId": {
+                  "is": "ca413140fa584837a21c9eefc76e15c3"
+                }
+              }
+            }
+          },
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                },
+                "toEntityId": {
+                  "is": "66657d9776214aec9cf816b8d50b644a"
+                }
+              }
+            }
+          },
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                },
+                "toEntityId": {
+                  "is": "32993a9fe1fa4d88b2c59405ccb8996e"
+                }
+              }
+            }
+          },
+          {
+            "values": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "propertyId": {
+                  "is": "45ce8dc80a74432e9a2483cd1c8e86e1"
+                }
+              }
+            }
+          },
+          {
+            "values": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "propertyId": {
+                  "is": "c962e0fb4a3148e5ba125144691236a8"
+                },
+                "text": {
+                  "is": "Through age 27"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "42c41e183f7c43af91721639f3ea8615",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 1.09 for labor-income benefits through age 27 using the authors' forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "1.09",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 1.09 for labor-income benefits through age 27 using the authors' forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 2, column 5",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.04 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 27",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.04",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "6433a31942b64a8ea978a3fbdbe4825d",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 0.58 for labor-income benefits through age 27 using the Kline–Walters-style forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 0.58 for labor-income benefits through age 27 using the Kline–Walters-style forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 1, column 4",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 27",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.28 for this August 2, 2018 author manuscript model estimate. It uses Chetty et al. (2011) net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.28",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "0.58",
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "bc94817e50e741c2af3b8d72e86e72ec",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 0.09 for labor-income benefits through age 27 using the Kline–Walters-style forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 27",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "0.09",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.04",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 2, column 4",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 0.09 for labor-income benefits through age 27 using the Kline–Walters-style forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.04 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYmM5NDgxN2UtNTBlNy00MWMyLWFmM2ItOGQ3MmU4NmU3MmVjIl1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "expectedIds": [
+        "42c41e183f7c43af91721639f3ea8615",
+        "6433a31942b64a8ea978a3fbdbe4825d",
+        "bc94817e50e741c2af3b8d72e86e72ec"
+      ],
+      "actualIds": [
+        "42c41e183f7c43af91721639f3ea8615",
+        "6433a31942b64a8ea978a3fbdbe4825d",
+        "bc94817e50e741c2af3b8d72e86e72ec"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Through age 34",
+      "filter": {
+        "and": [
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "49c5d5e1679a4dbdbfd33f618f227c94"
+                },
+                "toEntityId": {
+                  "is": "ca413140fa584837a21c9eefc76e15c3"
+                }
+              }
+            }
+          },
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                },
+                "toEntityId": {
+                  "is": "66657d9776214aec9cf816b8d50b644a"
+                }
+              }
+            }
+          },
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                },
+                "toEntityId": {
+                  "is": "32993a9fe1fa4d88b2c59405ccb8996e"
+                }
+              }
+            }
+          },
+          {
+            "values": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "propertyId": {
+                  "is": "45ce8dc80a74432e9a2483cd1c8e86e1"
+                }
+              }
+            }
+          },
+          {
+            "values": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "propertyId": {
+                  "is": "c962e0fb4a3148e5ba125144691236a8"
+                },
+                "text": {
+                  "is": "Through age 34"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "451c0393be9944a8bcb4c799db8206e9",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 3.20 for all monetized benefits through age 34 using the authors' forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 3.20 for all monetized benefits through age 34 using the authors' forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 34",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "3.2",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 1.04 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 4, column 5",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.04",
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "97b98366083c4ea78127ad956ecf9163",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 0.37 for labor-income benefits through age 34 using the Kline–Walters-style forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 0.37 for labor-income benefits through age 34 using the Kline–Walters-style forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "0.37",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.04",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 3, column 4",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.04 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 34",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "a73d973eef5745c38d647ae7b5f11e0f",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 0.15 for labor-income benefits through age 34 using the authors' forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.05 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 3, column 5",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 0.15 for labor-income benefits through age 34 using the authors' forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "0.15",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 34",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.05",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "ab8db4a1c6e04600ac60b3fc29d36b0a",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 1.21 for all monetized benefits through age 34 using the Kline–Walters-style forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Through age 34",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "1.21",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 4, column 4",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 1.21 for all monetized benefits through age 34 using the Kline–Walters-style forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.05",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.05 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYWI4ZGI0YTEtYzZlMC00NjAwLWFjNjAtYjNmYzI5ZDM2YjBhIl1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "expectedIds": [
+        "451c0393be9944a8bcb4c799db8206e9",
+        "97b98366083c4ea78127ad956ecf9163",
+        "a73d973eef5745c38d647ae7b5f11e0f",
+        "ab8db4a1c6e04600ac60b3fc29d36b0a"
+      ],
+      "actualIds": [
+        "451c0393be9944a8bcb4c799db8206e9",
+        "97b98366083c4ea78127ad956ecf9163",
+        "a73d973eef5745c38d647ae7b5f11e0f",
+        "ab8db4a1c6e04600ac60b3fc29d36b0a"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Life-cycle",
+      "filter": {
+        "and": [
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "49c5d5e1679a4dbdbfd33f618f227c94"
+                },
+                "toEntityId": {
+                  "is": "ca413140fa584837a21c9eefc76e15c3"
+                }
+              }
+            }
+          },
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                },
+                "toEntityId": {
+                  "is": "66657d9776214aec9cf816b8d50b644a"
+                }
+              }
+            }
+          },
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                },
+                "toEntityId": {
+                  "is": "32993a9fe1fa4d88b2c59405ccb8996e"
+                }
+              }
+            }
+          },
+          {
+            "values": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "propertyId": {
+                  "is": "45ce8dc80a74432e9a2483cd1c8e86e1"
+                }
+              }
+            }
+          },
+          {
+            "values": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "propertyId": {
+                  "is": "c962e0fb4a3148e5ba125144691236a8"
+                },
+                "text": {
+                  "is": "Life-cycle"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "01db2c2b44534fc4a7da5ff6e614d231",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 1.56 for labor-income benefits over the life cycle using the Kline–Walters-style forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.08",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 5, column 4",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 1.56 for labor-income benefits over the life cycle using the Kline–Walters-style forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Life-cycle",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.08 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "1.56",
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "03ddf15303dd46d296b807be2364e765",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 3.80 for all monetized benefits over the life cycle using the Kline–Walters-style forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.29",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "3.8",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 6, column 4",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.29 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Life-cycle",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 3.80 for all monetized benefits over the life cycle using the Kline–Walters-style forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "2a33915f54ba48f293186c85d0ddeeb6",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 1.55 for labor-income benefits over the life cycle using the authors' forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "1.55",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "0.76",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Life-cycle",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 1.55 for labor-income benefits over the life cycle using the authors' forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 5, column 5",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 0.76 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            },
+            {
+              "id": "814151850e0841c5861bf9e3189a1565",
+              "name": "ABC/CARE's modeled benefit/cost ratio is 7.33 for all monetized benefits over the life cycle using the authors' forecasting method.",
+              "values": {
+                "nodes": [
+                  {
+                    "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+                    "text": null,
+                    "decimal": null,
+                    "boolean": true
+                  },
+                  {
+                    "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                    "text": "ABC/CARE's modeled benefit/cost ratio is 7.33 for all monetized benefits over the life cycle using the authors' forecasting method.",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+                    "text": null,
+                    "decimal": "7.33",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+                    "text": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 6, column 5",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "cc28953bd89e406096c9627021f4713d",
+                    "text": null,
+                    "decimal": "1.84",
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "8405509cc7354655a348591349a5f025",
+                    "text": "ratio",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+                    "text": "Life-cycle",
+                    "decimal": null,
+                    "boolean": null
+                  },
+                  {
+                    "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                    "text": "García and colleagues report a standard error of 1.84 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+                    "decimal": null,
+                    "boolean": null
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              },
+              "relations": {
+                "nodes": [
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "32993a9fe1fa4d88b2c59405ccb8996e"
+                  },
+                  {
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "66657d9776214aec9cf816b8d50b644a"
+                  },
+                  {
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+                  },
+                  {
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "ca413140fa584837a21c9eefc76e15c3"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiODE0MTUxODUtMGUwOC00MWM1LTg2MWItZjllMzE4OWExNTY1Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "expectedIds": [
+        "01db2c2b44534fc4a7da5ff6e614d231",
+        "03ddf15303dd46d296b807be2364e765",
+        "2a33915f54ba48f293186c85d0ddeeb6",
+        "814151850e0841c5861bf9e3189a1565"
+      ],
+      "actualIds": [
+        "01db2c2b44534fc4a7da5ff6e614d231",
+        "03ddf15303dd46d296b807be2364e765",
+        "2a33915f54ba48f293186c85d0ddeeb6",
+        "814151850e0841c5861bf9e3189a1565"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Absent age-50 horizon",
+      "filter": {
+        "and": [
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "49c5d5e1679a4dbdbfd33f618f227c94"
+                },
+                "toEntityId": {
+                  "is": "ca413140fa584837a21c9eefc76e15c3"
+                }
+              }
+            }
+          },
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                },
+                "toEntityId": {
+                  "is": "66657d9776214aec9cf816b8d50b644a"
+                }
+              }
+            }
+          },
+          {
+            "relations": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "typeId": {
+                  "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                },
+                "toEntityId": {
+                  "is": "32993a9fe1fa4d88b2c59405ccb8996e"
+                }
+              }
+            }
+          },
+          {
+            "values": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "propertyId": {
+                  "is": "45ce8dc80a74432e9a2483cd1c8e86e1"
+                }
+              }
+            }
+          },
+          {
+            "values": {
+              "some": {
+                "spaceId": {
+                  "is": "dac259bad48a11adf97fe36857d85206"
+                },
+                "propertyId": {
+                  "is": "c962e0fb4a3148e5ba125144691236a8"
+                },
+                "text": {
+                  "is": "Through age 50"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "pages": [
+        {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": null
+          }
+        }
+      ],
+      "checks": [
+        true
+      ],
+      "expectedIds": [],
+      "actualIds": [],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

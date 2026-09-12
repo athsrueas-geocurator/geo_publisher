@@ -1,0 +1,52 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T01:27:19.434Z",
+  "opsHash": "ae4d53d9dade9de08b90f5fb34592e909a136296b06ae4496ff597b185aa7c48",
+  "checks": [
+    "Complete all-space alias discovery reviewed",
+    "Exact new Topic name available across spaces",
+    "Persisted Topic ID unused",
+    "Live datatype b1fdc75afb6841a18d8286427099ea44",
+    "Live datatype 49c5d5e1679a4dbdbfd33f618f227c94",
+    "Live datatype 8f151ba4de204e3c9cb499ddf96f48f1",
+    "Live datatype a126ca530c8e48d5b88882c734c38935",
+    "Live datatype 9b1f76ff9711404c861e59dc3fa7d037",
+    "Reuse existing cross-space RCT Topic",
+    "Root Topic is a Type",
+    "Complete existing study relations",
+    "No prior method links overwritten"
+  ],
+  "identity": {
+    "nodes": [],
+    "pageInfo": {
+      "hasNextPage": false
+    }
+  },
+  "currentStudy": {
+    "name": "Reading First Impact Study (2008 final report)",
+    "relations": {
+      "nodes": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "3ef269bc5f114691abc02dcbf398fd63"
+        },
+        {
+          "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+          "toEntityId": "26c06d8c6d1d42f2b87bbf3a51806a18"
+        },
+        {
+          "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+          "toEntityId": "0093d90725d94cb08903515673538d40"
+        },
+        {
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "toEntityId": "db0ea33548454e1780c78231066b7d71"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  },
+  "topicId": "b5e82046c5694090aeb0c83f7a0208f9"
+}

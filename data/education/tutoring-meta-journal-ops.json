@@ -1,0 +1,263 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9f9393bc8142443ea40a7dc2fc2c1828"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The Promise of Tutoring for PreK–12 Learning: A Systematic Review and Meta-Analysis of the Experimental Evidence",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Nickow, Oreopoulos and Quan (2024) present the journal version of their systematic review and meta-analysis of tutoring field experiments. The American Educational Research Journal article reports a pooled effect of 0.288 standard deviations (SE 0.029) and examines variation by tutor type, grade, frequency and setting.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.3102/00028312231208687",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://journals.sagepub.com/doi/10.3102/00028312231208687",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "763b1f990a854772afd7f3b2ee6a227b"
+    },
+    "entity": {
+      "$bytes": "7fee031b37b84e68a9df89fa7b4e96ec"
+    },
+    "from": {
+      "$bytes": "9f9393bc8142443ea40a7dc2fc2c1828"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "25f0ec3189e4427cbdb294d2016b692d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2024 tutoring meta-analysis estimated a pooled learning gain of 0.288 standard deviations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Nickow, Oreopoulos and Quan (2024) report an overall pooled effect size of 0.288 standard deviations (SE 0.029, p < .001) across tutoring field experiments. Effects tend to be largest with teachers or paraprofessionals, earlier grades, at least three days per week and during school; the pooled estimate does not describe every implementation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "288"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "29"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "American Educational Research Journal 61(1), abstract, pp. 74–107",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ea509c4bd7bf4496aa1abd655bb1e004"
+    },
+    "entity": {
+      "$bytes": "1889c00286a242fd840b32099f3a5af6"
+    },
+    "from": {
+      "$bytes": "25f0ec3189e4427cbdb294d2016b692d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "42a193fe396a41b3935416fec79bf8c8"
+    },
+    "entity": {
+      "$bytes": "d12bb2f2b23349abbea199bb9cee4bfb"
+    },
+    "from": {
+      "$bytes": "25f0ec3189e4427cbdb294d2016b692d"
+    },
+    "to": {
+      "$bytes": "9f9393bc8142443ea40a7dc2fc2c1828"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "945643c0a48e43a2b94581d8f8a414fa"
+    },
+    "entity": {
+      "$bytes": "904eae0cff1645e7979b72d9b487694f"
+    },
+    "from": {
+      "$bytes": "25f0ec3189e4427cbdb294d2016b692d"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6289021f1fc348028a5d7e43d17ba81b"
+    },
+    "entity": {
+      "$bytes": "764d4cd66cb04d3d92002241bc9a5243"
+    },
+    "from": {
+      "$bytes": "9f9393bc8142443ea40a7dc2fc2c1828"
+    },
+    "to": {
+      "$bytes": "76f18ade420143779ca3c67183dc1dd8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "00c6e0e6a0bc4b808ab420292a87da40"
+    },
+    "entity": {
+      "$bytes": "0265479b2966480789a8153f4de27b30"
+    },
+    "from": {
+      "$bytes": "25f0ec3189e4427cbdb294d2016b692d"
+    },
+    "to": {
+      "$bytes": "9b94180ac02b464a9bd1a2c873d75e97"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  }
+]

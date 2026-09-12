@@ -1,0 +1,734 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "fc239b825ad44480a12fab108c257cb2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "At age 30, 88.46% of ABC-treated participants versus 81.63% of controls had a high-school diploma or GED.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The difference was not statistically significant (OR 1.73; 95% CI 0.57–5.27; p=.34) in the 52-treated/49-control ABC follow-up. This is a secondary education outcome, not a separate trial or evidence of a degree effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "173"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Odds ratio for high-school diploma or GED at age 30, ABC treatment versus control; source-reported.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "31960dd7a4fc4987a09e54ff2f94933d"
+    },
+    "entity": {
+      "$bytes": "e1cb2587ac954ff0906a5e9326f22d56"
+    },
+    "from": {
+      "$bytes": "fc239b825ad44480a12fab108c257cb2"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BXP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "24512ad1b11a47dab07189d1188c547b"
+    },
+    "entity": {
+      "$bytes": "69c739f92545406a8273ef3c4660dd70"
+    },
+    "from": {
+      "$bytes": "fc239b825ad44480a12fab108c257cb2"
+    },
+    "to": {
+      "$bytes": "a72a792642aa46b497587313102bfe39"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0AIF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dd98cea3bfe5431c84c0939955a8b5a7"
+    },
+    "entity": {
+      "$bytes": "9a2e0f06d543446d9d57b1ec1bcd69a4"
+    },
+    "from": {
+      "$bytes": "fc239b825ad44480a12fab108c257cb2"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a023j"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1406fef63742414b94ede74b7b1e2c11"
+    },
+    "entity": {
+      "$bytes": "ca35af4cca9047b582df12922cab6374"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "fc239b825ad44480a12fab108c257cb2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07vh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e519d6d1b93e4117a46e05d998f97759"
+    },
+    "entity": {
+      "$bytes": "67684af50c9e4d86bf49726b1a66fdd1"
+    },
+    "from": {
+      "$bytes": "fc239b825ad44480a12fab108c257cb2"
+    },
+    "to": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02lu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ddc768b4a9b04b98af2163b04a2c82e6"
+    },
+    "entity": {
+      "$bytes": "43dd3675e59e41b29693e2c46299be7d"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "fc239b825ad44480a12fab108c257cb2"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a07qh"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4185e95920104c2d8eb81aad15eea076"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "At age 30, 3.85% of ABC-treated participants versus 20.41% of controls used public aid at least 10% of the observed window.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The source reports OR 0.16 (95% CI 0.03–0.75; p=.02) for this ABC randomized-treatment comparison. It is a threshold for administrative welfare use, not a measured income or lifetime benefit.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "16"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Odds ratio for public-aid use at least 10% of the observed window at age 30, ABC treatment versus control; source-reported.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0e75f9a0fd4040e29e36415cd89757b3"
+    },
+    "entity": {
+      "$bytes": "aa72b52408db4292be37daed4341d173"
+    },
+    "from": {
+      "$bytes": "4185e95920104c2d8eb81aad15eea076"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00G9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2992ba26d6954defa05c7641eff9b513"
+    },
+    "entity": {
+      "$bytes": "9bd9bd15987d45d4917db037ae7fbad5"
+    },
+    "from": {
+      "$bytes": "4185e95920104c2d8eb81aad15eea076"
+    },
+    "to": {
+      "$bytes": "a72a792642aa46b497587313102bfe39"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Aux"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aa3fbc8fc55d43eb80837abda5dc64c7"
+    },
+    "entity": {
+      "$bytes": "2b633738edf24f83ac1f4cb2299beb41"
+    },
+    "from": {
+      "$bytes": "4185e95920104c2d8eb81aad15eea076"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08S9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9667aa1d6570457cb1ec72c44a06a191"
+    },
+    "entity": {
+      "$bytes": "1d92bc14eb5448369895ceef8485ce7c"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "4185e95920104c2d8eb81aad15eea076"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01cR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3d7abba1adf34efb9febb8c7bb6a171d"
+    },
+    "entity": {
+      "$bytes": "a0007e6663cf412bbea00e4de0efce91"
+    },
+    "from": {
+      "$bytes": "4185e95920104c2d8eb81aad15eea076"
+    },
+    "to": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0ACe"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c19a4ca8d9794808a491dbdea75a5b93"
+    },
+    "entity": {
+      "$bytes": "b98eee728ccf4fbc9105ebd1e4a06a90"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "4185e95920104c2d8eb81aad15eea076"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a0501"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "964f02ac2ead4e4ab56de15e4a6bfd6a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "At age 30, ABC-treated participants had their first parity 1.83 years later on average than controls (21.78 versus 19.95 years).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The source reports d=0.52 (95% CI 0.19–3.45; p=.03) in the 52-treated/49-control follow-up. This is a secondary family-demographic outcome, not a measure of educational attainment or employment.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "52"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Cohen’s d for age at first parity at age 30, ABC treatment versus control; source-reported standardized effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c4a4f1c9b7134387a75952b4800b0219"
+    },
+    "entity": {
+      "$bytes": "0ece31d1912e4e23904e2d85e146655f"
+    },
+    "from": {
+      "$bytes": "964f02ac2ead4e4ab56de15e4a6bfd6a"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08pO"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ebb983bab5e04854be70ce57214f13ee"
+    },
+    "entity": {
+      "$bytes": "d6e865e6291f47f88641ba2d79b15d23"
+    },
+    "from": {
+      "$bytes": "964f02ac2ead4e4ab56de15e4a6bfd6a"
+    },
+    "to": {
+      "$bytes": "a72a792642aa46b497587313102bfe39"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07lc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "548a268db47f43a69a63222c3f4b5b1c"
+    },
+    "entity": {
+      "$bytes": "94c27d1cc80645798496b288fdc702e7"
+    },
+    "from": {
+      "$bytes": "964f02ac2ead4e4ab56de15e4a6bfd6a"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04NW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "28ccf44dd4cf424fbf183145687a2ba4"
+    },
+    "entity": {
+      "$bytes": "2849657a25954bed9bd5593d83af087c"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "964f02ac2ead4e4ab56de15e4a6bfd6a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Ajj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "20e45dd828bc49fd8c4375ff9e7b650d"
+    },
+    "entity": {
+      "$bytes": "aba917f381184cb2885be6877b92a686"
+    },
+    "from": {
+      "$bytes": "964f02ac2ead4e4ab56de15e4a6bfd6a"
+    },
+    "to": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08qh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4ddaf3df026b4490821707ec12c58f69"
+    },
+    "entity": {
+      "$bytes": "0f0733fd0b5b44f786588d2336fc6ca3"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "964f02ac2ead4e4ab56de15e4a6bfd6a"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a02b8"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3b4151da7e3640b1a4ead07638625fe1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "At age 30, ABC treatment did not produce a statistically significant difference in criminal conviction (27.45% versus 28.57%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The source reports OR 0.95 (95% CI 0.40–2.27; p=.90) in the 52-treated/49-control follow-up. This does not establish no crime effect; it is one self-reported age-30 outcome in a small historical trial.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "95"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Odds ratio for criminal conviction at age 30, ABC treatment versus control; source-reported.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "187ac08535834a9b8f0a79ef66fa92cc"
+    },
+    "entity": {
+      "$bytes": "3dd615b5861b461786173159d314b2a3"
+    },
+    "from": {
+      "$bytes": "3b4151da7e3640b1a4ead07638625fe1"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05ri"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "982fce17cacd4bc1b86c2a12f650d7d3"
+    },
+    "entity": {
+      "$bytes": "68e0ebb35dab4a4d88635318faf441bb"
+    },
+    "from": {
+      "$bytes": "3b4151da7e3640b1a4ead07638625fe1"
+    },
+    "to": {
+      "$bytes": "a72a792642aa46b497587313102bfe39"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03aX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a312c8f17e8c47ae8858d5fa8a0b5bb4"
+    },
+    "entity": {
+      "$bytes": "aa0c3b89774549cfbff029ee19c73510"
+    },
+    "from": {
+      "$bytes": "3b4151da7e3640b1a4ead07638625fe1"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07qZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3a0297b048394a74872a0b74cb58f8fe"
+    },
+    "entity": {
+      "$bytes": "2fbfcf67b19340dc841c60c68b788827"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "3b4151da7e3640b1a4ead07638625fe1"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02GI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4b65a1b4c1324567b99e1a78b4b9f41e"
+    },
+    "entity": {
+      "$bytes": "edf25b8bf10048d0b41871b39bc6afd9"
+    },
+    "from": {
+      "$bytes": "3b4151da7e3640b1a4ead07638625fe1"
+    },
+    "to": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0By6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4e31f660f87749efa646f9cea7b6b206"
+    },
+    "entity": {
+      "$bytes": "8566f62af55e426b9ef645df152dc83e"
+    },
+    "from": {
+      "$bytes": "58caa8fd523742978fa07d54722d918a"
+    },
+    "to": {
+      "$bytes": "3b4151da7e3640b1a4ead07638625fe1"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a0BIP"
+  }
+]

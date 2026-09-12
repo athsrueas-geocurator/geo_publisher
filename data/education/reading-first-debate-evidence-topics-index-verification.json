@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-09-12T02:27:59.790Z",
+  "batchName": "Expose Reading First teaching evidence in the debate gallery",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 5,
+  "checks": [
+    {
+      "relationId": "fd9c1ff7df8c4baeaccd1c4329714868",
+      "pass": true
+    },
+    {
+      "relationId": "0346070777aa4432b80f6e7ea3b7d44d",
+      "pass": true
+    },
+    {
+      "relationId": "0d6e52e5444140fa9dcfeaf5debb6cc8",
+      "pass": true
+    },
+    {
+      "relationId": "e358b3e5e40d450ea1369792ecd8a3ec",
+      "pass": true
+    },
+    {
+      "relationId": "c05e4f7a72e04e4580793d5ba56bf593",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

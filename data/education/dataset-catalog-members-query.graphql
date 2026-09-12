@@ -1,0 +1,11 @@
+query EducationCatalogMembers($block: UUID!, $space: UUID!, $after: Cursor) {
+  entity(id: $block) {
+    relations(first: 10, after: $after, filter: {
+      spaceId: { is: $space }
+      typeId: { is: "a99f9ce12ffa4dac8c61f6310d46064a" }
+    }) {
+      nodes { id entityId toEntityId position spaceId }
+      pageInfo { hasNextPage endCursor }
+    }
+  }
+}

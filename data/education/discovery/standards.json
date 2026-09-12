@@ -1,0 +1,43 @@
+{
+  "term": "standards",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:27.066Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "25a884c0f664046b855eb1269881ab1f",
+      "name": "Standards",
+      "description": null,
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    },
+    {
+      "id": "fe7ec6a01a798dafa1174cda6a1c3dc2",
+      "name": "Standards",
+      "description": null,
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmU3ZWM2YTAtMWE3OS04ZGFmLWExMTctNGNkYTZhMWMzZGMyIl1d"
+    }
+  ]
+}

@@ -1,0 +1,4001 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "396f8c72dfd04b5791ea09c1b9321b2f"
+        },
+        "value": {
+          "type": "text",
+          "value": "precision-unlimited",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "396f8c72dfd04b5791ea09c1b9321b2f"
+        },
+        "value": {
+          "type": "text",
+          "value": "precision-unlimited",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "fa143b7aa6e4406f92f557bec456995c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Coverage\n\nThis publication contains all 15 selected preferred coefficients across five outcomes and three childhood-income groups. Cost-model reconciliation remains incomplete.\n\n## Study and exposure\n\nThe study links school finance reforms and district spending with Panel Study of Income Dynamics birth cohorts from 1955 through 1985, followed through 2011. The preferred instrumental-variable specification uses court-ordered reform exposure and predicted spending-change quartiles. These estimates depend on the study's identification assumptions; they are not randomized trial effects.\n\n## Reading the coefficients\n\nThe exposure is the natural log of average school-age per-pupil spending. Tables III–V supply coefficients in years, probability units or log-income units per unit of log spending. The authors' approximate interpretation for a 10% sustained spending increase uses a 0.10 change; an exact 10% increase would use ln(1.10). Neither should silently replace the reported coefficients.\n\n## Population and uncertainty\n\nLow-income means parental family income below twice the poverty line in any childhood year. Nonpoor is the study's complementary group, not a synonym for never below the official poverty line. Standard errors are clustered by school district. Model counts combine income groups and are not subgroup-specific sample sizes.\n\n## Cost illustration\n\nThe article's illustrative benefit-cost discussion is distinct from the regressions. Its rounded figures and differing wage assumptions require reconciliation before a computed cost-effectiveness comparison. National spending exposure is not a uniform program price.\n\n## Source\n\n[Final journal article](https://doi.org/10.1093/qje/qjv036), Tables III–V and printed pp. 165, 212–213. [Author-hosted full text](https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/b/3664/files/2020/10/QJE_resubmit_final_version_stamped.pdf).\n\n## Publication\n\nC. Kirabo Jackson; Rucker C. Johnson; Claudia Persico. Quarterly Journal of Economics 131 (2016), 157–218. DOI 10.1093/qje/qjv036.\n\n## Model sample counts\n\nYears of education: 15,353 individuals, 4,586 childhood families.\n\nProbability of high school graduation: 15,353 individuals, 4,586 childhood families.\n\nLog wages, ages 20–45: 13,183 individuals, 4,454 childhood families, 106,545 person-year observations.\n\nLog family income, ages 20–45: 14,730 individuals, 4,588 childhood families, 151,349 person-year observations.\n\nProbability of poverty, ages 20–45: 14,737 individuals, 4,588 childhood families, 151,756 person-year observations.\n\nThese are model totals, not subgroup-specific sample sizes. An empty p-value field means the table gives no exact value or significance threshold for that coefficient.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "12495ccb45fd44699425a6e5b026f00a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Years of education (low-income, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "45899"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "12072"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "Parental family income below twice the poverty line in any childhood year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Years of education",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "years per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table III, column 4; printed p. 191 (PDF p. 36)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "<0.01",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1647eb0bb60e4608849b6e00563b2c0a"
+    },
+    "entity": {
+      "$bytes": "947f752f84a24f52aa1fac7c49195866"
+    },
+    "from": {
+      "$bytes": "12495ccb45fd44699425a6e5b026f00a"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ff41b8220f4f4d0192a236669ee6bd81"
+    },
+    "entity": {
+      "$bytes": "2cc1e9297836427797fce87b5e0d7b9b"
+    },
+    "from": {
+      "$bytes": "12495ccb45fd44699425a6e5b026f00a"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7ad05d38db6744758304407e2cd2e546"
+    },
+    "entity": {
+      "$bytes": "8fd4f5febe6b452f80c41269ba166be3"
+    },
+    "from": {
+      "$bytes": "12495ccb45fd44699425a6e5b026f00a"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eae3ca2dfe7a474f948533ccbf68cd5c"
+    },
+    "entity": {
+      "$bytes": "442f4ed3973d4409ac24e804472565d1"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "12495ccb45fd44699425a6e5b026f00a"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9481f050bc5c4b1aad2e688f65c3d7d6"
+    },
+    "entity": {
+      "$bytes": "6ecb5d421ff440cba176c7fef307afe7"
+    },
+    "from": {
+      "$bytes": "35322d80a0d446c8ae87f95d45bc6860"
+    },
+    "to": {
+      "$bytes": "12495ccb45fd44699425a6e5b026f00a"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a12Bz"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6511d55226594a618934510e406bc5e2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Years of education (nonpoor, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7156"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "13193"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "Parental family income never below twice the poverty line during measured childhood",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Years of education",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "years per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table III, column 4; printed p. 191 (PDF p. 36)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1859448e6ad0409eb4aeabe9134b1eb3"
+    },
+    "entity": {
+      "$bytes": "2eb9faa05def4de5b8dd322a1b5550ab"
+    },
+    "from": {
+      "$bytes": "6511d55226594a618934510e406bc5e2"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0283796709c2428c91c3586b414b8f26"
+    },
+    "entity": {
+      "$bytes": "674767f8de3143129cdfe71e7fae7a33"
+    },
+    "from": {
+      "$bytes": "6511d55226594a618934510e406bc5e2"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "df85215a482547efaf8463016312abec"
+    },
+    "entity": {
+      "$bytes": "4732e5af6f36483e80b0d2d13fdfa4ee"
+    },
+    "from": {
+      "$bytes": "6511d55226594a618934510e406bc5e2"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "46f772e4bc4448cb83c80dae72ac01f7"
+    },
+    "entity": {
+      "$bytes": "90fd8cc2ca9d4eccbd735f3b95786247"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "6511d55226594a618934510e406bc5e2"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "73e1fa6a5eba4c89a718bbde38f31f4a"
+    },
+    "entity": {
+      "$bytes": "afd452325ac3414692b9c2c15170b112"
+    },
+    "from": {
+      "$bytes": "35322d80a0d446c8ae87f95d45bc6860"
+    },
+    "to": {
+      "$bytes": "6511d55226594a618934510e406bc5e2"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a24zN"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "92106c08724e42338cd587a30a3e45f9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Probability of high school graduation: preferred school-spending coefficients",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2667f55a94924b84aa36b156d1750d65"
+    },
+    "entity": {
+      "$bytes": "92fddbfbe322405392f0dfd80e948658"
+    },
+    "from": {
+      "$bytes": "92106c08724e42338cd587a30a3e45f9"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e520062598954993aedb8205e1d49338"
+    },
+    "entity": {
+      "$bytes": "929fa2e0fad44b1a962b046691275c76"
+    },
+    "from": {
+      "$bytes": "92106c08724e42338cd587a30a3e45f9"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "427d3429558e4d3b849cf054056bb7a6"
+    },
+    "entity": {
+      "$bytes": "86037b3392634775a1aa0c478e2b0929"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "92106c08724e42338cd587a30a3e45f9"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0V5GR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "330abf1747734768a5ddd5851613b8a6"
+    },
+    "entity": {
+      "$bytes": "df1512adcdb34337b0975fd22b38ea18"
+    },
+    "from": {
+      "$bytes": "86037b3392634775a1aa0c478e2b0929"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "80800c20c30f42a8bf96c253fd3f74f3"
+    },
+    "entity": {
+      "$bytes": "74dbdb665e43442791061eeed9fe5ead"
+    },
+    "from": {
+      "$bytes": "86037b3392634775a1aa0c478e2b0929"
+    },
+    "to": {
+      "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0AYb"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4e398aa9414546778807c7f62f34617c"
+    },
+    "entity": {
+      "$bytes": "97c0b76885f24ca6b14291d13b1cb451"
+    },
+    "from": {
+      "$bytes": "86037b3392634775a1aa0c478e2b0929"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a12Rj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "33c4f21a638c4ed4ae6061c220d31b83"
+    },
+    "entity": {
+      "$bytes": "98639b673cca4911860b8a357b1493e6"
+    },
+    "from": {
+      "$bytes": "86037b3392634775a1aa0c478e2b0929"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2Bo4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "127c21fd93004044addc30aaa0da88cb"
+    },
+    "entity": {
+      "$bytes": "a085e0c50aaa4cbabd7c6b5ce5dfce66"
+    },
+    "from": {
+      "$bytes": "86037b3392634775a1aa0c478e2b0929"
+    },
+    "to": {
+      "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a38gB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9e50765973a3457aa62f1bca7fddacd4"
+    },
+    "entity": {
+      "$bytes": "55d63985cdfd45c98ed54c7e70702d97"
+    },
+    "from": {
+      "$bytes": "86037b3392634775a1aa0c478e2b0929"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a42lK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5d1363a96bbf48e5a9599b049b891d36"
+    },
+    "entity": {
+      "$bytes": "9544b5ec4af74490bfc58d8098579ba0"
+    },
+    "from": {
+      "$bytes": "86037b3392634775a1aa0c478e2b0929"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a51SX"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "22b00bc01de44607b4b193545c740333"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Probability of high school graduation (all, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7053"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1436"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "All sampled children, birth cohorts 1955–1985",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Probability of high school graduation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "probability units per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table III, column 7; printed p. 191 (PDF p. 36)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "<0.01",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "82fb24c557124a6684a990bcd07e8d08"
+    },
+    "entity": {
+      "$bytes": "04bfb6b59c9148948eed1121b1015194"
+    },
+    "from": {
+      "$bytes": "22b00bc01de44607b4b193545c740333"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1f9ee8a1c0584272bbcbe4bc60385376"
+    },
+    "entity": {
+      "$bytes": "2f725cb03f41457eb81f5dc4c7730e19"
+    },
+    "from": {
+      "$bytes": "22b00bc01de44607b4b193545c740333"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1d962ca9fc4b475286adb77476986cb1"
+    },
+    "entity": {
+      "$bytes": "7c4dc476c780480ebfb7dd4a1be6b244"
+    },
+    "from": {
+      "$bytes": "22b00bc01de44607b4b193545c740333"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "132d49f04d0b4c4f8cef28d5205a217f"
+    },
+    "entity": {
+      "$bytes": "cc70bcd8fd6f4bc58e0f8d5159fa98c1"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "22b00bc01de44607b4b193545c740333"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b7001c2b4f8c42fcb45bf39b9422b254"
+    },
+    "entity": {
+      "$bytes": "cdc031b6deaf440483121855b7d6da9c"
+    },
+    "from": {
+      "$bytes": "92106c08724e42338cd587a30a3e45f9"
+    },
+    "to": {
+      "$bytes": "22b00bc01de44607b4b193545c740333"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a052v"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b2d5cd4a6e5b4ca39fa8898060a1948e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Probability of high school graduation (low-income, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "9878"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2744"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "Parental family income below twice the poverty line in any childhood year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Probability of high school graduation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "probability units per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table III, column 8; printed p. 191 (PDF p. 36)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "<0.01",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "44f823925d6e4e4cb168ddf5762514fc"
+    },
+    "entity": {
+      "$bytes": "1b9c15a214a442bc991105e7b1f5330b"
+    },
+    "from": {
+      "$bytes": "b2d5cd4a6e5b4ca39fa8898060a1948e"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "30f4ddc301a84f449b98d270e67a207d"
+    },
+    "entity": {
+      "$bytes": "e46e15a9cee442a1ae9cb86937d6459c"
+    },
+    "from": {
+      "$bytes": "b2d5cd4a6e5b4ca39fa8898060a1948e"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e1a09e0a329a450f99b9a020c606332a"
+    },
+    "entity": {
+      "$bytes": "a4e7304abf4b4e3383af6a83977f3a9b"
+    },
+    "from": {
+      "$bytes": "b2d5cd4a6e5b4ca39fa8898060a1948e"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "542c80b5d96c4777b30fbda7b51ecd05"
+    },
+    "entity": {
+      "$bytes": "9156eb5a8fda4f14b55b0ce922f75dde"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "b2d5cd4a6e5b4ca39fa8898060a1948e"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "54ea8e2c24254dbfbebba40cde63a8b1"
+    },
+    "entity": {
+      "$bytes": "9d1cbe04ef92481fa30bd7160788c391"
+    },
+    "from": {
+      "$bytes": "92106c08724e42338cd587a30a3e45f9"
+    },
+    "to": {
+      "$bytes": "b2d5cd4a6e5b4ca39fa8898060a1948e"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a12ph"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "291cf6b1205044baaf3f4f8ce364775c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Probability of high school graduation (nonpoor, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2470"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1757"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "Parental family income never below twice the poverty line during measured childhood",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Probability of high school graduation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "probability units per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table III, column 8; printed p. 191 (PDF p. 36)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f38b3a83fe2c44c2ab2a9176a8e5e179"
+    },
+    "entity": {
+      "$bytes": "14e8cbd975864d22b854f3b8c1dfd023"
+    },
+    "from": {
+      "$bytes": "291cf6b1205044baaf3f4f8ce364775c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f90321f0b1b94339985b2ab6fa54dc3e"
+    },
+    "entity": {
+      "$bytes": "41fbaf2378d6452a91f67010ba601420"
+    },
+    "from": {
+      "$bytes": "291cf6b1205044baaf3f4f8ce364775c"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "026eea79164a433f95c7a79c355f0f4c"
+    },
+    "entity": {
+      "$bytes": "40536d71f4ea4ea58135908b3867f369"
+    },
+    "from": {
+      "$bytes": "291cf6b1205044baaf3f4f8ce364775c"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6b4896777bb849a19697932538b9630a"
+    },
+    "entity": {
+      "$bytes": "06d284651cb3451394116c3eea4f1d93"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "291cf6b1205044baaf3f4f8ce364775c"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b35682e3945644f1a652e2efd8f51e8c"
+    },
+    "entity": {
+      "$bytes": "c626c1bdc9f74c9c94f5d60f0b879381"
+    },
+    "from": {
+      "$bytes": "92106c08724e42338cd587a30a3e45f9"
+    },
+    "to": {
+      "$bytes": "291cf6b1205044baaf3f4f8ce364775c"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a2218"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "763d52dc44144a18910aa4a0971c0543"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Log wages, ages 20–45: preferred school-spending coefficients",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "22f3deb67d8748cb935433887c41a177"
+    },
+    "entity": {
+      "$bytes": "f522070061d34a02b0b4b1efea387719"
+    },
+    "from": {
+      "$bytes": "763d52dc44144a18910aa4a0971c0543"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b0085d26d5df433ea4eae07fc64d7096"
+    },
+    "entity": {
+      "$bytes": "df5d26eac66e49978017efd44ec98d03"
+    },
+    "from": {
+      "$bytes": "763d52dc44144a18910aa4a0971c0543"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5570c6bf60c44caf8f62ea5a157a0308"
+    },
+    "entity": {
+      "$bytes": "eba8870e53e4472286a596e34ad13109"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "763d52dc44144a18910aa4a0971c0543"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0khxv"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f98bdfe6a3b142418f75814effebc2e7"
+    },
+    "entity": {
+      "$bytes": "60de9ceca9cf4c98988a5dddc06cfd8b"
+    },
+    "from": {
+      "$bytes": "eba8870e53e4472286a596e34ad13109"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bf30ffce279d4e2cb224d2b0e4e4670b"
+    },
+    "entity": {
+      "$bytes": "9f96649e7b06410cb3eed9956f756739"
+    },
+    "from": {
+      "$bytes": "eba8870e53e4472286a596e34ad13109"
+    },
+    "to": {
+      "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a02oy"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2992ada005cd47d09497af71a95d7f58"
+    },
+    "entity": {
+      "$bytes": "a26129a3099246ecad4a91a6ce64d8a0"
+    },
+    "from": {
+      "$bytes": "eba8870e53e4472286a596e34ad13109"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a170s"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8b0030b25c6042749b486c5d1d23b193"
+    },
+    "entity": {
+      "$bytes": "993eecc14c7245718d4179c97363ad02"
+    },
+    "from": {
+      "$bytes": "eba8870e53e4472286a596e34ad13109"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2CBl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "838c0f784caf49748af5286b5bc6b6ff"
+    },
+    "entity": {
+      "$bytes": "f495ab3306f5464fb9a966f3ea85d8eb"
+    },
+    "from": {
+      "$bytes": "eba8870e53e4472286a596e34ad13109"
+    },
+    "to": {
+      "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a3ADU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "93ce2da00b5443a6a815080a11d8ec1f"
+    },
+    "entity": {
+      "$bytes": "121f4c62eab34c39ad20976d1e506cb2"
+    },
+    "from": {
+      "$bytes": "eba8870e53e4472286a596e34ad13109"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a4Bc9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6cc5277f1f51426cb83556da328db17c"
+    },
+    "entity": {
+      "$bytes": "cf0ea4b2d16d43d390381872b9fdc261"
+    },
+    "from": {
+      "$bytes": "eba8870e53e4472286a596e34ad13109"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a50iW"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "51b8df20e0d24b339d7a3ae5d9ee8a39"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Log wages, ages 20–45 (all, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7743"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1959"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "All sampled children, birth cohorts 1955–1985",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Log wages, ages 20–45",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "log-wage units per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table IV, column 3; printed p. 198 (PDF p. 43)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "<0.01",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c134edef328d4ded9583062e2701bda4"
+    },
+    "entity": {
+      "$bytes": "b4fc944ef351425ba38c3c5b4fb08318"
+    },
+    "from": {
+      "$bytes": "51b8df20e0d24b339d7a3ae5d9ee8a39"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1d4e674cd6e742c587464bad6290fe13"
+    },
+    "entity": {
+      "$bytes": "53cd30209e1445e5a7e9763d3ee74902"
+    },
+    "from": {
+      "$bytes": "51b8df20e0d24b339d7a3ae5d9ee8a39"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ac867b4b8358453da307182e82dfe9e0"
+    },
+    "entity": {
+      "$bytes": "81bf1abef97b4e43914999a2708b2419"
+    },
+    "from": {
+      "$bytes": "51b8df20e0d24b339d7a3ae5d9ee8a39"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5c25f36ee431463a90da96d79d4cdefe"
+    },
+    "entity": {
+      "$bytes": "76090d1345f144db8f4d414cd602375c"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "51b8df20e0d24b339d7a3ae5d9ee8a39"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0b10a810c2254336a00c4e796a2224fc"
+    },
+    "entity": {
+      "$bytes": "e3412686fedd4eaeb3ac33099e4f2db3"
+    },
+    "from": {
+      "$bytes": "763d52dc44144a18910aa4a0971c0543"
+    },
+    "to": {
+      "$bytes": "51b8df20e0d24b339d7a3ae5d9ee8a39"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a02mE"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "767caa10f6c34143bbca6ac7359f374d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Log wages, ages 20–45 (low-income, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "9598"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3003"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "Parental family income below twice the poverty line in any childhood year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Log wages, ages 20–45",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "log-wage units per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table IV, column 4; printed p. 198 (PDF p. 43)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "<0.01",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "039a97bd6b97450aa604cd0107b7f892"
+    },
+    "entity": {
+      "$bytes": "4eb564def87244569c2564a97810510f"
+    },
+    "from": {
+      "$bytes": "767caa10f6c34143bbca6ac7359f374d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0f2dd3916c874066acfd171eca4b75d7"
+    },
+    "entity": {
+      "$bytes": "5e6e9015c84b4682b79b851f2e9824c3"
+    },
+    "from": {
+      "$bytes": "767caa10f6c34143bbca6ac7359f374d"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "271c74a86e8043569d9ebce5cccecd32"
+    },
+    "entity": {
+      "$bytes": "1cabeaa8381a439fbd8250b1d36691f6"
+    },
+    "from": {
+      "$bytes": "767caa10f6c34143bbca6ac7359f374d"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d91715aa05b14dd2b87b04be26ac7d4a"
+    },
+    "entity": {
+      "$bytes": "7afb1538abc74147bc3ff904db9d9670"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "767caa10f6c34143bbca6ac7359f374d"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bd63fa07d0a24db6956255641216c5c2"
+    },
+    "entity": {
+      "$bytes": "967e0597414f44c2963405dc517c7f3e"
+    },
+    "from": {
+      "$bytes": "763d52dc44144a18910aa4a0971c0543"
+    },
+    "to": {
+      "$bytes": "767caa10f6c34143bbca6ac7359f374d"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a1AfQ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "04944747256442ee820713d9f091f225"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Log wages, ages 20–45 (nonpoor, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5525"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4461"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "Parental family income never below twice the poverty line during measured childhood",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Log wages, ages 20–45",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "log-wage units per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table IV, column 4; printed p. 198 (PDF p. 43)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b3f5d98098af44a4a0fc7a269370c27a"
+    },
+    "entity": {
+      "$bytes": "884684a49f7e4479b96ac655dfbd0c12"
+    },
+    "from": {
+      "$bytes": "04944747256442ee820713d9f091f225"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0475d1b39fd545739d47728a956ed857"
+    },
+    "entity": {
+      "$bytes": "633abd0946f647cd8435245c3b79a8cb"
+    },
+    "from": {
+      "$bytes": "04944747256442ee820713d9f091f225"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0d1554e7c3d04e2ab7d94ceb112e4c55"
+    },
+    "entity": {
+      "$bytes": "fd18d687c4e249a1b922340601a879e7"
+    },
+    "from": {
+      "$bytes": "04944747256442ee820713d9f091f225"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9d445047d0f740fcb9afbdbf6e986030"
+    },
+    "entity": {
+      "$bytes": "a055375851524ec89a792447c930a1fc"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "04944747256442ee820713d9f091f225"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "65922478156c4719be9c27751e737eea"
+    },
+    "entity": {
+      "$bytes": "1dd0f6bb11f24be58fae06e523955e5c"
+    },
+    "from": {
+      "$bytes": "763d52dc44144a18910aa4a0971c0543"
+    },
+    "to": {
+      "$bytes": "04944747256442ee820713d9f091f225"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a2568"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8e7f49bd84e2435498a6b5ecd698cb18"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Log family income, ages 20–45: preferred school-spending coefficients",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "199bcf4fd24143d98a2fa6096e73292c"
+    },
+    "entity": {
+      "$bytes": "1d4d3f9b747e45c0a1f647b40122729f"
+    },
+    "from": {
+      "$bytes": "8e7f49bd84e2435498a6b5ecd698cb18"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fead00968c1a443aaa117b3966eecf90"
+    },
+    "entity": {
+      "$bytes": "1e6f42b40c434302b2d69032dca8b175"
+    },
+    "from": {
+      "$bytes": "8e7f49bd84e2435498a6b5ecd698cb18"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cbb5490eff984cd68c2a59625f851c73"
+    },
+    "entity": {
+      "$bytes": "5de6cc0ca38e46ef8bb15f301b201d2f"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "8e7f49bd84e2435498a6b5ecd698cb18"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0sSbK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e569deb412534dad9696358b68325aee"
+    },
+    "entity": {
+      "$bytes": "f27a3d67c65b40378afa426acaa1f8af"
+    },
+    "from": {
+      "$bytes": "5de6cc0ca38e46ef8bb15f301b201d2f"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e096b3f3f04241f98b2b5d1659bafdc0"
+    },
+    "entity": {
+      "$bytes": "d5909d4e82fd4861905dd084c33cd531"
+    },
+    "from": {
+      "$bytes": "5de6cc0ca38e46ef8bb15f301b201d2f"
+    },
+    "to": {
+      "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a08uJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dc2e66332ca34f7c8a0929813cec9568"
+    },
+    "entity": {
+      "$bytes": "960eb2b8fc7c43739cd47327791fbee6"
+    },
+    "from": {
+      "$bytes": "5de6cc0ca38e46ef8bb15f301b201d2f"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1ADl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2a292bee942949f1a98b79747fb6abdf"
+    },
+    "entity": {
+      "$bytes": "124c2d114804418aaa7bd50e64bce5c2"
+    },
+    "from": {
+      "$bytes": "5de6cc0ca38e46ef8bb15f301b201d2f"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2BDH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d0b6491d5d61425c80c2588b24749f5d"
+    },
+    "entity": {
+      "$bytes": "5cd23274c7a6434dae74455820351a4b"
+    },
+    "from": {
+      "$bytes": "5de6cc0ca38e46ef8bb15f301b201d2f"
+    },
+    "to": {
+      "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a3481"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fc6f365f63b146899ecf6751efd04bd1"
+    },
+    "entity": {
+      "$bytes": "9f895d7e02a8448582f07ec2e8dd2fd1"
+    },
+    "from": {
+      "$bytes": "5de6cc0ca38e46ef8bb15f301b201d2f"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a47L0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "941efef8538044bda464ed72d6cbd2e0"
+    },
+    "entity": {
+      "$bytes": "56bc92b8df4742a48db7bbe94db822b4"
+    },
+    "from": {
+      "$bytes": "5de6cc0ca38e46ef8bb15f301b201d2f"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a54sB"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e068b0ffe67d4e21b6547932dc51dcf7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Log family income, ages 20–45 (all, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "9819"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2849"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "All sampled children, birth cohorts 1955–1985",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Log family income, ages 20–45",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "log-income units per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table IV, column 7; printed p. 198 (PDF p. 43)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "<0.01",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1446f2c250374820902967769af8bd5d"
+    },
+    "entity": {
+      "$bytes": "9e0f1fe2b0d14df9a957304682a4c676"
+    },
+    "from": {
+      "$bytes": "e068b0ffe67d4e21b6547932dc51dcf7"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b4fea360f56b4741bdec3ad98fe07d38"
+    },
+    "entity": {
+      "$bytes": "8695a77e1844449f8c919b9a61619de7"
+    },
+    "from": {
+      "$bytes": "e068b0ffe67d4e21b6547932dc51dcf7"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "15b70d7f783243409312fdf5cfddce4e"
+    },
+    "entity": {
+      "$bytes": "eb90cc880d26409fb2140465ccfacba5"
+    },
+    "from": {
+      "$bytes": "e068b0ffe67d4e21b6547932dc51dcf7"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "62b24d588cfe44c7ba47784026900af4"
+    },
+    "entity": {
+      "$bytes": "d3703b8eca0a4c229300eb082602849d"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "e068b0ffe67d4e21b6547932dc51dcf7"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7ec78bbae9f04a54bd0cbe5dadfce6ea"
+    },
+    "entity": {
+      "$bytes": "314ebaf89e9a4c889ac3119a45b0fef6"
+    },
+    "from": {
+      "$bytes": "8e7f49bd84e2435498a6b5ecd698cb18"
+    },
+    "to": {
+      "$bytes": "e068b0ffe67d4e21b6547932dc51dcf7"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a016y"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "dd6a0e20de474076881cea3ef6008a55"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Log family income, ages 20–45 (low-income, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "17146"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3585"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "Parental family income below twice the poverty line in any childhood year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Log family income, ages 20–45",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "log-income units per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table IV, column 8; printed p. 198 (PDF p. 43)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "<0.01",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "66202c41019e45498b17df6f0be55055"
+    },
+    "entity": {
+      "$bytes": "4343bcb474eb465a8f2bbf9041565303"
+    },
+    "from": {
+      "$bytes": "dd6a0e20de474076881cea3ef6008a55"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f5d4ae6ac43f484d80e4660e5e1142a1"
+    },
+    "entity": {
+      "$bytes": "64b3fdbffca04fe2bda254380d1f38f0"
+    },
+    "from": {
+      "$bytes": "dd6a0e20de474076881cea3ef6008a55"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "945f1d09ec7b44409228916203b11230"
+    },
+    "entity": {
+      "$bytes": "61d1b426aad34902aa3fcecd0c9354de"
+    },
+    "from": {
+      "$bytes": "dd6a0e20de474076881cea3ef6008a55"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a599b1bbb78b41688bc97b1aec5b7f0d"
+    },
+    "entity": {
+      "$bytes": "3bcf07ee21d74c01b3e5e96e2e0638f6"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "dd6a0e20de474076881cea3ef6008a55"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "47f0addb6048449da4d4e30327a08a80"
+    },
+    "entity": {
+      "$bytes": "15d51474b03646f29dbe14c5e2e63fb2"
+    },
+    "from": {
+      "$bytes": "8e7f49bd84e2435498a6b5ecd698cb18"
+    },
+    "to": {
+      "$bytes": "dd6a0e20de474076881cea3ef6008a55"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a14LA"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "41c9968713154767ab89d6ebe0a604f2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Log family income, ages 20–45 (nonpoor, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2021"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4223"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "Parental family income never below twice the poverty line during measured childhood",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Log family income, ages 20–45",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "log-income units per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table IV, column 8; printed p. 198 (PDF p. 43)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0efb33ec3f2a48779a5b843594572a48"
+    },
+    "entity": {
+      "$bytes": "87a790bd10db451ab998acfd78353275"
+    },
+    "from": {
+      "$bytes": "41c9968713154767ab89d6ebe0a604f2"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "81ac370f67984541870dc4b57b656d1a"
+    },
+    "entity": {
+      "$bytes": "5aa4bd0756de43e884648e9e3a57bbe8"
+    },
+    "from": {
+      "$bytes": "41c9968713154767ab89d6ebe0a604f2"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8390baafcfe9477caa8a0d0e27f48b45"
+    },
+    "entity": {
+      "$bytes": "a34e16d6b3124fe282f037ce87e81758"
+    },
+    "from": {
+      "$bytes": "41c9968713154767ab89d6ebe0a604f2"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cc8515e680c3485e87f441ae3e9e97ba"
+    },
+    "entity": {
+      "$bytes": "3a98184204a247bda485c8bef7cc8784"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "41c9968713154767ab89d6ebe0a604f2"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2b3ab49ae6c74156a66ffb92cef58d63"
+    },
+    "entity": {
+      "$bytes": "40bc337e2b2b4fa48f198a63691d2f87"
+    },
+    "from": {
+      "$bytes": "8e7f49bd84e2435498a6b5ecd698cb18"
+    },
+    "to": {
+      "$bytes": "41c9968713154767ab89d6ebe0a604f2"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a2Au7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4813ebda16f74f6eb98d2d45264c06b1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Probability of poverty, ages 20–45: preferred school-spending coefficients",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "57cf965c1a934749a010d1adeef00d15"
+    },
+    "entity": {
+      "$bytes": "2b2e354d5698472aa9e145d0e7e19b49"
+    },
+    "from": {
+      "$bytes": "4813ebda16f74f6eb98d2d45264c06b1"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "34bffcd4c52a43189bc0a48324004bd6"
+    },
+    "entity": {
+      "$bytes": "4f18695b55574967b83593fba12a8397"
+    },
+    "from": {
+      "$bytes": "4813ebda16f74f6eb98d2d45264c06b1"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3fafad6e9aeb4616bc309feb6019963b"
+    },
+    "entity": {
+      "$bytes": "49b2e2a0b759441da752c10ad13e83a1"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "4813ebda16f74f6eb98d2d45264c06b1"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0wKTw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d3bcda7d7a4b431086ae77ab24c89a4b"
+    },
+    "entity": {
+      "$bytes": "aca8ed260804433ea8d4b4bb5c3906dc"
+    },
+    "from": {
+      "$bytes": "49b2e2a0b759441da752c10ad13e83a1"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "09b79ced337643cfbef0bec7d09057e9"
+    },
+    "entity": {
+      "$bytes": "407b738331e743cfa451a9b269571656"
+    },
+    "from": {
+      "$bytes": "49b2e2a0b759441da752c10ad13e83a1"
+    },
+    "to": {
+      "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a09Yk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "84810c7ef5824b17b91dd354c5c3ff0a"
+    },
+    "entity": {
+      "$bytes": "baf22ee19f2a4f219c0ed2fdd6f2ad3c"
+    },
+    "from": {
+      "$bytes": "49b2e2a0b759441da752c10ad13e83a1"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a11Eg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5e62df2cbac54c59850c017bb0355d52"
+    },
+    "entity": {
+      "$bytes": "abe5c9b2a7a0403ba932a69a1f5d0f1f"
+    },
+    "from": {
+      "$bytes": "49b2e2a0b759441da752c10ad13e83a1"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a25L8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c1a2078c990144d1937f711d26a1644e"
+    },
+    "entity": {
+      "$bytes": "e08cc5c3295b43d7a7aeb13dc804b469"
+    },
+    "from": {
+      "$bytes": "49b2e2a0b759441da752c10ad13e83a1"
+    },
+    "to": {
+      "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a36TC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "93619a1f94a44003b1344e0f691bcc45"
+    },
+    "entity": {
+      "$bytes": "48ea1e7c715f4618b36b33f3f5deee1e"
+    },
+    "from": {
+      "$bytes": "49b2e2a0b759441da752c10ad13e83a1"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a46zm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7c1375a073a1407889209041c1512139"
+    },
+    "entity": {
+      "$bytes": "f2a98643c6ce4cac9468a31b743ece05"
+    },
+    "from": {
+      "$bytes": "49b2e2a0b759441da752c10ad13e83a1"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a59Ot"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "63dda8743a5745eaa9e6403889fdd3c3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Probability of poverty, ages 20–45 (all, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-2678"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "710"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "All sampled children, birth cohorts 1955–1985",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Probability of poverty, ages 20–45",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "probability units per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V, column 3; printed p. 203 (PDF p. 48)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "<0.01",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7e3d48b462a84ff8bf407742327bb79c"
+    },
+    "entity": {
+      "$bytes": "628ad7087d284c88a878c4f42fe37ca1"
+    },
+    "from": {
+      "$bytes": "63dda8743a5745eaa9e6403889fdd3c3"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "64a8b60bb7124593a09bf2a47973dc19"
+    },
+    "entity": {
+      "$bytes": "16fe2fee577445439bb09bf0466c8bcb"
+    },
+    "from": {
+      "$bytes": "63dda8743a5745eaa9e6403889fdd3c3"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "92d3f8d1f92c487cba2f8a05de3f8f4f"
+    },
+    "entity": {
+      "$bytes": "899ee07a3b934149b70fb2025d4a244f"
+    },
+    "from": {
+      "$bytes": "63dda8743a5745eaa9e6403889fdd3c3"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8e97315b4d22494fb556c498472b204a"
+    },
+    "entity": {
+      "$bytes": "79b0d7ce1f7d4fd8af00d7bfc5f4433b"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "63dda8743a5745eaa9e6403889fdd3c3"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "97e7bb6d86e6488284b2a561c3a230b5"
+    },
+    "entity": {
+      "$bytes": "9276ca43a54545a19f16580621799e2e"
+    },
+    "from": {
+      "$bytes": "4813ebda16f74f6eb98d2d45264c06b1"
+    },
+    "to": {
+      "$bytes": "63dda8743a5745eaa9e6403889fdd3c3"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0AQZ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "563ddf93c85241c3b5e8011a81f03edd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Probability of poverty, ages 20–45 (low-income, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-6132"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1242"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "Parental family income below twice the poverty line in any childhood year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Probability of poverty, ages 20–45",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "probability units per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V, column 4; printed p. 203 (PDF p. 48)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "<0.01",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "05586c538f1240bcb6113760fa5e8a08"
+    },
+    "entity": {
+      "$bytes": "994315b41ce3459ca7ce775c2b578ab7"
+    },
+    "from": {
+      "$bytes": "563ddf93c85241c3b5e8011a81f03edd"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3760dfb5002140feabfa1358bbb9ce0d"
+    },
+    "entity": {
+      "$bytes": "1e1b289b878c495e96adba0c77ffd255"
+    },
+    "from": {
+      "$bytes": "563ddf93c85241c3b5e8011a81f03edd"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f031a6083c6f41a780a616ea9233f372"
+    },
+    "entity": {
+      "$bytes": "c3e3fc4c23ff4a1e8782f67a8c58dedb"
+    },
+    "from": {
+      "$bytes": "563ddf93c85241c3b5e8011a81f03edd"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1cb7eae6605747aa9bd9f30f3766ace5"
+    },
+    "entity": {
+      "$bytes": "0c552445ac7543a49d12e7a05051eeb0"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "563ddf93c85241c3b5e8011a81f03edd"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "19a68363cf7a46c2b6d9c834183bd915"
+    },
+    "entity": {
+      "$bytes": "339a14c411e344c3a267df5a6aece060"
+    },
+    "from": {
+      "$bytes": "4813ebda16f74f6eb98d2d45264c06b1"
+    },
+    "to": {
+      "$bytes": "563ddf93c85241c3b5e8011a81f03edd"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a105m"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e74c03470c274d0c943a5d1c60b7b0ce"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Probability of poverty, ages 20–45 (nonpoor, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "385"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "850"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "Parental family income never below twice the poverty line during measured childhood",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Probability of poverty, ages 20–45",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "probability units per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V, column 4; printed p. 203 (PDF p. 48)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dc789671ec85410b9be03a4c34d53b01"
+    },
+    "entity": {
+      "$bytes": "d73c7375100a4adc983ed1b4e45b2816"
+    },
+    "from": {
+      "$bytes": "e74c03470c274d0c943a5d1c60b7b0ce"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "082a6fbe6406416b9a798a29b3ea04b2"
+    },
+    "entity": {
+      "$bytes": "4d1a08fd68b546f59a05f5d612cfcba5"
+    },
+    "from": {
+      "$bytes": "e74c03470c274d0c943a5d1c60b7b0ce"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0c02a06ed4a5421ab9e64b2c471a5516"
+    },
+    "entity": {
+      "$bytes": "d02a6ae9bcb5429e9a3ddebddd88c737"
+    },
+    "from": {
+      "$bytes": "e74c03470c274d0c943a5d1c60b7b0ce"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4ebea784ee6c4deaaf17153e36a054e3"
+    },
+    "entity": {
+      "$bytes": "a739db3fd7064ea6b3d8b0a2272d3188"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "e74c03470c274d0c943a5d1c60b7b0ce"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "230ae745c1cb4355b12e409fdd6dedf4"
+    },
+    "entity": {
+      "$bytes": "fa18d44f45a14ecca05413c8e8320b17"
+    },
+    "from": {
+      "$bytes": "4813ebda16f74f6eb98d2d45264c06b1"
+    },
+    "to": {
+      "$bytes": "e74c03470c274d0c943a5d1c60b7b0ce"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a26z2"
+  }
+]

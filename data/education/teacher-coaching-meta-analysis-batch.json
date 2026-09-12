@@ -1,0 +1,25 @@
+{
+  "name": "Add teacher-coaching meta-analysis evidence",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/teacher-coaching-meta-analysis-ops.json",
+  "sha256": "e4c0ab9f17e5b2d4f9e924fd4388b46c036fbc46408deb7ca244029c7b723666",
+  "journalPath": "data/education/teacher-coaching-meta-analysis-publication.json",
+  "validationPath": "data/education/teacher-coaching-meta-analysis-validation.json",
+  "entities": {
+    "article": "6a85813ac8734141b55affa06793661c",
+    "initiative": "e181f6b918e548b79304a674743753fd",
+    "claims": {
+      "all-instruction": "ac70981427fb402994c2a7526febea9f",
+      "all-achievement": "5416e25c785a4daf967b7d4e02dcc9ef",
+      "reading-achievement": "caaf065aee054ae385f184dbf6043028",
+      "math-achievement": "4d20a987683a4686af61d1b9710475d2",
+      "science-achievement": "1c6c7ea0742c4dc8849b983c8437296e",
+      "content-instruction": "f59cafc1b3fa4beaba24a898a890f23a",
+      "content-achievement": "07bcc36415354dbabb6e34b230065dd5",
+      "general-instruction": "18020b92e89d4eb8a9693def8682771c",
+      "general-achievement": "03cd942d5566419bb39a1608580c6f8a"
+    }
+  },
+  "operationCount": 42
+}

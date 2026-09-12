@@ -1,0 +1,29 @@
+{
+  "term": "Federal agency",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T22:07:23.192Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "c3b48b961db3b34ea416b6c0948bd302",
+      "name": "Federal agency",
+      "description": "An executive department of the United States federal government, a bureau within one, or an independent federal agency.",
+      "spaceIds": [
+        "4582fbbee28a16589154f7e36f1ee3c5"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYzNiNDhiOTYtMWRiMy1iMzRlLWE0MTYtYjZjMDk0OGJkMzAyIl1d"
+    }
+  ]
+}

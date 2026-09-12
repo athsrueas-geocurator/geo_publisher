@@ -1,0 +1,183 @@
+{
+  "name": "Add 21 original education questions with framing and source provenance",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/original-questions-ops.json",
+  "sha256": "bf4de8ec902273057ebb0d86c6d2fff1bc3a800d6668b6ad739ebc3ebec27df5",
+  "journalPath": "data/education/original-questions-publication.json",
+  "validationPath": "data/education/original-questions-validation.json",
+  "datasetId": "b1f70bc05d4e454dab2448a0e3172195",
+  "blockId": "d19cf5813cf9451d9ef7d793c9b7c9d9",
+  "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+  "crosswalk": [
+    {
+      "slug": "screens-harm-development-vs-technology-enables-learning",
+      "entityId": "d3fcf358c8f045058aa2d34050dc5b88",
+      "entryRelationEntityId": "d477af5f5e03463c9ed9d9164b3d11e1",
+      "sourceTitle": "Screens harm development vs technology enables learning",
+      "name": "What adult-guided task, for which learner, replaces what prior activity, and with what measured learning gain?",
+      "description": "Screens harm development vs technology enables learning."
+    },
+    {
+      "slug": "whole-language-balanced-literacy-vs-phonics-science-of-reading",
+      "entityId": "2b8ebbfdebbe48d38345073ec76ab14b",
+      "entryRelationEntityId": "6861b2cd637f43a3b8aee5ddcca43c3b",
+      "sourceTitle": "Whole language / balanced literacy vs phonics / Science of Reading",
+      "name": "How do we guarantee code mastery without narrowing reading to decoding drills?",
+      "description": "Whole language / balanced literacy vs phonics / Science of Reading."
+    },
+    {
+      "slug": "knowledge-rich-curriculum-vs-generic-skills",
+      "entityId": "2302b059213c45d09d1a481a3592b25a",
+      "entryRelationEntityId": "d2b21d27969142f99e336d09c366cfa2",
+      "sourceTitle": "Knowledge-rich curriculum vs generic skills",
+      "name": "What content sequence gives students the background knowledge needed to transfer skills?",
+      "description": "Knowledge-rich curriculum vs generic skills."
+    },
+    {
+      "slug": "direct-instruction-vs-inquiry-project-based-learning",
+      "entityId": "98983a5634514c92be7bfc0917b93960",
+      "entryRelationEntityId": "97464903927144508c9113d7f345872a",
+      "sourceTitle": "Direct instruction vs inquiry/project-based learning",
+      "name": "For which content, prior knowledge level, and assessment type does inquiry beat explicit teaching?",
+      "description": "Direct instruction vs inquiry/project-based learning."
+    },
+    {
+      "slug": "standardization-accountability-vs-professional-autonomy",
+      "entityId": "a143349b77104b268f29f1b94ef1b1dd",
+      "entryRelationEntityId": "ea94e0b92d684371b581de06f3df6bec",
+      "sourceTitle": "Standardization/accountability vs professional autonomy",
+      "name": "Which outcomes should be common and which decisions should remain local?",
+      "description": "Standardization/accountability vs professional autonomy."
+    },
+    {
+      "slug": "choice-markets-vs-common-public-system",
+      "entityId": "7826c5daf63f43eab428e9716dc97494",
+      "entryRelationEntityId": "e0073b9202a447f28e19cbd64156879a",
+      "sourceTitle": "Choice/markets vs common public system",
+      "name": "What school model and accountability system is being chosen, not just what governance label?",
+      "description": "Choice/markets vs common public system."
+    },
+    {
+      "slug": "central-curriculum-hqim-vs-teacher-created-materials",
+      "entityId": "a9a93e4a83d84e78acdaf9332f5576cb",
+      "entryRelationEntityId": "0d00975fee724085968a1cd2bb2a46db",
+      "sourceTitle": "Central curriculum / HQIM vs teacher-created materials",
+      "name": "What adaptations preserve the high-leverage content and task quality of the curriculum?",
+      "description": "Central curriculum / HQIM vs teacher-created materials."
+    },
+    {
+      "slug": "remediation-readiness-vs-grade-level-acceleration",
+      "entityId": "f5de77428f4e4db0a608711f55b1642a",
+      "entryRelationEntityId": "cddacf31710f4364801db85901a2cc2d",
+      "sourceTitle": "Remediation/readiness vs grade-level acceleration",
+      "name": "What support lets students succeed in grade-level content without tracking them into low expectations?",
+      "description": "Remediation/readiness vs grade-level acceleration."
+    },
+    {
+      "slug": "discipline-order-vs-restorative-relational-climate",
+      "entityId": "1f37c87dbec34463832f0666a8960052",
+      "entryRelationEntityId": "8506452ee624431f8d3bf3bf026a8548",
+      "sourceTitle": "Discipline/order vs restorative/relational climate",
+      "name": "How do we reduce exclusion while preserving safety and time-on-task?",
+      "description": "Discipline/order vs restorative/relational climate."
+    },
+    {
+      "slug": "sel-whole-child-vs-academics-first",
+      "entityId": "614ce411b5f043089f0b6737569adb11",
+      "entryRelationEntityId": "95bb746aea9c432a970e6663bea7a456",
+      "sourceTitle": "SEL/whole-child vs academics-first",
+      "name": "Which nonacademic supports measurably increase instructional engagement and persistence?",
+      "description": "SEL/whole-child vs academics-first."
+    },
+    {
+      "slug": "teacher-incentives-evaluation-vs-trust-professionalism",
+      "entityId": "7556a5a295f64a9e8271ad8e65199581",
+      "entryRelationEntityId": "bf0eccf4f2884c1998442afc7b13b92f",
+      "sourceTitle": "Teacher incentives/evaluation vs trust/professionalism",
+      "name": "Which measures are for development, which for personnel decisions, and how are errors handled?",
+      "description": "Teacher incentives/evaluation vs trust/professionalism."
+    },
+    {
+      "slug": "human-tutoring-vs-ai-tutoring",
+      "entityId": "9a6579f8e2164ed7849a586a846024c6",
+      "entryRelationEntityId": "702c7d84460a4eefa4af507f9942cf30",
+      "sourceTitle": "Human tutoring vs AI tutoring",
+      "name": "Can AI raise dosage or teacher capacity without replacing high-value human interaction?",
+      "description": "Human tutoring vs AI tutoring."
+    },
+    {
+      "slug": "early-academics-vs-play-based-pre-k",
+      "entityId": "c7b8f02e5396465ba9524e37c3633a67",
+      "entryRelationEntityId": "48fa9ba5df36437ead9a4c76571b18fe",
+      "sourceTitle": "Early academics vs play-based pre-K",
+      "name": "Which adult-child interactions and curricula produce both readiness and later well-being?",
+      "description": "Early academics vs play-based pre-K."
+    },
+    {
+      "slug": "college-for-all-vs-cte-career-pathways",
+      "entityId": "f95bcc9e6d254dbc8743c5131248b233",
+      "entryRelationEntityId": "e1111ad25f82442197e03863fee25ec9",
+      "sourceTitle": "College-for-all vs CTE/career pathways",
+      "name": "Are students getting portable credentials, academic rigor, and real postsecondary options?",
+      "description": "College-for-all vs CTE/career pathways."
+    },
+    {
+      "slug": "small-schools-personalization-vs-comprehensive-breadth",
+      "entityId": "1b640bce81654f6f9de5ddac796ea6d2",
+      "entryRelationEntityId": "0130d660ad6449fb8d249f769ebc5886",
+      "sourceTitle": "Small schools/personalization vs comprehensive breadth",
+      "name": "Which functions need smallness, and which can be shared across a larger system?",
+      "description": "Small schools/personalization vs comprehensive breadth."
+    },
+    {
+      "slug": "data-driven-continuous-improvement-vs-big-bang-reform",
+      "entityId": "f23481529dfd4dea9f42d8f2a42b52d1",
+      "entryRelationEntityId": "f1e933d85e8e4826a04b41e51c699f04",
+      "sourceTitle": "Data-driven continuous improvement vs big-bang reform",
+      "name": "What problem is narrow enough for CI, and when is structural redesign required?",
+      "description": "Data-driven continuous improvement vs big-bang reform."
+    },
+    {
+      "slug": "integration-desegregation-vs-neighborhood-local-control",
+      "entityId": "449846bac82a4735bfed599f517acbf2",
+      "entryRelationEntityId": "88bf02ccf29e45acb47dbdfdd5eb0921",
+      "sourceTitle": "Integration/desegregation vs neighborhood/local control",
+      "name": "Which student outcomes count: achievement, opportunity, civic contact, safety, or legitimacy?",
+      "description": "Integration/desegregation vs neighborhood/local control."
+    },
+    {
+      "slug": "tracking-acceleration-vs-detracking-inclusion",
+      "entityId": "e8844d6fb34c42038a91d45044dfd367",
+      "entryRelationEntityId": "3869897b72824145b88b174404d08cee",
+      "sourceTitle": "Tracking/acceleration vs detracking/inclusion",
+      "name": "How do schools preserve rigor and access while giving different students different supports?",
+      "description": "Tracking/acceleration vs detracking/inclusion."
+    },
+    {
+      "slug": "bilingual-dual-language-vs-english-immersion",
+      "entityId": "7ca838f7ca754efb8df89e55bb1e42b4",
+      "entryRelationEntityId": "34f6c831d3d54261b72a99b8724aba84",
+      "sourceTitle": "Bilingual dual-language vs English immersion",
+      "name": "What is the time horizon, and are we measuring English-only achievement or biliteracy plus academics?",
+      "description": "Bilingual dual-language vs English immersion."
+    },
+    {
+      "slug": "more-money-resources-vs-money-does-not-matter",
+      "entityId": "c544991c5bf14fa9a5a20b3543cf6ea3",
+      "entryRelationEntityId": "355ad54a52da4f11bb97fed7269b9ea8",
+      "sourceTitle": "More money/resources vs 'money does not matter'",
+      "name": "Which marginal dollars buy the highest-value inputs in this context?",
+      "description": "More money/resources vs 'money does not matter'."
+    },
+    {
+      "slug": "seat-time-vs-mastery",
+      "entityId": "e67fb8be0ca74c54a148ad318fefbadf",
+      "entryRelationEntityId": "db88cc6bc16b4d939910d9946c67e75d",
+      "sourceTitle": "Seat time vs mastery",
+      "name": "What external outcomes verify mastery when internal grades are redesigned?",
+      "description": "Seat time vs mastery."
+    }
+  ],
+  "operationCount": 71
+}

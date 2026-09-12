@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-09-12T12:49:31.521Z",
+  "batchName": "Mark the source-reported STAR comparison scenario as checkable",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 1,
+  "checks": [
+    {
+      "entityId": "b0e661c838de4b8eb406a9c5a82249b1",
+      "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

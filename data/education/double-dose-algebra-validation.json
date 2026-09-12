@@ -1,0 +1,120 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T03:56:55.209Z",
+  "opsHash": "4335f24618f9829f729a7024105c5595fae9939e830249982f4dfc797a48d149",
+  "checks": [
+    "Complete all-space Article discovery found no candidate",
+    "Complete all-space Initiative discovery found no candidate",
+    "Complete all-space semantic family discovery found no candidate",
+    "Live property type 8f151ba4de204e3c9cb499ddf96f48f1",
+    "Live property type 49c5d5e1679a4dbdbfd33f618f227c94",
+    "Live property type dfa6aebe1ca94bf29faccc4cc7afb24c",
+    "Live property type 95d770021faf4f7cb7deb21a7d48cda0",
+    "Live property type da4a6c1f9d4446f9832ff3b49a4400ef",
+    "Live property type 412ff593e9154012a43d4c27ec5c68b6",
+    "Live property type 7cb59354e30c48119e99ff62fcf61646",
+    "Reuse verified Chicago, Illinois Location",
+    "Persistent ID is unoccupied: fc6318d0e2bd4ad588fdb77e317105fd",
+    "Persistent ID is unoccupied: 965cad4502d449579f74866a4ed922a8",
+    "Persistent ID is unoccupied: e6b77d5b70184fbcb447bf2b471f9122",
+    "Persistent ID is unoccupied: 3e0f4631a1154693a241fdbf763f7cd1",
+    "Persistent ID is unoccupied: 2063d9cfcf2b4e40abdfad42e6e4b8dd"
+  ],
+  "edges": [
+    {
+      "from": "fc6318d0e2bd4ad588fdb77e317105fd",
+      "type": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    {
+      "from": "965cad4502d449579f74866a4ed922a8",
+      "type": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "d272f19cef87485fb83e26fb68957395"
+    },
+    {
+      "from": "965cad4502d449579f74866a4ed922a8",
+      "type": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "fc6318d0e2bd4ad588fdb77e317105fd"
+    },
+    {
+      "from": "965cad4502d449579f74866a4ed922a8",
+      "type": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "to": "fc6318d0e2bd4ad588fdb77e317105fd"
+    },
+    {
+      "from": "965cad4502d449579f74866a4ed922a8",
+      "type": "95d770021faf4f7cb7deb21a7d48cda0",
+      "to": "e82f3bfc991a4578aa8b7a503640b95e",
+      "toSpace": "84a679ce188f061ac9a92380bac2bab5"
+    },
+    {
+      "from": "e6b77d5b70184fbcb447bf2b471f9122",
+      "type": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "from": "e6b77d5b70184fbcb447bf2b471f9122",
+      "type": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "fc6318d0e2bd4ad588fdb77e317105fd"
+    },
+    {
+      "from": "e6b77d5b70184fbcb447bf2b471f9122",
+      "type": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "to": "965cad4502d449579f74866a4ed922a8"
+    },
+    {
+      "from": "e6b77d5b70184fbcb447bf2b471f9122",
+      "type": "95d770021faf4f7cb7deb21a7d48cda0",
+      "to": "e82f3bfc991a4578aa8b7a503640b95e",
+      "toSpace": "84a679ce188f061ac9a92380bac2bab5"
+    },
+    {
+      "from": "3e0f4631a1154693a241fdbf763f7cd1",
+      "type": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "from": "3e0f4631a1154693a241fdbf763f7cd1",
+      "type": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "fc6318d0e2bd4ad588fdb77e317105fd"
+    },
+    {
+      "from": "3e0f4631a1154693a241fdbf763f7cd1",
+      "type": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "to": "965cad4502d449579f74866a4ed922a8"
+    },
+    {
+      "from": "3e0f4631a1154693a241fdbf763f7cd1",
+      "type": "95d770021faf4f7cb7deb21a7d48cda0",
+      "to": "e82f3bfc991a4578aa8b7a503640b95e",
+      "toSpace": "84a679ce188f061ac9a92380bac2bab5"
+    },
+    {
+      "from": "2063d9cfcf2b4e40abdfad42e6e4b8dd",
+      "type": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "from": "2063d9cfcf2b4e40abdfad42e6e4b8dd",
+      "type": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "fc6318d0e2bd4ad588fdb77e317105fd"
+    },
+    {
+      "from": "2063d9cfcf2b4e40abdfad42e6e4b8dd",
+      "type": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "to": "965cad4502d449579f74866a4ed922a8"
+    },
+    {
+      "from": "2063d9cfcf2b4e40abdfad42e6e4b8dd",
+      "type": "95d770021faf4f7cb7deb21a7d48cda0",
+      "to": "e82f3bfc991a4578aa8b7a503640b95e",
+      "toSpace": "84a679ce188f061ac9a92380bac2bab5"
+    }
+  ],
+  "source": {
+    "title": "Intensive Math Instruction and Educational Attainment: Long-Run Impacts of Double-Dose Algebra",
+    "version": "Journal of Human Resources 50(1), 2015; source URL NBER working-paper page w20211",
+    "design": "Regression discontinuity at national-median eighth-grade math score",
+    "scope": "Targeted Chicago ninth graders near the assignment threshold; source reports implementation-dependent effects."
+  }
+}

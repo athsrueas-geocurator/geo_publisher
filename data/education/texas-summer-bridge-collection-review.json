@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T16:00:00Z",
+  "reviewer": "publisher preparation review",
+  "planHash": "2ff05115f533863ba8cca29bb8d8fbf114d609cfc759db1e1d0c1af8f3024e77",
+  "factsHash": "1a04adfb31aeef47b797b4c0c6bb414215f868b44021d8fbbc9e1a0196b632f8",
+  "sources": [
+    {
+      "path": "docs/texas-summer-bridge-study-notes.md",
+      "sha256": "3885baaff13fe3b9907535bdf29576ef42df436b00cab62e0dd13e798403d957",
+      "sourceId": "9a01e3c8d25145ada294e929bdb75870",
+      "version": "Wathington et al. Getting Ready for College, 2011"
+    }
+  ],
+  "discovery": {
+    "path": "data/education/texas-summer-bridge-collection-discovery.json",
+    "sha256": "a7766aad64615ab8f38c5d5f097dd609b02ebc48e44bcada26d5f55bae595b94"
+  },
+  "decisions": {
+    "source": {
+      "status": "accepted",
+      "rationale": "MDRC/NCPR primary report and study notes identify the source."
+    },
+    "identity": {
+      "status": "accepted",
+      "rationale": "Complete all-space search found no result collection and zero incoming memberships."
+    },
+    "content": {
+      "status": "accepted",
+      "rationale": "Facts preserve Claim headers, locators, sample counts and separate implementation/outcome scopes."
+    }
+  }
+}

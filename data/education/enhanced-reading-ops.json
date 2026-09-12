@@ -1,0 +1,764 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0a8658cb5ae9470bacf732add8ca1803"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The Enhanced Reading Opportunities Study Final Report: The Impact of Supplemental Literacy Courses for Struggling Ninth-Grade Readers",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A federal randomized evaluation of two supplemental literacy courses for struggling ninth-grade readers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://files.eric.ed.gov/fulltext/ED511811.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "867703d3b1f84a8099dc9215b0322288"
+    },
+    "entity": {
+      "$bytes": "ab5a6c061df94a228026bff6e6bb5136"
+    },
+    "from": {
+      "$bytes": "0a8658cb5ae9470bacf732add8ca1803"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a072A"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "891cbf9044384a04b8a7fc47d444d749"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Enhanced Reading Opportunities / Reading Apprenticeship and Xtreme Reading",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Two year-long supplemental ninth-grade literacy courses replacing an elective: Reading Apprenticeship Academic Literacy and Xtreme Reading.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://files.eric.ed.gov/fulltext/ED511811.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3f23eb08cf8a407f934a2d06c5c2ff72"
+    },
+    "entity": {
+      "$bytes": "9cf212693d0349768e42d7909c2ddde8"
+    },
+    "from": {
+      "$bytes": "891cbf9044384a04b8a7fc47d444d749"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06Nl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fddaafc100f84c7bbf41dfa05f9e3200"
+    },
+    "entity": {
+      "$bytes": "96f0d3c654644763855001d9df6714e5"
+    },
+    "from": {
+      "$bytes": "891cbf9044384a04b8a7fc47d444d749"
+    },
+    "to": {
+      "$bytes": "0a8658cb5ae9470bacf732add8ca1803"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06OA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4603eed2d6a54c50aa43693a739d2cdb"
+    },
+    "entity": {
+      "$bytes": "6ba0fe124dd041eb9b3327d03d8ee8d5"
+    },
+    "from": {
+      "$bytes": "891cbf9044384a04b8a7fc47d444d749"
+    },
+    "to": {
+      "$bytes": "0a8658cb5ae9470bacf732add8ca1803"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09rw"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9de409cf2a3a4fc29dc68bcc3abbe9a5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ERO raised ninth-grade reading-comprehension scores by 0.9 standard-score points (effect size 0.09).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The end-of-ninth-grade GRADE assessment result has p=.002, with 2,672 ERO and 1,912 non-ERO students. It moved the reported national percentile from 23 to 25; 77% of ERO students still read at least two years below grade level.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "9"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "4584"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Standardized effect size for ninth-grade reading comprehension, ERO assignment versus non-ERO elective.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 3.3; GRADE reading comprehension; p. 76.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "41db5eaefe314457a7b4f7a033a8ac7e"
+    },
+    "entity": {
+      "$bytes": "0c55572b9f7442c8a81b079fc1030ad8"
+    },
+    "from": {
+      "$bytes": "9de409cf2a3a4fc29dc68bcc3abbe9a5"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07Tu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "66680aa823284c5da31b64e801f96bc4"
+    },
+    "entity": {
+      "$bytes": "88b938b2bc094b53810823129869ece1"
+    },
+    "from": {
+      "$bytes": "9de409cf2a3a4fc29dc68bcc3abbe9a5"
+    },
+    "to": {
+      "$bytes": "0a8658cb5ae9470bacf732add8ca1803"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09GZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "19a35450997f4c92bb254eb88caaf4b4"
+    },
+    "entity": {
+      "$bytes": "cd308ec7df2a419ab85c129d63f479ac"
+    },
+    "from": {
+      "$bytes": "9de409cf2a3a4fc29dc68bcc3abbe9a5"
+    },
+    "to": {
+      "$bytes": "891cbf9044384a04b8a7fc47d444d749"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09Ak"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "00f19327dbe44129bddd7f8a015967ee"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ERO increased ninth-grade core-subject GPA by 0.06 points on a 4-point scale (effect size 0.07).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The program-year school-record estimate has p=.002, with 2,937 ERO and 2,213 non-ERO students. It is a short-run core-course result, not a later persistence estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "5150"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Standardized effect size for ninth-grade core-subject GPA, ERO assignment versus non-ERO elective.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 4.1; GPA in core subject areas, program year; p. 85.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9989091228d246f988e03ccf5be5a768"
+    },
+    "entity": {
+      "$bytes": "6f41da799ddf47acab5a7870c24739f2"
+    },
+    "from": {
+      "$bytes": "00f19327dbe44129bddd7f8a015967ee"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06px"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a4e45c0f577743e58f1fb73a55f6b62b"
+    },
+    "entity": {
+      "$bytes": "1e15d1c9277d419cbaeeb26348c62a8a"
+    },
+    "from": {
+      "$bytes": "00f19327dbe44129bddd7f8a015967ee"
+    },
+    "to": {
+      "$bytes": "0a8658cb5ae9470bacf732add8ca1803"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02I6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "873af66e0f574efd9e4739ceeb168a40"
+    },
+    "entity": {
+      "$bytes": "0c62dc1a0cec4f1eb6f82e1a2873d76d"
+    },
+    "from": {
+      "$bytes": "00f19327dbe44129bddd7f8a015967ee"
+    },
+    "to": {
+      "$bytes": "891cbf9044384a04b8a7fc47d444d749"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05ye"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "37101612fbcd447f989249a7e9558e3f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ERO increased ninth-grade core-subject credit accumulation by 0.6 percentage points (effect size 0.06).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The program-year result has p=.017 and measures credits earned as a share of those required for graduation. The report says the statistically significant credit effect did not persist into the follow-up year.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "6"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "5150"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Standardized effect size for ninth-grade core-subject credit accumulation, ERO assignment versus non-ERO elective.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 4.2; credits in core subject areas, end of program year; p. 89.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2945ae8d78284e94901c9b8826c5a9f9"
+    },
+    "entity": {
+      "$bytes": "eaf71b6edbec47ba86c576df0cd44529"
+    },
+    "from": {
+      "$bytes": "37101612fbcd447f989249a7e9558e3f"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0770"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f4e399866edb4638b63d3a8f237779c2"
+    },
+    "entity": {
+      "$bytes": "7812fa9ad54d4878a5d0cfd2f11ca0bc"
+    },
+    "from": {
+      "$bytes": "37101612fbcd447f989249a7e9558e3f"
+    },
+    "to": {
+      "$bytes": "0a8658cb5ae9470bacf732add8ca1803"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04tH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c06b205c42fa4b54a3649db6d3addfa5"
+    },
+    "entity": {
+      "$bytes": "2da398372d5e436f83e0279f10112084"
+    },
+    "from": {
+      "$bytes": "37101612fbcd447f989249a7e9558e3f"
+    },
+    "to": {
+      "$bytes": "891cbf9044384a04b8a7fc47d444d749"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02nv"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "322ed581e4934da8994953574296d483"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ERO’s follow-up-year core-subject GPA estimate was 0.04 points and was not statistically significant.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The reported effect size is 0.05 with p=.061; the program supports ended after ninth grade. This is not proof of zero later effect, but it does not reproduce the program-year GPA result at the report’s 5% threshold.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "5150"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Standardized effect size for follow-up-year core-subject GPA, ERO assignment versus non-ERO elective.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 4.1; GPA in core subject areas, follow-up year; p. 85.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c544f41f94d641149dccc2eb6d67db9f"
+    },
+    "entity": {
+      "$bytes": "3a7878f053e7440ea07cf8b2dc36b721"
+    },
+    "from": {
+      "$bytes": "322ed581e4934da8994953574296d483"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BmG"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2e9398dbc8b44f7a9c2442606c251cf8"
+    },
+    "entity": {
+      "$bytes": "a312c5a0c8704f6aadd38d487ce70e9e"
+    },
+    "from": {
+      "$bytes": "322ed581e4934da8994953574296d483"
+    },
+    "to": {
+      "$bytes": "0a8658cb5ae9470bacf732add8ca1803"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a042E"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "77109b2b048e4fd19044dc8009aa9cba"
+    },
+    "entity": {
+      "$bytes": "5e22c13588674e569f39f71b6aac1aab"
+    },
+    "from": {
+      "$bytes": "322ed581e4934da8994953574296d483"
+    },
+    "to": {
+      "$bytes": "891cbf9044384a04b8a7fc47d444d749"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Aor"
+  }
+]

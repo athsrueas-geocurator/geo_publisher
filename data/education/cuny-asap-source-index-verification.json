@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-09-12T04:25:57.313Z",
+  "batchName": "Add CUNY ASAP randomized cost-analysis source",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "entityId": "536b5cd10a65417ea4e1d52b3322dcad",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "536b5cd10a65417ea4e1d52b3322dcad",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "536b5cd10a65417ea4e1d52b3322dcad",
+      "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+      "pass": true
+    },
+    {
+      "relationId": "578b6c81f7c54ca893a0be3027074868",
+      "pass": true
+    },
+    {
+      "entityId": "3f6f2b82f8b94d3c85a5198a40e34199",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "3f6f2b82f8b94d3c85a5198a40e34199",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "relationId": "a74b937ef68c4a748aa73fa33a17ecba",
+      "pass": true
+    },
+    {
+      "relationId": "5a0cf19c1e55463c99d939c2c6911563",
+      "pass": true
+    },
+    {
+      "relationId": "8b76c7b571854114b5db9eb3d99c52cf",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,29 @@
+{
+  "term": "bilingualism",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:38.787Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "c6c1b79b938f4edabf5502855a628b73",
+      "name": "Bilingualism",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYzZjMWI3OWItOTM4Zi00ZWRhLWJmNTUtMDI4NTVhNjI4YjczIl1d"
+    }
+  ]
+}

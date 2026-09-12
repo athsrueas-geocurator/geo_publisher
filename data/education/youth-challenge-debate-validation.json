@@ -1,0 +1,101 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T04:11:22.804Z",
+  "checks": [
+    "Complete all-space discovery has no candidate: data/education/discovery/contains-the-three-year-youth-challenge-results-justify-expanding-this-program-for-eligible-out-of-school-youth.json",
+    "Complete all-space discovery has no candidate: data/education/discovery/contains-youth-challenge-expansion.json",
+    "Live Relation property 8f151ba4de204e3c9cb499ddf96f48f1",
+    "Live Relation property 49c5d5e1679a4dbdbfd33f618f227c94",
+    "Live Relation property 504e5776788844f6a77dba3ee811d8f0",
+    "Live Relation property 1dc6a843458848198e7a6e672268f811",
+    "Live Checkbox property da4a6c1f9d4446f9832ff3b49a4400ef",
+    "Allocated parent ID 597e5ee8194645c4bb86936d67fca08f is unused",
+    "No all-space exact-name parent exists",
+    "Reused source Article has expected type: cfecb9c0a0e34175b228c35f8db7cdea",
+    "Reused Initiative has expected type: c52c01e8bab14e64b56b8ceb7c244da5",
+    "Reused factual support Claim has expected type: 1a7f36f09ac54d4daa4dffbaa7cacefe",
+    "Support Claim remains factual: 1a7f36f09ac54d4daa4dffbaa7cacefe",
+    "Reused factual support Claim has expected type: d5be2a41a8bd4c9c8a1e0d061055ab1f",
+    "Support Claim remains factual: d5be2a41a8bd4c9c8a1e0d061055ab1f",
+    "Reused factual support Claim has expected type: 83e32af1f37c4ecfa14894b1f8b7c02b",
+    "Support Claim remains factual: 83e32af1f37c4ecfa14894b1f8b7c02b"
+  ],
+  "opsHash": "62725fba902121600f98f4a06d6eb91113c1ff195519079e7e7ffd0219f39128",
+  "edges": [
+    {
+      "from": "597e5ee8194645c4bb86936d67fca08f",
+      "property": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "from": "597e5ee8194645c4bb86936d67fca08f",
+      "property": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "cfecb9c0a0e34175b228c35f8db7cdea"
+    },
+    {
+      "from": "597e5ee8194645c4bb86936d67fca08f",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "c52c01e8bab14e64b56b8ceb7c244da5"
+    },
+    {
+      "from": "597e5ee8194645c4bb86936d67fca08f",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "1a7f36f09ac54d4daa4dffbaa7cacefe"
+    },
+    {
+      "from": "1a7f36f09ac54d4daa4dffbaa7cacefe",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    {
+      "from": "597e5ee8194645c4bb86936d67fca08f",
+      "property": "1dc6a843458848198e7a6e672268f811",
+      "to": "1a7f36f09ac54d4daa4dffbaa7cacefe"
+    },
+    {
+      "from": "597e5ee8194645c4bb86936d67fca08f",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "d5be2a41a8bd4c9c8a1e0d061055ab1f"
+    },
+    {
+      "from": "d5be2a41a8bd4c9c8a1e0d061055ab1f",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    {
+      "from": "597e5ee8194645c4bb86936d67fca08f",
+      "property": "1dc6a843458848198e7a6e672268f811",
+      "to": "d5be2a41a8bd4c9c8a1e0d061055ab1f"
+    },
+    {
+      "from": "597e5ee8194645c4bb86936d67fca08f",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "83e32af1f37c4ecfa14894b1f8b7c02b"
+    },
+    {
+      "from": "83e32af1f37c4ecfa14894b1f8b7c02b",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "597e5ee8194645c4bb86936d67fca08f"
+    },
+    {
+      "from": "597e5ee8194645c4bb86936d67fca08f",
+      "property": "1dc6a843458848198e7a6e672268f811",
+      "to": "83e32af1f37c4ecfa14894b1f8b7c02b"
+    }
+  ],
+  "model": {
+    "name": "The three-year Youth ChalleNGe results justify expanding the program for eligible out-of-school youth.",
+    "description": "This is an evaluative policy position informed by one ten-site randomized evaluation. It requires judgments about scope, delivery, cost and alternatives.",
+    "article": "cfecb9c0a0e34175b228c35f8db7cdea",
+    "initiative": "c52c01e8bab14e64b56b8ceb7c244da5",
+    "support": [
+      "1a7f36f09ac54d4daa4dffbaa7cacefe",
+      "d5be2a41a8bd4c9c8a1e0d061055ab1f",
+      "83e32af1f37c4ecfa14894b1f8b7c02b"
+    ],
+    "discovery": [
+      "data/education/discovery/contains-the-three-year-youth-challenge-results-justify-expanding-this-program-for-eligible-out-of-school-youth.json",
+      "data/education/discovery/contains-youth-challenge-expansion.json"
+    ]
+  }
+}

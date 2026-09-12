@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-09-11",
+  "url": "https://www.geobrowser.io/space/dac259bad48a11adf97fe36857d85206/02b40a84dd87410f9ad78f0481ad237a",
+  "passed": true,
+  "method": "Live browser accessibility tree after reload, plus screenshot of the header, table and start of methods. All table cells were reconciled through the rendered accessibility tree; the wide table scrolls horizontally.",
+  "descriptionSentences": 2,
+  "row": {
+    "id": "f004fa2ccffa444f9daa5e36e19ab8be",
+    "grade": "First grade (United States)",
+    "effect": "4.74",
+    "standardError": "2.72",
+    "lowerBound": "-0.63",
+    "upperBound": "10.11",
+    "confidenceLevel": "95%",
+    "pValue": "P = 0.083",
+    "unit": "SAT 10 scaled-score points",
+    "locator": "Exhibit 2.5, printed p. 25 (PDF p. 54); Exhibit D.1, printed p. D-2 (PDF p. 192)"
+  },
+  "checks": [
+    "Concise dataset description appears above the table",
+    "Source numeric values, negative lower bound and formatted confidence level render in named columns",
+    "Methods render in a separate labeled Markdown block",
+    "Revised reader-facing methods remove repeated instructions and storage mechanics",
+    "Methods retain mixed study design, time periods, counterfactual distinction, uncertainty and limitations",
+    "Primary PDF link, study link, country link and entry link are present",
+    "Publication coverage explicitly identifies this as a one-row pilot"
+  ],
+  "limitations": [
+    "Geo adds a 0% Claim rating in the Name cell; it is not the study effect or confidence level",
+    "The wide table requires horizontal scrolling",
+    "Only the pilot is published; this is not full Reading First or dashboard acceptance"
+  ],
+  "indexReports": ["reading-first-pilot-index-verification.json", "reading-first-notes-index-verification.json"]
+}

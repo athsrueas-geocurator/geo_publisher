@@ -1,0 +1,43 @@
+{
+  "term": "Meta-analysis",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:40:06.331Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "dcd5d4f5649e4f7b85295963033fb104",
+      "name": "Meta-analysis",
+      "description": "Statistical technique that pools quantitative results from multiple independent studies to produce a single summary estimate with greater statistical power than any individual study.",
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "1206e244cf314218b8519a07321337d7",
+          "name": "Evidence"
+        }
+      ]
+    },
+    {
+      "id": "fd48f57b65f44436b393d448eca5d5bd",
+      "name": "Meta-analysis",
+      "description": "A statistical technique that combines results from multiple independent studies to produce a single pooled estimate of effect size.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "07d23153ead146268af89189abe0b6f3",
+          "name": "Study category"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmQ0OGY1N2ItNjVmNC00NDM2LWIzOTMtZDQ0OGVjYTVkNWJkIl1d"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "term": "Key findings",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T17:51:46.131Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "305bad51b3a047a0b25bb682fc04b0e3",
+      "name": "Key findings",
+      "description": "Principal results or conclusions reported by the study.",
+      "spaceIds": [
+        "e01507b1bd7cb04c074ae8f52196096d"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "5aef305c470e4ba4afb8ede0e0652c28",
+      "name": "Key findings",
+      "description": "Main results, conclusions, or notable outcomes reported by a study.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNWFlZjMwNWMtNDcwZS00YmE0LWFmYjgtZWRlMGUwNjUyYzI4Il1d"
+    }
+  ]
+}

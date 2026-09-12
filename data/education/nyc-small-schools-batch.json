@@ -1,0 +1,24 @@
+{
+  "name": "Add NYC Small Schools longitudinal outcomes and cost evidence",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/nyc-small-schools-ops.json",
+  "sha256": "aff732c9afb593526a75e3ee5f7c459f1c8a49b023d5ff7584c85a2d7042a5ec",
+  "journalPath": "data/education/nyc-small-schools-publication.json",
+  "validationPath": "data/education/nyc-small-schools-validation.json",
+  "entities": {
+    "outcomeArticle": "3a02b7c1d1ea4d8b8f29489610fd62c4",
+    "costArticle": "4f1726ca9f934e30b72c18a41f82846a",
+    "initiative": "a375aee3832b4c6890352b81c7a981a2",
+    "claims": {
+      "design": "bc6f1fd2b4a44c1f9374e84a421ff703",
+      "graduation": "a2a84987ceb841e7904c8b0b7c4e902a",
+      "postsecondary-enrollment": "ae1a54d9bf6949ee8dedaa002a8cb646",
+      "degree-six-years": "647f9dd5528d456290fecff51a0a2e17",
+      "employment-null": "957fd14fce2047ba816710951a0d31cd",
+      "net-expenditure": "303eef5b611b47188ce584500bc69d41",
+      "cost-per-graduate": "5ec27fe825794d3daa746059d5a43981"
+    }
+  },
+  "operationCount": 36
+}

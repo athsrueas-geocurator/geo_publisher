@@ -1,0 +1,15 @@
+import {readFileSync,writeFileSync,existsSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {Ops} from '@geoprotocol/geo-sdk';
+import {EDUCATION_PUBLICATION as target} from '../src/education-bounty';
+import {geoGraphqlRequest as gql} from '../src/geo-api-client';
+const root='data/education',prefix='impact-doi-link',property='7cb59354e30c48119e99ff62fcf61646';
+if(existsSync(`${root}/${prefix}-publication.json`))throw Error('Preserve submitted repair');
+const content=JSON.parse(readFileSync(`${root}/impact-reconciled-content.json`,'utf8')),registry=JSON.parse(readFileSync(`${root}/impact-reference-registry.json`,'utf8'));
+const id=registry.ids.article;const result:any=await gql('query($id:UUID!,$space:UUID!,$property:UUID!){property(id:$property){dataTypeName}entity(id:$id){values(first:20,filter:{spaceId:{is:$space},propertyId:{is:$property}}){nodes{text}pageInfo{hasNextPage}}}}',{variables:{id,space:target.spaceId,property}});
+if(result.property?.dataTypeName!=='Text'||result.entity.values.pageInfo.hasNextPage||!result.entity.values.nodes.some((v:any)=>v.text==='10.3386/w19529'))throw Error('Unexpected current DOI');
+const ops=Ops.entities.update({id,values:[{property,type:'text',value:content.article.doi}]}).ops;
+const bytes=JSON.stringify(ops,(_k,v)=>v instanceof Uint8Array?{$bytes:Buffer.from(v).toString('hex')}:v,2)+'\n',sha256=createHash('sha256').update(bytes).digest('hex');
+const batch={name:'Make the IMPACT DOI resolve to its official DOI URL',spaceId:target.spaceId,bounty:target.bountyId,opsPath:`${root}/${prefix}-ops.json`,sha256,journalPath:`${root}/${prefix}-publication.json`,validationPath:`${root}/${prefix}-validation.json`,operationCount:ops.length};
+writeFileSync(batch.opsPath,bytes);writeFileSync(`${root}/${prefix}-batch.json`,JSON.stringify(batch,null,2)+'\n');writeFileSync(batch.validationPath,JSON.stringify({ready:true,checkedAt:new Date().toISOString(),opsHash:sha256,before:result.entity.values.nodes,after:content.article.doi,reason:'Browser rendered bare DOI as an IP-address URL; preserve identifier with explicit HTTPS DOI resolver'},null,2)+'\n');
+console.log(JSON.stringify({id,operations:ops.length,doi:content.article.doi}));

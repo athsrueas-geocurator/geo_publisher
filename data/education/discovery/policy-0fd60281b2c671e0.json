@@ -1,0 +1,95 @@
+{
+  "term": "Policy",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T21:41:42.768Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "60e2b6c3dfa88e1bb6e08dfa332b4d89",
+      "name": "Policy",
+      "description": "Policy, acceptable-use rule, training-data rule, opt-out rule, platform policy, disclosure policy, or governance position. Required: name, description, policy_category, source. Recommended: jurisdiction, effective_date, status, publisher. Publish tier: secondary_browse.",
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104",
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        },
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "7f237bddd95f4d3f8686f52a5dd29386",
+      "name": "Policy",
+      "description": null,
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "8616fbeacc3a4d9881fc8e7fb2a5dbde",
+      "name": "Policy",
+      "description": "Implements rules, regulations, or organizational changes that shape behavior at a population level. Aims to create supportive structures for healthier choices.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "b1f18f197010455a94d2d162c67cc06d",
+          "name": "Intervention category"
+        }
+      ]
+    },
+    {
+      "id": "b6136c2d4c164fa8b7571f136925e476",
+      "name": "policy",
+      "description": null,
+      "spaceIds": [
+        "941964642f4d3e70ef48f54a3915277d"
+      ],
+      "types": [
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        }
+      ]
+    },
+    {
+      "id": "bb49b0aeb63c4722a424ea816156eea3",
+      "name": "Policy",
+      "description": "Legislative, regulatory, or fiscal measures implemented by governments or institutions to shape population health at a systemic level.",
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104",
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYmI0OWIwYWUtYjYzYy00NzIyLWE0MjQtZWE4MTYxNTZlZWEzIl1d"
+    }
+  ]
+}

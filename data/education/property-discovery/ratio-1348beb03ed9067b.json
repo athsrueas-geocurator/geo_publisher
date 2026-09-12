@@ -1,0 +1,100 @@
+{
+  "term": "Ratio",
+  "checkedAt": "2026-09-11T20:10:14.997Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": false,
+  "nodes": [
+    {
+      "id": "227ffc64171a41dd9eb5746adbe9cd4c",
+      "name": "Durations",
+      "description": "Time intervals or ranges specifying how long an intervention or activity is performed.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "22b4a17fa7218741fe61be6297ad9205",
+      "name": "Edit operation",
+      "description": "AI Music ontology field for edit_operation; data type controlled vocabulary; vocabulary EditOperation; cardinality one; publish policy facet_or_required_when_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "296a37f007bf2aa5d42930831e8986d2",
+      "name": "Integration surface type",
+      "description": "AI Music ontology field for integration_surface_type; data type controlled vocabulary; vocabulary IntegrationSurfaceType; cardinality one; publish policy facet.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "3615f8d6cc89f07877abc2d24ada4a39",
+      "name": "Integration surface of",
+      "description": "AI Music ontology relation integration_surface_of; domain IntegrationSurface; range Product, SoftwareArtifact, ProductFeature; publish policy generated_display_inverse_only.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "3e26cded501061d0601953784fb99640",
+      "name": "Integration surfaces",
+      "description": "AI Music ontology field for integration_surfaces; data type relation to IntegrationSurface; cardinality one; publish policy required_when_referenced_or_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "413cde6c172a4f1c9b32cd2fa886f670",
+      "name": "Maximum suggested duration",
+      "description": "Recommended upper time limit for completing the activity safely, effectively, or within standard guidance.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "45f961847dd049d3ad9552db7fef300c",
+      "name": "Fasting window durations",
+      "description": "Length of time spent fasting within an intermittent fasting protocol before the next eating window begins.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "48312ccec264dc656c0e4b590accae34",
+      "name": "Uses generation config",
+      "description": "AI Music ontology relation uses_generation_config; domain EvaluationProtocol, EvaluationRun; range GenerationConfig; publish policy review_before_publish; relation entity metadata required.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "4c30ebb25e9e48399524cc6cfdf069c3",
+      "name": "Eating window durations",
+      "description": "Length of time allocated for eating within an intermittent fasting protocol before the next fasting window begins.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "4dd86f41187641d297e1ebe2d5e5bd4f",
+      "name": "Minimum suggested duration",
+      "description": "Recommended minimum time commitment needed to complete or experience the activity effectively.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiM2UyNmNkZWQtNTAxMC02MWQwLTYwMTktNTM3ODRmYjk5NjQwIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNGRkODZmNDEtMTg3Ni00MWQyLTk3ZTEtZWJlMmQ1ZTViZDRmIl1d"
+    }
+  ],
+  "error": "HTTP 500"
+}

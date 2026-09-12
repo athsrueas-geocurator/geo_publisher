@@ -1,0 +1,38 @@
+{
+  "publisherVersion": "collection-v1",
+  "name": "PACE Center for Girls long-term findings",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "sha256": "dbb27a4fc3be71e576a1e8f5fd7ebcd77b1bbc3e0dd802e7d99d2d83631d2f93",
+  "opsPath": "data/education/pace-collection-ops.json",
+  "journalPath": "data/education/pace-collection-publication.json",
+  "validationPath": "data/education/pace-collection-validation.json",
+  "reviewBinding": {
+    "path": "data/education/pace-collection-review-binding.json",
+    "sha256": "982ffd23c7d40a55729d45dc627fcd58a46ef5493382de5e29fed24f7a2c29b5"
+  },
+  "datasetId": "37f3c42189454ea892c927b132b45a6d",
+  "catalogId": "2279edef1bbe479c872caeb72ee90022",
+  "groups": [
+    {
+      "key": "context",
+      "blockId": "05354e703ab940e7bf6aeb5f4a5bf37c",
+      "memberIds": [
+        "8a4b886bf2774f5891c294e8dc4e12c2"
+      ]
+    },
+    {
+      "key": "findings",
+      "blockId": "406dc212f29a40f68881c908d59f37eb",
+      "memberIds": [
+        "7701e2d9c9e04a6f9674ffcf2b46dfc7",
+        "880e9655f8404eb6b3784a34430a4f46",
+        "a69ccb6c82e14783b1e842f1ee7736e3",
+        "e224628e8c7741e08d7d65100704f031",
+        "be3864b94fe94510a90541c9a8f765f3",
+        "e7dc33342ebb49d99977f226a081cb29"
+      ]
+    }
+  ],
+  "operationCount": 27
+}

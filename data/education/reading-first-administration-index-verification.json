@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-09-11T22:11:35.782Z",
+  "scope": "All Saga batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 4,
+  "checks": [
+    {
+      "entityId": "bbfe2860b5d04e4a98d647183af924bf",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "bbfe2860b5d04e4a98d647183af924bf",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "relationId": "8b2dde59bf074554b42b1a1b23fad070",
+      "pass": true
+    },
+    {
+      "relationId": "7195ed22380e429796c68a27ca654b7b",
+      "pass": true
+    },
+    {
+      "entityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+      "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+      "pass": true
+    },
+    {
+      "relationId": "611b9a2605364241842288bfcecd23a4",
+      "pass": true
+    },
+    {
+      "entityId": "99058013c7904de782e86c393cb52035",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "99058013c7904de782e86c393cb52035",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "relationId": "4e0d0b5a51914783a1118b6316d1c565",
+      "pass": true
+    },
+    {
+      "relationId": "9170428eeda04860869d14604942b66b",
+      "pass": true
+    },
+    {
+      "relationId": "d3b43ef305354c709d28ab715469cf30",
+      "pass": true
+    },
+    {
+      "relationId": "1765f5a2315a4d908d706710a553a88c",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

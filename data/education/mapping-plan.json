@@ -1,0 +1,657 @@
+{
+  "sourceCommit": "3cd97449ce9ca73cccb77efe22aac69cc56131e5",
+  "targetSpaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": {
+    "id": "debce2de46094f299ee8e89fe244a9dc",
+    "spaceId": "ec349623f33236aee13c12dcd629ee81",
+    "required": true
+  },
+  "collections": [
+    "initiatives",
+    "sources",
+    "dichotomies",
+    "methods",
+    "glossary",
+    "landing-cards",
+    "datasets"
+  ],
+  "fields": [
+    {
+      "collection": "initiatives",
+      "field": "slug",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "b0305ef28312c519d954bc0efe22f013",
+      "status": "reuse-live-route-slug",
+      "provenance": "data/education/property-reuse-probe.json",
+      "identityRole": "source identity retained alongside Geo ID; not itself a Geo ID"
+    },
+    {
+      "collection": "initiatives",
+      "field": "id",
+      "sourceType": "number",
+      "representation": "numeric-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "identityRole": "source identity retained alongside Geo ID; not itself a Geo ID"
+    },
+    {
+      "collection": "initiatives",
+      "field": "name",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "status": "reuse-sdk-name"
+    },
+    {
+      "collection": "initiatives",
+      "field": "years",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "initiatives",
+      "field": "category",
+      "sourceType": "string",
+      "representation": "ordered-entity-relations",
+      "propertyId": "06c899fb04334e679feb1fd56687c3d6",
+      "status": "property-resolved-targets-pending",
+      "targetResolution": "Resolve Category entities globally before creating targets; do not encode labels as text on this relation property.",
+      "provenance": "data/education/property-reuse-probe.json"
+    },
+    {
+      "collection": "initiatives",
+      "field": "theoryOfAction",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "initiatives",
+      "field": "inputVariablesChanged",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "initiatives",
+      "field": "targetPopulation",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "initiatives",
+      "field": "evaluationDesigns",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "initiatives",
+      "field": "methodTags",
+      "sourceType": "array",
+      "representation": "ordered-literal-items",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "initiatives",
+      "field": "evidenceStrength",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "attribution": "curated assessment, not measured study effect"
+    },
+    {
+      "collection": "initiatives",
+      "field": "outputsMeasured",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "initiatives",
+      "field": "normalizationIssues",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "initiatives",
+      "field": "oneLineFinding",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "initiatives",
+      "field": "sourceIds",
+      "sourceType": "array",
+      "representation": "ordered-entity-relations",
+      "propertyId": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "status": "reuse-live-root-sources",
+      "targetResolution": "Resolve each source key to its shared publication Geo ID; never publish source keys as relation targets."
+    },
+    {
+      "collection": "initiatives",
+      "field": "tags",
+      "sourceType": "string",
+      "representation": "ordered-entity-relations",
+      "propertyId": "257090341ba5406f94e4d4af90042fba",
+      "status": "property-resolved-targets-pending",
+      "targetResolution": "Resolve Tag entities globally before creating targets; do not encode labels as text on this relation property.",
+      "provenance": "data/education/property-reuse-probe.json"
+    },
+    {
+      "collection": "initiatives",
+      "field": "relatedDichotomySlugs",
+      "sourceType": "array",
+      "representation": "ordered-entity-relations",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "sources",
+      "field": "id",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "identityRole": "source identity retained alongside Geo ID; not itself a Geo ID"
+    },
+    {
+      "collection": "sources",
+      "field": "title",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "status": "reuse-sdk-name"
+    },
+    {
+      "collection": "sources",
+      "field": "authors",
+      "sourceType": "string",
+      "representation": "ordered-entity-relations",
+      "propertyId": null,
+      "status": "requires-author-identity-resolution",
+      "candidatePropertyId": "91a9e2f6e51a48f7997661de8561b690",
+      "targetResolution": "Root Authors is a Relation. Preserve original attribution text in provenance; resolve people/organizations before emitting authorship edges."
+    },
+    {
+      "collection": "sources",
+      "field": "year",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "sources",
+      "field": "method",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "sources",
+      "field": "outcomeTags",
+      "sourceType": "array",
+      "representation": "ordered-literal-items",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "sources",
+      "field": "evidenceStrength",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "attribution": "curated assessment, not measured study effect"
+    },
+    {
+      "collection": "sources",
+      "field": "finding",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "sources",
+      "field": "caveat",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "sources",
+      "field": "url",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+      "status": "reuse-sdk-web-url"
+    },
+    {
+      "collection": "sources",
+      "field": "doi",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "7cb59354e30c48119e99ff62fcf61646",
+      "status": "reuse-live-root-doi"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "slug",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "b0305ef28312c519d954bc0efe22f013",
+      "status": "reuse-live-route-slug",
+      "provenance": "data/education/property-reuse-probe.json",
+      "identityRole": "source identity retained alongside Geo ID; not itself a Geo ID"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "title",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "status": "reuse-sdk-name"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "dek",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "status": "reuse-sdk-description"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "topic",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "philosophicalDisagreement",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "continuum.leftPole",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "attribution": "curated assessment, not measured study effect"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "continuum.rightPole",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "attribution": "curated assessment, not measured study effect"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "continuum.position",
+      "sourceType": "number",
+      "representation": "numeric-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "attribution": "curated assessment, not measured study effect"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "continuum.uncertaintyLow",
+      "sourceType": "number",
+      "representation": "numeric-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "attribution": "curated assessment, not measured study effect"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "continuum.uncertaintyHigh",
+      "sourceType": "number",
+      "representation": "numeric-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "attribution": "curated assessment, not measured study effect"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "continuum.confidence",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "attribution": "curated assessment, not measured study effect"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "continuum.explanation",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "attribution": "curated assessment, not measured study effect"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "evidenceStrength",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "attribution": "curated assessment, not measured study effect"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "whatEvidenceSuggests",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "betterQuestion",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "commonMisreadings",
+      "sourceType": "array",
+      "representation": "ordered-literal-items",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "whatWouldChangeOurMind",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "keyInitiativeSlugs",
+      "sourceType": "array",
+      "representation": "ordered-entity-relations",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "dichotomies",
+      "field": "sourceIds",
+      "sourceType": "array",
+      "representation": "ordered-entity-relations",
+      "propertyId": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "status": "reuse-live-root-sources",
+      "targetResolution": "Resolve each source key to its shared publication Geo ID; never publish source keys as relation targets."
+    },
+    {
+      "collection": "dichotomies",
+      "field": "landingPriority",
+      "sourceType": "number",
+      "representation": "numeric-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "methods",
+      "field": "section",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "methods",
+      "field": "item",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "status": "reuse-sdk-name"
+    },
+    {
+      "collection": "methods",
+      "field": "definition",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "status": "reuse-sdk-description"
+    },
+    {
+      "collection": "methods",
+      "field": "urls",
+      "sourceType": "array",
+      "representation": "ordered-literal-items",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "glossary",
+      "field": "term",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "status": "reuse-sdk-name"
+    },
+    {
+      "collection": "glossary",
+      "field": "definition",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "status": "reuse-sdk-description"
+    },
+    {
+      "collection": "glossary",
+      "field": "section",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "landing-cards",
+      "field": "claim",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "status": "reuse-sdk-name"
+    },
+    {
+      "collection": "landing-cards",
+      "field": "caveat",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "landing-cards",
+      "field": "dichotomySlug",
+      "sourceType": "string",
+      "representation": "ordered-entity-relations",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "landing-cards",
+      "field": "sourceIds",
+      "sourceType": "array",
+      "representation": "ordered-entity-relations",
+      "propertyId": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "status": "reuse-live-root-sources",
+      "targetResolution": "Resolve each source key to its shared publication Geo ID; never publish source keys as relation targets."
+    },
+    {
+      "collection": "landing-cards",
+      "field": "evidenceStrength",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "attribution": "curated assessment, not measured study effect"
+    },
+    {
+      "collection": "datasets",
+      "field": "id",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution",
+      "identityRole": "source identity retained alongside Geo ID; not itself a Geo ID"
+    },
+    {
+      "collection": "datasets",
+      "field": "title",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "status": "reuse-sdk-name"
+    },
+    {
+      "collection": "datasets",
+      "field": "steward",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "datasets",
+      "field": "sourceUrl",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "datasets",
+      "field": "accessUrl",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "datasets",
+      "field": "accessMethod",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "datasets",
+      "field": "geographicLevel",
+      "sourceType": "array",
+      "representation": "ordered-literal-items",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "datasets",
+      "field": "unitOfAnalysis",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "datasets",
+      "field": "yearsCovered",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "datasets",
+      "field": "updateCadence",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "datasets",
+      "field": "joinKeys",
+      "sourceType": "array",
+      "representation": "ordered-literal-items",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "datasets",
+      "field": "primaryMeasures",
+      "sourceType": "array",
+      "representation": "ordered-literal-items",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "datasets",
+      "field": "supportsComparisons",
+      "sourceType": "array",
+      "representation": "ordered-literal-items",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "datasets",
+      "field": "collectionStatus",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "datasets",
+      "field": "priority",
+      "sourceType": "number",
+      "representation": "numeric-value",
+      "propertyId": null,
+      "status": "needs-ontology-resolution"
+    },
+    {
+      "collection": "datasets",
+      "field": "notes",
+      "sourceType": "string",
+      "representation": "text-value",
+      "propertyId": "6d25739b9217e7c35103b37c3db12709",
+      "status": "reuse-live-curator-notes",
+      "provenance": "data/education/property-reuse-probe.json"
+    }
+  ],
+  "publicationReady": false
+}

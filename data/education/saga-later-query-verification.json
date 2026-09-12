@@ -1,0 +1,2860 @@
+{
+  "checkedAt": "2026-09-12T01:01:54.712Z",
+  "passed": true,
+  "queryFile": "saga-pooled-query.graphql",
+  "tableId": "83c9c6a366e14992a951ec702dbc67a3",
+  "pages": 4,
+  "checks": [
+    {
+      "label": "Unique table cursor",
+      "pass": true
+    },
+    {
+      "label": "Unique table cursor",
+      "pass": true
+    },
+    {
+      "label": "Unique table cursor",
+      "pass": true
+    },
+    {
+      "label": "All sixteen table entries",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s1/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s1/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-math/itt/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-math/itt/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-math/itt/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-math/itt/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s1/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Estimand s1/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s1/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s1/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s1/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s1/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s1/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Original Article s1/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s1/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s1/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-math/tot/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-math/tot/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-math/tot/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-math/tot/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s1/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Estimand s1/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s1/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s1/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s1/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s1/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s1/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Original Article s1/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s1/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s1/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-gpa/itt/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-gpa/itt/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-gpa/itt/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-gpa/itt/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s1/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Estimand s1/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s1/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s1/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s1/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s1/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s1/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Original Article s1/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s1/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s1/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-gpa/tot/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-gpa/tot/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-gpa/tot/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/grade11-gpa/tot/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s1/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Estimand s1/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s1/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s1/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s1/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s1/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s1/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Original Article s1/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s1/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s1/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ontime/itt/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ontime/itt/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ontime/itt/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ontime/itt/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s1/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Estimand s1/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s1/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s1/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s1/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s1/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s1/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Original Article s1/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s1/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s1/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ontime/tot/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ontime/tot/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ontime/tot/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ontime/tot/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s1/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Estimand s1/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s1/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s1/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s1/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s1/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s1/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Original Article s1/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s1/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s1/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ever/itt/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ever/itt/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ever/itt/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ever/itt/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s1/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Estimand s1/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s1/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s1/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s1/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s1/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s1/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Original Article s1/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s1/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s1/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ever/tot/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ever/tot/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ever/tot/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s1/appendix-t5/graduated-ever/tot/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s1/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Estimand s1/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s1/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s1/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s1/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s1/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s1/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Original Article s1/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s2/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s2/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-math/itt/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-math/itt/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-math/itt/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-math/itt/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s2/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Estimand s2/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s2/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s2/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s2/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s2/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s2/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Original Article s2/appendix-t5/grade11-math/itt",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s2/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s2/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-math/tot/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-math/tot/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-math/tot/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-math/tot/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s2/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Estimand s2/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s2/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s2/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s2/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s2/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s2/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Original Article s2/appendix-t5/grade11-math/tot",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s2/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s2/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-gpa/itt/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-gpa/itt/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-gpa/itt/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-gpa/itt/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s2/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Estimand s2/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s2/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s2/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s2/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s2/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s2/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Original Article s2/appendix-t5/grade11-gpa/itt",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s2/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s2/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-gpa/tot/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-gpa/tot/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-gpa/tot/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/grade11-gpa/tot/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s2/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Estimand s2/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s2/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s2/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s2/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s2/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s2/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Original Article s2/appendix-t5/grade11-gpa/tot",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s2/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s2/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ontime/itt/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ontime/itt/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ontime/itt/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ontime/itt/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s2/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Estimand s2/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s2/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s2/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s2/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s2/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s2/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Original Article s2/appendix-t5/graduated-ontime/itt",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s2/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s2/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ontime/tot/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ontime/tot/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ontime/tot/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ontime/tot/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s2/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Estimand s2/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s2/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s2/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s2/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s2/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s2/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Original Article s2/appendix-t5/graduated-ontime/tot",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s2/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s2/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ever/itt/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ever/itt/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ever/itt/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ever/itt/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s2/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Estimand s2/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s2/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s2/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s2/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s2/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s2/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Original Article s2/appendix-t5/graduated-ever/itt",
+      "pass": true
+    },
+    {
+      "label": "Unique source record s2/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Complete facts s2/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ever/tot/e500e2585a964d2c9df4a47b199616c3",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ever/tot/cc28953bd89e406096c9627021f4713d",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ever/tot/bf0249bb71924460bfe6b35394ed0781",
+      "pass": true
+    },
+    {
+      "label": "Source numeric s2/appendix-t5/graduated-ever/tot/03b87ec1e71f410db566c7f12920283d",
+      "pass": true
+    },
+    {
+      "label": "Source outcome/unit s2/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Estimand s2/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Qualified follow-up s2/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Correct appendix locator s2/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Factual Claim s2/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Only own trial and alternate estimand s2/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Not assigned to other trial s2/appendix-t5/graduated-ever/tot",
+      "pass": true
+    },
+    {
+      "label": "Original Article s2/appendix-t5/graduated-ever/tot",
+      "pass": true
+    }
+  ],
+  "nodes": [
+    {
+      "toEntityId": "0daabf65133842099a470bac70e2e48d",
+      "position": "a011",
+      "toEntity": {
+        "id": "0daabf65133842099a470bac70e2e48d",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "2",
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "TOT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1465",
+              "boolean": null
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.242",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "TOT estimate 0.242 (SE 0.156; N=1465; Appendix Table 5, p. A-12). Reported row q=0.121; the adjusted evidence does not establish a later math improvement.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "Eleventh-grade outcome as reported in Appendix Table 5",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "11th Grade Math GPA",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 2 estimated eleventh-grade math GPA 0.242 points higher from tutoring participation.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.156",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "GPA points",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "86c407ce9e7e49819e1cd8d07b20f4c8"
+            },
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "276254e5907c4683ac266d81454f4356"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "2cf15f4ac847448c87f2a65999e0e577",
+      "position": "a014",
+      "toEntity": {
+        "id": "2cf15f4ac847448c87f2a65999e0e577",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "2",
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "ITT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "proportion difference",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "Graduated Ever",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 2 estimated graduation within the observed window 0.4 percentage points lower from offering tutoring.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.016",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "Graduated within the report's observed window; terminal date not established",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1789",
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "ITT estimate -0.004 on the fraction scale (SE 0.016; N=1789; Appendix Table 5, p. A-12). Reported row q=0.831; this imprecise estimate does not establish a graduation benefit or no effect.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "-0.004",
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "94b710c0004b4269b42f24052587a04c"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "86c407ce9e7e49819e1cd8d07b20f4c8"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "276254e5907c4683ac266d81454f4356",
+      "position": "a010",
+      "toEntity": {
+        "id": "276254e5907c4683ac266d81454f4356",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 2 estimated eleventh-grade math GPA 0.082 points higher from offering tutoring.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1465",
+              "boolean": null
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.082",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "ITT estimate 0.082 (SE 0.053; N=1465; Appendix Table 5, p. A-12). Reported row q=0.121; the adjusted evidence does not establish a later math improvement.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "11th Grade Math GPA",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "ITT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "2",
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "Eleventh-grade outcome as reported in Appendix Table 5",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.053",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "GPA points",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "0daabf65133842099a470bac70e2e48d"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "86c407ce9e7e49819e1cd8d07b20f4c8"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            },
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "84a82b3de9684325a9ccf7603a562cb5",
+      "position": "a001",
+      "toEntity": {
+        "id": "84a82b3de9684325a9ccf7603a562cb5",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "11th Grade CPS Math Test (Study Sample Z)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1528",
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "TOT estimate 0.304 (SE 0.074; N=1528; Appendix Table 5, p. A-12). Reported row q=0.001; the adjusted evidence supports a later math improvement.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "TOT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "Eleventh-grade outcome as reported in Appendix Table 5",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.074",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "1",
+              "boolean": null
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 1 estimated eleventh-grade CPS math scores 0.304 standard deviations higher from tutoring participation.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "study-sample standard deviations",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.304",
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "10e82920d4684dee993f420cbadefa97"
+            },
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "6ff69ada18b54b1db98375da1b90df65"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "a340298ab13d4bbd9572ba94d64b28ff",
+      "position": "a007",
+      "toEntity": {
+        "id": "a340298ab13d4bbd9572ba94d64b28ff",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "TOT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "1",
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.008",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.033",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "Graduated within the report's observed window; terminal date not established",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1825",
+              "boolean": null
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 1 estimated graduation within the observed window 0.8 percentage points higher from tutoring participation.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "Graduated Ever",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "TOT estimate 0.008 on the fraction scale (SE 0.033; N=1825; Appendix Table 5, p. A-12). Reported row q=0.815; this imprecise estimate does not establish a graduation benefit or no effect.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "proportion difference",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "0a0d32c10059420fb1af7bd2e998911c"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "6ff69ada18b54b1db98375da1b90df65"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "877eb1ded30c454b9767dc55a863ca32",
+      "position": "a003",
+      "toEntity": {
+        "id": "877eb1ded30c454b9767dc55a863ca32",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 1 estimated eleventh-grade math GPA 0.250 points higher from tutoring participation.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "1",
+              "boolean": null
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "TOT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "11th Grade Math GPA",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "TOT estimate 0.250 (SE 0.100; N=1554; Appendix Table 5, p. A-12). Reported row q=0.013; the adjusted evidence supports a later math improvement.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1554",
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "Eleventh-grade outcome as reported in Appendix Table 5",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "GPA points",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.25",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.1",
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "6ff69ada18b54b1db98375da1b90df65"
+            },
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "dcf46226151c4ef8ab596059adcb0ac0"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "bc589d8c182d4931977831a0df3361f2",
+      "position": "a012",
+      "toEntity": {
+        "id": "bc589d8c182d4931977831a0df3361f2",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "2",
+              "boolean": null
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "Graduated On-Time",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "On-time high-school graduation",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 2 estimated on-time graduation 1.1 percentage points higher from offering tutoring.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1775",
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "ITT estimate 0.011 on the fraction scale (SE 0.018; N=1775; Appendix Table 5, p. A-12). Reported row q=0.557; this imprecise estimate does not establish a graduation benefit or no effect.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.018",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.011",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "ITT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "proportion difference",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "86c407ce9e7e49819e1cd8d07b20f4c8"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "4f453905972741fa8876cf73dbccabcf"
+            },
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "4f453905972741fa8876cf73dbccabcf",
+      "position": "a013",
+      "toEntity": {
+        "id": "4f453905972741fa8876cf73dbccabcf",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 2 estimated on-time graduation 3.3 percentage points higher from tutoring participation.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "TOT estimate 0.033 on the fraction scale (SE 0.057; N=1775; Appendix Table 5, p. A-12). Reported row q=0.557; this imprecise estimate does not establish a graduation benefit or no effect.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.033",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "On-time high-school graduation",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "Graduated On-Time",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "2",
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1775",
+              "boolean": null
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "TOT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.057",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "proportion difference",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "86c407ce9e7e49819e1cd8d07b20f4c8"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "bc589d8c182d4931977831a0df3361f2"
+            },
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "f32fcb97f3cb42a593f0b37efc3a16e4",
+      "position": "a005",
+      "toEntity": {
+        "id": "f32fcb97f3cb42a593f0b37efc3a16e4",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.001",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "Graduated On-Time",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "1",
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "TOT estimate 0.001 on the fraction scale (SE 0.037; N=1819; Appendix Table 5, p. A-12). Reported row q=0.972; this imprecise estimate does not establish a graduation benefit or no effect.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1819",
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "proportion difference",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "TOT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.037",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "On-time high-school graduation",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 1 estimated on-time graduation 0.1 percentage points higher from tutoring participation.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "145a47ec061c4309acd83c33fc894fbd"
+            },
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "6ff69ada18b54b1db98375da1b90df65"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "dcf46226151c4ef8ab596059adcb0ac0",
+      "position": "a002",
+      "toEntity": {
+        "id": "dcf46226151c4ef8ab596059adcb0ac0",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "GPA points",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "ITT estimate 0.132 (SE 0.053; N=1554; Appendix Table 5, p. A-12). Reported row q=0.013; the adjusted evidence supports a later math improvement.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.132",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.053",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 1 estimated eleventh-grade math GPA 0.132 points higher from offering tutoring.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1554",
+              "boolean": null
+            },
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "1",
+              "boolean": null
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "ITT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "11th Grade Math GPA",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "Eleventh-grade outcome as reported in Appendix Table 5",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "6ff69ada18b54b1db98375da1b90df65"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "877eb1ded30c454b9767dc55a863ca32"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "0a0d32c10059420fb1af7bd2e998911c",
+      "position": "a006",
+      "toEntity": {
+        "id": "0a0d32c10059420fb1af7bd2e998911c",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1825",
+              "boolean": null
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "ITT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "1",
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "proportion difference",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "Graduated Ever",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "ITT estimate 0.004 on the fraction scale (SE 0.015; N=1825; Appendix Table 5, p. A-12). Reported row q=0.815; this imprecise estimate does not establish a graduation benefit or no effect.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "Graduated within the report's observed window; terminal date not established",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 1 estimated graduation within the observed window 0.4 percentage points higher from offering tutoring.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.015",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.004",
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "6ff69ada18b54b1db98375da1b90df65"
+            },
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "a340298ab13d4bbd9572ba94d64b28ff"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "1081a2fa417d4229adae4f92ac2c1288",
+      "position": "a009",
+      "toEntity": {
+        "id": "1081a2fa417d4229adae4f92ac2c1288",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "TOT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "study-sample standard deviations",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1445",
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "TOT estimate 0.082 (SE 0.122; N=1445; Appendix Table 5, p. A-12). Reported row q=0.502; the adjusted evidence does not establish a later math improvement.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.082",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.122",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 2 estimated eleventh-grade CPS math scores 0.082 standard deviations higher from tutoring participation.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "11th Grade CPS Math Test (Study Sample Z)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "2",
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "Eleventh-grade outcome as reported in Appendix Table 5",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            },
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "86c407ce9e7e49819e1cd8d07b20f4c8"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "e52d2e100edf4e54954ee9b76480c094"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "94b710c0004b4269b42f24052587a04c",
+      "position": "a015",
+      "toEntity": {
+        "id": "94b710c0004b4269b42f24052587a04c",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "-0.011",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "TOT estimate -0.011 on the fraction scale (SE 0.052; N=1789; Appendix Table 5, p. A-12). Reported row q=0.831; this imprecise estimate does not establish a graduation benefit or no effect.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "TOT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "Graduated Ever",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "2",
+              "boolean": null
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 2 estimated graduation within the observed window 1.1 percentage points lower from tutoring participation.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1789",
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.052",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "proportion difference",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "Graduated within the report's observed window; terminal date not established",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "2cf15f4ac847448c87f2a65999e0e577"
+            },
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "86c407ce9e7e49819e1cd8d07b20f4c8"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "10e82920d4684dee993f420cbadefa97",
+      "position": "a000",
+      "toEntity": {
+        "id": "10e82920d4684dee993f420cbadefa97",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.039",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "study-sample standard deviations",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "ITT estimate 0.159 (SE 0.039; N=1528; Appendix Table 5, p. A-12). Reported row q=0.001; the adjusted evidence supports a later math improvement.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.159",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "Eleventh-grade outcome as reported in Appendix Table 5",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "1",
+              "boolean": null
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "ITT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 1 estimated eleventh-grade CPS math scores 0.159 standard deviations higher from offering tutoring.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1528",
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "11th Grade CPS Math Test (Study Sample Z)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "6ff69ada18b54b1db98375da1b90df65"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "84a82b3de9684325a9ccf7603a562cb5"
+            },
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "e52d2e100edf4e54954ee9b76480c094",
+      "position": "a008",
+      "toEntity": {
+        "id": "e52d2e100edf4e54954ee9b76480c094",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 2 estimated eleventh-grade CPS math scores 0.027 standard deviations higher from offering tutoring.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "Eleventh-grade outcome as reported in Appendix Table 5",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "2",
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.027",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "study-sample standard deviations",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "ITT estimate 0.027 (SE 0.040; N=1445; Appendix Table 5, p. A-12). Reported row q=0.502; the adjusted evidence does not establish a later math improvement.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "11th Grade CPS Math Test (Study Sample Z)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.04",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1445",
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "ITT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "86c407ce9e7e49819e1cd8d07b20f4c8"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "1081a2fa417d4229adae4f92ac2c1288"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "toEntityId": "145a47ec061c4309acd83c33fc894fbd",
+      "position": "a004",
+      "toEntity": {
+        "id": "145a47ec061c4309acd83c33fc894fbd",
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "0e1320cbf9b3b4f5fe066780d1803b13",
+              "text": "Graduated On-Time",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "cc28953bd89e406096c9627021f4713d",
+              "text": null,
+              "decimal": "0.017",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Saga's Chicago study 1 estimated on-time graduation 0.1 percentage points higher from offering tutoring.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "8405509cc7354655a348591349a5f025",
+              "text": "proportion difference",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+              "text": null,
+              "decimal": "0.001",
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+              "text": null,
+              "decimal": null,
+              "integer": null,
+              "boolean": true
+            },
+            {
+              "propertyId": "ba643714da274c37a340a7f8396198dc",
+              "text": "ITT",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "03b87ec1e71f410db566c7f12920283d",
+              "text": null,
+              "decimal": null,
+              "integer": "1",
+              "boolean": null
+            },
+            {
+              "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+              "text": null,
+              "decimal": null,
+              "integer": "1819",
+              "boolean": null
+            },
+            {
+              "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+              "text": "On-time high-school graduation",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "ITT estimate 0.001 on the fraction scale (SE 0.017; N=1819; Appendix Table 5, p. A-12). Reported row q=0.972; this imprecise estimate does not establish a graduation benefit or no effect.",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            },
+            {
+              "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+              "text": "Appendix Table 5; printed p. A-12 (PDF p. 13)",
+              "decimal": null,
+              "integer": null,
+              "boolean": null
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "6ff69ada18b54b1db98375da1b90df65"
+            },
+            {
+              "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+              "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+            },
+            {
+              "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+              "toEntityId": "f32fcb97f3cb42a593f0b37efc3a16e4"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    }
+  ],
+  "scope": "All 16 later records directly reconciled to appendix transcription and qualified follow-up; correct own-trial and alternate-estimand links"
+}

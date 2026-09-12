@@ -1,0 +1,29 @@
+{
+  "term": "The Knowledge Gap",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T21:20:00.977Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "ff8ba365515749f4b2d70efe29cb1745",
+      "name": "The knowledge gap between completing graduate physics courses and starting frontier research is large and increasing.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmY4YmEzNjUtNTE1Ny00OWY0LWIyZDctMGVmZTI5Y2IxNzQ1Il1d"
+    }
+  ]
+}

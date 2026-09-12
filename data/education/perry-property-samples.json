@@ -1,0 +1,932 @@
+{
+  "checkedAt": "2026-09-11T20:32:58.713Z",
+  "scope": "Cross-space property schema and up to five actual uses; samples are not an exhaustive usage inventory",
+  "properties": {
+    "perspectives": {
+      "id": "8f637e6a629743c08eb9c49e971b2b54",
+      "schema": {
+        "property": {
+          "dataTypeName": "Relation"
+        },
+        "entity": {
+          "id": "8f637e6a629743c08eb9c49e971b2b54",
+          "name": "Perspectives",
+          "spaceIds": [
+            "a19c345ab9866679b001d7d2138d88a1"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Perspectives",
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+                "toEntityId": "4b898608b087410192147dcd5ae5d289",
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relationsConnection": {
+          "nodes": [
+            {
+              "fromEntity": {
+                "id": "0194a9bfdfd643f5808b23974271bb60",
+                "name": null
+              },
+              "toEntity": {
+                "id": "115bece311f945bc82b721e686684aa7",
+                "name": "Google DeepMind",
+                "description": "Research Lab, UK",
+                "types": [
+                  {
+                    "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+                    "name": "Topic"
+                  },
+                  {
+                    "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+                    "name": "Topic"
+                  }
+                ]
+              },
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    "populationStudied": {
+      "id": "aa77da401d9b4ca3b250fd24c9b8701f",
+      "checkedAt": "2026-09-11T20:11:28.567Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Relation"
+        },
+        "entity": {
+          "id": "aa77da401d9b4ca3b250fd24c9b8701f",
+          "name": "Population studied",
+          "spaceIds": [
+            "52c7ae149838b6d47ce0f3b2a5974546"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Population studied",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              },
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Identifies the participant group examined in a study, such as healthy adults, athletes, older adults, or people with specific conditions.",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              },
+              {
+                "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+                "toEntityId": "95930302f7294124a85db5ab33c8ad38",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relationsConnection": {
+          "nodes": [
+            {
+              "fromEntity": {
+                "id": "3da741e5778a491391a13fca49f5258e",
+                "name": "Sleep and recovery following cold water immersion in female netball players"
+              },
+              "toEntity": {
+                "id": "948ebdf6d03043d3b52dab826cf694a1",
+                "name": "Elite female netball players",
+                "description": null,
+                "types": [
+                  {
+                    "id": "95930302f7294124a85db5ab33c8ad38",
+                    "name": "Population"
+                  }
+                ]
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            },
+            {
+              "fromEntity": {
+                "id": "4347e98585a049bf83910e14aa270503",
+                "name": "Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans"
+              },
+              "toEntity": {
+                "id": "ef793edf85fa4f2a8a8d96fdefab73a7",
+                "name": "Healthy young adult males",
+                "description": null,
+                "types": [
+                  {
+                    "id": "95930302f7294124a85db5ab33c8ad38",
+                    "name": "Population"
+                  }
+                ]
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            },
+            {
+              "fromEntity": {
+                "id": "33433cff08314af1ab9be38cc3e537d8",
+                "name": "Altered brown fat thermoregulation and enhanced cold-induced thermogenesis in young, healthy, winter-swimming men"
+              },
+              "toEntity": {
+                "id": "9c16c80b09664fc28ad1d598933b4e3b",
+                "name": "Habitual winter swimmers and controls",
+                "description": null,
+                "types": [
+                  {
+                    "id": "95930302f7294124a85db5ab33c8ad38",
+                    "name": "Population"
+                  }
+                ]
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            },
+            {
+              "fromEntity": {
+                "id": "1bd3cba861484c5dba49525592caa17e",
+                "name": "Effect of three recovery methods on markers of overreaching and the onset of illness after competitive soccer"
+              },
+              "toEntity": {
+                "id": "48fb56d928bb409cbb61309cf73e726f",
+                "name": "Trained male trail runners",
+                "description": null,
+                "types": [
+                  {
+                    "id": "95930302f7294124a85db5ab33c8ad38",
+                    "name": "Population"
+                  }
+                ]
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            },
+            {
+              "fromEntity": {
+                "id": "b12f3eaca14e4ada825e2d133fb27561",
+                "name": "Open water swimming as a treatment for major depressive disorder"
+              },
+              "toEntity": {
+                "id": "478c1fbe4a284d6298f406d2d979c76b",
+                "name": "Patient with major depressive disorder",
+                "description": null,
+                "types": [
+                  {
+                    "id": "95930302f7294124a85db5ab33c8ad38",
+                    "name": "Population"
+                  }
+                ]
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    "sexApplicability": {
+      "id": "9c5468a2c7eb27fb2da11cf2e00b1289",
+      "checkedAt": "2026-09-11T20:17:59.660Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Text"
+        },
+        "entity": {
+          "id": "9c5468a2c7eb27fb2da11cf2e00b1289",
+          "name": "Sex applicability",
+          "spaceIds": [
+            "5c7851580401d2548e4f948d724b8794"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Sex applicability",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              },
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Sex applicability such as all, female, male, mixed, or unspecified.",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              },
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    "prevalence": {
+      "id": "5fdb053e145566dc7fbb23c184ae9752",
+      "checkedAt": "2026-09-11T20:20:32.043Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Text"
+        },
+        "entity": {
+          "id": "5fdb053e145566dc7fbb23c184ae9752",
+          "name": "Prevalence",
+          "spaceIds": [
+            "52c7ae149838b6d47ce0f3b2a5974546"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Prevalence",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              },
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "How common — X per 100,000 or % of population",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              },
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [
+            {
+              "entity": {
+                "id": "67d0dd3b82894ab48405f342807d1d46",
+                "name": "Systemic Mastocytosis with Associated Hematologic Neoplasm"
+              },
+              "text": "0.1",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "996487d85cc097dffff4b672d3247841"
+            },
+            {
+              "entity": {
+                "id": "8930d2a09d6943c1beca32fd456402c4",
+                "name": "Schizophrenia"
+              },
+              "text": "375",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "996487d85cc097dffff4b672d3247841"
+            },
+            {
+              "entity": {
+                "id": "e8c96adda0f540e6811fb2b9b2e16815",
+                "name": "Erdheim-Chester Disease"
+              },
+              "text": "0.01",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "996487d85cc097dffff4b672d3247841"
+            },
+            {
+              "entity": {
+                "id": "9e348a8261ee463ea784ad0cf96df62e",
+                "name": "Ataxia Telangiectasia"
+              },
+              "text": "0.25",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "996487d85cc097dffff4b672d3247841"
+            },
+            {
+              "entity": {
+                "id": "28ffc803035c437190af74b31895afd1",
+                "name": "Marfan Syndrome"
+              },
+              "text": "5",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "996487d85cc097dffff4b672d3247841"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    "standardError": {
+      "id": "cc28953bd89e406096c9627021f4713d",
+      "checkedAt": "2026-09-11T20:20:32.401Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Decimal"
+        },
+        "entity": {
+          "id": "cc28953bd89e406096c9627021f4713d",
+          "name": "Standard error",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Standard error",
+                "spaceId": "dac259bad48a11adf97fe36857d85206"
+              },
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Reported standard error of an estimate in the same units as that estimate.",
+                "spaceId": "dac259bad48a11adf97fe36857d85206"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "a3288c22a0564f6fb409fbcccb2c118c",
+                "spaceId": "dac259bad48a11adf97fe36857d85206"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "dac259bad48a11adf97fe36857d85206"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [
+            {
+              "entity": {
+                "id": "c234b1291e90415b9fa31a9f02782339",
+                "name": "STAR grade 1: regular class with full-time aide assignment effect"
+              },
+              "text": null,
+              "decimal": "0.76",
+              "integer": null,
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            },
+            {
+              "entity": {
+                "id": "3f178d30985c477094dbdd90937d8268",
+                "name": "Saga's Chicago study 1 estimated a year-one math ITT effect of 0.091 standard deviations."
+              },
+              "text": null,
+              "decimal": "0.035",
+              "integer": null,
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            },
+            {
+              "entity": {
+                "id": "939d786645e44217b3c435ca3a0c2b6b",
+                "name": "STAR grade 2: small class assignment effect"
+              },
+              "text": null,
+              "decimal": "1.1",
+              "integer": null,
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            },
+            {
+              "entity": {
+                "id": "604fb6007d6a4cc5ab52d489c9dc17bd",
+                "name": "Saga's Chicago study 2 estimated a year-one math TOT effect of 0.398 standard deviations."
+              },
+              "text": null,
+              "decimal": "0.105",
+              "integer": null,
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            },
+            {
+              "entity": {
+                "id": "28500731d7ea47869b219483710e0b1c",
+                "name": "STAR grade 3: regular class with full-time aide assignment effect"
+              },
+              "text": null,
+              "decimal": "0.81",
+              "integer": null,
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    "outcomeMeasureRegistry": {
+      "id": "0e1320cbf9b3b4f5fe066780d1803b13",
+      "checkedAt": "2026-09-11T20:32:59.073Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Text"
+        },
+        "entity": {
+          "id": "0e1320cbf9b3b4f5fe066780d1803b13",
+          "name": "Outcome measure",
+          "spaceIds": [
+            "03f7a1efafaeecaeae31a3b38fe9e446"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Primary or focal outcome measure for the extracted result.",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              },
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Outcome measure",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [
+            {
+              "entity": {
+                "id": "c54938f5d8d22d470cad6dbc03f7969a",
+                "name": "LSD-assisted psychotherapy for illness-related anxiety (Gasser et al., 2014)"
+              },
+              "text": "STAI trait anxiety",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "da24dc2815516d108c90d8bd258624c4",
+                "name": "IV ketamine plus cognitive training for depression (ClinicalIntuition card)"
+              },
+              "text": "MADRS depression score",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "81fe9198631f20889767649e0fe94711",
+                "name": "Single-dose psilocybin for treatment-resistant depression (COMP360, 2022)"
+              },
+              "text": "MADRS total score change",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "159202ea3f92cd1cc1bd2783be6b033f",
+                "name": "Ayahuasca for treatment-resistant depression (Palhano-Fontes et al., 2019)"
+              },
+              "text": "MADRS depression score",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "d86ea58c02bc453d4278d51df6a29569",
+                "name": "MDMA-assisted therapy for PTSD (MAPP2, 2023)"
+              },
+              "text": "CAPS-5 total severity score change",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    "outcomeMeasureEvidence": {
+      "id": "7e21c59657cbc9bc84e1c579e3eb9286",
+      "checkedAt": "2026-09-11T20:32:59.854Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Text"
+        },
+        "entity": {
+          "id": "7e21c59657cbc9bc84e1c579e3eb9286",
+          "name": "Outcome measure",
+          "spaceIds": [
+            "5c7851580401d2548e4f948d724b8794"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Outcome measure",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              },
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Specific outcome measure used in a study finding.",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [
+            {
+              "entity": {
+                "id": "a9087bb1fe6d2122e21d595e54e0040b",
+                "name": "Position stand: Muscle strength"
+              },
+              "text": "Muscle strength",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            },
+            {
+              "entity": {
+                "id": "59bc34a6130e957bff7a9ca11e4ea6ed",
+                "name": "Meta-analysis: Sleep latency"
+              },
+              "text": "Sleep latency",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            },
+            {
+              "entity": {
+                "id": "4bfc40db854e96ceff95dd25bccc9dc4",
+                "name": "Position stand: Exercise performance"
+              },
+              "text": "Exercise performance",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            },
+            {
+              "entity": {
+                "id": "384b92d36f2f0c8799285c5522e49e61",
+                "name": "Position stand: Lean mass"
+              },
+              "text": "Lean mass",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            },
+            {
+              "entity": {
+                "id": "8500bca69649c5e91f7e7e454783fbb8",
+                "name": "Fact sheet: Iron deficiency"
+              },
+              "text": "Iron deficiency",
+              "decimal": null,
+              "integer": null,
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    "targetOutcomes": {
+      "id": "6b57bd23b7324ae0a1671658768df9ad",
+      "checkedAt": "2026-09-11T20:33:02.427Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Relation"
+        },
+        "entity": {
+          "id": "6b57bd23b7324ae0a1671658768df9ad",
+          "name": "Target outcomes",
+          "spaceIds": [
+            "52c7ae149838b6d47ce0f3b2a5974546"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Measured or intended effects used to assess intervention impact on physiology symptoms or performance.",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              },
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Target outcomes",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              },
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              },
+              {
+                "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+                "toEntityId": "f2b630264277424ca8038e4f748fcfc3",
+                "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "relationsConnection": {
+          "nodes": [
+            {
+              "fromEntity": {
+                "id": "968180625ee5412894b8a9e743a98035",
+                "name": "Bright light therapy"
+              },
+              "toEntity": {
+                "id": "627cb7a089494235a3f4f4df5f4d1d95",
+                "name": "Mood regulation",
+                "description": "Capacity to modulate and stabilize emotional states in response to internal and external stressors.",
+                "types": [
+                  {
+                    "id": "f2b630264277424ca8038e4f748fcfc3",
+                    "name": "Target outcome"
+                  },
+                  {
+                    "id": "f2b630264277424ca8038e4f748fcfc3",
+                    "name": "Target outcome"
+                  }
+                ]
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            },
+            {
+              "fromEntity": {
+                "id": "b574f45838564511a9fdce76b3623fc2",
+                "name": "16:8 intermittent fasting"
+              },
+              "toEntity": {
+                "id": "4b1cda583be0464eb68afcbc454deeda",
+                "name": "Insulin sensitivity",
+                "description": "Degree to which the body's cells respond to insulin and take up glucose efficiently.",
+                "types": [
+                  {
+                    "id": "ae55d7ba64f44bbbb7dd55fc008c8d4d",
+                    "name": "Health outcome"
+                  },
+                  {
+                    "id": "f2b630264277424ca8038e4f748fcfc3",
+                    "name": "Target outcome"
+                  },
+                  {
+                    "id": "f2b630264277424ca8038e4f748fcfc3",
+                    "name": "Target outcome"
+                  },
+                  {
+                    "id": "f2b630264277424ca8038e4f748fcfc3",
+                    "name": "Target outcome"
+                  }
+                ]
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            },
+            {
+              "fromEntity": {
+                "id": "c9b820037f92487e92095ad67671ecfa",
+                "name": "Breathwork"
+              },
+              "toEntity": {
+                "id": "3ace2b45a5c64ddba1b59f91d6077810",
+                "name": "Sleep improvement",
+                "description": "Improvement in sleep quality, latency, or duration, often measured by validated instruments such as the Pittsburgh Sleep Quality Index or actigraphy.",
+                "types": [
+                  {
+                    "id": "f2b630264277424ca8038e4f748fcfc3",
+                    "name": "Target outcome"
+                  }
+                ]
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            },
+            {
+              "fromEntity": {
+                "id": "41b0c8d2d5ed4797a1b5de3548fba216",
+                "name": "Cold face immersion"
+              },
+              "toEntity": {
+                "id": "4b99daed8ef9443d9db2a3766c3db1ba",
+                "name": "Cardiac vagal activity increase",
+                "description": "Strengthening of parasympathetic nervous system influence on cardiac function.",
+                "types": [
+                  {
+                    "id": "f2b630264277424ca8038e4f748fcfc3",
+                    "name": "Target outcome"
+                  },
+                  {
+                    "id": "f2b630264277424ca8038e4f748fcfc3",
+                    "name": "Target outcome"
+                  }
+                ]
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            },
+            {
+              "fromEntity": {
+                "id": "41b0c8d2d5ed4797a1b5de3548fba216",
+                "name": "Cold face immersion"
+              },
+              "toEntity": {
+                "id": "d6070e1ace1b48dbbf7eebb0e5e58ecb",
+                "name": "Stress reduction",
+                "description": "Decrease in physiological arousal and psychological strain associated with the acute or chronic stress response.",
+                "types": [
+                  {
+                    "id": "f2b630264277424ca8038e4f748fcfc3",
+                    "name": "Target outcome"
+                  },
+                  {
+                    "id": "f2b630264277424ca8038e4f748fcfc3",
+                    "name": "Target outcome"
+                  },
+                  {
+                    "id": "f2b630264277424ca8038e4f748fcfc3",
+                    "name": "Target outcome"
+                  },
+                  {
+                    "id": "f2b630264277424ca8038e4f748fcfc3",
+                    "name": "Target outcome"
+                  }
+                ]
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    }
+  }
+}

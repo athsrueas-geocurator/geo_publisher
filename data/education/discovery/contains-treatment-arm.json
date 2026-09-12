@@ -1,0 +1,103 @@
+{
+  "term": "treatment arm",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T19:21:40.480Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "1835eda4c3494d16b2fa14b97dac0d80",
+      "name": "ADC Therapeutics attributed the higher death rate in part to the older patient population and longer adverse event monitoring in the treatment arm, where patients stayed on therapy longer as control-arm patients often switched early to other treatments",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "2c0fa289d88f46eda9b49af58f114a50",
+      "name": "Both active treatment arms in the Phase 2 study showed numerical separation from placebo in subjective units of distress score changes, though the differences were not statistically significant.",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "87d0590c288043a78dd321369a654a67",
+      "name": "There were 27 deaths, or 13.2%, in the ADC Therapeutics Zynlonta treatment arm, compared with 9 deaths, or 4.6%, in the control arm that received Rituxan and chemotherapy",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "c9773671439743a2be07bf81a32983d1",
+      "name": "Over 12 weeks, 23.3% of participants in the treatment arm experienced serious adverse events compared with 11.9% in the placebo arm, though investigators determined none were related to the study medication.",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "e6b3c57fab224c4d87a7f57758edb0b7",
+      "name": "Most deaths in the ADC Therapeutics Zynlonta treatment arm occurred in patients aged 75 years or older",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "f1c573ebe7fa425aa2392b843ee9faac",
+      "name": "The physician's choice treatment arm in the phase 2 trial consisted of paclitaxel, irinotecan, apatinib, or an anti-PD-1 antibody, alongside best supportive care",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTZiM2M1N2YtYWIyMi00YzRkLTg3YTctZjU3NzU4ZWRiMGI3Il1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjFjNTczZWItZTdmYS00MjVhLWEyMzktMmI4NDNlZTlmYWFjIl1d"
+    }
+  ]
+}

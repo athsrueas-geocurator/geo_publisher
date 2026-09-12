@@ -1,0 +1,61 @@
+{
+  "term": "pathways",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:35.284Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "4778ecd60f91ca43ca665296abf3b265",
+      "name": "Pathways",
+      "description": "Reactome, PID, and WikiPathways pathway context connected to curated disease genes.",
+      "spaceIds": [
+        "141d3ace705feabc04d50c78bbf7226e"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    },
+    {
+      "id": "7a4ab56d8b814204b10f54d2f7a5e021",
+      "name": "Pathways",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    },
+    {
+      "id": "bfce1b058f4021df7289aa474e599bdb",
+      "name": "Pathways",
+      "description": "Reactome, PID, and WikiPathways pathway context connected to curated disease genes.",
+      "spaceIds": [
+        "141d3ace705feabc04d50c78bbf7226e"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        },
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYmZjZTFiMDUtOGY0MC0yMWRmLTcyODktYWE0NzRlNTk5YmRiIl1d"
+    }
+  ]
+}

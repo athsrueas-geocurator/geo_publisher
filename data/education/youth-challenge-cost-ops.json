@@ -1,0 +1,215 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4abdb70198d949288df61d50f0b458cc"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "A Cost-Benefit Analysis of the National Guard Youth ChalleNGe Program",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "RAND’s 2012 model-based cost-benefit analysis of the same ten sites used in the Youth ChalleNGe randomized evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.rand.org/pubs/technical_reports/TR1193.html",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2a368fcb074f4166a0fb99d9e2bf4de0"
+    },
+    "entity": {
+      "$bytes": "379b7ff5a2014d54bfe3d67a34d92a9c"
+    },
+    "from": {
+      "$bytes": "4abdb70198d949288df61d50f0b458cc"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a029w"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8eaead9541df4ee7af83f8d952f742f0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Youth ChalleNGe operating cost averaged $11,633 per admittee in 2010 dollars across ten evaluation sites.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is the report’s operating-cost observation, not its total societal cost or a cost-effectiveness ratio. It is linked to a separate lifetime-model analysis.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "11633"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2010"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Average operating cost per admitted cadet across the ten evaluation sites.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "22faa8baa5de48618e0edf639cd671f8"
+    },
+    "entity": {
+      "$bytes": "bfa2e09a8c964747b342f3fe4eccb5ea"
+    },
+    "from": {
+      "$bytes": "8eaead9541df4ee7af83f8d952f742f0"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08dD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "39e1729d7f864d059143d76bae3aab5f"
+    },
+    "entity": {
+      "$bytes": "798370f6ebbc44c1a47c1748e252c5a7"
+    },
+    "from": {
+      "$bytes": "8eaead9541df4ee7af83f8d952f742f0"
+    },
+    "to": {
+      "$bytes": "4abdb70198d949288df61d50f0b458cc"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01jW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0c32f133d70e4e00a2eb5f4dca2de0bc"
+    },
+    "entity": {
+      "$bytes": "80cfcb615b1440648065a498a0f84292"
+    },
+    "from": {
+      "$bytes": "8eaead9541df4ee7af83f8d952f742f0"
+    },
+    "to": {
+      "$bytes": "c52c01e8bab14e64b56b8ceb7c244da5"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00CN"
+  }
+]

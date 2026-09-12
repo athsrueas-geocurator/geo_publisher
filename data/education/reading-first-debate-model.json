@@ -1,0 +1,74 @@
+{
+  "status": "Reviewed debate model; not yet submitted",
+  "sourceRegistry": "reading-first-registry",
+  "topicId": "4401d523f6c542d5b20020cf4a6cac50",
+  "topicName": "Reading education",
+  "discovery": ["debate-proposition-discovery", "reading-first-debate-discovery"],
+  "parents": [
+    {
+      "key": "decoding-sufficient",
+      "name": "Reading First's decoding gains justify treating the program as an educational success.",
+      "description": "This evaluative position gives substantial weight to improved first-grade decoding despite no statistically significant comprehension gains in grades 1–3. The evaluation supplies the findings; it does not establish this judgment of overall success.",
+      "isFactual": false
+    },
+    {
+      "key": "comprehension-required",
+      "name": "Reading First should not be judged successful without demonstrated gains in reading comprehension.",
+      "description": "This evaluative position treats demonstrated comprehension gains as necessary for program success. It acknowledges the measured first-grade decoding improvement while disputing whether that benefit is sufficient.",
+      "isFactual": false
+    }
+  ],
+  "evidence": [
+    {"key": "decoding", "registryKey": "estimate/toswrf-decoding-g1/native", "isFactual": true, "sourceContrast": "toswrf-decoding-g1", "representation": "native"},
+    {"key": "comprehension-1", "registryKey": "estimate/sat10-score-g1/native", "isFactual": true, "sourceContrast": "sat10-score-g1", "representation": "native"},
+    {"key": "comprehension-2", "registryKey": "estimate/sat10-score-g2/native", "isFactual": true, "sourceContrast": "sat10-score-g2", "representation": "native"},
+    {"key": "comprehension-3", "registryKey": "estimate/sat10-score-g3/native", "isFactual": true, "sourceContrast": "sat10-score-g3", "representation": "native"}
+  ],
+  "pairs": [
+    {
+      "a": "decoding-sufficient", "b": "comprehension-required", "related": "both", "bracket": "OPPOSES", "argumentDirection": "both", "confidence": "high",
+      "reason": "These explicitly disagree over whether decoding gains are sufficient for a success judgment when comprehension gains are not demonstrated. Both are evaluative, not attributed report conclusions."
+    },
+    {
+      "a": "decoding-sufficient", "b": "decoding", "related": "both", "bracket": "SUPPORTS", "argumentDirection": "a-to-b", "confidence": "high",
+      "reason": "The significant grade-one decoding estimate establishes the measured benefit invoked by the parent's success argument; the evidence informs but does not logically settle the value judgment."
+    },
+    {
+      "a": "decoding-sufficient", "b": "comprehension-1", "related": "both", "bracket": "RELATED-ONLY", "confidence": "high",
+      "reason": "The parent already acknowledges lack of demonstrated comprehension gains. This coefficient is relevant context, not a direct contradiction of the sufficiency judgment. The opposing evaluative parent supplies that argument."
+    },
+    {
+      "a": "decoding-sufficient", "b": "comprehension-2", "related": "both", "bracket": "RELATED-ONLY", "confidence": "high",
+      "reason": "Relevant outcome context, not by itself a rebuttal of the explicitly acknowledged tradeoff."
+    },
+    {
+      "a": "decoding-sufficient", "b": "comprehension-3", "related": "both", "bracket": "RELATED-ONLY", "confidence": "high",
+      "reason": "Relevant outcome context, not by itself a rebuttal of the explicitly acknowledged tradeoff."
+    },
+    {
+      "a": "comprehension-required", "b": "decoding", "related": "both", "bracket": "RELATED-ONLY", "confidence": "high",
+      "reason": "The parent acknowledges decoding gains; that result alone does not contradict its success criterion. Opposition is expressed by the competing evaluative parent."
+    },
+    {
+      "a": "comprehension-required", "b": "comprehension-1", "related": "both", "bracket": "SUPPORTS", "argumentDirection": "a-to-b", "confidence": "high",
+      "reason": "The nonsignificant grade-one estimate establishes the unmet evidence condition invoked in judging Reading First; it does not establish zero effect."
+    },
+    {
+      "a": "comprehension-required", "b": "comprehension-2", "related": "both", "bracket": "SUPPORTS", "argumentDirection": "a-to-b", "confidence": "high",
+      "reason": "The nonsignificant grade-two estimate is relevant evidence under the stated comprehension criterion; not proof of zero effect."
+    },
+    {
+      "a": "comprehension-required", "b": "comprehension-3", "related": "both", "bracket": "SUPPORTS", "argumentDirection": "a-to-b", "confidence": "high",
+      "reason": "The nonsignificant grade-three estimate is relevant evidence under the stated comprehension criterion; not proof of zero effect."
+    }
+  ],
+  "publicationOrder": ["Create/reuse parents and publish Related grouping with source/study/dataset links", "Verify Related grouping and parent rendering", "Re-adjudicate and publish supporting/opposing brackets", "Verify graph traversal and displayed argument labels"],
+  "guardrails": [
+    "The two parent descriptions explicitly distinguish editorial evaluation from the report's empirical results.",
+    "Read exact numeric evidence from the reviewed extraction at runtime; preserve all values and existing identities.",
+    "Native and standardized forms are the same contrast; link through existing alternate-form relations rather than count twice.",
+    "The grade-one, grade-two and grade-three outcomes share one evaluation, not three independent studies.",
+    "Do not manufacture a delivery cost or a cost-effectiveness comparison.",
+    "Related-only classifications must not automatically become Opposing arguments."
+  ]
+}

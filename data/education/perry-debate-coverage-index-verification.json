@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-09-12T03:03:43.248Z",
+  "batchName": "Update Perry dataset coverage for published age-horizon comparison",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 1,
+  "checks": [
+    {
+      "entityId": "c712fcddf2d44901967c1fe08a1d90cb",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

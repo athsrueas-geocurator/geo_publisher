@@ -1,0 +1,1966 @@
+[
+  {
+    "slug": "a-nation-at-risk-modern-standards-movement",
+    "id": 1,
+    "name": "A Nation at Risk / modern standards movement",
+    "years": "1983 onward; national agenda",
+    "category": "Standards/accountability",
+    "theoryOfAction": "Raise expectations by making academic standards, assessment, and public accountability central to schooling.",
+    "inputVariablesChanged": "State standards, graduation requirements, public reporting, assessment emphasis",
+    "targetPopulation": "K-12 systems",
+    "evaluationDesigns": "Historical synthesis; state trend evidence",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "limited-descriptive",
+    "outputsMeasured": "NAEP, state tests, graduation requirements",
+    "normalizationIssues": "Hard to isolate from demographic, fiscal, and accountability changes that followed.",
+    "oneLineFinding": "Important agenda-setting reform, but not a discrete intervention with clean causal estimates.",
+    "sourceIds": [
+      "src-001",
+      "src-002"
+    ],
+    "tags": "standards; history",
+    "relatedDichotomySlugs": [
+      "knowledge-rich-curriculum-vs-generic-skills",
+      "direct-instruction-vs-inquiry-project-based-learning",
+      "standardization-accountability-vs-professional-autonomy",
+      "central-curriculum-hqim-vs-teacher-created-materials",
+      "sel-whole-child-vs-academics-first",
+      "data-driven-continuous-improvement-vs-big-bang-reform",
+      "bilingual-dual-language-vs-english-immersion",
+      "more-money-resources-vs-money-does-not-matter"
+    ]
+  },
+  {
+    "slug": "goals-2000-standards-based-reform",
+    "id": 2,
+    "name": "Goals 2000 / standards-based reform",
+    "years": "1994 onward; federal-state",
+    "category": "Standards/accountability",
+    "theoryOfAction": "Encourage states to define rigorous goals and align curricula and assessments.",
+    "inputVariablesChanged": "Standards adoption, planning grants, assessment alignment",
+    "targetPopulation": "States and districts",
+    "evaluationDesigns": "Historical/descriptive; state panel comparisons",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "limited-descriptive",
+    "outputsMeasured": "State assessments, NAEP, graduation",
+    "normalizationIssues": "State standards differed widely; implementation and assessment quality varied.",
+    "oneLineFinding": "Helped institutionalize standards-based reform but evidence is mostly indirect.",
+    "sourceIds": [
+      "src-001",
+      "src-002"
+    ],
+    "tags": "standards; federal",
+    "relatedDichotomySlugs": [
+      "standardization-accountability-vs-professional-autonomy"
+    ]
+  },
+  {
+    "slug": "state-test-based-accountability-before-nclb",
+    "id": 3,
+    "name": "State test-based accountability before NCLB",
+    "years": "1990s-early 2000s; state systems",
+    "category": "Standards/accountability",
+    "theoryOfAction": "Use public test results and consequences to focus schools on achievement.",
+    "inputVariablesChanged": "Test frequency, rating systems, sanctions/rewards, proficiency thresholds",
+    "targetPopulation": "Schools and districts",
+    "evaluationDesigns": "State panel, NAEP trend, difference-in-differences",
+    "methodTags": [
+      "Difference-in-differences",
+      "Descriptive"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "NAEP math/reading, state proficiency, gaps",
+    "normalizationIssues": "Researchers use NAEP to avoid state test inflation, but cross-state accountability intensity is hard to code.",
+    "oneLineFinding": "Pre-NCLB accountability often raised measured math achievement more than reading, with risks of narrowing and gaming.",
+    "sourceIds": [
+      "src-003",
+      "src-001"
+    ],
+    "tags": "accountability; testing",
+    "relatedDichotomySlugs": [
+      "standardization-accountability-vs-professional-autonomy"
+    ]
+  },
+  {
+    "slug": "no-child-left-behind",
+    "id": 4,
+    "name": "No Child Left Behind",
+    "years": "2002-2015; federal",
+    "category": "Standards/accountability",
+    "theoryOfAction": "Annual testing, subgroup reporting, and sanctions should pressure schools to improve proficiency for all groups.",
+    "inputVariablesChanged": "Annual grades 3-8 testing, AYP targets, sanctions, public reporting, subgroup accountability",
+    "targetPopulation": "All public schools receiving federal funds",
+    "evaluationDesigns": "NAEP state panel; event study; state accountability comparisons",
+    "methodTags": [
+      "Event study"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "NAEP scale scores, state proficiency, subgroup gaps",
+    "normalizationIssues": "Best comparisons use NAEP rather than state tests because state cut scores and test stakes changed.",
+    "oneLineFinding": "Evidence points to some math gains, weaker reading effects, and substantial incentives to narrow curriculum or game thresholds.",
+    "sourceIds": [
+      "src-003",
+      "src-001"
+    ],
+    "tags": "accountability; NCLB",
+    "relatedDichotomySlugs": [
+      "standardization-accountability-vs-professional-autonomy"
+    ]
+  },
+  {
+    "slug": "race-to-the-top",
+    "id": 5,
+    "name": "Race to the Top",
+    "years": "2009-2017; federal competitive grants",
+    "category": "Standards/accountability",
+    "theoryOfAction": "Competitive funding would induce states to adopt coherent reforms in standards, data, teacher evaluation, and turnaround.",
+    "inputVariablesChanged": "Grant dollars, Common Core incentives, data systems, teacher evaluation, turnaround plans",
+    "targetPopulation": "States",
+    "evaluationDesigns": "State comparisons; policy implementation surveys; achievement trend analysis",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "NAEP, state tests, policy adoption, teacher evaluation implementation",
+    "normalizationIssues": "Winners differed from non-winners before grants; reforms were bundled and adoption was political.",
+    "oneLineFinding": "Large policy adoption effects; achievement effects were not consistently strong or easy to attribute.",
+    "sourceIds": [
+      "src-004",
+      "src-005"
+    ],
+    "tags": "federal grants; state reform",
+    "relatedDichotomySlugs": [
+      "standardization-accountability-vs-professional-autonomy"
+    ]
+  },
+  {
+    "slug": "school-improvement-grants",
+    "id": 6,
+    "name": "School Improvement Grants",
+    "years": "2009-2016 major ARRA expansion; federal/state",
+    "category": "Standards/accountability",
+    "theoryOfAction": "Concentrated funds and prescribed turnaround models should change the lowest-performing schools quickly.",
+    "inputVariablesChanged": "Turnaround, transformation, restart, closure models; leadership changes; staffing; extended time",
+    "targetPopulation": "Lowest-performing schools",
+    "evaluationDesigns": "Regression discontinuity; implementation study",
+    "methodTags": [
+      "Regression discontinuity"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "State test scores, graduation, school practices",
+    "normalizationIssues": "Cutoff-based RD compares schools near eligibility thresholds, not all low-performing schools.",
+    "oneLineFinding": "The national evaluation found weak average impacts despite large funding; implementation and model quality varied.",
+    "sourceIds": [
+      "src-006",
+      "src-074"
+    ],
+    "tags": "turnaround; federal grants",
+    "relatedDichotomySlugs": [
+      "standardization-accountability-vs-professional-autonomy"
+    ]
+  },
+  {
+    "slug": "essa-evidence-tiers-and-evidence-based-intervention-requirements",
+    "id": 7,
+    "name": "ESSA evidence tiers and evidence-based intervention requirements",
+    "years": "2015 onward; federal framework",
+    "category": "Evidence infrastructure",
+    "theoryOfAction": "Classify and encourage use of interventions backed by rigorous evidence.",
+    "inputVariablesChanged": "Evidence tier rules, grant requirements, intervention review standards",
+    "targetPopulation": "States, districts, schools",
+    "evaluationDesigns": "Evidence standards framework",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "not-outcome-intervention",
+    "outputsMeasured": "Evidence tiers, study quality, implementation plans",
+    "normalizationIssues": "Tiers are about evidence strength, not guaranteed local effect; external validity still matters.",
+    "oneLineFinding": "Useful infrastructure for comparing studies, but it does not itself improve learning without good implementation.",
+    "sourceIds": [
+      "src-007",
+      "src-002",
+      "src-008"
+    ],
+    "tags": "evidence tiers; ESSA",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "common-core-state-standards-and-aligned-assessments",
+    "id": 8,
+    "name": "Common Core State Standards and aligned assessments",
+    "years": "2010s; multi-state",
+    "category": "Standards/accountability",
+    "theoryOfAction": "Common, higher standards and aligned tests should make expectations clearer and improve college readiness.",
+    "inputVariablesChanged": "ELA/math standards, test alignment, teacher guidance, curriculum shifts",
+    "targetPopulation": "States, districts, grades K-12",
+    "evaluationDesigns": "Implementation studies; teacher panels; state trend analysis; C-SAIL design",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "NAEP, state tests, teacher knowledge/practice, assessment alignment",
+    "normalizationIssues": "Adoption timing overlaps with recession, NCLB waivers, RTT, assessment changes, and local curriculum decisions.",
+    "oneLineFinding": "Implementation was uneven; evidence does not support the idea that standards alone generate large achievement gains.",
+    "sourceIds": [
+      "src-005",
+      "src-009"
+    ],
+    "tags": "Common Core; standards",
+    "relatedDichotomySlugs": [
+      "standardization-accountability-vs-professional-autonomy"
+    ]
+  },
+  {
+    "slug": "mississippi-literacy-based-promotion-act-mississippi-miracle",
+    "id": 9,
+    "name": "Mississippi Literacy-Based Promotion Act / 'Mississippi miracle'",
+    "years": "2013 onward; state",
+    "category": "Literacy",
+    "theoryOfAction": "Pair early screening, teacher training, coaching, interventions, and third-grade promotion rules to improve early reading.",
+    "inputVariablesChanged": "K-3 literacy instruction, phonics emphasis, reading coaches, intervention plans, retention/promotion threshold",
+    "targetPopulation": "Mississippi K-3 students and educators",
+    "evaluationDesigns": "State trends; NAEP comparison; RD/quasi evidence on retention",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Third-grade reading pass rates, NAEP grade 4 reading, state ELA, retention and exemptions",
+    "normalizationIssues": "NAEP gains are state-level and bundled; retention changes who appears in grade 4, so researchers analyze both policy components and cohort composition.",
+    "oneLineFinding": "Mississippi is one of the most cited recent literacy success cases, but the causal mechanism is a policy bundle rather than one isolated program.",
+    "sourceIds": [
+      "src-010",
+      "src-011",
+      "src-012",
+      "src-013"
+    ],
+    "tags": "literacy; phonics; retention; state policy",
+    "relatedDichotomySlugs": [
+      "whole-language-balanced-literacy-vs-phonics-science-of-reading"
+    ]
+  },
+  {
+    "slug": "science-of-reading-state-policy-wave",
+    "id": 10,
+    "name": "Science of Reading state policy wave",
+    "years": "2019 onward; many states",
+    "category": "Literacy",
+    "theoryOfAction": "Move teacher preparation and classroom practice toward explicit, systematic instruction in foundational reading skills plus language comprehension.",
+    "inputVariablesChanged": "Teacher prep standards, licensure tests, curriculum bans/approvals, coaching, screeners",
+    "targetPopulation": "K-5 literacy teachers and students",
+    "evaluationDesigns": "Implementation studies; state trend comparisons; emerging causal work",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "limited-descriptive",
+    "outputsMeasured": "Screeners, state reading scores, NAEP, curriculum adoption, teacher knowledge",
+    "normalizationIssues": "Policies differ in what they mandate; teacher knowledge and classroom fidelity are not the same as law passage.",
+    "oneLineFinding": "Highly influential and evidence-aligned in direction, but cross-state causal estimates are still emerging.",
+    "sourceIds": [
+      "src-014",
+      "src-010",
+      "src-015"
+    ],
+    "tags": "science of reading; teacher prep",
+    "relatedDichotomySlugs": [
+      "whole-language-balanced-literacy-vs-phonics-science-of-reading"
+    ]
+  },
+  {
+    "slug": "national-reading-panel-synthesis",
+    "id": 11,
+    "name": "National Reading Panel synthesis",
+    "years": "2000; federal evidence review",
+    "category": "Evidence infrastructure",
+    "theoryOfAction": "Identify components of reading instruction with experimental or quasi-experimental support.",
+    "inputVariablesChanged": "Evidence review of phonemic awareness, phonics, fluency, vocabulary, comprehension",
+    "targetPopulation": "Reading researchers, policymakers, educators",
+    "evaluationDesigns": "Systematic evidence review",
+    "methodTags": [
+      "Systematic review"
+    ],
+    "evidenceStrength": "not-outcome-intervention",
+    "outputsMeasured": "Effect sizes by reading domain",
+    "normalizationIssues": "The review synthesized studies rather than evaluating a single program; later policies sometimes oversimplified the findings.",
+    "oneLineFinding": "It became the foundation for much of the phonics/science-of-reading policy debate.",
+    "sourceIds": [
+      "src-014",
+      "src-099"
+    ],
+    "tags": "reading research; evidence review",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "reading-first",
+    "id": 12,
+    "name": "Reading First",
+    "years": "2002-2008; federal grants",
+    "category": "Literacy",
+    "theoryOfAction": "Fund scientifically based reading instruction and assessment systems in high-poverty schools.",
+    "inputVariablesChanged": "Reading coaches, PD, K-3 curricula, assessment, instructional time",
+    "targetPopulation": "K-3 students in participating schools",
+    "evaluationDesigns": "Regression discontinuity; randomized component; implementation study",
+    "methodTags": [
+      "RCT",
+      "Regression discontinuity"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Reading comprehension, decoding, instruction time, teacher practice",
+    "normalizationIssues": "The evaluation tests the federal grant implementation, not the National Reading Panel findings themselves.",
+    "oneLineFinding": "Improved some reading instruction measures but did not produce clear broad comprehension gains in the national impact study.",
+    "sourceIds": [
+      "src-015",
+      "src-014"
+    ],
+    "tags": "Reading First; NCLB; literacy",
+    "relatedDichotomySlugs": [
+      "whole-language-balanced-literacy-vs-phonics-science-of-reading"
+    ]
+  },
+  {
+    "slug": "success-for-all",
+    "id": 13,
+    "name": "Success for All",
+    "years": "1987 onward; whole-school literacy",
+    "category": "Curriculum/pedagogy",
+    "theoryOfAction": "Use a coherent literacy block, frequent assessment, grouping, tutoring, family support, and schoolwide facilitation.",
+    "inputVariablesChanged": "90-minute reading block, cooperative learning, assessments, tutoring, facilitator, family supports",
+    "targetPopulation": "Pre-K to grade 8, especially high-poverty schools",
+    "evaluationDesigns": "RCTs; WWC intervention reviews; meta-analysis",
+    "methodTags": [
+      "RCT",
+      "Meta-analysis"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Reading achievement, phonics, comprehension, school implementation",
+    "normalizationIssues": "Effects depend on fidelity and whole-school adoption; comparisons should account for program maturity.",
+    "oneLineFinding": "One of the better-studied comprehensive literacy models, with positive evidence in multiple reviews.",
+    "sourceIds": [
+      "src-016",
+      "src-002"
+    ],
+    "tags": "whole-school reform; literacy",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "reading-recovery",
+    "id": 14,
+    "name": "Reading Recovery",
+    "years": "1980s onward; early intervention",
+    "category": "Literacy",
+    "theoryOfAction": "Provide intensive one-to-one tutoring to struggling first-grade readers before failure compounds.",
+    "inputVariablesChanged": "Daily 1:1 lessons, trained teachers, early identification, discontinuation rules",
+    "targetPopulation": "Lowest-performing grade 1 readers",
+    "evaluationDesigns": "RCTs; WWC review; longitudinal follow-up debates",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Literacy achievement, writing, decoding, reading levels",
+    "normalizationIssues": "Selection, attrition, cost, and fadeout are central; ITT and treatment-on-treated estimates can diverge.",
+    "oneLineFinding": "Short-run reading gains are supported in some studies, but cost, scale, and longer-run durability remain contested.",
+    "sourceIds": [
+      "src-017",
+      "src-002"
+    ],
+    "tags": "early intervention; tutoring",
+    "relatedDichotomySlugs": [
+      "remediation-readiness-vs-grade-level-acceleration",
+      "tracking-acceleration-vs-detracking-inclusion"
+    ]
+  },
+  {
+    "slug": "balanced-literacy-workshop-models",
+    "id": 15,
+    "name": "Balanced literacy / workshop models",
+    "years": "1990s-2020s; district curricula",
+    "category": "Literacy",
+    "theoryOfAction": "Build authentic reading/writing habits through leveled texts, mini-lessons, choice, and teacher conferences.",
+    "inputVariablesChanged": "Leveled readers, independent reading, cueing, writing workshop, classroom libraries",
+    "targetPopulation": "Elementary literacy classrooms",
+    "evaluationDesigns": "Implementation studies; curriculum comparisons; descriptive district trend evidence",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Reading comprehension, decoding, motivation, state reading scores",
+    "normalizationIssues": "The label covers diverse practice; some classrooms included phonics while others underemphasized decoding.",
+    "oneLineFinding": "Popular and influential, but evidence concerns about weak systematic decoding instruction drove many recent curriculum changes.",
+    "sourceIds": [
+      "src-014",
+      "src-010"
+    ],
+    "tags": "balanced literacy; workshop",
+    "relatedDichotomySlugs": [
+      "whole-language-balanced-literacy-vs-phonics-science-of-reading"
+    ]
+  },
+  {
+    "slug": "direct-instruction-project-follow-through",
+    "id": 16,
+    "name": "Direct Instruction / Project Follow Through",
+    "years": "1968 onward; federal demonstration and programs",
+    "category": "Curriculum/pedagogy",
+    "theoryOfAction": "Use explicit, scripted, sequenced instruction with high practice and immediate feedback.",
+    "inputVariablesChanged": "Scripted lessons, mastery tests, teacher pacing, explicit modeling, corrective feedback",
+    "targetPopulation": "Elementary students, historically including high-poverty sites",
+    "evaluationDesigns": "Long-term follow-up; quasi-experimental and program evaluations",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Standardized tests, dropout, college application",
+    "normalizationIssues": "Follow Through comparisons are historically important but not designed like modern multisite RCTs.",
+    "oneLineFinding": "A major counterexample to claims that highly explicit instruction is inherently low-level.",
+    "sourceIds": [
+      "src-018",
+      "src-102"
+    ],
+    "tags": "direct instruction; explicit teaching",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "core-knowledge-knowledge-rich-curriculum",
+    "id": 17,
+    "name": "Core Knowledge / knowledge-rich curriculum",
+    "years": "1990s onward; school and network adoption",
+    "category": "Curriculum/pedagogy",
+    "theoryOfAction": "Reading comprehension and civic learning improve when students build systematic background knowledge across domains.",
+    "inputVariablesChanged": "Sequenced content, literature/history/science knowledge, vocabulary, curriculum coherence",
+    "targetPopulation": "Elementary students",
+    "evaluationDesigns": "Lottery/RCT in charter setting; quasi and implementation studies",
+    "methodTags": [
+      "RCT",
+      "Lottery"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Reading, math, science, state tests, vocabulary",
+    "normalizationIssues": "Effects may reflect school model plus curriculum; generalizing outside participating schools requires care.",
+    "oneLineFinding": "Recent causal work finds promising long-term reading gains, supporting a content-rich view of comprehension.",
+    "sourceIds": [
+      "src-019",
+      "src-087"
+    ],
+    "tags": "knowledge-rich; curriculum",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "high-quality-instructional-materials-initiatives",
+    "id": 18,
+    "name": "High-quality instructional materials initiatives",
+    "years": "2010s onward; state/district networks",
+    "category": "Curriculum/pedagogy",
+    "theoryOfAction": "Better materials plus aligned professional learning can improve daily instruction at scale.",
+    "inputVariablesChanged": "Curriculum adoption, EdReports-style signals, PL, district mandates/recommendations",
+    "targetPopulation": "K-12 ELA/math classrooms",
+    "evaluationDesigns": "Teacher surveys; adoption studies; quasi evaluations",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Material adoption, standards alignment, teacher use, achievement",
+    "normalizationIssues": "Adoption is not usage; researchers measure fidelity, teacher adaptation, and alignment to avoid treating procurement as implementation.",
+    "oneLineFinding": "Materials matter, but effects depend heavily on supports and classroom use.",
+    "sourceIds": [
+      "src-020",
+      "src-087"
+    ],
+    "tags": "curriculum; HQIM",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "high-dosage-tutoring",
+    "id": 19,
+    "name": "High-dosage tutoring",
+    "years": "Ongoing; district/state/federal recovery priority",
+    "category": "Time/dosage",
+    "theoryOfAction": "Frequent individualized or small-group tutoring accelerates learning by adding feedback-rich instructional time.",
+    "inputVariablesChanged": "Tutor-student ratio, session frequency, total hours, during-school scheduling, curriculum alignment",
+    "targetPopulation": "Students below grade level; pandemic recovery; all grades with emphasis on math/reading",
+    "evaluationDesigns": "RCTs; meta-analyses; implementation studies",
+    "methodTags": [
+      "RCT",
+      "Meta-analysis"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Math and reading test scores, course passing, attendance",
+    "normalizationIssues": "Normalize by cumulative hours, frequency, tutor type, group size, and whether tutoring occurs during the school day.",
+    "oneLineFinding": "One of the strongest short-run academic interventions when frequent, sustained, curriculum-aligned, and attended.",
+    "sourceIds": [
+      "src-021",
+      "src-068"
+    ],
+    "tags": "tutoring; dosage",
+    "relatedDichotomySlugs": [
+      "remediation-readiness-vs-grade-level-acceleration",
+      "human-tutoring-vs-ai-tutoring",
+      "tracking-acceleration-vs-detracking-inclusion"
+    ]
+  },
+  {
+    "slug": "saga-style-and-tech-infused-tutoring",
+    "id": 20,
+    "name": "Saga-style and tech-infused tutoring",
+    "years": "2010s onward; urban districts",
+    "category": "Time/dosage",
+    "theoryOfAction": "Combine high-dosage human tutoring with software, diagnostics, and structured curricula to improve math.",
+    "inputVariablesChanged": "Daily/scheduled tutoring, tutor training, diagnostic software, small groups",
+    "targetPopulation": "Middle and high school math students",
+    "evaluationDesigns": "RCTs; district pilots; cost studies",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Math test scores, course grades, credits",
+    "normalizationIssues": "Distinguish the tutoring relationship from software contribution; compare intended vs attended sessions.",
+    "oneLineFinding": "Strong evidence for intensive tutoring models; the technology role is a support, not the whole treatment.",
+    "sourceIds": [
+      "src-021",
+      "src-093"
+    ],
+    "tags": "math tutoring; edtech",
+    "relatedDichotomySlugs": [
+      "remediation-readiness-vs-grade-level-acceleration",
+      "tracking-acceleration-vs-detracking-inclusion"
+    ]
+  },
+  {
+    "slug": "project-star-class-size-reduction",
+    "id": 21,
+    "name": "Project STAR / class-size reduction",
+    "years": "1985-1989 experiment; later policy influence",
+    "category": "Teacher workforce",
+    "theoryOfAction": "Smaller K-3 classes increase teacher attention and student engagement, improving early learning and later outcomes.",
+    "inputVariablesChanged": "Class size, teacher-student ratio, aide condition",
+    "targetPopulation": "Tennessee K-3 students",
+    "evaluationDesigns": "Randomized experiment; long-term administrative linkage",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Early test scores, college attendance, earnings, savings, home ownership",
+    "normalizationIssues": "Random assignment within schools is unusually strong; scaling requires enough effective teachers and classrooms.",
+    "oneLineFinding": "Small early classes produced lasting benefits, but broad policy is expensive and sensitive to teacher labor supply.",
+    "sourceIds": [
+      "src-022",
+      "src-081"
+    ],
+    "tags": "class size; randomized",
+    "relatedDichotomySlugs": [
+      "teacher-incentives-evaluation-vs-trust-professionalism"
+    ]
+  },
+  {
+    "slug": "teacher-coaching",
+    "id": 22,
+    "name": "Teacher coaching",
+    "years": "2000s onward; many programs",
+    "category": "Teacher workforce",
+    "theoryOfAction": "Sustained, individualized coaching changes instruction more reliably than one-off workshops.",
+    "inputVariablesChanged": "Coach visits, observation-feedback cycles, modeling, practice, video review, curriculum-aligned support",
+    "targetPopulation": "Teachers, especially early literacy and math",
+    "evaluationDesigns": "Meta-analysis of causal studies; RCTs",
+    "methodTags": [
+      "RCT",
+      "Meta-analysis"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Instructional practice ratings, student achievement",
+    "normalizationIssues": "Normalize by coaching cycles, coach expertise, content focus, and program scale; scaling effects are often smaller.",
+    "oneLineFinding": "Coaching has stronger evidence than generic PD, especially at smaller scale and with clear instructional focus.",
+    "sourceIds": [
+      "src-023",
+      "src-088"
+    ],
+    "tags": "teacher development; coaching",
+    "relatedDichotomySlugs": [
+      "teacher-incentives-evaluation-vs-trust-professionalism"
+    ]
+  },
+  {
+    "slug": "traditional-workshop-professional-development",
+    "id": 23,
+    "name": "Traditional workshop professional development",
+    "years": "Longstanding; district/state",
+    "category": "Teacher workforce",
+    "theoryOfAction": "Improve practice through training sessions, materials, and awareness of new standards or programs.",
+    "inputVariablesChanged": "PD hours, workshops, summer institutes, training materials",
+    "targetPopulation": "Teachers and leaders",
+    "evaluationDesigns": "RCTs/quasi; reviews; implementation studies",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Teacher knowledge, practice, student scores",
+    "normalizationIssues": "Seat hours are a weak measure; compare content specificity, active practice, coaching, and curriculum alignment.",
+    "oneLineFinding": "Often weak when isolated from coaching, materials, and accountability for classroom use.",
+    "sourceIds": [
+      "src-023",
+      "src-020"
+    ],
+    "tags": "PD; implementation",
+    "relatedDichotomySlugs": [
+      "teacher-incentives-evaluation-vs-trust-professionalism"
+    ]
+  },
+  {
+    "slug": "teach-for-america-and-alternate-route-pipelines",
+    "id": 24,
+    "name": "Teach For America and alternate-route pipelines",
+    "years": "1990s onward; national and local",
+    "category": "Teacher workforce",
+    "theoryOfAction": "Recruit academically strong candidates into hard-to-staff schools and support them with alternative preparation.",
+    "inputVariablesChanged": "Selection criteria, summer training, school placement, support, service commitment",
+    "targetPopulation": "High-poverty schools and shortage subjects",
+    "evaluationDesigns": "RCTs/quasi evaluations; teacher value-added comparisons",
+    "methodTags": [
+      "RCT",
+      "Matched comparison"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Student math/reading gains, teacher retention, placement",
+    "normalizationIssues": "Teacher assignment is not random in most settings; subject, grade, and retention matter.",
+    "oneLineFinding": "Some evaluations show positive math effects, but reading effects and turnover tradeoffs vary by context.",
+    "sourceIds": [
+      "src-024",
+      "src-089"
+    ],
+    "tags": "teacher pipeline; alternative certification",
+    "relatedDichotomySlugs": [
+      "teacher-incentives-evaluation-vs-trust-professionalism"
+    ]
+  },
+  {
+    "slug": "national-board-certification-and-advanced-credentials",
+    "id": 25,
+    "name": "National Board Certification and advanced credentials",
+    "years": "1990s onward; teacher quality policy",
+    "category": "Teacher workforce",
+    "theoryOfAction": "Credentialing should identify and reward accomplished teachers, improving teacher quality and distribution.",
+    "inputVariablesChanged": "Certification standards, incentives, teacher career ladders",
+    "targetPopulation": "Experienced teachers",
+    "evaluationDesigns": "Observational/value-added; selection-adjusted comparisons",
+    "methodTags": [
+      "Matched comparison"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Teacher retention, value-added, student scores",
+    "normalizationIssues": "Certified teachers are selected; researchers need prior performance and assignment controls.",
+    "oneLineFinding": "Credentials can signal quality, but the policy question is whether incentives change who teaches where.",
+    "sourceIds": [
+      "src-002",
+      "src-084"
+    ],
+    "tags": "teacher credentials",
+    "relatedDichotomySlugs": [
+      "teacher-incentives-evaluation-vs-trust-professionalism"
+    ]
+  },
+  {
+    "slug": "teacher-merit-pay-point-and-similar-incentives",
+    "id": 26,
+    "name": "Teacher merit pay / POINT and similar incentives",
+    "years": "2000s onward; district/state pilots",
+    "category": "Teacher workforce",
+    "theoryOfAction": "Performance bonuses will motivate teachers to raise student achievement.",
+    "inputVariablesChanged": "Bonus size, eligibility, test-score formula, individual/team incentives",
+    "targetPopulation": "Teachers, often tested grades/subjects",
+    "evaluationDesigns": "Randomized trials; quasi evaluations",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Student test scores, teacher behavior, retention",
+    "normalizationIssues": "Need account for baseline incentives, test stakes, collaboration vs competition, and whether teachers know how to improve.",
+    "oneLineFinding": "Simple test-score bonuses alone have often produced null or modest effects.",
+    "sourceIds": [
+      "src-025",
+      "src-075"
+    ],
+    "tags": "incentives; merit pay",
+    "relatedDichotomySlugs": [
+      "teacher-incentives-evaluation-vs-trust-professionalism"
+    ]
+  },
+  {
+    "slug": "dc-impact-teacher-evaluation-with-consequences",
+    "id": 27,
+    "name": "DC IMPACT / teacher evaluation with consequences",
+    "years": "2009 onward; district",
+    "category": "Teacher workforce",
+    "theoryOfAction": "Combine multiple teacher performance measures with incentives and dismissal risk to improve workforce quality.",
+    "inputVariablesChanged": "Observation rubrics, value-added, ratings, bonuses, dismissals, professional development",
+    "targetPopulation": "Teachers and principals in DCPS",
+    "evaluationDesigns": "Difference-in-differences; regression discontinuity around rating thresholds; administrative data",
+    "methodTags": [
+      "Regression discontinuity",
+      "Difference-in-differences"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Teacher performance, retention, student achievement",
+    "normalizationIssues": "Compare teachers near rating cutoffs; distinguish incentive, selection, and support mechanisms.",
+    "oneLineFinding": "More consequential evaluation can change teacher performance and composition, but sustainability and trust are central concerns.",
+    "sourceIds": [
+      "src-026",
+      "src-101"
+    ],
+    "tags": "teacher evaluation; value-added",
+    "relatedDichotomySlugs": [
+      "teacher-incentives-evaluation-vs-trust-professionalism"
+    ]
+  },
+  {
+    "slug": "gates-measures-of-effective-teaching-project",
+    "id": 28,
+    "name": "Gates Measures of Effective Teaching Project",
+    "years": "2009-2013; multi-district research",
+    "category": "Teacher workforce",
+    "theoryOfAction": "Use multiple measures to understand and predict effective teaching.",
+    "inputVariablesChanged": "Classroom observations, student surveys, value-added, video analysis",
+    "targetPopulation": "Teachers in multiple districts",
+    "evaluationDesigns": "Research study with random assignment of classrooms in validation year",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "not-outcome-intervention",
+    "outputsMeasured": "Measure reliability, predictive validity, student achievement",
+    "normalizationIssues": "The project studied measurement validity; using measures in high-stakes systems is a separate policy intervention.",
+    "oneLineFinding": "Influential for teacher evaluation design, but not itself a school improvement program.",
+    "sourceIds": [
+      "src-027",
+      "src-101"
+    ],
+    "tags": "Gates; teacher measurement",
+    "relatedDichotomySlugs": [
+      "teacher-incentives-evaluation-vs-trust-professionalism"
+    ]
+  },
+  {
+    "slug": "gates-intensive-partnerships-for-effective-teaching",
+    "id": 29,
+    "name": "Gates Intensive Partnerships for Effective Teaching",
+    "years": "2009-2016; selected districts/charters",
+    "category": "Teacher workforce",
+    "theoryOfAction": "Better teacher effectiveness measures and talent systems should increase access to effective teaching.",
+    "inputVariablesChanged": "Evaluation systems, staffing, compensation, tenure, PD, value-added, observations",
+    "targetPopulation": "Teachers/students in partner sites",
+    "evaluationDesigns": "Longitudinal implementation and impact evaluation",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Achievement growth, teacher effectiveness distribution, HR outcomes",
+    "normalizationIssues": "Bundled reforms, local implementation, and changing district contexts complicate attribution.",
+    "oneLineFinding": "The initiative did not deliver broad expected student achievement gains despite major investment and implementation effort.",
+    "sourceIds": [
+      "src-028",
+      "src-075"
+    ],
+    "tags": "Gates; teacher effectiveness",
+    "relatedDichotomySlugs": [
+      "teacher-incentives-evaluation-vs-trust-professionalism"
+    ]
+  },
+  {
+    "slug": "gates-funded-small-high-schools-nyc-small-schools-of-choice",
+    "id": 30,
+    "name": "Gates-funded small high schools / NYC Small Schools of Choice",
+    "years": "2002 onward; NYC high schools",
+    "category": "School organization/governance",
+    "theoryOfAction": "Smaller, mission-focused schools improve personalization, engagement, and graduation outcomes.",
+    "inputVariablesChanged": "School size, admissions choice, thematic focus, personalization, new school creation, closure of large schools",
+    "targetPopulation": "NYC high school students",
+    "evaluationDesigns": "Lottery-based evaluation using high school choice system",
+    "methodTags": [
+      "Lottery"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Graduation, credits, Regents exams, college enrollment",
+    "normalizationIssues": "Lottery estimates apply to applicants to oversubscribed small schools; school closure and system redesign are part of context.",
+    "oneLineFinding": "NYC small schools produced meaningful graduation gains, showing school design can matter when implementation and choice systems align.",
+    "sourceIds": [
+      "src-029",
+      "src-098"
+    ],
+    "tags": "Gates; small schools; high school",
+    "relatedDichotomySlugs": [
+      "choice-markets-vs-common-public-system"
+    ]
+  },
+  {
+    "slug": "gates-personalized-learning-next-generation-learning-challenges",
+    "id": 31,
+    "name": "Gates personalized learning / Next Generation Learning Challenges",
+    "years": "2010s; charter and district schools",
+    "category": "Technology",
+    "theoryOfAction": "Customize pace, path, place, and learner goals using data, flexible grouping, and technology.",
+    "inputVariablesChanged": "Adaptive software, competency progression, student choice, flexible schedules, data dashboards",
+    "targetPopulation": "K-12 schools adopting personalized learning",
+    "evaluationDesigns": "Matched comparison; implementation study; site visits",
+    "methodTags": [
+      "Matched comparison"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Math and reading growth, student surveys, implementation measures",
+    "normalizationIssues": "The treatment is a heterogeneous school model, not just software; compare active usage and teacher mediation.",
+    "oneLineFinding": "Early RAND evidence was promising, but heterogeneity and later critiques caution against treating personalized learning as one proven model.",
+    "sourceIds": [
+      "src-030",
+      "src-090"
+    ],
+    "tags": "Gates; personalized learning; edtech",
+    "relatedDichotomySlugs": [
+      "screens-harm-development-vs-technology-enables-learning"
+    ]
+  },
+  {
+    "slug": "gates-networks-for-school-improvement",
+    "id": 32,
+    "name": "Gates Networks for School Improvement",
+    "years": "2018-2026; nearly 800 schools across networks",
+    "category": "School organization/governance",
+    "theoryOfAction": "Networked continuous improvement helps schools identify problems, test changes, and spread effective practices.",
+    "inputVariablesChanged": "Intermediary support, CI cycles, shared aims, data use, student voice, cross-school learning",
+    "targetPopulation": "Middle/high school transitions and postsecondary readiness",
+    "evaluationDesigns": "RCT and quasi evaluation; implementation study",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "9th-grade on-track, course failures, attendance, FAFSA, postsecondary enrollment",
+    "normalizationIssues": "Impacts vary by network; researchers compare schools with stronger engagement and use targeted outcomes rather than broad test scores only.",
+    "oneLineFinding": "The final evaluation found promising effects on some targeted outcomes, with engagement and CI fidelity tied to stronger results.",
+    "sourceIds": [
+      "src-031",
+      "src-032"
+    ],
+    "tags": "Gates; continuous improvement; networks",
+    "relatedDichotomySlugs": [
+      "choice-markets-vs-common-public-system"
+    ]
+  },
+  {
+    "slug": "charter-schools-overall",
+    "id": 33,
+    "name": "Charter schools overall",
+    "years": "1990s onward; state-authorized public schools",
+    "category": "Choice",
+    "theoryOfAction": "School autonomy plus family choice can create better school models and accountability through enrollment.",
+    "inputVariablesChanged": "Autonomy, authorizer rules, school model, staffing, discipline, curriculum, CMO support",
+    "targetPopulation": "Students choosing/applying to charter schools",
+    "evaluationDesigns": "Lottery studies; virtual matched controls; state panels",
+    "methodTags": [
+      "Lottery",
+      "Matched comparison"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "State tests, NAEP-like growth, graduation, college enrollment",
+    "normalizationIssues": "Average charter effects hide major variation by state, authorizer, urbanicity, and school model; lottery samples are applicant populations.",
+    "oneLineFinding": "Charter effects are highly heterogeneous: urban/no-excuses and some CMOs show strong gains, while many charters are neutral or weaker.",
+    "sourceIds": [
+      "src-033",
+      "src-034"
+    ],
+    "tags": "charters; choice",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "no-excuses-charter-networks-and-high-performing-cmos",
+    "id": 34,
+    "name": "No-excuses charter networks and high-performing CMOs",
+    "years": "2000s onward; urban networks",
+    "category": "Choice",
+    "theoryOfAction": "High expectations, longer time, intensive tutoring, data use, and tight culture raise achievement in underserved communities.",
+    "inputVariablesChanged": "Longer day/year, tutoring, behavior systems, teacher coaching, curriculum, data meetings",
+    "targetPopulation": "Urban charter students, often lottery applicants",
+    "evaluationDesigns": "Admissions lotteries; matched comparison; CMO evaluations",
+    "methodTags": [
+      "Matched comparison"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "State tests, AP/SAT, college enrollment, behavior",
+    "normalizationIssues": "Lottery applicants may not represent all students; attrition and peer/compliance mechanisms need scrutiny.",
+    "oneLineFinding": "Some networks generate large test-score gains, but the debate is about replication, student experience, and which mechanisms matter.",
+    "sourceIds": [
+      "src-033",
+      "src-034"
+    ],
+    "tags": "CMO; no-excuses; charters",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "private-school-vouchers-dc-and-louisiana-examples",
+    "id": 35,
+    "name": "Private school vouchers / DC and Louisiana examples",
+    "years": "2000s onward; federal/state/local",
+    "category": "Choice",
+    "theoryOfAction": "Giving families public funds for private schools increases match quality and competitive pressure.",
+    "inputVariablesChanged": "Scholarship amount, eligibility, private school participation, admissions lotteries, accountability rules",
+    "targetPopulation": "Students eligible for scholarships",
+    "evaluationDesigns": "Lottery/RCT designs; administrative follow-up",
+    "methodTags": [
+      "RCT",
+      "Lottery"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Test scores, parent satisfaction, safety, graduation, college enrollment",
+    "normalizationIssues": "Voucher effects depend on participating schools and accountability rules; compare offers (ITT) and actual attendance (TOT).",
+    "oneLineFinding": "DC and Louisiana show why voucher evidence cannot be generalized: non-test outcomes may improve in some contexts while test scores can fall in others.",
+    "sourceIds": [
+      "src-035",
+      "src-036"
+    ],
+    "tags": "vouchers; private choice",
+    "relatedDichotomySlugs": [
+      "choice-markets-vs-common-public-system",
+      "small-schools-personalization-vs-comprehensive-breadth",
+      "integration-desegregation-vs-neighborhood-local-control"
+    ]
+  },
+  {
+    "slug": "magnet-schools-and-controlled-choice-desegregation-plans",
+    "id": 36,
+    "name": "Magnet schools and controlled choice/desegregation plans",
+    "years": "1970s onward; district/state",
+    "category": "Choice",
+    "theoryOfAction": "Use themed schools and assignment rules to improve access, integration, and specialized instruction.",
+    "inputVariablesChanged": "Admissions rules, themes, transportation, racial/economic balance targets",
+    "targetPopulation": "District students and families",
+    "evaluationDesigns": "Lotteries; court-order changes; quasi studies",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Achievement, integration, enrollment, graduation, parent demand",
+    "normalizationIssues": "Goals include integration and access, not only test scores; applicant lotteries are not full-population effects.",
+    "oneLineFinding": "Magnet effects depend on theme quality, selection, transportation, and whether integration is treated as an outcome or mechanism.",
+    "sourceIds": [
+      "src-002",
+      "src-104"
+    ],
+    "tags": "magnet; desegregation",
+    "relatedDichotomySlugs": [
+      "choice-markets-vs-common-public-system"
+    ]
+  },
+  {
+    "slug": "community-schools-nyc-community-schools",
+    "id": 37,
+    "name": "Community schools / NYC Community Schools",
+    "years": "2014 onward; district and national expansion",
+    "category": "Whole-child/climate",
+    "theoryOfAction": "Integrated academics, health, counseling, family engagement, and community partnerships reduce barriers to learning.",
+    "inputVariablesChanged": "On-site services, community school director, partnerships, family engagement, attendance supports",
+    "targetPopulation": "High-need schools",
+    "evaluationDesigns": "Quasi-experimental impact study; implementation study",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Attendance, chronic absenteeism, credits, achievement, graduation, school climate",
+    "normalizationIssues": "Services, uptake, and neighborhood context vary; compare similar schools and track service dose.",
+    "oneLineFinding": "Evidence is promising for attendance and some academic outcomes, but the model is complex and slower-moving than a single curriculum change.",
+    "sourceIds": [
+      "src-037",
+      "src-100"
+    ],
+    "tags": "community schools; wraparound",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "harlem-children-s-zone-promise-neighborhoods",
+    "id": 38,
+    "name": "Harlem Children's Zone / Promise Neighborhoods",
+    "years": "1990s onward; place-based",
+    "category": "Whole-child/climate",
+    "theoryOfAction": "Combine high-quality schools with cradle-to-career supports to change neighborhood trajectories.",
+    "inputVariablesChanged": "Charter schools, parenting programs, health/social services, afterschool, college supports",
+    "targetPopulation": "Children in defined neighborhoods",
+    "evaluationDesigns": "Quasi-experimental; school lottery; neighborhood comparisons",
+    "methodTags": [
+      "Lottery"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Achievement, college, family services, neighborhood indicators",
+    "normalizationIssues": "Separate school effects from neighborhood services; treatment exposure varies by age and service take-up.",
+    "oneLineFinding": "The strongest measured gains often come from the school component, while broader place-based effects are harder to isolate.",
+    "sourceIds": [
+      "src-002",
+      "src-103"
+    ],
+    "tags": "place-based; wraparound",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "social-and-emotional-learning-programs",
+    "id": 39,
+    "name": "Social and emotional learning programs",
+    "years": "1990s onward; widespread",
+    "category": "Whole-child/climate",
+    "theoryOfAction": "Teach self-management, relationship, and decision-making skills to improve behavior, climate, and academics.",
+    "inputVariablesChanged": "SEL lessons, teacher routines, schoolwide norms, adult SEL, climate strategies",
+    "targetPopulation": "Students and adults across K-12",
+    "evaluationDesigns": "Meta-analyses; RCTs; implementation studies",
+    "methodTags": [
+      "RCT",
+      "Meta-analysis"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "SEL skills, behavior, mental health, achievement, climate",
+    "normalizationIssues": "SEL outcomes rely on validated scales and can be politically redefined; implementation quality matters.",
+    "oneLineFinding": "Meta-analytic evidence supports positive average effects, though program content and measurement vary widely.",
+    "sourceIds": [
+      "src-038",
+      "src-094"
+    ],
+    "tags": "SEL; whole child",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "pbis-mtss-behavior-systems",
+    "id": 40,
+    "name": "PBIS / MTSS behavior systems",
+    "years": "1990s onward; schoolwide",
+    "category": "Whole-child/climate",
+    "theoryOfAction": "Improve behavior by explicitly teaching expectations and using tiered supports and data systems.",
+    "inputVariablesChanged": "Behavior expectations, reinforcement systems, office discipline referrals, tiered intervention teams",
+    "targetPopulation": "Whole schools; students needing behavior support",
+    "evaluationDesigns": "Group RCTs; implementation studies; research database",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Office referrals, suspensions, climate, achievement, fidelity",
+    "normalizationIssues": "Discipline data are partly reporting artifacts; fidelity tools are needed to distinguish adoption from use.",
+    "oneLineFinding": "Good evidence for behavior/climate improvements; academic effects are often indirect through instructional time.",
+    "sourceIds": [
+      "src-039",
+      "src-069"
+    ],
+    "tags": "PBIS; behavior; MTSS",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "restorative-practices",
+    "id": 41,
+    "name": "Restorative practices",
+    "years": "2010s onward; district discipline reform",
+    "category": "Whole-child/climate",
+    "theoryOfAction": "Replace exclusionary discipline with relationship repair and community accountability.",
+    "inputVariablesChanged": "Circles, restorative conferences, staff training, coaching, discipline policy changes",
+    "targetPopulation": "Schools with high suspension rates",
+    "evaluationDesigns": "Cluster RCT; quasi studies; implementation evaluation",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Suspensions, climate surveys, achievement, safety incidents",
+    "normalizationIssues": "Suspension outcomes change when reporting and discipline policy change; academic effects may vary by grade level.",
+    "oneLineFinding": "Can reduce suspensions and improve climate, but academic effects are not automatically positive and depend on execution.",
+    "sourceIds": [
+      "src-040",
+      "src-072"
+    ],
+    "tags": "discipline; restorative",
+    "relatedDichotomySlugs": [
+      "discipline-order-vs-restorative-relational-climate"
+    ]
+  },
+  {
+    "slug": "attendance-and-chronic-absenteeism-interventions",
+    "id": 42,
+    "name": "Attendance and chronic absenteeism interventions",
+    "years": "2010s onward; especially post-pandemic",
+    "category": "Whole-child/climate",
+    "theoryOfAction": "Improve learning by increasing presence and engagement through information, nudges, case management, and supports.",
+    "inputVariablesChanged": "Parent messaging, attendance teams, transportation, case management, early warning systems",
+    "targetPopulation": "Chronically absent or at-risk students",
+    "evaluationDesigns": "RCTs of messaging; quasi district studies; early warning validation",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Attendance, chronic absenteeism, course passing, achievement",
+    "normalizationIssues": "Define chronic absenteeism consistently; compare pre-pandemic and post-pandemic baselines carefully.",
+    "oneLineFinding": "Attendance is a crucial mediator after COVID, but interventions vary from low-cost nudges to intensive case management.",
+    "sourceIds": [
+      "src-041",
+      "src-078"
+    ],
+    "tags": "attendance; absenteeism",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "head-start",
+    "id": 43,
+    "name": "Head Start",
+    "years": "1965 onward; federal early childhood",
+    "category": "Early childhood",
+    "theoryOfAction": "Provide preschool, health, nutrition, and family services to improve school readiness for low-income children.",
+    "inputVariablesChanged": "Preschool access, comprehensive services, family engagement, health screenings",
+    "targetPopulation": "Low-income 3- and 4-year-olds",
+    "evaluationDesigns": "National randomized Head Start Impact Study; follow-ups",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "School readiness, cognition, parent practices, later school outcomes",
+    "normalizationIssues": "Control children may access other care; fadeout on tests does not rule out later non-test effects.",
+    "oneLineFinding": "The national RCT found early positive impacts with substantial fadeout on many early academic measures.",
+    "sourceIds": [
+      "src-042",
+      "src-071"
+    ],
+    "tags": "early childhood; federal",
+    "relatedDichotomySlugs": [
+      "early-academics-vs-play-based-pre-k"
+    ]
+  },
+  {
+    "slug": "perry-preschool-abecedarian-style-intensive-early-childhood",
+    "id": 44,
+    "name": "Perry Preschool / Abecedarian-style intensive early childhood",
+    "years": "1960s-1970s experiments; long-term follow-up",
+    "category": "Early childhood",
+    "theoryOfAction": "High-quality early education plus family engagement can produce long-run human capital and social benefits.",
+    "inputVariablesChanged": "Low ratios, highly trained teachers, home visits, intensive early learning, health/nutrition supports",
+    "targetPopulation": "Small samples of disadvantaged children",
+    "evaluationDesigns": "Randomized experiments; long-term administrative/survey follow-up",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Education, earnings, health, crime, welfare, intergenerational outcomes",
+    "normalizationIssues": "Historic small samples and unusually intensive models may not generalize to scaled public pre-K.",
+    "oneLineFinding": "Classic studies show large long-run benefits, but they are not evidence that every scaled pre-K program will replicate them.",
+    "sourceIds": [
+      "src-043",
+      "src-079"
+    ],
+    "tags": "early childhood; long-run",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "tennessee-voluntary-pre-k",
+    "id": 45,
+    "name": "Tennessee Voluntary Pre-K",
+    "years": "2009 onward evaluation; statewide pre-K",
+    "category": "Early childhood",
+    "theoryOfAction": "State-funded pre-K should improve readiness for low-income 4-year-olds and later school success.",
+    "inputVariablesChanged": "Pre-K access, curriculum, classroom quality, teacher credentials, state oversight",
+    "targetPopulation": "Low-income 4-year-olds in Tennessee",
+    "evaluationDesigns": "Longitudinal RCT in oversubscribed sites; RDD component",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "School readiness, achievement, special education, discipline, retention, high school outcomes",
+    "normalizationIssues": "RCT estimates apply to oversubscribed programs; quality and counterfactual care differ from other states.",
+    "oneLineFinding": "A cautionary scaled pre-K case: short-run gains did not translate into broad long-run academic benefits in the evaluation.",
+    "sourceIds": [
+      "src-044",
+      "src-080"
+    ],
+    "tags": "pre-K; scale",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "boston-universal-pre-k",
+    "id": 46,
+    "name": "Boston universal pre-K",
+    "years": "1997 onward cohorts; lottery evaluation",
+    "category": "Early childhood",
+    "theoryOfAction": "High-quality public pre-K can improve long-run attainment and behavior even when test effects fade.",
+    "inputVariablesChanged": "Public pre-K access, teacher quality, curriculum, centralized enrollment, classroom quality",
+    "targetPopulation": "Boston 4-year-olds",
+    "evaluationDesigns": "Admissions lottery; long-term administrative follow-up",
+    "methodTags": [
+      "Lottery"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "SAT-taking, college enrollment, graduation, discipline, state test scores",
+    "normalizationIssues": "Lottery applicants and Boston implementation may not generalize; long-term non-test outcomes are essential.",
+    "oneLineFinding": "Shows that test-score fadeout can coexist with meaningful long-run gains in college and discipline outcomes.",
+    "sourceIds": [
+      "src-045",
+      "src-079"
+    ],
+    "tags": "pre-K; lottery; long-run",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "full-day-kindergarten",
+    "id": 47,
+    "name": "Full-day kindergarten",
+    "years": "1970s onward; district/state",
+    "category": "Time/dosage",
+    "theoryOfAction": "More early instructional time improves readiness and early academic skills.",
+    "inputVariablesChanged": "Length of kindergarten day, curriculum, teacher staffing, childcare replacement",
+    "targetPopulation": "Kindergarten students",
+    "evaluationDesigns": "Quasi studies; district/state comparisons",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Early literacy/math, attendance, later achievement",
+    "normalizationIssues": "Need distinguish added instructional time from childcare and from selection into full-day programs.",
+    "oneLineFinding": "Often improves short-run early skills, but durability varies with subsequent instruction quality.",
+    "sourceIds": [
+      "src-046",
+      "src-081"
+    ],
+    "tags": "kindergarten; time",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "summer-learning-programs",
+    "id": 48,
+    "name": "Summer learning programs",
+    "years": "2000s onward; district-led and philanthropic",
+    "category": "Time/dosage",
+    "theoryOfAction": "Add structured academic and enrichment time during summer to reduce summer learning loss.",
+    "inputVariablesChanged": "Program days, hours, attendance, teacher quality, curriculum, enrichment, transportation",
+    "targetPopulation": "Elementary and middle school students, often low-income",
+    "evaluationDesigns": "RCTs; implementation studies",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Math/reading scores, attendance, SEL/enrichment participation",
+    "normalizationIssues": "Attendance is pivotal; researchers compare invitation, enrollment, and high-attendance treatment-on-treated effects.",
+    "oneLineFinding": "Benefits are clearest for students who attend enough days and receive well-planned instruction.",
+    "sourceIds": [
+      "src-047",
+      "src-106"
+    ],
+    "tags": "summer; time",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "extended-learning-time-longer-day-or-year",
+    "id": 49,
+    "name": "Extended learning time / longer day or year",
+    "years": "2000s onward; charter/district/state",
+    "category": "Time/dosage",
+    "theoryOfAction": "More time can increase active learning, enrichment, tutoring, and teacher collaboration.",
+    "inputVariablesChanged": "Minutes/day, days/year, block scheduling, teacher planning time, enrichment",
+    "targetPopulation": "Schools and districts",
+    "evaluationDesigns": "Causal synthesis; quasi studies; RCTs in specific models",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Achievement, attendance, enrichment, teacher collaboration",
+    "normalizationIssues": "Normalize by active learning time, not scheduled time; additional time can be low-value if poorly used.",
+    "oneLineFinding": "Additional time has generally positive but context-sensitive effects, often small to moderate depending on dosage and use.",
+    "sourceIds": [
+      "src-046",
+      "src-081"
+    ],
+    "tags": "time; schedule",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "four-day-school-week",
+    "id": 50,
+    "name": "Four-day school week",
+    "years": "2000s onward; rural districts increasing",
+    "category": "Time/dosage",
+    "theoryOfAction": "Condense schedules for cost savings, teacher recruitment, or community preference, sometimes without reducing learning.",
+    "inputVariablesChanged": "School days/week, daily minutes, total annual hours, attendance, teacher recruitment",
+    "targetPopulation": "Mostly rural districts",
+    "evaluationDesigns": "Difference-in-differences; state comparisons",
+    "methodTags": [
+      "Difference-in-differences"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Achievement, attendance, teacher retention, finances",
+    "normalizationIssues": "Total instructional hours and district selection are central; not designed primarily as learning intervention.",
+    "oneLineFinding": "Evidence is mixed and often negative when total learning time drops, making it a cautionary time-policy case.",
+    "sourceIds": [
+      "src-046",
+      "src-081"
+    ],
+    "tags": "four-day week; time",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "one-to-one-devices-laptop-initiatives",
+    "id": 51,
+    "name": "One-to-one devices / laptop initiatives",
+    "years": "2000s onward; district/state",
+    "category": "Technology",
+    "theoryOfAction": "Universal device access enables digital writing, research, collaboration, personalization, and equity of access.",
+    "inputVariablesChanged": "Devices, broadband, LMS, teacher training, digital content, home access",
+    "targetPopulation": "Students in device programs",
+    "evaluationDesigns": "Meta-analysis; quasi studies; implementation research",
+    "methodTags": [
+      "Meta-analysis"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "ELA/writing/math/science scores, digital literacy, usage logs",
+    "normalizationIssues": "Separate access from active academic use; device effects depend on teacher practice and content quality.",
+    "oneLineFinding": "Meta-analytic evidence shows some positive average effects, but technology access alone is not an instructional model.",
+    "sourceIds": [
+      "src-048",
+      "src-049"
+    ],
+    "tags": "devices; edtech",
+    "relatedDichotomySlugs": [
+      "screens-harm-development-vs-technology-enables-learning"
+    ]
+  },
+  {
+    "slug": "adaptive-and-personalized-learning-platforms",
+    "id": 52,
+    "name": "Adaptive and personalized learning platforms",
+    "years": "2010s onward; software adoption",
+    "category": "Technology",
+    "theoryOfAction": "Algorithms and dashboards tailor practice and feedback to each student's level.",
+    "inputVariablesChanged": "Adaptive software minutes, mastery thresholds, item banks, teacher dashboard use, grouping",
+    "targetPopulation": "Math/reading students in blended classrooms",
+    "evaluationDesigns": "RCTs; matched comparison; usage-log studies",
+    "methodTags": [
+      "RCT",
+      "Matched comparison"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Test scores, platform mastery, minutes, completion",
+    "normalizationIssues": "Usage minutes are endogenous; compare teacher-mediated integration and curricular alignment.",
+    "oneLineFinding": "Effects range from positive to null; platforms work best as part of coherent instruction rather than stand-alone screen time.",
+    "sourceIds": [
+      "src-030",
+      "src-049"
+    ],
+    "tags": "adaptive learning; blended learning",
+    "relatedDichotomySlugs": [
+      "screens-harm-development-vs-technology-enables-learning"
+    ]
+  },
+  {
+    "slug": "generative-ai-tutoring-and-ai-school-pilots",
+    "id": 53,
+    "name": "Generative AI tutoring and AI-school pilots",
+    "years": "2023 onward; emerging",
+    "category": "Technology",
+    "theoryOfAction": "AI tutors or teacher copilots may provide scalable feedback, practice, differentiation, and planning support.",
+    "inputVariablesChanged": "AI chat/tutoring, guardrails, teacher oversight, prompt design, feedback loops, usage logs",
+    "targetPopulation": "Students and teachers in pilot schools",
+    "evaluationDesigns": "Pilot studies; early RCTs mostly outside K-12; systematic reviews",
+    "methodTags": [
+      "RCT",
+      "Systematic review"
+    ],
+    "evidenceStrength": "limited-descriptive",
+    "outputsMeasured": "Usage, engagement, homework, formative performance, teacher time, safety incidents",
+    "normalizationIssues": "K-12 causal evidence is early; compare AI-mediated practice to human tutoring and to no-support screen time.",
+    "oneLineFinding": "Treat AI as an emerging tool, not a proven replacement for teacher-led instruction or high-dosage tutoring.",
+    "sourceIds": [
+      "src-050",
+      "src-082"
+    ],
+    "tags": "AI; tutoring; emerging",
+    "relatedDichotomySlugs": [
+      "screens-harm-development-vs-technology-enables-learning",
+      "remediation-readiness-vs-grade-level-acceleration",
+      "tracking-acceleration-vs-detracking-inclusion"
+    ]
+  },
+  {
+    "slug": "career-academies",
+    "id": 54,
+    "name": "Career Academies",
+    "years": "1990s onward evaluation; national model",
+    "category": "Postsecondary/CTE",
+    "theoryOfAction": "Small learning communities that integrate academics, career themes, and employer links improve transitions to adulthood.",
+    "inputVariablesChanged": "Career theme, academic/technical integration, employer partnerships, work-based learning, cohorts",
+    "targetPopulation": "High school students",
+    "evaluationDesigns": "Random assignment longitudinal evaluation",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Earnings, employment, postsecondary, credits, graduation",
+    "normalizationIssues": "Random assignment applies to schools able to implement core features; adult labor outcomes matter more than test scores alone.",
+    "oneLineFinding": "One of the strongest CTE-related causal studies, with notable long-run earnings effects especially for young men.",
+    "sourceIds": [
+      "src-051",
+      "src-076"
+    ],
+    "tags": "CTE; career academies",
+    "relatedDichotomySlugs": [
+      "college-for-all-vs-cte-career-pathways"
+    ]
+  },
+  {
+    "slug": "modern-cte-pathways-and-concentrator-programs",
+    "id": 55,
+    "name": "Modern CTE pathways and concentrator programs",
+    "years": "2010s onward; state and district",
+    "category": "Postsecondary/CTE",
+    "theoryOfAction": "Structured career pathways improve relevance, credentials, completion, and employment without sacrificing academics.",
+    "inputVariablesChanged": "Course sequences, industry credentials, work-based learning, dual credit, employer partnerships",
+    "targetPopulation": "High school students",
+    "evaluationDesigns": "Systematic reviews; quasi studies; administrative data",
+    "methodTags": [
+      "Systematic review"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Graduation, credentials, attendance, college readiness, employment, earnings",
+    "normalizationIssues": "Selection into CTE is a major issue; normalize by pathway quality, sequence completion, and labor-market alignment.",
+    "oneLineFinding": "Evidence is increasingly positive for completion and college/career readiness, but quality varies by pathway.",
+    "sourceIds": [
+      "src-052",
+      "src-076"
+    ],
+    "tags": "CTE; pathways",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "early-college-high-schools",
+    "id": 56,
+    "name": "Early College High Schools",
+    "years": "2002 onward; national network",
+    "category": "Postsecondary/CTE",
+    "theoryOfAction": "Combine high school and college coursework so students earn credits and build college-going identity earlier.",
+    "inputVariablesChanged": "Dual enrollment, small school design, college partnership, supports, accelerated credits",
+    "targetPopulation": "Students underrepresented in college",
+    "evaluationDesigns": "Randomized/lms lottery evaluation; long-term follow-up",
+    "methodTags": [
+      "RCT",
+      "Lottery"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "College enrollment, credits, degree attainment, high school graduation",
+    "normalizationIssues": "Lottery/randomized access estimates are strong; compare credit quality and transferability.",
+    "oneLineFinding": "One of the strongest causal postsecondary-readiness models, with positive impacts on college enrollment and degree attainment.",
+    "sourceIds": [
+      "src-053",
+      "src-070"
+    ],
+    "tags": "early college; dual enrollment",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "dual-enrollment-ap-and-advanced-coursework-expansion",
+    "id": 57,
+    "name": "Dual enrollment / AP and advanced coursework expansion",
+    "years": "1990s onward; rapidly expanding",
+    "category": "Postsecondary/CTE",
+    "theoryOfAction": "Earlier access to college-level coursework raises expectations and reduces college credit/time barriers.",
+    "inputVariablesChanged": "Course access, eligibility rules, tuition support, instructor qualifications, credit transfer, exams",
+    "targetPopulation": "High school juniors/seniors and advanced students",
+    "evaluationDesigns": "Quasi studies; administrative evaluations; descriptive trend",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Credits earned, exam scores, college enrollment, persistence, degree completion",
+    "normalizationIssues": "Selection is large; researchers use eligibility cutoffs, school fixed effects, and prior achievement controls.",
+    "oneLineFinding": "Advanced access can help, but expansion must track pass rates, credit quality, and whether support keeps up with access.",
+    "sourceIds": [
+      "src-054",
+      "src-092"
+    ],
+    "tags": "dual enrollment; AP",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "algebra-for-all-college-preparatory-curriculum-for-all",
+    "id": 58,
+    "name": "Algebra for All / college-preparatory curriculum for all",
+    "years": "1990s-2000s; Chicago and elsewhere",
+    "category": "Postsecondary/CTE",
+    "theoryOfAction": "Ending remedial tracks and requiring college-prep coursework increases rigor and access.",
+    "inputVariablesChanged": "Required Algebra I, elimination of remedial tracks, course placement rules, curriculum requirements",
+    "targetPopulation": "Ninth-grade students",
+    "evaluationDesigns": "Interrupted time series; cohort comparisons",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Course taking, grades, failures, test scores, college outcomes",
+    "normalizationIssues": "Access metrics can improve while learning falls if supports are insufficient; compare course standards and failure rates.",
+    "oneLineFinding": "The Chicago case reduced course-taking inequities but increased failures and did not clearly improve achievement or college outcomes.",
+    "sourceIds": [
+      "src-055",
+      "src-091"
+    ],
+    "tags": "detracking; algebra; rigor",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "avid-and-college-readiness-support-models",
+    "id": 59,
+    "name": "AVID and college-readiness support models",
+    "years": "1980s onward; national",
+    "category": "Postsecondary/CTE",
+    "theoryOfAction": "Teach academic habits, tutoring, relational support, and college knowledge to students near the academic middle.",
+    "inputVariablesChanged": "Elective course, tutoring, note-taking, college visits, teacher teams, cohort support",
+    "targetPopulation": "Middle and high school students",
+    "evaluationDesigns": "Quasi/descriptive studies; implementation reports",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Course taking, GPA, graduation, college enrollment",
+    "normalizationIssues": "Selection into AVID and school implementation are hard to separate from program effects.",
+    "oneLineFinding": "Widely used and plausible, but causal evidence is less clean than for early college lotteries.",
+    "sourceIds": [
+      "src-002",
+      "src-104"
+    ],
+    "tags": "college readiness; AVID",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "school-finance-reforms-adequacy-and-equity-funding",
+    "id": 60,
+    "name": "School finance reforms / adequacy and equity funding",
+    "years": "1970s onward; court/state reforms",
+    "category": "Finance/recovery",
+    "theoryOfAction": "More and better-targeted resources can improve school quality, student achievement, and long-run outcomes.",
+    "inputVariablesChanged": "Per-pupil spending, funding formula weights, capital and operating funds, staffing, salaries, class size",
+    "targetPopulation": "Districts/students affected by formula reforms",
+    "evaluationDesigns": "Court-mandated reform event studies; difference-in-differences; administrative cohorts",
+    "methodTags": [
+      "Difference-in-differences"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Achievement, graduation, adult earnings, poverty, school resources",
+    "normalizationIssues": "Use inflation-adjusted per-pupil spending, exposure years, district fixed effects, and pre-trend checks.",
+    "oneLineFinding": "Modern causal finance research rejects the simple 'money does not matter' claim: sustained targeted dollars can matter.",
+    "sourceIds": [
+      "src-056",
+      "src-073"
+    ],
+    "tags": "finance; resources",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "esser-and-pandemic-recovery-initiatives",
+    "id": 61,
+    "name": "ESSER and pandemic recovery initiatives",
+    "years": "2020-2024 funds; ongoing recovery",
+    "category": "Finance/recovery",
+    "theoryOfAction": "Federal relief dollars should support recovery through tutoring, summer learning, staffing, mental health, technology, and HVAC/safety.",
+    "inputVariablesChanged": "Relief spending per pupil, tutoring, summer/enrichment, staffing, HVAC, mental health, edtech",
+    "targetPopulation": "Districts and states after COVID disruptions",
+    "evaluationDesigns": "District recovery scorecards; NAEP/state trends; spending/outcome analysis",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "NAEP, state tests, achievement recovery, absenteeism, spending categories",
+    "normalizationIssues": "Spending categories are broad; local recovery depends on closure length, absenteeism, staffing, and baseline losses.",
+    "oneLineFinding": "Relief funding appears to have aided recovery in many places, but which components drove gains varies by district.",
+    "sourceIds": [
+      "src-041",
+      "src-001"
+    ],
+    "tags": "pandemic recovery; ESSER",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "remote-learning-and-virtual-schooling-during-covid",
+    "id": 62,
+    "name": "Remote learning and virtual schooling during COVID",
+    "years": "2020-2022; emergency and ongoing virtual",
+    "category": "Technology",
+    "theoryOfAction": "Maintain continuity when in-person schooling is disrupted or provide flexible virtual options.",
+    "inputVariablesChanged": "Remote modality, synchronous time, devices, broadband, LMS, teacher adaptation, family supervision",
+    "targetPopulation": "K-12 students during school closures or virtual programs",
+    "evaluationDesigns": "Natural experiments; state/district closure comparisons; descriptive data",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Learning loss/recovery, attendance, engagement, course completion",
+    "normalizationIssues": "Remote schooling was not one intervention; closure length, home conditions, and prior district capacity are confounded.",
+    "oneLineFinding": "Emergency remote learning was generally associated with large losses, especially when it replaced in-person schooling for long periods.",
+    "sourceIds": [
+      "src-041",
+      "src-049"
+    ],
+    "tags": "remote learning; COVID",
+    "relatedDichotomySlugs": [
+      "screens-harm-development-vs-technology-enables-learning"
+    ]
+  },
+  {
+    "slug": "family-engagement-and-parent-information-interventions",
+    "id": 63,
+    "name": "Family engagement and parent information interventions",
+    "years": "Ongoing; school/district",
+    "category": "Whole-child/climate",
+    "theoryOfAction": "Parents can support learning and attendance when schools provide timely, usable information and partnership structures.",
+    "inputVariablesChanged": "Text messages, report cards, family conferences, home visits, parent training, two-way communication",
+    "targetPopulation": "Families and students",
+    "evaluationDesigns": "RCTs of messaging/info; quasi family engagement studies",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Attendance, homework, course passing, test scores, parent behavior",
+    "normalizationIssues": "Low-cost nudges and intensive home visiting are different treatments; language/cultural fit matters.",
+    "oneLineFinding": "Information interventions can be cost-effective, but family engagement is not a substitute for strong instruction.",
+    "sourceIds": [
+      "src-002",
+      "src-100"
+    ],
+    "tags": "family engagement; nudges",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "competency-based-mastery-based-learning",
+    "id": 64,
+    "name": "Competency-based / mastery-based learning",
+    "years": "2010s onward; districts and states",
+    "category": "School organization/governance",
+    "theoryOfAction": "Students should progress after demonstrating mastery rather than after fixed seat time.",
+    "inputVariablesChanged": "Mastery thresholds, reassessment, flexible pacing, standards-based grading, credit rules",
+    "targetPopulation": "K-12 schools and districts",
+    "evaluationDesigns": "Implementation studies; quasi evaluations; emerging evidence",
+    "methodTags": [
+      "Descriptive"
+    ],
+    "evidenceStrength": "limited-descriptive",
+    "outputsMeasured": "Course completion, grades, test scores, student agency, graduation",
+    "normalizationIssues": "Grades and credits change meaning under mastery systems; researchers need common external outcomes.",
+    "oneLineFinding": "Philosophically important but evidence remains heterogeneous and tied to local implementation.",
+    "sourceIds": [
+      "src-030",
+      "src-002"
+    ],
+    "tags": "mastery; competency",
+    "relatedDichotomySlugs": [
+      "seat-time-vs-mastery"
+    ]
+  },
+  {
+    "slug": "project-based-learning-and-inquiry-oriented-reform",
+    "id": 65,
+    "name": "Project-based learning and inquiry-oriented reform",
+    "years": "1990s onward; curriculum/school design",
+    "category": "Curriculum/pedagogy",
+    "theoryOfAction": "Authentic problems and student inquiry build deeper understanding, transfer, collaboration, and motivation.",
+    "inputVariablesChanged": "Projects, inquiry cycles, group work, performance tasks, teacher facilitation, interdisciplinary units",
+    "targetPopulation": "K-12 classrooms",
+    "evaluationDesigns": "RCTs in specific curricula; implementation studies; WWC reviews",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Content tests, performance tasks, engagement, collaboration",
+    "normalizationIssues": "Effects depend on scaffolding and assessment alignment; 'PBL' labels range from rigorous to superficial.",
+    "oneLineFinding": "PBL is strongest when content-rich, well-scaffolded, and assessed on more than generic engagement.",
+    "sourceIds": [
+      "src-002",
+      "src-095"
+    ],
+    "tags": "PBL; inquiry",
+    "relatedDichotomySlugs": []
+  },
+  {
+    "slug": "double-dose-algebra-chicago",
+    "id": 66,
+    "name": "Chicago double-dose algebra",
+    "years": "2003-2004 policy launch; long-term follow-up",
+    "category": "Curriculum/pedagogy",
+    "theoryOfAction": "Give ninth graders below a prior-score threshold an additional daily algebra support course alongside regular algebra.",
+    "inputVariablesChanged": "Daily mathematics instructional time, algebra support course, course assignment threshold, classroom peer grouping",
+    "targetPopulation": "Chicago Public Schools ninth graders below the policy's prior-math-score threshold",
+    "evaluationDesigns": "Regression discontinuity; interrupted time series; longitudinal administrative follow-up",
+    "methodTags": [
+      "Regression discontinuity",
+      "Difference-in-differences"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Algebra grades and pass rates, test scores, advanced coursework, graduation, college persistence and degree attainment",
+    "normalizationIssues": "The clearest regression-discontinuity estimate applies near the assignment cutoff; extended time and peer sorting changed together in some schools.",
+    "oneLineFinding": "A concrete acceleration-with-support policy with unusually rich evidence on both near-term course outcomes and later postsecondary progression.",
+    "sourceIds": [
+      "src-057",
+      "src-091"
+    ],
+    "tags": "algebra; extended learning time; Chicago; acceleration",
+    "relatedDichotomySlugs": [
+      "remediation-readiness-vs-grade-level-acceleration",
+      "college-for-all-vs-cte-career-pathways"
+    ]
+  },
+  {
+    "slug": "principal-pipeline-initiative",
+    "id": 67,
+    "name": "Principal Pipeline Initiative",
+    "years": "2011-2018; six participating districts",
+    "category": "School organization/governance",
+    "theoryOfAction": "Build a coherent district system for leader standards, preparation, selective hiring, evaluation, and on-the-job support.",
+    "inputVariablesChanged": "Principal standards, preparation partnerships, hiring and placement, evaluation, mentoring, leadership support",
+    "targetPopulation": "Schools receiving newly placed principals in participating districts",
+    "evaluationDesigns": "Multi-district matched comparison; implementation study; cost analysis",
+    "methodTags": [
+      "Matched comparison"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Reading and math achievement, principal retention, district implementation, cost per student",
+    "normalizationIssues": "The intervention is a districtwide package; comparison estimates cannot isolate a single leader-development component or fully rule out district selection.",
+    "oneLineFinding": "A rare system-level leadership case with sustained achievement, retention, and cost evidence rather than an isolated training evaluation.",
+    "sourceIds": [
+      "src-058",
+      "src-105"
+    ],
+    "tags": "principals; leadership; district systems; cost",
+    "relatedDichotomySlugs": [
+      "data-driven-continuous-improvement-vs-big-bang-reform",
+      "standardization-accountability-vs-professional-autonomy"
+    ]
+  },
+  {
+    "slug": "dual-language-immersion-programs",
+    "id": 68,
+    "name": "Dual-language immersion programs",
+    "years": "Long-term K-8 programs; statewide and district expansion",
+    "category": "Curriculum/pedagogy",
+    "theoryOfAction": "Teach literacy and academic content through English and a partner language over multiple years to build academic achievement and biliteracy.",
+    "inputVariablesChanged": "Language of instruction, instructional time by language, bilingual staffing, curriculum, enrollment and admissions rules",
+    "targetPopulation": "Elementary and middle-grade students in one-way or two-way immersion programs",
+    "evaluationDesigns": "Lottery-based evaluations; What Works Clearinghouse review",
+    "methodTags": [
+      "Lottery"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "English literacy, mathematics, science, bilingualism, biliteracy",
+    "normalizationIssues": "Programs differ by language pair, entry grade, duration, student composition, and whether bilingualism is counted as an outcome.",
+    "oneLineFinding": "Lottery evidence makes dual language a genuine initiative-level case, though results vary by subject and program design.",
+    "sourceIds": [
+      "src-059",
+      "src-083"
+    ],
+    "tags": "dual language; bilingualism; immersion; literacy",
+    "relatedDichotomySlugs": [
+      "bilingual-dual-language-vs-english-immersion"
+    ]
+  },
+  {
+    "slug": "early-warning-intervention-monitoring-system",
+    "id": 69,
+    "name": "Early Warning Intervention and Monitoring System (EWIMS)",
+    "years": "2014-2015 evaluation; high-school implementation",
+    "category": "Evidence infrastructure",
+    "theoryOfAction": "Use attendance, behavior, course-performance data, and a school intervention team to identify and support students before they fall off track.",
+    "inputVariablesChanged": "Early-warning data routines, intervention-team meetings, student risk flags, monitoring and referral processes",
+    "targetPopulation": "First- and second-year high school students in participating schools",
+    "evaluationDesigns": "Cluster randomized controlled trial across 73 high schools",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Chronic absence, course failure, GPA, suspension, on-track credits, school data practices",
+    "normalizationIssues": "It is a data-and-response system rather than a single service; implementation fidelity and the interventions selected after a flag vary by school.",
+    "oneLineFinding": "EWIMS reduced absence and course-failure risk indicators in year one but did not yet improve credit accumulation, a useful check on simple data-solution claims.",
+    "sourceIds": [
+      "src-060",
+      "src-078"
+    ],
+    "tags": "early warning; attendance; dropout prevention; data use",
+    "relatedDichotomySlugs": [
+      "data-driven-continuous-improvement-vs-big-bang-reform",
+      "remediation-readiness-vs-grade-level-acceleration"
+    ]
+  },
+  {
+    "slug": "ethnic-studies-curriculum-san-francisco",
+    "id": 70,
+    "name": "San Francisco ethnic studies curriculum pilot",
+    "years": "2010s pilot; ninth grade",
+    "category": "Curriculum/pedagogy",
+    "theoryOfAction": "Offer a culturally relevant ninth-grade course designed to improve engagement, academic identity, and progress for students at risk of disengagement.",
+    "inputVariablesChanged": "Culturally relevant curriculum, ninth-grade course assignment, instructional content, teacher preparation and implementation",
+    "targetPopulation": "Participating San Francisco ninth graders assigned around an eighth-grade GPA threshold",
+    "evaluationDesigns": "Fuzzy regression discontinuity",
+    "methodTags": [
+      "Regression discontinuity"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Attendance, GPA, credits earned",
+    "normalizationIssues": "The result identifies effects near one assignment threshold in a particular pilot and does not establish a uniform effect for all culturally relevant coursework.",
+    "oneLineFinding": "A large, policy-relevant engagement and credit-accumulation case with strong local causal identification and limited external scope.",
+    "sourceIds": [
+      "src-061",
+      "src-096"
+    ],
+    "tags": "ethnic studies; cultural relevance; engagement; San Francisco",
+    "relatedDichotomySlugs": [
+      "knowledge-rich-curriculum-vs-generic-skills",
+      "tracking-acceleration-vs-detracking-inclusion"
+    ]
+  },
+  {
+    "slug": "comprehensive-teacher-induction",
+    "id": 71,
+    "name": "Comprehensive teacher induction",
+    "years": "2005-2008 evaluation; 17 districts",
+    "category": "Teacher workforce",
+    "theoryOfAction": "Support novice teachers with full-time mentors, training, professional development, and observation opportunities to improve practice, retention, and student learning.",
+    "inputVariablesChanged": "Full-time mentoring, mentor training, professional development, observation and feedback opportunities",
+    "targetPopulation": "Beginning elementary teachers and their students in districts without preexisting comprehensive induction",
+    "evaluationDesigns": "School-level randomized controlled trial",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Teacher support, classroom practice, teacher retention, reading and mathematics achievement",
+    "normalizationIssues": "One- and two-year offers differ, treatment intensity changed over time, and later positive subset results need separation from the main null results.",
+    "oneLineFinding": "A prominent randomized counterexample: more structured induction did not reliably improve retention, practice, or achievement despite changing the support teachers received.",
+    "sourceIds": [
+      "src-062",
+      "src-084"
+    ],
+    "tags": "teacher induction; mentoring; novice teachers; null results",
+    "relatedDichotomySlugs": [
+      "teacher-incentives-evaluation-vs-trust-professionalism",
+      "central-curriculum-hqim-vs-teacher-created-materials"
+    ]
+  },
+  {
+    "slug": "community-eligibility-provision-universal-meals",
+    "id": 72,
+    "name": "Community Eligibility Provision / universal free school meals",
+    "years": "2010s onward; eligible high-poverty schools",
+    "category": "Whole-child/climate",
+    "theoryOfAction": "Offer meals to all students in eligible schools without individual applications, reducing stigma and household food costs.",
+    "inputVariablesChanged": "Universal meal access, application requirements, school meal participation, household food budget",
+    "targetPopulation": "Students and households in schools eligible for the Community Eligibility Provision",
+    "evaluationDesigns": "Quasi-experimental exposure analysis",
+    "methodTags": [
+      "Difference-in-differences"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "outputsMeasured": "Household food purchases, dietary quality, food insecurity, meal participation",
+    "normalizationIssues": "Eligibility is related to local poverty and school composition; the principal evidence is on household resources rather than academic outcomes.",
+    "oneLineFinding": "An important whole-child policy with credible food-security evidence, but not yet an academic-effect claim in this dossier.",
+    "sourceIds": [
+      "src-066",
+      "src-085"
+    ],
+    "tags": "school meals; food security; universal access; poverty",
+    "relatedDichotomySlugs": [
+      "sel-whole-child-vs-academics-first",
+      "more-money-resources-vs-money-does-not-matter"
+    ]
+  },
+  {
+    "slug": "national-guard-youth-challenge-program",
+    "id": 73,
+    "name": "National Guard Youth ChalleNGe Program",
+    "years": "1990s onward; multi-state alternative education program",
+    "category": "Postsecondary/CTE",
+    "theoryOfAction": "Combine a five-month residential phase with academic, life-skills, and service components followed by a year of mentoring to reconnect young people to education and work.",
+    "inputVariablesChanged": "Residential alternative education, academic instruction, life-skills training, physical training, mentoring, transition support",
+    "targetPopulation": "Young people disconnected from conventional high-school pathways who are eligible for the program",
+    "evaluationDesigns": "Ten-site random-assignment evaluation with three-year follow-up",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Diploma or GED attainment, college credits, employment, earnings, youth development outcomes",
+    "normalizationIssues": "A selective, intensive residential alternative cannot be compared directly with ordinary school reforms on cost, population, or dosage.",
+    "oneLineFinding": "One of the strongest alternative-pathway evaluations, with positive education, employment, and earnings outcomes for a highly disadvantaged population.",
+    "sourceIds": [
+      "src-063",
+      "src-086"
+    ],
+    "tags": "alternative education; dropout recovery; employment; residential",
+    "relatedDichotomySlugs": [
+      "college-for-all-vs-cte-career-pathways",
+      "remediation-readiness-vs-grade-level-acceleration"
+    ]
+  },
+  {
+    "slug": "enhanced-reading-opportunities-raals-xtreme-reading",
+    "id": 74,
+    "name": "Enhanced Reading Opportunities / Reading Apprenticeship and Xtreme Reading",
+    "years": "2005-2008 evaluation; 34 high schools in 10 districts",
+    "category": "Literacy",
+    "theoryOfAction": "Replace an elective with a year-long supplemental literacy course for ninth graders who enter high school substantially below grade level in reading.",
+    "inputVariablesChanged": "Supplemental literacy class, elective replacement, teacher training, explicit reading-comprehension instruction",
+    "targetPopulation": "Ninth graders reading at least two years below grade level",
+    "evaluationDesigns": "Student-level randomized controlled trial across two cohorts",
+    "methodTags": [
+      "RCT"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Reading comprehension, state ELA and math tests, GPA, credits accumulated",
+    "normalizationIssues": "The two program models differ; short-run gains did not persist after the program year and students remained substantially behind grade level.",
+    "oneLineFinding": "A large multi-site RCT shows meaningful short-run literacy and course-progress gains, alongside a clear warning about fadeout and remaining need.",
+    "sourceIds": [
+      "src-064",
+      "src-097"
+    ],
+    "tags": "adolescent literacy; reading apprenticeship; ninth grade; RCT",
+    "relatedDichotomySlugs": [
+      "whole-language-balanced-literacy-vs-phonics-science-of-reading",
+      "remediation-readiness-vs-grade-level-acceleration"
+    ]
+  },
+  {
+    "slug": "21st-century-community-learning-centers",
+    "id": 75,
+    "name": "21st Century Community Learning Centers",
+    "years": "Federal after-school program; national evaluation 2000-2003",
+    "category": "Time/dosage",
+    "theoryOfAction": "Provide safe after-school academic enrichment and youth-development activities in high-poverty schools.",
+    "inputVariablesChanged": "After-school supervision, enrichment activities, academic support, program attendance, family engagement",
+    "targetPopulation": "Elementary and middle-school students in funded high-poverty school communities",
+    "evaluationDesigns": "Elementary random assignment; middle-school matched comparison; national implementation evaluation",
+    "methodTags": [
+      "RCT",
+      "Matched comparison"
+    ],
+    "evidenceStrength": "strong-causal",
+    "outputsMeasured": "Academic achievement, safety, supervision, behavior, social and emotional development",
+    "normalizationIssues": "Attendance intensity was modest and the federal grant is an umbrella for diverse local program designs.",
+    "oneLineFinding": "A large, real federal program whose evaluation found few academic impacts, better perceived safety for elementary participants, and mixed developmental effects.",
+    "sourceIds": [
+      "src-065",
+      "src-077"
+    ],
+    "tags": "afterschool; federal program; safety; null results",
+    "relatedDichotomySlugs": [
+      "sel-whole-child-vs-academics-first",
+      "early-academics-vs-play-based-pre-k",
+      "data-driven-continuous-improvement-vs-big-bang-reform"
+    ]
+  },
+  {
+    "slug": "talent-development-high-schools",
+    "id": 76,
+    "name": "Talent Development High Schools",
+    "years": "1990s-2000s; large high-school restructuring model",
+    "category": "School organization/governance",
+    "theoryOfAction": "Reorganize large, low-performing high schools into smaller learning communities, including ninth-grade and career academies, with a college-preparatory sequence.",
+    "inputVariablesChanged": "School structure, learning communities, ninth-grade academies, career academies, curriculum sequence, student support",
+    "targetPopulation": "Students in large high schools with low achievement, attendance, and graduation outcomes",
+    "evaluationDesigns": "Matched comparison reviewed by the What Works Clearinghouse",
+    "methodTags": [
+      "Matched comparison"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Progressing in school, staying in school, graduation",
+    "normalizationIssues": "Structural and curriculum changes occur together, evidence is limited, and the reviewed comparison may not represent every academy or turnaround model.",
+    "oneLineFinding": "A real school-restructuring model that belongs in the dossier precisely because the reviewed evidence did not show a discernible progress-in-school effect.",
+    "sourceIds": [
+      "src-067",
+      "src-098"
+    ],
+    "tags": "small learning communities; dropout prevention; high school restructuring; null results",
+    "relatedDichotomySlugs": [
+      "small-schools-personalization-vs-comprehensive-breadth",
+      "data-driven-continuous-improvement-vs-big-bang-reform"
+    ]
+  }
+]

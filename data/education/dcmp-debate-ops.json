@@ -1,0 +1,329 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Developmental-math reforms should show statistically persuasive long-term outcomes before broad expansion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "DCMP’s randomized five-year follow-up found neither its credential-or-enrollment difference nor its credit difference statistically significant, while reporting a positive net social cost. Its reported lower cost per attainment is source arithmetic built on the non-significant outcome difference, so it is countervailing context rather than confirmed evidence of savings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "70846846140848bbaad52dc2d77bedaa"
+    },
+    "entity": {
+      "$bytes": "c9e0c229739b49768e8049bcf8d39d39"
+    },
+    "from": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08t2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ed7c97022d634e76836fbfbc283cc2e2"
+    },
+    "entity": {
+      "$bytes": "388d7912f20f488aad3d29f790c500f0"
+    },
+    "from": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "to": {
+      "$bytes": "20203925d22447479e7a0b97ca4862e0"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03BY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1160c45a8f674d91a24c81e5092f126d"
+    },
+    "entity": {
+      "$bytes": "f9cba7f575ce43e8819edf11d5c330fc"
+    },
+    "from": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "to": {
+      "$bytes": "097afc3d226445d686915c0a07ba2c66"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06Ar"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0e909b1436a54276910e34a00b05d096"
+    },
+    "entity": {
+      "$bytes": "8c85808758d3465fbda7a7426155538d"
+    },
+    "from": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "to": {
+      "$bytes": "26334bba96914e769c042a4378520b0d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08yF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e06e13a1bb494a24a0ff88ca9382dfa6"
+    },
+    "entity": {
+      "$bytes": "b800d7a3f5414508b30323fdfc88dcc1"
+    },
+    "from": {
+      "$bytes": "26334bba96914e769c042a4378520b0d"
+    },
+    "to": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04xC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c334a7320b014541877b2bfc1d49a643"
+    },
+    "entity": {
+      "$bytes": "0dead4d1642e4ff89bf445d90ec39cf4"
+    },
+    "from": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "to": {
+      "$bytes": "8b98a18845564fc9ab42bd24b9b60490"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BcL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2a095e23ae8a438887a61e06172f797e"
+    },
+    "entity": {
+      "$bytes": "a646171763e0446b8312b8390a66aecb"
+    },
+    "from": {
+      "$bytes": "8b98a18845564fc9ab42bd24b9b60490"
+    },
+    "to": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06lI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1114ba291b724d268ff44ce457f95a24"
+    },
+    "entity": {
+      "$bytes": "1c7da106e8ba4a4bb90fa1c9d473fc44"
+    },
+    "from": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "to": {
+      "$bytes": "43453594efe0480f965c44c4bf2b1a3b"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07di"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c7c2d045b2cb4a2ca36bb4cd0adfdbe1"
+    },
+    "entity": {
+      "$bytes": "1e0bf2c2530f4f8499562588276d8683"
+    },
+    "from": {
+      "$bytes": "43453594efe0480f965c44c4bf2b1a3b"
+    },
+    "to": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03rN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2f92f508d1504a7ab97d730a4669c17f"
+    },
+    "entity": {
+      "$bytes": "0f70bf73d7394f8eb43ce15f57118e3a"
+    },
+    "from": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "to": {
+      "$bytes": "cbbaed6c995d4a379f2702638a91af94"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05Mn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a6232b1878074658ac967649446c741c"
+    },
+    "entity": {
+      "$bytes": "dd03cc9db6014b55a2b353fd0d18099a"
+    },
+    "from": {
+      "$bytes": "cbbaed6c995d4a379f2702638a91af94"
+    },
+    "to": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0CN1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "53f45803e75c485e986f7b01dbe828e3"
+    },
+    "entity": {
+      "$bytes": "a13a300c904f4d37987a13bd99059a5e"
+    },
+    "from": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "to": {
+      "$bytes": "26334bba96914e769c042a4378520b0d"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a05CP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7a06f1c6700942cfb387900fe1d6b9f1"
+    },
+    "entity": {
+      "$bytes": "cc0756efa6c34dbdbaa1c40af1dc466f"
+    },
+    "from": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "to": {
+      "$bytes": "8b98a18845564fc9ab42bd24b9b60490"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a00sh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1fd67c37c51c4176a6d25bbab020c6e5"
+    },
+    "entity": {
+      "$bytes": "a1f67a758bd745e48f68d77fa8ac55d8"
+    },
+    "from": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "to": {
+      "$bytes": "43453594efe0480f965c44c4bf2b1a3b"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a0AUc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "21cc0e346f9c4836bf7029bffb2f6ead"
+    },
+    "entity": {
+      "$bytes": "6b2e8e7c376e4a958b8b62245b79019a"
+    },
+    "from": {
+      "$bytes": "6a17e75eef784856b20aa358a5eb7660"
+    },
+    "to": {
+      "$bytes": "cbbaed6c995d4a379f2702638a91af94"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a00EH"
+  }
+]

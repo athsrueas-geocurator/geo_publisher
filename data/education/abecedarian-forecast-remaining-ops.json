@@ -1,0 +1,2193 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6433a31942b64a8ea978a3fbdbe4825d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ABC/CARE's modeled benefit/cost ratio is 0.58 for labor-income benefits through age 27 using the Kline–Walters-style forecasting method.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "García and colleagues report a standard error of 0.28 for this August 2, 2018 author manuscript model estimate. It uses Chetty et al. (2011) net-present-value inputs and is not an observed lifetime return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "58"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "28"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ratio",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 1, column 4",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Through age 27",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8de4eac1ec174f46859ab5a37045a1ee"
+    },
+    "entity": {
+      "$bytes": "54af129be04040d1a6ab34de225596c4"
+    },
+    "from": {
+      "$bytes": "6433a31942b64a8ea978a3fbdbe4825d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c143b911cebc43bab2c83134e5eb792c"
+    },
+    "entity": {
+      "$bytes": "666703cbbd044cc493e4e877d8925566"
+    },
+    "from": {
+      "$bytes": "6433a31942b64a8ea978a3fbdbe4825d"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "52e72501f5e142fdb1e41f489e9408df"
+    },
+    "entity": {
+      "$bytes": "e8c21018e6b24c2091d179ebd77b34db"
+    },
+    "from": {
+      "$bytes": "6433a31942b64a8ea978a3fbdbe4825d"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b2beaafe61de4d83bc5ac274aea43470"
+    },
+    "entity": {
+      "$bytes": "19915c1b853d4a97a4cf0e49e8ad32a4"
+    },
+    "from": {
+      "$bytes": "6433a31942b64a8ea978a3fbdbe4825d"
+    },
+    "to": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e601ac2b2908425c86820d4de4cc21b2"
+    },
+    "entity": {
+      "$bytes": "0403c74624464f12860bd5aacfea43c7"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "6433a31942b64a8ea978a3fbdbe4825d"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "240bb2d2515b4964b021a05f4d3bb86b"
+    },
+    "entity": {
+      "$bytes": "6fd71913e8a74ed68f452a8cfd6ce4d8"
+    },
+    "from": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "to": {
+      "$bytes": "6433a31942b64a8ea978a3fbdbe4825d"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bc94817e50e741c2af3b8d72e86e72ec"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ABC/CARE's modeled benefit/cost ratio is 0.09 for labor-income benefits through age 27 using the Kline–Walters-style forecasting method.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "García and colleagues report a standard error of 0.04 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "9"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ratio",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 2, column 4",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Through age 27",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8e475883ee894957aee48e3587e8d127"
+    },
+    "entity": {
+      "$bytes": "7b5ebc9b13ff460faefa1390494a0edb"
+    },
+    "from": {
+      "$bytes": "bc94817e50e741c2af3b8d72e86e72ec"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5d715657212f4c00a86e9ba8b5b6b645"
+    },
+    "entity": {
+      "$bytes": "a50ef72c9eba47f9a688caca57786ccd"
+    },
+    "from": {
+      "$bytes": "bc94817e50e741c2af3b8d72e86e72ec"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2930f2d15ba24c8dabe7385558472447"
+    },
+    "entity": {
+      "$bytes": "c603cdb9d01d4f798293775d2b344160"
+    },
+    "from": {
+      "$bytes": "bc94817e50e741c2af3b8d72e86e72ec"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a693f7db5223426082a315d77b1d07d3"
+    },
+    "entity": {
+      "$bytes": "39644a486d0c44e3b80344d2f5a529d7"
+    },
+    "from": {
+      "$bytes": "bc94817e50e741c2af3b8d72e86e72ec"
+    },
+    "to": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c92a7c7a61e74282bdffb188fc8d29a4"
+    },
+    "entity": {
+      "$bytes": "35d835f770774f2db7ff13be4e28ddd3"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "bc94817e50e741c2af3b8d72e86e72ec"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9e2663d403dc454ca3ba29f3dc571dbd"
+    },
+    "entity": {
+      "$bytes": "df9ec66fc20e46a983a2088d11011315"
+    },
+    "from": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "to": {
+      "$bytes": "bc94817e50e741c2af3b8d72e86e72ec"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "42c41e183f7c43af91721639f3ea8615"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ABC/CARE's modeled benefit/cost ratio is 1.09 for labor-income benefits through age 27 using the authors' forecasting method.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "García and colleagues report a standard error of 0.04 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "109"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ratio",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 2, column 5",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Through age 27",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3621e3dd0bbd4d558be513bcc2581405"
+    },
+    "entity": {
+      "$bytes": "bae967b161b04d65993e59f4904710bd"
+    },
+    "from": {
+      "$bytes": "42c41e183f7c43af91721639f3ea8615"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1be61ecd218946bdb06d896e2a210795"
+    },
+    "entity": {
+      "$bytes": "6a3d95d0714f43b288830f49403b3243"
+    },
+    "from": {
+      "$bytes": "42c41e183f7c43af91721639f3ea8615"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ada7dcac5679400d84515c59dfed8fa5"
+    },
+    "entity": {
+      "$bytes": "78c38f636d9042cca854e453cb3d1471"
+    },
+    "from": {
+      "$bytes": "42c41e183f7c43af91721639f3ea8615"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "04baa32d287d4ed5af06a5e995942319"
+    },
+    "entity": {
+      "$bytes": "342002016a5f437495d273d73e56dc10"
+    },
+    "from": {
+      "$bytes": "42c41e183f7c43af91721639f3ea8615"
+    },
+    "to": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5e4b212dec8b4d6b929e0e3f364e9844"
+    },
+    "entity": {
+      "$bytes": "b5bd5f88cac6484fb197f6d022f421b0"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "42c41e183f7c43af91721639f3ea8615"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e27e4ab3c84e4c2482287898b9edbb02"
+    },
+    "entity": {
+      "$bytes": "626ab57f04f14e4c8bcb18372edd3f94"
+    },
+    "from": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "to": {
+      "$bytes": "42c41e183f7c43af91721639f3ea8615"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a3"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "97b98366083c4ea78127ad956ecf9163"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ABC/CARE's modeled benefit/cost ratio is 0.37 for labor-income benefits through age 34 using the Kline–Walters-style forecasting method.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "García and colleagues report a standard error of 0.04 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "37"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ratio",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 3, column 4",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Through age 34",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ccec0e3a9a004df4a081fa2644e4b508"
+    },
+    "entity": {
+      "$bytes": "3d8806c2ce6949a193e9038592a0c32a"
+    },
+    "from": {
+      "$bytes": "97b98366083c4ea78127ad956ecf9163"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "95ee34cc09174253bd16ad3f5e9e7580"
+    },
+    "entity": {
+      "$bytes": "5b23749dafad48c9a1d5b458966c5c2c"
+    },
+    "from": {
+      "$bytes": "97b98366083c4ea78127ad956ecf9163"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8e98b1b532624a58aa8514fead5069e8"
+    },
+    "entity": {
+      "$bytes": "75e9d742455f41c9842d4839f8034f7d"
+    },
+    "from": {
+      "$bytes": "97b98366083c4ea78127ad956ecf9163"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "67915e0e14214c729d24c2f2399b9b6f"
+    },
+    "entity": {
+      "$bytes": "43150790cf0748268ee102e58ea9301f"
+    },
+    "from": {
+      "$bytes": "97b98366083c4ea78127ad956ecf9163"
+    },
+    "to": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "21cb5a04c5f9438ab94dafe26ebde76e"
+    },
+    "entity": {
+      "$bytes": "7035c75a71554be99cc14e90fc798930"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "97b98366083c4ea78127ad956ecf9163"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "62b3dd2151b448628093b653d998a4df"
+    },
+    "entity": {
+      "$bytes": "6043edb1d3f049f08da35fcca3723e94"
+    },
+    "from": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "to": {
+      "$bytes": "97b98366083c4ea78127ad956ecf9163"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a4"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a73d973eef5745c38d647ae7b5f11e0f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ABC/CARE's modeled benefit/cost ratio is 0.15 for labor-income benefits through age 34 using the authors' forecasting method.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "García and colleagues report a standard error of 0.05 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "15"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ratio",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 3, column 5",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Through age 34",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1f94c972bbe04514b79cb846465fa86f"
+    },
+    "entity": {
+      "$bytes": "5be7fd69e8f8451783a4d8a66ba87f89"
+    },
+    "from": {
+      "$bytes": "a73d973eef5745c38d647ae7b5f11e0f"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "537807112d57472e85bf9f7435a2a03a"
+    },
+    "entity": {
+      "$bytes": "4913b3dcb2cc48eda8a05a33cdfbd5d3"
+    },
+    "from": {
+      "$bytes": "a73d973eef5745c38d647ae7b5f11e0f"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "058e209189de4d6da1de20407604b803"
+    },
+    "entity": {
+      "$bytes": "91cccd086d9a42f58d01eaa424ba3ccb"
+    },
+    "from": {
+      "$bytes": "a73d973eef5745c38d647ae7b5f11e0f"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "92016a1153cf4657ad7ceecc99699f91"
+    },
+    "entity": {
+      "$bytes": "7e8e8ecdd8bd489b822e459da6cf069e"
+    },
+    "from": {
+      "$bytes": "a73d973eef5745c38d647ae7b5f11e0f"
+    },
+    "to": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b182ce648924414e92b035372001b8a7"
+    },
+    "entity": {
+      "$bytes": "4e7ad7fae88f485e88c7651736c2b271"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "a73d973eef5745c38d647ae7b5f11e0f"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "347f5c0cb6a44f9085912d8280bbc3d9"
+    },
+    "entity": {
+      "$bytes": "f6e970da0c4f4b4b9e948dfe5c7015d2"
+    },
+    "from": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "to": {
+      "$bytes": "a73d973eef5745c38d647ae7b5f11e0f"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a5"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ab8db4a1c6e04600ac60b3fc29d36b0a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ABC/CARE's modeled benefit/cost ratio is 1.21 for all monetized benefits through age 34 using the Kline–Walters-style forecasting method.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "García and colleagues report a standard error of 0.05 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "121"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ratio",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 4, column 4",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Through age 34",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "72e14b7b31674bbaaa6a11feb82c4ccc"
+    },
+    "entity": {
+      "$bytes": "a140353bc2b34d99afef08a6a1128937"
+    },
+    "from": {
+      "$bytes": "ab8db4a1c6e04600ac60b3fc29d36b0a"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5dad8f856020489d809705910ff78e4b"
+    },
+    "entity": {
+      "$bytes": "191fbb21ba8d47d5bb6d603fb9138bf2"
+    },
+    "from": {
+      "$bytes": "ab8db4a1c6e04600ac60b3fc29d36b0a"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "65b55fa124204373a0f574399b963a39"
+    },
+    "entity": {
+      "$bytes": "adbdd8ade8324f5daed700dd2856f95b"
+    },
+    "from": {
+      "$bytes": "ab8db4a1c6e04600ac60b3fc29d36b0a"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "df06d587438149caa514857b2fae1e67"
+    },
+    "entity": {
+      "$bytes": "389cb96c4fba45f3a3e560ff75cefd45"
+    },
+    "from": {
+      "$bytes": "ab8db4a1c6e04600ac60b3fc29d36b0a"
+    },
+    "to": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c29c751929d74a888fc1a190a434cf94"
+    },
+    "entity": {
+      "$bytes": "1bb6d05fdbde4cd1a7939491af3d7d54"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "ab8db4a1c6e04600ac60b3fc29d36b0a"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "be5c0393c4154439920cff8bae2485a8"
+    },
+    "entity": {
+      "$bytes": "221994d02fe54c34bb7a649ce7b3e7eb"
+    },
+    "from": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "to": {
+      "$bytes": "ab8db4a1c6e04600ac60b3fc29d36b0a"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a6"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "451c0393be9944a8bcb4c799db8206e9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ABC/CARE's modeled benefit/cost ratio is 3.20 for all monetized benefits through age 34 using the authors' forecasting method.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "García and colleagues report a standard error of 1.04 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "32"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "104"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ratio",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 4, column 5",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Through age 34",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6be330713e8d42018c20956cfbe378bb"
+    },
+    "entity": {
+      "$bytes": "f4069d24d88a43f0b06a6b9b4a2380a9"
+    },
+    "from": {
+      "$bytes": "451c0393be9944a8bcb4c799db8206e9"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "37554444233b4c49b9e9aa148e769fdd"
+    },
+    "entity": {
+      "$bytes": "c6e59e648ec448d48994fdfee3657802"
+    },
+    "from": {
+      "$bytes": "451c0393be9944a8bcb4c799db8206e9"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1599041b063c4ba48e0fe18b05a9a024"
+    },
+    "entity": {
+      "$bytes": "9b3ae2ddfb9448f3bf561b82618dd377"
+    },
+    "from": {
+      "$bytes": "451c0393be9944a8bcb4c799db8206e9"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2058c7d9a472480f84eb9ac1150fe9a0"
+    },
+    "entity": {
+      "$bytes": "dc5d49015be84727b7ec15125ceb5bc8"
+    },
+    "from": {
+      "$bytes": "451c0393be9944a8bcb4c799db8206e9"
+    },
+    "to": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "133dc617931340f19764e38419906686"
+    },
+    "entity": {
+      "$bytes": "028bb2db01a8489daf8d4683f05f5855"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "451c0393be9944a8bcb4c799db8206e9"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b5d2cc32de394d01a8178edd25aa5b13"
+    },
+    "entity": {
+      "$bytes": "46d59c25c77f4c9693612793375505bd"
+    },
+    "from": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "to": {
+      "$bytes": "451c0393be9944a8bcb4c799db8206e9"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "01db2c2b44534fc4a7da5ff6e614d231"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ABC/CARE's modeled benefit/cost ratio is 1.56 for labor-income benefits over the life cycle using the Kline–Walters-style forecasting method.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "García and colleagues report a standard error of 0.08 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "156"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "8"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ratio",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 5, column 4",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Life-cycle",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f711272153a749c1a8dd55ca18ed588f"
+    },
+    "entity": {
+      "$bytes": "a70219b3b59542729d529f27d50db6ba"
+    },
+    "from": {
+      "$bytes": "01db2c2b44534fc4a7da5ff6e614d231"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "35f5eba1bfc743958a32196d94b1cacd"
+    },
+    "entity": {
+      "$bytes": "98583a580e244adb9212f5736cbd1744"
+    },
+    "from": {
+      "$bytes": "01db2c2b44534fc4a7da5ff6e614d231"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "516bbcba2fcb49f3ad567796bfb13452"
+    },
+    "entity": {
+      "$bytes": "557f52b8a7c04d84afda286e743d57c1"
+    },
+    "from": {
+      "$bytes": "01db2c2b44534fc4a7da5ff6e614d231"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d84927668c404e3382c9496d76f40ac8"
+    },
+    "entity": {
+      "$bytes": "3f76abe499c74cf6bd23913ad9c0c345"
+    },
+    "from": {
+      "$bytes": "01db2c2b44534fc4a7da5ff6e614d231"
+    },
+    "to": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f76f7520a8114a6a831261397aa279ff"
+    },
+    "entity": {
+      "$bytes": "c930a4fa651e4ddd85033c5caec3954d"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "01db2c2b44534fc4a7da5ff6e614d231"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6642383847b84aa0b765ea5c72a72608"
+    },
+    "entity": {
+      "$bytes": "359c08227f7e42f988f4d01d1b319381"
+    },
+    "from": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "to": {
+      "$bytes": "01db2c2b44534fc4a7da5ff6e614d231"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a8"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2a33915f54ba48f293186c85d0ddeeb6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ABC/CARE's modeled benefit/cost ratio is 1.55 for labor-income benefits over the life cycle using the authors' forecasting method.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "García and colleagues report a standard error of 0.76 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "155"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "76"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ratio",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 5, column 5",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Life-cycle",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1374e3f5cf8d4812b903177225deb647"
+    },
+    "entity": {
+      "$bytes": "ac5c46e063f84a0fb57ae146b8c74c58"
+    },
+    "from": {
+      "$bytes": "2a33915f54ba48f293186c85d0ddeeb6"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bf68d7e1f8544de1ae1923ff51b89004"
+    },
+    "entity": {
+      "$bytes": "2b1b83f2230f465faec1cd5e4085accb"
+    },
+    "from": {
+      "$bytes": "2a33915f54ba48f293186c85d0ddeeb6"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "949e8124d0394de8b90c6a9ed45da98b"
+    },
+    "entity": {
+      "$bytes": "ad3ee30bb7b44c64970be816fd87eff9"
+    },
+    "from": {
+      "$bytes": "2a33915f54ba48f293186c85d0ddeeb6"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2b1f3463915b40358d051d86faea750e"
+    },
+    "entity": {
+      "$bytes": "d9ae6968ec30473da6df5c748fad401f"
+    },
+    "from": {
+      "$bytes": "2a33915f54ba48f293186c85d0ddeeb6"
+    },
+    "to": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1cc242666ad74a3299a26a9453796d45"
+    },
+    "entity": {
+      "$bytes": "0c3019e4fbcc430cb28ba6ca7f1d5178"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "2a33915f54ba48f293186c85d0ddeeb6"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f647970c1c54437f80cec281d94321cb"
+    },
+    "entity": {
+      "$bytes": "d70e36faea654715a9b091a7f7a2e4fd"
+    },
+    "from": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "to": {
+      "$bytes": "2a33915f54ba48f293186c85d0ddeeb6"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a9"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "03ddf15303dd46d296b807be2364e765"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ABC/CARE's modeled benefit/cost ratio is 3.80 for all monetized benefits over the life cycle using the Kline–Walters-style forecasting method.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "García and colleagues report a standard error of 0.29 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "38"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "29"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ratio",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 6, column 4",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Life-cycle",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fcb835b1a1c547bbbe4e152bca3b48af"
+    },
+    "entity": {
+      "$bytes": "604b83eb72dc4929a50ba7908d14ed5d"
+    },
+    "from": {
+      "$bytes": "03ddf15303dd46d296b807be2364e765"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1354d32397ec4b02b806b3fdae37efe6"
+    },
+    "entity": {
+      "$bytes": "fcb3c96c1280494692f9a73d4c7c1ca8"
+    },
+    "from": {
+      "$bytes": "03ddf15303dd46d296b807be2364e765"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7f9cede8a94244c6b1f941d397a8370e"
+    },
+    "entity": {
+      "$bytes": "5cf735e3fdc04b02b22296d375d3df6e"
+    },
+    "from": {
+      "$bytes": "03ddf15303dd46d296b807be2364e765"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4b2ec060de6043c8a23c781ecfe5f034"
+    },
+    "entity": {
+      "$bytes": "1471bff06c83478cb8ab891e3e5ab11c"
+    },
+    "from": {
+      "$bytes": "03ddf15303dd46d296b807be2364e765"
+    },
+    "to": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1019304dfebe4b49a203795e73820fc7"
+    },
+    "entity": {
+      "$bytes": "2275a2153f394baa84768db30d8be294"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "03ddf15303dd46d296b807be2364e765"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b36d818a125b4dbdab43e4098773df2d"
+    },
+    "entity": {
+      "$bytes": "16b88884353a46d2b6eb0a17b6f16729"
+    },
+    "from": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "to": {
+      "$bytes": "03ddf15303dd46d296b807be2364e765"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aa"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6cca7447555640cb911a65702a9a3eb6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Coverage and interpretation\n\nThe table contains all 11 reported benefit/cost ratios and standard errors from Table 6 of the August 2, 2018 author manuscript. The pooled life-cycle, all-benefits baseline (7.33; standard error 1.84) appears first, followed by the other source cells in manuscript order. These are alternative forecasts using related data, not 11 independent studies. The Kline–Walters-style estimates are García and colleagues' application of that forecasting method, not results directly reported by Kline and Walters. The missing authors'-method cell for Chetty-based age-27 inputs is not reported, not zero. [Source manuscript](https://cehd.uchicago.edu/wp-content/uploads/2018/08/abc_comprehensivecba_revised_2018-08-02a_jlg.pdf).\n\n## Comparison assumptions\n\nThe baseline discounts benefits and costs to birth at 3% and forecasts through age 79. The reported ratio averages bootstrap ratios; it is not necessarily the ratio of rounded aggregate means. Control childcare substitution costs enter the authors' benefits accounting. Forecasts combine experimental and nonexperimental data.\n\n## Cost caveat\n\nThe 2018 appendix's listed annual cost components do not reconcile to its reported total. Author-reported estimates are preserved; independently reconstructed cost-effectiveness rankings remain unresolved. The two underlying trials and alternate forecast specifications must not be counted as independent replications.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  }
+]

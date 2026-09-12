@@ -1,0 +1,4240 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Long-Term Effects of a Sectoral Advancement Strategy: Costs, Benefits, and Impacts from the WorkAdvance Demonstration",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "MDRC’s 2020 long-term randomized evaluation and benefit-cost analysis of four WorkAdvance sector-training providers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/long-term-effects-sectoral-advancement-strategy",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f605285d074f47cc8e4a9d0e9ad61cce"
+    },
+    "entity": {
+      "$bytes": "9a5b16579e724e33a5e7212523387ec6"
+    },
+    "from": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02bu"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6edae2af128f47c0a7359b1ae52eba28"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance sectoral career-advancement model",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A five-component sector-training model: screening, career readiness, occupational training, placement, and postemployment advancement support.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/long-term-effects-sectoral-advancement-strategy",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "84ae7c01a6394a6db9f99ab62919620a"
+    },
+    "entity": {
+      "$bytes": "2f71e6a99d09458aa5ccfe4c39553562"
+    },
+    "from": {
+      "$bytes": "6edae2af128f47c0a7359b1ae52eba28"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03Ok"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "df706574a00d4252bdf2ce0f7594682c"
+    },
+    "entity": {
+      "$bytes": "2930cec7d2ab4669b789d3c52609ef66"
+    },
+    "from": {
+      "$bytes": "6edae2af128f47c0a7359b1ae52eba28"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09rr"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8011add1e9734c17a5b2ee1378944fc4"
+    },
+    "entity": {
+      "$bytes": "7851eb9e640c44818655ef354f9b8bf7"
+    },
+    "from": {
+      "$bytes": "6edae2af128f47c0a7359b1ae52eba28"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01cP"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "52102b2ff01f460a86d0afc946bfb242"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance randomly assigned 2,564 adults across four provider sites.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2011–2013 evaluation assigned 1,293 people to WorkAdvance and 1,271 to control services. Site-specific analysis is primary; pooled results can mask provider variation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Executive Summary, pp. ES-2–ES-3.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2564"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b6e5ec59137745f5bca46055bc79d465"
+    },
+    "entity": {
+      "$bytes": "3773a23660d84ff79a559b4af18598f3"
+    },
+    "from": {
+      "$bytes": "52102b2ff01f460a86d0afc946bfb242"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a053u"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b786e932509e49b0a6cda8d61e8247fb"
+    },
+    "entity": {
+      "$bytes": "b918cb0ba4cb4f638373e01617ff892b"
+    },
+    "from": {
+      "$bytes": "52102b2ff01f460a86d0afc946bfb242"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08lG"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2c49754c84374b9787f7ca3c58727112"
+    },
+    "entity": {
+      "$bytes": "c6b200231cf943c1a1f6f9d937230b93"
+    },
+    "from": {
+      "$bytes": "52102b2ff01f460a86d0afc946bfb242"
+    },
+    "to": {
+      "$bytes": "6edae2af128f47c0a7359b1ae52eba28"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05nP"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "430852724e084021b8f43d252646c8fc"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance pooled 2018 earnings effect: +$2,716.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Across all four sites, 2018 earnings were $26,419 for WorkAdvance and $23,703 for control participants. This pooled effect is not a provider-specific result.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.3; Executive Summary p. ES-6.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2716"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2564"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "= .003",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d5755bfa79e44144ba26d08b9d04cafd"
+    },
+    "entity": {
+      "$bytes": "1c4950b62eb6490a9b2b3aaa8c17fedb"
+    },
+    "from": {
+      "$bytes": "430852724e084021b8f43d252646c8fc"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AeS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6a0fc196dc3a4edd904e84c0dafc1154"
+    },
+    "entity": {
+      "$bytes": "424edb27e8114fc78271b2b99d8928a3"
+    },
+    "from": {
+      "$bytes": "430852724e084021b8f43d252646c8fc"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04xF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1e5c06a3e4624f589d9b96fe6f52fa56"
+    },
+    "entity": {
+      "$bytes": "38327a6006d8499e8e25181b54443dd7"
+    },
+    "from": {
+      "$bytes": "430852724e084021b8f43d252646c8fc"
+    },
+    "to": {
+      "$bytes": "6edae2af128f47c0a7359b1ae52eba28"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01Bt"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "74367c0ffb3b46b0aa84df113b274eb6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance pooled 2018 $30,000-or-more earnings effect: +6.4 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "In the pooled sample, 40.0% of WorkAdvance and 33.7% of control participants earned at least $30,000 in 2018. The threshold is report-specific and the pooled result masks provider variation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.3; Executive Summary p. ES-6.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "64"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2564"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "= .001",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "057169bc5a9e4d8a9245952cf01968bc"
+    },
+    "entity": {
+      "$bytes": "1321647f61454cc1ba77c5a7649cb56b"
+    },
+    "from": {
+      "$bytes": "74367c0ffb3b46b0aa84df113b274eb6"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01xj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "090b8800153b422f976d6e993c67e8ad"
+    },
+    "entity": {
+      "$bytes": "31805398d898440cb93f6a568d4c9ca5"
+    },
+    "from": {
+      "$bytes": "74367c0ffb3b46b0aa84df113b274eb6"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03U5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9feb29c65c344e2ea3472a0be26ee42f"
+    },
+    "entity": {
+      "$bytes": "2ff2015960b747d387cf18bbd6c2cc7c"
+    },
+    "from": {
+      "$bytes": "74367c0ffb3b46b0aa84df113b274eb6"
+    },
+    "to": {
+      "$bytes": "6edae2af128f47c0a7359b1ae52eba28"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04sY"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c609e1790a274c6cb1dffc05ce509649"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance at Per Scholas",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Bronx information-technology implementation of the WorkAdvance sectoral career-advancement model.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/long-term-effects-sectoral-advancement-strategy",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "81773da44d164effaa81d6f84f146946"
+    },
+    "entity": {
+      "$bytes": "5554f50d61834034bd7e7275abde936f"
+    },
+    "from": {
+      "$bytes": "c609e1790a274c6cb1dffc05ce509649"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09Ru"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "77d84a0ef03b41049e0466fda73ea818"
+    },
+    "entity": {
+      "$bytes": "dbac4d7bcb4f4209b69be272344146b9"
+    },
+    "from": {
+      "$bytes": "c609e1790a274c6cb1dffc05ce509649"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01eQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "972216f371f54a6ebbff121c6729c474"
+    },
+    "entity": {
+      "$bytes": "92d6e96c674b409589e070f7afbe4c1a"
+    },
+    "from": {
+      "$bytes": "c609e1790a274c6cb1dffc05ce509649"
+    },
+    "to": {
+      "$bytes": "6edae2af128f47c0a7359b1ae52eba28"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00YQ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d7ee28bfdd9c41aeb87773f3a46c67a7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Per Scholas 2018 earnings effect: +$6,281.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This randomized site-specific estimate uses National Directory of New Hires data. The reported difference is not statistically significant at conventional thresholds except where the stated p value indicates otherwise.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "6281"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "690"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "= .004",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "03632352212a4ef79289703c82256100"
+    },
+    "entity": {
+      "$bytes": "48e6c8c122934cf2b5158c8515808367"
+    },
+    "from": {
+      "$bytes": "d7ee28bfdd9c41aeb87773f3a46c67a7"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03Zm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0043071368da4dff9e788504bd8f4210"
+    },
+    "entity": {
+      "$bytes": "11d3889d87f64f5eade45b10a98305bd"
+    },
+    "from": {
+      "$bytes": "d7ee28bfdd9c41aeb87773f3a46c67a7"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0ABS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3a8268683ae4459e961972d8f1f30f26"
+    },
+    "entity": {
+      "$bytes": "c1d57f5e515b434db5e8ebdd92cd63b1"
+    },
+    "from": {
+      "$bytes": "d7ee28bfdd9c41aeb87773f3a46c67a7"
+    },
+    "to": {
+      "$bytes": "c609e1790a274c6cb1dffc05ce509649"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a027v"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9f3dba3778dc4876842e1f4cfd11c32f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Per Scholas 2018 $30,000-or-more earnings effect: +6.3 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This randomized site-specific estimate uses the report’s $30,000 2018 earnings threshold. It is not a general employment-rate effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "63"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "690"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "= .099",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b4b341b9d5f349f7861f5d623ec2f851"
+    },
+    "entity": {
+      "$bytes": "e6b254f44d20481daf16ebac04c946a4"
+    },
+    "from": {
+      "$bytes": "9f3dba3778dc4876842e1f4cfd11c32f"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03sS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f04ba9b243d148f38daae0817dfc2db9"
+    },
+    "entity": {
+      "$bytes": "4671fa903087461a81df2d7ee7c9a313"
+    },
+    "from": {
+      "$bytes": "9f3dba3778dc4876842e1f4cfd11c32f"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05tT"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eb9c2e5b7bce45a28961fc87db1b1e78"
+    },
+    "entity": {
+      "$bytes": "d43149eaf33d4fbe9037c37453af7dec"
+    },
+    "from": {
+      "$bytes": "9f3dba3778dc4876842e1f4cfd11c32f"
+    },
+    "to": {
+      "$bytes": "c609e1790a274c6cb1dffc05ce509649"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06UC"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5b110052f25b46fc8af44d6e3df93fcb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Per Scholas: participant net financial gain $15,456.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-modelled net financial gain per participant over the seven years; it is not a benefit-cost ratio. Values are inflation-adjusted and discounted to 2018 present value at 3.5%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "15456"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2018"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2018 USD per participant; participant net financial gain including monetized nonmarket time and deadweight loss; seven years.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0283cc51cba54add9e234a3f37391bae"
+    },
+    "entity": {
+      "$bytes": "59f7d90a4bd949a68a99bc3ac9353031"
+    },
+    "from": {
+      "$bytes": "5b110052f25b46fc8af44d6e3df93fcb"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07SX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "04091dcda02940f090ef1022b6c49c86"
+    },
+    "entity": {
+      "$bytes": "c447e6e54d6c4e6788612811f835f313"
+    },
+    "from": {
+      "$bytes": "5b110052f25b46fc8af44d6e3df93fcb"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06It"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c3a4493e306d4c99a32a46932718ac88"
+    },
+    "entity": {
+      "$bytes": "3281249881ff4b6793d5ffd7a956df7b"
+    },
+    "from": {
+      "$bytes": "5b110052f25b46fc8af44d6e3df93fcb"
+    },
+    "to": {
+      "$bytes": "c609e1790a274c6cb1dffc05ce509649"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08vd"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e4034125340b4138b3abe70e78fabecf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Per Scholas: government budget net financial gain $13,387.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-modelled net financial gain per participant over the seven years; it is not a benefit-cost ratio. Values are inflation-adjusted and discounted to 2018 present value at 3.5%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "13387"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2018"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2018 USD per participant; government budget net financial gain including monetized nonmarket time and deadweight loss; seven years.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "89938b035ae64d46a1aeec3b5c17ab27"
+    },
+    "entity": {
+      "$bytes": "54ebe99d1968421aad7c711eb51148dd"
+    },
+    "from": {
+      "$bytes": "e4034125340b4138b3abe70e78fabecf"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AnL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8799fcbca8d54588b8c8d081653f385b"
+    },
+    "entity": {
+      "$bytes": "ade02b686025432dbd633d07daa80efc"
+    },
+    "from": {
+      "$bytes": "e4034125340b4138b3abe70e78fabecf"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09OL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f18b9c883d7a4fa9a830b9438cd86906"
+    },
+    "entity": {
+      "$bytes": "1d85614a68234dedbbdb3cc200f723ff"
+    },
+    "from": {
+      "$bytes": "e4034125340b4138b3abe70e78fabecf"
+    },
+    "to": {
+      "$bytes": "c609e1790a274c6cb1dffc05ce509649"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a039f"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c64c6e66b9ac43fca969ed176b0f8a86"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Per Scholas: society net financial gain $31,387.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-modelled net financial gain per participant over the seven years; it is not a benefit-cost ratio. Values are inflation-adjusted and discounted to 2018 present value at 3.5%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "31387"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2018"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2018 USD per participant; society net financial gain including monetized nonmarket time and deadweight loss; seven years.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ac1bd3483fae4082884cbc8975ca4d5e"
+    },
+    "entity": {
+      "$bytes": "5ed08856bb4a452086992b37efef1f52"
+    },
+    "from": {
+      "$bytes": "c64c6e66b9ac43fca969ed176b0f8a86"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08RN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ff8dd36a4eb6491bb5a1c34eee4b3d31"
+    },
+    "entity": {
+      "$bytes": "e0548cc06e164eefa7a88e09a5b2d2ba"
+    },
+    "from": {
+      "$bytes": "c64c6e66b9ac43fca969ed176b0f8a86"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Aes"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dcbb51f480d64711ba357b746b935334"
+    },
+    "entity": {
+      "$bytes": "61acee73d2d14e89bd02cfc063abcc78"
+    },
+    "from": {
+      "$bytes": "c64c6e66b9ac43fca969ed176b0f8a86"
+    },
+    "to": {
+      "$bytes": "c609e1790a274c6cb1dffc05ce509649"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0CK6"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d2f8240d139545ca92e67b868ad792e5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance at St. Nicks Alliance",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Brooklyn environmental-remediation implementation of the WorkAdvance sectoral career-advancement model.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/long-term-effects-sectoral-advancement-strategy",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4dfa296d7d084c57a00800df57f117c0"
+    },
+    "entity": {
+      "$bytes": "5ac4ecfd3e80451bbe577662e176fbe4"
+    },
+    "from": {
+      "$bytes": "d2f8240d139545ca92e67b868ad792e5"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08Tl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0cfbe781fabc4244a79a1229afa6670e"
+    },
+    "entity": {
+      "$bytes": "ea5538d1fdc745d39a2332bc9d352490"
+    },
+    "from": {
+      "$bytes": "d2f8240d139545ca92e67b868ad792e5"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0COc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8e01c5c5ea8f4748b3ea6e3d2dbf61b7"
+    },
+    "entity": {
+      "$bytes": "4a39d01c1fa045f78dae5ae011a0fd13"
+    },
+    "from": {
+      "$bytes": "d2f8240d139545ca92e67b868ad792e5"
+    },
+    "to": {
+      "$bytes": "6edae2af128f47c0a7359b1ae52eba28"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07Fx"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8db4d077d0db4621b4538da19bac0eee"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance St. Nicks Alliance 2018 earnings effect: +$2,849.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This randomized site-specific estimate uses National Directory of New Hires data. The reported difference is not statistically significant at conventional thresholds except where the stated p value indicates otherwise.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2849"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "479"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "= .208",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "42c329299112484b93e1434b71009269"
+    },
+    "entity": {
+      "$bytes": "e4d6427462324a6892c024b43eef1c95"
+    },
+    "from": {
+      "$bytes": "8db4d077d0db4621b4538da19bac0eee"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02fX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7231c18f2b384bec90d57c4ef439f799"
+    },
+    "entity": {
+      "$bytes": "7d9258d3e4bb4fe8a7a5950c391cb5f3"
+    },
+    "from": {
+      "$bytes": "8db4d077d0db4621b4538da19bac0eee"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03CB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "afea46b8b6df44aaa9f8afdab9730955"
+    },
+    "entity": {
+      "$bytes": "f0b21559315c4afe88819ca160226b04"
+    },
+    "from": {
+      "$bytes": "8db4d077d0db4621b4538da19bac0eee"
+    },
+    "to": {
+      "$bytes": "d2f8240d139545ca92e67b868ad792e5"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03ig"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1f96645855cc4c0490aba23f7e7b9581"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance St. Nicks Alliance 2018 $30,000-or-more earnings effect: +9.3 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This randomized site-specific estimate uses the report’s $30,000 2018 earnings threshold. It is not a general employment-rate effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "93"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "479"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "= .033",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "94b27d7391494423902abb2c1ba7124e"
+    },
+    "entity": {
+      "$bytes": "e1362de2f1db4113982feb21949bbe69"
+    },
+    "from": {
+      "$bytes": "1f96645855cc4c0490aba23f7e7b9581"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a074q"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bffd91ff823d46079fddd39465dd57ef"
+    },
+    "entity": {
+      "$bytes": "52cc75570329490184eb068849bc4637"
+    },
+    "from": {
+      "$bytes": "1f96645855cc4c0490aba23f7e7b9581"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a014E"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "57010cc2dec94ef1875eb7f93d1ee126"
+    },
+    "entity": {
+      "$bytes": "480d37d826454d328efe7bb36f8a3d64"
+    },
+    "from": {
+      "$bytes": "1f96645855cc4c0490aba23f7e7b9581"
+    },
+    "to": {
+      "$bytes": "d2f8240d139545ca92e67b868ad792e5"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05Og"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "94ddb74bc92a49c694e7d88a2e6db045"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance St. Nicks Alliance: participant net financial gain $9,387.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-modelled net financial gain per participant over the ten years; it is not a benefit-cost ratio. Values are inflation-adjusted and discounted to 2018 present value at 3.5%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "9387"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2018"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2018 USD per participant; participant net financial gain including monetized nonmarket time and deadweight loss; ten years.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "971522690eeb4ba89f4172183b779763"
+    },
+    "entity": {
+      "$bytes": "6a34c442e63249cfbf81fe304d27b971"
+    },
+    "from": {
+      "$bytes": "94ddb74bc92a49c694e7d88a2e6db045"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00Wv"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "440592b66512406fa5628d0984a42580"
+    },
+    "entity": {
+      "$bytes": "83ca41b5fbb642b09ed3ef021e485a76"
+    },
+    "from": {
+      "$bytes": "94ddb74bc92a49c694e7d88a2e6db045"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0076"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1ae0cda2056d49aaac6c24ff0c6e4731"
+    },
+    "entity": {
+      "$bytes": "55c2c6716d5f47a7be7646fbb4409da1"
+    },
+    "from": {
+      "$bytes": "94ddb74bc92a49c694e7d88a2e6db045"
+    },
+    "to": {
+      "$bytes": "d2f8240d139545ca92e67b868ad792e5"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a000N"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a4412d3b808742a697a720dd846724d3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance St. Nicks Alliance: government budget net financial gain $3,660.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-modelled net financial gain per participant over the ten years; it is not a benefit-cost ratio. Values are inflation-adjusted and discounted to 2018 present value at 3.5%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3660"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2018"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2018 USD per participant; government budget net financial gain including monetized nonmarket time and deadweight loss; ten years.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "404f94541e2147c8bef2d172027d0b13"
+    },
+    "entity": {
+      "$bytes": "88c049e381c44ce098aa9d4c8915efc5"
+    },
+    "from": {
+      "$bytes": "a4412d3b808742a697a720dd846724d3"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01F4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b705963ef3bc42b1849d886b956117b3"
+    },
+    "entity": {
+      "$bytes": "8098ff470e6f44bba8adc5e25582909d"
+    },
+    "from": {
+      "$bytes": "a4412d3b808742a697a720dd846724d3"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BIy"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2a3f477da5ae40bfb04fa60f2bde9865"
+    },
+    "entity": {
+      "$bytes": "43bb45cc587f4fb1b55f0aa1432eead5"
+    },
+    "from": {
+      "$bytes": "a4412d3b808742a697a720dd846724d3"
+    },
+    "to": {
+      "$bytes": "d2f8240d139545ca92e67b868ad792e5"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09ip"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7b8d6b29f5fc4b3081c5c969756c52b3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance St. Nicks Alliance: society net financial gain $13,742.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-modelled net financial gain per participant over the ten years; it is not a benefit-cost ratio. Values are inflation-adjusted and discounted to 2018 present value at 3.5%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "13742"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2018"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2018 USD per participant; society net financial gain including monetized nonmarket time and deadweight loss; ten years.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7744a141b37b409091683473308586ca"
+    },
+    "entity": {
+      "$bytes": "88309fecf4734696868acd1d55157ace"
+    },
+    "from": {
+      "$bytes": "7b8d6b29f5fc4b3081c5c969756c52b3"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02Lr"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8dfd30d906824e89a724519fbaf0e644"
+    },
+    "entity": {
+      "$bytes": "64d51209f3a4400db5df06b36cbbc06c"
+    },
+    "from": {
+      "$bytes": "7b8d6b29f5fc4b3081c5c969756c52b3"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05p2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0e065914600946f29ebd4feef8b84e04"
+    },
+    "entity": {
+      "$bytes": "f1a0ea5dd0e74eb1a93f49fd5e49b485"
+    },
+    "from": {
+      "$bytes": "7b8d6b29f5fc4b3081c5c969756c52b3"
+    },
+    "to": {
+      "$bytes": "d2f8240d139545ca92e67b868ad792e5"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09YS"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c0fb562fcddd4fe1a3a97def4fe90899"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance at Madison Strategies Group",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Tulsa transportation and manufacturing implementation of the WorkAdvance sectoral career-advancement model.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/long-term-effects-sectoral-advancement-strategy",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a00b88a6b5844d65b426b927ef5d463f"
+    },
+    "entity": {
+      "$bytes": "98c8473443454558bf4f7c36c9ff8109"
+    },
+    "from": {
+      "$bytes": "c0fb562fcddd4fe1a3a97def4fe90899"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a059D"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ddb39f3513fb442181cedccb5920484e"
+    },
+    "entity": {
+      "$bytes": "791477e4f83d4eed96ae7d8858586711"
+    },
+    "from": {
+      "$bytes": "c0fb562fcddd4fe1a3a97def4fe90899"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02q3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f73d41451876433db88462f942f63531"
+    },
+    "entity": {
+      "$bytes": "8972073159e043aba0c94a278c1f6bf5"
+    },
+    "from": {
+      "$bytes": "c0fb562fcddd4fe1a3a97def4fe90899"
+    },
+    "to": {
+      "$bytes": "6edae2af128f47c0a7359b1ae52eba28"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03vv"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "93460ea13cb54da0b42d5f6832f12b66"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Madison Strategies Group 2018 earnings effect: +$787.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This randomized site-specific estimate uses National Directory of New Hires data. The reported difference is not statistically significant at conventional thresholds except where the stated p value indicates otherwise.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "787"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "697"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "= .603",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4ca2d5bbb74746c290088b90821bb4fe"
+    },
+    "entity": {
+      "$bytes": "3a6f4a4ee4bc46c893e43a20906521da"
+    },
+    "from": {
+      "$bytes": "93460ea13cb54da0b42d5f6832f12b66"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00sJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "964d1bf1e41844e88bdd63cfbb99368d"
+    },
+    "entity": {
+      "$bytes": "3e924bf6426d401eb74d91247ee001ea"
+    },
+    "from": {
+      "$bytes": "93460ea13cb54da0b42d5f6832f12b66"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02Lj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "16db4bcaa56a4681824833b7b03c2a03"
+    },
+    "entity": {
+      "$bytes": "35e34d51a57846098cbbed09455f675c"
+    },
+    "from": {
+      "$bytes": "93460ea13cb54da0b42d5f6832f12b66"
+    },
+    "to": {
+      "$bytes": "c0fb562fcddd4fe1a3a97def4fe90899"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00Ao"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "91922f7aee044e77988098f6153024b1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Madison Strategies Group 2018 $30,000-or-more earnings effect: +5.8 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This randomized site-specific estimate uses the report’s $30,000 2018 earnings threshold. It is not a general employment-rate effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "58"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "697"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "= .092",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c50bfd6febab4e47a19c1c78208cd204"
+    },
+    "entity": {
+      "$bytes": "08be27db7f9541c59094c848f4c00601"
+    },
+    "from": {
+      "$bytes": "91922f7aee044e77988098f6153024b1"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Bwi"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a70c1d4f3f534cc3a8cfe36c8ec4aa24"
+    },
+    "entity": {
+      "$bytes": "ebe3a80faf2a412484f22216d4085038"
+    },
+    "from": {
+      "$bytes": "91922f7aee044e77988098f6153024b1"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Bxu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9b1a50b19b88424389cacf8c115e42f1"
+    },
+    "entity": {
+      "$bytes": "2467b446f2d942759420a3a17fa01f40"
+    },
+    "from": {
+      "$bytes": "91922f7aee044e77988098f6153024b1"
+    },
+    "to": {
+      "$bytes": "c0fb562fcddd4fe1a3a97def4fe90899"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0AsK"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "20bc4d3575514eba93d600e6bd53ce3d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Madison Strategies Group: participant net financial gain $11,192.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-modelled net financial gain per participant over the 62-month observation period; it is not a benefit-cost ratio. Values are inflation-adjusted and discounted to 2018 present value at 3.5%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "11192"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2018"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2018 USD per participant; participant net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2c64b3bb8ff84a0082c018d66fbc8c55"
+    },
+    "entity": {
+      "$bytes": "51d236bd88f44bd38dab3cea2fd91bef"
+    },
+    "from": {
+      "$bytes": "20bc4d3575514eba93d600e6bd53ce3d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00Du"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2e7d4142d6e3495d885433ea95634f49"
+    },
+    "entity": {
+      "$bytes": "4346541b85954c85a34dd9c1b7084953"
+    },
+    "from": {
+      "$bytes": "20bc4d3575514eba93d600e6bd53ce3d"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02it"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7ee09e98f8f1446b806afd8b6718af4a"
+    },
+    "entity": {
+      "$bytes": "23c697217ef74013b7bb00be3492f12f"
+    },
+    "from": {
+      "$bytes": "20bc4d3575514eba93d600e6bd53ce3d"
+    },
+    "to": {
+      "$bytes": "c0fb562fcddd4fe1a3a97def4fe90899"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BXZ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "06a8bc4e4ac446e2875ae52e15021645"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Madison Strategies Group: government budget net financial gain $1,615.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-modelled net financial gain per participant over the 62-month observation period; it is not a benefit-cost ratio. Values are inflation-adjusted and discounted to 2018 present value at 3.5%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1615"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2018"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2018 USD per participant; government budget net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "841052311867408da29c5611d8be46c3"
+    },
+    "entity": {
+      "$bytes": "3a5bd5db4ddd4353a8c1d75107f12c22"
+    },
+    "from": {
+      "$bytes": "06a8bc4e4ac446e2875ae52e15021645"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02pC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1a104a71edc142fe82d62f036c858f80"
+    },
+    "entity": {
+      "$bytes": "8a21a81408244062aedc8d19b79a4298"
+    },
+    "from": {
+      "$bytes": "06a8bc4e4ac446e2875ae52e15021645"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04sr"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5d046a9a35c845fb9cde215a9ba6fc29"
+    },
+    "entity": {
+      "$bytes": "55c0fa6e9c384e52a050e214e44d1bc5"
+    },
+    "from": {
+      "$bytes": "06a8bc4e4ac446e2875ae52e15021645"
+    },
+    "to": {
+      "$bytes": "c0fb562fcddd4fe1a3a97def4fe90899"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0AQ7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1c9a732b882d4bcdb489e7a84a15cab6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Madison Strategies Group: society net financial gain $13,114.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-modelled net financial gain per participant over the 62-month observation period; it is not a benefit-cost ratio. Values are inflation-adjusted and discounted to 2018 present value at 3.5%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "13114"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2018"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2018 USD per participant; society net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "617badab1a2b444cb32b979e0fd6c310"
+    },
+    "entity": {
+      "$bytes": "1a7bd14418f2447cb681ed5fee9a1707"
+    },
+    "from": {
+      "$bytes": "1c9a732b882d4bcdb489e7a84a15cab6"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BPc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ea3f97fdbe4247519066d37e04ed2215"
+    },
+    "entity": {
+      "$bytes": "0b59c32585154f97a48caa81eeb468e9"
+    },
+    "from": {
+      "$bytes": "1c9a732b882d4bcdb489e7a84a15cab6"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a092K"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8db23f3a6640451c806499468133f2c2"
+    },
+    "entity": {
+      "$bytes": "98bd6b7ab1744daaabddff879e3aff30"
+    },
+    "from": {
+      "$bytes": "1c9a732b882d4bcdb489e7a84a15cab6"
+    },
+    "to": {
+      "$bytes": "c0fb562fcddd4fe1a3a97def4fe90899"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06xS"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "aaf2430558924ac5acf2f55fd3973620"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance at Towards Employment",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Northeast Ohio health-care and manufacturing implementation of the WorkAdvance sectoral career-advancement model.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/long-term-effects-sectoral-advancement-strategy",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "239a99edd18b4e069f167f8f3577a77f"
+    },
+    "entity": {
+      "$bytes": "314d79b325f84ad3aaa07826a30139ea"
+    },
+    "from": {
+      "$bytes": "aaf2430558924ac5acf2f55fd3973620"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00qt"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6b177888e415409aae5ef463307c3c92"
+    },
+    "entity": {
+      "$bytes": "9e8b6974cb43405d97ce40f6a686fe52"
+    },
+    "from": {
+      "$bytes": "aaf2430558924ac5acf2f55fd3973620"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a034L"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b9d4e391d2f3497abf82d3771fccacf9"
+    },
+    "entity": {
+      "$bytes": "dc4f814cb2f74a60876ad6ec1f826756"
+    },
+    "from": {
+      "$bytes": "aaf2430558924ac5acf2f55fd3973620"
+    },
+    "to": {
+      "$bytes": "6edae2af128f47c0a7359b1ae52eba28"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07y1"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7dc0972751e341a6ab8dba378b342716"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Towards Employment 2018 earnings effect: +$1,404.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This randomized site-specific estimate uses National Directory of New Hires data. The reported difference is not statistically significant at conventional thresholds except where the stated p value indicates otherwise.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1404"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "698"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "= .275",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "85af59bc80b842229252475e2f412c97"
+    },
+    "entity": {
+      "$bytes": "b166d29c403c477eaffba20648bc31c2"
+    },
+    "from": {
+      "$bytes": "7dc0972751e341a6ab8dba378b342716"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05L0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "522fe81641d548aeba9dba21620baf24"
+    },
+    "entity": {
+      "$bytes": "81a0cbc4f1b84c5e96243dcfe648ca8a"
+    },
+    "from": {
+      "$bytes": "7dc0972751e341a6ab8dba378b342716"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09rF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4e9b96ee40b242ada6f8b7ee56664d2e"
+    },
+    "entity": {
+      "$bytes": "5f5a55e48b5e4cb28529d777b27a0cdf"
+    },
+    "from": {
+      "$bytes": "7dc0972751e341a6ab8dba378b342716"
+    },
+    "to": {
+      "$bytes": "aaf2430558924ac5acf2f55fd3973620"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01Or"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2dffecb5ad3c413aae31b39f127398dd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Towards Employment 2018 $30,000-or-more earnings effect: +5.1 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This randomized site-specific estimate uses the report’s $30,000 2018 earnings threshold. It is not a general employment-rate effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "51"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "698"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "= .117",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ca88726c60e147eda4b972b3310d2dc4"
+    },
+    "entity": {
+      "$bytes": "97aa907f3be64a9ea5d4e3dca27ee521"
+    },
+    "from": {
+      "$bytes": "2dffecb5ad3c413aae31b39f127398dd"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01o5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a47e498b580646bd9d48d29c3a10ce68"
+    },
+    "entity": {
+      "$bytes": "f9a0702321034e5787565606a5ed3846"
+    },
+    "from": {
+      "$bytes": "2dffecb5ad3c413aae31b39f127398dd"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06LX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "99f61a3a564043c794d27f5dc4cd9a8c"
+    },
+    "entity": {
+      "$bytes": "d86e583234c448afaabb8331c08513a5"
+    },
+    "from": {
+      "$bytes": "2dffecb5ad3c413aae31b39f127398dd"
+    },
+    "to": {
+      "$bytes": "aaf2430558924ac5acf2f55fd3973620"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06ox"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "aa103b0c731044e88754c01111b7f994"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Towards Employment: participant net financial gain $5,505.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-modelled net financial gain per participant over the 62-month observation period; it is not a benefit-cost ratio. Values are inflation-adjusted and discounted to 2018 present value at 3.5%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5505"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2018"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2018 USD per participant; participant net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3e3284ddbc444302a8676b3d85e2e293"
+    },
+    "entity": {
+      "$bytes": "66d48fa1c55d4222890c1cd1b02dd3bd"
+    },
+    "from": {
+      "$bytes": "aa103b0c731044e88754c01111b7f994"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07jQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "21ab46b10c37401a83bb0f198ee6f61d"
+    },
+    "entity": {
+      "$bytes": "c1a937e57985476f97a38ee8e0550ee1"
+    },
+    "from": {
+      "$bytes": "aa103b0c731044e88754c01111b7f994"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06rZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c418046e648f4388bf8eee0cee337d86"
+    },
+    "entity": {
+      "$bytes": "52cd5c7c32b44bc38694d02645ccdf1e"
+    },
+    "from": {
+      "$bytes": "aa103b0c731044e88754c01111b7f994"
+    },
+    "to": {
+      "$bytes": "aaf2430558924ac5acf2f55fd3973620"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04nz"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5418fe79f304458e95b073683662da7b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Towards Employment: government budget net financial gain $265.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-modelled net financial gain per participant over the 62-month observation period; it is not a benefit-cost ratio. Values are inflation-adjusted and discounted to 2018 present value at 3.5%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "265"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2018"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2018 USD per participant; government budget net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5c8895a4ba414583a0b0e29b32cf7f92"
+    },
+    "entity": {
+      "$bytes": "7c952388cc1a4f7d9c97dfdb3ca64dc7"
+    },
+    "from": {
+      "$bytes": "5418fe79f304458e95b073683662da7b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03Iz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9cd54b07a827466e91a7e1a61b123fc7"
+    },
+    "entity": {
+      "$bytes": "3626e6bdf92c465598057c69e2a2a713"
+    },
+    "from": {
+      "$bytes": "5418fe79f304458e95b073683662da7b"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a068T"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "06e0ff766fe04389ad9912b53d8296bb"
+    },
+    "entity": {
+      "$bytes": "9d17b28b6dae453fb5963834830ace00"
+    },
+    "from": {
+      "$bytes": "5418fe79f304458e95b073683662da7b"
+    },
+    "to": {
+      "$bytes": "aaf2430558924ac5acf2f55fd3973620"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BiJ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "cf5189eae8d541d189e71bfc13a85ea3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "WorkAdvance Towards Employment: society net financial gain $5,820.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-modelled net financial gain per participant over the 62-month observation period; it is not a benefit-cost ratio. Values are inflation-adjusted and discounted to 2018 present value at 3.5%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5820"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2018"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2018 USD per participant; society net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7e1852cbb4a447be9f8a50662f69663d"
+    },
+    "entity": {
+      "$bytes": "01246b5bb6f3406a86b14a20ca450a97"
+    },
+    "from": {
+      "$bytes": "cf5189eae8d541d189e71bfc13a85ea3"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BfE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "db1df9c9f1554cabaab95aecb3b14129"
+    },
+    "entity": {
+      "$bytes": "2b60fcc92eb1412f90131c7a2b12a517"
+    },
+    "from": {
+      "$bytes": "cf5189eae8d541d189e71bfc13a85ea3"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05Lj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "85cb26301d4c438c89e47e08e40b8f1e"
+    },
+    "entity": {
+      "$bytes": "46b9449580fa4a7ca0be117e57051a43"
+    },
+    "from": {
+      "$bytes": "cf5189eae8d541d189e71bfc13a85ea3"
+    },
+    "to": {
+      "$bytes": "aaf2430558924ac5acf2f55fd3973620"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03Ia"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "term": "Document",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T17:51:45.520Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "145f0f0b2b41409da5ebd6b8e02570ae",
+      "name": "Document",
+      "description": null,
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "types": [
+        {
+          "id": "a2a5ed0cacef46b1835de457956ce915",
+          "name": "Article"
+        }
+      ]
+    },
+    {
+      "id": "5d9dd49914244846a01c886ae9a54084",
+      "name": "Document",
+      "description": null,
+      "spaceIds": [
+        "4a8a9a231a25536f306d23d91ee9f2b1"
+      ],
+      "types": [
+        {
+          "id": "a2a5ed0cacef46b1835de457956ce915",
+          "name": "Article"
+        }
+      ]
+    },
+    {
+      "id": "e8962be702404e19a87267089d6317ee",
+      "name": "Document",
+      "description": null,
+      "spaceIds": [
+        "4a8a9a231a25536f306d23d91ee9f2b1"
+      ],
+      "types": [
+        {
+          "id": "a2a5ed0cacef46b1835de457956ce915",
+          "name": "Article"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTg5NjJiZTctMDI0MC00ZTE5LWE4NzItNjcwODlkNjMxN2VlIl1d"
+    }
+  ]
+}

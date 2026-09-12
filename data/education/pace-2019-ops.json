@@ -1,0 +1,1291 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c8303039db3946ea8c71e717ec00c9e1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Focusing on Girls’ Futures: Results from the Evaluation of PACE Center for Girls",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "MDRC’s 2019 randomized impact and cost evaluation of the PACE Center for Girls program model in Florida.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/focusing-girls-futures/file-full",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "df88cd066fb04bcfad28939ec23d0752"
+    },
+    "entity": {
+      "$bytes": "a598d501df0a4b63a80f76bde746e6e1"
+    },
+    "from": {
+      "$bytes": "c8303039db3946ea8c71e717ec00c9e1"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01pM"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "926f8ea0e9e14a17b42b8c6ef54bec66"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "PACE Center for Girls evaluated Florida program model",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A voluntary, nonresidential, year-round Florida program combining academic instruction, counseling, case management, life-skills programming, and transition support for girls at risk of juvenile-justice involvement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/focusing-girls-futures/file-full",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "537dc5543c7e4c769447c45e21dca3a1"
+    },
+    "entity": {
+      "$bytes": "dc0d324f442545ea9c35afc0083be9bd"
+    },
+    "from": {
+      "$bytes": "926f8ea0e9e14a17b42b8c6ef54bec66"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BuP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fdea68af993f470b87edc014ca6a8ce4"
+    },
+    "entity": {
+      "$bytes": "b595f93812ff47bcb0e9802d8ab61077"
+    },
+    "from": {
+      "$bytes": "926f8ea0e9e14a17b42b8c6ef54bec66"
+    },
+    "to": {
+      "$bytes": "c8303039db3946ea8c71e717ec00c9e1"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06KU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fb5145d7be924b56831a9f315cf8907b"
+    },
+    "entity": {
+      "$bytes": "fb127f68a8a74908be2e825f550bfca0"
+    },
+    "from": {
+      "$bytes": "926f8ea0e9e14a17b42b8c6ef54bec66"
+    },
+    "to": {
+      "$bytes": "c8303039db3946ea8c71e717ec00c9e1"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03SG"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8a4b886bf2774f5891c294e8dc4e12c2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "PACE randomly assigned 1,125 eligible Florida applicants across 14 centers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2013–2015 evaluation assigned 673 girls to an offer of PACE and 452 to referrals for alternative community services. It evaluates a voluntary, nonresidential, year-round academic and social-service package.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1125"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Randomized controlled trial; 673 program group and 452 control group.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Overview, p. iii; Executive Summary pp. ES-3–ES-4.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "58f314b4d5224ef7a9ca05929fc38a7e"
+    },
+    "entity": {
+      "$bytes": "80a0d513928f44b7bd97b83533d10932"
+    },
+    "from": {
+      "$bytes": "8a4b886bf2774f5891c294e8dc4e12c2"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0A7H"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8dce236961764c5aa5c3ae948a793a50"
+    },
+    "entity": {
+      "$bytes": "ff6a5c4fcbfd476ab30a00f59447684a"
+    },
+    "from": {
+      "$bytes": "8a4b886bf2774f5891c294e8dc4e12c2"
+    },
+    "to": {
+      "$bytes": "c8303039db3946ea8c71e717ec00c9e1"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03aX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "995737a2075842eba05a2e12eaf81bd0"
+    },
+    "entity": {
+      "$bytes": "3f948ec0ada743ea9d7bdd826cff7f55"
+    },
+    "from": {
+      "$bytes": "8a4b886bf2774f5891c294e8dc4e12c2"
+    },
+    "to": {
+      "$bytes": "926f8ea0e9e14a17b42b8c6ef54bec66"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04k2"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7701e2d9c9e04a6f9674ffcf2b46dfc7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "PACE’s net societal service cost was about $10,400 per program-group girl (May 2017 dollars).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 12-month cost difference compares PACE and other services with control services. It adjusts PACE to a 7.9-month average stay, excludes participant opportunity costs, and is not a benefit-cost ratio.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1125"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "May 2017 USD net societal service cost per program-group girl over the 12-month cost-analysis window.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 4.3, p. 53; cost-method discussion pp. 50–53.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "10400"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2017"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Net societal service cost per program-group girl versus control services; 12-month window; PACE annual cost adjusted to 7.9-month average stay.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b10a9f8f26834a09836b4a37257aaff4"
+    },
+    "entity": {
+      "$bytes": "e862cd40e08f4b8c91e14a66aa4f2702"
+    },
+    "from": {
+      "$bytes": "7701e2d9c9e04a6f9674ffcf2b46dfc7"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00IZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "44f4951f633c49a9a4202305bfb50b04"
+    },
+    "entity": {
+      "$bytes": "c5b8a73139224c27be53a7a9350e5b46"
+    },
+    "from": {
+      "$bytes": "7701e2d9c9e04a6f9674ffcf2b46dfc7"
+    },
+    "to": {
+      "$bytes": "c8303039db3946ea8c71e717ec00c9e1"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BJW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bc8ec87f36fb45908710519717a17e5b"
+    },
+    "entity": {
+      "$bytes": "03989ff87b0047128dac49232071836c"
+    },
+    "from": {
+      "$bytes": "7701e2d9c9e04a6f9674ffcf2b46dfc7"
+    },
+    "to": {
+      "$bytes": "926f8ea0e9e14a17b42b8c6ef54bec66"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06cz"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "880e9655f8404eb6b3784a34430a4f46"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "PACE increased days present in school by 9.8 in the first follow-up year (119.6 versus 109.8).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This regression-adjusted Florida public-school administrative-record result covers the calendar year after study enrollment. It is an attendance outcome, not a graduation effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1040"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Difference in number of school days present over the first follow-up calendar year, PACE minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.1, p. ES-8; Table 3.1, p. 33.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "98"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "p = 0.013",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "faa10d246c2a45b58a214716ed52e46e"
+    },
+    "entity": {
+      "$bytes": "f6c0084026e14a1d99dbaed21e78fb41"
+    },
+    "from": {
+      "$bytes": "880e9655f8404eb6b3784a34430a4f46"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06K3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "89c6b0a191e147b3ad7bf3882d05eb0a"
+    },
+    "entity": {
+      "$bytes": "28b3b671b8bc4c5da2df98faff1fc2b5"
+    },
+    "from": {
+      "$bytes": "880e9655f8404eb6b3784a34430a4f46"
+    },
+    "to": {
+      "$bytes": "c8303039db3946ea8c71e717ec00c9e1"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BCL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4c97566d82974c14987a34df754aaad9"
+    },
+    "entity": {
+      "$bytes": "15fd293bb0d6461488b2d4dd2ecca9c2"
+    },
+    "from": {
+      "$bytes": "880e9655f8404eb6b3784a34430a4f46"
+    },
+    "to": {
+      "$bytes": "926f8ea0e9e14a17b42b8c6ef54bec66"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00VF"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a69ccb6c82e14783b1e842f1ee7736e3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "PACE increased the high-school on-track composite by 13.4 percentage points (27.6% versus 14.2%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The composite requires absence below 10% of enrolled days, no expulsion or suspension, and no core-course failure. It applies only to high-school students and is not observed graduation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1040"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in high-school on-track composite during first follow-up year, PACE minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.1, p. ES-8; Table 3.1, p. 33.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "134"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "p = < .001",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "92d3dc2013e640d6aaab4bebfe2e4636"
+    },
+    "entity": {
+      "$bytes": "233f7231d16c405486ce221427f25cd8"
+    },
+    "from": {
+      "$bytes": "a69ccb6c82e14783b1e842f1ee7736e3"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06ic"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "58e73d941580400994c87d1d6aaf785f"
+    },
+    "entity": {
+      "$bytes": "4da3747e07cb4284b5fffaaed0210a6f"
+    },
+    "from": {
+      "$bytes": "a69ccb6c82e14783b1e842f1ee7736e3"
+    },
+    "to": {
+      "$bytes": "c8303039db3946ea8c71e717ec00c9e1"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01IC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "22d3eec1c1a543a3a24f345b995615ce"
+    },
+    "entity": {
+      "$bytes": "3e66aa4bf5764e8693cb747319b57eab"
+    },
+    "from": {
+      "$bytes": "a69ccb6c82e14783b1e842f1ee7736e3"
+    },
+    "to": {
+      "$bytes": "926f8ea0e9e14a17b42b8c6ef54bec66"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04u6"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e224628e8c7741e08d7d65100704f031"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "PACE increased credits earned as a share of credits attempted by 10.6 percentage points (77.5% versus 66.9%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This regression-adjusted academic-year measure applies only to high-school students in Florida public-school records. The report found no statistically significant difference in total credits earned.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1040"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in academic-year credits earned as a share of credits attempted, PACE minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 3.1, p. 33.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "106"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "p = 0.001",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e0982994dfb048039185973464acb679"
+    },
+    "entity": {
+      "$bytes": "e4bd974bce8d4ae18df3d0eda850a043"
+    },
+    "from": {
+      "$bytes": "e224628e8c7741e08d7d65100704f031"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BTN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7c7ab5fed0c64744b97b996bf35c7822"
+    },
+    "entity": {
+      "$bytes": "271ed544a29e4dcb8b25c078d6fd7d8d"
+    },
+    "from": {
+      "$bytes": "e224628e8c7741e08d7d65100704f031"
+    },
+    "to": {
+      "$bytes": "c8303039db3946ea8c71e717ec00c9e1"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04F4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bcfa7417322b42c0be404a329fc32e73"
+    },
+    "entity": {
+      "$bytes": "aee63f65ff7f4f94b5250caa668f6451"
+    },
+    "from": {
+      "$bytes": "e224628e8c7741e08d7d65100704f031"
+    },
+    "to": {
+      "$bytes": "926f8ea0e9e14a17b42b8c6ef54bec66"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a007L"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "be3864b94fe94510a90541c9a8f765f3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "PACE reduced ever-suspended status by 16.7 percentage points in the first follow-up year (29.6% versus 46.4%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This Florida public-school administrative-record measure covers the calendar year after study enrollment. It is a short-term disciplinary outcome, not a later justice-system effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1040"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in ever being suspended during first follow-up calendar year, PACE minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 3.1, p. 33.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-167"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "p = < .001",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2c7f20488aa44190933d3a5af99f7846"
+    },
+    "entity": {
+      "$bytes": "6aa83d87a4624b8d8b32235ad674d3d1"
+    },
+    "from": {
+      "$bytes": "be3864b94fe94510a90541c9a8f765f3"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04OL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "252f36c6f392498ea3030f07a762f5ac"
+    },
+    "entity": {
+      "$bytes": "8b1e4340174646ae97c6557ac90136c6"
+    },
+    "from": {
+      "$bytes": "be3864b94fe94510a90541c9a8f765f3"
+    },
+    "to": {
+      "$bytes": "c8303039db3946ea8c71e717ec00c9e1"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02aD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f109cde549804885bcea6103892d9e3a"
+    },
+    "entity": {
+      "$bytes": "5f951c5c34914ae7b3a01b5db2bf0855"
+    },
+    "from": {
+      "$bytes": "be3864b94fe94510a90541c9a8f765f3"
+    },
+    "to": {
+      "$bytes": "926f8ea0e9e14a17b42b8c6ef54bec66"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07sY"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e7dc33342ebb49d99977f226a081cb29"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "PACE showed no statistically significant 18-month difference in girls incurring a juvenile-justice charge (+0.8 points; 22.0% versus 21.2%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The full-sample Florida juvenile-justice administrative-record difference was not statistically significant. A charge is the report’s juvenile-justice term and should not be relabeled as an adult arrest.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1125"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in incurring one or more juvenile-justice charges during 18 months after random assignment, PACE minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.1, p. ES-8; juvenile-justice discussion pp. ES-9–ES-10.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "8"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "p = 0.739",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "77ea380ff67a4096a28e2623529fcb1d"
+    },
+    "entity": {
+      "$bytes": "98e21f6a8f2e4cc295dbfa01c3fb7458"
+    },
+    "from": {
+      "$bytes": "e7dc33342ebb49d99977f226a081cb29"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07zd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4dc20b1304544ae9aff5230bee911787"
+    },
+    "entity": {
+      "$bytes": "c464518fba3b417f8f42408a08ec1e46"
+    },
+    "from": {
+      "$bytes": "e7dc33342ebb49d99977f226a081cb29"
+    },
+    "to": {
+      "$bytes": "c8303039db3946ea8c71e717ec00c9e1"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06Rk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c830b8ddbf264b90b61875345d580d0b"
+    },
+    "entity": {
+      "$bytes": "82f043a9bce7443abdc79035988be300"
+    },
+    "from": {
+      "$bytes": "e7dc33342ebb49d99977f226a081cb29"
+    },
+    "to": {
+      "$bytes": "926f8ea0e9e14a17b42b8c6ef54bec66"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07dD"
+  }
+]

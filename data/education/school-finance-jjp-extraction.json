@@ -1,0 +1,445 @@
+{
+  "sourceSha256": "ebb142984253e919653e6bbd612dde24113efbd70b43a6490f8e5f8845410741",
+  "transcriptionSha256": "66888606dd06cac417d853196f0b85855f9c4d29b474ddb2f2fd23f8f35da833",
+  "status": "prepared, not published",
+  "scope": "15 preferred coefficients; visual row/sign review plus independent PDF magnitude and model-count checks",
+  "checks": [
+    {
+      "outcome": "education-years",
+      "printedMagnitude": "3.1488",
+      "pass": true
+    },
+    {
+      "outcome": "education-years",
+      "printedMagnitude": "4.5899",
+      "pass": true
+    },
+    {
+      "outcome": "education-years",
+      "printedMagnitude": "0.7156",
+      "pass": true
+    },
+    {
+      "outcome": "education-years",
+      "printedMagnitude": "0.7906",
+      "pass": true
+    },
+    {
+      "outcome": "education-years",
+      "printedMagnitude": "1.2072",
+      "pass": true
+    },
+    {
+      "outcome": "education-years",
+      "printedMagnitude": "1.3193",
+      "pass": true
+    },
+    {
+      "outcome": "high-school-graduation",
+      "printedMagnitude": "0.7053",
+      "pass": true
+    },
+    {
+      "outcome": "high-school-graduation",
+      "printedMagnitude": "0.9878",
+      "pass": true
+    },
+    {
+      "outcome": "high-school-graduation",
+      "printedMagnitude": "0.2470",
+      "pass": true
+    },
+    {
+      "outcome": "high-school-graduation",
+      "printedMagnitude": "0.1436",
+      "pass": true
+    },
+    {
+      "outcome": "high-school-graduation",
+      "printedMagnitude": "0.2744",
+      "pass": true
+    },
+    {
+      "outcome": "high-school-graduation",
+      "printedMagnitude": "0.1757",
+      "pass": true
+    },
+    {
+      "outcome": "adult-log-wages",
+      "printedMagnitude": "0.7743",
+      "pass": true
+    },
+    {
+      "outcome": "adult-log-wages",
+      "printedMagnitude": "0.9598",
+      "pass": true
+    },
+    {
+      "outcome": "adult-log-wages",
+      "printedMagnitude": "0.5525",
+      "pass": true
+    },
+    {
+      "outcome": "adult-log-wages",
+      "printedMagnitude": "0.1959",
+      "pass": true
+    },
+    {
+      "outcome": "adult-log-wages",
+      "printedMagnitude": "0.3003",
+      "pass": true
+    },
+    {
+      "outcome": "adult-log-wages",
+      "printedMagnitude": "0.4461",
+      "pass": true
+    },
+    {
+      "outcome": "adult-log-family-income",
+      "printedMagnitude": "0.9819",
+      "pass": true
+    },
+    {
+      "outcome": "adult-log-family-income",
+      "printedMagnitude": "1.7146",
+      "pass": true
+    },
+    {
+      "outcome": "adult-log-family-income",
+      "printedMagnitude": "0.2021",
+      "pass": true
+    },
+    {
+      "outcome": "adult-log-family-income",
+      "printedMagnitude": "0.2849",
+      "pass": true
+    },
+    {
+      "outcome": "adult-log-family-income",
+      "printedMagnitude": "0.3585",
+      "pass": true
+    },
+    {
+      "outcome": "adult-log-family-income",
+      "printedMagnitude": "0.4223",
+      "pass": true
+    },
+    {
+      "outcome": "adult-poverty",
+      "printedMagnitude": "-0.2678",
+      "pass": true
+    },
+    {
+      "outcome": "adult-poverty",
+      "printedMagnitude": "-0.6132",
+      "pass": true
+    },
+    {
+      "outcome": "adult-poverty",
+      "printedMagnitude": "0.0385",
+      "pass": true
+    },
+    {
+      "outcome": "adult-poverty",
+      "printedMagnitude": "0.0710",
+      "pass": true
+    },
+    {
+      "outcome": "adult-poverty",
+      "printedMagnitude": "0.1242",
+      "pass": true
+    },
+    {
+      "outcome": "adult-poverty",
+      "printedMagnitude": "0.0850",
+      "pass": true
+    }
+  ],
+  "records": [
+    {
+      "key": "education-years/all",
+      "group": "all",
+      "measure": "Years of education",
+      "unit": "years per unit increase in ln(per-pupil spending)",
+      "coefficient": "3.1488",
+      "standardError": "0.7906",
+      "pThreshold": "<0.01",
+      "table": "III",
+      "column": 3,
+      "printedPage": 191,
+      "pdfPage": 36,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 15353,
+        "families": 4586,
+        "personYears": null
+      }
+    },
+    {
+      "key": "education-years/low-income",
+      "group": "low-income",
+      "measure": "Years of education",
+      "unit": "years per unit increase in ln(per-pupil spending)",
+      "coefficient": "4.5899",
+      "standardError": "1.2072",
+      "pThreshold": "<0.01",
+      "table": "III",
+      "column": 4,
+      "printedPage": 191,
+      "pdfPage": 36,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 15353,
+        "families": 4586,
+        "personYears": null
+      }
+    },
+    {
+      "key": "education-years/nonpoor",
+      "group": "nonpoor",
+      "measure": "Years of education",
+      "unit": "years per unit increase in ln(per-pupil spending)",
+      "coefficient": "0.7156",
+      "standardError": "1.3193",
+      "pThreshold": null,
+      "table": "III",
+      "column": 4,
+      "printedPage": 191,
+      "pdfPage": 36,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 15353,
+        "families": 4586,
+        "personYears": null
+      }
+    },
+    {
+      "key": "high-school-graduation/all",
+      "group": "all",
+      "measure": "Probability of high school graduation",
+      "unit": "probability units per unit increase in ln(per-pupil spending)",
+      "coefficient": "0.7053",
+      "standardError": "0.1436",
+      "pThreshold": "<0.01",
+      "table": "III",
+      "column": 7,
+      "printedPage": 191,
+      "pdfPage": 36,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 15353,
+        "families": 4586,
+        "personYears": null
+      }
+    },
+    {
+      "key": "high-school-graduation/low-income",
+      "group": "low-income",
+      "measure": "Probability of high school graduation",
+      "unit": "probability units per unit increase in ln(per-pupil spending)",
+      "coefficient": "0.9878",
+      "standardError": "0.2744",
+      "pThreshold": "<0.01",
+      "table": "III",
+      "column": 8,
+      "printedPage": 191,
+      "pdfPage": 36,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 15353,
+        "families": 4586,
+        "personYears": null
+      }
+    },
+    {
+      "key": "high-school-graduation/nonpoor",
+      "group": "nonpoor",
+      "measure": "Probability of high school graduation",
+      "unit": "probability units per unit increase in ln(per-pupil spending)",
+      "coefficient": "0.2470",
+      "standardError": "0.1757",
+      "pThreshold": null,
+      "table": "III",
+      "column": 8,
+      "printedPage": 191,
+      "pdfPage": 36,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 15353,
+        "families": 4586,
+        "personYears": null
+      }
+    },
+    {
+      "key": "adult-log-wages/all",
+      "group": "all",
+      "measure": "Log wages, ages 20\u201345",
+      "unit": "log-wage units per unit increase in ln(per-pupil spending)",
+      "coefficient": "0.7743",
+      "standardError": "0.1959",
+      "pThreshold": "<0.01",
+      "table": "IV",
+      "column": 3,
+      "printedPage": 198,
+      "pdfPage": 43,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 13183,
+        "families": 4454,
+        "personYears": 106545
+      }
+    },
+    {
+      "key": "adult-log-wages/low-income",
+      "group": "low-income",
+      "measure": "Log wages, ages 20\u201345",
+      "unit": "log-wage units per unit increase in ln(per-pupil spending)",
+      "coefficient": "0.9598",
+      "standardError": "0.3003",
+      "pThreshold": "<0.01",
+      "table": "IV",
+      "column": 4,
+      "printedPage": 198,
+      "pdfPage": 43,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 13183,
+        "families": 4454,
+        "personYears": 106545
+      }
+    },
+    {
+      "key": "adult-log-wages/nonpoor",
+      "group": "nonpoor",
+      "measure": "Log wages, ages 20\u201345",
+      "unit": "log-wage units per unit increase in ln(per-pupil spending)",
+      "coefficient": "0.5525",
+      "standardError": "0.4461",
+      "pThreshold": null,
+      "table": "IV",
+      "column": 4,
+      "printedPage": 198,
+      "pdfPage": 43,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 13183,
+        "families": 4454,
+        "personYears": 106545
+      }
+    },
+    {
+      "key": "adult-log-family-income/all",
+      "group": "all",
+      "measure": "Log family income, ages 20\u201345",
+      "unit": "log-income units per unit increase in ln(per-pupil spending)",
+      "coefficient": "0.9819",
+      "standardError": "0.2849",
+      "pThreshold": "<0.01",
+      "table": "IV",
+      "column": 7,
+      "printedPage": 198,
+      "pdfPage": 43,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 14730,
+        "families": 4588,
+        "personYears": 151349
+      }
+    },
+    {
+      "key": "adult-log-family-income/low-income",
+      "group": "low-income",
+      "measure": "Log family income, ages 20\u201345",
+      "unit": "log-income units per unit increase in ln(per-pupil spending)",
+      "coefficient": "1.7146",
+      "standardError": "0.3585",
+      "pThreshold": "<0.01",
+      "table": "IV",
+      "column": 8,
+      "printedPage": 198,
+      "pdfPage": 43,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 14730,
+        "families": 4588,
+        "personYears": 151349
+      }
+    },
+    {
+      "key": "adult-log-family-income/nonpoor",
+      "group": "nonpoor",
+      "measure": "Log family income, ages 20\u201345",
+      "unit": "log-income units per unit increase in ln(per-pupil spending)",
+      "coefficient": "0.2021",
+      "standardError": "0.4223",
+      "pThreshold": null,
+      "table": "IV",
+      "column": 8,
+      "printedPage": 198,
+      "pdfPage": 43,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 14730,
+        "families": 4588,
+        "personYears": 151349
+      }
+    },
+    {
+      "key": "adult-poverty/all",
+      "group": "all",
+      "measure": "Probability of poverty, ages 20\u201345",
+      "unit": "probability units per unit increase in ln(per-pupil spending)",
+      "coefficient": "-0.2678",
+      "standardError": "0.0710",
+      "pThreshold": "<0.01",
+      "table": "V",
+      "column": 3,
+      "printedPage": 203,
+      "pdfPage": 48,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 14737,
+        "families": 4588,
+        "personYears": 151756
+      }
+    },
+    {
+      "key": "adult-poverty/low-income",
+      "group": "low-income",
+      "measure": "Probability of poverty, ages 20\u201345",
+      "unit": "probability units per unit increase in ln(per-pupil spending)",
+      "coefficient": "-0.6132",
+      "standardError": "0.1242",
+      "pThreshold": "<0.01",
+      "table": "V",
+      "column": 4,
+      "printedPage": 203,
+      "pdfPage": 48,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 14737,
+        "families": 4588,
+        "personYears": 151756
+      }
+    },
+    {
+      "key": "adult-poverty/nonpoor",
+      "group": "nonpoor",
+      "measure": "Probability of poverty, ages 20\u201345",
+      "unit": "probability units per unit increase in ln(per-pupil spending)",
+      "coefficient": "0.0385",
+      "standardError": "0.0850",
+      "pThreshold": null,
+      "table": "V",
+      "column": 4,
+      "printedPage": 203,
+      "pdfPage": 48,
+      "subgroupN": null,
+      "modelCounts": {
+        "individuals": 14737,
+        "families": 4588,
+        "personYears": 151756
+      }
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ff901fc5c509427bbc46974aee27d5e4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "CREDO reports smaller learning gains for charter-school special-education students than for matched peers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The official NCSS3 release identifies smaller gains for this subgroup but does not print a numeric day estimate. This matched-growth finding is not a randomized charter-admission effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Matched-growth subgroup finding; numeric day estimate not reported in the official release.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Official CREDO NCSS3 release, key student-level findings, June 2023.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a6e0dc494f044eb1b844ed40f4011210"
+    },
+    "entity": {
+      "$bytes": "b9fef9b5bd7446d591791ca52cf4203d"
+    },
+    "from": {
+      "$bytes": "ff901fc5c509427bbc46974aee27d5e4"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04qe"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8d1a09c401cf48da96b266c2a8727121"
+    },
+    "entity": {
+      "$bytes": "1e500d2a74e44afcb40f50e94fc0ceda"
+    },
+    "from": {
+      "$bytes": "ff901fc5c509427bbc46974aee27d5e4"
+    },
+    "to": {
+      "$bytes": "e250e966938549269ac74b1935fa380d"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02C1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "843877d63d80495ba770bf8f4e1a3c77"
+    },
+    "entity": {
+      "$bytes": "56010711f3b1482289f18dfa6655d1bd"
+    },
+    "from": {
+      "$bytes": "ff901fc5c509427bbc46974aee27d5e4"
+    },
+    "to": {
+      "$bytes": "06ce03fee15844c18a6bfce808f03d12"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0ADK"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Districts should expand charter schools based on NCSS3’s national matched-growth results.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "NCSS3 reports higher average charter-student growth, but its matched comparisons are not random assignment. Wide jurisdictional variation and the reported smaller gains for charter special-education students make local evidence material to an expansion decision.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0f98dc0e6bf44a1f91d61d864b85670d"
+    },
+    "entity": {
+      "$bytes": "26ffe2a2239c43bfa095820022e383c9"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07tM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d303006dfddb460dabe28ee317538355"
+    },
+    "entity": {
+      "$bytes": "7dad3923b53245d2a30ffc9c61c35abf"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "e250e966938549269ac74b1935fa380d"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07r1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "addcbac4f6464b6da366bfe677b2ab3f"
+    },
+    "entity": {
+      "$bytes": "29d64f89264f41a993699a040a462cd7"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "06ce03fee15844c18a6bfce808f03d12"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02un"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0d1eaf4a5b8d4702994d8879e792728e"
+    },
+    "entity": {
+      "$bytes": "3f6eaa5bb43e47cb9f310f44366e6c66"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "ae72d01cfc13405a9632fa9c1a0d0f61"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02Ep"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "481425b2df7346b0acbb20fa3e96e880"
+    },
+    "entity": {
+      "$bytes": "3a7238364e4843469b07676bc2147504"
+    },
+    "from": {
+      "$bytes": "ae72d01cfc13405a9632fa9c1a0d0f61"
+    },
+    "to": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a034h"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0811e62ff86941f6aeae2555c20f9168"
+    },
+    "entity": {
+      "$bytes": "7dd7ff93c8954f8286c036a26f622034"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "96553fbe54d44eb3bad7ff1e7486add7"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01XW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "70d34b36b1964b21aca94412a78d7b65"
+    },
+    "entity": {
+      "$bytes": "7a0deffd9a42405990e89b76529ad4db"
+    },
+    "from": {
+      "$bytes": "96553fbe54d44eb3bad7ff1e7486add7"
+    },
+    "to": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05qb"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c988f21e76f24f58875424c373f4caf2"
+    },
+    "entity": {
+      "$bytes": "6bf1d30a09d849c39060518cbbee878e"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "418b23ad246b4312855e72e56c26d46e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02TS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c6e48dbed3da4d4ab38d08d8bee800c4"
+    },
+    "entity": {
+      "$bytes": "553c38d3c037425a82f848aaa4bda5dc"
+    },
+    "from": {
+      "$bytes": "418b23ad246b4312855e72e56c26d46e"
+    },
+    "to": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09tu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "966320fcb0aa46949941fe312f57a8f6"
+    },
+    "entity": {
+      "$bytes": "71cb1a27a56d40838035141f41ca5ba7"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "b40799e079774e74bbbda89af4d0076d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BZt"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "33118beb04164e52bc4418e2f4e56f18"
+    },
+    "entity": {
+      "$bytes": "6bc204d2d8b04927a95ad84a1a90a9b1"
+    },
+    "from": {
+      "$bytes": "b40799e079774e74bbbda89af4d0076d"
+    },
+    "to": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BRf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d01607ef479b42dabb05742e27507fc8"
+    },
+    "entity": {
+      "$bytes": "160caa429f104b42993d3ab0a32a1a36"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "dc036c8ceb504035a0b7a79fdf90b54c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09KJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "928d80669b6f4f93bb97faccb0a25de7"
+    },
+    "entity": {
+      "$bytes": "670852ce66e24d4697494b767e0a4a2f"
+    },
+    "from": {
+      "$bytes": "dc036c8ceb504035a0b7a79fdf90b54c"
+    },
+    "to": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Aog"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "81b6d96dd2db41aeb57452069bf36053"
+    },
+    "entity": {
+      "$bytes": "24eac45fcfdb4f00b759a7212f3be8ce"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "442b6446a1b54fd3a6c60a85e46e9e8e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07Mp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "93f3d513f0a4475e9d0f3cbd14f66193"
+    },
+    "entity": {
+      "$bytes": "72fa56e9ac61427a93f2a400694cc193"
+    },
+    "from": {
+      "$bytes": "442b6446a1b54fd3a6c60a85e46e9e8e"
+    },
+    "to": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01l3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b4222e718d4a488995b278f5357bdef4"
+    },
+    "entity": {
+      "$bytes": "6394b9b4774646caaa9234aabb70a8f5"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "3f1aaf1f5e754fdb8fb55926e3368dba"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08wp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6dea539c9ff64bc28b5ff5f310878e90"
+    },
+    "entity": {
+      "$bytes": "097dd124ca8b4f43b09e639eadbeed2d"
+    },
+    "from": {
+      "$bytes": "3f1aaf1f5e754fdb8fb55926e3368dba"
+    },
+    "to": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0ByD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "735119e980e54a7e8020a3993a7e9910"
+    },
+    "entity": {
+      "$bytes": "15f2dc0abd404ed498058fc4f418f9fe"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "ff901fc5c509427bbc46974aee27d5e4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00U0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cd17c101c6894dd79cbb31f3bde68980"
+    },
+    "entity": {
+      "$bytes": "2f4fa776609b4a8eaa0b65b4c8ca4ab0"
+    },
+    "from": {
+      "$bytes": "ff901fc5c509427bbc46974aee27d5e4"
+    },
+    "to": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a003L"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "de9f254fba664fd2a29d3db8d5275e72"
+    },
+    "entity": {
+      "$bytes": "8d09f169ea2a4b95927b4a118306dd1f"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "ae72d01cfc13405a9632fa9c1a0d0f61"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a08Of"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c48fbfd1c4c142538f35e8c53f02ec17"
+    },
+    "entity": {
+      "$bytes": "6351612e035b4a7c81a6687aaed6c0a3"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "96553fbe54d44eb3bad7ff1e7486add7"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a09vu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b2e7e8ffcde54d3480f72f6d0acc017f"
+    },
+    "entity": {
+      "$bytes": "8106334f8ce04062a3f50a1e6d541fe7"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "418b23ad246b4312855e72e56c26d46e"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a038V"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9a5a2b50ae8b436ab3f596e19f90fa0f"
+    },
+    "entity": {
+      "$bytes": "ec65f039fcfe4de589e4c81f80ce0a2e"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "b40799e079774e74bbbda89af4d0076d"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a04GV"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d1ceed9fdbe7409790eb6b14dbfb0ed2"
+    },
+    "entity": {
+      "$bytes": "c5e9d4bb6d094b34b42e1f7a528fc2e5"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "dc036c8ceb504035a0b7a79fdf90b54c"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a05J3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a06de1f8eb9a4225b9957147901cd36b"
+    },
+    "entity": {
+      "$bytes": "280c90acaab54db2a1ad7cd6c883236f"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "442b6446a1b54fd3a6c60a85e46e9e8e"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a036f"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "08ceb560018647a7821e367b6ee9339e"
+    },
+    "entity": {
+      "$bytes": "65fb7eb69b2a49a8ad02497ddbca8735"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "3f1aaf1f5e754fdb8fb55926e3368dba"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a004j"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7cc724c2f4474d9fb05c909690307960"
+    },
+    "entity": {
+      "$bytes": "473ac9c5a4f04e1d9918f2096881f705"
+    },
+    "from": {
+      "$bytes": "962d7a1740e24f5b96bcf30caf01bf4c"
+    },
+    "to": {
+      "$bytes": "ff901fc5c509427bbc46974aee27d5e4"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a09yx"
+  }
+]

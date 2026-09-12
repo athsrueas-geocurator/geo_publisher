@@ -1,0 +1,19 @@
+{
+  "name": "Add Community Eligibility Provision household-resource evidence",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/community-eligibility-provision-ops.json",
+  "sha256": "531ed240d8137055cf6a8ac04a227bc6420787c5bf607c1cb9f9d7d382759f7a",
+  "journalPath": "data/education/community-eligibility-provision-publication.json",
+  "validationPath": "data/education/community-eligibility-provision-validation.json",
+  "entities": {
+    "article": "de88c706c7644e9a8681c221d5c2536e",
+    "initiative": "327eef80a0dd423f846fbd50def5bf87",
+    "claims": {
+      "any-food-spending": "9b60b79a061f4931a20aa6147d1bed1e",
+      "full-exposure-food-spending": "88e3660656e74b14bb0c209134b69a41",
+      "food-insecurity": "e2319933570f466ab02023b00c288464"
+    }
+  },
+  "operationCount": 18
+}

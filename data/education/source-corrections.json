@@ -1,0 +1,86 @@
+{
+  "sourceCommit": "3cd97449ce9ca73cccb77efe22aac69cc56131e5",
+  "corrections": [
+    {
+      "sourceKey": "src-014",
+      "reason": "NICHD's report catalog and publication page identify the April 2000 subgroup report, NIH 00-4754. The imported topic-summary URL is valid background but its generic cross-state causal-estimate finding does not describe this research synthesis.",
+      "originalUrl": "https://www.nichd.nih.gov/publications/pubs/nrp/findings",
+      "replacement": {
+        "title": "Report of the National Reading Panel: Teaching Children to Read: Reports of the Subgroups",
+        "authors": "National Institute of Child Health and Human Development, NIH, DHHS",
+        "year": "2000",
+        "url": "https://www.nichd.nih.gov/publications/pubs/nrp/report",
+        "method": "Research synthesis with topic-specific systematic reviews and meta-analyses",
+        "finding": "Synthesizes research on reading instruction across alphabetics, fluency, comprehension, teacher education and computer technology. Findings vary by instructional component, learner group and outcome.",
+        "caveat": "This historical research synthesis is distinct from the later Reading First funding evaluation. Its included studies, summary report and full subgroup report are not independent program trials."
+      },
+      "evidenceUrl": "https://www.nichd.nih.gov/publications/product/247",
+      "status": "reviewed-primary-publication-catalog-and-topic-summary"
+    },
+    {
+      "sourceKey": "src-015",
+      "reason": "Official title/citation and Appendix B identify a November 2008 report combining 17 regression-discontinuity sites with one randomized site. The imported RCT-only label and generic finding do not describe this evaluation.",
+      "originalUrl": "https://ies.ed.gov/use-work/resource-library/report/evaluation-report/reading-first-impact-study-final-report",
+      "replacement": {
+        "title": "Reading First Impact Study Final Report",
+        "authors": "Beth C. Gamse; Robin Tepper Jacob; Megan Horst; Beth Boulay; Fatih Unlu",
+        "year": "2008",
+        "method": "Regression discontinuity (17 sites) and group-randomized experiment (one site)",
+        "finding": "Reading First improved several instructional practices and first-grade decoding in spring 2007, but did not produce statistically significant reading-comprehension impacts in grades 1–3.",
+        "caveat": "Keep outcome measures and the mixed site designs distinct. Nonsignificant comprehension estimates are not evidence of exactly zero effect; grant implementation is not a test of every reading-instruction approach."
+      },
+      "evidenceUrl": "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncee/pdf/20094038.pdf",
+      "status": "reviewed-primary-document-metadata"
+    },
+    {
+      "sourceKey": "src-021",
+      "reason": "Verified the PDF title page and February 2021 design-principles brief. This synthesizes research; it is not itself a randomized trial. Replace filename-derived title and host-derived authors.",
+      "originalUrl": "https://files.eric.ed.gov/fulltext/ED613847.pdf",
+      "replacement": {
+        "title": "Accelerating Student Learning with High-Dosage Tutoring",
+        "authors": "Carly D. Robinson; Matthew A. Kraft; Susanna Loeb; Beth E. Schueler",
+        "year": "2021",
+        "url": "https://files.eric.ed.gov/fulltext/ED613847.pdf",
+        "method": "Research synthesis / design-principles brief",
+        "finding": "Synthesizes tutoring evidence and describes implementation considerations including frequency, group size, tutor support, instructional materials and scheduling.",
+        "caveat": "This brief summarizes other studies; effect estimates should cite their underlying studies and must not be counted as an additional independent trial."
+      },
+      "evidenceUrl": "https://files.eric.ed.gov/fulltext/ED613847.pdf",
+      "status": "reviewed-primary-document-metadata"
+    },
+    {
+      "sourceKey": "src-026",
+      "reason": "Original URL resolves to Exporting Liquidity: Branch Banking and Financial Integration, not teacher evaluation. Replace with a verified IMPACT evaluation and narrow the summary to supported findings.",
+      "originalUrl": "https://www.nber.org/papers/w19403",
+      "replacement": {
+        "title": "Incentives, Selection, and Teacher Performance: Evidence from IMPACT",
+        "authors": "Thomas Dee; James Wyckoff",
+        "year": "2013",
+        "url": "https://www.nber.org/papers/w19529",
+        "doi": "10.3386/w19529",
+        "method": "Regression discontinuity",
+        "finding": "Threshold-based comparisons evaluate how dismissal threats and financial incentives affect teacher retention and performance under DC IMPACT.",
+        "caveat": "Local threshold estimates in one district; this source does not establish systemwide effects or long-term trust and sustainability."
+      },
+      "evidenceUrl": "https://www.nber.org/papers/w19529",
+      "status": "reviewed-primary-source-replacement"
+    },
+    {
+      "sourceKey": "src-034",
+      "reason": "Original URL resolves to Reestablishing the Income-Democracy Nexus, not charter schools. Substitute a verified charter lottery study with explicit geographic limits.",
+      "originalUrl": "https://www.nber.org/papers/w16832",
+      "replacement": {
+        "title": "Explaining Charter School Effectiveness",
+        "authors": "Joshua D. Angrist; Parag A. Pathak; Christopher R. Walters",
+        "year": "2011",
+        "url": "https://www.nber.org/papers/w17332",
+        "doi": "10.3386/w17332",
+        "method": "Lottery",
+        "finding": "Massachusetts charter-school lottery estimates differ between urban and nonurban settings, with gains concentrated in urban schools.",
+        "caveat": "Results are setting-specific; lottery and non-lottery analyses must remain distinct and should not be generalized to every charter school."
+      },
+      "evidenceUrl": "https://www.nber.org/papers/w17332",
+      "status": "reviewed-primary-source-replacement"
+    }
+  ]
+}

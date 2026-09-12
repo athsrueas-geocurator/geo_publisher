@@ -1,0 +1,32 @@
+{
+  "mechanisms": {"ITT":"offering tutoring","TOT":"tutoring participation"},
+  "estimands": {"ITT":"Intention-to-treat","TOT":"Treatment-on-treated"},
+  "measures": {
+    "cps-math":{"label":"CPS math scores","kind":"score","unit":"standard deviations"},
+    "research-math":{"label":"researcher-administered math scores","kind":"score","unit":"standard deviations"},
+    "cps-reading":{"label":"CPS reading scores","kind":"score","unit":"standard deviations"},
+    "math-gpa":{"label":"math GPA","kind":"score","unit":"points"},
+    "nonmath-gpa":{"label":"nonmath GPA","kind":"score","unit":"points"},
+    "math-failure":{"label":"the share of math courses failed","kind":"fraction"},
+    "nonmath-failure":{"label":"the share of nonmath core courses failed","kind":"fraction"},
+    "ever-arrested":{"label":"the probability of any arrest","kind":"fraction"},
+    "disciplinary-incidents":{"label":"disciplinary incidents per student","kind":"count"},
+    "days-absent":{"label":"days absent per student","kind":"count"},
+    "suspensions":{"label":"out-of-school suspensions","kind":"unknown"},
+    "arrests-violent":{"label":"violent-crime arrests per student","kind":"count"},
+    "arrests-property":{"label":"property-crime arrests per student","kind":"count"},
+    "arrests-drug":{"label":"drug-crime arrests per student","kind":"count"},
+    "arrests-other":{"label":"other-crime arrests per student","kind":"count"},
+    "arrests-any":{"label":"arrests per student","kind":"count"}
+  },
+  "interpretations": {
+    "math":"This supports the paper's finding that tutoring improved mathematics outcomes.",
+    "reading":"The paper did not establish a clear improvement in reading-test scores.",
+    "study1Nonmath":"This supports the paper's finding of improved nonmath course performance in Study 1.",
+    "study1Behavior":"The authors did not detect behavioral spillovers; the imprecision does not establish that tutoring has no effect.",
+    "study2Nonmath":"The authors found no statistically significant nonmath spillovers in Study 2 after multiple-testing adjustment.",
+    "study2Behavior":"The authors found no statistically significant behavioral spillovers in Study 2 after multiple-testing adjustment."
+  },
+  "interpretationSource": "Guryan et al. (2023), main-results discussion, printed pp. 748–750, especially p. 749",
+  "policy": "Claims must state the source-backed finding and its meaning in the visible title and at most two concise description sentences. Titles may express fractions in percentage points as a unit conversion only; structured values stay unchanged. Source-row q-values are not relabeled as estimand-specific p-values. Unknown units remain explicit."
+}

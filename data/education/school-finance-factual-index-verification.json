@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-09-12T04:41:11.067Z",
+  "batchName": "Classify school-finance findings as factual claims",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 3,
+  "checks": [
+    {
+      "entityId": "12495ccb45fd44699425a6e5b026f00a",
+      "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+      "pass": true
+    },
+    {
+      "entityId": "563ddf93c85241c3b5e8011a81f03edd",
+      "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+      "pass": true
+    },
+    {
+      "entityId": "f72679e4612c4d2b9d4496626826f71c",
+      "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

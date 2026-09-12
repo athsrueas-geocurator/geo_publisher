@@ -1,0 +1,137 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "86d8fd6722804e02b5ccf74de96ac3bb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "NAEP Data Explorer",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "NAEP Data Explorer provides representative assessment results across national, state, and participating urban-district samples. It supplies benchmark and trend context; it does not establish that an initiative caused an outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://nces.ed.gov/nationsreportcard/naepdata/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "83d913e1a1fd4f34aeeeed97c183d852"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "NAEP catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** National Center for Education Statistics.\n- **Access:** Custom tables and charts; qualified users may access restricted-use microdata.\n- **Unit:** Representative assessment result and subgroup.\n- **Coverage:** Assessment-specific trend series across decades.\n- **Geography:** Nation, state, and participating urban district; not school level.\n- **Join keys:** Jurisdiction, assessment year, grade, subject, and subgroup.\n- **Measures:** Scale scores, achievement levels, and questionnaire context.\n- **Use boundary:** Preserve the assessment, population, and sampling context.\n\nNAEP supports national/state benchmarks and achievement-trend context. It must not be used alone to attribute an initiative effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ae931967081542c88f25e564cc2d8da7"
+    },
+    "entity": {
+      "$bytes": "9f18e6a5018f436da5c4cbd65f9470b5"
+    },
+    "from": {
+      "$bytes": "86d8fd6722804e02b5ccf74de96ac3bb"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06mH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6cc4280329c84c1ba6f7a14bdf6fc3b1"
+    },
+    "entity": {
+      "$bytes": "cbc8da0c5ec043a88069a468678894fa"
+    },
+    "from": {
+      "$bytes": "83d913e1a1fd4f34aeeeed97c183d852"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a008P"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "12f7a2cb37aa41aea16f541a4f53376c"
+    },
+    "entity": {
+      "$bytes": "dbdbfb2bfcca473eb6b28a2e94fc234c"
+    },
+    "from": {
+      "$bytes": "86d8fd6722804e02b5ccf74de96ac3bb"
+    },
+    "to": {
+      "$bytes": "83d913e1a1fd4f34aeeeed97c183d852"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0Bi9"
+  }
+]

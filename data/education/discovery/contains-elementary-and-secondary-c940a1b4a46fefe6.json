@@ -1,0 +1,43 @@
+{
+  "term": "Elementary and Secondary",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T22:08:57.638Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "18f13824a653462eb6cff6733a1ef859",
+      "name": "Texas Senate Bill 10, enacted in 2025, requires public elementary and secondary schools to permanently and conspicuously display a state-selected version of the Ten Commandments in every classroom.",
+      "description": null,
+      "spaceIds": [
+        "1b3d2963d14de99d4e440000125edb65"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "1b642912161e40e094dac6c8e771e758",
+      "name": "The bill blocks the relocation of offices overseeing postsecondary education, elementary and secondary education, special education, and Native American education.",
+      "description": null,
+      "spaceIds": [
+        "1b3d2963d14de99d4e440000125edb65"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMWI2NDI5MTItMTYxZS00MGUwLTk0ZGEtYzZjOGU3NzFlNzU4Il1d"
+    }
+  ]
+}

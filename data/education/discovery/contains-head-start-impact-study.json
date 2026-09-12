@@ -1,0 +1,132 @@
+{
+  "term": "Head Start Impact Study",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-12T03:53:24.900Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "3eb14cdf7f1145bca187b01191ec7796",
+      "name": "Proposal 3eb14cdf-7f11-45bc-a187-b01191ec7796",
+      "description": "System entity for proposal 3eb14cdf-7f11-45bc-a187-b01191ec7796 in space dac259ba-d48a-11ad-f97f-e36857d85206",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206",
+        "d00460c203779d21d96fcfc6102d7a72"
+      ],
+      "types": [
+        {
+          "id": "490a7c90ad4b4029b2b4d85d22fe203a",
+          "name": "Proposal"
+        }
+      ]
+    },
+    {
+      "id": "5f893830d2a249c29143f904fe4882eb",
+      "name": "The Head Start Impact Study compared Head Start access with a mix of alternative care arrangements, not with a universal no-service condition.",
+      "description": "About 17% of the 3-year-old control group and 14% of the 4-year-old control group entered Head Start during the first year; the report therefore distinguishes intent-to-treat access estimates from estimates adjusted for no-shows and crossovers.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "82668a2ddf8646c59a81cee556974d0d",
+      "name": "By the end of first grade, the Head Start Impact Study found few statistically significant differences for the sample as a whole.",
+      "description": "The report follows children from program entry through first grade and reports this result for the randomized groups as a whole. It does not establish that every subgroup, unmeasured outcome, or later-life outcome was zero.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "88d4b6e4b5f84305b2a302f803ef9e6a",
+      "name": "Does the Head Start Impact Study support expanding Head Start?",
+      "description": "This policy question is open for debate. Linked factual Claims separate early outcomes and care access from the study’s limited sample-wide first-grade differences.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "a0d0dfad77074f10a028bf89ccebb17f",
+      "name": "Head Start Impact Study: Final Report",
+      "description": "A federal randomized evaluation of Head Start access, following children through the end of first grade.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "a2a5ed0cacef46b1835de457956ce915",
+          "name": "Article"
+        }
+      ]
+    },
+    {
+      "id": "c183f28d3bc34439b797138e50d5c1f3",
+      "name": "Third Grade Follow-up to the Head Start Impact Study: Final Report",
+      "description": "The 2012 federal follow-up of the Head Start randomized study, reporting outcomes through the end of third grade.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "a2a5ed0cacef46b1835de457956ce915",
+          "name": "Article"
+        }
+      ]
+    },
+    {
+      "id": "c94ca8e97b2a40f297ffbe86db191a07",
+      "name": "The Head Start Impact Study found favorable cognitive and health impacts after one program year, with more significant findings for the 3-year-old cohort.",
+      "description": "The final report describes end-of-program-year impacts for the randomized access comparison. It does not justify treating every measured outcome, later follow-up, or implementation setting as favorable.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "ccb338ae58a44f3e81541f9cb958fcb3",
+      "name": "In the Head Start Impact Study, children offered Head Start were twice as likely as controls to use a center-based program in spring 2003.",
+      "description": "This randomized-study finding concerns the early care arrangement produced by an offer of Head Start, not a comparison with no alternative services. The report includes Head Start, preschool and child care in its center-based category.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYTBkMGRmYWQtNzcwNy00ZjEwLWEwMjgtYmY4OWNjZWJiMTdmIl1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiY2NiMzM4YWUtNThhNC00ZjNlLTgxNTQtMWY5Y2I5NThmY2IzIl1d"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "term": "networks",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:31.351Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "2055125c39e747abae0411a2eb4b8ae9",
+      "name": "Networks",
+      "description": null,
+      "spaceIds": [
+        "c9f267dcb0d270718c2a3c45a64afd32"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        },
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        },
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    },
+    {
+      "id": "54d595e543c146a78cae6726559ed802",
+      "name": "Networks",
+      "description": null,
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    },
+    {
+      "id": "b782bea6e62540c890f3c9d9d2a79424",
+      "name": "Networks",
+      "description": null,
+      "spaceIds": [
+        "c9f267dcb0d270718c2a3c45a64afd32"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYjc4MmJlYTYtZTYyNS00MGM4LTkwZjMtYzlkOWQyYTc5NDI0Il1d"
+    }
+  ]
+}

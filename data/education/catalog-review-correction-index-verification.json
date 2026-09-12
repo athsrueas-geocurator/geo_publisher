@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-09-12T11:35:09.896Z",
+  "batchName": "Correct HSLS, SSOCS and WWC catalog descriptions and source metadata",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 6,
+  "checks": [
+    {
+      "entityId": "63e0be67eb5a41a693b9623d7b9c9ae8",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "eb7428c70fa04b1980afcc1607db8e06",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "entityId": "655b053c43344e9dab5dc048367490ab",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "6a045d705aaf4a09bb8e8bfabf006f5f",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "entityId": "547924b539e241d997f47963941b4367",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "8502d253b85a4054803d5e880bd00dbe",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

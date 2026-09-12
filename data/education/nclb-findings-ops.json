@@ -1,0 +1,326 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0bf6eec672674e449f3473ce134e77cd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Dee and Jacob estimated that NCLB increased average fourth-grade math performance by an effect size of 0.22 by 2007.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Using state-level NAEP panel data and a comparative interrupted time-series design, the paper reports a statistically significant fourth-grade math increase by 2007. The abstract reports no standard error and does not further define the effect-size scale; retain it as source-reported rather than automatically normalize it.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "22"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Effect size as reported in the NBER abstract; scale not further specified there.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e584a30402344f0db71b89f23e529d18"
+    },
+    "entity": {
+      "$bytes": "3acc364352ba4958ba0deb934d9204c3"
+    },
+    "from": {
+      "$bytes": "0bf6eec672674e449f3473ce134e77cd"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06Os"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "270af86c3a0244a288182fa0ed636d1c"
+    },
+    "entity": {
+      "$bytes": "fb0e0fb81c4c43a1919eda1a5967baa4"
+    },
+    "from": {
+      "$bytes": "0bf6eec672674e449f3473ce134e77cd"
+    },
+    "to": {
+      "$bytes": "d83f04c4e8594faeb657a226c26c134c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07KB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b37b05c9928f46fc89386340526e4799"
+    },
+    "entity": {
+      "$bytes": "07289929c97d487da9789c75c7bccdcc"
+    },
+    "from": {
+      "$bytes": "0bf6eec672674e449f3473ce134e77cd"
+    },
+    "to": {
+      "$bytes": "ed3fbb4f693c4785955b627ea98c03fb"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0A52"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8a6350c64b7b49ceb5860ef6baf77e6c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Dee and Jacob found evidence that NCLB improved eighth-grade math achievement, especially for lower-achieving groups and lower percentiles.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The source reports evidence of eighth-grade math improvement, particularly among traditionally low-achieving groups and at lower percentiles. The abstract does not supply a single estimate or standard error for this finding.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b2ad6a57a1ee4a08ba4e05a0cf01d6df"
+    },
+    "entity": {
+      "$bytes": "a1d18fee31734a0888b16e18b6ac8734"
+    },
+    "from": {
+      "$bytes": "8a6350c64b7b49ceb5860ef6baf77e6c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06I9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ef5bd4465b07406c8a29ff8c6ac356ca"
+    },
+    "entity": {
+      "$bytes": "664ff47079e34adab8a441c435c311ce"
+    },
+    "from": {
+      "$bytes": "8a6350c64b7b49ceb5860ef6baf77e6c"
+    },
+    "to": {
+      "$bytes": "d83f04c4e8594faeb657a226c26c134c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03xN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "adb8484cd3db4d63a6128f84c0a2f061"
+    },
+    "entity": {
+      "$bytes": "0094e981d7d84621853322a2b1fec60f"
+    },
+    "from": {
+      "$bytes": "8a6350c64b7b49ceb5860ef6baf77e6c"
+    },
+    "to": {
+      "$bytes": "ed3fbb4f693c4785955b627ea98c03fb"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0845"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "96e166271b344f27b932e83442381be3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Dee and Jacob found no evidence that NCLB increased fourth- or eighth-grade reading achievement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is the paper’s reported null finding for reading in fourth and eighth grade under its comparative interrupted time-series analysis of NAEP state panels. It does not mean that every reading estimate was exactly zero.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4b15e07ea917494f9df25fc936fac25b"
+    },
+    "entity": {
+      "$bytes": "af9f0f41d92e4e72bd345eff1670d0ff"
+    },
+    "from": {
+      "$bytes": "96e166271b344f27b932e83442381be3"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03d3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "665d95669588483ea0cdcdfc83c7d6f3"
+    },
+    "entity": {
+      "$bytes": "73626bb46c3f49eb987316543a442a0f"
+    },
+    "from": {
+      "$bytes": "96e166271b344f27b932e83442381be3"
+    },
+    "to": {
+      "$bytes": "d83f04c4e8594faeb657a226c26c134c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04Tf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "249e1d2a1a574552ad75cf8caf81098a"
+    },
+    "entity": {
+      "$bytes": "52bbff4b320647d2996ab10cc379632e"
+    },
+    "from": {
+      "$bytes": "96e166271b344f27b932e83442381be3"
+    },
+    "to": {
+      "$bytes": "ed3fbb4f693c4785955b627ea98c03fb"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07vV"
+  }
+]

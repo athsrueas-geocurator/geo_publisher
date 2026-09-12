@@ -1,0 +1,565 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "fc6318d0e2bd4ad588fdb77e317105fd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intensive Math Instruction and Educational Attainment: Long-Run Impacts of Double-Dose Algebra",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Cortes, Goodman and Nomi’s study of Chicago double-dose algebra and longer-run educational attainment.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.3368/jhr.50.1.108",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.nber.org/papers/w20211",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a10f0e2c24af4beaab99222d2f96ebd9"
+    },
+    "entity": {
+      "$bytes": "04eba696c6404fd5a558e9404f52351d"
+    },
+    "from": {
+      "$bytes": "fc6318d0e2bd4ad588fdb77e317105fd"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01Qz"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "965cad4502d449579f74866a4ed922a8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Chicago double-dose algebra",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A Chicago Public Schools ninth-grade policy that paired algebra with an additional support period for students below a prior-math-score threshold. Its effects depend on assignment, instructional time and classroom organization.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.nber.org/papers/w20211",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4f789a0f0f8b4479a1fc0f9d0e036a15"
+    },
+    "entity": {
+      "$bytes": "94d2110b81f24de092c50fc0dca46cd9"
+    },
+    "from": {
+      "$bytes": "965cad4502d449579f74866a4ed922a8"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01cS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cc0b08fdb5264d4e875864d2418d3781"
+    },
+    "entity": {
+      "$bytes": "03ecdfd416c64baf88322457c2a64d17"
+    },
+    "from": {
+      "$bytes": "965cad4502d449579f74866a4ed922a8"
+    },
+    "to": {
+      "$bytes": "fc6318d0e2bd4ad588fdb77e317105fd"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03AJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7be882742f8448f98fbc915ff6310c5d"
+    },
+    "entity": {
+      "$bytes": "f3b4b122edfb4dada952a391b31a7b3d"
+    },
+    "from": {
+      "$bytes": "965cad4502d449579f74866a4ed922a8"
+    },
+    "to": {
+      "$bytes": "fc6318d0e2bd4ad588fdb77e317105fd"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05lV"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e2a67bd97c2f464d99af2196aaef7697"
+    },
+    "entity": {
+      "$bytes": "4e112c5ab96d4b2a84c1b1dbfe616ad7"
+    },
+    "from": {
+      "$bytes": "965cad4502d449579f74866a4ed922a8"
+    },
+    "to": {
+      "$bytes": "e82f3bfc991a4578aa8b7a503640b95e"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "toSpace": {
+      "$bytes": "84a679ce188f061ac9a92380bac2bab5"
+    },
+    "position": "a09lb"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e6b77d5b70184fbcb447bf2b471f9122"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Chicago’s double-dose algebra policy assigned ninth graders below the national-median eighth-grade math score to two periods of algebra coursework.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The policy doubled math instructional time and also changed peer composition and pedagogy. Its regression-discontinuity evidence applies near the assignment threshold, not to every student or every implementation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d04dfb33801e48a7b865038178b04b2c"
+    },
+    "entity": {
+      "$bytes": "f033d1a98f2d446d87914cae7fd67b7e"
+    },
+    "from": {
+      "$bytes": "e6b77d5b70184fbcb447bf2b471f9122"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06Jb"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b6dd6f08d86945bf96b53967b88ca9c1"
+    },
+    "entity": {
+      "$bytes": "c4774ff540354379b627c961fbe92b1a"
+    },
+    "from": {
+      "$bytes": "e6b77d5b70184fbcb447bf2b471f9122"
+    },
+    "to": {
+      "$bytes": "fc6318d0e2bd4ad588fdb77e317105fd"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02aC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3d00edcf7cb04887b85b36e7a42a1bdb"
+    },
+    "entity": {
+      "$bytes": "f81304f3b3014bd28537774931fc76a0"
+    },
+    "from": {
+      "$bytes": "e6b77d5b70184fbcb447bf2b471f9122"
+    },
+    "to": {
+      "$bytes": "965cad4502d449579f74866a4ed922a8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0AMf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "feb596cc90814d7dbd54e651a96e76be"
+    },
+    "entity": {
+      "$bytes": "ae780d8932e84fbdb43230c4c21dc853"
+    },
+    "from": {
+      "$bytes": "e6b77d5b70184fbcb447bf2b471f9122"
+    },
+    "to": {
+      "$bytes": "e82f3bfc991a4578aa8b7a503640b95e"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "toSpace": {
+      "$bytes": "84a679ce188f061ac9a92380bac2bab5"
+    },
+    "position": "a00qh"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3e0f4631a1154693a241fdbf763f7cd1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The double-dose algebra study reports positive impacts on credits, test scores, high-school graduation and college enrollment.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The published study’s regression-discontinuity analysis reports these outcomes for the targeted Chicago policy. The abstract does not provide one common effect size, so this record does not invent a scalar estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1e9e134803b94753a1da900ebb7344a0"
+    },
+    "entity": {
+      "$bytes": "0222b0d6e3bf4e08aa4de5a423c1abb8"
+    },
+    "from": {
+      "$bytes": "3e0f4631a1154693a241fdbf763f7cd1"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08Qf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "75c845adbd3e4fa280443d1b87f5a2ed"
+    },
+    "entity": {
+      "$bytes": "271fa238a3df4e318434c99002465c40"
+    },
+    "from": {
+      "$bytes": "3e0f4631a1154693a241fdbf763f7cd1"
+    },
+    "to": {
+      "$bytes": "fc6318d0e2bd4ad588fdb77e317105fd"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02vp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e5ac38c06d864850b8a477c573ae62cf"
+    },
+    "entity": {
+      "$bytes": "7de5d572f2c54122ae22dae2506b0e43"
+    },
+    "from": {
+      "$bytes": "3e0f4631a1154693a241fdbf763f7cd1"
+    },
+    "to": {
+      "$bytes": "965cad4502d449579f74866a4ed922a8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0AEU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f2cc6eb2820244b3bd196e4de49c5409"
+    },
+    "entity": {
+      "$bytes": "b0382fafee0249d89dc1f220e13da6b8"
+    },
+    "from": {
+      "$bytes": "3e0f4631a1154693a241fdbf763f7cd1"
+    },
+    "to": {
+      "$bytes": "e82f3bfc991a4578aa8b7a503640b95e"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "toSpace": {
+      "$bytes": "84a679ce188f061ac9a92380bac2bab5"
+    },
+    "position": "a008n"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2063d9cfcf2b4e40abdfad42e6e4b8dd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The double-dose algebra study found its largest reported impacts among students with below-average reading skills.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is a source-reported heterogeneity finding, not proof that reading skill alone caused the difference or that the result applies outside the threshold-based Chicago policy.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ff5a64b777fb4b0fbd7954db583c6368"
+    },
+    "entity": {
+      "$bytes": "1516bbcfc7784b6eb732b45ce60db0ae"
+    },
+    "from": {
+      "$bytes": "2063d9cfcf2b4e40abdfad42e6e4b8dd"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a098B"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6a6e56519769491eac9bcbe8591d1c41"
+    },
+    "entity": {
+      "$bytes": "48c5890ac64944b99cb576802aa7d323"
+    },
+    "from": {
+      "$bytes": "2063d9cfcf2b4e40abdfad42e6e4b8dd"
+    },
+    "to": {
+      "$bytes": "fc6318d0e2bd4ad588fdb77e317105fd"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09Yi"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9724f438e8094def9fa66fdda4f281ee"
+    },
+    "entity": {
+      "$bytes": "50e3fc1e920f4a179f947ba6e484d319"
+    },
+    "from": {
+      "$bytes": "2063d9cfcf2b4e40abdfad42e6e4b8dd"
+    },
+    "to": {
+      "$bytes": "965cad4502d449579f74866a4ed922a8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0C2h"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1e9bf9e510534bcd8d67c8673155aee1"
+    },
+    "entity": {
+      "$bytes": "283b5136095f4f3c952fcb342c5049f7"
+    },
+    "from": {
+      "$bytes": "2063d9cfcf2b4e40abdfad42e6e4b8dd"
+    },
+    "to": {
+      "$bytes": "e82f3bfc991a4578aa8b7a503640b95e"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "toSpace": {
+      "$bytes": "84a679ce188f061ac9a92380bac2bab5"
+    },
+    "position": "a04Tv"
+  }
+]

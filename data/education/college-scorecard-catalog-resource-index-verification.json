@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-09-12T08:55:25.137Z",
+  "batchName": "Add College Scorecard catalog resource and metadata block",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "entityId": "fa615e21492c40b68c6f3483f1466bcb",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "fa615e21492c40b68c6f3483f1466bcb",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "fa615e21492c40b68c6f3483f1466bcb",
+      "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+      "pass": true
+    },
+    {
+      "relationId": "d76d364837354456b557a8a9581df8a9",
+      "pass": true
+    },
+    {
+      "relationId": "b38b8de41e7a4488ad263e763d33d674",
+      "pass": true
+    },
+    {
+      "entityId": "31ec1a5cb1ae4d0f8256b33c681667c1",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "31ec1a5cb1ae4d0f8256b33c681667c1",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "relationId": "4e63630ce91648a89068200306847e12",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,20 @@
+{
+  "sourceKey": "sources/src-039",
+  "checkedAt": "2026-09-11T17:50:43.294Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://www.pbis.org/pbis/studies",
+      "needle": "www.pbis.org/pbis/studies",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

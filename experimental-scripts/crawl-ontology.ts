@@ -141,7 +141,7 @@ async function fetchTypeSamples(spaceId: string, limit = 200) {
       spaceId: $spaceId
       typeId: $typeId
       first: $first
-      filter: { name: { isNot: null } }
+      filter: { name: { isNull: false } }
     ) {
       id
       name
@@ -175,7 +175,7 @@ async function fetchEntitiesByType(spaceId: string, typeId: string, limit = 200)
       spaceId: $spaceId
       typeId: $typeId
       first: $first
-      filter: { name: { isNot: null } }
+      filter: { name: { isNull: false } }
     ) {
       id
       name

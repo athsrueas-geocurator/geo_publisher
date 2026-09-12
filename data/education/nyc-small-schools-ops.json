@@ -1,0 +1,1293 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3a02b7c1d1ea4d8b8f29489610fd62c4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Enduring Success: Effects of New York City’s Small Schools of Choice on Postsecondary Degree Attainment and Employment",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "MDRC’s 2026 lottery-based longitudinal SSC evaluation of postsecondary outcomes and available employment records.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/sites/default/files/SSC_Enduring_Success.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6b6550747378441d9de9c3ae56339ccf"
+    },
+    "entity": {
+      "$bytes": "0f4e5dc6679d4788b2139bacc1b8b98e"
+    },
+    "from": {
+      "$bytes": "3a02b7c1d1ea4d8b8f29489610fd62c4"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08gV"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4f1726ca9f934e30b72c18a41f82846a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The Relative Costs of New York City’s New Small Public High Schools of Choice",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "MDRC’s 2014 cost accounting of earlier New York City Small Schools of Choice cohorts.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://nocache.mdrc.org/work/publications/relative-costs-new-york-citys-new-small-public-high-schools-choice/file-full",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e462c88e0ea2431395d19c21947c0657"
+    },
+    "entity": {
+      "$bytes": "05cff1c17f964af9a03d66da6a0fa852"
+    },
+    "from": {
+      "$bytes": "4f1726ca9f934e30b72c18a41f82846a"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08YL"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a375aee3832b4c6890352b81c7a981a2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "New York City Small Schools of Choice lottery evaluation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "New York City’s academically nonselective small high schools, evaluated through oversubscribed-admission lotteries.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/sites/default/files/SSC_Enduring_Success.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "baa40d0a97594f038563bbc37386f6b9"
+    },
+    "entity": {
+      "$bytes": "6e9f60c62ec44264b0638069fb5d21ce"
+    },
+    "from": {
+      "$bytes": "a375aee3832b4c6890352b81c7a981a2"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02ii"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "605c1d3eaa0849b8a144f46ae7308f14"
+    },
+    "entity": {
+      "$bytes": "e4e40755d90f4ba9aa5c7b7dea52e93e"
+    },
+    "from": {
+      "$bytes": "a375aee3832b4c6890352b81c7a981a2"
+    },
+    "to": {
+      "$bytes": "3a02b7c1d1ea4d8b8f29489610fd62c4"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01dh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ce0c01cfb7c74c44961befbf2969f8bf"
+    },
+    "entity": {
+      "$bytes": "01be9314592443c781b3f5fdce05d0eb"
+    },
+    "from": {
+      "$bytes": "a375aee3832b4c6890352b81c7a981a2"
+    },
+    "to": {
+      "$bytes": "4f1726ca9f934e30b72c18a41f82846a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00MO"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bc6f1fd2b4a44c1f9374e84a421ff703"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "NYC Small Schools of Choice used admissions lotteries to estimate enrollment effects for 16,496 rising ninth-graders.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2005–2008 applicant cohorts were analyzed using lottery outcomes as an instrument for SSC enrollment. This is one longitudinal evaluation, not independent evidence for each outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "16496"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Lottery-based instrumental-variable evaluation of SSC enrollment versus other New York City public high schools.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Outcome report pp. 2–4; Figure 1 note.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8c7c1f522aa44d108c8f7525c85ed00e"
+    },
+    "entity": {
+      "$bytes": "3fd8dea045154929a48f252ca017040e"
+    },
+    "from": {
+      "$bytes": "bc6f1fd2b4a44c1f9374e84a421ff703"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07Wi"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f7792d9f8c2049eca4fec3dfd3ba9ae4"
+    },
+    "entity": {
+      "$bytes": "d634c3e0d44140c4877b15fa5bb01fd9"
+    },
+    "from": {
+      "$bytes": "bc6f1fd2b4a44c1f9374e84a421ff703"
+    },
+    "to": {
+      "$bytes": "3a02b7c1d1ea4d8b8f29489610fd62c4"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05dN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5dd18caa9b8e47839f5e46bf3c362424"
+    },
+    "entity": {
+      "$bytes": "7d5829cc48fe4580b4b984367e94068a"
+    },
+    "from": {
+      "$bytes": "bc6f1fd2b4a44c1f9374e84a421ff703"
+    },
+    "to": {
+      "$bytes": "a375aee3832b4c6890352b81c7a981a2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BUI"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a2a84987ceb841e7904c8b0b7c4e902a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "NYC Small Schools of Choice increased four-year high-school graduation by 8.2 percentage points (76.3% versus 68.1%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The six-year outcome brief reports this SSC-enrollment estimate for students applying in 2005–2008. It does not identify which SSC features caused the gain.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "16496"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point SSC-enrollment effect on four-year high-school graduation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure 1, p. 4.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "82"
+            }
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4ead620ceedb4436bf0bf31f8149724a"
+    },
+    "entity": {
+      "$bytes": "004c558117764b50995e5c5f0045bea6"
+    },
+    "from": {
+      "$bytes": "a2a84987ceb841e7904c8b0b7c4e902a"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05fV"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "44361ee102a048c799bf3ead1bb91c5d"
+    },
+    "entity": {
+      "$bytes": "8c3dc9851e944173b9a302dafb027c32"
+    },
+    "from": {
+      "$bytes": "a2a84987ceb841e7904c8b0b7c4e902a"
+    },
+    "to": {
+      "$bytes": "3a02b7c1d1ea4d8b8f29489610fd62c4"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a044I"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7794711fff7d414f9d6557ec65611743"
+    },
+    "entity": {
+      "$bytes": "1b9102f149c94d709fe973434b36841f"
+    },
+    "from": {
+      "$bytes": "a2a84987ceb841e7904c8b0b7c4e902a"
+    },
+    "to": {
+      "$bytes": "a375aee3832b4c6890352b81c7a981a2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Bz3"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ae1a54d9bf6949ee8dedaa002a8cb646"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "NYC Small Schools of Choice increased postsecondary enrollment within six months by 9.5 percentage points (52.9% versus 43.4%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This follows expected four-year high-school graduation and uses the report’s combined NYCPS, CUNY, and Clearinghouse context. It is not a degree-attainment or earnings result.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "16496"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point SSC-enrollment effect on postsecondary enrollment within six months of expected high-school graduation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure 1 and Table 1, pp. 4–5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "95"
+            }
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6c7bb4b8ea9f4221929b392cd4236295"
+    },
+    "entity": {
+      "$bytes": "9a6028046484492e9ffe2949b95a0644"
+    },
+    "from": {
+      "$bytes": "ae1a54d9bf6949ee8dedaa002a8cb646"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0CDf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "329be85aa69f4be38031eae8b9999bd4"
+    },
+    "entity": {
+      "$bytes": "ab6fca5a82014bf7b2293b26ffe344c5"
+    },
+    "from": {
+      "$bytes": "ae1a54d9bf6949ee8dedaa002a8cb646"
+    },
+    "to": {
+      "$bytes": "3a02b7c1d1ea4d8b8f29489610fd62c4"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09rg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e741299f6fe3428f9383ccaa367cbd17"
+    },
+    "entity": {
+      "$bytes": "70c231e6d0bc4fc2b1a14c023a57aa4e"
+    },
+    "from": {
+      "$bytes": "ae1a54d9bf6949ee8dedaa002a8cb646"
+    },
+    "to": {
+      "$bytes": "a375aee3832b4c6890352b81c7a981a2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05Yh"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "647f9dd5528d456290fecff51a0a2e17"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "NYC Small Schools of Choice increased four-year-degree attainment within six years by 2.5 percentage points (14.7% versus 12.2%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The degree-attainment denominator is 14,646 students with the most recent degree data, although the evaluation sample is 16,496. The result concerns four-year degrees, not certificates or two-year degrees.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "14646"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point SSC-enrollment effect on four-year postsecondary degree attainment within six years of expected high-school graduation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure 1 note, pp. 4–5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "25"
+            }
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fb29ba78e12a42b6a6a1b28b7498bbeb"
+    },
+    "entity": {
+      "$bytes": "13039e9aef7e4733b0731ac3abb329bb"
+    },
+    "from": {
+      "$bytes": "647f9dd5528d456290fecff51a0a2e17"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04Yg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "51e9890277ed47c28f3650eeed32264a"
+    },
+    "entity": {
+      "$bytes": "0c411f664173434ba2574870944b9f19"
+    },
+    "from": {
+      "$bytes": "647f9dd5528d456290fecff51a0a2e17"
+    },
+    "to": {
+      "$bytes": "3a02b7c1d1ea4d8b8f29489610fd62c4"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06Tg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a7afd50d9c3542f2b32afc7174191e58"
+    },
+    "entity": {
+      "$bytes": "b693d8b0012a4b8793977696d553432e"
+    },
+    "from": {
+      "$bytes": "647f9dd5528d456290fecff51a0a2e17"
+    },
+    "to": {
+      "$bytes": "a375aee3832b4c6890352b81c7a981a2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04IC"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "957fd14fce2047ba816710951a0d31cd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "NYC Small Schools of Choice showed no discernible effect on employment rates or earnings in the available follow-up data.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report says employment and earnings records are unavailable for the full sample. This is not evidence of no future labor-market effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "16496"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Qualitative report finding on employment and earnings; no numeric estimate is published in the brief.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Outcome report pp. 1–2, 10–12.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "655941ceddc44d5aaf007755bdd36479"
+    },
+    "entity": {
+      "$bytes": "2de9d15ebb354424bd7f78311f07cb07"
+    },
+    "from": {
+      "$bytes": "957fd14fce2047ba816710951a0d31cd"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09N6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2ccc13af3edf4ac485cd358c187e185c"
+    },
+    "entity": {
+      "$bytes": "7f53899e993346ee98b59c3ee84cc0a6"
+    },
+    "from": {
+      "$bytes": "957fd14fce2047ba816710951a0d31cd"
+    },
+    "to": {
+      "$bytes": "3a02b7c1d1ea4d8b8f29489610fd62c4"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08LE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "961cd74ebaba4fa9afd732e25c546e12"
+    },
+    "entity": {
+      "$bytes": "cdea91b392144813ab0f6543402314fa"
+    },
+    "from": {
+      "$bytes": "957fd14fce2047ba816710951a0d31cd"
+    },
+    "to": {
+      "$bytes": "a375aee3832b4c6890352b81c7a981a2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05da"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "303eef5b611b47188ce584500bc69d41"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "NYC Small Schools of Choice used $2,572 less in five-year direct-service expenditures per target enrollee ($57,246 versus $59,818).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This experimental accounting comparison uses earlier cohorts and a well-defined control-school counterfactual. The report does not supply a common dollar price year and excludes some facility, partner, and startup resources.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "8521"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in five-year direct-service expenditures per target SSC enrollee, SSC minus control; publication does not state a common dollar price year.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Cost report p. 15.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-2572"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Five-year direct-service expenditures per target SSC enrollee, SSC minus control; facility, partner, and startup resources are not fully accounted for.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1a1c1b48af964647a64f6bbcf51bb9d7"
+    },
+    "entity": {
+      "$bytes": "87a67adb91354670a482bc16c0cc3711"
+    },
+    "from": {
+      "$bytes": "303eef5b611b47188ce584500bc69d41"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04Nm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "df26f278af32405facf210226c07e5f9"
+    },
+    "entity": {
+      "$bytes": "ae973d001ab8402da8c48e2acb7a3682"
+    },
+    "from": {
+      "$bytes": "303eef5b611b47188ce584500bc69d41"
+    },
+    "to": {
+      "$bytes": "4f1726ca9f934e30b72c18a41f82846a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Api"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "126b3201bb594a679d0929d88fe64ca2"
+    },
+    "entity": {
+      "$bytes": "886baa2bffdf48e1b545e933f32dc864"
+    },
+    "from": {
+      "$bytes": "303eef5b611b47188ce584500bc69d41"
+    },
+    "to": {
+      "$bytes": "a375aee3832b4c6890352b81c7a981a2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00kt"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5ec27fe825794d3daa746059d5a43981"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "NYC Small Schools of Choice had $14,674 lower cost per high-school graduate ($77,780 versus $92,454).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This source accounting result combines five-year direct-service expenditures and 74% versus 65% five-year graduation rates for earlier cohorts. It is not a benefit-cost ratio and does not represent the cost of never undertaking the citywide initiative.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "8521"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in cost per high-school graduate, SSC minus control; publication does not state a common dollar price year.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Cost report p. 15.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-14674"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Five-year direct-service expenditure per high-school graduate, based on 74% versus 65% five-year graduation rates; SSC minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e07f4d1544bf4b02bf4627400db0fd36"
+    },
+    "entity": {
+      "$bytes": "597a04247ea94759924a3406e38e81af"
+    },
+    "from": {
+      "$bytes": "5ec27fe825794d3daa746059d5a43981"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Aue"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f052478464534a5eba8711924385303b"
+    },
+    "entity": {
+      "$bytes": "469e7431e2424ca887b02caa14de2166"
+    },
+    "from": {
+      "$bytes": "5ec27fe825794d3daa746059d5a43981"
+    },
+    "to": {
+      "$bytes": "4f1726ca9f934e30b72c18a41f82846a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a00Kq"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9c2d7ff7ab764799a1edf77a679927e5"
+    },
+    "entity": {
+      "$bytes": "011f6be3ede1451ea31b7cab834fe0ee"
+    },
+    "from": {
+      "$bytes": "5ec27fe825794d3daa746059d5a43981"
+    },
+    "to": {
+      "$bytes": "a375aee3832b4c6890352b81c7a981a2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01W3"
+  }
+]

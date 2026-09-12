@@ -1,0 +1,98 @@
+import assert from 'node:assert/strict';
+import {mkdtempSync,writeFileSync,rmSync,existsSync,readFileSync} from 'node:fs';
+import {execFileSync} from 'node:child_process';
+import {resolve,basename} from 'node:path';
+import {EDUCATION_PUBLICATION as target} from '../src/education-bounty';
+import {buildCollection,allocatePositions,validatePlan,compareFact,registryKeys,serializeOps,hash,type CollectionPlan,type Fact} from '../src/education-collection';
+import {validateSourceReview,validateReviewBinding} from '../src/education-review';
+import {journalStages,summarizeLedger} from '../src/education-status';
+const id=(n:number)=>n.toString(16).padStart(32,'0');
+const p='e500e2585a964d2c9df4a47b199616c3';
+const q='210e9b352b454d6eb7a32906d24d3c8d';
+const plan:CollectionPlan={version:1,key:'synthetic-test',spaceId:id(1),bounty:id(2),catalogId:id(3),name:'Synthetic collection',description:'Synthetic test data only.',notes:'Not research evidence.',sourceIds:[id(4)],relatedIds:[],groups:[{key:'results',name:'Results',columns:[{id:p,dataType:'Decimal'}],members:[id(5)]}]};
+const headers=[{propertyId:'a126ca530c8e48d5b88882c734c38935',field:'text' as const,value:'Synthetic finding'},{propertyId:'9b1f76ff9711404c861e59dc3fa7d037',field:'text' as const,value:'Synthetic description'}];
+const facts:Fact[]=[{id:id(5),sourceId:id(4),locator:'Synthetic table 1',classification:'observed',context:'Synthetic test, no real study.',name:'Synthetic finding',description:'Synthetic description',values:[{propertyId:p,field:'decimal',value:'0.100'}]}];
+validatePlan(plan,facts);
+const contextPlan={...plan,allowUnlocatedContext:true,groups:[{key:'context',name:'Context',columns:[],members:[id(5)]}]};
+const contextFact={...facts[0]!,classification:'study-design' as const,locator:'',values:[]};
+validatePlan(contextPlan,[contextFact]);
+assert.throws(()=>validatePlan(plan,[{...facts[0]!,locator:'',values:[{propertyId:p,field:'decimal',value:'0.100'}]}]));
+assert.throws(()=>validatePlan({...plan,groups:[...plan.groups,...plan.groups]},facts));
+assert.throws(()=>validatePlan(plan,[]));
+assert.throws(()=>validatePlan(plan,[{...facts[0]!,values:[{propertyId:p,field:'decimal',value:0.1 as any}]}]));
+const live={name:'Synthetic finding',description:'Synthetic description',values:{nodes:[{propertyId:p,decimal:'.1'},{propertyId:'da4a6c1f9d4446f9832ff3b49a4400ef',boolean:true},{propertyId:'84dacbddca6a44079edb5e11a4c66b40',text:'Synthetic table 1'}],pageInfo:{hasNextPage:false}},relations:{nodes:[{typeId:'8f151ba4de204e3c9cb499ddf96f48f1',toEntityId:'96f859efa1ca4b229372c86ad58b694b'},{typeId:'49c5d5e1679a4dbdbfd33f618f227c94',toEntityId:id(4)}],pageInfo:{hasNextPage:false}}};
+compareFact(facts[0]!,live);
+compareFact(contextFact,live,true);
+assert.throws(()=>compareFact(facts[0]!,{...live,values:{...live.values,pageInfo:{hasNextPage:true}}}));
+assert.throws(()=>compareFact({...facts[0]!,sourceId:id(999)},live));
+assert.throws(()=>compareFact({...facts[0]!,locator:'Different table'},live));
+assert.throws(()=>compareFact({...facts[0]!,values:[{propertyId:p,field:'decimal',value:'0.10000000000000001'}]},live));
+assert.doesNotThrow(()=>compareFact({...facts[0]!,missingPropertyIds:[q]},live));
+assert.throws(()=>compareFact({...facts[0]!,missingPropertyIds:[p]},live));
+assert.throws(()=>validatePlan(plan,facts.map((f,i)=>i===0?{...f,missingPropertyIds:[f.values[0]!.propertyId]}:f)));
+const registry=Object.fromEntries(registryKeys(plan).map((key,index)=>[key,id(100+index)]));
+const positions=allocatePositions(plan),ops=buildCollection(plan,registry,'a0',positions);
+assert.equal(serializeOps(ops),serializeOps(buildCollection(plan,registry,'a0',positions)),'Repeat builds must be byte-identical');
+assert.throws(()=>buildCollection(plan,{},'a0',positions));
+const updates=ops.filter(op=>op.type==='updateEntity');
+assert.equal(updates.length,3,'Only Dataset, notes and table are updated');
+for(const op of updates)assert.notEqual(Buffer.from(op.id).toString('hex'),id(5),'Existing Claim must not be rewritten');
+assert.deepEqual(journalStages({main:{state:'confirmed',receipt:{status:'success'}},bounty:{state:'confirmed',receipt:{status:'success'}}}),{submissionConfirmed:true,executionRecorded:false,bountyTransactionConfirmed:true});
+assert.equal(summarizeLedger([{sourcePath:'source',fields:[{status:'needs-content-review'},{status:'existing-and-readable'}]}]).source!.statuses['needs-content-review'],1);
+assert.equal(journalStages({main:{state:'confirmed',receipt:{status:'success'}},chainVerification:{information:[true]},bounty:{state:'confirmed',receipt:{status:'success'}}}).executionRecorded,true);
+const parent=resolve('data/education'),folder=mkdtempSync(`${parent}/workflow-test-`);
+try {
+  const make=(name:string,content:unknown)=>{const path=`${folder}/${name}`;const bytes=JSON.stringify(content);writeFileSync(path,bytes);return {path,sha256:hash(bytes)};};
+  const source=make('source.json',{synthetic:true});
+  const discovery=make('discovery.json',{checkedAt:new Date().toISOString(),scope:'all-spaces',datasetDecision:'create',rationale:'Synthetic fixture',searches:['alias','identifier'].map(kind=>({kind,query:'Synthetic query',complete:true,candidates:[]}))});
+  const review={version:1,checkedAt:new Date().toISOString(),reviewer:'test fixture',planHash:'plan',factsHash:'facts',sources:[{...source,sourceId:id(4),version:'synthetic'}],discovery,decisions:Object.fromEntries(['source','identity','content'].map(key=>[key,{status:'accepted',rationale:'Synthetic fixture only'}]))};
+  validateSourceReview(review,'plan','facts',[id(4)]);
+  assert.throws(()=>validateSourceReview(review,'changed-plan','facts',[id(4)]));
+  assert.throws(()=>validateSourceReview({...review,decisions:{}},'plan','facts',[id(4)]));
+  // Exercise the real prepare-only CLI with a fixture transport that rejects every unexpected query.
+  const integrationPlan={...plan,key:basename(folder).toLowerCase(),spaceId:target.spaceId,bounty:target.bountyId};
+  const planRef=make('plan.json',integrationPlan),factsRef=make('facts.json',facts);
+  const reviewRef=make('review.json',{...review,planHash:planRef.sha256,factsHash:factsRef.sha256});
+  make('live.json',live);
+  const mockPath=`${folder}/mock.ts`;
+  writeFileSync(mockPath,`import {readFileSync} from 'node:fs';
+const dir=process.env.COLLECTION_TEST_FIXTURE!;
+const plan=JSON.parse(readFileSync(dir+'/plan.json','utf8')),live=JSON.parse(readFileSync(dir+'/live.json','utf8'));
+globalThis.fetch=async (_url:any,options:any)=>{
+ const {query,variables:v}=JSON.parse(options.body);let data:any;
+ if(query.includes('property(id:'))data={property:{dataTypeName:v.id==='e3e363d1dd294ccb8e6ff3b76d99bc33'?'Text':v.id==='e500e2585a964d2c9df4a47b199616c3'?'Decimal':'Relation'}};
+ else if(query.includes('relation(id:'))data={entity:null,relation:null};
+ else if(query.includes('relationsConnection'))data={relationsConnection:{nodes:[],pageInfo:{hasNextPage:false}}};
+ else if(query.includes('types{id}'))data={entity:{spaceIds:[plan.spaceId],types:[{id:v.id===plan.catalogId?'b8803a8665de412bbb357e0c84adf473':'a2a5ed0cacef46b1835de457956ce915'}]}};
+ else if(v.id===plan.groups[0].members[0])data={entity:live};
+ else if(v.id===plan.catalogId)data={entity:{relations:{nodes:[],pageInfo:{hasNextPage:false}}}};
+ else throw Error('Unexpected fixture request');
+ return new Response(JSON.stringify({data}),{status:200,headers:{'Content-Type':'application/json'}});
+};`);
+  const prefix=`data/education/${integrationPlan.key}`,suffixes=['registry','positions','before','ops','batch','validation','review-binding','publication'];
+  for(const suffix of suffixes)assert.equal(existsSync(`${prefix}-${suffix}.json`),false);
+  try {
+    const args=['--preload',mockPath,'scripts/education-build-collection.ts','--plan',planRef.path,'--facts',factsRef.path,'--review',reviewRef.path];
+    const options={env:{...process.env,COLLECTION_TEST_FIXTURE:folder},stdio:'pipe' as const};
+    execFileSync('bun',args,options);
+    const first=readFileSync(`${prefix}-ops.json`,'utf8');
+    execFileSync('bun',args,options);assert.equal(readFileSync(`${prefix}-ops.json`,'utf8'),first);
+  validateReviewBinding(JSON.parse(readFileSync(`${prefix}-batch.json`,'utf8')));
+    writeFileSync(`${prefix}-publication.json`,'{}');
+    assert.throws(()=>execFileSync('bun',args,options),'Submitted prefixes must not rebuild');
+    assert.equal(readFileSync(`${prefix}-ops.json`,'utf8'),first);
+  } finally {for(const suffix of suffixes)rmSync(`${prefix}-${suffix}.json`,{force:true});}
+  const binding=make('binding.json',{version:1,opsHash:'ops',inputs:[source,discovery,make('plan.json',plan),make('facts.json',facts)]});
+  validateReviewBinding({publisherVersion:'collection-v1',sha256:'ops',reviewBinding:binding});
+  writeFileSync(source.path,'changed');
+  assert.throws(()=>validateReviewBinding({publisherVersion:'collection-v1',sha256:'ops',reviewBinding:binding}));
+  // A progressed journal must not bypass the evidence binding before its bounty is signed.
+  const progressed={publisherVersion:'collection-v1',sha256:'ops',reviewBinding:binding};
+  writeFileSync(source.path,JSON.stringify({synthetic:false}));
+  assert.throws(()=>validateReviewBinding(progressed));
+  assert.throws(()=>validateSourceReview(review,'plan','facts',[id(4)]));
+} finally {
+  if(!folder.startsWith(`${parent}/workflow-test-`)&&!folder.startsWith(`${parent}\\workflow-test-`))throw Error('Unexpected test cleanup target');
+  rmSync(folder,{recursive:true,force:true});
+}
+console.log('Workflow regression tests passed: deterministic structural ops, Claim preservation, source/fact precision and completeness, review binding tamper rejection, and separate status stages.');

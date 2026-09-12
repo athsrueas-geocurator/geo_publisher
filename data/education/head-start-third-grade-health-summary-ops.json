@@ -1,0 +1,139 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3dd5519b7eae4a6ea1f6b708e20829f1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "By third grade, Head Start had no statistically significant impact on measured parent-reported health outcomes in either entry-age cohort.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report’s parent-reported dental care, insurance coverage, overall health, ongoing-care need, and recent-injury measures show no statistically significant third-grade ITT effect in either cohort. The study collected no direct examinations, health records, or provider reports.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a4cbb69ea48241d49b6aa29a46022982"
+    },
+    "entity": {
+      "$bytes": "dfa2320026fa45c09c630e807dda3ff7"
+    },
+    "from": {
+      "$bytes": "3dd5519b7eae4a6ea1f6b708e20829f1"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a027S"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5c1114f570fd4860964880b178e9b41a"
+    },
+    "entity": {
+      "$bytes": "a7371ace4e0c4b02a001ce4ab137e718"
+    },
+    "from": {
+      "$bytes": "3dd5519b7eae4a6ea1f6b708e20829f1"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09SA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "69d1ddf703bb4261b98c565885001ff6"
+    },
+    "entity": {
+      "$bytes": "2f65f5ff40084497b2c794b8e6a4b024"
+    },
+    "from": {
+      "$bytes": "3dd5519b7eae4a6ea1f6b708e20829f1"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04OK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e22604bcfa6640d997fe117117b050d3"
+    },
+    "entity": {
+      "$bytes": "c15b031369b543608abbda793831618b"
+    },
+    "from": {
+      "$bytes": "3dd5519b7eae4a6ea1f6b708e20829f1"
+    },
+    "to": {
+      "$bytes": "88d4b6e4b5f84305b2a302f803ef9e6a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08mt"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "80d1fdd8ea764439858c92aa53502b86"
+    },
+    "entity": {
+      "$bytes": "e105c64498de4af399623288f6ed9c61"
+    },
+    "from": {
+      "$bytes": "3dd5519b7eae4a6ea1f6b708e20829f1"
+    },
+    "to": {
+      "$bytes": "88d4b6e4b5f84305b2a302f803ef9e6a"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a046P"
+  }
+]

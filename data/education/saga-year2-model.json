@@ -1,0 +1,21 @@
+{
+  "status": "Modeling decision; property creation and publication remain pending",
+  "datasetId": "52448bbbf0cd4c1bb8e949ebe9d628d2",
+  "articleId": "8812b3d57a4c4221a10c1024557a764a",
+  "studyId": "6ff69ada18b54b1db98375da1b90df65",
+  "existingEstimandProperty": "ba643714da274c37a340a7f8396198dc",
+  "proposedBoundProperty": {
+    "name": "Assumption-dependent bound value",
+    "dataTypeName": "Decimal",
+    "description": "Source-reported signed bound on an effect under stated identification assumptions, in the outcome's unit. Distinct from a point effect and a confidence-interval endpoint."
+  },
+  "groups": [
+    {"kind":"randomized-assignment participation effect","count":3,"valueProperty":"e500e2585a964d2c9df4a47b199616c3","estimand":"Effect of original randomized tutoring assignment on participation","dashboardPolicy":"Participation first stage; not an academic outcome effect."},
+    {"kind":"weighted per-year effect","count":4,"valueProperty":"e500e2585a964d2c9df4a47b199616c3","estimand":"Weighted effect per year of tutoring participation, measured in year two","dashboardPolicy":"Per-year dose mixture; not an ordinary binary tutoring TOT estimate."},
+    {"kind":"assumption-dependent persistent first-year bound","count":4,"valueProperty":"proposedBoundProperty","estimand":"Bound on persistent first-year benefit assuming zero incremental second-year benefit","dashboardPolicy":"Keep outside point-effect comparisons and confidence-interval fields."},
+    {"kind":"assumption-dependent two-year participation bound","count":4,"valueProperty":"proposedBoundProperty","estimand":"Bound on two-year participation benefit assuming zero persistence among first-year-only participants","dashboardPolicy":"Keep outside point-effect comparisons and confidence-interval fields."}
+  ],
+  "signedBoundPolicy": "Preserve printed signs. Course-failure bounds describe the beneficial reduction direction; do not call a negative value a generic upper numerical endpoint or silently take its absolute value.",
+  "uncertaintyPolicy": "Retain each reported SE and specification-specific FDR q-value. A bound estimator's SE does not turn the bound into a confidence limit.",
+  "reuseEvidence": "statistic-property-discovery.json: ten complete exact-name searches and complete 695-entity all-space bound-name search. Existing Upper/Lower bound are metabolic-flux properties; cost and confidence-interval bounds do not fit. Final proposed-name and semantic identity review still required before creation."
+}

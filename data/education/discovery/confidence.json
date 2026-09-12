@@ -1,0 +1,85 @@
+{
+  "term": "Confidence",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:29:39.871Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "10cac0aa38efdd4730a0a6fbbfb8db32",
+      "name": "Confidence",
+      "description": "Curation confidence label.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "14023ffc5ba34d5987ed9783c8e70655",
+      "name": "Confidence",
+      "description": "The sourcing confidence level for a claimed relationship (e.g. primary-sourced, secondary-analysis).",
+      "spaceIds": [
+        "89bd89bf28ff8a0963faf92a8c905e20"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "19c464e55b7c451e864f687316122b25",
+      "name": "Confidence",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    },
+    {
+      "id": "9e4e1813f763488a6d9420f93a2627c7",
+      "name": "Confidence",
+      "description": "AI Music ontology field for confidence; data type decimal or controlled label; cardinality one; publish policy required_for_risky_relations.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "d1a7b81534644045ba37cbf2efc973ee",
+      "name": "Confidence",
+      "description": null,
+      "spaceIds": [
+        "2b77408477aed553da9729faf1ca57e2"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZDFhN2I4MTUtMzQ2NC00MDQ1LWJhMzctY2JmMmVmYzk3M2VlIl1d"
+    }
+  ]
+}

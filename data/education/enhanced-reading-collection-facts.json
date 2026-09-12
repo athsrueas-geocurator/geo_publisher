@@ -1,0 +1,75 @@
+[
+  {
+    "id": "9de409cf2a3a4fc29dc68bcc3abbe9a5",
+    "sourceId": "0a8658cb5ae9470bacf732add8ca1803",
+    "locator": "Table 3.3; GRADE reading comprehension; p. 76.",
+    "classification": "study-design",
+    "context": "Enhanced Reading Opportunities randomized evaluation; supplemental literacy outcomes and later fadeout remain distinct.",
+    "name": "ERO raised ninth-grade reading-comprehension scores by 0.9 standard-score points (effect size 0.09).",
+    "description": "The end-of-ninth-grade GRADE assessment result has p=.002, with 2,672 ERO and 1,912 non-ERO students. It moved the reported national percentile from 23 to 25; 77% of ERO students still read at least two years below grade level.",
+    "values": []
+  },
+  {
+    "id": "00f19327dbe44129bddd7f8a015967ee",
+    "sourceId": "0a8658cb5ae9470bacf732add8ca1803",
+    "locator": "Table 4.1; GPA in core subject areas, program year; p. 85.",
+    "classification": "observed",
+    "context": "Enhanced Reading Opportunities randomized evaluation; supplemental literacy outcomes and later fadeout remain distinct.",
+    "name": "ERO increased ninth-grade core-subject GPA by 0.06 points on a 4-point scale (effect size 0.07).",
+    "description": "The program-year school-record estimate has p=.002, with 2,937 ERO and 2,213 non-ERO students. It is a short-run core-course result, not a later persistence estimate.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "5150"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Standardized effect size for ninth-grade core-subject GPA, ERO assignment versus non-ERO elective."
+      }
+    ]
+  },
+  {
+    "id": "37101612fbcd447f989249a7e9558e3f",
+    "sourceId": "0a8658cb5ae9470bacf732add8ca1803",
+    "locator": "Table 4.2; credits in core subject areas, end of program year; p. 89.",
+    "classification": "observed",
+    "context": "Enhanced Reading Opportunities randomized evaluation; supplemental literacy outcomes and later fadeout remain distinct.",
+    "name": "ERO increased ninth-grade core-subject credit accumulation by 0.6 percentage points (effect size 0.06).",
+    "description": "The program-year result has p=.017 and measures credits earned as a share of those required for graduation. The report says the statistically significant credit effect did not persist into the follow-up year.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "5150"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Standardized effect size for ninth-grade core-subject credit accumulation, ERO assignment versus non-ERO elective."
+      }
+    ]
+  },
+  {
+    "id": "322ed581e4934da8994953574296d483",
+    "sourceId": "0a8658cb5ae9470bacf732add8ca1803",
+    "locator": "Table 4.1; GPA in core subject areas, follow-up year; p. 85.",
+    "classification": "observed",
+    "context": "Enhanced Reading Opportunities randomized evaluation; supplemental literacy outcomes and later fadeout remain distinct.",
+    "name": "ERO’s follow-up-year core-subject GPA estimate was 0.04 points and was not statistically significant.",
+    "description": "The reported effect size is 0.05 with p=.061; the program supports ended after ninth grade. This is not proof of zero later effect, but it does not reproduce the program-year GPA result at the report’s 5% threshold.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "5150"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Standardized effect size for follow-up-year core-subject GPA, ERO assignment versus non-ERO elective."
+      }
+    ]
+  }
+]

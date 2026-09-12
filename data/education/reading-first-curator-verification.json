@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-09-11",
+  "url": "https://curator.geobrowser.io/bounty/ec349623f33236aee13c12dcd629ee81/debce2de46094f299ee8e89fe244a9dc",
+  "method": "Live browser, expanded Thomas Freestone submission's 21-proposal table",
+  "passed": true,
+  "submissionStatus": "In progress",
+  "payout": null,
+  "totalProposalRows": 21,
+  "acceptedProposalRows": 21,
+  "readingFirstProposals": [
+    {"id":"bf3fd4ba28c7411b8ac00bb89ae38d14","displayName":"Proposal bf3fd4ba-28c7-411b-8ac0-0bb89ae38d14","status":"Accepted"},
+    {"id":"dea76dd2e4d74a9396aeb4414a8f95a3","displayName":"Clarify Reading First methods and interpretation","status":"Accepted"}
+  ],
+  "observedLimitations": [
+    "The summary still says 0 Total submissions despite the populated submission table",
+    "The initial pilot displays a fallback UUID name; the methods correction displays its title",
+    "Proposal links use testnet.geobrowser.io and the bounty-owner space in their governance URLs; destination routing was not tested here",
+    "Accepted proposal rows do not mean that the overall bounty is completed or paid"
+  ]
+}

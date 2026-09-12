@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "extractedAt": "2026-09-11",
+  "status": "all 15 scenarios and three internal returns published and verified; experimental outcomes published separately",
+  "source": {
+    "title": "Economic Considerations and Class Size",
+    "author": "Alan B. Krueger",
+    "year": 2003,
+    "doi": "10.1111/1468-0297.00098",
+    "journal": "The Economic Journal",
+    "volume": 113,
+    "issue": 485,
+    "pages": "F34–F63",
+    "version": "published journal article",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1468-0297.00098",
+    "readableCopy": "https://classsizematters.org/wp-content/uploads/2011/04/economic-considerations-and-class-size.pdf",
+    "tableLocator": "Table 5, F56 (PDF page 23)",
+    "methodsLocator": "Section 2.2, F54–F58; equations 4–6",
+    "limitationsLocator": "Section 2.3, F58–F59",
+    "workingPaperDoi": "10.3386/w8875",
+    "underlyingExperimentalPaperDoi": "10.1162/003355399556052"
+  },
+  "context": {
+    "evidenceKind": "modeled economic analysis",
+    "underlyingExperiment": "Tennessee Project STAR",
+    "modeledPopulation": "US kindergarten entrants in 1998",
+    "grades": ["K", "1", "2", "3"],
+    "regularClassSize": 22,
+    "smallClassSize": 15,
+    "averageExposureYears": 2.3,
+    "currency": "USD",
+    "priceYear": 1998,
+    "denominator": "per pupil",
+    "costScope": "modeled incremental classroom resources",
+    "benefitScope": "projected earnings",
+    "annualIncrementalCost": 3501,
+    "annualCostSchedule": [3501, 3501, 1050.3, 0],
+    "annualCostScheduleOrigin": "third year calculated as 0.3 × 3501; source section 2.2",
+    "nationalExpenditureBaseline": 7502,
+    "baselineSchoolYear": "1997–98",
+    "mathEffectAssumptionSD": 0.2,
+    "readingEffectAssumptionSD": 0.2,
+    "earningsIncreasePerSubjectSD": 0.08,
+    "earningsAgeStart": 18,
+    "earningsAgeEnd": 65,
+    "presentValueBaseYear": 1998,
+    "earningsProfileSource": "March 1999 Current Population Survey, civilian workers with work experience in 1998",
+    "costFormula": "sum(C[t] / (1 + realDiscountRate)^t), t=1..4",
+    "benefitFormula": "sum(E[t] * 0.08 * (0.20 + 0.20) / (1 + realDiscountRate)^t), t=14..61; E includes scenario wage growth",
+    "standardError": null,
+    "confidenceInterval": null
+  },
+  "table5": [
+    {"realDiscountRate": 0.02, "costPV": 7787, "benefitPVByAnnualWageGrowth": {"0": 21725, "0.01": 31478, "0.02": 46294}},
+    {"realDiscountRate": 0.03, "costPV": 7660, "benefitPVByAnnualWageGrowth": {"0": 15174, "0.01": 21667, "0.02": 31403}},
+    {"realDiscountRate": 0.04, "costPV": 7537, "benefitPVByAnnualWageGrowth": {"0": 10784, "0.01": 15180, "0.02": 21686}},
+    {"realDiscountRate": 0.05, "costPV": 7417, "benefitPVByAnnualWageGrowth": {"0": 7791, "0.01": 10819, "0.02": 15238}},
+    {"realDiscountRate": 0.06, "costPV": 7300, "benefitPVByAnnualWageGrowth": {"0": 5718, "0.01": 7836, "0.02": 10889}}
+  ],
+  "internalRatesOfReturn": [
+    {"annualWageGrowth": 0, "realAnnualIRR": 0.052},
+    {"annualWageGrowth": 0.01, "realAnnualIRR": 0.062},
+    {"annualWageGrowth": 0.02, "realAnnualIRR": 0.073}
+  ],
+  "caveats": [
+    "Scenarios share one model and experiment; they are not independent studies or confidence bounds.",
+    "Earnings conversion is observational; omitted variables and scaling may change returns.",
+    "Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits.",
+    "National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation.",
+    "The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors.",
+    "Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300."
+  ],
+  "publicationGates": {
+    "numericExtraction": "visually verified Table 5 on printed F56, PDF page 23, 2026-09-11; tmp/pdfs/star-table5.png",
+    "globalIdentity": "exact-title, substring and three DOI probes complete; no publication matches; unrelated STAR-name hits rejected in star-identity-decisions.json",
+    "ontology": "scenario and return properties published; richer program/implementation mapping remains pending",
+    "observedTrialEstimates": "eight published in separate dataset 9220554acfd249a18920b301dcbb6cf0",
+    "bounty": "must link submitted proposal to debce2de46094f299ee8e89fe244a9dc",
+    "indexAndRendering": "all 18 Table 5 rows applied; see star-return-publication.md and experimental notes for evidence"
+  }
+}

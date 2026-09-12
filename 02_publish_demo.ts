@@ -16,11 +16,12 @@
 
 import * as fs from "fs";
 import dotenv from "dotenv";
-import { Graph, Position, type Op, ContentIds, GeoTestnetConfig } from "@geoprotocol/geo-sdk";
+import { Graph, Position, type Op, ContentIds, createGeoClient, GeoTestnetConfig } from "@geoprotocol/geo-sdk";
 import { printOps, publishOps } from "./src/functions";
 import { TYPES, PROPERTIES, QUERY_DATA_SOURCE, COLLECTION_DATA_SOURCE, VIEWS } from "./src/constants";
 
 dotenv.config();
+const geo = createGeoClient({ network: GeoTestnetConfig });
 
 // ─── Property Registry ──────────────────────────────────────────────────────
 // Maps JSON field names to their property ID and value type.
@@ -226,7 +227,7 @@ async function main() {
   }
 
   // ── 5b: Avatar Images ────────────────────────────────────────────────
-  // Graph.createImage() fetches the image, uploads it to IPFS, and returns
+  // geo.images.create() fetches the image, uploads it to IPFS, and returns
   // an Image entity with the IPFS URL, width, and height set automatically.
   // The entity's type is automatically set to Image (ba4e4146…).
 
@@ -236,10 +237,9 @@ async function main() {
     const parentId = projectIdsByName[project.name];
     console.log(`\n  Uploading avatar for "${project.name}" to IPFS...`);
 
-    const { id: imageId, ops: imageOps, cid: imageCid } = await Graph.createImage({
+    const { id: imageId, ops: imageOps, cid: imageCid } = await geo.images.create({
       url: project.avatar_url,
       name: `${project.name} Avatar`,
-      network: GeoTestnetConfig,
     });
     allOps.push(...imageOps);
     console.log(`  Created image entity: ${imageId} (IPFS CID: ${imageCid})`);

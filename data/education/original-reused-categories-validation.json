@@ -1,0 +1,62 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T12:06:34.435Z",
+  "opsHash": "211d8c55e3a73f7e975c18f1d401501ba4bd67cbcfab5d58cf651572b144e031",
+  "scope": "Existing-entity reuse, original category membership; added Category typing only in destination; no rating or effect assertions",
+  "evidence": [
+    {
+      "mapping": {
+        "sourceCategory": "Literacy",
+        "id": "5a86d2f3657b4b5baabef07a3393e408",
+        "name": "U.S. literacy education",
+        "reason": "Original initiatives concern US literacy education; reuse the existing educational topic as the classification, not a new generic literacy entity."
+      },
+      "live": {
+        "name": "U.S. literacy education",
+        "nodes": []
+      }
+    },
+    {
+      "mapping": {
+        "sourceCategory": "Early childhood",
+        "id": "0df9fad9098d4b11bacb9af0f7a79182",
+        "name": "Early childhood education",
+        "reason": "Original category groups early-childhood education programs; reuse the existing education topic rather than a new age-stage entity."
+      },
+      "live": {
+        "name": "Early childhood education",
+        "nodes": []
+      }
+    }
+  ],
+  "records": [
+    {
+      "migrationKey": "initiatives:12",
+      "entityId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+      "sourceCategory": "Literacy",
+      "categoryId": "5a86d2f3657b4b5baabef07a3393e408",
+      "relationId": "873ba46a8371483a9b1e0398c8031d4a"
+    },
+    {
+      "migrationKey": "initiatives:74",
+      "entityId": "891cbf9044384a04b8a7fc47d444d749",
+      "sourceCategory": "Literacy",
+      "categoryId": "5a86d2f3657b4b5baabef07a3393e408",
+      "relationId": "e7bbab9b81494e838a68283691b293eb"
+    },
+    {
+      "migrationKey": "initiatives:43",
+      "entityId": "d03b32bd416443e49b9aa376e744cb03",
+      "sourceCategory": "Early childhood",
+      "categoryId": "0df9fad9098d4b11bacb9af0f7a79182",
+      "relationId": "b31602279e054ba8bfdbec1d5365fd0c"
+    },
+    {
+      "migrationKey": "initiatives:46",
+      "entityId": "c77b1107b93643b4870dfa11c0677d8f",
+      "sourceCategory": "Early childhood",
+      "categoryId": "0df9fad9098d4b11bacb9af0f7a79182",
+      "relationId": "8688409da29740f3bfd23a7f5150034c"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "term": "Government agency",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T22:07:22.573Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "1c4cba01866241adade1992e35fa184a",
+      "name": "Government agency",
+      "description": "A permanent organization established by a government to carry out specific administrative or regulatory functions.",
+      "spaceIds": [
+        "0c747ad3af58ed6b27221a256498068e"
+      ],
+      "types": [
+        {
+          "id": "85c99276ee204bb4a662f0a4096215b1",
+          "name": "Organization type"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMWM0Y2JhMDEtODY2Mi00MWFkLWFkZTEtOTkyZTM1ZmExODRhIl1d"
+    }
+  ]
+}

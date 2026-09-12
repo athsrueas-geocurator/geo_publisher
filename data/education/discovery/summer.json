@@ -1,0 +1,43 @@
+{
+  "term": "summer",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:33.939Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "83c53e9fe3c441d194d655ec6c7894ee",
+      "name": "Summer",
+      "description": null,
+      "spaceIds": [
+        "0477636ace64280fc43a9f440a502291"
+      ],
+      "types": [
+        {
+          "id": "92cdb4b1269e4a198f3489c2d5c43ac0",
+          "name": "Book series"
+        }
+      ]
+    },
+    {
+      "id": "84e423becac74713ae259386053c6088",
+      "name": "Summer",
+      "description": "A gentle children's picture book by Alice Low rendered in simple rhyme. The book celebrates the small pleasures of summer through a young boy and girl.",
+      "spaceIds": [
+        "0477636ace64280fc43a9f440a502291"
+      ],
+      "types": [
+        {
+          "id": "8864304115334498b8ea6c1ae833628e",
+          "name": "Book"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiODRlNDIzYmUtY2FjNy00NzEzLWFlMjUtOTM4NjA1M2M2MDg4Il1d"
+    }
+  ]
+}

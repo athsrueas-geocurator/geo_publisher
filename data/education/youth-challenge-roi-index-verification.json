@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-09-12T05:01:51.582Z",
+  "batchName": "Add Youth ChalleNGe modeled benefit-cost ratio",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 1,
+  "checks": [
+    {
+      "entityId": "c6d7715eae7445609c3bf791d05168d2",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "c6d7715eae7445609c3bf791d05168d2",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "c6d7715eae7445609c3bf791d05168d2",
+      "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+      "pass": true
+    },
+    {
+      "entityId": "c6d7715eae7445609c3bf791d05168d2",
+      "propertyId": "45ce8dc80a74432e9a2483cd1c8e86e1",
+      "pass": true
+    },
+    {
+      "relationId": "4b733fa0e5604e35b03824172f2abefa",
+      "pass": true
+    },
+    {
+      "relationId": "eb78cea00bde4e6d8e5f78444020d88d",
+      "pass": true
+    },
+    {
+      "relationId": "04c389b9c1294f749adcc3eb6f8059a7",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,29 @@
+{
+  "term": "attendance",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:33.256Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "aab4d5ff5ffc4ab4b7fa3322b066eb26",
+      "name": "Attendance",
+      "description": "Number of people in attendance.",
+      "spaceIds": [
+        "7570a0ba7552e6806e0751c2ad105754"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYWFiNGQ1ZmYtNWZmYy00YWI0LWI3ZmEtMzMyMmIwNjZlYjI2Il1d"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a72a792642aa46b497587313102bfe39"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Adult Outcomes as a Function of an Early Childhood Educational Program: An Abecedarian Project Follow-Up",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A 2012 age-30 follow-up of the Abecedarian randomized trial, reporting educational, economic and social-adjustment outcomes. It is an ABC-only observed-outcome source, separate from pooled ABC/CARE life-cycle forecasts.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3989926/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3e6072a71bca4f34a10551dc85fa191b"
+    },
+    "entity": {
+      "$bytes": "ec4233f1e47e487fb1285b07ccf06ba7"
+    },
+    "from": {
+      "$bytes": "a72a792642aa46b497587313102bfe39"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05lr"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "433c12a80b1d48d6bb0bbcd95fe96c08"
+    },
+    "entity": {
+      "$bytes": "4f136c52c993414caa4e16e864874810"
+    },
+    "from": {
+      "$bytes": "a72a792642aa46b497587313102bfe39"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02Ty"
+  }
+]

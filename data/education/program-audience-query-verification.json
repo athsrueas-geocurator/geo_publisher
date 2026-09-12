@@ -1,0 +1,3377 @@
+{
+  "checkedAt": "2026-09-12T03:28:36.195Z",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "queryPath": "data/education/program-audience-query.graphql",
+  "scope": "Reading First grant-program audience, grade, topic and historical administrator filters; not actual exposure, all programs, or student study outcomes",
+  "cases": [
+    {
+      "name": "Program linked to evaluation",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+              "name": "Reading First",
+              "relations": {
+                "nodes": [
+                  {
+                    "id": "1765f5a2315a4d908d706710a553a88c",
+                    "entityId": "4a086dd9cdd94c939ff77112728d290b",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "99058013c7904de782e86c393cb52035",
+                    "position": null
+                  },
+                  {
+                    "id": "293ffbed731045cb91499172db5124a8",
+                    "entityId": "d800220bae6e4b54b257d632e026c8e3",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "09d90bfac91545de8b218e03c026338f",
+                    "position": null
+                  },
+                  {
+                    "id": "2a313ca9de1e45218307a571da014080",
+                    "entityId": "7626ed4973494b6895add2d49135df73",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "db0ea33548454e1780c78231066b7d71",
+                    "position": null
+                  },
+                  {
+                    "id": "2da206791ca340f386b59bd9c31162df",
+                    "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+                    "position": null
+                  },
+                  {
+                    "id": "305ca4d8755640cf80f592aca778560c",
+                    "entityId": "a4167a5b41e641c5b52d481b10535421",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+                    "position": null
+                  },
+                  {
+                    "id": "44134c4418e143a3a0b014d21a8982ff",
+                    "entityId": "62fb87781a7c432b854e2992be931d92",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+                    "position": null
+                  },
+                  {
+                    "id": "55d0f863891846d0886f085ddbc46d85",
+                    "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+                    "position": null
+                  },
+                  {
+                    "id": "65a385fd285346e2867cad7bfb55de14",
+                    "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+                    "position": "z1"
+                  },
+                  {
+                    "id": "765e69132a474b04b248af59aec47e00",
+                    "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+                    "position": null
+                  },
+                  {
+                    "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+                    "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                    "position": null
+                  },
+                  {
+                    "id": "881addc9a1ef4ba6a92c70392296b213",
+                    "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+                    "position": null
+                  },
+                  {
+                    "id": "9170428eeda04860869d14604942b66b",
+                    "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+                    "typeId": "d1c6034425684b4caaf2570bee562802",
+                    "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+                    "position": null
+                  },
+                  {
+                    "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+                    "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+                    "position": "a06Vu"
+                  },
+                  {
+                    "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+                    "entityId": "239506a7789d4b2ba8ad638e72517523",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+                    "position": "a02f6"
+                  },
+                  {
+                    "id": "be426d90e2af45829e9b23b4ceb87b6f",
+                    "entityId": "c753c9cb48c7488cbf32765f364d62de",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+                    "position": "a12BL"
+                  },
+                  {
+                    "id": "cf064d9bf1ec4ccf962232fb83824bca",
+                    "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "0093d90725d94cb08903515673538d40",
+                    "position": null
+                  },
+                  {
+                    "id": "d3b43ef305354c709d28ab715469cf30",
+                    "entityId": "a68387c9075441c89e644c712625fd4c",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+                    "position": null
+                  },
+                  {
+                    "id": "d4447a46bd7249e49b449674c1ffda81",
+                    "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+                    "position": "a30Us"
+                  },
+                  {
+                    "id": "d8c0182eac7946bb8b73fbec35803a5b",
+                    "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+                    "position": "a25b4"
+                  },
+                  {
+                    "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+                    "entityId": "3b6abaf595584282a1833b977ffad621",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+                    "position": null
+                  },
+                  {
+                    "id": "f94a635d5d8c47d48c6d99f347b429ec",
+                    "entityId": "8407945db7544be89960358de0916221",
+                    "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+                    "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+                    "position": "a03Iz"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjZjMDZkOGMtNmQxZC00MmYyLWI4N2ItYmYzYTUxODA2YTE4Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "ids": [
+        "26c06d8c6d1d42f2b87bbf3a51806a18"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Children audience",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "07546da1a8a04c0d8e0dac5351dcb25b"
+                  },
+                  "toEntityId": {
+                    "is": "561872867e1b4b80a5f37ddeb27570b5"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+              "name": "Reading First",
+              "relations": {
+                "nodes": [
+                  {
+                    "id": "1765f5a2315a4d908d706710a553a88c",
+                    "entityId": "4a086dd9cdd94c939ff77112728d290b",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "99058013c7904de782e86c393cb52035",
+                    "position": null
+                  },
+                  {
+                    "id": "293ffbed731045cb91499172db5124a8",
+                    "entityId": "d800220bae6e4b54b257d632e026c8e3",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "09d90bfac91545de8b218e03c026338f",
+                    "position": null
+                  },
+                  {
+                    "id": "2a313ca9de1e45218307a571da014080",
+                    "entityId": "7626ed4973494b6895add2d49135df73",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "db0ea33548454e1780c78231066b7d71",
+                    "position": null
+                  },
+                  {
+                    "id": "2da206791ca340f386b59bd9c31162df",
+                    "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+                    "position": null
+                  },
+                  {
+                    "id": "305ca4d8755640cf80f592aca778560c",
+                    "entityId": "a4167a5b41e641c5b52d481b10535421",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+                    "position": null
+                  },
+                  {
+                    "id": "44134c4418e143a3a0b014d21a8982ff",
+                    "entityId": "62fb87781a7c432b854e2992be931d92",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+                    "position": null
+                  },
+                  {
+                    "id": "55d0f863891846d0886f085ddbc46d85",
+                    "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+                    "position": null
+                  },
+                  {
+                    "id": "65a385fd285346e2867cad7bfb55de14",
+                    "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+                    "position": "z1"
+                  },
+                  {
+                    "id": "765e69132a474b04b248af59aec47e00",
+                    "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+                    "position": null
+                  },
+                  {
+                    "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+                    "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                    "position": null
+                  },
+                  {
+                    "id": "881addc9a1ef4ba6a92c70392296b213",
+                    "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+                    "position": null
+                  },
+                  {
+                    "id": "9170428eeda04860869d14604942b66b",
+                    "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+                    "typeId": "d1c6034425684b4caaf2570bee562802",
+                    "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+                    "position": null
+                  },
+                  {
+                    "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+                    "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+                    "position": "a06Vu"
+                  },
+                  {
+                    "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+                    "entityId": "239506a7789d4b2ba8ad638e72517523",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+                    "position": "a02f6"
+                  },
+                  {
+                    "id": "be426d90e2af45829e9b23b4ceb87b6f",
+                    "entityId": "c753c9cb48c7488cbf32765f364d62de",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+                    "position": "a12BL"
+                  },
+                  {
+                    "id": "cf064d9bf1ec4ccf962232fb83824bca",
+                    "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "0093d90725d94cb08903515673538d40",
+                    "position": null
+                  },
+                  {
+                    "id": "d3b43ef305354c709d28ab715469cf30",
+                    "entityId": "a68387c9075441c89e644c712625fd4c",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+                    "position": null
+                  },
+                  {
+                    "id": "d4447a46bd7249e49b449674c1ffda81",
+                    "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+                    "position": "a30Us"
+                  },
+                  {
+                    "id": "d8c0182eac7946bb8b73fbec35803a5b",
+                    "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+                    "position": "a25b4"
+                  },
+                  {
+                    "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+                    "entityId": "3b6abaf595584282a1833b977ffad621",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+                    "position": null
+                  },
+                  {
+                    "id": "f94a635d5d8c47d48c6d99f347b429ec",
+                    "entityId": "8407945db7544be89960358de0916221",
+                    "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+                    "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+                    "position": "a03Iz"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjZjMDZkOGMtNmQxZC00MmYyLWI4N2ItYmYzYTUxODA2YTE4Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "ids": [
+        "26c06d8c6d1d42f2b87bbf3a51806a18"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Program intended grade K",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "07546da1a8a04c0d8e0dac5351dcb25b"
+                  },
+                  "toEntityId": {
+                    "is": "561872867e1b4b80a5f37ddeb27570b5"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "98c0849922164db0822b5a78444c17b3"
+                  },
+                  "toEntityId": {
+                    "is": "32ef1b9c498b42c18725f72a93fd2917"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+              "name": "Reading First",
+              "relations": {
+                "nodes": [
+                  {
+                    "id": "1765f5a2315a4d908d706710a553a88c",
+                    "entityId": "4a086dd9cdd94c939ff77112728d290b",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "99058013c7904de782e86c393cb52035",
+                    "position": null
+                  },
+                  {
+                    "id": "293ffbed731045cb91499172db5124a8",
+                    "entityId": "d800220bae6e4b54b257d632e026c8e3",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "09d90bfac91545de8b218e03c026338f",
+                    "position": null
+                  },
+                  {
+                    "id": "2a313ca9de1e45218307a571da014080",
+                    "entityId": "7626ed4973494b6895add2d49135df73",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "db0ea33548454e1780c78231066b7d71",
+                    "position": null
+                  },
+                  {
+                    "id": "2da206791ca340f386b59bd9c31162df",
+                    "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+                    "position": null
+                  },
+                  {
+                    "id": "305ca4d8755640cf80f592aca778560c",
+                    "entityId": "a4167a5b41e641c5b52d481b10535421",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+                    "position": null
+                  },
+                  {
+                    "id": "44134c4418e143a3a0b014d21a8982ff",
+                    "entityId": "62fb87781a7c432b854e2992be931d92",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+                    "position": null
+                  },
+                  {
+                    "id": "55d0f863891846d0886f085ddbc46d85",
+                    "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+                    "position": null
+                  },
+                  {
+                    "id": "65a385fd285346e2867cad7bfb55de14",
+                    "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+                    "position": "z1"
+                  },
+                  {
+                    "id": "765e69132a474b04b248af59aec47e00",
+                    "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+                    "position": null
+                  },
+                  {
+                    "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+                    "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                    "position": null
+                  },
+                  {
+                    "id": "881addc9a1ef4ba6a92c70392296b213",
+                    "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+                    "position": null
+                  },
+                  {
+                    "id": "9170428eeda04860869d14604942b66b",
+                    "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+                    "typeId": "d1c6034425684b4caaf2570bee562802",
+                    "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+                    "position": null
+                  },
+                  {
+                    "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+                    "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+                    "position": "a06Vu"
+                  },
+                  {
+                    "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+                    "entityId": "239506a7789d4b2ba8ad638e72517523",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+                    "position": "a02f6"
+                  },
+                  {
+                    "id": "be426d90e2af45829e9b23b4ceb87b6f",
+                    "entityId": "c753c9cb48c7488cbf32765f364d62de",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+                    "position": "a12BL"
+                  },
+                  {
+                    "id": "cf064d9bf1ec4ccf962232fb83824bca",
+                    "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "0093d90725d94cb08903515673538d40",
+                    "position": null
+                  },
+                  {
+                    "id": "d3b43ef305354c709d28ab715469cf30",
+                    "entityId": "a68387c9075441c89e644c712625fd4c",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+                    "position": null
+                  },
+                  {
+                    "id": "d4447a46bd7249e49b449674c1ffda81",
+                    "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+                    "position": "a30Us"
+                  },
+                  {
+                    "id": "d8c0182eac7946bb8b73fbec35803a5b",
+                    "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+                    "position": "a25b4"
+                  },
+                  {
+                    "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+                    "entityId": "3b6abaf595584282a1833b977ffad621",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+                    "position": null
+                  },
+                  {
+                    "id": "f94a635d5d8c47d48c6d99f347b429ec",
+                    "entityId": "8407945db7544be89960358de0916221",
+                    "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+                    "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+                    "position": "a03Iz"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjZjMDZkOGMtNmQxZC00MmYyLWI4N2ItYmYzYTUxODA2YTE4Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "ids": [
+        "26c06d8c6d1d42f2b87bbf3a51806a18"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Program intended grade 1",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "07546da1a8a04c0d8e0dac5351dcb25b"
+                  },
+                  "toEntityId": {
+                    "is": "561872867e1b4b80a5f37ddeb27570b5"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "98c0849922164db0822b5a78444c17b3"
+                  },
+                  "toEntityId": {
+                    "is": "c66d539b68a54250889bee59b97fcfc0"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+              "name": "Reading First",
+              "relations": {
+                "nodes": [
+                  {
+                    "id": "1765f5a2315a4d908d706710a553a88c",
+                    "entityId": "4a086dd9cdd94c939ff77112728d290b",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "99058013c7904de782e86c393cb52035",
+                    "position": null
+                  },
+                  {
+                    "id": "293ffbed731045cb91499172db5124a8",
+                    "entityId": "d800220bae6e4b54b257d632e026c8e3",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "09d90bfac91545de8b218e03c026338f",
+                    "position": null
+                  },
+                  {
+                    "id": "2a313ca9de1e45218307a571da014080",
+                    "entityId": "7626ed4973494b6895add2d49135df73",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "db0ea33548454e1780c78231066b7d71",
+                    "position": null
+                  },
+                  {
+                    "id": "2da206791ca340f386b59bd9c31162df",
+                    "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+                    "position": null
+                  },
+                  {
+                    "id": "305ca4d8755640cf80f592aca778560c",
+                    "entityId": "a4167a5b41e641c5b52d481b10535421",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+                    "position": null
+                  },
+                  {
+                    "id": "44134c4418e143a3a0b014d21a8982ff",
+                    "entityId": "62fb87781a7c432b854e2992be931d92",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+                    "position": null
+                  },
+                  {
+                    "id": "55d0f863891846d0886f085ddbc46d85",
+                    "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+                    "position": null
+                  },
+                  {
+                    "id": "65a385fd285346e2867cad7bfb55de14",
+                    "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+                    "position": "z1"
+                  },
+                  {
+                    "id": "765e69132a474b04b248af59aec47e00",
+                    "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+                    "position": null
+                  },
+                  {
+                    "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+                    "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                    "position": null
+                  },
+                  {
+                    "id": "881addc9a1ef4ba6a92c70392296b213",
+                    "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+                    "position": null
+                  },
+                  {
+                    "id": "9170428eeda04860869d14604942b66b",
+                    "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+                    "typeId": "d1c6034425684b4caaf2570bee562802",
+                    "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+                    "position": null
+                  },
+                  {
+                    "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+                    "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+                    "position": "a06Vu"
+                  },
+                  {
+                    "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+                    "entityId": "239506a7789d4b2ba8ad638e72517523",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+                    "position": "a02f6"
+                  },
+                  {
+                    "id": "be426d90e2af45829e9b23b4ceb87b6f",
+                    "entityId": "c753c9cb48c7488cbf32765f364d62de",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+                    "position": "a12BL"
+                  },
+                  {
+                    "id": "cf064d9bf1ec4ccf962232fb83824bca",
+                    "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "0093d90725d94cb08903515673538d40",
+                    "position": null
+                  },
+                  {
+                    "id": "d3b43ef305354c709d28ab715469cf30",
+                    "entityId": "a68387c9075441c89e644c712625fd4c",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+                    "position": null
+                  },
+                  {
+                    "id": "d4447a46bd7249e49b449674c1ffda81",
+                    "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+                    "position": "a30Us"
+                  },
+                  {
+                    "id": "d8c0182eac7946bb8b73fbec35803a5b",
+                    "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+                    "position": "a25b4"
+                  },
+                  {
+                    "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+                    "entityId": "3b6abaf595584282a1833b977ffad621",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+                    "position": null
+                  },
+                  {
+                    "id": "f94a635d5d8c47d48c6d99f347b429ec",
+                    "entityId": "8407945db7544be89960358de0916221",
+                    "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+                    "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+                    "position": "a03Iz"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjZjMDZkOGMtNmQxZC00MmYyLWI4N2ItYmYzYTUxODA2YTE4Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "ids": [
+        "26c06d8c6d1d42f2b87bbf3a51806a18"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Program intended grade 2",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "07546da1a8a04c0d8e0dac5351dcb25b"
+                  },
+                  "toEntityId": {
+                    "is": "561872867e1b4b80a5f37ddeb27570b5"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "98c0849922164db0822b5a78444c17b3"
+                  },
+                  "toEntityId": {
+                    "is": "74a01717791841c3beef132e8e5cec4e"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+              "name": "Reading First",
+              "relations": {
+                "nodes": [
+                  {
+                    "id": "1765f5a2315a4d908d706710a553a88c",
+                    "entityId": "4a086dd9cdd94c939ff77112728d290b",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "99058013c7904de782e86c393cb52035",
+                    "position": null
+                  },
+                  {
+                    "id": "293ffbed731045cb91499172db5124a8",
+                    "entityId": "d800220bae6e4b54b257d632e026c8e3",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "09d90bfac91545de8b218e03c026338f",
+                    "position": null
+                  },
+                  {
+                    "id": "2a313ca9de1e45218307a571da014080",
+                    "entityId": "7626ed4973494b6895add2d49135df73",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "db0ea33548454e1780c78231066b7d71",
+                    "position": null
+                  },
+                  {
+                    "id": "2da206791ca340f386b59bd9c31162df",
+                    "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+                    "position": null
+                  },
+                  {
+                    "id": "305ca4d8755640cf80f592aca778560c",
+                    "entityId": "a4167a5b41e641c5b52d481b10535421",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+                    "position": null
+                  },
+                  {
+                    "id": "44134c4418e143a3a0b014d21a8982ff",
+                    "entityId": "62fb87781a7c432b854e2992be931d92",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+                    "position": null
+                  },
+                  {
+                    "id": "55d0f863891846d0886f085ddbc46d85",
+                    "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+                    "position": null
+                  },
+                  {
+                    "id": "65a385fd285346e2867cad7bfb55de14",
+                    "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+                    "position": "z1"
+                  },
+                  {
+                    "id": "765e69132a474b04b248af59aec47e00",
+                    "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+                    "position": null
+                  },
+                  {
+                    "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+                    "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                    "position": null
+                  },
+                  {
+                    "id": "881addc9a1ef4ba6a92c70392296b213",
+                    "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+                    "position": null
+                  },
+                  {
+                    "id": "9170428eeda04860869d14604942b66b",
+                    "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+                    "typeId": "d1c6034425684b4caaf2570bee562802",
+                    "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+                    "position": null
+                  },
+                  {
+                    "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+                    "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+                    "position": "a06Vu"
+                  },
+                  {
+                    "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+                    "entityId": "239506a7789d4b2ba8ad638e72517523",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+                    "position": "a02f6"
+                  },
+                  {
+                    "id": "be426d90e2af45829e9b23b4ceb87b6f",
+                    "entityId": "c753c9cb48c7488cbf32765f364d62de",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+                    "position": "a12BL"
+                  },
+                  {
+                    "id": "cf064d9bf1ec4ccf962232fb83824bca",
+                    "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "0093d90725d94cb08903515673538d40",
+                    "position": null
+                  },
+                  {
+                    "id": "d3b43ef305354c709d28ab715469cf30",
+                    "entityId": "a68387c9075441c89e644c712625fd4c",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+                    "position": null
+                  },
+                  {
+                    "id": "d4447a46bd7249e49b449674c1ffda81",
+                    "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+                    "position": "a30Us"
+                  },
+                  {
+                    "id": "d8c0182eac7946bb8b73fbec35803a5b",
+                    "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+                    "position": "a25b4"
+                  },
+                  {
+                    "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+                    "entityId": "3b6abaf595584282a1833b977ffad621",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+                    "position": null
+                  },
+                  {
+                    "id": "f94a635d5d8c47d48c6d99f347b429ec",
+                    "entityId": "8407945db7544be89960358de0916221",
+                    "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+                    "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+                    "position": "a03Iz"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjZjMDZkOGMtNmQxZC00MmYyLWI4N2ItYmYzYTUxODA2YTE4Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "ids": [
+        "26c06d8c6d1d42f2b87bbf3a51806a18"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Program intended grade 3",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "07546da1a8a04c0d8e0dac5351dcb25b"
+                  },
+                  "toEntityId": {
+                    "is": "561872867e1b4b80a5f37ddeb27570b5"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "98c0849922164db0822b5a78444c17b3"
+                  },
+                  "toEntityId": {
+                    "is": "6fc7ceeb03bf486da5b79bb3874b46ef"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+              "name": "Reading First",
+              "relations": {
+                "nodes": [
+                  {
+                    "id": "1765f5a2315a4d908d706710a553a88c",
+                    "entityId": "4a086dd9cdd94c939ff77112728d290b",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "99058013c7904de782e86c393cb52035",
+                    "position": null
+                  },
+                  {
+                    "id": "293ffbed731045cb91499172db5124a8",
+                    "entityId": "d800220bae6e4b54b257d632e026c8e3",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "09d90bfac91545de8b218e03c026338f",
+                    "position": null
+                  },
+                  {
+                    "id": "2a313ca9de1e45218307a571da014080",
+                    "entityId": "7626ed4973494b6895add2d49135df73",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "db0ea33548454e1780c78231066b7d71",
+                    "position": null
+                  },
+                  {
+                    "id": "2da206791ca340f386b59bd9c31162df",
+                    "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+                    "position": null
+                  },
+                  {
+                    "id": "305ca4d8755640cf80f592aca778560c",
+                    "entityId": "a4167a5b41e641c5b52d481b10535421",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+                    "position": null
+                  },
+                  {
+                    "id": "44134c4418e143a3a0b014d21a8982ff",
+                    "entityId": "62fb87781a7c432b854e2992be931d92",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+                    "position": null
+                  },
+                  {
+                    "id": "55d0f863891846d0886f085ddbc46d85",
+                    "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+                    "position": null
+                  },
+                  {
+                    "id": "65a385fd285346e2867cad7bfb55de14",
+                    "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+                    "position": "z1"
+                  },
+                  {
+                    "id": "765e69132a474b04b248af59aec47e00",
+                    "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+                    "position": null
+                  },
+                  {
+                    "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+                    "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                    "position": null
+                  },
+                  {
+                    "id": "881addc9a1ef4ba6a92c70392296b213",
+                    "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+                    "position": null
+                  },
+                  {
+                    "id": "9170428eeda04860869d14604942b66b",
+                    "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+                    "typeId": "d1c6034425684b4caaf2570bee562802",
+                    "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+                    "position": null
+                  },
+                  {
+                    "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+                    "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+                    "position": "a06Vu"
+                  },
+                  {
+                    "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+                    "entityId": "239506a7789d4b2ba8ad638e72517523",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+                    "position": "a02f6"
+                  },
+                  {
+                    "id": "be426d90e2af45829e9b23b4ceb87b6f",
+                    "entityId": "c753c9cb48c7488cbf32765f364d62de",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+                    "position": "a12BL"
+                  },
+                  {
+                    "id": "cf064d9bf1ec4ccf962232fb83824bca",
+                    "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "0093d90725d94cb08903515673538d40",
+                    "position": null
+                  },
+                  {
+                    "id": "d3b43ef305354c709d28ab715469cf30",
+                    "entityId": "a68387c9075441c89e644c712625fd4c",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+                    "position": null
+                  },
+                  {
+                    "id": "d4447a46bd7249e49b449674c1ffda81",
+                    "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+                    "position": "a30Us"
+                  },
+                  {
+                    "id": "d8c0182eac7946bb8b73fbec35803a5b",
+                    "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+                    "position": "a25b4"
+                  },
+                  {
+                    "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+                    "entityId": "3b6abaf595584282a1833b977ffad621",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+                    "position": null
+                  },
+                  {
+                    "id": "f94a635d5d8c47d48c6d99f347b429ec",
+                    "entityId": "8407945db7544be89960358de0916221",
+                    "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+                    "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+                    "position": "a03Iz"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjZjMDZkOGMtNmQxZC00MmYyLWI4N2ItYmYzYTUxODA2YTE4Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "ids": [
+        "26c06d8c6d1d42f2b87bbf3a51806a18"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Program without children audience is absent",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "not": {
+                "relations": {
+                  "some": {
+                    "spaceId": {
+                      "is": "dac259bad48a11adf97fe36857d85206"
+                    },
+                    "typeId": {
+                      "is": "07546da1a8a04c0d8e0dac5351dcb25b"
+                    },
+                    "toEntityId": {
+                      "is": "561872867e1b4b80a5f37ddeb27570b5"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": null
+          }
+        }
+      ],
+      "checks": [
+        true
+      ],
+      "ids": [],
+      "passed": true
+    },
+    {
+      "name": "OESE administrator",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "d1c6034425684b4caaf2570bee562802"
+                  },
+                  "toEntityId": {
+                    "is": "bbfe2860b5d04e4a98d647183af924bf"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+              "name": "Reading First",
+              "relations": {
+                "nodes": [
+                  {
+                    "id": "1765f5a2315a4d908d706710a553a88c",
+                    "entityId": "4a086dd9cdd94c939ff77112728d290b",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "99058013c7904de782e86c393cb52035",
+                    "position": null
+                  },
+                  {
+                    "id": "293ffbed731045cb91499172db5124a8",
+                    "entityId": "d800220bae6e4b54b257d632e026c8e3",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "09d90bfac91545de8b218e03c026338f",
+                    "position": null
+                  },
+                  {
+                    "id": "2a313ca9de1e45218307a571da014080",
+                    "entityId": "7626ed4973494b6895add2d49135df73",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "db0ea33548454e1780c78231066b7d71",
+                    "position": null
+                  },
+                  {
+                    "id": "2da206791ca340f386b59bd9c31162df",
+                    "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+                    "position": null
+                  },
+                  {
+                    "id": "305ca4d8755640cf80f592aca778560c",
+                    "entityId": "a4167a5b41e641c5b52d481b10535421",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+                    "position": null
+                  },
+                  {
+                    "id": "44134c4418e143a3a0b014d21a8982ff",
+                    "entityId": "62fb87781a7c432b854e2992be931d92",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+                    "position": null
+                  },
+                  {
+                    "id": "55d0f863891846d0886f085ddbc46d85",
+                    "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+                    "position": null
+                  },
+                  {
+                    "id": "65a385fd285346e2867cad7bfb55de14",
+                    "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+                    "position": "z1"
+                  },
+                  {
+                    "id": "765e69132a474b04b248af59aec47e00",
+                    "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+                    "position": null
+                  },
+                  {
+                    "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+                    "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                    "position": null
+                  },
+                  {
+                    "id": "881addc9a1ef4ba6a92c70392296b213",
+                    "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+                    "position": null
+                  },
+                  {
+                    "id": "9170428eeda04860869d14604942b66b",
+                    "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+                    "typeId": "d1c6034425684b4caaf2570bee562802",
+                    "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+                    "position": null
+                  },
+                  {
+                    "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+                    "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+                    "position": "a06Vu"
+                  },
+                  {
+                    "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+                    "entityId": "239506a7789d4b2ba8ad638e72517523",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+                    "position": "a02f6"
+                  },
+                  {
+                    "id": "be426d90e2af45829e9b23b4ceb87b6f",
+                    "entityId": "c753c9cb48c7488cbf32765f364d62de",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+                    "position": "a12BL"
+                  },
+                  {
+                    "id": "cf064d9bf1ec4ccf962232fb83824bca",
+                    "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "0093d90725d94cb08903515673538d40",
+                    "position": null
+                  },
+                  {
+                    "id": "d3b43ef305354c709d28ab715469cf30",
+                    "entityId": "a68387c9075441c89e644c712625fd4c",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+                    "position": null
+                  },
+                  {
+                    "id": "d4447a46bd7249e49b449674c1ffda81",
+                    "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+                    "position": "a30Us"
+                  },
+                  {
+                    "id": "d8c0182eac7946bb8b73fbec35803a5b",
+                    "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+                    "position": "a25b4"
+                  },
+                  {
+                    "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+                    "entityId": "3b6abaf595584282a1833b977ffad621",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+                    "position": null
+                  },
+                  {
+                    "id": "f94a635d5d8c47d48c6d99f347b429ec",
+                    "entityId": "8407945db7544be89960358de0916221",
+                    "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+                    "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+                    "position": "a03Iz"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjZjMDZkOGMtNmQxZC00MmYyLWI4N2ItYmYzYTUxODA2YTE4Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "ids": [
+        "26c06d8c6d1d42f2b87bbf3a51806a18"
+      ],
+      "passed": true
+    },
+    {
+      "name": "OESE and Children and Kindergarten",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "d1c6034425684b4caaf2570bee562802"
+                  },
+                  "toEntityId": {
+                    "is": "bbfe2860b5d04e4a98d647183af924bf"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "07546da1a8a04c0d8e0dac5351dcb25b"
+                  },
+                  "toEntityId": {
+                    "is": "561872867e1b4b80a5f37ddeb27570b5"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "98c0849922164db0822b5a78444c17b3"
+                  },
+                  "toEntityId": {
+                    "is": "32ef1b9c498b42c18725f72a93fd2917"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+              "name": "Reading First",
+              "relations": {
+                "nodes": [
+                  {
+                    "id": "1765f5a2315a4d908d706710a553a88c",
+                    "entityId": "4a086dd9cdd94c939ff77112728d290b",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "99058013c7904de782e86c393cb52035",
+                    "position": null
+                  },
+                  {
+                    "id": "293ffbed731045cb91499172db5124a8",
+                    "entityId": "d800220bae6e4b54b257d632e026c8e3",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "09d90bfac91545de8b218e03c026338f",
+                    "position": null
+                  },
+                  {
+                    "id": "2a313ca9de1e45218307a571da014080",
+                    "entityId": "7626ed4973494b6895add2d49135df73",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "db0ea33548454e1780c78231066b7d71",
+                    "position": null
+                  },
+                  {
+                    "id": "2da206791ca340f386b59bd9c31162df",
+                    "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+                    "position": null
+                  },
+                  {
+                    "id": "305ca4d8755640cf80f592aca778560c",
+                    "entityId": "a4167a5b41e641c5b52d481b10535421",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+                    "position": null
+                  },
+                  {
+                    "id": "44134c4418e143a3a0b014d21a8982ff",
+                    "entityId": "62fb87781a7c432b854e2992be931d92",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+                    "position": null
+                  },
+                  {
+                    "id": "55d0f863891846d0886f085ddbc46d85",
+                    "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+                    "position": null
+                  },
+                  {
+                    "id": "65a385fd285346e2867cad7bfb55de14",
+                    "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+                    "position": "z1"
+                  },
+                  {
+                    "id": "765e69132a474b04b248af59aec47e00",
+                    "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+                    "position": null
+                  },
+                  {
+                    "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+                    "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                    "position": null
+                  },
+                  {
+                    "id": "881addc9a1ef4ba6a92c70392296b213",
+                    "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+                    "position": null
+                  },
+                  {
+                    "id": "9170428eeda04860869d14604942b66b",
+                    "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+                    "typeId": "d1c6034425684b4caaf2570bee562802",
+                    "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+                    "position": null
+                  },
+                  {
+                    "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+                    "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+                    "position": "a06Vu"
+                  },
+                  {
+                    "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+                    "entityId": "239506a7789d4b2ba8ad638e72517523",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+                    "position": "a02f6"
+                  },
+                  {
+                    "id": "be426d90e2af45829e9b23b4ceb87b6f",
+                    "entityId": "c753c9cb48c7488cbf32765f364d62de",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+                    "position": "a12BL"
+                  },
+                  {
+                    "id": "cf064d9bf1ec4ccf962232fb83824bca",
+                    "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "0093d90725d94cb08903515673538d40",
+                    "position": null
+                  },
+                  {
+                    "id": "d3b43ef305354c709d28ab715469cf30",
+                    "entityId": "a68387c9075441c89e644c712625fd4c",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+                    "position": null
+                  },
+                  {
+                    "id": "d4447a46bd7249e49b449674c1ffda81",
+                    "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+                    "position": "a30Us"
+                  },
+                  {
+                    "id": "d8c0182eac7946bb8b73fbec35803a5b",
+                    "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+                    "position": "a25b4"
+                  },
+                  {
+                    "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+                    "entityId": "3b6abaf595584282a1833b977ffad621",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+                    "position": null
+                  },
+                  {
+                    "id": "f94a635d5d8c47d48c6d99f347b429ec",
+                    "entityId": "8407945db7544be89960358de0916221",
+                    "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+                    "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+                    "position": "a03Iz"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjZjMDZkOGMtNmQxZC00MmYyLWI4N2ItYmYzYTUxODA2YTE4Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "ids": [
+        "26c06d8c6d1d42f2b87bbf3a51806a18"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Program excluding OESE is absent",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "not": {
+                "relations": {
+                  "some": {
+                    "spaceId": {
+                      "is": "dac259bad48a11adf97fe36857d85206"
+                    },
+                    "typeId": {
+                      "is": "d1c6034425684b4caaf2570bee562802"
+                    },
+                    "toEntityId": {
+                      "is": "bbfe2860b5d04e4a98d647183af924bf"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": null
+          }
+        }
+      ],
+      "checks": [
+        true
+      ],
+      "ids": [],
+      "passed": true
+    },
+    {
+      "name": "Study is not the administering agency",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "d1c6034425684b4caaf2570bee562802"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": null
+          }
+        }
+      ],
+      "checks": [
+        true
+      ],
+      "ids": [],
+      "passed": true
+    },
+    {
+      "name": "Topic: U.S. literacy education",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "806d52bc27e94c9193c057978b093351"
+                  },
+                  "toEntityId": {
+                    "is": "5a86d2f3657b4b5baabef07a3393e408"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+              "name": "Reading First",
+              "relations": {
+                "nodes": [
+                  {
+                    "id": "1765f5a2315a4d908d706710a553a88c",
+                    "entityId": "4a086dd9cdd94c939ff77112728d290b",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "99058013c7904de782e86c393cb52035",
+                    "position": null
+                  },
+                  {
+                    "id": "293ffbed731045cb91499172db5124a8",
+                    "entityId": "d800220bae6e4b54b257d632e026c8e3",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "09d90bfac91545de8b218e03c026338f",
+                    "position": null
+                  },
+                  {
+                    "id": "2a313ca9de1e45218307a571da014080",
+                    "entityId": "7626ed4973494b6895add2d49135df73",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "db0ea33548454e1780c78231066b7d71",
+                    "position": null
+                  },
+                  {
+                    "id": "2da206791ca340f386b59bd9c31162df",
+                    "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+                    "position": null
+                  },
+                  {
+                    "id": "305ca4d8755640cf80f592aca778560c",
+                    "entityId": "a4167a5b41e641c5b52d481b10535421",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+                    "position": null
+                  },
+                  {
+                    "id": "44134c4418e143a3a0b014d21a8982ff",
+                    "entityId": "62fb87781a7c432b854e2992be931d92",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+                    "position": null
+                  },
+                  {
+                    "id": "55d0f863891846d0886f085ddbc46d85",
+                    "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+                    "position": null
+                  },
+                  {
+                    "id": "65a385fd285346e2867cad7bfb55de14",
+                    "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+                    "position": "z1"
+                  },
+                  {
+                    "id": "765e69132a474b04b248af59aec47e00",
+                    "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+                    "position": null
+                  },
+                  {
+                    "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+                    "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                    "position": null
+                  },
+                  {
+                    "id": "881addc9a1ef4ba6a92c70392296b213",
+                    "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+                    "position": null
+                  },
+                  {
+                    "id": "9170428eeda04860869d14604942b66b",
+                    "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+                    "typeId": "d1c6034425684b4caaf2570bee562802",
+                    "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+                    "position": null
+                  },
+                  {
+                    "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+                    "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+                    "position": "a06Vu"
+                  },
+                  {
+                    "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+                    "entityId": "239506a7789d4b2ba8ad638e72517523",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+                    "position": "a02f6"
+                  },
+                  {
+                    "id": "be426d90e2af45829e9b23b4ceb87b6f",
+                    "entityId": "c753c9cb48c7488cbf32765f364d62de",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+                    "position": "a12BL"
+                  },
+                  {
+                    "id": "cf064d9bf1ec4ccf962232fb83824bca",
+                    "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "0093d90725d94cb08903515673538d40",
+                    "position": null
+                  },
+                  {
+                    "id": "d3b43ef305354c709d28ab715469cf30",
+                    "entityId": "a68387c9075441c89e644c712625fd4c",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+                    "position": null
+                  },
+                  {
+                    "id": "d4447a46bd7249e49b449674c1ffda81",
+                    "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+                    "position": "a30Us"
+                  },
+                  {
+                    "id": "d8c0182eac7946bb8b73fbec35803a5b",
+                    "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+                    "position": "a25b4"
+                  },
+                  {
+                    "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+                    "entityId": "3b6abaf595584282a1833b977ffad621",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+                    "position": null
+                  },
+                  {
+                    "id": "f94a635d5d8c47d48c6d99f347b429ec",
+                    "entityId": "8407945db7544be89960358de0916221",
+                    "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+                    "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+                    "position": "a03Iz"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjZjMDZkOGMtNmQxZC00MmYyLWI4N2ItYmYzYTUxODA2YTE4Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "ids": [
+        "26c06d8c6d1d42f2b87bbf3a51806a18"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Topic: Literacy coaches",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "806d52bc27e94c9193c057978b093351"
+                  },
+                  "toEntityId": {
+                    "is": "06d0bc4860de4838a222c240a46fc8b0"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+              "name": "Reading First",
+              "relations": {
+                "nodes": [
+                  {
+                    "id": "1765f5a2315a4d908d706710a553a88c",
+                    "entityId": "4a086dd9cdd94c939ff77112728d290b",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "99058013c7904de782e86c393cb52035",
+                    "position": null
+                  },
+                  {
+                    "id": "293ffbed731045cb91499172db5124a8",
+                    "entityId": "d800220bae6e4b54b257d632e026c8e3",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "09d90bfac91545de8b218e03c026338f",
+                    "position": null
+                  },
+                  {
+                    "id": "2a313ca9de1e45218307a571da014080",
+                    "entityId": "7626ed4973494b6895add2d49135df73",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "db0ea33548454e1780c78231066b7d71",
+                    "position": null
+                  },
+                  {
+                    "id": "2da206791ca340f386b59bd9c31162df",
+                    "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+                    "position": null
+                  },
+                  {
+                    "id": "305ca4d8755640cf80f592aca778560c",
+                    "entityId": "a4167a5b41e641c5b52d481b10535421",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+                    "position": null
+                  },
+                  {
+                    "id": "44134c4418e143a3a0b014d21a8982ff",
+                    "entityId": "62fb87781a7c432b854e2992be931d92",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+                    "position": null
+                  },
+                  {
+                    "id": "55d0f863891846d0886f085ddbc46d85",
+                    "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+                    "position": null
+                  },
+                  {
+                    "id": "65a385fd285346e2867cad7bfb55de14",
+                    "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+                    "position": "z1"
+                  },
+                  {
+                    "id": "765e69132a474b04b248af59aec47e00",
+                    "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+                    "position": null
+                  },
+                  {
+                    "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+                    "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                    "position": null
+                  },
+                  {
+                    "id": "881addc9a1ef4ba6a92c70392296b213",
+                    "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+                    "position": null
+                  },
+                  {
+                    "id": "9170428eeda04860869d14604942b66b",
+                    "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+                    "typeId": "d1c6034425684b4caaf2570bee562802",
+                    "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+                    "position": null
+                  },
+                  {
+                    "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+                    "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+                    "position": "a06Vu"
+                  },
+                  {
+                    "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+                    "entityId": "239506a7789d4b2ba8ad638e72517523",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+                    "position": "a02f6"
+                  },
+                  {
+                    "id": "be426d90e2af45829e9b23b4ceb87b6f",
+                    "entityId": "c753c9cb48c7488cbf32765f364d62de",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+                    "position": "a12BL"
+                  },
+                  {
+                    "id": "cf064d9bf1ec4ccf962232fb83824bca",
+                    "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "0093d90725d94cb08903515673538d40",
+                    "position": null
+                  },
+                  {
+                    "id": "d3b43ef305354c709d28ab715469cf30",
+                    "entityId": "a68387c9075441c89e644c712625fd4c",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+                    "position": null
+                  },
+                  {
+                    "id": "d4447a46bd7249e49b449674c1ffda81",
+                    "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+                    "position": "a30Us"
+                  },
+                  {
+                    "id": "d8c0182eac7946bb8b73fbec35803a5b",
+                    "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+                    "position": "a25b4"
+                  },
+                  {
+                    "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+                    "entityId": "3b6abaf595584282a1833b977ffad621",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+                    "position": null
+                  },
+                  {
+                    "id": "f94a635d5d8c47d48c6d99f347b429ec",
+                    "entityId": "8407945db7544be89960358de0916221",
+                    "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+                    "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+                    "position": "a03Iz"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjZjMDZkOGMtNmQxZC00MmYyLWI4N2ItYmYzYTUxODA2YTE4Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "ids": [
+        "26c06d8c6d1d42f2b87bbf3a51806a18"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Topic: Phonics instruction",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "806d52bc27e94c9193c057978b093351"
+                  },
+                  "toEntityId": {
+                    "is": "09d90bfac91545de8b218e03c026338f"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+              "name": "Reading First",
+              "relations": {
+                "nodes": [
+                  {
+                    "id": "1765f5a2315a4d908d706710a553a88c",
+                    "entityId": "4a086dd9cdd94c939ff77112728d290b",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "99058013c7904de782e86c393cb52035",
+                    "position": null
+                  },
+                  {
+                    "id": "293ffbed731045cb91499172db5124a8",
+                    "entityId": "d800220bae6e4b54b257d632e026c8e3",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "09d90bfac91545de8b218e03c026338f",
+                    "position": null
+                  },
+                  {
+                    "id": "2a313ca9de1e45218307a571da014080",
+                    "entityId": "7626ed4973494b6895add2d49135df73",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "db0ea33548454e1780c78231066b7d71",
+                    "position": null
+                  },
+                  {
+                    "id": "2da206791ca340f386b59bd9c31162df",
+                    "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+                    "position": null
+                  },
+                  {
+                    "id": "305ca4d8755640cf80f592aca778560c",
+                    "entityId": "a4167a5b41e641c5b52d481b10535421",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+                    "position": null
+                  },
+                  {
+                    "id": "44134c4418e143a3a0b014d21a8982ff",
+                    "entityId": "62fb87781a7c432b854e2992be931d92",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+                    "position": null
+                  },
+                  {
+                    "id": "55d0f863891846d0886f085ddbc46d85",
+                    "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+                    "position": null
+                  },
+                  {
+                    "id": "65a385fd285346e2867cad7bfb55de14",
+                    "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+                    "position": "z1"
+                  },
+                  {
+                    "id": "765e69132a474b04b248af59aec47e00",
+                    "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+                    "position": null
+                  },
+                  {
+                    "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+                    "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                    "position": null
+                  },
+                  {
+                    "id": "881addc9a1ef4ba6a92c70392296b213",
+                    "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+                    "position": null
+                  },
+                  {
+                    "id": "9170428eeda04860869d14604942b66b",
+                    "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+                    "typeId": "d1c6034425684b4caaf2570bee562802",
+                    "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+                    "position": null
+                  },
+                  {
+                    "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+                    "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+                    "position": "a06Vu"
+                  },
+                  {
+                    "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+                    "entityId": "239506a7789d4b2ba8ad638e72517523",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+                    "position": "a02f6"
+                  },
+                  {
+                    "id": "be426d90e2af45829e9b23b4ceb87b6f",
+                    "entityId": "c753c9cb48c7488cbf32765f364d62de",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+                    "position": "a12BL"
+                  },
+                  {
+                    "id": "cf064d9bf1ec4ccf962232fb83824bca",
+                    "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "0093d90725d94cb08903515673538d40",
+                    "position": null
+                  },
+                  {
+                    "id": "d3b43ef305354c709d28ab715469cf30",
+                    "entityId": "a68387c9075441c89e644c712625fd4c",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+                    "position": null
+                  },
+                  {
+                    "id": "d4447a46bd7249e49b449674c1ffda81",
+                    "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+                    "position": "a30Us"
+                  },
+                  {
+                    "id": "d8c0182eac7946bb8b73fbec35803a5b",
+                    "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+                    "position": "a25b4"
+                  },
+                  {
+                    "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+                    "entityId": "3b6abaf595584282a1833b977ffad621",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+                    "position": null
+                  },
+                  {
+                    "id": "f94a635d5d8c47d48c6d99f347b429ec",
+                    "entityId": "8407945db7544be89960358de0916221",
+                    "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+                    "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+                    "position": "a03Iz"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjZjMDZkOGMtNmQxZC00MmYyLWI4N2ItYmYzYTUxODA2YTE4Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "ids": [
+        "26c06d8c6d1d42f2b87bbf3a51806a18"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Topic: Reading comprehension",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "806d52bc27e94c9193c057978b093351"
+                  },
+                  "toEntityId": {
+                    "is": "5c028b0a8a484ee9ae29e07028a1e7d1"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+              "name": "Reading First",
+              "relations": {
+                "nodes": [
+                  {
+                    "id": "1765f5a2315a4d908d706710a553a88c",
+                    "entityId": "4a086dd9cdd94c939ff77112728d290b",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "99058013c7904de782e86c393cb52035",
+                    "position": null
+                  },
+                  {
+                    "id": "293ffbed731045cb91499172db5124a8",
+                    "entityId": "d800220bae6e4b54b257d632e026c8e3",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "09d90bfac91545de8b218e03c026338f",
+                    "position": null
+                  },
+                  {
+                    "id": "2a313ca9de1e45218307a571da014080",
+                    "entityId": "7626ed4973494b6895add2d49135df73",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "db0ea33548454e1780c78231066b7d71",
+                    "position": null
+                  },
+                  {
+                    "id": "2da206791ca340f386b59bd9c31162df",
+                    "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+                    "position": null
+                  },
+                  {
+                    "id": "305ca4d8755640cf80f592aca778560c",
+                    "entityId": "a4167a5b41e641c5b52d481b10535421",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+                    "position": null
+                  },
+                  {
+                    "id": "44134c4418e143a3a0b014d21a8982ff",
+                    "entityId": "62fb87781a7c432b854e2992be931d92",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+                    "position": null
+                  },
+                  {
+                    "id": "55d0f863891846d0886f085ddbc46d85",
+                    "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+                    "position": null
+                  },
+                  {
+                    "id": "65a385fd285346e2867cad7bfb55de14",
+                    "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+                    "position": "z1"
+                  },
+                  {
+                    "id": "765e69132a474b04b248af59aec47e00",
+                    "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+                    "position": null
+                  },
+                  {
+                    "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+                    "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                    "position": null
+                  },
+                  {
+                    "id": "881addc9a1ef4ba6a92c70392296b213",
+                    "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+                    "position": null
+                  },
+                  {
+                    "id": "9170428eeda04860869d14604942b66b",
+                    "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+                    "typeId": "d1c6034425684b4caaf2570bee562802",
+                    "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+                    "position": null
+                  },
+                  {
+                    "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+                    "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+                    "position": "a06Vu"
+                  },
+                  {
+                    "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+                    "entityId": "239506a7789d4b2ba8ad638e72517523",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+                    "position": "a02f6"
+                  },
+                  {
+                    "id": "be426d90e2af45829e9b23b4ceb87b6f",
+                    "entityId": "c753c9cb48c7488cbf32765f364d62de",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+                    "position": "a12BL"
+                  },
+                  {
+                    "id": "cf064d9bf1ec4ccf962232fb83824bca",
+                    "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "0093d90725d94cb08903515673538d40",
+                    "position": null
+                  },
+                  {
+                    "id": "d3b43ef305354c709d28ab715469cf30",
+                    "entityId": "a68387c9075441c89e644c712625fd4c",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+                    "position": null
+                  },
+                  {
+                    "id": "d4447a46bd7249e49b449674c1ffda81",
+                    "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+                    "position": "a30Us"
+                  },
+                  {
+                    "id": "d8c0182eac7946bb8b73fbec35803a5b",
+                    "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+                    "position": "a25b4"
+                  },
+                  {
+                    "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+                    "entityId": "3b6abaf595584282a1833b977ffad621",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+                    "position": null
+                  },
+                  {
+                    "id": "f94a635d5d8c47d48c6d99f347b429ec",
+                    "entityId": "8407945db7544be89960358de0916221",
+                    "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+                    "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+                    "position": "a03Iz"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjZjMDZkOGMtNmQxZC00MmYyLWI4N2ItYmYzYTUxODA2YTE4Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "ids": [
+        "26c06d8c6d1d42f2b87bbf3a51806a18"
+      ],
+      "passed": true
+    },
+    {
+      "name": "All selected literacy topics with OESE and grade 1",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "d1c6034425684b4caaf2570bee562802"
+                  },
+                  "toEntityId": {
+                    "is": "bbfe2860b5d04e4a98d647183af924bf"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "07546da1a8a04c0d8e0dac5351dcb25b"
+                  },
+                  "toEntityId": {
+                    "is": "561872867e1b4b80a5f37ddeb27570b5"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "98c0849922164db0822b5a78444c17b3"
+                  },
+                  "toEntityId": {
+                    "is": "c66d539b68a54250889bee59b97fcfc0"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "806d52bc27e94c9193c057978b093351"
+                  },
+                  "toEntityId": {
+                    "is": "5a86d2f3657b4b5baabef07a3393e408"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "806d52bc27e94c9193c057978b093351"
+                  },
+                  "toEntityId": {
+                    "is": "06d0bc4860de4838a222c240a46fc8b0"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "806d52bc27e94c9193c057978b093351"
+                  },
+                  "toEntityId": {
+                    "is": "09d90bfac91545de8b218e03c026338f"
+                  }
+                }
+              }
+            },
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "806d52bc27e94c9193c057978b093351"
+                  },
+                  "toEntityId": {
+                    "is": "5c028b0a8a484ee9ae29e07028a1e7d1"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [
+            {
+              "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+              "name": "Reading First",
+              "relations": {
+                "nodes": [
+                  {
+                    "id": "1765f5a2315a4d908d706710a553a88c",
+                    "entityId": "4a086dd9cdd94c939ff77112728d290b",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "99058013c7904de782e86c393cb52035",
+                    "position": null
+                  },
+                  {
+                    "id": "293ffbed731045cb91499172db5124a8",
+                    "entityId": "d800220bae6e4b54b257d632e026c8e3",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "09d90bfac91545de8b218e03c026338f",
+                    "position": null
+                  },
+                  {
+                    "id": "2a313ca9de1e45218307a571da014080",
+                    "entityId": "7626ed4973494b6895add2d49135df73",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "db0ea33548454e1780c78231066b7d71",
+                    "position": null
+                  },
+                  {
+                    "id": "2da206791ca340f386b59bd9c31162df",
+                    "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+                    "position": null
+                  },
+                  {
+                    "id": "305ca4d8755640cf80f592aca778560c",
+                    "entityId": "a4167a5b41e641c5b52d481b10535421",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+                    "position": null
+                  },
+                  {
+                    "id": "44134c4418e143a3a0b014d21a8982ff",
+                    "entityId": "62fb87781a7c432b854e2992be931d92",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+                    "position": null
+                  },
+                  {
+                    "id": "55d0f863891846d0886f085ddbc46d85",
+                    "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+                    "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+                    "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+                    "position": null
+                  },
+                  {
+                    "id": "65a385fd285346e2867cad7bfb55de14",
+                    "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+                    "position": "z1"
+                  },
+                  {
+                    "id": "765e69132a474b04b248af59aec47e00",
+                    "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+                    "position": null
+                  },
+                  {
+                    "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+                    "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+                    "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                    "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                    "position": null
+                  },
+                  {
+                    "id": "881addc9a1ef4ba6a92c70392296b213",
+                    "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+                    "position": null
+                  },
+                  {
+                    "id": "9170428eeda04860869d14604942b66b",
+                    "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+                    "typeId": "d1c6034425684b4caaf2570bee562802",
+                    "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+                    "position": null
+                  },
+                  {
+                    "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+                    "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+                    "typeId": "beaba5cba67741a8b35377030613fc70",
+                    "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+                    "position": "a06Vu"
+                  },
+                  {
+                    "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+                    "entityId": "239506a7789d4b2ba8ad638e72517523",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+                    "position": "a02f6"
+                  },
+                  {
+                    "id": "be426d90e2af45829e9b23b4ceb87b6f",
+                    "entityId": "c753c9cb48c7488cbf32765f364d62de",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+                    "position": "a12BL"
+                  },
+                  {
+                    "id": "cf064d9bf1ec4ccf962232fb83824bca",
+                    "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+                    "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+                    "toEntityId": "0093d90725d94cb08903515673538d40",
+                    "position": null
+                  },
+                  {
+                    "id": "d3b43ef305354c709d28ab715469cf30",
+                    "entityId": "a68387c9075441c89e644c712625fd4c",
+                    "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                    "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+                    "position": null
+                  },
+                  {
+                    "id": "d4447a46bd7249e49b449674c1ffda81",
+                    "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+                    "position": "a30Us"
+                  },
+                  {
+                    "id": "d8c0182eac7946bb8b73fbec35803a5b",
+                    "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+                    "typeId": "98c0849922164db0822b5a78444c17b3",
+                    "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+                    "position": "a25b4"
+                  },
+                  {
+                    "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+                    "entityId": "3b6abaf595584282a1833b977ffad621",
+                    "typeId": "806d52bc27e94c9193c057978b093351",
+                    "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+                    "position": null
+                  },
+                  {
+                    "id": "f94a635d5d8c47d48c6d99f347b429ec",
+                    "entityId": "8407945db7544be89960358de0916221",
+                    "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+                    "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+                    "position": "a03Iz"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjZjMDZkOGMtNmQxZC00MmYyLWI4N2ItYmYzYTUxODA2YTE4Il1d"
+          }
+        }
+      ],
+      "checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "ids": [
+        "26c06d8c6d1d42f2b87bbf3a51806a18"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Program excluding literacy topic is absent",
+      "variables": {
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "typeId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "filter": {
+          "and": [
+            {
+              "relations": {
+                "some": {
+                  "spaceId": {
+                    "is": "dac259bad48a11adf97fe36857d85206"
+                  },
+                  "typeId": {
+                    "is": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+                  },
+                  "toEntityId": {
+                    "is": "d87bc8f30fb84b5fa660f98d1e770c78"
+                  }
+                }
+              }
+            },
+            {
+              "not": {
+                "relations": {
+                  "some": {
+                    "spaceId": {
+                      "is": "dac259bad48a11adf97fe36857d85206"
+                    },
+                    "typeId": {
+                      "is": "806d52bc27e94c9193c057978b093351"
+                    },
+                    "toEntityId": {
+                      "is": "5a86d2f3657b4b5baabef07a3393e408"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pages": [
+        {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": null
+          }
+        }
+      ],
+      "checks": [
+        true
+      ],
+      "ids": [],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T15:57:23.143Z",
+  "scope": "all-spaces",
+  "sourceId": "0a8658cb5ae9470bacf732add8ca1803",
+  "searches": [
+    {
+      "kind": "alias",
+      "query": "The Enhanced Reading Opportunities Study Final Report: The Impact of Supplemental Literacy Courses for Struggling Ninth-Grade Readers",
+      "complete": true,
+      "candidates": [
+        {
+          "id": "0a8658cb5ae9470bacf732add8ca1803",
+          "name": "The Enhanced Reading Opportunities Study Final Report: The Impact of Supplemental Literacy Courses for Struggling Ninth-Grade Readers",
+          "description": "A federal randomized evaluation of two supplemental literacy courses for struggling ninth-grade readers.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "a2a5ed0cacef46b1835de457956ce915",
+              "name": "Article"
+            }
+          ],
+          "decision": "distinct",
+          "rationale": "Retained for explicit review before reuse or creation."
+        }
+      ]
+    },
+    {
+      "kind": "identifier",
+      "query": "dcmp-collection",
+      "complete": true,
+      "candidates": []
+    }
+  ],
+  "claimMemberships": [
+    {
+      "claimId": "9de409cf2a3a4fc29dc68bcc3abbe9a5",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "00f19327dbe44129bddd7f8a015967ee",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "37101612fbcd447f989249a7e9558e3f",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "322ed581e4934da8994953574296d483",
+      "complete": true,
+      "nodes": []
+    }
+  ],
+  "datasetDecision": "create",
+  "rationale": "Complete exact all-space identity and incoming Collection-item queries; existing Claims remain immutable."
+}

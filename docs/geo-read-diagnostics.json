@@ -1,0 +1,293 @@
+{
+  "checkedAt": "2026-09-11T16:37:00.676Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "spaceId": "ec349623f33236aee13c12dcd629ee81",
+  "results": [
+    {
+      "name": "bad-null-filter",
+      "query": "query($id: UUID!) { entities(spaceId:$id, first:5, filter:{name:{isNot:null}}) { id name } }",
+      "status": 200,
+      "elapsedMs": 178,
+      "data": {
+        "entities": []
+      }
+    },
+    {
+      "name": "space",
+      "query": "query($id: UUID!) { space(id:$id) { id type } }",
+      "status": 200,
+      "elapsedMs": 1207,
+      "data": {
+        "space": {
+          "id": "ec349623f33236aee13c12dcd629ee81",
+          "type": "DAO"
+        }
+      }
+    },
+    {
+      "name": "non-null-filter",
+      "query": "query($id: UUID!) { entities(spaceId:$id, first:5, filter:{name:{isNull:false}}) { id name } }",
+      "status": 200,
+      "elapsedMs": 4620,
+      "data": {
+        "entities": [
+          {
+            "id": "01e767bb90494b0a9c4fb870cf46ff94",
+            "name": "MS"
+          },
+          {
+            "id": "06bf3f4f50c6455081c07ea42a65c0dd",
+            "name": "Proposal 06bf3f4f-50c6-4550-81c0-7ea42a65c0dd"
+          },
+          {
+            "id": "0b0ca1ddfa94421c9b86e99a60ba823d",
+            "name": "BS"
+          },
+          {
+            "id": "0e77fc9612b248da988c477859f19fe4",
+            "name": "Proposal 0e77fc96-12b2-48da-988c-477859f19fe4"
+          },
+          {
+            "id": "1598c3abbda2498fab4563e8541fa130",
+            "name": "Proposal 1598c3ab-bda2-498f-ab45-63e8541fa130"
+          }
+        ]
+      }
+    },
+    {
+      "name": "connection-minimal",
+      "query": "query($id: UUID!) { entitiesConnection(spaceId:$id, first:5) { nodes { id name } pageInfo { hasNextPage endCursor } } }",
+      "status": 200,
+      "elapsedMs": 5378,
+      "data": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "01087631710144338a77d7b8e3e5aaab",
+              "name": null
+            },
+            {
+              "id": "01e767bb90494b0a9c4fb870cf46ff94",
+              "name": "MS"
+            },
+            {
+              "id": "06bf3f4f50c6455081c07ea42a65c0dd",
+              "name": "Proposal 06bf3f4f-50c6-4550-81c0-7ea42a65c0dd"
+            },
+            {
+              "id": "0b0ca1ddfa94421c9b86e99a60ba823d",
+              "name": "BS"
+            },
+            {
+              "id": "0e77fc9612b248da988c477859f19fe4",
+              "name": "Proposal 0e77fc96-12b2-48da-988c-477859f19fe4"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMGU3N2ZjOTYtMTJiMi00OGRhLTk4OGMtNDc3ODU5ZjE5ZmU0Il1d"
+          }
+        }
+      }
+    },
+    {
+      "name": "nested-types",
+      "query": "query($id: UUID!) { entities(spaceId:$id, first:5) { id name types { id name } } }",
+      "status": 200,
+      "elapsedMs": 2931,
+      "data": {
+        "entities": [
+          {
+            "id": "01087631710144338a77d7b8e3e5aaab",
+            "name": null,
+            "types": [
+              {
+                "id": "76474f2f00894e77a0410b39fb17d0bf",
+                "name": "Text block"
+              }
+            ]
+          },
+          {
+            "id": "01e767bb90494b0a9c4fb870cf46ff94",
+            "name": "MS",
+            "types": []
+          },
+          {
+            "id": "06bf3f4f50c6455081c07ea42a65c0dd",
+            "name": "Proposal 06bf3f4f-50c6-4550-81c0-7ea42a65c0dd",
+            "types": []
+          },
+          {
+            "id": "0b0ca1ddfa94421c9b86e99a60ba823d",
+            "name": "BS",
+            "types": []
+          },
+          {
+            "id": "0e77fc9612b248da988c477859f19fe4",
+            "name": "Proposal 0e77fc96-12b2-48da-988c-477859f19fe4",
+            "types": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "connection-count",
+      "query": "query($id: UUID!) { entitiesConnection(spaceId:$id, first:5) { totalCount nodes { id } pageInfo { hasNextPage endCursor } } }",
+      "status": 200,
+      "elapsedMs": 11708,
+      "data": {
+        "entitiesConnection": {
+          "totalCount": 86,
+          "nodes": [
+            {
+              "id": "01087631710144338a77d7b8e3e5aaab"
+            },
+            {
+              "id": "01e767bb90494b0a9c4fb870cf46ff94"
+            },
+            {
+              "id": "06bf3f4f50c6455081c07ea42a65c0dd"
+            },
+            {
+              "id": "0b0ca1ddfa94421c9b86e99a60ba823d"
+            },
+            {
+              "id": "0e77fc9612b248da988c477859f19fe4"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true,
+            "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMGU3N2ZjOTYtMTJiMi00OGRhLTk4OGMtNDc3ODU5ZjE5ZmU0Il1d"
+          }
+        }
+      }
+    },
+    {
+      "name": "global-exact",
+      "query": "query { entities(first:5, filter:{name:{is:\"University of Southern California\"}}) { id name spaceIds } }",
+      "status": 200,
+      "elapsedMs": 565,
+      "data": {
+        "entities": [
+          {
+            "id": "202ba53abb8f44069e6316bd6f07f048",
+            "name": "University of Southern California",
+            "spaceIds": [
+              "ec349623f33236aee13c12dcd629ee81"
+            ]
+          },
+          {
+            "id": "8b0a5ad1ca9d418894b7505ece8991df",
+            "name": "University of Southern California",
+            "spaceIds": [
+              "f6df995838a265e8fb9df1922d49677b"
+            ]
+          },
+          {
+            "id": "988d7783155641ee9e387212efe9ba90",
+            "name": "University of Southern California",
+            "spaceIds": [
+              "41e851610e13a19441c4d980f2f2ce6b"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "offset-25",
+      "query": "query($id: UUID!) { entities(spaceId:$id, first:5, offset:25) { id name } }",
+      "status": 200,
+      "elapsedMs": 25996,
+      "data": {
+        "entities": [
+          {
+            "id": "65256c5462834981b502aceeb74bd08c",
+            "name": "Degree"
+          },
+          {
+            "id": "67a5b4391cdf462eb71d9c27057e49b7",
+            "name": "LLM"
+          },
+          {
+            "id": "6f8266b47da24bea8c8e15bc45845c25",
+            "name": "Proposal 6f8266b4-7da2-4bea-8c8e-15bc45845c25"
+          },
+          {
+            "id": "73c1c1decffd4d7cb3c30da1e62f867b",
+            "name": "Proposal 73c1c1de-cffd-4d7c-b3c3-0da1e62f867b"
+          },
+          {
+            "id": "7cba87029ccb4f688d8e0b40994587ca",
+            "name": "Proposal 7cba8702-9ccb-4f68-8d8e-0b40994587ca"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global-substring",
+      "query": "query { entities(first:5, filter:{name:{includesInsensitive:\"What Works Clearinghouse\"}}) { id name spaceIds } }",
+      "status": 200,
+      "elapsedMs": 158,
+      "data": {
+        "entities": []
+      }
+    },
+    {
+      "name": "original-global-or",
+      "query": "query { entities(first:50,filter:{or:[{name:{includesInsensitive:\"What Works Clearinghouse\"}},{name:{includesInsensitive:\"National Assessment\"}},{name:{includesInsensitive:\"Regression discontinuity\"}},{name:{includesInsensitive:\"Education Data\"}},{name:{includesInsensitive:\"Reading First\"}}]}){id name typeIds spaceIds} }",
+      "status": 200,
+      "elapsedMs": 30153,
+      "errors": [
+        {
+          "message": "Unexpected error.",
+          "locations": [
+            {
+              "line": 1,
+              "column": 9
+            }
+          ],
+          "path": [
+            "entities"
+          ],
+          "extensions": {
+            "code": "INTERNAL_SERVER_ERROR"
+          }
+        }
+      ],
+      "data": {
+        "entities": null
+      }
+    },
+    {
+      "name": "original-inventory",
+      "query": "query($id:UUID!) { space(id:$id){id type topic{id name}} entitiesConnection(spaceId:$id,first:100){totalCount nodes{id name description types{id name}} pageInfo{hasNextPage endCursor}} }",
+      "status": 200,
+      "elapsedMs": 30206,
+      "errors": [
+        {
+          "message": "Unexpected error.",
+          "locations": [
+            {
+              "line": 1,
+              "column": 58
+            }
+          ],
+          "path": [
+            "entitiesConnection"
+          ],
+          "extensions": {
+            "code": "INTERNAL_SERVER_ERROR"
+          }
+        }
+      ],
+      "data": {
+        "space": {
+          "id": "ec349623f33236aee13c12dcd629ee81",
+          "type": "DAO",
+          "topic": null
+        },
+        "entitiesConnection": null
+      }
+    }
+  ]
+}

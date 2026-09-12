@@ -1,0 +1,32 @@
+{
+  "sourceKey": "datasets/edfacts-ed-data-express",
+  "checkedAt": "2026-09-11T17:55:57.193Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://eddataexpress.ed.gov/download/data-builder/data-download-tool",
+      "needle": "eddataexpress.ed.gov/download/data-builder/data-download-tool",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    },
+    {
+      "url": "https://eddataexpress.ed.gov/resources/reports-and-files/chronic-absenteeism-data",
+      "needle": "eddataexpress.ed.gov/resources/reports-and-files/chronic-absenteeism-data",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

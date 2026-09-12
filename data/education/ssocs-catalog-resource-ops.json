@@ -1,0 +1,137 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "655b053c43344e9dab5dc048367490ab"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School Survey on Crime and Safety (SSOCS)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "SSOCS follows a nationally representative kindergarten cohort from 2010 through fifth grade. It supports weighted descriptive and developmental context; it does not by itself estimate an initiative’s effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://nces.ed.gov/surveys/ssocs/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6a045d705aaf4a09bb8e8bfabf006f5f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "SSOCS catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** National Center for Education Statistics.\n- **Access:** Public-use custom extracts through NCES DataLab; restricted-use files require a license.\n- **Unit:** Sampled public school, cross-sectional.\n- **Coverage:** 19992000 onward; use the cycle-specific public-use release.\n- **Geography:** Nation and selected states.\n- **Join keys:** Student record, wave, permitted school record, and survey weight.\n- **Measures:** Incidents, discipline, safety policies, security, and mental-health and restorative supports.\n- **Appropriate uses:** School climate, discipline, and safety-implementation context.\n\nUse NCES weights and cohort-specific documentation. Public-use identifiers are suppressed, and SSOCS is observational longitudinal data, so causal initiative evaluation requires a separate credible design.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ef7c23d27cf8402e845a11eac80dcaf9"
+    },
+    "entity": {
+      "$bytes": "a4cdf6c429ca4289a9d991bbf0d76b7c"
+    },
+    "from": {
+      "$bytes": "655b053c43344e9dab5dc048367490ab"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05Ye"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2e9dcec5f7a44d12b774016fef6c666e"
+    },
+    "entity": {
+      "$bytes": "aada2fcc09294d8691f9aac7985a50bc"
+    },
+    "from": {
+      "$bytes": "6a045d705aaf4a09bb8e8bfabf006f5f"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04cc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "68d157671df445f491d9da917f26b89f"
+    },
+    "entity": {
+      "$bytes": "5b48396a41604742882028848cf44b51"
+    },
+    "from": {
+      "$bytes": "655b053c43344e9dab5dc048367490ab"
+    },
+    "to": {
+      "$bytes": "6a045d705aaf4a09bb8e8bfabf006f5f"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a03Df"
+  }
+]

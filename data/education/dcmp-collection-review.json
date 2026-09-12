@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T15:50:30Z",
+  "reviewer": "publisher preparation review",
+  "planHash": "0c63d426b5fe68da3d3e6f8ce036c7fc20a4c03ca300700311a8f9b26c374c91",
+  "factsHash": "6707d13e6750d534fa7fe5a978e6b84e3efa2093c3f2d368ed99efdbc83fd596",
+  "sources": [
+    {
+      "path": "docs/dcmp-study-notes.md",
+      "sha256": "53bfd5d8fe26ecf07e8cc4f2fa2ec1bb71c0ec326a01e8980fffeac56e32d021",
+      "sourceId": "20203925d22447479e7a0b97ca4862e0",
+      "version": "Cullinan, Dana Center Mathematics Pathways Long-Term Follow-Up Cost Analysis, 2023"
+    }
+  ],
+  "discovery": {
+    "path": "data/education/dcmp-collection-discovery.json",
+    "sha256": "9e5393b2bdee5c6285fc8852694377b6f8f13c47404d946da4528291bd6535fb"
+  },
+  "decisions": {
+    "source": {
+      "status": "accepted",
+      "rationale": "MDRC/CAPR primary report and study notes identify the source."
+    },
+    "identity": {
+      "status": "accepted",
+      "rationale": "Complete all-space search found no result collection and zero incoming memberships."
+    },
+    "content": {
+      "status": "accepted",
+      "rationale": "Facts preserve existing Claim headers, locators and typed sample counts; cost arithmetic remains source-qualified."
+    }
+  }
+}

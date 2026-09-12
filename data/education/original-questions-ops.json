@@ -1,0 +1,2177 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b1f70bc05d4e454dab2448a0e3172195"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Education Initiatives questions",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Questions about education policy and practice from the Education Initiatives collection. Each pairs an open question with its original debate framing.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c2add457fc6442efb1be6dfca0e7f882"
+    },
+    "entity": {
+      "$bytes": "d3d157f103704107a4becf4380515466"
+    },
+    "from": {
+      "$bytes": "b1f70bc05d4e454dab2448a0e3172195"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01Lb"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Questions",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "da014888d6684d79b9088cf0607fc3b9"
+    },
+    "entity": {
+      "$bytes": "68055b404dbf4631b56172d3d7dfd8cc"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07Hg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ca239d14dc124952be7b114e84c155bf"
+    },
+    "entity": {
+      "$bytes": "4e12120a60274a138e650a902784c482"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a0Ai3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4d4bbb3a246b4c53b85251d1c5533ec7"
+    },
+    "entity": {
+      "$bytes": "76d16ad4197a4723859c93518f06e096"
+    },
+    "from": {
+      "$bytes": "b1f70bc05d4e454dab2448a0e3172195"
+    },
+    "to": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a07p5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "17bfe79765964d90aa02db12c646a2dd"
+    },
+    "entity": {
+      "$bytes": "a6a2a5ccbc5c4de7af70b771ee887ff1"
+    },
+    "from": {
+      "$bytes": "76d16ad4197a4723859c93518f06e096"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a0BH5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ecd633126dcd4ed49204abb5a5af0601"
+    },
+    "entity": {
+      "$bytes": "760f7a362d7c4ed1bdf6c923d5888c46"
+    },
+    "from": {
+      "$bytes": "76d16ad4197a4723859c93518f06e096"
+    },
+    "to": {
+      "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0BaN"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d3fcf358c8f045058aa2d34050dc5b88"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "What adult-guided task, for which learner, replaces what prior activity, and with what measured learning gain?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Screens harm development vs technology enables learning.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "screens-harm-development-vs-technology-enables-learning",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eb5fa572e5d74a6a9f449ae2afe5faa5"
+    },
+    "entity": {
+      "$bytes": "ef3bd019af7d40a7a78849ef9cc0643b"
+    },
+    "from": {
+      "$bytes": "d3fcf358c8f045058aa2d34050dc5b88"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04JW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f65ee51a08794b4b916a4e02903251b1"
+    },
+    "entity": {
+      "$bytes": "d477af5f5e03463c9ed9d9164b3d11e1"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "d3fcf358c8f045058aa2d34050dc5b88"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a02rw"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2b8ebbfdebbe48d38345073ec76ab14b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "How do we guarantee code mastery without narrowing reading to decoding drills?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Whole language / balanced literacy vs phonics / Science of Reading.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "whole-language-balanced-literacy-vs-phonics-science-of-reading",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "baae1325ffa1494e8888627527c3820f"
+    },
+    "entity": {
+      "$bytes": "cb55d39dea4f4dbab7e55901a6900427"
+    },
+    "from": {
+      "$bytes": "2b8ebbfdebbe48d38345073ec76ab14b"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02QK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "004349925f854c49b997e4e0add33307"
+    },
+    "entity": {
+      "$bytes": "6861b2cd637f43a3b8aee5ddcca43c3b"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "2b8ebbfdebbe48d38345073ec76ab14b"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a11rw"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2302b059213c45d09d1a481a3592b25a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "What content sequence gives students the background knowledge needed to transfer skills?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Knowledge-rich curriculum vs generic skills.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "knowledge-rich-curriculum-vs-generic-skills",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b261f1dddba340c4a6d654c2eca26062"
+    },
+    "entity": {
+      "$bytes": "a13ab1a6cf1b421baa83b94a9a6ca4b0"
+    },
+    "from": {
+      "$bytes": "2302b059213c45d09d1a481a3592b25a"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00Bd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "62a3b10269204ea2a2e7bc31d3270310"
+    },
+    "entity": {
+      "$bytes": "d2b21d27969142f99e336d09c366cfa2"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "2302b059213c45d09d1a481a3592b25a"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a261C"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "98983a5634514c92be7bfc0917b93960"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For which content, prior knowledge level, and assessment type does inquiry beat explicit teaching?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Direct instruction vs inquiry/project-based learning.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "direct-instruction-vs-inquiry-project-based-learning",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f84c76c638e8489f95eb601c94eec5f4"
+    },
+    "entity": {
+      "$bytes": "0552961c0c5048cf8d0f5095123bb59a"
+    },
+    "from": {
+      "$bytes": "98983a5634514c92be7bfc0917b93960"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04QN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e67c928f2e4f40aeabd704ea89b4dbcb"
+    },
+    "entity": {
+      "$bytes": "97464903927144508c9113d7f345872a"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "98983a5634514c92be7bfc0917b93960"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a3BiH"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a143349b77104b268f29f1b94ef1b1dd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Which outcomes should be common and which decisions should remain local?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Standardization/accountability vs professional autonomy.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "standardization-accountability-vs-professional-autonomy",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "84e7ab6c64d74a9e951ff41e1e04ce2b"
+    },
+    "entity": {
+      "$bytes": "c51e012c1846416b8673fa028c9b09f9"
+    },
+    "from": {
+      "$bytes": "a143349b77104b268f29f1b94ef1b1dd"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02Zq"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "37bf970a864b48b187eb973ddf21a394"
+    },
+    "entity": {
+      "$bytes": "ea94e0b92d684371b581de06f3df6bec"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "a143349b77104b268f29f1b94ef1b1dd"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a46JB"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7826c5daf63f43eab428e9716dc97494"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "What school model and accountability system is being chosen, not just what governance label?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Choice/markets vs common public system.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "choice-markets-vs-common-public-system",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8b82387bfe7c4c7ca11b21f40bba9bf8"
+    },
+    "entity": {
+      "$bytes": "2b5e8cd268b6474a9e48985a6ce44b6f"
+    },
+    "from": {
+      "$bytes": "7826c5daf63f43eab428e9716dc97494"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AjN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "47485ad0ddcf4ad1b40b5d0472de09da"
+    },
+    "entity": {
+      "$bytes": "e0073b9202a447f28e19cbd64156879a"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "7826c5daf63f43eab428e9716dc97494"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a50Qj"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a9a93e4a83d84e78acdaf9332f5576cb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "What adaptations preserve the high-leverage content and task quality of the curriculum?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Central curriculum / HQIM vs teacher-created materials.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "central-curriculum-hqim-vs-teacher-created-materials",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ef410d94e4b249e390a2df8d5a9bec94"
+    },
+    "entity": {
+      "$bytes": "9ba74822646d445a975422cc6ea32cd5"
+    },
+    "from": {
+      "$bytes": "a9a93e4a83d84e78acdaf9332f5576cb"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0B61"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a25dcf6a5e5b4b868ec59e2860703159"
+    },
+    "entity": {
+      "$bytes": "0d00975fee724085968a1cd2bb2a46db"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "a9a93e4a83d84e78acdaf9332f5576cb"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a60AS"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f5de77428f4e4db0a608711f55b1642a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "What support lets students succeed in grade-level content without tracking them into low expectations?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Remediation/readiness vs grade-level acceleration.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "remediation-readiness-vs-grade-level-acceleration",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d9f725a0e00046a9b8c46f90043cbf76"
+    },
+    "entity": {
+      "$bytes": "0dedb5acab1e40e6a51afdcda050a26f"
+    },
+    "from": {
+      "$bytes": "f5de77428f4e4db0a608711f55b1642a"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04jd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "67fb6c69cc5741e389a3147f53d078ce"
+    },
+    "entity": {
+      "$bytes": "cddacf31710f4364801db85901a2cc2d"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "f5de77428f4e4db0a608711f55b1642a"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a72k7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1f37c87dbec34463832f0666a8960052"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "How do we reduce exclusion while preserving safety and time-on-task?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Discipline/order vs restorative/relational climate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "discipline-order-vs-restorative-relational-climate",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4d86145f74a145409ca00fbd6c949a2e"
+    },
+    "entity": {
+      "$bytes": "5c5d950bc6fb42d98e2eb7bc34fe7fbe"
+    },
+    "from": {
+      "$bytes": "1f37c87dbec34463832f0666a8960052"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03CB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4a7eb4e183574684b36cb527b9a06101"
+    },
+    "entity": {
+      "$bytes": "8506452ee624431f8d3bf3bf026a8548"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "1f37c87dbec34463832f0666a8960052"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a88kC"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "614ce411b5f043089f0b6737569adb11"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Which nonacademic supports measurably increase instructional engagement and persistence?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "SEL/whole-child vs academics-first.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "sel-whole-child-vs-academics-first",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f6932079733247c08d4f4fe64b9af76c"
+    },
+    "entity": {
+      "$bytes": "9dbbbe6cdd4446a996f8e1b0b1b12a88"
+    },
+    "from": {
+      "$bytes": "614ce411b5f043089f0b6737569adb11"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03bC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "58c3fde015da43abb510f7d43b3f9841"
+    },
+    "entity": {
+      "$bytes": "95bb746aea9c432a970e6663bea7a456"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "614ce411b5f043089f0b6737569adb11"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a9A1h"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7556a5a295f64a9e8271ad8e65199581"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Which measures are for development, which for personnel decisions, and how are errors handled?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher incentives/evaluation vs trust/professionalism.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "teacher-incentives-evaluation-vs-trust-professionalism",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1d7710b4860449b0ba77b404d639160d"
+    },
+    "entity": {
+      "$bytes": "c38a265ec3304039b9881382a9488e81"
+    },
+    "from": {
+      "$bytes": "7556a5a295f64a9e8271ad8e65199581"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08X8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "53afd3d2728140ef8cc7b9945dd7a1ad"
+    },
+    "entity": {
+      "$bytes": "bf0eccf4f2884c1998442afc7b13b92f"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "7556a5a295f64a9e8271ad8e65199581"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aA4oF"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9a6579f8e2164ed7849a586a846024c6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Can AI raise dosage or teacher capacity without replacing high-value human interaction?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Human tutoring vs AI tutoring.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "human-tutoring-vs-ai-tutoring",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6708fd175199473bbb2b0bab9f16ccd8"
+    },
+    "entity": {
+      "$bytes": "2cc34dc5c37045389f2297f0e0ac0d91"
+    },
+    "from": {
+      "$bytes": "9a6579f8e2164ed7849a586a846024c6"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06jl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ba81022fafd24b4eb003ffcb7190ec48"
+    },
+    "entity": {
+      "$bytes": "702c7d84460a4eefa4af507f9942cf30"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "9a6579f8e2164ed7849a586a846024c6"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aB112"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c7b8f02e5396465ba9524e37c3633a67"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Which adult-child interactions and curricula produce both readiness and later well-being?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Early academics vs play-based pre-K.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "early-academics-vs-play-based-pre-k",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6ecac37181174b72af3e4eb8b0b73555"
+    },
+    "entity": {
+      "$bytes": "110acb68446343229d63d5dc52b81ac2"
+    },
+    "from": {
+      "$bytes": "c7b8f02e5396465ba9524e37c3633a67"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BIC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "df9256ce8fbc4b2c89dd6e4cc7239f35"
+    },
+    "entity": {
+      "$bytes": "48fa9ba5df36437ead9a4c76571b18fe"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "c7b8f02e5396465ba9524e37c3633a67"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aC59K"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f95bcc9e6d254dbc8743c5131248b233"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Are students getting portable credentials, academic rigor, and real postsecondary options?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "College-for-all vs CTE/career pathways.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "college-for-all-vs-cte-career-pathways",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a1770ba96dec41f5a4ed286e6848eab3"
+    },
+    "entity": {
+      "$bytes": "ea97b169bff64a6280af99767004b3a2"
+    },
+    "from": {
+      "$bytes": "f95bcc9e6d254dbc8743c5131248b233"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04bR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3a30d06e91084339898ca2a9c8fcc80e"
+    },
+    "entity": {
+      "$bytes": "e1111ad25f82442197e03863fee25ec9"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "f95bcc9e6d254dbc8743c5131248b233"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aDAcT"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1b640bce81654f6f9de5ddac796ea6d2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Which functions need smallness, and which can be shared across a larger system?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Small schools/personalization vs comprehensive breadth.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "small-schools-personalization-vs-comprehensive-breadth",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "164270b6af7d4860b3599e65bec6dfa5"
+    },
+    "entity": {
+      "$bytes": "6c92cf8935d44a7198aef17fa21a6b28"
+    },
+    "from": {
+      "$bytes": "1b640bce81654f6f9de5ddac796ea6d2"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01fZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a425e9721c974919a9d36b256812bf3c"
+    },
+    "entity": {
+      "$bytes": "0130d660ad6449fb8d249f769ebc5886"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "1b640bce81654f6f9de5ddac796ea6d2"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aE2NL"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f23481529dfd4dea9f42d8f2a42b52d1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "What problem is narrow enough for CI, and when is structural redesign required?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Data-driven continuous improvement vs big-bang reform.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "data-driven-continuous-improvement-vs-big-bang-reform",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0584c546b3434d928dd1e086e6235d5e"
+    },
+    "entity": {
+      "$bytes": "ada0bbe4b9384c8c853a1d38008429a7"
+    },
+    "from": {
+      "$bytes": "f23481529dfd4dea9f42d8f2a42b52d1"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04Zc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "78074d57df62439f998cfabfdf63e770"
+    },
+    "entity": {
+      "$bytes": "f1e933d85e8e4826a04b41e51c699f04"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "f23481529dfd4dea9f42d8f2a42b52d1"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aF4Og"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "449846bac82a4735bfed599f517acbf2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Which student outcomes count: achievement, opportunity, civic contact, safety, or legitimacy?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Integration/desegregation vs neighborhood/local control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "integration-desegregation-vs-neighborhood-local-control",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bdde887c1dc442d38853f303d57334e6"
+    },
+    "entity": {
+      "$bytes": "c20334c413a74a54954cf1af515681fa"
+    },
+    "from": {
+      "$bytes": "449846bac82a4735bfed599f517acbf2"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09mT"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3e7883d8e96d48f981b24f6bced225e8"
+    },
+    "entity": {
+      "$bytes": "88bf02ccf29e45acb47dbdfdd5eb0921"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "449846bac82a4735bfed599f517acbf2"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aG4oO"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e8844d6fb34c42038a91d45044dfd367"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "How do schools preserve rigor and access while giving different students different supports?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Tracking/acceleration vs detracking/inclusion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "tracking-acceleration-vs-detracking-inclusion",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bb185aef5c02456dada05fd32a78eeca"
+    },
+    "entity": {
+      "$bytes": "f473e290274e4ed095184f807630b119"
+    },
+    "from": {
+      "$bytes": "e8844d6fb34c42038a91d45044dfd367"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01IX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d6eae2c8c50643cc93d85c29ec6383e1"
+    },
+    "entity": {
+      "$bytes": "3869897b72824145b88b174404d08cee"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "e8844d6fb34c42038a91d45044dfd367"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aH0KA"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7ca838f7ca754efb8df89e55bb1e42b4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "What is the time horizon, and are we measuring English-only achievement or biliteracy plus academics?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Bilingual dual-language vs English immersion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "bilingual-dual-language-vs-english-immersion",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "13f241f66a774a41a80d33ba3032f0c9"
+    },
+    "entity": {
+      "$bytes": "dbeeee9c3fae4dfba3bb0867bf86185f"
+    },
+    "from": {
+      "$bytes": "7ca838f7ca754efb8df89e55bb1e42b4"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0C7o"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d8fddcbf88934f0781fa75f220a83151"
+    },
+    "entity": {
+      "$bytes": "34f6c831d3d54261b72a99b8724aba84"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "7ca838f7ca754efb8df89e55bb1e42b4"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aI66G"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c544991c5bf14fa9a5a20b3543cf6ea3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Which marginal dollars buy the highest-value inputs in this context?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "More money/resources vs 'money does not matter'.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "more-money-resources-vs-money-does-not-matter",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "261ed56518134855af6b9b0f8205e5aa"
+    },
+    "entity": {
+      "$bytes": "916d7054e84542f48c810f105b84b686"
+    },
+    "from": {
+      "$bytes": "c544991c5bf14fa9a5a20b3543cf6ea3"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0C4B"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0093a3df27c745508dcfa8f0cff49349"
+    },
+    "entity": {
+      "$bytes": "355ad54a52da4f11bb97fed7269b9ea8"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "c544991c5bf14fa9a5a20b3543cf6ea3"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aJ6zY"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e67fb8be0ca74c54a148ad318fefbadf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "What external outcomes verify mastery when internal grades are redesigned?",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Seat time vs mastery.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "seat-time-vs-mastery",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/dichotomies.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c1aed860513040deb6406633ab14bedf"
+    },
+    "entity": {
+      "$bytes": "35d20d6f10cd486ca1055c4bf8ad68b6"
+    },
+    "from": {
+      "$bytes": "e67fb8be0ca74c54a148ad318fefbadf"
+    },
+    "to": {
+      "$bytes": "4318a1d2c441455cb76544049c45e6cf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02Fs"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a895c3d61a244247a280205ede03d320"
+    },
+    "entity": {
+      "$bytes": "db88cc6bc16b4d939910d9946c67e75d"
+    },
+    "from": {
+      "$bytes": "d19cf5813cf9451d9ef7d793c9b7c9d9"
+    },
+    "to": {
+      "$bytes": "e67fb8be0ca74c54a148ad318fefbadf"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aK9Pv"
+  }
+]

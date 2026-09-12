@@ -588,7 +588,7 @@ async function loadEntityNameIndexBySpace(
           spaceIds: $spaceIds
           first: $first
           after: $after
-          filter: { name: { isNot: null } }
+          filter: { name: { isNull: false } }
         ) {
           pageInfo {
             endCursor
@@ -639,7 +639,7 @@ async function loadEntityNameIndexByType(
               typeId: $typeId
               first: $first
               after: $after
-              filter: { name: { isNot: null } }
+              filter: { name: { isNull: false } }
             ) {
               pageInfo {
                 endCursor
@@ -974,12 +974,15 @@ function collectProposedRecords(
   return [...deduped.values()];
 }
 
+// Destination-only fuzzy screening (first 1,000 records), not graph-wide dedupe.
+// Missing here does not mean new: verify cross-space identity candidates before
+// creating entities, including candidates outside the relation fallback indexes.
 async function loadExistingRecords(spaceId: string): Promise<DedupeExistingRecord[]> {
   const { gql } = await import("./src/functions");
   const started = Date.now();
   const result = await gql<EntitiesListResult>(
     `query ExistingEntitiesForDedupe($spaceId: UUID!, $first: Int!) {
-      entities(spaceId: $spaceId, first: $first, filter: { name: { isNot: null } }) {
+      entities(spaceId: $spaceId, first: $first, filter: { name: { isNull: false } }) {
         id
         name
         typeIds
@@ -1609,7 +1612,7 @@ async function main() {
         });
         let lastPos: string | null = null;
         for (const lessonId of orderedLessonIds) {
-          const position = lastPos ? Position.generateBetween(lastPos, null) : Position.generate();
+          const position: string = lastPos ? Position.generateBetween(lastPos, null) : Position.generate();
           lastPos = position;
           const relationResult = Graph.createRelation({
             fromEntity: pending.courseEntityId,

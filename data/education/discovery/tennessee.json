@@ -1,0 +1,33 @@
+{
+  "term": "Tennessee",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:58:07.811Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "b753211b9fd6470b8bb0ed709b97b789",
+      "name": "Tennessee",
+      "description": "Music, healthcare, logistics, automotive, and tourism hub spanning Nashville, Memphis, and the Smokies.",
+      "spaceIds": [
+        "84a679ce188f061ac9a92380bac2bab5"
+      ],
+      "types": [
+        {
+          "id": "783bc688e65f4e54b67fa5643d78345e",
+          "name": "Place"
+        },
+        {
+          "id": "dbe62a14ec954a7193767db33b661ff5",
+          "name": "State"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYjc1MzIxMWItOWZkNi00NzBiLThiYjAtZWQ3MDliOTdiNzg5Il1d"
+    }
+  ]
+}

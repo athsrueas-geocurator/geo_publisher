@@ -1,0 +1,138 @@
+{
+  "name": "Add remaining seven STAR experimental achievement estimates",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/star-experimental-remaining-ops.json",
+  "sha256": "2d1695d02a1b7f3173d7853dbd5b18f2674e7d1ffbf88ce9548f1cfebf1d28db",
+  "operationCount": 70,
+  "datasetId": "9220554acfd249a18920b301dcbb6cf0",
+  "paperId": "efdefdaf3fbd4d02bd44228882c09359",
+  "studyId": "d68c6d1d10af47418fc80ed09d4e097f",
+  "blockId": "8de2afc87d99401b99c6db5e8d25460b",
+  "selected": [
+    {
+      "key": "k-aide-rf7",
+      "grade": "K",
+      "arm": "regular class with full-time aide",
+      "value": 0.53,
+      "standardError": 1.09,
+      "n": 5861,
+      "panel": "A",
+      "locator": "Table V, column 7, panel A, p. 512",
+      "id": "831a394e674a4826b8343d205df764d6"
+    },
+    {
+      "key": "g1-small-rf7",
+      "grade": "1",
+      "arm": "small class",
+      "value": 6.79,
+      "standardError": 1.1,
+      "n": 6452,
+      "panel": "B",
+      "locator": "Table V, column 7, panel B, p. 512",
+      "id": "88a750e93ad64f5784a62644f8f4a9db"
+    },
+    {
+      "key": "g1-aide-rf7",
+      "grade": "1",
+      "arm": "regular class with full-time aide",
+      "value": 1.64,
+      "standardError": 0.76,
+      "n": 6452,
+      "panel": "B",
+      "locator": "Table V, column 7, panel B, p. 512",
+      "id": "c234b1291e90415b9fa31a9f02782339"
+    },
+    {
+      "key": "g2-small-rf7",
+      "grade": "2",
+      "arm": "small class",
+      "value": 5.27,
+      "standardError": 1.1,
+      "n": 5950,
+      "panel": "C",
+      "locator": "Table V, column 7, panel C, p. 513",
+      "id": "939d786645e44217b3c435ca3a0c2b6b"
+    },
+    {
+      "key": "g2-aide-rf7",
+      "grade": "2",
+      "arm": "regular class with full-time aide",
+      "value": 1.16,
+      "standardError": 0.81,
+      "n": 5950,
+      "panel": "C",
+      "locator": "Table V, column 7, panel C, p. 513",
+      "id": "a06f616cfe594329b80245b88960a5e5"
+    },
+    {
+      "key": "g3-small-rf7",
+      "grade": "3",
+      "arm": "small class",
+      "value": 5.3,
+      "standardError": 1.03,
+      "n": 6109,
+      "panel": "D",
+      "locator": "Table V, column 7, panel D, p. 513",
+      "id": "1712d6b99fdd4e2cb6bea8bee28d61a3"
+    },
+    {
+      "key": "g3-aide-rf7",
+      "grade": "3",
+      "arm": "regular class with full-time aide",
+      "value": 0.13,
+      "standardError": 0.81,
+      "n": 6109,
+      "panel": "D",
+      "locator": "Table V, column 7, panel D, p. 513",
+      "id": "28500731d7ea47869b219483710e0b1c"
+    }
+  ],
+  "entities": [
+    {
+      "id": "831a394e674a4826b8343d205df764d6",
+      "name": "STAR kindergarten: regular class with full-time aide assignment effect",
+      "type": "96f859efa1ca4b229372c86ad58b694b",
+      "description": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants."
+    },
+    {
+      "id": "88a750e93ad64f5784a62644f8f4a9db",
+      "name": "STAR grade 1: small class assignment effect",
+      "type": "96f859efa1ca4b229372c86ad58b694b",
+      "description": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants."
+    },
+    {
+      "id": "c234b1291e90415b9fa31a9f02782339",
+      "name": "STAR grade 1: regular class with full-time aide assignment effect",
+      "type": "96f859efa1ca4b229372c86ad58b694b",
+      "description": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants."
+    },
+    {
+      "id": "939d786645e44217b3c435ca3a0c2b6b",
+      "name": "STAR grade 2: small class assignment effect",
+      "type": "96f859efa1ca4b229372c86ad58b694b",
+      "description": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants."
+    },
+    {
+      "id": "a06f616cfe594329b80245b88960a5e5",
+      "name": "STAR grade 2: regular class with full-time aide assignment effect",
+      "type": "96f859efa1ca4b229372c86ad58b694b",
+      "description": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants."
+    },
+    {
+      "id": "1712d6b99fdd4e2cb6bea8bee28d61a3",
+      "name": "STAR grade 3: small class assignment effect",
+      "type": "96f859efa1ca4b229372c86ad58b694b",
+      "description": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants."
+    },
+    {
+      "id": "28500731d7ea47869b219483710e0b1c",
+      "name": "STAR grade 3: regular class with full-time aide assignment effect",
+      "type": "96f859efa1ca4b229372c86ad58b694b",
+      "description": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants."
+    }
+  ],
+  "journalPath": "data/education/star-experimental-remaining-publication.json",
+  "validationPath": "data/education/star-experimental-remaining-validation.json",
+  "registry": "data/education/star-experimental-registry.json"
+}

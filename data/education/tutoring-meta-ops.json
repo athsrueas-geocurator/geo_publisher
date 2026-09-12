@@ -1,0 +1,212 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "76f18ade420143779ca3c67183dc1dd8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The Impressive Effects of Tutoring on PreK-12 Learning: A Systematic Review and Meta-Analysis of the Experimental Evidence",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Nickow, Oreopoulos and Quan (2020) synthesize experimental evidence on one-to-one and small-group tutoring across PreK–12 settings. The NBER working paper reports a pooled learning effect of 0.37 standard deviations and compares tutor type, grade, subject and delivery setting.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.3386/w27476",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.nber.org/papers/w27476",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "672591a3bafd49b6bc0843364cf1b41e"
+    },
+    "entity": {
+      "$bytes": "5ce618f0f25d425288eec3f4bfffad78"
+    },
+    "from": {
+      "$bytes": "76f18ade420143779ca3c67183dc1dd8"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9b94180ac02b464a9bd1a2c873d75e97"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Experimental tutoring programs produced a pooled learning gain of 0.37 standard deviations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Nickow, Oreopoulos and Quan (2020) report an overall pooled effect size of 0.37 standard deviations across experimental PreK–12 tutoring studies. Effects vary by tutor type, grade, subject and whether tutoring occurs during school; the pooled estimate does not describe every implementation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "37"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "NBER Working Paper 27476 abstract",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6ad4f34eba104b3294c587bb918b5c86"
+    },
+    "entity": {
+      "$bytes": "2175d0b3926344449c586dc84c79117f"
+    },
+    "from": {
+      "$bytes": "9b94180ac02b464a9bd1a2c873d75e97"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "501285794650458191855a05e754905a"
+    },
+    "entity": {
+      "$bytes": "ab075116b6a74ea1840cf9eba4e6e9d9"
+    },
+    "from": {
+      "$bytes": "9b94180ac02b464a9bd1a2c873d75e97"
+    },
+    "to": {
+      "$bytes": "76f18ade420143779ca3c67183dc1dd8"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "474d91d55faf413a98bcefa356af865e"
+    },
+    "entity": {
+      "$bytes": "d46ed0af75ba43bb9270c4c05fbc9c3e"
+    },
+    "from": {
+      "$bytes": "9b94180ac02b464a9bd1a2c873d75e97"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    }
+  }
+]

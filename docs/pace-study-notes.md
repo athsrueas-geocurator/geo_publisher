@@ -1,0 +1,17 @@
+# PACE Center for Girls, 2019 MDRC evaluation
+
+Primary source: Megan Millenky, Louisa Treskon, Lily Freedman, and Caroline Mage, *Focusing on Girls’ Futures: Results from the Evaluation of PACE Center for Girls* (MDRC, January 2019), https://www.mdrc.org/work/publications/focusing-girls-futures/file-full.
+
+The randomized study assigned 1,125 eligible applicants across 14 Florida PACE centers between August 2013 and November 2015: 673 offered PACE and 452 referred to alternative community services. It evaluates the voluntary, nonresidential, year-round PACE package of academics, counseling, case management, gender-responsive life-skills programming, and follow-up services for girls aged 11–18 who had risk factors for juvenile-justice involvement. It is not a no-service comparison or evidence about all girls, all Florida schools, or other gender-responsive programs.
+
+Publish selected Table ES.1/Table 3.1 facts separately: +9.8 school days present (119.6 versus 109.8, p=.013); +13.4 percentage points on the high-school on-track composite (27.6% versus 14.2%, p<.001); +10.6 points in credits earned as a share of credits attempted (77.5% versus 66.9%, p=.001); and −16.7 points ever suspended (29.6% versus 46.4%, p<.001). These administrative outcomes cover the Florida public-school system during the first follow-up calendar year; credit and on-track measures include high-school students only (N=1,040). The on-track composite requires absence below 10% of enrolled days, no expulsion/suspension, and no core-course failure.
+
+The 18-month juvenile-justice finding is also factual context: one or more charges were 22.0% versus 21.2% (+0.8 points, p=.739, full N=1,125), so the report found no short-term charge reduction. The report says the short follow-up cannot establish later graduation, delinquency, or full cost-effectiveness outcomes.
+
+The cost analysis estimates a **$10,400** net societal cost per program-group girl versus control services over the study’s 12-month service window. Its costs are expressed in May 2017 dollars; it adjusts PACE annual costs to the 7.9-month average stay and excludes participant opportunity costs. Program-group public-school costs after a PACE exit could not be observed, producing an explicitly reported $0–$3,160 uncertainty in that component. No benefit-cost ratio, avoided-justice-cost estimate, or long-term savings claim is created.
+
+The Article, Initiative, and all factual records reuse the canonical Florida State identity. The report’s statewide 14-center scope does not identify one representative city or provide vetted center coordinates, so this package does not create a PACE organization, location pins, or an outreach map entry.
+
+Collection discovery is available as `bun run education:discover-pace-collection`. The 2026-09-12 run found one expected source Article, no result-collection candidate, and zero incoming `Collection-item` memberships across seven factual Claims. A result block can be prepared while preserving the distinct follow-up horizons and source cost qualifications; publication remains paused.
+
+The shared prepare-only build succeeds with `bun run education:prepare-pace-collection` followed by `education:build-collection`, producing `data/education/pace-collection-batch.json` with 27 operations and seven reused Claims. The design Claim remains in a context block; six findings retain typed sample counts and source-defined measures.

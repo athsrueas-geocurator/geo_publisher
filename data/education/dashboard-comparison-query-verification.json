@@ -1,0 +1,1274 @@
+{
+  "checkedAt": "2026-09-12T10:37:07.752Z",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "queryPath": "data/education/dashboard-comparison-query.graphql",
+  "scope": "Destination-scoped multi-intervention comparison rows. It returns factual and evaluative Claims, so consumers must use the factual flag before treating a row as evidence. Units remain incompatible and do not authorize a ranking. When one Study has multiple evidence families, the source Article is a required second filter.",
+  "cases": [
+    {
+      "name": "Head Start",
+      "expectedIds": [
+        "077db384eb6c44ffa603cdb1df6babca",
+        "2355c47904614503b2c107b6fcb5475a",
+        "32fd5b7fd71748ddbfaf66c26dfba396",
+        "3dd5519b7eae4a6ea1f6b708e20829f1",
+        "406a5d2ea1f44b128f3610c8fbd872e1",
+        "5a9bcb3bcefe4ba7aca2d65a34b40268",
+        "5b02e1f4ded1472e824dc4ec72d3a772",
+        "5c82c782947c47028a47400e16702870",
+        "5d104e15b60f4aa6a7270551984129ad",
+        "63f6ee056e884f9e98a9695740af5b30",
+        "641abfc8e0dd457792906643e2989850",
+        "6878e89ead3840bea0fc42003d648ebc",
+        "68b02f7a1980436e9bdb6fd908278a5c",
+        "7c9180da2b3c4d698ed196db8423d943",
+        "82668a2ddf8646c59a81cee556974d0d",
+        "854919bb6d1e43a7a279a5e1e126204f",
+        "88b7f88424de4eefa20b5a53fede323f",
+        "92f33511b5b84541be7ac3f6ec699338",
+        "931014fa9a4841c183a964ef3f85f2e4",
+        "a185b84516a340beb6ca1d2308780ee7",
+        "abe06302835b40b191d09c50ecc0527d",
+        "af2d8b40901042e9a3d1b9b0fb54c459",
+        "bc2089feb5a448eeafa9a7c95f7a4dd0",
+        "c33e113e99dc4f6883a47d67d0842c35",
+        "c7ede29bb16543889aee96049231a4c6",
+        "d861591f27be4d0c9432632f12dfdc0b",
+        "d95d03698ee947e692bf84aa2f181371",
+        "e106644ea9c3493eaff5d9202472427a",
+        "e2fd2a1b244d4102bafebbb8981780c7",
+        "e6708fe654214deaab1e20664f3f8ded",
+        "e6bcb5c29ea74e5e93cfcb550fb9b127",
+        "f157c7f622a14502a871b6840a3b1c2b",
+        "f2fde6171f684e5688bad62638d5fb23"
+      ],
+      "actualIds": [
+        "077db384eb6c44ffa603cdb1df6babca",
+        "2355c47904614503b2c107b6fcb5475a",
+        "32fd5b7fd71748ddbfaf66c26dfba396",
+        "3dd5519b7eae4a6ea1f6b708e20829f1",
+        "406a5d2ea1f44b128f3610c8fbd872e1",
+        "5a9bcb3bcefe4ba7aca2d65a34b40268",
+        "5b02e1f4ded1472e824dc4ec72d3a772",
+        "5c82c782947c47028a47400e16702870",
+        "5d104e15b60f4aa6a7270551984129ad",
+        "5f893830d2a249c29143f904fe4882eb",
+        "63f6ee056e884f9e98a9695740af5b30",
+        "641abfc8e0dd457792906643e2989850",
+        "6878e89ead3840bea0fc42003d648ebc",
+        "68b02f7a1980436e9bdb6fd908278a5c",
+        "738352627e694053ae6d7384d7293d01",
+        "7c9180da2b3c4d698ed196db8423d943",
+        "82668a2ddf8646c59a81cee556974d0d",
+        "854919bb6d1e43a7a279a5e1e126204f",
+        "88b7f88424de4eefa20b5a53fede323f",
+        "92f33511b5b84541be7ac3f6ec699338",
+        "931014fa9a4841c183a964ef3f85f2e4",
+        "a185b84516a340beb6ca1d2308780ee7",
+        "abe06302835b40b191d09c50ecc0527d",
+        "af2d8b40901042e9a3d1b9b0fb54c459",
+        "b63ab84606664cbfae0bd503922beff9",
+        "bc2089feb5a448eeafa9a7c95f7a4dd0",
+        "c33e113e99dc4f6883a47d67d0842c35",
+        "c7ede29bb16543889aee96049231a4c6",
+        "c94ca8e97b2a40f297ffbe86db191a07",
+        "ccb338ae58a44f3e81541f9cb958fcb3",
+        "d861591f27be4d0c9432632f12dfdc0b",
+        "d95d03698ee947e692bf84aa2f181371",
+        "e106644ea9c3493eaff5d9202472427a",
+        "e2fd2a1b244d4102bafebbb8981780c7",
+        "e6708fe654214deaab1e20664f3f8ded",
+        "e6bcb5c29ea74e5e93cfcb550fb9b127",
+        "f157c7f622a14502a871b6840a3b1c2b",
+        "f2fde6171f684e5688bad62638d5fb23"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "WJ III Applied Problems-score ITT difference at third grade, Head Start access minus control; 4-year-old cohort.",
+        "Regression-adjusted parent-reported treatment-on-the-treated impact on promotion to the next grade at third grade; 3-year-old cohort; lower is less favorable.",
+        "WJ III Calculation-score ITT difference at third grade, Head Start access minus control; 3-year-old cohort.",
+        null,
+        "Regression-adjusted teacher-reported treatment-on-the-treated impact on being in the normal category for emotional symptoms at third grade; 4-year-old cohort; lower is less favorable.",
+        "ECLS-K Reading-score ITT difference at third grade, Head Start access minus control; 3-year-old cohort.",
+        "WJ III Letter-Word Identification-score ITT difference at third grade, Head Start access minus control; 4-year-old cohort.",
+        "PPVT adapted-score ITT difference at third grade, Head Start access minus control; 4-year-old cohort.",
+        "ECLS-K Reading-score treatment-on-the-treated impact at third grade, Head Start participation versus no participation; 4-year-old cohort.",
+        null,
+        "PPVT adapted-score ITT difference at third grade, Head Start access minus control; 3-year-old cohort.",
+        "Regression-adjusted child-reported peer-relations ITT difference at third grade, Head Start access minus control; 4-year-old cohort; lower is less favorable.",
+        "WJ III Applied Problems-score ITT difference at third grade, Head Start access minus control; 3-year-old cohort.",
+        null,
+        null,
+        "Regression-adjusted teacher-reported positive-teacher-child-relationship ITT difference at third grade, Head Start access minus control; 4-year-old cohort; lower is less favorable.",
+        null,
+        "Regression-adjusted parent-reported time-spent-with-child treatment-on-the-treated impact at third grade; 4-year-old cohort; higher is more favorable.",
+        "WJ III Letter-Word Identification-score ITT difference at third grade, Head Start access minus control; 3-year-old cohort.",
+        "Regression-adjusted parent-reported total-problem-behavior ITT difference at third grade, Head Start access minus control; 4-year-old cohort; lower is more favorable.",
+        "Regression-adjusted parent-reported total-problem-behavior treatment-on-the-treated impact at third grade; 4-year-old cohort; lower is more favorable.",
+        "Regression-adjusted parent-reported aggressive-behavior ITT difference at third grade, Head Start access minus control; 4-year-old cohort; lower is more favorable.",
+        "WJ III Calculation-score ITT difference at third grade, Head Start access minus control; 4-year-old cohort.",
+        "Regression-adjusted teacher-reported closeness-with-teacher ITT difference at third grade, Head Start access minus control; 4-year-old cohort; lower is less favorable.",
+        null,
+        "Regression-adjusted parent-reported social-skills-and-positive-approaches-to-learning ITT difference at third grade, Head Start access minus control; 3-year-old cohort; higher is more favorable.",
+        "Regression-adjusted teacher-reported percentage-point/probability impact on being in the normal category for emotional symptoms at third grade, Head Start access minus control; 4-year-old cohort; lower is less favorable.",
+        null,
+        null,
+        null,
+        "Regression-adjusted parent-reported aggressive-behavior treatment-on-the-treated impact at third grade; 4-year-old cohort; lower is more favorable.",
+        "Regression-adjusted teacher-reported positive-teacher-child-relationship treatment-on-the-treated impact at third grade; 4-year-old cohort; lower is less favorable.",
+        "Regression-adjusted parent-reported social-skills-and-positive-approaches-to-learning treatment-on-the-treated impact at third grade; 3-year-old cohort; higher is more favorable.",
+        "ECLS-K Reading-score ITT difference at third grade, Head Start access minus control; 4-year-old cohort.",
+        "Regression-adjusted child-reported peer-relations treatment-on-the-treated impact at third grade; 4-year-old cohort; lower is less favorable.",
+        "Regression-adjusted parent-reported probability impact on promotion to the next grade at third grade, Head Start access minus control; 3-year-old cohort; lower is less favorable.",
+        "Regression-adjusted teacher-reported closeness-with-teacher treatment-on-the-treated impact at third grade; 4-year-old cohort; lower is less favorable.",
+        "Regression-adjusted parent-reported time-spent-with-child ITT difference at third grade, Head Start access minus control; 4-year-old cohort; higher is more favorable."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Double-dose algebra",
+      "expectedIds": [
+        "2063d9cfcf2b4e40abdfad42e6e4b8dd",
+        "3e0f4631a1154693a241fdbf763f7cd1",
+        "e6b77d5b70184fbcb447bf2b471f9122"
+      ],
+      "actualIds": [
+        "2063d9cfcf2b4e40abdfad42e6e4b8dd",
+        "3e0f4631a1154693a241fdbf763f7cd1",
+        "e6b77d5b70184fbcb447bf2b471f9122"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        null,
+        null,
+        null
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "EWIMS",
+      "expectedIds": [
+        "0de12708d651452abdc2dabbfd9be21b",
+        "85466d6690f1484c88d5faa727353823",
+        "c9d827735fb947d398092dbf5459b90b"
+      ],
+      "actualIds": [
+        "0de12708d651452abdc2dabbfd9be21b",
+        "5c3e095b65194d1fb896ea0e75b33367",
+        "85466d6690f1484c88d5faa727353823",
+        "c9d827735fb947d398092dbf5459b90b",
+        "daee2a0143c8424e947db9ca08cc8981"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Percentage-point difference in insufficient-credits risk: EWIMS minus control, after one year; reported 14% in both groups.",
+        null,
+        "Percentage-point difference in one-or-more-course-failure risk: EWIMS minus control, after one year.",
+        "Percentage-point difference in chronic-absence risk: EWIMS minus control, after one year.",
+        null
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Career Academies",
+      "expectedIds": [
+        "308e7f13d2b64e5ab703ff0c6efaf02e",
+        "7fce844370e840cc855866e85ed84b0b",
+        "f9e2d6635ad94fb8acbefcc9d78b15cd"
+      ],
+      "actualIds": [
+        "308e7f13d2b64e5ab703ff0c6efaf02e",
+        "7fce844370e840cc855866e85ed84b0b",
+        "ad46bd08a240475ea7e837be5b50ffe5",
+        "f9e2d6635ad94fb8acbefcc9d78b15cd"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "USD per year, 2006 dollars; Academy-minus-control average over eight years.",
+        "USD per year, 2006 dollars; young-men subgroup, Academy-minus-control average over eight years.",
+        null,
+        null
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "CUNY ASAP",
+      "expectedIds": [
+        "3f683173e12241f085f0123ba443abe0",
+        "bb0f9095fd6b476cb6a4a3eab822ba5a",
+        "df9121e211a44e76acc6fe1055f12caf"
+      ],
+      "actualIds": [
+        "3f683173e12241f085f0123ba443abe0",
+        "bb0f9095fd6b476cb6a4a3eab822ba5a",
+        "df9121e211a44e76acc6fe1055f12caf"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [
+        "0beecfa08f39431b827a08d4d2076719",
+        "413205d66d2d465380c8cab7e7960aa5",
+        "8bc4688bf6cd469aae76433fde1e67a2",
+        "d67b77b6641247d4bae9af3e346d7d34"
+      ],
+      "units": [
+        "Percentage-point difference in associate-degree receipt, program minus control, eight years after study entry (52% versus 39.9%).",
+        null,
+        null
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "CUNY ASAP three-year randomized outcomes",
+      "expectedIds": [
+        "0beecfa08f39431b827a08d4d2076719",
+        "413205d66d2d465380c8cab7e7960aa5",
+        "8bc4688bf6cd469aae76433fde1e67a2",
+        "d67b77b6641247d4bae9af3e346d7d34"
+      ],
+      "actualIds": [
+        "0beecfa08f39431b827a08d4d2076719",
+        "413205d66d2d465380c8cab7e7960aa5",
+        "8bc4688bf6cd469aae76433fde1e67a2",
+        "d67b77b6641247d4bae9af3e346d7d34"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [
+        "3f683173e12241f085f0123ba443abe0",
+        "bb0f9095fd6b476cb6a4a3eab822ba5a",
+        "df9121e211a44e76acc6fe1055f12caf"
+      ],
+      "units": [
+        "Percentage-point difference in four-year-college enrollment during semester six, ASAP minus usual services.",
+        "Credit difference in cumulative total credits earned after three years, ASAP minus usual services.",
+        "Percentage-point difference in cumulative degree receipt at any college after three years, ASAP minus usual services.",
+        null
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "ASAP Ohio eight-year randomized outcomes",
+      "expectedIds": [
+        "2361bf1c97df4680a81e9927739f6c69",
+        "3cfb004b3eac486ba4ac5963e8c13e9b",
+        "6484637afbca49e9a67a24b3bf7bfd1f",
+        "d0ed7feb162648238b682bed38f2e20d"
+      ],
+      "actualIds": [
+        "2361bf1c97df4680a81e9927739f6c69",
+        "3cfb004b3eac486ba4ac5963e8c13e9b",
+        "6484637afbca49e9a67a24b3bf7bfd1f",
+        "d0ed7feb162648238b682bed38f2e20d"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        null,
+        "Percentage-point difference in degree receipt after eight years, Ohio ASAP programs minus usual services.",
+        "USD difference in average annual earnings in year eight, Ohio ASAP programs minus usual services; price year not stated.",
+        "Percentage-point difference in bachelor’s-degree receipt after eight years, Ohio ASAP programs minus usual services."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "WorkAdvance pooled randomized outcomes",
+      "expectedIds": [
+        "430852724e084021b8f43d252646c8fc",
+        "52102b2ff01f460a86d0afc946bfb242",
+        "74367c0ffb3b46b0aa84df113b274eb6"
+      ],
+      "actualIds": [
+        "430852724e084021b8f43d252646c8fc",
+        "52102b2ff01f460a86d0afc946bfb242",
+        "74367c0ffb3b46b0aa84df113b274eb6"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data.",
+        null,
+        "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "WorkAdvance Per Scholas outcomes and net gains",
+      "expectedIds": [
+        "5b110052f25b46fc8af44d6e3df93fcb",
+        "9f3dba3778dc4876842e1f4cfd11c32f",
+        "c64c6e66b9ac43fca969ed176b0f8a86",
+        "d7ee28bfdd9c41aeb87773f3a46c67a7",
+        "e4034125340b4138b3abe70e78fabecf"
+      ],
+      "actualIds": [
+        "5b110052f25b46fc8af44d6e3df93fcb",
+        "9f3dba3778dc4876842e1f4cfd11c32f",
+        "c64c6e66b9ac43fca969ed176b0f8a86",
+        "d7ee28bfdd9c41aeb87773f3a46c67a7",
+        "e4034125340b4138b3abe70e78fabecf"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "2018 USD per participant; participant net financial gain including monetized nonmarket time and deadweight loss; seven years.",
+        "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control.",
+        "2018 USD per participant; society net financial gain including monetized nonmarket time and deadweight loss; seven years.",
+        "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data.",
+        "2018 USD per participant; government budget net financial gain including monetized nonmarket time and deadweight loss; seven years."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "WorkAdvance St. Nicks outcomes and net gains",
+      "expectedIds": [
+        "1f96645855cc4c0490aba23f7e7b9581",
+        "7b8d6b29f5fc4b3081c5c969756c52b3",
+        "8db4d077d0db4621b4538da19bac0eee",
+        "94ddb74bc92a49c694e7d88a2e6db045",
+        "a4412d3b808742a697a720dd846724d3"
+      ],
+      "actualIds": [
+        "1f96645855cc4c0490aba23f7e7b9581",
+        "7b8d6b29f5fc4b3081c5c969756c52b3",
+        "8db4d077d0db4621b4538da19bac0eee",
+        "94ddb74bc92a49c694e7d88a2e6db045",
+        "a4412d3b808742a697a720dd846724d3"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control.",
+        "2018 USD per participant; society net financial gain including monetized nonmarket time and deadweight loss; ten years.",
+        "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data.",
+        "2018 USD per participant; participant net financial gain including monetized nonmarket time and deadweight loss; ten years.",
+        "2018 USD per participant; government budget net financial gain including monetized nonmarket time and deadweight loss; ten years."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "WorkAdvance Madison outcomes and net gains",
+      "expectedIds": [
+        "06a8bc4e4ac446e2875ae52e15021645",
+        "1c9a732b882d4bcdb489e7a84a15cab6",
+        "20bc4d3575514eba93d600e6bd53ce3d",
+        "91922f7aee044e77988098f6153024b1",
+        "93460ea13cb54da0b42d5f6832f12b66"
+      ],
+      "actualIds": [
+        "06a8bc4e4ac446e2875ae52e15021645",
+        "1c9a732b882d4bcdb489e7a84a15cab6",
+        "20bc4d3575514eba93d600e6bd53ce3d",
+        "91922f7aee044e77988098f6153024b1",
+        "93460ea13cb54da0b42d5f6832f12b66"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "2018 USD per participant; government budget net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period.",
+        "2018 USD per participant; society net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period.",
+        "2018 USD per participant; participant net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period.",
+        "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control.",
+        "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "WorkAdvance Towards Employment outcomes and net gains",
+      "expectedIds": [
+        "2dffecb5ad3c413aae31b39f127398dd",
+        "5418fe79f304458e95b073683662da7b",
+        "7dc0972751e341a6ab8dba378b342716",
+        "aa103b0c731044e88754c01111b7f994",
+        "cf5189eae8d541d189e71bfc13a85ea3"
+      ],
+      "actualIds": [
+        "2dffecb5ad3c413aae31b39f127398dd",
+        "5418fe79f304458e95b073683662da7b",
+        "7dc0972751e341a6ab8dba378b342716",
+        "aa103b0c731044e88754c01111b7f994",
+        "cf5189eae8d541d189e71bfc13a85ea3"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control.",
+        "2018 USD per participant; government budget net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period.",
+        "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data.",
+        "2018 USD per participant; participant net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period.",
+        "2018 USD per participant; society net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "DCMP five-year randomized cost and outcomes",
+      "expectedIds": [
+        "26334bba96914e769c042a4378520b0d",
+        "43453594efe0480f965c44c4bf2b1a3b",
+        "8b98a18845564fc9ab42bd24b9b60490",
+        "c71243e47adb450a87ea2e816ff6edfc",
+        "cb2bcc4d0acc4d75a8e1d3970965fba8",
+        "cbbaed6c995d4a379f2702638a91af94",
+        "e552d085a48e4dbba20495f01dd86395"
+      ],
+      "actualIds": [
+        "26334bba96914e769c042a4378520b0d",
+        "43453594efe0480f965c44c4bf2b1a3b",
+        "8b98a18845564fc9ab42bd24b9b60490",
+        "c71243e47adb450a87ea2e816ff6edfc",
+        "cb2bcc4d0acc4d75a8e1d3970965fba8",
+        "cbbaed6c995d4a379f2702638a91af94",
+        "e552d085a48e4dbba20495f01dd86395"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Constant 2022 USD per program-group member; net social cost over five years.",
+        "Difference in cumulative college-level credits earned after five years, DCMP minus control.",
+        "Percentage-point difference in ever earning a credential or current four-year-college enrollment after five years, DCMP minus control.",
+        "Constant 2022 USD difference in reported cost per college-level credit earned, DCMP minus control.",
+        "Constant 2022 USD per program student; primary program components.",
+        "Constant 2022 USD difference in reported cost per credential earned or current four-year-college enrollment, DCMP minus control.",
+        null
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "PACE Center for Girls randomized outcomes and cost",
+      "expectedIds": [
+        "7701e2d9c9e04a6f9674ffcf2b46dfc7",
+        "880e9655f8404eb6b3784a34430a4f46",
+        "8a4b886bf2774f5891c294e8dc4e12c2",
+        "a69ccb6c82e14783b1e842f1ee7736e3",
+        "be3864b94fe94510a90541c9a8f765f3",
+        "e224628e8c7741e08d7d65100704f031",
+        "e7dc33342ebb49d99977f226a081cb29"
+      ],
+      "actualIds": [
+        "7701e2d9c9e04a6f9674ffcf2b46dfc7",
+        "880e9655f8404eb6b3784a34430a4f46",
+        "8a4b886bf2774f5891c294e8dc4e12c2",
+        "a69ccb6c82e14783b1e842f1ee7736e3",
+        "be3864b94fe94510a90541c9a8f765f3",
+        "e224628e8c7741e08d7d65100704f031",
+        "e7dc33342ebb49d99977f226a081cb29"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "May 2017 USD net societal service cost per program-group girl over the 12-month cost-analysis window.",
+        "Difference in number of school days present over the first follow-up calendar year, PACE minus control.",
+        "Randomized controlled trial; 673 program group and 452 control group.",
+        "Percentage-point difference in high-school on-track composite during first follow-up year, PACE minus control.",
+        "Percentage-point difference in ever being suspended during first follow-up calendar year, PACE minus control.",
+        "Percentage-point difference in academic-year credits earned as a share of credits attempted, PACE minus control.",
+        "Percentage-point difference in incurring one or more juvenile-justice charges during 18 months after random assignment, PACE minus control."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "MSSI randomized outcomes and real-dollar cost",
+      "expectedIds": [
+        "025a37856a9b4f3fb5b212cd97e983ea",
+        "037750baacc64cf9ad9f52926edd7954",
+        "55b95943730d4330be8752d6d7486164",
+        "c59ad64b84cc41bd98b184962149fd6c",
+        "e7e548bbaef44881abdb9d71a82a474b",
+        "f2b1c830cfee4f45aa609ea038a9ecdd"
+      ],
+      "actualIds": [
+        "025a37856a9b4f3fb5b212cd97e983ea",
+        "037750baacc64cf9ad9f52926edd7954",
+        "55b95943730d4330be8752d6d7486164",
+        "c59ad64b84cc41bd98b184962149fd6c",
+        "e7e548bbaef44881abdb9d71a82a474b",
+        "f2b1c830cfee4f45aa609ea038a9ecdd"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Percentage-point difference in receiving A, B, or C in all courses in the fourth semester, MSSI minus usual services; cohorts 1–3 only.",
+        "Individual-level randomized controlled trial; 304 program group and 210 control group.",
+        "Percentage-point difference in first-semester enrollment in the Academic Development course, MSSI minus usual services.",
+        "Percentage-point difference in passing the Academic Development course in the first semester, MSSI minus usual services.",
+        "Real 2021 USD average program cost per intended participant across six terms.",
+        "Difference in first-semester credits earned, MSSI minus usual services."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Texas Summer Bridge randomized outcomes and resource cost",
+      "expectedIds": [
+        "01612581ac7e453ca396226587ca5a72",
+        "22a40b2d33c34352a5fd4fa60f870840",
+        "73e27306ea7f45559fd2865e085c9d7d",
+        "782bbddb09874b91ae52c84d933979b4",
+        "96ca6b3cbdcc4308b20865a7a1ba8039",
+        "d8a65b2583e641448d872f8c85208d6e"
+      ],
+      "actualIds": [
+        "01612581ac7e453ca396226587ca5a72",
+        "22a40b2d33c34352a5fd4fa60f870840",
+        "73e27306ea7f45559fd2865e085c9d7d",
+        "782bbddb09874b91ae52c84d933979b4",
+        "96ca6b3cbdcc4308b20865a7a1ba8039",
+        "d8a65b2583e641448d872f8c85208d6e"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Individual-level randomized evaluation; 793 program and 525 control students across eight Texas colleges.",
+        "Percentage-point difference in attempting a first college-level math course in fall 2009, program minus control.",
+        "Percentage-point difference in passing a first college-level writing course in fall 2009, program minus control.",
+        "Percentage-point difference in registering for at least one fall-2009 course, program minus control.",
+        "Percentage-point difference in passing a first college-level math course in fall 2009, program minus control.",
+        "2009 USD average resource cost per admitted student across eight sites."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Viking ROADS randomized academic outcomes",
+      "expectedIds": [
+        "140afd7dd5f44ddf8e1502a768bbfd07",
+        "38ed3fd2ec414f46ace844121bbfa8c1",
+        "6430ac45989d4297b9a871c7157b6fb3",
+        "87780a52e93a4fe4a3029e02a3dd3be6",
+        "eb113208010248d7a2d22f4eeda40cdb"
+      ],
+      "actualIds": [
+        "140afd7dd5f44ddf8e1502a768bbfd07",
+        "38ed3fd2ec414f46ace844121bbfa8c1",
+        "6430ac45989d4297b9a871c7157b6fb3",
+        "87780a52e93a4fe4a3029e02a3dd3be6",
+        "eb113208010248d7a2d22f4eeda40cdb"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Randomized controlled trial; 288 program and 286 control students.",
+        "Difference in cumulative credits earned by end of semester 3, program minus control.",
+        "Percentage-point difference in earning 60 or more credits after six semesters, program minus control.",
+        "Percentage-point difference in any degree or certificate attainment at any college after six semesters, program minus control.",
+        "Percentage-point difference in SUNY Westchester enrollment in semester 3, program minus control."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Kingsborough Opening Doors six-year randomized outcomes and costs",
+      "expectedIds": [
+        "01f3068dfb154641be12cd1d5d9cfcfb",
+        "5e2cc196b5c64587a024d5a9f4c3156d",
+        "9931dab1c90b4fb3bf8f3043c1da046b",
+        "c1f4e38c5e544d2499087fba2776b0d3"
+      ],
+      "actualIds": [
+        "01f3068dfb154641be12cd1d5d9cfcfb",
+        "5e2cc196b5c64587a024d5a9f4c3156d",
+        "9931dab1c90b4fb3bf8f3043c1da046b",
+        "c1f4e38c5e544d2499087fba2776b0d3"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Individual-level randomized comparison; 769 program and 765 control first-time freshmen; six-year follow-up.",
+        "Percentage-point difference in earning a degree at any college after six years, program minus control.",
+        "2011 USD difference in cost per degree earned over six years, program minus control; $94,680 versus $97,160.",
+        "2011 USD net education cost per program-group member over six years, program minus control."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "NYC Small Schools of Choice longitudinal outcomes",
+      "expectedIds": [
+        "647f9dd5528d456290fecff51a0a2e17",
+        "957fd14fce2047ba816710951a0d31cd",
+        "a2a84987ceb841e7904c8b0b7c4e902a",
+        "ae1a54d9bf6949ee8dedaa002a8cb646",
+        "bc6f1fd2b4a44c1f9374e84a421ff703"
+      ],
+      "actualIds": [
+        "647f9dd5528d456290fecff51a0a2e17",
+        "957fd14fce2047ba816710951a0d31cd",
+        "a2a84987ceb841e7904c8b0b7c4e902a",
+        "ae1a54d9bf6949ee8dedaa002a8cb646",
+        "bc6f1fd2b4a44c1f9374e84a421ff703"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [
+        "303eef5b611b47188ce584500bc69d41",
+        "5ec27fe825794d3daa746059d5a43981"
+      ],
+      "units": [
+        "Percentage-point SSC-enrollment effect on four-year postsecondary degree attainment within six years of expected high-school graduation.",
+        "Qualitative report finding on employment and earnings; no numeric estimate is published in the brief.",
+        "Percentage-point SSC-enrollment effect on four-year high-school graduation.",
+        "Percentage-point SSC-enrollment effect on postsecondary enrollment within six months of expected high-school graduation.",
+        "Lottery-based instrumental-variable evaluation of SSC enrollment versus other New York City public high schools."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "NYC Small Schools of Choice cost accounting",
+      "expectedIds": [
+        "303eef5b611b47188ce584500bc69d41",
+        "5ec27fe825794d3daa746059d5a43981"
+      ],
+      "actualIds": [
+        "303eef5b611b47188ce584500bc69d41",
+        "5ec27fe825794d3daa746059d5a43981"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [
+        "647f9dd5528d456290fecff51a0a2e17",
+        "957fd14fce2047ba816710951a0d31cd",
+        "a2a84987ceb841e7904c8b0b7c4e902a",
+        "ae1a54d9bf6949ee8dedaa002a8cb646",
+        "bc6f1fd2b4a44c1f9374e84a421ff703"
+      ],
+      "units": [
+        "USD difference in five-year direct-service expenditures per target SSC enrollee, SSC minus control; publication does not state a common dollar price year.",
+        "USD difference in cost per high-school graduate, SSC minus control; publication does not state a common dollar price year."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Early College High Schools Year-10 lottery outcomes",
+      "expectedIds": [
+        "5304d1e175894c56b9149cb0572d2e4d",
+        "53567bfbab8b49e1a2944244a552a888",
+        "91c94f3b330b4fdabc93641550ad8b7d",
+        "aba7c2b614334f42a245f910c8058bcf",
+        "ad84e7d6d67c4afab9aca739c9754312",
+        "f0866aef191c4ae8a83a2471a23b977c"
+      ],
+      "actualIds": [
+        "5304d1e175894c56b9149cb0572d2e4d",
+        "53567bfbab8b49e1a2944244a552a888",
+        "91c94f3b330b4fdabc93641550ad8b7d",
+        "aba7c2b614334f42a245f910c8058bcf",
+        "ad84e7d6d67c4afab9aca739c9754312",
+        "f0866aef191c4ae8a83a2471a23b977c"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [
+        "0f81b38de2e74aab9b70bf3d9002fe95",
+        "335b8af106064f938eb110a09bcb958d",
+        "4340b6c985034278b4ed85824842da2a",
+        "8bb0ab8623a54febb05cefe723ca2dfb",
+        "990470a979454286be0fdccf78b0bebf"
+      ],
+      "units": [
+        "Percentage-point intent-to-treat difference in bachelor’s-degree attainment by Year 10, offer minus no offer.",
+        "Percentage-point intent-to-treat difference in associate-degree or certificate attainment by Year 10, offer minus no offer.",
+        "Percentage-point intent-to-treat difference in any college enrollment by Year 10, offer minus no offer.",
+        "Percentage-point intent-to-treat difference in earning any postsecondary degree by Year 10, offer minus no offer.",
+        "Lottery-based intent-to-treat evaluation of an offer of enrollment in 10 Early College High Schools versus no offer; Year 10 is six years after expected high-school graduation.",
+        "Percentage-point intent-to-treat difference in enrollment at a four-year college by Year 10, offer minus no offer."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Early College High Schools source-reported cost-benefit model",
+      "expectedIds": [
+        "0f81b38de2e74aab9b70bf3d9002fe95",
+        "335b8af106064f938eb110a09bcb958d",
+        "4340b6c985034278b4ed85824842da2a",
+        "8bb0ab8623a54febb05cefe723ca2dfb",
+        "990470a979454286be0fdccf78b0bebf"
+      ],
+      "actualIds": [
+        "0f81b38de2e74aab9b70bf3d9002fe95",
+        "335b8af106064f938eb110a09bcb958d",
+        "4340b6c985034278b4ed85824842da2a",
+        "8bb0ab8623a54febb05cefe723ca2dfb",
+        "990470a979454286be0fdccf78b0bebf"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [
+        "5304d1e175894c56b9149cb0572d2e4d",
+        "53567bfbab8b49e1a2944244a552a888",
+        "91c94f3b330b4fdabc93641550ad8b7d",
+        "aba7c2b614334f42a245f910c8058bcf",
+        "ad84e7d6d67c4afab9aca739c9754312",
+        "f0866aef191c4ae8a83a2471a23b977c"
+      ],
+      "units": [
+        "Source-reported modeled benefit-to-cost ratio using average lifetime benefits and midpoint four-year incremental costs, 2017 dollars.",
+        "2017 USD modeled incremental cost per Early College student over four high-school years, midpoint across six Early College–traditional-school comparisons.",
+        "Source-reported conservative modeled benefit-to-cost ratio using lower-bound benefits and upper-bound four-year incremental costs, 2017 dollars.",
+        "2017 USD source-reported modeled net present value per Early College student: total modeled benefits ($57,682) less midpoint modeled four-year incremental cost ($3,819).",
+        "2017 USD modeled lifetime private and public benefits per Early College student, attributed through estimated postsecondary-attainment differences."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Year Up PACE seven-year randomized earnings",
+      "expectedIds": [
+        "0fcab324442f45fdb0b7fc4137bf356e",
+        "11b997b05bdb47e9a4c58a64f35c9813",
+        "3cbff739eff3451aac2a51bbb0f64db6",
+        "4f3a6e9d4f5b4bea8cb0860ba3862e0b",
+        "896290633d4f41289fb8bfebb2bd914d",
+        "c780662e4ac6467b846943dccf0a7308",
+        "c850a70940474341a68c59f30f8d8ca1"
+      ],
+      "actualIds": [
+        "0fcab324442f45fdb0b7fc4137bf356e",
+        "11b997b05bdb47e9a4c58a64f35c9813",
+        "3cbff739eff3451aac2a51bbb0f64db6",
+        "4f3a6e9d4f5b4bea8cb0860ba3862e0b",
+        "896290633d4f41289fb8bfebb2bd914d",
+        "c780662e4ac6467b846943dccf0a7308",
+        "c850a70940474341a68c59f30f8d8ca1"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "USD difference in average quarterly National Directory of New Hires earnings in follow-up Quarters 23–24, program offer minus control.",
+        "USD difference in total National Directory of New Hires earnings in follow-up Year 1, program offer minus control.",
+        "Percentage-point difference in earning at least $9,100 per quarter in follow-up Quarters 23–24, program offer minus control.",
+        "USD difference in total National Directory of New Hires earnings in follow-up Year 7, program offer minus control.",
+        "Qualitative source finding: no employment-rate impact at six-year survey or follow-up Quarters 23–24.",
+        "Individual-level intent-to-treat randomized evaluation; 2,544 eligible applicants aged 18–24 with high-school credentials.",
+        "USD difference in total National Directory of New Hires earnings over follow-up Years 1–7, program offer minus control."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Abecedarian age-30 outcomes",
+      "expectedIds": [
+        "309aaaf476c644e69980f6173ed3bcc9",
+        "3b4151da7e3640b1a4ead07638625fe1",
+        "4185e95920104c2d8eb81aad15eea076",
+        "7f43e163663249928d51b7389e00fe94",
+        "8a99d1f35acb43aeb68bcfc8870f189b",
+        "964f02ac2ead4e4ab56de15e4a6bfd6a",
+        "d6d0402187dc49e7a337f18df4743194",
+        "fc239b825ad44480a12fab108c257cb2"
+      ],
+      "actualIds": [
+        "309aaaf476c644e69980f6173ed3bcc9",
+        "3b4151da7e3640b1a4ead07638625fe1",
+        "4185e95920104c2d8eb81aad15eea076",
+        "7f43e163663249928d51b7389e00fe94",
+        "8a99d1f35acb43aeb68bcfc8870f189b",
+        "964f02ac2ead4e4ab56de15e4a6bfd6a",
+        "d6d0402187dc49e7a337f18df4743194",
+        "fc239b825ad44480a12fab108c257cb2"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [
+        "01db2c2b44534fc4a7da5ff6e614d231",
+        "03ddf15303dd46d296b807be2364e765",
+        "2a33915f54ba48f293186c85d0ddeeb6",
+        "42c41e183f7c43af91721639f3ea8615",
+        "451c0393be9944a8bcb4c799db8206e9",
+        "6433a31942b64a8ea978a3fbdbe4825d",
+        "814151850e0841c5861bf9e3189a1565",
+        "97b98366083c4ea78127ad956ecf9163",
+        "a73d973eef5745c38d647ae7b5f11e0f",
+        "ab8db4a1c6e04600ac60b3fc29d36b0a",
+        "bc94817e50e741c2af3b8d72e86e72ec"
+      ],
+      "units": [
+        "Odds ratio for full employment during at least two-thirds of the prior 24 months, ABC treatment versus control; source-reported.",
+        "Odds ratio for criminal conviction at age 30, ABC treatment versus control; source-reported.",
+        "Odds ratio for public-aid use at least 10% of the observed window at age 30, ABC treatment versus control; source-reported.",
+        "Cohen's d for completed years of education at age 30, ABC treatment versus control; source-reported standardized effect.",
+        "Odds ratio for bachelor's degree or higher at age 30, ABC treatment versus control; source-reported.",
+        "Cohen’s d for age at first parity at age 30, ABC treatment versus control; source-reported standardized effect.",
+        "Cohen's d for income-to-needs ratio at age 30, ABC treatment versus control; source-reported standardized effect.",
+        "Odds ratio for high-school diploma or GED at age 30, ABC treatment versus control; source-reported."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "National Guard Youth ChalleNGe",
+      "expectedIds": [
+        "1a7f36f09ac54d4daa4dffbaa7cacefe",
+        "83e32af1f37c4ecfa14894b1f8b7c02b",
+        "d5be2a41a8bd4c9c8a1e0d061055ab1f"
+      ],
+      "actualIds": [
+        "1387520fa32c42d1bd1d4464d5c91b12",
+        "15e36fe7e7e54a089c4074945c62f9a4",
+        "1a35ca6f26ed49eeb96d22b0e46d6c0e",
+        "1a7f36f09ac54d4daa4dffbaa7cacefe",
+        "232851e4b7ca4f20895d1b754f5e8903",
+        "23b65700787a4717909ad2990dbac709",
+        "25ae66b746eb40eca081c741aecb865f",
+        "2f30e66404d0423c979296c3d5cc165c",
+        "316c2269ed1649318a379f04fe87d287",
+        "83e32af1f37c4ecfa14894b1f8b7c02b",
+        "8eaead9541df4ee7af83f8d952f742f0",
+        "b6fac88149964f25813479ea8afb6d5c",
+        "b739492c8d1e48d482f8d3e6a9ae7170",
+        "c6d7715eae7445609c3bf791d05168d2",
+        "d5be2a41a8bd4c9c8a1e0d061055ab1f",
+        "f0b15d72ce334dc2be985400a91e1e51",
+        "f89a900972f24779bc3cf7e4cf32e9e2"
+      ],
+      "nonFactualExcluded": [
+        "597e5ee8194645c4bb86936d67fca08f"
+      ],
+      "sourceFilteredOut": [],
+      "units": [
+        null,
+        null,
+        null,
+        "Percentage-point difference in diploma-or-GED attainment, program minus control, three years after random assignment.",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "USD difference in past-12-month earnings, program minus control, three years after random assignment; price year not established.",
+        null,
+        null,
+        null,
+        null,
+        "Percentage-point difference in employment at follow-up, program minus control, three years after random assignment.",
+        null,
+        null
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Tennessee voluntary pre-K",
+      "expectedIds": [
+        "3356d0eba4e54eeeab1db7a8d9691077",
+        "3b87b7c104cb44a6b82e8db91c163dc9",
+        "4fbfa11f56634a2a9206e79db9dc1d6a"
+      ],
+      "actualIds": [
+        "3356d0eba4e54eeeab1db7a8d9691077",
+        "3b87b7c104cb44a6b82e8db91c163dc9",
+        "4fbfa11f56634a2a9206e79db9dc1d6a"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        null,
+        null,
+        null
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Boston universal pre-K",
+      "expectedIds": [
+        "0a78c17b257e4e179a839ef7be1a60ff",
+        "2002f58278474141999d44019ebab325",
+        "26f7adc11a164070abfcca691612a7af",
+        "30a75bb34b4c44fe9f49971bf6eb9cb7",
+        "a6edc7c918bf4de7b2e3b9ef76b4f231",
+        "edcf093fb8534943966d00a093a03d17"
+      ],
+      "actualIds": [
+        "0a78c17b257e4e179a839ef7be1a60ff",
+        "2002f58278474141999d44019ebab325",
+        "26f7adc11a164070abfcca691612a7af",
+        "30a75bb34b4c44fe9f49971bf6eb9cb7",
+        "a6edc7c918bf4de7b2e3b9ef76b4f231",
+        "edcf093fb8534943966d00a093a03d17"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Percentage-point effect of Boston preschool attendance on on-time any-college enrollment; 2SLS/CACE estimate.",
+        "Percentage-point effect of Boston preschool attendance on taking the SAT; 2SLS/CACE estimate.",
+        "Percentage-point effect of Boston preschool attendance on recorded juvenile incarceration; 2SLS/CACE estimate.",
+        "Standard-deviation effect of Boston preschool attendance on stacked MCAS math scores; 2SLS/CACE estimate.",
+        "Percentage-point effect of Boston preschool attendance on ever high-school graduation; 2SLS/CACE estimate.",
+        "Standard-deviation effect of Boston preschool attendance on stacked MCAS English-language-arts scores; 2SLS/CACE estimate."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Enhanced Reading Opportunities",
+      "expectedIds": [
+        "00f19327dbe44129bddd7f8a015967ee",
+        "322ed581e4934da8994953574296d483",
+        "37101612fbcd447f989249a7e9558e3f",
+        "9de409cf2a3a4fc29dc68bcc3abbe9a5"
+      ],
+      "actualIds": [
+        "00f19327dbe44129bddd7f8a015967ee",
+        "322ed581e4934da8994953574296d483",
+        "37101612fbcd447f989249a7e9558e3f",
+        "9de409cf2a3a4fc29dc68bcc3abbe9a5"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Standardized effect size for ninth-grade core-subject GPA, ERO assignment versus non-ERO elective.",
+        "Standardized effect size for follow-up-year core-subject GPA, ERO assignment versus non-ERO elective.",
+        "Standardized effect size for ninth-grade core-subject credit accumulation, ERO assignment versus non-ERO elective.",
+        "Standardized effect size for ninth-grade reading comprehension, ERO assignment versus non-ERO elective."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "San Francisco ethnic studies",
+      "expectedIds": [
+        "115917ad7cba4ee38e591b93a5c1426d",
+        "385e7cb36c144d04b09508c0d49876a2",
+        "8197239bfd0f417ca57263877d8c2021"
+      ],
+      "actualIds": [
+        "115917ad7cba4ee38e591b93a5c1426d",
+        "385e7cb36c144d04b09508c0d49876a2",
+        "8197239bfd0f417ca57263877d8c2021"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [
+        "177f1777a33b4207a49132d14c958599",
+        "2d1f4e4cbcad4f12bf764133d60d0931",
+        "fc8c7a637a9949238086e3915c53d9c4"
+      ],
+      "units": [
+        "Credit local-IV effect of taking San Francisco ethnic studies on ninth-grade credits earned near the 2.0 GPA cutoff.",
+        "Grade-point local-IV effect of taking San Francisco ethnic studies on ninth-grade GPA near the 2.0 GPA cutoff.",
+        "Percentage-point local-IV effect of taking San Francisco ethnic studies on ninth-grade attendance near the 2.0 GPA cutoff."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "San Francisco ethnic studies longer-run",
+      "expectedIds": [
+        "177f1777a33b4207a49132d14c958599",
+        "2d1f4e4cbcad4f12bf764133d60d0931",
+        "fc8c7a637a9949238086e3915c53d9c4"
+      ],
+      "actualIds": [
+        "177f1777a33b4207a49132d14c958599",
+        "2d1f4e4cbcad4f12bf764133d60d0931",
+        "fc8c7a637a9949238086e3915c53d9c4"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [
+        "115917ad7cba4ee38e591b93a5c1426d",
+        "385e7cb36c144d04b09508c0d49876a2",
+        "8197239bfd0f417ca57263877d8c2021"
+      ],
+      "units": [
+        "Percentage-point ITT effect of ethnic-studies eligibility on preferred high-school graduation measure near the 2.0 GPA cutoff.",
+        "Percentage-point ITT effect of ethnic-studies eligibility on attendance in the fourth year after ninth-grade entry, conditional on district enrollment.",
+        "Credit ITT effect of ethnic-studies eligibility in the fourth year after ninth-grade entry, conditional on district enrollment."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "San Francisco ethnic studies districtwide expansion",
+      "expectedIds": [
+        "06dc073ff59941e28f70b73c457c0353",
+        "36bf502e5c3f40d78102acf0856b9ce7",
+        "5c98c41d952c4b4ba8faba59acc7f767",
+        "63b9ff02031446a7950ad52118860a9d",
+        "65dc880374114767abafd1286c7e1835",
+        "6f43e40d66df461ab54546d876fd7b92",
+        "87455eca1b8b4e3eb78528a9cf252502",
+        "b45fd0512e97455d83f49c9ff922704c",
+        "beb15e1d6e894dc1a62ebe982c243cc0",
+        "fb41e8a9e45e4cf9bb07d4861035b22c"
+      ],
+      "actualIds": [
+        "06dc073ff59941e28f70b73c457c0353",
+        "36bf502e5c3f40d78102acf0856b9ce7",
+        "5c98c41d952c4b4ba8faba59acc7f767",
+        "63b9ff02031446a7950ad52118860a9d",
+        "65dc880374114767abafd1286c7e1835",
+        "6f43e40d66df461ab54546d876fd7b92",
+        "87455eca1b8b4e3eb78528a9cf252502",
+        "b45fd0512e97455d83f49c9ff922704c",
+        "beb15e1d6e894dc1a62ebe982c243cc0",
+        "fb41e8a9e45e4cf9bb07d4861035b22c"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Grade-point effect of ethnic-studies enrollment on overall GPA in the balanced-panel districtwide expansion.",
+        "Percentage-point effect of ethnic-studies enrollment on any D/F among male students in the balanced-panel expansion.",
+        "Grade-point effect of ethnic-studies enrollment on GPA among Latine students in the balanced-panel expansion.",
+        "Grade-point effect of ethnic-studies enrollment on GPA among male students in the balanced-panel expansion.",
+        "Percentage-point effect of ethnic-studies enrollment on any D/F among Black students in the balanced-panel expansion.",
+        "Percentage-point effect of ethnic-studies enrollment on receiving any D or F during the school year in the balanced-panel expansion sample.",
+        "Grade-point effect of ethnic-studies enrollment on math GPA in the balanced-panel districtwide expansion.",
+        "Percentage-point effect of ethnic-studies enrollment on any D/F among Latine students in the balanced-panel expansion.",
+        "Grade-point effect of ethnic-studies enrollment on science GPA in the balanced-panel districtwide expansion.",
+        "Grade-point effect of ethnic-studies enrollment on GPA among Black students in the balanced-panel districtwide expansion."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Project QUEST",
+      "expectedIds": [
+        "022c945ffb12436e9d98c5b808361691",
+        "1b83f22bd4f74f3b8526f01fdfd66fdf",
+        "3a0d718ce32449ae8876df60ddf55a53",
+        "5c7fa63ba54e454db3aab82101d31224",
+        "80758bd7690546128f233124d4080018",
+        "a5d6539c8a3746a2a1a76dbe3e7687a0",
+        "ad8c7271fbb14119a582cf581601cb39",
+        "bab671b1e148491d93384fbed1c5ed1d",
+        "e04897d09dc14e8294f0667904d7bde8",
+        "ecfccdd3646a42ff932842c06b7ad1cf",
+        "ffc75a1e575344eca325405dd41ecf98"
+      ],
+      "actualIds": [
+        "022c945ffb12436e9d98c5b808361691",
+        "1b83f22bd4f74f3b8526f01fdfd66fdf",
+        "3a0d718ce32449ae8876df60ddf55a53",
+        "5c7fa63ba54e454db3aab82101d31224",
+        "80758bd7690546128f233124d4080018",
+        "a5d6539c8a3746a2a1a76dbe3e7687a0",
+        "ad8c7271fbb14119a582cf581601cb39",
+        "bab671b1e148491d93384fbed1c5ed1d",
+        "e04897d09dc14e8294f0667904d7bde8",
+        "ecfccdd3646a42ff932842c06b7ad1cf",
+        "ffc75a1e575344eca325405dd41ecf98"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "USD difference in average annual earnings in year 6 after random assignment; current dollars.",
+        "USD difference in average annual earnings in year 5 after random assignment; current dollars.",
+        null,
+        "USD difference in average annual earnings in year 4 after random assignment; current dollars.",
+        "USD difference in average annual earnings in year 8 after random assignment; current dollars.",
+        "USD difference in average annual earnings in year 1 after random assignment; current dollars.",
+        null,
+        "USD difference in average annual earnings in year nine after random assignment; current dollars.",
+        "USD difference in average annual earnings in year 3 after random assignment; current dollars.",
+        "USD difference in average annual earnings in year 7 after random assignment; current dollars.",
+        "USD difference in average annual earnings in year 2 after random assignment; current dollars."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Comprehensive teacher induction randomized outcomes",
+      "expectedIds": [
+        "12a76912aea44c4ea28cff2306bf2269",
+        "70be9dadb884480a914ce4f3595fb7b3",
+        "d6db6079c37d4dd991138ca32b4c8772"
+      ],
+      "actualIds": [
+        "12a76912aea44c4ea28cff2306bf2269",
+        "70be9dadb884480a914ce4f3595fb7b3",
+        "d6db6079c37d4dd991138ca32b4c8772"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Standardized treatment-control effect size in year-three math; two-year districts, benchmark sample.",
+        "Percentage-point treatment-control difference in same-school retention after three years; two-year districts.",
+        "Standardized treatment-control effect size in year-three reading; two-year districts, benchmark sample."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Community Eligibility Provision household-resource outcomes",
+      "expectedIds": [
+        "88e3660656e74b14bb0c209134b69a41",
+        "9b60b79a061f4931a20aa6147d1bed1e",
+        "e2319933570f466ab02023b00c288464"
+      ],
+      "actualIds": [
+        "88e3660656e74b14bb0c209134b69a41",
+        "9b60b79a061f4931a20aa6147d1bed1e",
+        "e2319933570f466ab02023b00c288464"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "USD difference in monthly all-food purchases for households with children, zero-to-100% overall CEP exposure contrast.",
+        "USD difference in monthly all-food purchases for households with children after any CEP exposure.",
+        "Percentage-point difference in USDA-defined food-insecure-household indicator for households with children after CEP exposure."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Teacher Incentive Fund pay-for-performance outcomes",
+      "expectedIds": [
+        "12d7d800884d4cefaacf5be2538a2bbc",
+        "a55fb976e792432987178812b2f6bc65",
+        "af8402d1b9a54766acecd750dd6c2444",
+        "c8fa9bf3965945a1beca67e18e6b0ee7",
+        "dcb3349e9b4043a69c65188bacac29c5",
+        "f206b6c5510d4a759c1e309dde11c685",
+        "f2667ffde3fd44dabe4a65c5da53a6e4",
+        "ffc7228f4c98435a9e640657101e63f0"
+      ],
+      "actualIds": [
+        "12d7d800884d4cefaacf5be2538a2bbc",
+        "a55fb976e792432987178812b2f6bc65",
+        "af8402d1b9a54766acecd750dd6c2444",
+        "c8fa9bf3965945a1beca67e18e6b0ee7",
+        "dcb3349e9b4043a69c65188bacac29c5",
+        "f206b6c5510d4a759c1e309dde11c685",
+        "f2667ffde3fd44dabe4a65c5da53a6e4",
+        "ffc7228f4c98435a9e640657101e63f0"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Student z-score treatment-control impact on Year-1 math achievement; 131-school multisite random-assignment evaluation.",
+        "Student z-score treatment-control impact on Year-2 math achievement; 131-school multisite random-assignment evaluation.",
+        "Student z-score treatment-control impact on Year-2 reading achievement; 131-school multisite random-assignment evaluation.",
+        "Student z-score treatment-control impact on Year-3 reading achievement; 131-school multisite random-assignment evaluation.",
+        "Student z-score treatment-control impact on Year-4 reading achievement; 131-school multisite random-assignment evaluation.",
+        "Student z-score treatment-control impact on Year-1 reading achievement; 131-school multisite random-assignment evaluation.",
+        "Student z-score treatment-control impact on Year-4 math achievement; 131-school multisite random-assignment evaluation.",
+        "Student z-score treatment-control impact on Year-3 math achievement; 131-school multisite random-assignment evaluation."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "Teacher coaching meta-analysis",
+      "expectedIds": [
+        "03cd942d5566419bb39a1608580c6f8a",
+        "07bcc36415354dbabb6e34b230065dd5",
+        "18020b92e89d4eb8a9693def8682771c",
+        "1c6c7ea0742c4dc8849b983c8437296e",
+        "4d20a987683a4686af61d1b9710475d2",
+        "5416e25c785a4daf967b7d4e02dcc9ef",
+        "ac70981427fb402994c2a7526febea9f",
+        "caaf065aee054ae385f184dbf6043028",
+        "f59cafc1b3fa4beaba24a898a890f23a"
+      ],
+      "actualIds": [
+        "03cd942d5566419bb39a1608580c6f8a",
+        "07bcc36415354dbabb6e34b230065dd5",
+        "18020b92e89d4eb8a9693def8682771c",
+        "1c6c7ea0742c4dc8849b983c8437296e",
+        "4d20a987683a4686af61d1b9710475d2",
+        "5416e25c785a4daf967b7d4e02dcc9ef",
+        "ac70981427fb402994c2a7526febea9f",
+        "caaf065aee054ae385f184dbf6043028",
+        "f59cafc1b3fa4beaba24a898a890f23a"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Pooled standardized effect for general-practice coaching on student achievement; 11 effect sizes from 5 studies.",
+        "Pooled standardized effect for content-specific coaching on student achievement; 102 effect sizes from 26 studies.",
+        "Pooled standardized effect for general-practice coaching on classroom-observation instructional practice; 67 effect sizes from 16 studies.",
+        "Pooled standardized coaching effect on science achievement; 6 effect sizes from 3 studies.",
+        "Pooled standardized coaching effect on math achievement; 20 effect sizes from 5 studies.",
+        "Pooled standardized coaching effect on student achievement; 113 effect sizes from 31 studies.",
+        "Pooled standardized coaching effect on classroom-observation instructional practice; 186 effect sizes from 43 studies.",
+        "Pooled standardized coaching effect on reading achievement; 87 effect sizes from 26 studies.",
+        "Pooled standardized effect for content-specific coaching on classroom-observation instructional practice; 119 effect sizes from 27 studies."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "National Charter School Study III",
+      "expectedIds": [
+        "3f1aaf1f5e754fdb8fb55926e3368dba",
+        "418b23ad246b4312855e72e56c26d46e",
+        "442b6446a1b54fd3a6c60a85e46e9e8e",
+        "96553fbe54d44eb3bad7ff1e7486add7",
+        "ae72d01cfc13405a9632fa9c1a0d0f61",
+        "b40799e079774e74bbbda89af4d0076d",
+        "dc036c8ceb504035a0b7a79fdf90b54c"
+      ],
+      "actualIds": [
+        "3f1aaf1f5e754fdb8fb55926e3368dba",
+        "418b23ad246b4312855e72e56c26d46e",
+        "442b6446a1b54fd3a6c60a85e46e9e8e",
+        "96553fbe54d44eb3bad7ff1e7486add7",
+        "ae72d01cfc13405a9632fa9c1a0d0f61",
+        "b40799e079774e74bbbda89af4d0076d",
+        "dc036c8ceb504035a0b7a79fdf90b54c",
+        "ff901fc5c509427bbc46974aee27d5e4"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Spread in annual math-learning results between best and worst data jurisdictions in the NCSS3 matched-growth analysis.",
+        "Additional days of reading learning per school year, CMO-affiliated charter students relative to traditional-public-school peers.",
+        "Spread in annual reading-learning results between best and worst data jurisdictions in the NCSS3 matched-growth analysis.",
+        "Additional days of math learning per school year, charter students relative to matched traditional-public-school peers; 31 data jurisdictions.",
+        "Additional days of reading learning per school year, charter students relative to matched traditional-public-school peers; 31 data jurisdictions.",
+        "Additional days of math learning per school year, CMO-affiliated charter students relative to traditional-public-school peers.",
+        "Additional days of reading learning per school year, stand-alone charter students relative to traditional-public-school peers.",
+        "Matched-growth subgroup finding; numeric day estimate not reported in the official release."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    },
+    {
+      "name": "TFA and Teaching Fellows secondary-math randomized evaluation",
+      "expectedIds": [
+        "142e98c7820d43c48654cb679f04309f",
+        "2884a49085ee49caa8d2d916c7cd1dfe",
+        "3cd1756352a94517a0da95670c307f72",
+        "78f60547ae1c43248aa970bf5e43ab4b",
+        "ae115caedc1d40079cb88cdc680c71c8",
+        "d7993ccda23842c6976de0dc7abe47a6",
+        "f4441ef0598b45dc8e2f25dab89eb260"
+      ],
+      "actualIds": [
+        "142e98c7820d43c48654cb679f04309f",
+        "2884a49085ee49caa8d2d916c7cd1dfe",
+        "3cd1756352a94517a0da95670c307f72",
+        "78f60547ae1c43248aa970bf5e43ab4b",
+        "ae115caedc1d40079cb88cdc680c71c8",
+        "d7993ccda23842c6976de0dc7abe47a6",
+        "f4441ef0598b45dc8e2f25dab89eb260"
+      ],
+      "nonFactualExcluded": [],
+      "sourceFilteredOut": [],
+      "units": [
+        "Student z-score difference in secondary math; TFA versus less-selective alternative-route comparison teachers.",
+        "Student z-score treatment-control impact on end-of-year secondary math achievement; Teaching Fellows versus other teachers in the same courses and schools.",
+        "Student z-score difference in secondary math; TFA versus traditionally certified comparison teachers.",
+        "Student z-score treatment-control impact on end-of-year secondary math achievement; TFA versus other teachers in the same courses and schools.",
+        "Student z-score treatment-control impact on end-of-year secondary math achievement; Teaching Fellows versus comparison teachers within two years of teaching experience.",
+        "Student z-score difference in secondary math; Teaching Fellows versus traditionally certified comparison teachers.",
+        "Student z-score difference in secondary math; Teaching Fellows versus less-selective alternative-route comparison teachers."
+      ],
+      "failedCheckIndexes": [],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

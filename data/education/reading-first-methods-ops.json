@@ -1,0 +1,185 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b5e82046c5694090aeb0c83f7a0208f9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Regression discontinuity design",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "An evaluation design comparing outcomes near a treatment-eligibility cutoff. Its causal interpretation depends on design assumptions and generally applies locally around that cutoff.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9b9b328a7b244ea28c77cee12e4794a9"
+    },
+    "entity": {
+      "$bytes": "ed24414a4ccd404fa898aa2000b8fad9"
+    },
+    "from": {
+      "$bytes": "b5e82046c5694090aeb0c83f7a0208f9"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "423b7cfd73fd470f833ad2e9f75cc8d2"
+    },
+    "entity": {
+      "$bytes": "250de2632e114d5f8cd63bdd21e34827"
+    },
+    "from": {
+      "$bytes": "b5e82046c5694090aeb0c83f7a0208f9"
+    },
+    "to": {
+      "$bytes": "db0ea33548454e1780c78231066b7d71"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "09ac73fd3ff2433ab8398875fd20558a"
+    },
+    "entity": {
+      "$bytes": "5d7d95eea7a64faf86b2e2fe60e6c70d"
+    },
+    "from": {
+      "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+    },
+    "to": {
+      "$bytes": "ad9f48f68b804ddd9f9e8ffa5869ef02"
+    },
+    "relationType": {
+      "$bytes": "b1fdc75afb6841a18d8286427099ea44"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5d7d95eea7a64faf86b2e2fe60e6c70d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Used at one of the 18 evaluation sites; this relation does not classify the entire Reading First impact study as randomized.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4bc5933af485459e9dd8b70d28b9fecb"
+    },
+    "entity": {
+      "$bytes": "6ef7d7a6997b4212976ab51d3166f40c"
+    },
+    "from": {
+      "$bytes": "5d7d95eea7a64faf86b2e2fe60e6c70d"
+    },
+    "to": {
+      "$bytes": "db0ea33548454e1780c78231066b7d71"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ce6efc37b3c14d50bb340d402940602f"
+    },
+    "entity": {
+      "$bytes": "64b56fe78986484095e80e1949cbcd44"
+    },
+    "from": {
+      "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+    },
+    "to": {
+      "$bytes": "b5e82046c5694090aeb0c83f7a0208f9"
+    },
+    "relationType": {
+      "$bytes": "b1fdc75afb6841a18d8286427099ea44"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "64b56fe78986484095e80e1949cbcd44"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Used at 17 of the 18 evaluation sites; the study also includes one randomized site, so this is a component of a mixed design.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "317726241b8e48ccbc99508b67d3418a"
+    },
+    "entity": {
+      "$bytes": "8146f4307ab846588134115a25f2882f"
+    },
+    "from": {
+      "$bytes": "64b56fe78986484095e80e1949cbcd44"
+    },
+    "to": {
+      "$bytes": "db0ea33548454e1780c78231066b7d71"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  }
+]

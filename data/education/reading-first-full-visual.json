@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-09-11",
+  "url": "https://www.geobrowser.io/space/dac259bad48a11adf97fe36857d85206/02b40a84dd87410f9ad78f0481ad237a",
+  "passed": true,
+  "method": "Live rendered accessibility rows on every table page; screenshot confirms separate sections and horizontal table scrolling",
+  "tables": [
+    {"domain":"achievement","representation":"native","pages":[7]},
+    {"domain":"achievement","representation":"standardized","pages":[4]},
+    {"domain":"instruction","representation":"native","pages":[9,7]},
+    {"domain":"instruction","representation":"standardized","pages":[9,7]},
+    {"domain":"engagement","representation":"native","pages":[2]},
+    {"domain":"engagement","representation":"standardized","pages":[2]},
+    {"domain":"implementation","representation":"native","pages":[8]},
+    {"domain":"implementation","representation":"standardized","pages":[8]}
+  ],
+  "rowCount": 63,
+  "checks": [
+    "All native and standardized estimates reconcile with the reviewed source transcription",
+    "Reported SEs, CI bounds and p-value strings render, including negatives, zero rounded endpoints and less-than operators",
+    "Unreported survey SE and CI cells remain blank",
+    "The three proficiency outcomes have no invented standardized row",
+    "Original two-sentence dataset description remains concise",
+    "Methods, expanded coverage and standardization notes remain separate content blocks"
+  ],
+  "limitations": ["Wide tables require horizontal scrolling", "Geo Claim rating badges are not statistical results", "This verifies selected effects, not missing means, full implementation mapping or the completed dashboard"]
+}

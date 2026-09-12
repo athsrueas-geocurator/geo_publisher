@@ -1,0 +1,18 @@
+{
+  "name": "Add a source-verified Saga math GPA estimate",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/saga-outcomes-pilot-ops.json",
+  "sha256": "f5fd36494428d3159b3debab203fcb91c861d4b9083afb9d9ea6be8b6d7f4f44",
+  "operationCount": 20,
+  "journalPath": "data/education/saga-outcomes-pilot-publication.json",
+  "validationPath": "data/education/saga-outcomes-pilot-validation.json",
+  "records": [
+    {
+      "key": "s1/math-gpa/itt",
+      "id": "022d596aadaf40709f4e0c2f04db8c8a",
+      "existing": false,
+      "unitKnown": true
+    }
+  ]
+}

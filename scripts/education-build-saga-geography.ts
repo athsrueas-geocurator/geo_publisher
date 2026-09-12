@@ -1,0 +1,26 @@
+import {readFileSync,writeFileSync,existsSync} from 'node:fs';
+import {randomUUID,createHash} from 'node:crypto';
+import {Ops,Position} from '@geoprotocol/geo-sdk';
+import {gql} from '../src/functions';
+import {EDUCATION_PUBLICATION} from '../src/education-bounty';
+const root='data/education',prefix='saga-geography';
+const source=JSON.parse(readFileSync(`${root}/saga-extraction.json`,'utf8'));
+const ids=JSON.parse(readFileSync(`${root}/saga-registry.json`,'utf8'));
+const registryPath=`${root}/${prefix}-registry.json`;
+const registry:Record<string,string>=existsSync(registryPath)?JSON.parse(readFileSync(registryPath,'utf8')):{};
+const stable=(key:string)=>registry[key]??(registry[key]=randomUUID().replaceAll('-',''));
+const location='95d770021faf4f7cb7deb21a7d48cda0',chicago='e82f3bfc991a4578aa8b7a503640b95e';
+if(source.context.geography!=='Chicago, Illinois, United States')throw new Error('Source geography changed');
+const {entity}=await gql('query($id:UUID!){entity(id:$id){id name relations(first:30){nodes{typeId toEntityId spaceId}pageInfo{hasNextPage}}}}',{id:chicago});
+if(entity.relations.pageInfo.hasNextPage||!entity.relations.nodes.some((r:any)=>r.typeId==='47b55f87c5ca4b2db1ac32296fd0c650'&&r.toEntityId==='e22d027da3254158ba7cdd4b8e24c44c'))throw new Error('Chicago identity not confirmed through Illinois');
+const targets=[ids['dataset/saga-chicago-trials'],...source.estimates.map((r:any)=>ids[`estimate/${r.key}`]),ids[`cost/${source.cost.key}`]];
+const ops=targets.flatMap(from=>{
+  registry[`position/${from}`]??=Position.generate();
+  return Ops.relations.create({id:stable(`edge/${from}`),entityId:stable(`edge-entity/${from}`),fromEntity:from,type:location,toEntity:chicago,toSpace:'84a679ce188f061ac9a92380bac2bab5',position:registry[`position/${from}`]}).ops;
+});
+const bytes=JSON.stringify(ops,(_k,v)=>v instanceof Uint8Array?{$bytes:Buffer.from(v).toString('hex')}:v,2)+'\n';
+const sha256=createHash('sha256').update(bytes).digest('hex');
+const batch={name:'Link Saga trial data to existing Chicago geography',spaceId:EDUCATION_PUBLICATION.spaceId,bounty:EDUCATION_PUBLICATION.bountyId,opsPath:`${root}/${prefix}-ops.json`,sha256,journalPath:`${root}/${prefix}-publication.json`,validationPath:`${root}/${prefix}-validation.json`,targets,location,chicago};
+writeFileSync(registryPath,JSON.stringify(registry,null,2)+'\n');writeFileSync(batch.opsPath,bytes);writeFileSync(`${root}/${prefix}-batch.json`,JSON.stringify(batch,null,2)+'\n');
+writeFileSync(batch.validationPath,JSON.stringify({ready:true,checkedAt:new Date().toISOString(),opsHash:sha256,checks:['Chicago city identity verified with Illinois relation','Existing root Location relation; no new properties','Six existing Saga records linked; no city facts copied','Source geography agrees with extraction']},null,2)+'\n');
+console.log(JSON.stringify({operations:ops.length,existingCity:chicago,newEntities:0}));

@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-09-12T10:40:35.095Z",
+  "batchName": "Add HSLS:09 catalog resource and metadata block",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "entityId": "63e0be67eb5a41a693b9623d7b9c9ae8",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "63e0be67eb5a41a693b9623d7b9c9ae8",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "63e0be67eb5a41a693b9623d7b9c9ae8",
+      "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+      "pass": true
+    },
+    {
+      "relationId": "70046beda872427288898ac4c2765e3d",
+      "pass": true
+    },
+    {
+      "relationId": "e3c5b22eb6164fa8ba0b420c4b2af4ad",
+      "pass": true
+    },
+    {
+      "entityId": "eb7428c70fa04b1980afcc1607db8e06",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "eb7428c70fa04b1980afcc1607db8e06",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "relationId": "513246a23b434982b1664ba860563a8a",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

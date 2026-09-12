@@ -1,0 +1,18 @@
+{
+  "status": "Reviewed mapping; publication pending",
+  "studyId": "d87bc8f30fb84b5fa660f98d1e770c78",
+  "articleId": "db0ea33548454e1780c78231066b7d71",
+  "designProperty": "b1fdc75afb6841a18d8286427099ea44",
+  "topicType": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+  "randomizedTrialId": "ad9f48f68b804ddd9f9e8ffa5869ef02",
+  "regressionDiscontinuity": {
+    "name": "Regression discontinuity design",
+    "description": "An evaluation design comparing outcomes near a treatment-eligibility cutoff. Its causal interpretation depends on design assumptions and generally applies locally around that cutoff."
+  },
+  "relationScopes": {
+    "randomized": "Used at one of the 18 evaluation sites; this relation does not classify the entire Reading First impact study as randomized.",
+    "regression": "Used at 17 of the 18 evaluation sites; the study also includes one randomized site, so this is a component of a mixed design."
+  },
+  "decision": "Reuse the existing Relation-valued Study design property for concept links, with source-backed scope on each relation entity. Do not copy its unrelated legacy targets or replace the existing mixed-design Text property. RCT identity is reused; the new regression-discontinuity Topic follows complete name/alias discovery, not abbreviation-only matching.",
+  "frontendContract": "A design filter matches studies containing that design component. Load each relation entity's Description and Sources so the UI does not equate containing an RCT component with being wholly randomized."
+}

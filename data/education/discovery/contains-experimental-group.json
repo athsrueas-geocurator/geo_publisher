@@ -1,0 +1,43 @@
+{
+  "term": "Experimental group",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T19:27:52.805Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "64f93aa5b34b4d5cb8e7f40de7374cd5",
+      "name": "The Experimental Group is nearly 20 years old and operates venues in cities including Venice and Menorca.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "80fb8435d96a4398b20018a05b9b19a6",
+      "name": "The Experimental Group is opening a new property in Rome in the summer of 2026.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiODBmYjg0MzUtZDk2YS00Mzk4LWIyMDAtMThhMDViOWIxOWE2Il1d"
+    }
+  ]
+}

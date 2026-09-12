@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "observedDate": "2026-09-11 America/Indianapolis",
+  "datasetId": "52448bbbf0cd4c1bb8e949ebe9d628d2",
+  "browserTab": 54,
+  "scope": "All 38 pooled table rows in Geo, inspected through the rendered accessibility tree",
+  "tables": [
+    {"sourceTable": 5, "pages": [{"page": 1, "rows": 9}, {"page": 2, "rows": 9}, {"page": 3, "rows": 9}, {"page": 4, "rows": 3}], "totalRows": 30},
+    {"sourceTable": 7, "pages": [{"page": 1, "rows": 8}], "totalRows": 8}
+  ],
+  "checks": ["One Name column in each pooled table", "Effect, SE, N, estimand, outcome, unit, follow-up and locator render", "Both suspension units remain blank", "Corrected violent-arrest ITT is -0.012 and SE is 0.011", "Graduation ever point estimates render as numeric zero with nonzero SE", "Expected-grade and unresolved terminal-window wording render", "All table pages inspected in source order"],
+  "limits": "Does not certify every dedicated Claim page, Curator presentation, or the separate comparison dashboard. No claim about complete Saga research coverage."
+}

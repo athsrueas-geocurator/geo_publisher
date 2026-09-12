@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T15:33:34.805Z",
+  "reviewer": "publisher preparation review",
+  "planHash": "ce4f7939878a067d7a4a72996bcb543ba777502af9cba554793e3ca15284a111",
+  "factsHash": "23df301e33bab16485f4066cfcd02a5245757929e4b2f09fd9948c265bbc7a4b",
+  "sources": [
+    {
+      "path": "docs/early-college-study-notes.md",
+      "sha256": "921e35fed82e78a34c6a1d03b7462509b2bb2dc3e1d6782a4b12817f6b1f693f",
+      "sourceId": "038f546c2508401eb3890f0fc6954b53",
+      "version": "AIR Early College Year-10 follow-up"
+    },
+    {
+      "path": "docs/early-college-study-notes.md",
+      "sha256": "921e35fed82e78a34c6a1d03b7462509b2bb2dc3e1d6782a4b12817f6b1f693f",
+      "sourceId": "0b285e99daa5436f8d02e608fea4fb2b",
+      "version": "Early College cost-benefit follow-up"
+    }
+  ],
+  "discovery": {
+    "path": "data/education/early-college-collection-discovery.json",
+    "sha256": "2ea0610b70301b299d6eade443b1016f9e0bc6dc944d88f68bd24c5d7e378b46"
+  },
+  "decisions": {
+    "source": {
+      "status": "accepted",
+      "rationale": "The study notes identify the long-term outcome and cost-benefit Articles and preserve their scopes."
+    },
+    "identity": {
+      "status": "accepted",
+      "rationale": "Exact all-space identity and incoming membership checks found no collection candidate or membership."
+    },
+    "content": {
+      "status": "accepted",
+      "rationale": "Existing Claims retain source locators, typed values, denominators and follow-up periods."
+    }
+  }
+}

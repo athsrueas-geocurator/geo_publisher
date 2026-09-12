@@ -1,0 +1,20 @@
+{
+  "sourceKey": "datasets/national-student-clearinghouse-research-center",
+  "checkedAt": "2026-09-11T17:58:20.191Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://nscresearchcenter.org/enrollment-insights/",
+      "needle": "nscresearchcenter.org/enrollment-insights",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

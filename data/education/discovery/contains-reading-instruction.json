@@ -1,0 +1,85 @@
+{
+  "term": "reading instruction",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T22:15:42.365Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "19ef85b3139d41c99aa9712fbf640c38",
+      "name": "Reading First survey: Reading instruction per day (minutes per day)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "1e73e94704da4786b6f4170b9b3f27b3",
+      "name": "Reading First survey: Reading instruction per day (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "60015c77bf624508b498b7686cd7d801",
+      "name": "In Finland, formal reading instruction for children does not begin until age seven.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "d8fcc6dc1a0b4da0a82d6a8d50591308",
+      "name": "The phonics method of reading instruction is rarely used in California's public schools.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "f4b3d840601d4741804fd8c439db3262",
+      "name": "Mississippi's reading instruction reform mandates the explicit teaching of phonics, where children learn to sound out words.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjRiM2Q4NDAtNjAxZC00NzQxLTgwNGYtZDhjNDM5ZGIzMjYyIl1d"
+    }
+  ]
+}

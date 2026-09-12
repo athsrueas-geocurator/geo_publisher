@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-09-12T03:08:51.397Z",
+  "passed": true,
+  "checks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "graph": {
+    "entity": {
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Add Reading First intended population and grade coverage"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "relationsConnection": {
+      "nodes": [
+        {
+          "id": "69a942dea0274c55a2ab135052a59baf",
+          "entityId": "8e2c900a8260482a9bbcf2b6d1068240",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "490a7c90ad4b4029b2b4d85d22fe203a"
+        },
+        {
+          "id": "fd2bdc43a93c481daffcb8f27f979815",
+          "entityId": "33f9309c881749a880d5a97ea6f2df62",
+          "typeId": "3b4c516ff3ac41e0a939374119a27d6e",
+          "toEntityId": "debce2de46094f299ee8e89fe244a9dc"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  }
+}

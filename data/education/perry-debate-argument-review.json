@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-09-12T02:59:23.806Z",
+  "reviewed": true,
+  "prerequisiteProposal": "82f98ce080a647a28e490786a521ec64",
+  "pairs": [
+    {
+      "a": "expansion-justified",
+      "b": "expansion-needs-more-evidence",
+      "related": "both",
+      "proposedBracket": "OPPOSES",
+      "argumentDirection": "both",
+      "reason": "Opposite judgments about whether Perry's economic returns are sufficient grounds for expansion; neither is a paper conclusion."
+    },
+    {
+      "a": "expansion-justified",
+      "b": "pooled-low-valuation-lifetime",
+      "related": "both",
+      "proposedBracket": "SUPPORTS",
+      "argumentDirection": "a-to-b",
+      "reason": "Positive modeled net social benefits supply an economic argument for expansion without proving transportability."
+    },
+    {
+      "a": "expansion-needs-more-evidence",
+      "b": "pooled-low-valuation-lifetime",
+      "related": "both",
+      "proposedBracket": "RELATED-ONLY",
+      "reason": "This parent explicitly accepts Perry's positive model results; those results alone do not contradict its demand for additional evidence."
+    },
+    {
+      "a": "expansion-justified",
+      "b": "earnings-extrapolation",
+      "related": "both",
+      "proposedBracket": "RELATED-ONLY",
+      "reason": "A modeling assumption qualifies the inference but does not itself refute a policy judgment."
+    },
+    {
+      "a": "expansion-needs-more-evidence",
+      "b": "earnings-extrapolation",
+      "related": "both",
+      "proposedBracket": "RELATED-ONLY",
+      "reason": "Extrapolation within Perry is distinct from evidence of generalization to new programs; do not force support for the transportability claim."
+    },
+    {
+      "a": "pooled-low-valuation-lifetime",
+      "b": "pooled-high-valuation-lifetime",
+      "related": "both",
+      "proposedBracket": "RELATED-ONLY",
+      "reason": "Different valuation assumptions materially change the assertion; neither duplicate nor independent replication."
+    },
+    {
+      "a": "expansion-justified",
+      "b": "pooled-low-valuation-through-40",
+      "related": "both",
+      "proposedBracket": "RELATED-ONLY",
+      "reason": "Same study sensitivity case qualifies the lifetime supporter; avoid presenting two horizons as independent evidence."
+    },
+    {
+      "a": "expansion-needs-more-evidence",
+      "b": "pooled-low-valuation-through-40",
+      "related": "both",
+      "proposedBracket": "RELATED-ONLY",
+      "reason": "Positive within-follow-up modeled benefits do not resolve transferability; they prevent an exaggerated claim that all benefits require later extrapolation."
+    },
+    {
+      "a": "earnings-extrapolation",
+      "b": "pooled-low-valuation-through-40",
+      "related": "both",
+      "proposedBracket": "RELATED-ONLY",
+      "reason": "The age-40 result is a complementary sensitivity finding, not a contradiction of the lifetime model's use of projections."
+    },
+    {
+      "a": "pooled-low-valuation-lifetime",
+      "b": "pooled-low-valuation-through-40",
+      "related": "both",
+      "proposedBracket": "RELATED-ONLY",
+      "reason": "Same population and assumptions with distinct benefit horizons; expose paired comparison rather than duplicate evidence counts."
+    }
+  ],
+  "rationale": "Post-index review retains one directed economic supporter and two opposing policy directions. Projection and horizon sensitivity remain Related-only: neither proves nor refutes transportability. The two policy Claims disagree about sufficiency, while both can accept positive returns in Perry. No reverse factual implication or independent-replication count is introduced."
+}

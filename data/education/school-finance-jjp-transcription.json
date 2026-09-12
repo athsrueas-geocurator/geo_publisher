@@ -1,0 +1,24 @@
+{
+  "sourcePdf": "tmp/pdfs/school-finance-jjp-2016.pdf",
+  "sourceSha256": "ebb142984253e919653e6bbd612dde24113efbd70b43a6490f8e5f8845410741",
+  "doi": "10.1093/qje/qjv036",
+  "version": "2016 journal article",
+  "specification": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+  "exposure": "Natural log of average per-pupil spending during ages 5–17; authors describe sustained exposure over 12 school years",
+  "uncertainty": "Reported robust SE clustered at school district level; no confidence intervals transcribed",
+  "sampleCountScope": "Counts are model-level totals. Subgroup-specific counts are not separately reported in these tables.",
+  "groups": ["all", "low-income", "nonpoor"],
+  "outcomes": [
+    {"key":"education-years","table":"III","printedPage":191,"pdfPage":36,"columns":[3,4,4],"measure":"Years of education","unit":"years per unit increase in ln(per-pupil spending)","coefficients":["3.1488","4.5899","0.7156"],"standardErrors":["0.7906","1.2072","1.3193"],"pThresholds":["<0.01","<0.01",null],"individuals":15353,"families":4586,"personYears":null},
+    {"key":"high-school-graduation","table":"III","printedPage":191,"pdfPage":36,"columns":[7,8,8],"measure":"Probability of high school graduation","unit":"probability units per unit increase in ln(per-pupil spending)","coefficients":["0.7053","0.9878","0.2470"],"standardErrors":["0.1436","0.2744","0.1757"],"pThresholds":["<0.01","<0.01",null],"individuals":15353,"families":4586,"personYears":null},
+    {"key":"adult-log-wages","table":"IV","printedPage":198,"pdfPage":43,"columns":[3,4,4],"measure":"Log wages, ages 20–45","unit":"log-wage units per unit increase in ln(per-pupil spending)","coefficients":["0.7743","0.9598","0.5525"],"standardErrors":["0.1959","0.3003","0.4461"],"pThresholds":["<0.01","<0.01",null],"individuals":13183,"families":4454,"personYears":106545},
+    {"key":"adult-log-family-income","table":"IV","printedPage":198,"pdfPage":43,"columns":[7,8,8],"measure":"Log family income, ages 20–45","unit":"log-income units per unit increase in ln(per-pupil spending)","coefficients":["0.9819","1.7146","0.2021"],"standardErrors":["0.2849","0.3585","0.4223"],"pThresholds":["<0.01","<0.01",null],"individuals":14730,"families":4588,"personYears":151349},
+    {"key":"adult-poverty","table":"V","printedPage":203,"pdfPage":48,"columns":[3,4,4],"measure":"Probability of poverty, ages 20–45","unit":"probability units per unit increase in ln(per-pupil spending)","coefficients":["-0.2678","-0.6132","0.0385"],"standardErrors":["0.0710","0.1242","0.0850"],"pThresholds":["<0.01","<0.01",null],"individuals":14737,"families":4588,"personYears":151756}
+  ],
+  "costIllustration": {
+    "status":"author-reported model; not reconciled for computed comparisons",
+    "printedPages":[212,213],"pdfPages":[57,58],
+    "priceYear":2013,"currency":"USD","baselineAnnualPerPupilSpending":"5459","spendingIncreaseFraction":"0.10","spendingYears":12,"discountRateFraction":"0.06","reportedPresentCost":"4850","medianAnnualEarnings":"28031","earningsAges":[25,60],"wageIncreaseFractionInCostParagraph":"0.072","wageIncreaseFractionInPrecedingParagraph":"0.077","reportedPresentBenefit":"just over 10000","reportedBenefitCostRatio":"about 3","reportedInternalRateOfReturn":"roughly 10%",
+    "caveat":"Do not calculate a reconciled ratio or treat approximate phrases as exact values; adjoining paragraphs use different wage increases and do not fully specify reproduction timing."
+  }
+}

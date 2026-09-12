@@ -1,0 +1,35 @@
+{
+  "publisherVersion": "collection-v1",
+  "name": "Enhanced Reading Opportunities findings",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "sha256": "6af474c8254b333b3773245f559e908c8b6fa12e7953071d222a9d4b0974cbdf",
+  "opsPath": "data/education/enhanced-reading-collection-ops.json",
+  "journalPath": "data/education/enhanced-reading-collection-publication.json",
+  "validationPath": "data/education/enhanced-reading-collection-validation.json",
+  "reviewBinding": {
+    "path": "data/education/enhanced-reading-collection-review-binding.json",
+    "sha256": "729a57ca0fbde57a1e70b20e268908c5dad7f676f3c69c9cbbc99165666a4930"
+  },
+  "datasetId": "d97d882c1858460fb0c48f30d3e66841",
+  "catalogId": "2279edef1bbe479c872caeb72ee90022",
+  "groups": [
+    {
+      "key": "context",
+      "blockId": "345b617d04844dfaa49613cc7933d706",
+      "memberIds": [
+        "9de409cf2a3a4fc29dc68bcc3abbe9a5"
+      ]
+    },
+    {
+      "key": "findings",
+      "blockId": "88f6c0a5b57e4a068989ece6191beeb4",
+      "memberIds": [
+        "00f19327dbe44129bddd7f8a015967ee",
+        "37101612fbcd447f989249a7e9558e3f",
+        "322ed581e4934da8994953574296d483"
+      ]
+    }
+  ],
+  "operationCount": 24
+}

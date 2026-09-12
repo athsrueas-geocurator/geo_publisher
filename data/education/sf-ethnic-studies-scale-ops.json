@@ -1,0 +1,1019 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Cultural Relevance at Scale: The Effects of an Ethnic Studies Expansion on Academic Outcomes",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A districtwide, student-level difference-in-differences evaluation of ethnic-studies expansion in San Francisco.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.3102/00028312261426338",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://journals.sagepub.com/doi/10.3102/00028312261426338",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6ee19d12ddf64df8b87dcf5303cf15be"
+    },
+    "entity": {
+      "$bytes": "db0c164eda3a48db8ba3f350a4808aac"
+    },
+    "from": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BtU"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "San Francisco Unified School District ethnic-studies expansion",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A later districtwide expansion of San Francisco ethnic-studies courses, distinct from the earlier GPA-cutoff pilot.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://journals.sagepub.com/doi/10.3102/00028312261426338",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cd3ff73c7b13441c91d6ccdf1477e4e7"
+    },
+    "entity": {
+      "$bytes": "05472ecfccde450eb6e867d95f8bdfee"
+    },
+    "from": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01v6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "039b575e85864ea29d25cfaafe41d56f"
+    },
+    "entity": {
+      "$bytes": "1f259450ce2c4f40a401df6a9c8d0003"
+    },
+    "from": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "to": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04SS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e5f41c3f5e8844ed919952c4ddabe977"
+    },
+    "entity": {
+      "$bytes": "99fba211b6214007bd0547736fd284f0"
+    },
+    "from": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "to": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BVB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dc928e4ac4e24568bc441413e1d9dcb7"
+    },
+    "entity": {
+      "$bytes": "8c578e3c60854e8eab1482ecc0587583"
+    },
+    "from": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "to": {
+      "$bytes": "d597ffb8910b46158a2eb2c20ad4e48b"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03KR"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "06dc073ff59941e28f70b73c457c0353"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "In San Francisco’s districtwide ethnic-studies expansion, enrollment increased overall GPA by 0.174 grade points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This within-student two-way-fixed-effects estimate uses the balanced panel (school-clustered SE 0.040; N=24,210). It is an observational difference-in-differences estimate of enrollment, not the earlier pilot’s cutoff-based causal estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "174"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "40"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "24210"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Grade-point effect of ethnic-studies enrollment on overall GPA in the balanced-panel districtwide expansion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2, overall row; p. 20.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "34251f1bcb1e473494678bbfe4f24856"
+    },
+    "entity": {
+      "$bytes": "e46b9ed6587641b39382f6f9ea989a3e"
+    },
+    "from": {
+      "$bytes": "06dc073ff59941e28f70b73c457c0353"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02YY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c095c82bfb104e798e1b53e6f01690df"
+    },
+    "entity": {
+      "$bytes": "823b298916764331b5ca7e5bb299dde8"
+    },
+    "from": {
+      "$bytes": "06dc073ff59941e28f70b73c457c0353"
+    },
+    "to": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04L3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7aee4181ca094295abf009cf2d87b291"
+    },
+    "entity": {
+      "$bytes": "9b74e929523f4072a72804f40f7413dc"
+    },
+    "from": {
+      "$bytes": "06dc073ff59941e28f70b73c457c0353"
+    },
+    "to": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00Vu"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6f43e40d66df461ab54546d876fd7b92"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "In San Francisco’s districtwide ethnic-studies expansion, enrollment reduced the probability of any D or F by 5.6 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This balanced-panel two-way-fixed-effects estimate has a school-clustered SE of 0.016 (N=24,210). The paper defines course failure as receiving a D or F during the school year and reports an association under its stated design, not a randomized effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-56"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "16"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "24210"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point effect of ethnic-studies enrollment on receiving any D or F during the school year in the balanced-panel expansion sample.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2, overall row; pp. 16, 20.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1f657e8561394baf89c1e3a7c27cdbb4"
+    },
+    "entity": {
+      "$bytes": "6455701c95f64e3d9ee89a7b0c750216"
+    },
+    "from": {
+      "$bytes": "6f43e40d66df461ab54546d876fd7b92"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06T4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "773b8c6ddfce4353b50055422f4406b7"
+    },
+    "entity": {
+      "$bytes": "1859aae521484f1e92543af8f9ce03b8"
+    },
+    "from": {
+      "$bytes": "6f43e40d66df461ab54546d876fd7b92"
+    },
+    "to": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0B4Y"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1111e82999c643f098b4a34ea73f4015"
+    },
+    "entity": {
+      "$bytes": "d53cec2560f54eaeb6497e49bb69bb95"
+    },
+    "from": {
+      "$bytes": "6f43e40d66df461ab54546d876fd7b92"
+    },
+    "to": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07Pk"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "87455eca1b8b4e3eb78528a9cf252502"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "In San Francisco’s districtwide ethnic-studies expansion, enrollment increased math GPA by 0.266 grade points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This subject-specific within-student two-way-fixed-effects estimate has a school-clustered SE of 0.049 (N=24,246). It describes an enrollment association in the expansion, with design and attrition limitations discussed by the authors.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "266"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "49"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "24246"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Grade-point effect of ethnic-studies enrollment on math GPA in the balanced-panel districtwide expansion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 3, math column; p. 21.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cad6f0b49acb43a7a646c61e5538a0fb"
+    },
+    "entity": {
+      "$bytes": "ea724b0bfcd044388ae6936827c46370"
+    },
+    "from": {
+      "$bytes": "87455eca1b8b4e3eb78528a9cf252502"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01YR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5827de0efa044de09fd9069c681010c9"
+    },
+    "entity": {
+      "$bytes": "e12601da5ae94c8ebb06c6affc161e35"
+    },
+    "from": {
+      "$bytes": "87455eca1b8b4e3eb78528a9cf252502"
+    },
+    "to": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08Bg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2608dcf73d5f426ebd1f0a3812e49e83"
+    },
+    "entity": {
+      "$bytes": "227f6403b8574e9dab8f63c24e927102"
+    },
+    "from": {
+      "$bytes": "87455eca1b8b4e3eb78528a9cf252502"
+    },
+    "to": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05Zg"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "beb15e1d6e894dc1a62ebe982c243cc0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "In San Francisco’s districtwide ethnic-studies expansion, enrollment increased science GPA by 0.199 grade points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This subject-specific within-student two-way-fixed-effects estimate has a school-clustered SE of 0.049 (N=24,246). It is a distinct science outcome, not a standard-deviation effect or a trial estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "199"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "49"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "24246"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Grade-point effect of ethnic-studies enrollment on science GPA in the balanced-panel districtwide expansion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 3, science column; p. 21.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ae00e2508eef48da8c9a6a90a85c0c2c"
+    },
+    "entity": {
+      "$bytes": "2847bbfd2be142388c069717d85e1deb"
+    },
+    "from": {
+      "$bytes": "beb15e1d6e894dc1a62ebe982c243cc0"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03yh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c0e50f914a744850ad09183dc87dde81"
+    },
+    "entity": {
+      "$bytes": "71a05143894242c98f607f5f5008d699"
+    },
+    "from": {
+      "$bytes": "beb15e1d6e894dc1a62ebe982c243cc0"
+    },
+    "to": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03U1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a5b30ea178da47699df41165fb7f7ca9"
+    },
+    "entity": {
+      "$bytes": "f43b274b25914d2891cd3f9c9af9b02d"
+    },
+    "from": {
+      "$bytes": "beb15e1d6e894dc1a62ebe982c243cc0"
+    },
+    "to": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09By"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "fb41e8a9e45e4cf9bb07d4861035b22c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Among Black students in San Francisco’s districtwide ethnic-studies expansion, enrollment increased GPA by 0.228 grade points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This subgroup two-way-fixed-effects estimate has a school-clustered SE of 0.042 (N=1,335). It is one separately estimated subgroup result and should not be treated as an overall district effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "228"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "42"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1335"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Grade-point effect of ethnic-studies enrollment on GPA among Black students in the balanced-panel districtwide expansion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2, Black row; p. 20.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e5423d769d524b4fa8bdf4380bcc7d78"
+    },
+    "entity": {
+      "$bytes": "46734059c0b64144b4926bed4f35b907"
+    },
+    "from": {
+      "$bytes": "fb41e8a9e45e4cf9bb07d4861035b22c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a061R"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "035aab6dade743c3aa277d80714b3141"
+    },
+    "entity": {
+      "$bytes": "55660b68709341ff8c3c0f93d7db5b72"
+    },
+    "from": {
+      "$bytes": "fb41e8a9e45e4cf9bb07d4861035b22c"
+    },
+    "to": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Amu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "154af13609164a798c3c0910c15f9c35"
+    },
+    "entity": {
+      "$bytes": "80c0d4ac4c4147cea6e9ba8664feda03"
+    },
+    "from": {
+      "$bytes": "fb41e8a9e45e4cf9bb07d4861035b22c"
+    },
+    "to": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04T5"
+  }
+]

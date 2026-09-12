@@ -1,0 +1,76 @@
+{
+  "term": "Group",
+  "checkedAt": "2026-09-11T20:33:18.019Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "1155165cc746456dbd6794d052e3795c",
+      "name": "Muscle groups",
+      "description": "Links an individual muscle to the broader muscle group it belongs to based on shared location or coordinated function.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "1bb88a7a6b29406496503992a3009e7a",
+      "name": "Property groups",
+      "description": "Property groups are used by type entities to organize schema properties into subcategories",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ]
+    },
+    {
+      "id": "40ae310c17b54701896db079d55bce5c",
+      "name": "Dose form groups",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "47cd89a30a7a8b6eac387948a9e57d8e",
+      "name": "ASC Payment Group",
+      "description": "Ambulatory Surgical Center payment group assignment",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546",
+        "5730d57a8112b3e0bef2f277b1bea9d0"
+      ]
+    },
+    {
+      "id": "711c112ec46244b683c6e0b37e2c9b44",
+      "name": "Synergist muscle group",
+      "description": "Muscle group that assists or works with another group to produce or stabilize a movement.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "82631c9ec25fe9329b474ee25b2490e7",
+      "name": "Group key",
+      "description": "AI Music ontology field for group_key; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "e0c6ae95f9894fc4820cbfa9b62bfe41",
+      "name": "Antagonist muscle group",
+      "description": "Muscle group that produces an opposing movement to another group during an action.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNzExYzExMmUtYzQ2Mi00NGI2LTgzYzYtZTBiMzdlMmM5YjQ0Il1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTBjNmFlOTUtZjk4OS00ZmM0LTgyMGMtYmZhOWI2MmJmZTQxIl1d"
+    }
+  ]
+}

@@ -1,0 +1,1842 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3f2f83ec99644b4fa9c710584408c383"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Definitions of education research designs, inputs, outcomes and evidence terms. This collection is being migrated from Education Initiatives.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a62abb193f78453facc30f6e45d9aae0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Collection notes\n\nCurated definitions and interpretation guidance from the Education Initiatives source collection. Sections preserve the source organization. Publication is in progress; some entries still require identity resolution.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "18dc887f33a04dcb8dc9d1b66e824deb"
+    },
+    "entity": {
+      "$bytes": "3da611c1b0294410a8b71715a7a83224"
+    },
+    "from": {
+      "$bytes": "a62abb193f78453facc30f6e45d9aae0"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BCE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a6c4d521af264fc2a959e0d0e2bbea0f"
+    },
+    "entity": {
+      "$bytes": "52dbd472b210475ca8b6d35c53a3fb98"
+    },
+    "from": {
+      "$bytes": "3f2f83ec99644b4fa9c710584408c383"
+    },
+    "to": {
+      "$bytes": "a62abb193f78453facc30f6e45d9aae0"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a15de"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Math effects and reported tutoring costs from two randomized Chicago trials. Estimates retain their study, uncertainty and source context.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ee140bdcaa014cfd8b478f396dca4890"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nChicago, Illinois, United States; Grade 9–10 students; RCT. EXPLORE/PLAN mathematics. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4d5f58a3180e48fb9da6d77267886414"
+    },
+    "entity": {
+      "$bytes": "cc79a02c27c440d6a54b71e7524ff7ef"
+    },
+    "from": {
+      "$bytes": "ee140bdcaa014cfd8b478f396dca4890"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08Qu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8c4f38ade79d4eaf85d4d2c4a7a4ef9d"
+    },
+    "entity": {
+      "$bytes": "cccd5aa2dd2e4f2aa36129a4f4c938f2"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "ee140bdcaa014cfd8b478f396dca4890"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a183W"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3f178d30985c477094dbdd90937d8268"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention-to-treat estimate; standard error 0.035; outcome-complete N=1852. Related estimates from the same trial are not independent replications.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "edb15c88f1bc4b4abf8df2f195ed4a7a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nIntention-to-treat estimate; standard error 0.035; outcome-complete N=1852. Table 3, p. 749, panel A. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c4ec0ae891ab48828fdf723c94cda8c9"
+    },
+    "entity": {
+      "$bytes": "3f02ed32331b4afe9034ed6b56645b8e"
+    },
+    "from": {
+      "$bytes": "edb15c88f1bc4b4abf8df2f195ed4a7a"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a021K"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2bbc3ead756547a3a94bec5086ae7a7f"
+    },
+    "entity": {
+      "$bytes": "b928ab394ef04ae2acef8589bcfe22b0"
+    },
+    "from": {
+      "$bytes": "3f178d30985c477094dbdd90937d8268"
+    },
+    "to": {
+      "$bytes": "edb15c88f1bc4b4abf8df2f195ed4a7a"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a01MZ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9cfaa5763efb4651bbc197286ce72c08"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Treatment-on-the-treated estimate; standard error 0.066; outcome-complete N=1852. Related estimates from the same trial are not independent replications.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "15057016396e46abbb44dea4d120d5b2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nTreatment-on-the-treated estimate; standard error 0.066; outcome-complete N=1852. Table 3, p. 749, panel A. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9cbca4eaf173461ca8063e6f00c23650"
+    },
+    "entity": {
+      "$bytes": "b6315e1e6b6c4003b46f8a585bf46b95"
+    },
+    "from": {
+      "$bytes": "15057016396e46abbb44dea4d120d5b2"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BzE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1d527ba011134cb787f42722f44b678d"
+    },
+    "entity": {
+      "$bytes": "fe332675d8d24810be66f2a8695a0241"
+    },
+    "from": {
+      "$bytes": "9cfaa5763efb4651bbc197286ce72c08"
+    },
+    "to": {
+      "$bytes": "15057016396e46abbb44dea4d120d5b2"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a00MT"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "36570925385b495e9de1777b82d01b9b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Intention-to-treat estimate; standard error 0.036; outcome-complete N=1865. Related estimates from the same trial are not independent replications.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "27760853e2a845f48ce4a2a4bf4ea6d8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nIntention-to-treat estimate; standard error 0.036; outcome-complete N=1865. Table 4, p. 750, panel A. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "089abab5c5e442f890b17f1a24b15836"
+    },
+    "entity": {
+      "$bytes": "914483dd65a44afbb0cd0129dcf60972"
+    },
+    "from": {
+      "$bytes": "27760853e2a845f48ce4a2a4bf4ea6d8"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04PP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "24b7cc406b7941dc926c074762203983"
+    },
+    "entity": {
+      "$bytes": "ccac322d44e442cea72bb6ea9c3b7cbf"
+    },
+    "from": {
+      "$bytes": "36570925385b495e9de1777b82d01b9b"
+    },
+    "to": {
+      "$bytes": "27760853e2a845f48ce4a2a4bf4ea6d8"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a02Xc"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "604fb6007d6a4cc5ab52d489c9dc17bd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Treatment-on-the-treated estimate; standard error 0.105; outcome-complete N=1865. Related estimates from the same trial are not independent replications.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "87c6dccb75f641c088ad25f9405a5184"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nTreatment-on-the-treated estimate; standard error 0.105; outcome-complete N=1865. Table 4, p. 750, panel A. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "817452073ce64aeb823e6adece346a31"
+    },
+    "entity": {
+      "$bytes": "8719bec35da948219c1bfb68debfac72"
+    },
+    "from": {
+      "$bytes": "87c6dccb75f641c088ad25f9405a5184"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07SE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9a69ebbc952f4ccb830e3bc119af9db3"
+    },
+    "entity": {
+      "$bytes": "ff3d2d5bf5ca41af8190d2cc1b55971a"
+    },
+    "from": {
+      "$bytes": "604fb6007d6a4cc5ab52d489c9dc17bd"
+    },
+    "to": {
+      "$bytes": "87c6dccb75f641c088ad25f9405a5184"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a00dM"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0adff420a6bc480b8973880dfdb5f296"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reported annual tutoring cost per pupil, with a range that is not a confidence interval. The price year and full accounting scope remain unverified.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c87a25d13e7f4562983ded1112d94dc9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\ncost-accounting range, not confidence interval. Price year unverified; cost-accounting review pending. This is a cost observation, not a cost-effectiveness estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1769eafcdc7c4c638e4f6c0453541763"
+    },
+    "entity": {
+      "$bytes": "dd292cc3e6274bc6b3bb8e717955d04f"
+    },
+    "from": {
+      "$bytes": "c87a25d13e7f4562983ded1112d94dc9"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02cn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "caf78c1c5a584b499d7017a128d4f6ae"
+    },
+    "entity": {
+      "$bytes": "ca4752c1d0b74d1ab4dab687646ed40a"
+    },
+    "from": {
+      "$bytes": "0adff420a6bc480b8973880dfdb5f296"
+    },
+    "to": {
+      "$bytes": "c87a25d13e7f4562983ded1112d94dc9"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a00oC"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Alan B. Krueger’s 2003 Economic Journal article examines class-size evidence and models its economic returns.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "af294c5f9d5b4b5aa42f8737fe51ef4c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Publication details\n\nAlan B. Krueger; The Economic Journal 113(485), F34–F63, 2003. Published article; working paper DOI 10.3386/w8875.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5f0ad1e86a0847f4a06885db5a0105ad"
+    },
+    "entity": {
+      "$bytes": "e765c6d59fa7480397115b490b0225e6"
+    },
+    "from": {
+      "$bytes": "af294c5f9d5b4b5aa42f8737fe51ef4c"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04I5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "128ceb75bbe145788cff6e2d116f1cee"
+    },
+    "entity": {
+      "$bytes": "c89265ad3dbd4a9bbcd8b3accab3e077"
+    },
+    "from": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "to": {
+      "$bytes": "af294c5f9d5b4b5aa42f8737fe51ef4c"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a09hQ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b0e661c838de4b8eb406a9c5a82249b1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "42d8f03dbc9349679cb0f4f0601dccb9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than reported 7300. The dataset retains the reported value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a0af7a588bd94a1caa52187791a8b0f4"
+    },
+    "entity": {
+      "$bytes": "3c8236af3f7f4b7ca8828172895fa0c9"
+    },
+    "from": {
+      "$bytes": "42d8f03dbc9349679cb0f4f0601dccb9"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03Wc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d88a48e37df648afb3c75928cd0a682c"
+    },
+    "entity": {
+      "$bytes": "2e1db9290e1f4591b630aa51cb7bbfd0"
+    },
+    "from": {
+      "$bytes": "b0e661c838de4b8eb406a9c5a82249b1"
+    },
+    "to": {
+      "$bytes": "42d8f03dbc9349679cb0f4f0601dccb9"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a09KT"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8d771b3a82e8475c945f258e35af6390"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "873599d70e454aacb1023a9db09f0a05"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5ec1810258134c219da4e1b29deb44d6"
+    },
+    "entity": {
+      "$bytes": "b527ebb821474412be7796781fa6199c"
+    },
+    "from": {
+      "$bytes": "873599d70e454aacb1023a9db09f0a05"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a062z"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4540b99d98a04cf384f0e22671123c9d"
+    },
+    "entity": {
+      "$bytes": "16619a107f5e4e79936182c7f017c744"
+    },
+    "from": {
+      "$bytes": "8d771b3a82e8475c945f258e35af6390"
+    },
+    "to": {
+      "$bytes": "873599d70e454aacb1023a9db09f0a05"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a01Wy"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5bd25b7faf3e46c7b6072d99ef1c8db8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "812298dd3a39440cad35959f1ea20a48"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "840029d686bf490c8ac14789eed6dd4f"
+    },
+    "entity": {
+      "$bytes": "4dbda3af54c543ada6b50cce2951502a"
+    },
+    "from": {
+      "$bytes": "812298dd3a39440cad35959f1ea20a48"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05mx"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9121b5274cae4b2c937a89ee74c74748"
+    },
+    "entity": {
+      "$bytes": "015fa5dd81c949468e70c97c7701fe2b"
+    },
+    "from": {
+      "$bytes": "5bd25b7faf3e46c7b6072d99ef1c8db8"
+    },
+    "to": {
+      "$bytes": "812298dd3a39440cad35959f1ea20a48"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a028w"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "818fe1434caf4d0c8e416c99f001d961"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "46a76343e5d74d3885dbecffdd0f8b4a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fbe42666bc2e4c0d8ff589ee7537bf4b"
+    },
+    "entity": {
+      "$bytes": "71a658b2966e4d37b5f6d6228b69fe8f"
+    },
+    "from": {
+      "$bytes": "46a76343e5d74d3885dbecffdd0f8b4a"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AKo"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9cf6cd265dcf4a7d968133b97e030f71"
+    },
+    "entity": {
+      "$bytes": "2cd898d6fb51471fa0ecb0ae6b26c8ba"
+    },
+    "from": {
+      "$bytes": "818fe1434caf4d0c8e416c99f001d961"
+    },
+    "to": {
+      "$bytes": "46a76343e5d74d3885dbecffdd0f8b4a"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a09Ly"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c2dde1afcd154f4fb1245ebbca516c0c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "517dc08b0fd5476d97919e14450f8c34"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "63436c6e4c0d4a58af53a6299dc487a3"
+    },
+    "entity": {
+      "$bytes": "2300ccbb2f6f4440834d15bdd4864b36"
+    },
+    "from": {
+      "$bytes": "517dc08b0fd5476d97919e14450f8c34"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AmU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aaeb4ae854544f8f8b13c12f87568a08"
+    },
+    "entity": {
+      "$bytes": "354c33023a6d4856937f17f7ca01b08c"
+    },
+    "from": {
+      "$bytes": "c2dde1afcd154f4fb1245ebbca516c0c"
+    },
+    "to": {
+      "$bytes": "517dc08b0fd5476d97919e14450f8c34"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a06t7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f7078c3786294db8885c4868a63d0046"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "fe15e8643c954ed6b4e4266d876aff19"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3b9d5daee6a54284af96348de457fcee"
+    },
+    "entity": {
+      "$bytes": "6e8a135bffe847b4b0fa382d3ca9bae7"
+    },
+    "from": {
+      "$bytes": "fe15e8643c954ed6b4e4266d876aff19"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0839"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e53e7aa8fd074f398d059a5a449c7c17"
+    },
+    "entity": {
+      "$bytes": "e1b7b2f8a6604851b0302b4932a47b34"
+    },
+    "from": {
+      "$bytes": "f7078c3786294db8885c4868a63d0046"
+    },
+    "to": {
+      "$bytes": "fe15e8643c954ed6b4e4266d876aff19"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0380"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a987df7e9dc14f81a04892eafbaf4fd3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "072d41f4816f409d986b6c8a257fbe84"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8fb7f6c8a1a64e84aa9f9fdbc215271a"
+    },
+    "entity": {
+      "$bytes": "cd8b907100d74efeb39434b06d1f06b0"
+    },
+    "from": {
+      "$bytes": "072d41f4816f409d986b6c8a257fbe84"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05IQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "def46ffaf0c2405d9331c38c99ce01f5"
+    },
+    "entity": {
+      "$bytes": "f14f4ad443aa485687a55e52e031f153"
+    },
+    "from": {
+      "$bytes": "a987df7e9dc14f81a04892eafbaf4fd3"
+    },
+    "to": {
+      "$bytes": "072d41f4816f409d986b6c8a257fbe84"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a04xA"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7467a37094084d529f36e14c7e75599a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "38daef7b5481460caf52f70b62d09835"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5d4c1b6eae204bfa967495ef82bbc61f"
+    },
+    "entity": {
+      "$bytes": "2e1f9aba197c4f398f637786cc2d6070"
+    },
+    "from": {
+      "$bytes": "38daef7b5481460caf52f70b62d09835"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03IK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "52fc6b16be1947ce8da2fbefe366d5e7"
+    },
+    "entity": {
+      "$bytes": "12e2802237234c4eabf863b12df1829f"
+    },
+    "from": {
+      "$bytes": "7467a37094084d529f36e14c7e75599a"
+    },
+    "to": {
+      "$bytes": "38daef7b5481460caf52f70b62d09835"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a09ch"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5e2a860dd8aa4f90bf1b8953e9bbb924"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b467807d32054d5c8b8976f1afd57498"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bcee7d5f0d8043a9b1e1ce78cfd54083"
+    },
+    "entity": {
+      "$bytes": "cdfd11ea0b8a4e77902eb1785ae661e2"
+    },
+    "from": {
+      "$bytes": "b467807d32054d5c8b8976f1afd57498"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05kw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ec05d6690f55432d93c39dac7052b9ba"
+    },
+    "entity": {
+      "$bytes": "ae000d8fe58c46c4ab5ddd005003811b"
+    },
+    "from": {
+      "$bytes": "5e2a860dd8aa4f90bf1b8953e9bbb924"
+    },
+    "to": {
+      "$bytes": "b467807d32054d5c8b8976f1afd57498"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a02Si"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "34cae62372cd429fb66d09bfdc6aa290"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4a83086bc0a74d62a78d9dfa0918925b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "82530d6afbd140c1aa24eb08d7863e7b"
+    },
+    "entity": {
+      "$bytes": "3932c979c01b4c759a322b600ba7be89"
+    },
+    "from": {
+      "$bytes": "4a83086bc0a74d62a78d9dfa0918925b"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02Uj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "70fa839dfec341d1a532af5649752a91"
+    },
+    "entity": {
+      "$bytes": "0fcb2ecc0c9a4f01991dd7cc692b2b58"
+    },
+    "from": {
+      "$bytes": "34cae62372cd429fb66d09bfdc6aa290"
+    },
+    "to": {
+      "$bytes": "4a83086bc0a74d62a78d9dfa0918925b"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a01j8"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "48045ce49a334e4cafee8c6de38a10e8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "761215f44cd740b1acc254924d1af2b2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9c8fe79938e74f7693b93fa0cb9ef714"
+    },
+    "entity": {
+      "$bytes": "8d6467c13ad94b9185fd55a0ce0dbbe1"
+    },
+    "from": {
+      "$bytes": "761215f44cd740b1acc254924d1af2b2"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06Ip"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fa1ce1fcc6444d96b5b8686bf1f971be"
+    },
+    "entity": {
+      "$bytes": "444cad79ff06475180c7763dd567d4a4"
+    },
+    "from": {
+      "$bytes": "48045ce49a334e4cafee8c6de38a10e8"
+    },
+    "to": {
+      "$bytes": "761215f44cd740b1acc254924d1af2b2"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a05o0"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "89ee9184e65448229773c81addfa4d6c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f19ac4d3e1e04686a038216ecf01b00c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7a63e84576164a1888c897fb63f034e7"
+    },
+    "entity": {
+      "$bytes": "724dd58ae8a748cbb8e3ee7a6d049e47"
+    },
+    "from": {
+      "$bytes": "f19ac4d3e1e04686a038216ecf01b00c"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03uY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "98e59fa3786e4234819589099211741f"
+    },
+    "entity": {
+      "$bytes": "a3e075e623aa421da5233f2e701d5b4d"
+    },
+    "from": {
+      "$bytes": "89ee9184e65448229773c81addfa4d6c"
+    },
+    "to": {
+      "$bytes": "f19ac4d3e1e04686a038216ecf01b00c"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a005q"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1b10a3ca00654eb29e4f794329e0032e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1f7b263d9ee74ec8ac0ed975de085239"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d50361df3a804ca298a154e014d6a835"
+    },
+    "entity": {
+      "$bytes": "89d2a4adee4b467c8ee9be498a704c83"
+    },
+    "from": {
+      "$bytes": "1f7b263d9ee74ec8ac0ed975de085239"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06tn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "618ef0967b6a45b68e9b7aba4ceadfa0"
+    },
+    "entity": {
+      "$bytes": "f0c075a9aaa6426db2e8decc6cc314c4"
+    },
+    "from": {
+      "$bytes": "1b10a3ca00654eb29e4f794329e0032e"
+    },
+    "to": {
+      "$bytes": "1f7b263d9ee74ec8ac0ed975de085239"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a09YM"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3de72d69a6e9490191d875c27510ad96"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "234bfa8c23f74aa88cc1d458b4cb3e79"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "49ee59c2e0e044daa5b023c34c07ba72"
+    },
+    "entity": {
+      "$bytes": "d1c1bc8daa5e430c99b4d9b051f77bdf"
+    },
+    "from": {
+      "$bytes": "234bfa8c23f74aa88cc1d458b4cb3e79"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08Cf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4030c592450146edb4f74bcd4dee69dc"
+    },
+    "entity": {
+      "$bytes": "30fa9d0ab05a4dafb675d10f86564508"
+    },
+    "from": {
+      "$bytes": "3de72d69a6e9490191d875c27510ad96"
+    },
+    "to": {
+      "$bytes": "234bfa8c23f74aa88cc1d458b4cb3e79"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0AWH"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "559f5b1464b747648219f51b0ee05dc6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "03cc192609c34493ac071cf199ce5dd2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "05008371bad24247b998784542bc4a7a"
+    },
+    "entity": {
+      "$bytes": "16d973f66cd2487baa697164ddd58ea7"
+    },
+    "from": {
+      "$bytes": "03cc192609c34493ac071cf199ce5dd2"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Ayo"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d78a580812c24d68901b947a16ea1c42"
+    },
+    "entity": {
+      "$bytes": "228bab8da4e04d95a3beb323e9bc72a7"
+    },
+    "from": {
+      "$bytes": "559f5b1464b747648219f51b0ee05dc6"
+    },
+    "to": {
+      "$bytes": "03cc192609c34493ac071cf199ce5dd2"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a04f9"
+  }
+]

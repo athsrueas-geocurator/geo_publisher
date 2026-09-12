@@ -1,0 +1,11 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {geoGraphqlRequest as gql} from '../src/geo-api-client';
+const root='data/education',content=JSON.parse(readFileSync(`${root}/original-bibliography-authors-content.json`,'utf8'));
+const report:any={checkedAt:new Date().toISOString(),scope:'All spaces/types, first-name and surname tokens allow middle initials; full pagination. Candidate identities require review.',authors:[],articles:[]};
+for(const name of [...new Set<string>(content.articles.flatMap((a:any)=>a.authors))]){
+ const tokens=name.split(' '),first=tokens[0]!.split('-')[0],last=tokens.at(-1);let after:string|null=null;const nodes:any[]=[],seen=new Set<string>();
+ do{const d:any=await gql('query($first:String!,$last:String!,$after:Cursor){entitiesConnection(first:20,after:$after,filter:{and:[{name:{includesInsensitive:$first}},{name:{includesInsensitive:$last}}]}){nodes{id name description spaceIds types{id name}values(first:15){nodes{propertyId text spaceId}pageInfo{hasNextPage}}}pageInfo{hasNextPage endCursor}}}',{variables:{first,last,after}});const page=d.entitiesConnection;nodes.push(...page.nodes);if(!page.pageInfo.hasNextPage)break;if(!page.pageInfo.endCursor||seen.has(page.pageInfo.endCursor))throw Error('Incomplete search');after=page.pageInfo.endCursor;seen.add(after!);}while(true);
+ report.authors.push({name,complete:true,nodes});writeFileSync(`${root}/original-bibliography-authors-discovery.json`,JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({name,candidates:nodes.map(n=>({id:n.id,name:n.name,description:n.description,types:n.types}))}));
+}
+for(const article of content.articles){const d:any=await gql('query($id:UUID!,$space:UUID!){entity(id:$id){id name types{id name} values(first:20,filter:{spaceId:{is:$space}}){nodes{propertyId text}pageInfo{hasNextPage}} relations(first:30,filter:{typeId:{is:"91a9e2f6e51a48f7997661de8561b690"},spaceId:{is:$space}}){nodes{id toEntityId toEntity{name} position}pageInfo{hasNextPage}}}}',{variables:{id:article.id,space:'dac259bad48a11adf97fe36857d85206'}});if(!d.entity||d.entity.values.pageInfo.hasNextPage||d.entity.relations.pageInfo.hasNextPage)throw Error('Incomplete source read');report.articles.push(d.entity);}
+writeFileSync(`${root}/original-bibliography-authors-discovery.json`,JSON.stringify(report,null,2)+'\n');

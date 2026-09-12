@@ -1,0 +1,113 @@
+{
+  "term": "Category",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:29:36.878Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "06c899fb04334e679feb1fd56687c3d6",
+      "name": "Category",
+      "description": "The single classification or grouping to which something belongs.",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "220095aa9d3b44f88cacaccc2828c4db",
+      "name": "Category",
+      "description": null,
+      "spaceIds": [
+        "8eec93d8f6af2e037e09b26df1224621"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "3f190a22ff094fa68b21790bd2e139fc",
+      "name": "Category",
+      "description": null,
+      "spaceIds": [
+        "d8ba11cee21fb24628c7debc76b609c2"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "52e68966a4f743d3a7ae6cca8f838514",
+      "name": "Category",
+      "description": null,
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b",
+        "a19c345ab9866679b001d7d2138d88a1",
+        "89bd89bf28ff8a0963faf92a8c905e20"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "545f14c7a3ad48e192db1d1e148db4ae",
+      "name": "Category",
+      "description": "Tool category",
+      "spaceIds": [
+        "c45e5508572e026a7e78715e113529d1"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "554a0b81889c4f0db4961e022da67322",
+      "name": "Category",
+      "description": null,
+      "spaceIds": [
+        "c45e5508572e026a7e78715e113529d1"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNTQ1ZjE0YzctYTNhZC00OGUxLTkyZGItMWQxZTE0OGRiNGFlIl1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNTU0YTBiODEtODg5Yy00ZjBkLWI0OTYtMWUwMjJkYTY3MzIyIl1d"
+    }
+  ]
+}

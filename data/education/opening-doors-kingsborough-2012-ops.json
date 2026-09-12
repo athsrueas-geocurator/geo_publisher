@@ -1,0 +1,815 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e6329e1831db4ceea35b483e5fc50cc1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Commencement Day: Six-Year Effects of a Freshman Learning Community Program at Kingsborough Community College",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "MDRC’s 2012 six-year randomized evaluation of a freshman learning community at Kingsborough Community College.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/commencement-day/file-full",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3a48d637043749eda85b9a46718cf9ff"
+    },
+    "entity": {
+      "$bytes": "185526350ce94bf4935ab4d249686440"
+    },
+    "from": {
+      "$bytes": "e6329e1831db4ceea35b483e5fc50cc1"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0026"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d87635a2d7374daba6ddea72578c3be6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Opening Doors Learning Communities evaluated at Kingsborough Community College",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A one-semester Kingsborough program of linked courses, counseling, tutoring, and textbook vouchers for new full-time students.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/commencement-day/file-full",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c00903d64ebd4e61b87b406c418aac4f"
+    },
+    "entity": {
+      "$bytes": "1a740be0f9544004b0eb3b674f553ecd"
+    },
+    "from": {
+      "$bytes": "d87635a2d7374daba6ddea72578c3be6"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0A7q"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5dc69162dbed446894b58cde3245bf1d"
+    },
+    "entity": {
+      "$bytes": "78b1988f541c49e48d62bc60240a9074"
+    },
+    "from": {
+      "$bytes": "d87635a2d7374daba6ddea72578c3be6"
+    },
+    "to": {
+      "$bytes": "e6329e1831db4ceea35b483e5fc50cc1"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02l1"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "01f3068dfb154641be12cd1d5d9cfcfb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Kingsborough Opening Doors randomly assigned 1,534 first-time freshmen to a one-semester learning community or standard courses and services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The trial assigned 769 students to the program group and 765 to the control group. It evaluates this Kingsborough intervention, not every later Learning Communities or Opening Doors site.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1534"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Individual-level randomized comparison; 769 program and 765 control first-time freshmen; six-year follow-up.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Chapter 2; Appendix Table C.8, printed p. 79 / PDF p. 102.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "410f9ff8ad424f4ab4ae4eab52ee8c65"
+    },
+    "entity": {
+      "$bytes": "6fc2fa29cbb140e28b74c86a6b21a667"
+    },
+    "from": {
+      "$bytes": "01f3068dfb154641be12cd1d5d9cfcfb"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08T8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ebbbc2ee48664fc19b30e2f17406e8ed"
+    },
+    "entity": {
+      "$bytes": "464391a3529742abb594c2c86f8d2990"
+    },
+    "from": {
+      "$bytes": "01f3068dfb154641be12cd1d5d9cfcfb"
+    },
+    "to": {
+      "$bytes": "e6329e1831db4ceea35b483e5fc50cc1"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06bF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e99660ffe8684c48b0afe064f4b48839"
+    },
+    "entity": {
+      "$bytes": "46214dca1ccd491abf00cca9a3955dae"
+    },
+    "from": {
+      "$bytes": "01f3068dfb154641be12cd1d5d9cfcfb"
+    },
+    "to": {
+      "$bytes": "d87635a2d7374daba6ddea72578c3be6"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00hW"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5e2cc196b5c64587a024d5a9f4c3156d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Kingsborough Opening Doors increased degree attainment at any college by 4.6 percentage points after six years (35.9% versus 31.3%; SE 2.7).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This source-reported randomized difference is degree attainment at any institution after six years. It does not establish effects for other learning-community trials or settings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1534"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in earning a degree at any college after six years, program minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Appendix Table C.8, printed p. 79 / PDF p. 102.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "46"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "27"
+            }
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "24f9758bdad04af48f48ae84fa3c9d0f"
+    },
+    "entity": {
+      "$bytes": "a7e4a37b50aa471fae20dc37d7da0ae1"
+    },
+    "from": {
+      "$bytes": "5e2cc196b5c64587a024d5a9f4c3156d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0CI4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dbd9049c316c4a0783e83578b3501ae6"
+    },
+    "entity": {
+      "$bytes": "ca163d28a5804732888427b228438dd4"
+    },
+    "from": {
+      "$bytes": "5e2cc196b5c64587a024d5a9f4c3156d"
+    },
+    "to": {
+      "$bytes": "e6329e1831db4ceea35b483e5fc50cc1"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05dp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b8465d2b20bc42fdb4319dfb4bc47d96"
+    },
+    "entity": {
+      "$bytes": "011d34628c7e483ca44d0b1d13719316"
+    },
+    "from": {
+      "$bytes": "5e2cc196b5c64587a024d5a9f4c3156d"
+    },
+    "to": {
+      "$bytes": "d87635a2d7374daba6ddea72578c3be6"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05ib"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c1f4e38c5e544d2499087fba2776b0d3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Kingsborough Opening Doors had a $3,580 higher total education cost per program-group member over six years (2011 dollars).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The source’s accounting comparison is $33,990 for the program group versus $30,410 for controls. It is a six-year education-resource estimate, not a benefit-cost ratio or a general savings claim.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1534"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2011 USD net education cost per program-group member over six years, program minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5.3, printed p. 50 / PDF p. 73.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3580"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2011"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Total education cost per program-group member over six years; program minus control; includes CUNY financial-data accounting.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f0cfc4c7c11649edb4c7ce73354a6420"
+    },
+    "entity": {
+      "$bytes": "80ca897205ca4016b966346af743c9b6"
+    },
+    "from": {
+      "$bytes": "c1f4e38c5e544d2499087fba2776b0d3"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a040C"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e65fe10881284ff18157c750f7f95be4"
+    },
+    "entity": {
+      "$bytes": "f2a4d0d598294d60b253a58f3e5e1480"
+    },
+    "from": {
+      "$bytes": "c1f4e38c5e544d2499087fba2776b0d3"
+    },
+    "to": {
+      "$bytes": "e6329e1831db4ceea35b483e5fc50cc1"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01Fk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2638f56da834471db5da079305024e5c"
+    },
+    "entity": {
+      "$bytes": "e9030a22be0842c8a1b897d01769e82e"
+    },
+    "from": {
+      "$bytes": "c1f4e38c5e544d2499087fba2776b0d3"
+    },
+    "to": {
+      "$bytes": "d87635a2d7374daba6ddea72578c3be6"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0AYf"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9931dab1c90b4fb3bf8f3043c1da046b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Kingsborough Opening Doors cost $2,480 less per degree earned over six years (2011 dollars; $94,680 versus $97,160).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This source-reported accounting output combines group-level education costs and degree rates over six years. It is not a benefit-cost ratio, a universal saving, or evidence for other learning-community trials.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1534"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2011 USD difference in cost per degree earned over six years, program minus control; $94,680 versus $97,160.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5.3, printed p. 50 / PDF p. 73.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-2480"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2011"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Cost per degree earned over six years from group-level education costs and degree rates; program minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "623ee948b3d64a1392ca1de3cef1e9c4"
+    },
+    "entity": {
+      "$bytes": "ecbd0feaf2454508b58cb81c21929fc1"
+    },
+    "from": {
+      "$bytes": "9931dab1c90b4fb3bf8f3043c1da046b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a027r"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "24fd6b07bd5b4e18aecb86c2ebb47699"
+    },
+    "entity": {
+      "$bytes": "71d52bc18c0544eca12642cd8db53d34"
+    },
+    "from": {
+      "$bytes": "9931dab1c90b4fb3bf8f3043c1da046b"
+    },
+    "to": {
+      "$bytes": "e6329e1831db4ceea35b483e5fc50cc1"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04HS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3755bcbc8251405ba6dc3048417ed307"
+    },
+    "entity": {
+      "$bytes": "8cf1b95810a84fb780aabfb045e04ef1"
+    },
+    "from": {
+      "$bytes": "9931dab1c90b4fb3bf8f3043c1da046b"
+    },
+    "to": {
+      "$bytes": "d87635a2d7374daba6ddea72578c3be6"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03ml"
+  }
+]

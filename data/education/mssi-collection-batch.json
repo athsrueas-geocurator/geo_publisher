@@ -1,0 +1,37 @@
+{
+  "publisherVersion": "collection-v1",
+  "name": "MSSI findings",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "sha256": "7815d4d27acea8348cefcf752a2fd985ae64a89ff1ca9899a7b77da90405aa1b",
+  "opsPath": "data/education/mssi-collection-ops.json",
+  "journalPath": "data/education/mssi-collection-publication.json",
+  "validationPath": "data/education/mssi-collection-validation.json",
+  "reviewBinding": {
+    "path": "data/education/mssi-collection-review-binding.json",
+    "sha256": "28aa1ff0a99a9d011948573b88d3fa35589e398c7748e801ee0893aa8c5e1b2b"
+  },
+  "datasetId": "0907d2ce067248429b5d167f836eb35d",
+  "catalogId": "2279edef1bbe479c872caeb72ee90022",
+  "groups": [
+    {
+      "key": "context",
+      "blockId": "c388c285bec44939821347efe53a0acc",
+      "memberIds": [
+        "037750baacc64cf9ad9f52926edd7954"
+      ]
+    },
+    {
+      "key": "findings",
+      "blockId": "10f1439cc6134b81a3abc4692c0e4ca1",
+      "memberIds": [
+        "e7e548bbaef44881abdb9d71a82a474b",
+        "55b95943730d4330be8752d6d7486164",
+        "c59ad64b84cc41bd98b184962149fd6c",
+        "f2b1c830cfee4f45aa609ea038a9ecdd",
+        "025a37856a9b4f3fb5b212cd97e983ea"
+      ]
+    }
+  ],
+  "operationCount": 26
+}

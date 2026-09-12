@@ -1,0 +1,744 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f13bc8619a934875b46f6ca296454dd5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Getting Students on Track for Graduation: Impacts of the Early Warning Intervention and Monitoring System after One Year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A 2017 IES/REL Midwest report on the first-year randomized evaluation of EWIMS in high schools.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://ies.ed.gov/use-work/resource-library/report/impact-study/getting-students-track-graduation-impacts-early-warning-intervention-and-monitoring-system-after-one",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cf3b64a399dc4586bf58a7c810c805e6"
+    },
+    "entity": {
+      "$bytes": "ed3e8dcd97164cab828ae62fdede8596"
+    },
+    "from": {
+      "$bytes": "f13bc8619a934875b46f6ca296454dd5"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07uN"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0728c2e68dcc4d7fa50a0dd61b787cae"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Early Warning Intervention and Monitoring System (EWIMS)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A seven-step early-warning process that uses attendance, behavior and course-performance data to identify students, assign supports and monitor progress. The linked trial evaluates one first-year implementation, not every local data tool.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://ies.ed.gov/use-work/resource-library/report/impact-study/getting-students-track-graduation-impacts-early-warning-intervention-and-monitoring-system-after-one",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c3b2f093d026496b871b62cca7feac99"
+    },
+    "entity": {
+      "$bytes": "f9785138f2e24f07965458f0cba59d8b"
+    },
+    "from": {
+      "$bytes": "0728c2e68dcc4d7fa50a0dd61b787cae"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01vD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "80515050c2b747fa909b739ae509e3e4"
+    },
+    "entity": {
+      "$bytes": "2cfd4b20305549769201b3366cb97981"
+    },
+    "from": {
+      "$bytes": "0728c2e68dcc4d7fa50a0dd61b787cae"
+    },
+    "to": {
+      "$bytes": "f13bc8619a934875b46f6ca296454dd5"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08ZY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b8df0d706f004cc9b60e4d1b31be0287"
+    },
+    "entity": {
+      "$bytes": "d48cb3775c8c4d2987b0b95bd347cdd4"
+    },
+    "from": {
+      "$bytes": "0728c2e68dcc4d7fa50a0dd61b787cae"
+    },
+    "to": {
+      "$bytes": "f13bc8619a934875b46f6ca296454dd5"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0243"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "daee2a0143c8424e947db9ca08cc8981"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The EWIMS evaluation randomly assigned 73 high schools in three Midwestern states for the 2014/15 school year.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Thirty-seven schools implemented EWIMS and 36 continued usual practice; the report studied first- and second-year high-school students after one year. This is a school-level randomized evaluation, not a claim about every early-warning system.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c935a8b7a88249d68534933ed244a79e"
+    },
+    "entity": {
+      "$bytes": "ef0b21715dfa403e8d79d1d6a271f6ff"
+    },
+    "from": {
+      "$bytes": "daee2a0143c8424e947db9ca08cc8981"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01Ms"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1baf06eec9014c4c8c4ad6aab8126c9d"
+    },
+    "entity": {
+      "$bytes": "ec37d974cfdf46529864a9fcbd50bab2"
+    },
+    "from": {
+      "$bytes": "daee2a0143c8424e947db9ca08cc8981"
+    },
+    "to": {
+      "$bytes": "f13bc8619a934875b46f6ca296454dd5"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02O0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c089ffda2782437ab08622fd92aea94b"
+    },
+    "entity": {
+      "$bytes": "cb5deed546014863b8541b0556f8aa0b"
+    },
+    "from": {
+      "$bytes": "daee2a0143c8424e947db9ca08cc8981"
+    },
+    "to": {
+      "$bytes": "0728c2e68dcc4d7fa50a0dd61b787cae"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07aE"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c9d827735fb947d398092dbf5459b90b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "After one year, EWIMS schools had a 4-percentage-point lower chronic-absence rate than control schools (10% versus 14%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Chronic absence means missing 10% or more of instructional time. The source reports this model-adjusted difference as statistically significant after one year of adoption.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-4"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in chronic-absence risk: EWIMS minus control, after one year.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a056fa0162244e668efd9edb589c1335"
+    },
+    "entity": {
+      "$bytes": "ca66826c45fc42f8afa9a011d7b4e0ee"
+    },
+    "from": {
+      "$bytes": "c9d827735fb947d398092dbf5459b90b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05G3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bb09d4eee0c24589b86f150bb75c55b6"
+    },
+    "entity": {
+      "$bytes": "60405c697c5c4610a35136a86695f65c"
+    },
+    "from": {
+      "$bytes": "c9d827735fb947d398092dbf5459b90b"
+    },
+    "to": {
+      "$bytes": "f13bc8619a934875b46f6ca296454dd5"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a078G"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a49d9d8fab0c4438a12bf88dba1bfe3a"
+    },
+    "entity": {
+      "$bytes": "3d95018fbe994858bbac842bdc87b08d"
+    },
+    "from": {
+      "$bytes": "c9d827735fb947d398092dbf5459b90b"
+    },
+    "to": {
+      "$bytes": "0728c2e68dcc4d7fa50a0dd61b787cae"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a088S"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "85466d6690f1484c88d5faa727353823"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "After one year, EWIMS schools had a 5-percentage-point lower rate of failing one or more courses than control schools (21% versus 26%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The source reports this model-adjusted difference as statistically significant after one year of adoption. It is a course-failure risk result, not a graduation-rate estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-5"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in one-or-more-course-failure risk: EWIMS minus control, after one year.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "af41206b38ee42fc827f36a61288ed8a"
+    },
+    "entity": {
+      "$bytes": "54300478940f4d318262b10677dc23e4"
+    },
+    "from": {
+      "$bytes": "85466d6690f1484c88d5faa727353823"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05ot"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2ed1a2766b854bd3bfde0c116877173b"
+    },
+    "entity": {
+      "$bytes": "5bc116f1a57a4a04bb1118a134290e81"
+    },
+    "from": {
+      "$bytes": "85466d6690f1484c88d5faa727353823"
+    },
+    "to": {
+      "$bytes": "f13bc8619a934875b46f6ca296454dd5"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05iR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "36f9dc01725240479f2f3d921163f4fd"
+    },
+    "entity": {
+      "$bytes": "9665743b460a428898387e1ecc065da5"
+    },
+    "from": {
+      "$bytes": "85466d6690f1484c88d5faa727353823"
+    },
+    "to": {
+      "$bytes": "0728c2e68dcc4d7fa50a0dd61b787cae"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06OG"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0de12708d651452abdc2dabbfd9be21b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "After one year, EWIMS showed no statistically significant effect on insufficient credits for on-time graduation (14% in each group).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is the report’s first-year null result for progress in school. It does not establish that the exact effect was zero or rule out later changes in graduation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "0"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in insufficient-credits risk: EWIMS minus control, after one year; reported 14% in both groups.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "10fee306d78a449e852041c087f16c54"
+    },
+    "entity": {
+      "$bytes": "8e08e7013c974c9091398bcd08d8351b"
+    },
+    "from": {
+      "$bytes": "0de12708d651452abdc2dabbfd9be21b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02xf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bd4ad2aacaa54929969b8f357400483b"
+    },
+    "entity": {
+      "$bytes": "e44f00c3e17b438f95c016a2e87b1f37"
+    },
+    "from": {
+      "$bytes": "0de12708d651452abdc2dabbfd9be21b"
+    },
+    "to": {
+      "$bytes": "f13bc8619a934875b46f6ca296454dd5"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03bk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0dd7805117014055a8cc88d091d7a158"
+    },
+    "entity": {
+      "$bytes": "6e434fd4d89a4f89bc5690e5250cfaf6"
+    },
+    "from": {
+      "$bytes": "0de12708d651452abdc2dabbfd9be21b"
+    },
+    "to": {
+      "$bytes": "0728c2e68dcc4d7fa50a0dd61b787cae"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00t6"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5c3e095b65194d1fb896ea0e75b33367"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The EWIMS report found that implementation of its seven-step process was generally low and challenging in the first year.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Schools more often reported using an early-warning system and dedicated team, but the report found no detectable school-data-culture effect and did not identify the staff actions causing the attendance and course-failure changes.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "84f0b596ddbe435d9bcf86419a92ed47"
+    },
+    "entity": {
+      "$bytes": "1235935bcb08478a941c117ef818df88"
+    },
+    "from": {
+      "$bytes": "5c3e095b65194d1fb896ea0e75b33367"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a051c"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ea750e07bea9427eb9ae5fd3ef718379"
+    },
+    "entity": {
+      "$bytes": "e8b8f69bf4854a228596633231e09cad"
+    },
+    "from": {
+      "$bytes": "5c3e095b65194d1fb896ea0e75b33367"
+    },
+    "to": {
+      "$bytes": "f13bc8619a934875b46f6ca296454dd5"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03Ab"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "62b53f71a32e4c1da5618369a6d4763b"
+    },
+    "entity": {
+      "$bytes": "5300a001e24d4184916d064abf750235"
+    },
+    "from": {
+      "$bytes": "5c3e095b65194d1fb896ea0e75b33367"
+    },
+    "to": {
+      "$bytes": "0728c2e68dcc4d7fa50a0dd61b787cae"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BOb"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "term": "coaching",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:30.085Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "6886d9dd603745848272268e2dddbdc7",
+      "name": "Coaching",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    },
+    {
+      "id": "b47b31784a474dad865d7c3bc9a65a3b",
+      "name": "Coaching",
+      "description": "Provides ongoing guidance, support, and feedback to help individuals develop skills and sustain behavior change. Focuses on goal setting, accountability, and personalized strategies over time.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "b1f18f197010455a94d2d162c67cc06d",
+          "name": "Intervention category"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYjQ3YjMxNzgtNGE0Ny00ZGFkLTg2NWQtN2MzYmM5YTY1YTNiIl1d"
+    }
+  ]
+}

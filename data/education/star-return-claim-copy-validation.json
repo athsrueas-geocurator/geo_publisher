@@ -1,0 +1,56 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T04:15:46.171Z",
+  "checks": [
+    "Live Checkbox property da4a6c1f9d4446f9832ff3b49a4400ef",
+    "Live Decimal property 879d207046024b44be6e3d64c32c60da",
+    "Live Decimal property 51a331c9b55e40ed9ba9b3aa7eacbf0b",
+    "Live Relation property 49c5d5e1679a4dbdbfd33f618f227c94",
+    "Live Relation property 8f151ba4de204e3c9cb499ddf96f48f1",
+    "Claim type 3e69566289c14f80b6fb19a84a0300e4",
+    "Complete read 3e69566289c14f80b6fb19a84a0300e4",
+    "Reviewed current title 3e69566289c14f80b6fb19a84a0300e4",
+    "IRR preserved 3e69566289c14f80b6fb19a84a0300e4",
+    "Growth preserved 3e69566289c14f80b6fb19a84a0300e4",
+    "Source preserved 3e69566289c14f80b6fb19a84a0300e4",
+    "Claim type 6db38a6c620f4ca1bc2452137457d686",
+    "Complete read 6db38a6c620f4ca1bc2452137457d686",
+    "Reviewed current title 6db38a6c620f4ca1bc2452137457d686",
+    "IRR preserved 6db38a6c620f4ca1bc2452137457d686",
+    "Growth preserved 6db38a6c620f4ca1bc2452137457d686",
+    "Source preserved 6db38a6c620f4ca1bc2452137457d686",
+    "Claim type cc14cee1099d4271841287a2455d9045",
+    "Complete read cc14cee1099d4271841287a2455d9045",
+    "Reviewed current title cc14cee1099d4271841287a2455d9045",
+    "IRR preserved cc14cee1099d4271841287a2455d9045",
+    "Growth preserved cc14cee1099d4271841287a2455d9045",
+    "Source preserved cc14cee1099d4271841287a2455d9045"
+  ],
+  "opsHash": "32eed2e4ad5bffb038688535a4f32da1efe9092c05a8e34f51465f2276d96af0",
+  "repairs": [
+    {
+      "id": "3e69566289c14f80b6fb19a84a0300e4",
+      "old": "STAR modeled real return: 0% annual wage growth",
+      "name": "STAR's modeled real annual internal return is 5.2% when assumed real wage growth is 0%.",
+      "description": "This author-modeled class-size calculation projects earnings over ages 18–65; it is not an observed investment return or a confidence bound.",
+      "irr": 0.052,
+      "growth": 0
+    },
+    {
+      "id": "6db38a6c620f4ca1bc2452137457d686",
+      "old": "STAR modeled real return: 1% annual wage growth",
+      "name": "STAR's modeled real annual internal return is 6.2% when assumed real wage growth is 1%.",
+      "description": "This author-modeled class-size calculation projects earnings over ages 18–65; it is not an observed investment return or a confidence bound.",
+      "irr": 0.062,
+      "growth": 0.01
+    },
+    {
+      "id": "cc14cee1099d4271841287a2455d9045",
+      "old": "STAR modeled real return: 2% annual wage growth",
+      "name": "STAR's modeled real annual internal return is 7.3% when assumed real wage growth is 2%.",
+      "description": "This author-modeled class-size calculation projects earnings over ages 18–65; it is not an observed investment return or a confidence bound.",
+      "irr": 0.073,
+      "growth": 0.02
+    }
+  ]
+}

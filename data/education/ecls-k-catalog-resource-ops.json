@@ -1,0 +1,137 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "96de62907fc94c62b0e9a6076ccea75c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Early Childhood Longitudinal Study, Kindergarten Class of 2010-11 (ECLS-K:2011)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "ECLS-K:2011 follows a nationally representative kindergarten cohort from 2010 through fifth grade. It supports weighted descriptive and developmental context; it does not by itself estimate an initiative’s effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://nces.ed.gov/ecls/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bb3cefc2ff2041edb3527864b04ae1f7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ECLS-K:2011 catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** National Center for Education Statistics.\n- **Access:** Public-use child-level files, documentation, and setup files; restricted files require a license.\n- **Unit:** Longitudinal child record with linked family, teacher, classroom, and school responses.\n- **Coverage:** Kindergarten entry in 2010 through spring 2016 fifth grade for the ECLS-K:2011 cohort.\n- **Geography:** Nation.\n- **Join keys:** Child record, wave, respondent type, and survey weight.\n- **Measures:** Direct assessments, school readiness, child development, family background, and classroom and school context.\n- **Appropriate uses:** Early-childhood outcome context, developmental trajectories, and program-participation context.\n\nUse NCES weights and cohort-specific comparability guidance. ECLS-K:2011 is observational longitudinal data, so it cannot substitute for an experimental or otherwise credible evaluation of an early-childhood initiative.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bd2cdfaea5f9409fbcd044168ceaaba5"
+    },
+    "entity": {
+      "$bytes": "3731c60374cd43b5a6af7edd89969118"
+    },
+    "from": {
+      "$bytes": "96de62907fc94c62b0e9a6076ccea75c"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09uK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a21a74248e8947558ec09e22281f4978"
+    },
+    "entity": {
+      "$bytes": "08a51ceb31da438b9249ae994fb5830d"
+    },
+    "from": {
+      "$bytes": "bb3cefc2ff2041edb3527864b04ae1f7"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04Be"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "71ad4fd369aa4fdcb2d62e5237500ed3"
+    },
+    "entity": {
+      "$bytes": "bdd1d37cafce4903b715188b43b99fcf"
+    },
+    "from": {
+      "$bytes": "96de62907fc94c62b0e9a6076ccea75c"
+    },
+    "to": {
+      "$bytes": "bb3cefc2ff2041edb3527864b04ae1f7"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0Aw9"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-09-11",
+  "url": "https://www.geobrowser.io/space/dac259bad48a11adf97fe36857d85206/4874a8385a594633ab244f47889f9cab",
+  "method": "Live in-app browser accessibility text, tab 4 in the resumed browser session",
+  "passed": true,
+  "rows": [
+    {"wageGrowth":"0%","realIRR":"5.2%"},
+    {"wageGrowth":"1%","realIRR":"6.2%"},
+    {"wageGrowth":"2%","realIRR":"7.3%"}
+  ],
+  "checks": ["All three rows render in ascending wage-growth order", "Source locators identify the Table 5 return row", "Interpretation block follows the return table", "Rates render as percentages from numeric fractions"],
+  "limitations": ["These are modeled returns, not observed investments, independent trials or confidence bounds", "Claim voting badges are separate from the IRR cells"]
+}

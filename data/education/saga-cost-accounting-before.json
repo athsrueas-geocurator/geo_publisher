@@ -1,0 +1,235 @@
+{
+  "checkedAt": "2026-09-11T23:18:57.701Z",
+  "entities": [
+    {
+      "id": "0adff420a6bc480b8973880dfdb5f296",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "3a558d71454745a992c035040f648729",
+            "text": "pupil-year",
+            "decimal": null,
+            "integer": null
+          },
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "Reported annual tutoring cost per pupil, with a range that is not a confidence interval. The price year and full accounting scope remain unverified.",
+            "decimal": null,
+            "integer": null
+          },
+          {
+            "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+            "text": "pp. 740, 759; Appendix V cited",
+            "decimal": null,
+            "integer": null
+          },
+          {
+            "propertyId": "13cc4f64fc2f416ea398094d02a18a53",
+            "text": null,
+            "decimal": "4800",
+            "integer": null
+          },
+          {
+            "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+            "text": "USD",
+            "decimal": null,
+            "integer": null
+          },
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Saga tutoring: approximate annual cost per pupil, 2013–2015",
+            "decimal": null,
+            "integer": null
+          },
+          {
+            "propertyId": "0db260c165ed4cceaf56d5b2c63382d7",
+            "text": null,
+            "decimal": "3200",
+            "integer": null
+          },
+          {
+            "propertyId": "6ba2ce00db064687b108aa8449672886",
+            "text": null,
+            "decimal": "3500",
+            "integer": null
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "96f859efa1ca4b229372c86ad58b694b"
+          },
+          {
+            "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+            "toEntityId": "e82f3bfc991a4578aa8b7a503640b95e"
+          },
+          {
+            "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+            "toEntityId": "6ce956de8cc047178c33046dd525009d"
+          },
+          {
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "toEntityId": "c87a25d13e7f4562983ded1112d94dc9"
+          },
+          {
+            "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+            "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "c87a25d13e7f4562983ded1112d94dc9",
+      "types": [
+        {
+          "id": "76474f2f00894e77a0410b39fb17d0bf"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+            "text": "## Methods and interpretation\n\ncost-accounting range, not confidence interval. Price year unverified; cost-accounting review pending. This is a cost observation, not a cost-effectiveness estimate.",
+            "decimal": null,
+            "integer": null
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "76474f2f00894e77a0410b39fb17d0bf"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "52448bbbf0cd4c1bb8e949ebe9d628d2",
+      "types": [
+        {
+          "id": "0c4babfb43893486af827341bbf32e09"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+            "text": "first postrandomization school year",
+            "decimal": null,
+            "integer": null
+          },
+          {
+            "propertyId": "8405509cc7354655a348591349a5f025",
+            "text": "study-sample standard deviations",
+            "decimal": null,
+            "integer": null
+          },
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "Math effects and reported tutoring costs from two randomized Chicago trials. Estimates retain their study, uncertainty and source context.",
+            "decimal": null,
+            "integer": null
+          },
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Saga tutoring: Chicago trial estimates (Guryan et al., 2023)",
+            "decimal": null,
+            "integer": null
+          },
+          {
+            "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+            "text": "https://educationlab.uchicago.edu/wp-content/uploads/sites/3/2023/10/UChicago-Education-Lab-Not-Too-Late-Paper_03.23.pdf",
+            "decimal": null,
+            "integer": null
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "0c4babfb43893486af827341bbf32e09"
+          },
+          {
+            "typeId": "d66cd445e09a41809af46d86f083b41c",
+            "toEntityId": "0adff420a6bc480b8973880dfdb5f296"
+          },
+          {
+            "typeId": "d66cd445e09a41809af46d86f083b41c",
+            "toEntityId": "9cfaa5763efb4651bbc197286ce72c08"
+          },
+          {
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "toEntityId": "ee140bdcaa014cfd8b478f396dca4890"
+          },
+          {
+            "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+            "toEntityId": "86c407ce9e7e49819e1cd8d07b20f4c8"
+          },
+          {
+            "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+            "toEntityId": "6ce956de8cc047178c33046dd525009d"
+          },
+          {
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "toEntityId": "e64b7ea956f44e3c92fb6be52a10682e"
+          },
+          {
+            "typeId": "d66cd445e09a41809af46d86f083b41c",
+            "toEntityId": "3f178d30985c477094dbdd90937d8268"
+          },
+          {
+            "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+            "toEntityId": "8812b3d57a4c4221a10c1024557a764a"
+          },
+          {
+            "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+            "toEntityId": "e82f3bfc991a4578aa8b7a503640b95e"
+          },
+          {
+            "typeId": "d66cd445e09a41809af46d86f083b41c",
+            "toEntityId": "36570925385b495e9de1777b82d01b9b"
+          },
+          {
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "toEntityId": "3fd5a3e82ccb4267bde900ce82fc077e"
+          },
+          {
+            "typeId": "d66cd445e09a41809af46d86f083b41c",
+            "toEntityId": "604fb6007d6a4cc5ab52d489c9dc17bd"
+          },
+          {
+            "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+            "toEntityId": "6ff69ada18b54b1db98375da1b90df65"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    }
+  ]
+}

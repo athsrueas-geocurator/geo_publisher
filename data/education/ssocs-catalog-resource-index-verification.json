@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-09-12T10:41:35.387Z",
+  "batchName": "Add SSOCS catalog resource and metadata block",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "entityId": "655b053c43344e9dab5dc048367490ab",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "655b053c43344e9dab5dc048367490ab",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "655b053c43344e9dab5dc048367490ab",
+      "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+      "pass": true
+    },
+    {
+      "relationId": "ef7c23d27cf8402e845a11eac80dcaf9",
+      "pass": true
+    },
+    {
+      "relationId": "68d157671df445f491d9da917f26b89f",
+      "pass": true
+    },
+    {
+      "entityId": "6a045d705aaf4a09bb8e8bfabf006f5f",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "6a045d705aaf4a09bb8e8bfabf006f5f",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "relationId": "2e9dcec5f7a44d12b774016fef6c666e",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

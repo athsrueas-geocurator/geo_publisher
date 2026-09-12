@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-09-12T05:31:03.732Z",
+  "batchName": "Add reported p values to Enhanced Reading Opportunities claims",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 4,
+  "checks": [
+    {
+      "entityId": "9de409cf2a3a4fc29dc68bcc3abbe9a5",
+      "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+      "pass": true
+    },
+    {
+      "entityId": "00f19327dbe44129bddd7f8a015967ee",
+      "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+      "pass": true
+    },
+    {
+      "entityId": "37101612fbcd447f989249a7e9558e3f",
+      "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+      "pass": true
+    },
+    {
+      "entityId": "322ed581e4934da8994953574296d483",
+      "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

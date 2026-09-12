@@ -1,0 +1,47 @@
+{
+  "term": "program",
+  "checkedAt": "2026-09-11T21:42:48.296Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "024a5fea54edac43a87cc9a183e5769b",
+      "name": "Program status",
+      "description": "The current stage of the program.",
+      "spaceIds": [
+        "d69608290513c2a91102c939b3265bd7"
+      ]
+    },
+    {
+      "id": "3867f72076503b7a7ecdaec9a25d33e8",
+      "name": "Programming language",
+      "description": "AI Music ontology field for programming_language; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "54718847857443ecbda996f550847e87",
+      "name": "Programme",
+      "description": "The sanctions programme or legal authority under which a designation was made.",
+      "spaceIds": [
+        "89bd89bf28ff8a0963faf92a8c905e20"
+      ]
+    },
+    {
+      "id": "f47b83081d9f453085f4b06154f5a460",
+      "name": "Programming languages",
+      "description": null,
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjQ3YjgzMDgtMWQ5Zi00NTMwLTg1ZjQtYjA2MTU0ZjVhNDYwIl1d"
+    }
+  ]
+}

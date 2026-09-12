@@ -1,0 +1,13 @@
+{
+  "status": "Preparation; no publication established by this model",
+  "datasetId": "52448bbbf0cd4c1bb8e949ebe9d628d2",
+  "articleId": "8812b3d57a4c4221a10c1024557a764a",
+  "studyIds": {"1":"6ff69ada18b54b1db98375da1b90df65","2":"86c407ce9e7e49819e1cd8d07b20f4c8"},
+  "followup": {
+    "grade11-math": "Eleventh-grade outcome as reported in Appendix Table 5",
+    "grade11-gpa": "Eleventh-grade outcome as reported in Appendix Table 5",
+    "graduated-ontime": "On-time high-school graduation",
+    "graduated-ever": "Graduated within the report's observed window; terminal date not established"
+  },
+  "methodsMarkdown": "## Separate results for the two Chicago trials\n\nAppendix Table 5 reports eleventh-grade mathematics and high-school graduation outcomes separately for Study 1 and Study 2. The main article explicitly points to these cohort-specific results in footnote 17 on printed page 752. These are follow-up analyses of the existing trials, not additional experiments. ITT and TOT describe alternate estimands for the same outcome; neither they nor the pooled results add independent studies.\n\n## Follow-up definition\n\nThe main article describes its pooled eleventh-grade outcomes using the year a student would have reached eleventh grade without retention. The appendix notes that students may have multiple eleventh-grade years. These records retain the appendix's reported eleventh-grade label; the handling of repeated grade years is not fully specified here, so a common elapsed follow-up interval is not assigned. Graduated ever refers to the observed window, whose terminal date has not been established, not lifetime graduation.\n\n## Uncertainty and sample\n\nEach estimate retains the reported standard error and outcome-specific number of observations. The appendix retains both randomizations for 65 Study 2 students randomized twice and clusters robust standard errors by individual. The control-complier mean is an estimate; the row's FDR q-value is not an ordinary per-estimand p-value. Low adjusted q-values for Study 1 math and higher q-values for Study 2 do not by themselves establish a between-study difference. Graduation point estimates are imprecise and do not establish either a benefit or no effect.\n\n## Source\n\n[Official online appendix](https://www.aeaweb.org/content/file?id=18262), Appendix Table 5, printed A-12 (PDF page 13), to [Guryan et al. (2023)](https://doi.org/10.1257/aer.20210434)."
+}

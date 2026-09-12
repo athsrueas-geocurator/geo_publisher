@@ -1,0 +1,41 @@
+{
+  "publication": {
+    "doi": "10.1257/aer.20210434",
+    "title": "Not Too Late: Improving Academic Outcomes among Adolescents",
+    "year": 2023,
+    "sourceUrl": "https://educationlab.uchicago.edu/wp-content/uploads/sites/3/2023/10/UChicago-Education-Lab-Not-Too-Late-Paper_03.23.pdf",
+    "version": "American Economic Review 113(3), 738–765",
+    "identityStatus": "unresolved"
+  },
+  "context": {
+    "intervention": "Saga tutoring",
+    "geography": "Chicago, Illinois, United States",
+    "population": "Grade 9–10 students",
+    "design": "RCT",
+    "instrument": "EXPLORE/PLAN mathematics",
+    "unit": "study-sample standard deviations",
+    "followUp": "first postrandomization school year",
+    "limitations": "Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence."
+  },
+  "estimates": [
+    { "key": "saga-s1-y1-math-itt", "study": 1, "estimand": "ITT", "value": 0.091, "standardError": 0.035, "n": 1852, "locator": "Table 3, p. 749, panel A" },
+    { "key": "saga-s1-y1-math-tot", "study": 1, "estimand": "TOT", "value": 0.179, "standardError": 0.066, "n": 1852, "locator": "Table 3, p. 749, panel A" },
+    { "key": "saga-s2-y1-math-itt", "study": 2, "estimand": "ITT", "value": 0.135, "standardError": 0.036, "n": 1865, "locator": "Table 4, p. 750, panel A" },
+    { "key": "saga-s2-y1-math-tot", "study": 2, "estimand": "TOT", "value": 0.398, "standardError": 0.105, "n": 1865, "locator": "Table 4, p. 750, panel A" }
+  ],
+  "cost": {
+    "key": "saga-2013-2015-annual-cost",
+    "approximateValue": 3500,
+    "low": 3200,
+    "high": 4800,
+    "currency": "USD",
+    "denominator": "pupil-year",
+    "studyPeriod": "2013–2015",
+    "priceYear": null,
+    "locator": "pp. 740, 759; Appendix V cited",
+    "rangeKind": "cost-accounting range, not confidence interval",
+    "normalizationStatus": "pending appendix review"
+  },
+  "publicationStatus": "not submitted",
+  "scope": "Initial extraction; other shortlisted studies and full source migration remain in scope."
+}

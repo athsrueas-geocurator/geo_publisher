@@ -1,0 +1,31 @@
+{
+  "term": "Implemented by",
+  "checkedAt": "2026-09-11T22:52:39.601Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "eb33e7dc0d23b15415d8a74ee227ddba",
+      "name": "Implemented by",
+      "description": "AI Music ontology relation implemented_by; domain Model, ModelSystem, ModelRelease, Metric, Technique, ModelComponent, TokenizerOrCodec, MetricImplementation, WatermarkingScheme; range SoftwareArtifact, Model, ModelSystem; publish policy plain_relation_ok_after_schema_review.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "f837f252a01b4ea3886f56fb309b94c1",
+      "name": "Implemented by",
+      "description": "The software tools that implement this technique - linking the abstract method to the concrete software artefacts that put it to work in the research. A technique is an abstract procedure; the tools listed here are the systems that realise it in code.",
+      "spaceIds": [
+        "cf0e11338b33fcd6cdb032c625c85454"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjgzN2YyNTItYTAxYi00ZWEzLTg4NmYtNTZmYjMwOWI5NGMxIl1d"
+    }
+  ]
+}

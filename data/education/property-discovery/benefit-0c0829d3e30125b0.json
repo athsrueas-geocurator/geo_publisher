@@ -1,0 +1,47 @@
+{
+  "term": "Benefit",
+  "checkedAt": "2026-09-11T20:08:57.596Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "34493ca0ff584332d62429c8fcd9c1f1",
+      "name": "May benefit",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "49fcf7e6ccea49dab672345486cd9df9",
+      "name": "Present value of benefits",
+      "description": "Discounted monetary benefits; interpret with currency, price year, denominator, discount rate and modeled benefit scope.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ]
+    },
+    {
+      "id": "5cc231cc1ca8ed9f3d80daa22f8c7742",
+      "name": "Claimed benefits",
+      "description": "What the supplement is marketed/used for",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "7ca34a2278d141c49be93377d8edfffd",
+      "name": "Key benefits",
+      "description": null,
+      "spaceIds": [
+        "d23eaaed1ded3f52b5116e254473f96d"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiN2NhMzRhMjItNzhkMS00MWM0LTliZTktMzM3N2Q4ZWRmZmZkIl1d"
+    }
+  ]
+}

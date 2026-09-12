@@ -1,0 +1,24 @@
+{
+  "name": "Add paired Head Start third-grade ITT and IOT findings",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/head-start-third-grade-paired-expansion-ops.json",
+  "sha256": "66a8ce104f619c3f94928580e7ee91318f55da8564128fad5788a44fc6de759f",
+  "journalPath": "data/education/head-start-third-grade-paired-expansion-publication.json",
+  "validationPath": "data/education/head-start-third-grade-paired-expansion-validation.json",
+  "entities": {
+    "article": "c183f28d3bc34439b797138e50d5c1f3",
+    "initiative": "d03b32bd416443e49b9aa376e744cb03",
+    "claims": {
+      "four-total-problem/itt": "92f33511b5b84541be7ac3f6ec699338",
+      "four-total-problem/iot": "931014fa9a4841c183a964ef3f85f2e4",
+      "four-teacher-closeness/itt": "af2d8b40901042e9a3d1b9b0fb54c459",
+      "four-teacher-closeness/iot": "f157c7f622a14502a871b6840a3b1c2b",
+      "four-teacher-positive-relationship/itt": "7c9180da2b3c4d698ed196db8423d943",
+      "four-teacher-positive-relationship/iot": "d95d03698ee947e692bf84aa2f181371",
+      "four-parent-time/itt": "f2fde6171f684e5688bad62638d5fb23",
+      "four-parent-time/iot": "854919bb6d1e43a7a279a5e1e126204f"
+    }
+  },
+  "operationCount": 40
+}

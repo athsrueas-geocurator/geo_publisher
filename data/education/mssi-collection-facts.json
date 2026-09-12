@@ -1,0 +1,117 @@
+[
+  {
+    "id": "037750baacc64cf9ad9f52926edd7954",
+    "sourceId": "4eb6ce035ec046b59e29ac3a49cac986",
+    "locator": "Overview, p. iii; Executive Summary pp. ES-2–ES-3.",
+    "classification": "study-design",
+    "context": "MSSI mixed-methods evaluation; implementation, community-college outcomes and cost remain distinct.",
+    "name": "MSSI randomly assigned 514 eligible CCBC male students of color to program or usual services.",
+    "description": "The 2019–2022 evaluation assigned 304 students to MSSI and 210 to usual CCBC services. It evaluates a two-semester culturally contextualized course and support package; the control group retained campus services available to all students.",
+    "values": []
+  },
+  {
+    "id": "e7e548bbaef44881abdb9d71a82a474b",
+    "sourceId": "4eb6ce035ec046b59e29ac3a49cac986",
+    "locator": "Table ES.2, p. ES-8; Table 4.5, p. 68.",
+    "classification": "observed",
+    "context": "MSSI mixed-methods evaluation; implementation, community-college outcomes and cost remain distinct.",
+    "name": "MSSI cost $885 per intended program participant in real 2021 dollars.",
+    "description": "The spring-2019-to-fall-2021 average is an intent-to-treat service cost based on intended students, including those who did not enroll. The report says early persistence and completion impacts did not permit a cost-effectiveness calculation.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "304"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Real 2021 USD average program cost per intended participant across six terms."
+      }
+    ]
+  },
+  {
+    "id": "55b95943730d4330be8752d6d7486164",
+    "sourceId": "4eb6ce035ec046b59e29ac3a49cac986",
+    "locator": "Table ES.1, p. ES-7; Table 4.1, p. 56.",
+    "classification": "observed",
+    "context": "MSSI mixed-methods evaluation; implementation, community-college outcomes and cost remain distinct.",
+    "name": "MSSI increased first-semester ACDV-course enrollment by 10.3 percentage points (66.4% versus 56.1%).",
+    "description": "This full-sample first-semester transcript outcome is course enrollment, not overall college persistence. The reported randomized difference has p = .012 and standard error 4.1 percentage points.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "514"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Percentage-point difference in first-semester enrollment in the Academic Development course, MSSI minus usual services."
+      }
+    ]
+  },
+  {
+    "id": "c59ad64b84cc41bd98b184962149fd6c",
+    "sourceId": "4eb6ce035ec046b59e29ac3a49cac986",
+    "locator": "Table ES.1, p. ES-7; Table 4.1, p. 56.",
+    "classification": "observed",
+    "context": "MSSI mixed-methods evaluation; implementation, community-college outcomes and cost remain distinct.",
+    "name": "MSSI increased first-semester ACDV-course passing by 15.2 percentage points (43.4% versus 28.1%).",
+    "description": "This full-sample first-semester transcript outcome concerns passing the intervention-linked course. It does not establish a later degree or persistence effect.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "514"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Percentage-point difference in passing the Academic Development course in the first semester, MSSI minus usual services."
+      }
+    ]
+  },
+  {
+    "id": "f2b1c830cfee4f45aa609ea038a9ecdd",
+    "sourceId": "4eb6ce035ec046b59e29ac3a49cac986",
+    "locator": "Table ES.1, p. ES-7; Table 4.1, p. 56.",
+    "classification": "observed",
+    "context": "MSSI mixed-methods evaluation; implementation, community-college outcomes and cost remain distinct.",
+    "name": "MSSI showed no statistically significant first-semester difference in credits earned (+0.3; 4.3 versus 3.9).",
+    "description": "The full-sample first-semester transcript result has p = .446 and standard error 0.4 credits. The source also found no early persistence effect, so this result should not be presented as evidence of completion.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "514"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Difference in first-semester credits earned, MSSI minus usual services."
+      }
+    ]
+  },
+  {
+    "id": "025a37856a9b4f3fb5b212cd97e983ea",
+    "sourceId": "4eb6ce035ec046b59e29ac3a49cac986",
+    "locator": "Table ES.2, p. ES-8; Table 4.3, p. 60.",
+    "classification": "observed",
+    "context": "MSSI mixed-methods evaluation; implementation, community-college outcomes and cost remain distinct.",
+    "name": "MSSI increased fourth-semester A/B/C grades in all courses by 7.3 percentage points (12.5% versus 5.2%).",
+    "description": "This cohorts-1-to-3 follow-up result has p = .048 and standard error 3.6 percentage points (N = 256). It is later course-performance evidence, not a persistence or degree-completion effect.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "256"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Percentage-point difference in receiving A, B, or C in all courses in the fourth semester, MSSI minus usual services; cohorts 1–3 only."
+      }
+    ]
+  }
+]

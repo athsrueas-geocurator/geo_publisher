@@ -1,0 +1,17 @@
+query ReadingFirstComparison($spaceId: UUID!, $filter: EntityFilter!, $after: Cursor) {
+  entitiesConnection(spaceId: $spaceId, typeId: "96f859efa1ca4b229372c86ad58b694b", first: 10, after: $after, filter: $filter) {
+    nodes {
+      id
+      name
+      values(first: 30, filter: {spaceId: {is: $spaceId}}) {
+        nodes {propertyId text decimal integer}
+        pageInfo {hasNextPage}
+      }
+      relations(first: 30, filter: {spaceId: {is: $spaceId}}) {
+        nodes {typeId toEntityId}
+        pageInfo {hasNextPage}
+      }
+    }
+    pageInfo {hasNextPage endCursor}
+  }
+}

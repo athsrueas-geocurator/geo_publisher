@@ -1,0 +1,32 @@
+{
+  "sourceKey": "datasets/ntps-tfs",
+  "checkedAt": "2026-09-11T17:56:44.872Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/ntps-sass-data.asp",
+      "needle": "nces.ed.gov/surveys/ntps/ntps-sass-data.asp",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    },
+    {
+      "url": "https://nces.ed.gov/datalab/onlinecodebook",
+      "needle": "nces.ed.gov/datalab/onlinecodebook",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

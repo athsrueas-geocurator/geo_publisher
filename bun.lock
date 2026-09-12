@@ -5,7 +5,7 @@
     "": {
       "name": "geo-sdk-demo",
       "dependencies": {
-        "@geoprotocol/geo-sdk": "0.20.1",
+        "@geoprotocol/geo-sdk": "0.20.3",
         "csv-parse": "^6.1.0",
         "dotenv": "^17.2.4",
         "viem": "^2.45.3",
@@ -22,7 +22,7 @@
 
     "@bokuweb/zstd-wasm": ["@bokuweb/zstd-wasm@0.0.27", "", {}, "sha512-GDm2uOTK3ESjnYmSeLQifJnBsRCWajKLvN32D2ZcQaaCIJI/Hse9s74f7APXjHit95S10UImsRGkTsbwHmrtmg=="],
 
-    "@geoprotocol/geo-sdk": ["@geoprotocol/geo-sdk@0.20.1", "", { "dependencies": { "@geoprotocol/grc-20": "^0.4.1", "@zerodev/sdk": "^5.5.10", "effect": "^3.17.13", "fflate": "^0.8.2", "fractional-indexing-jittered": "^1.0.0", "image-size": "^2.0.2", "uuid": "^13.0.0", "viem": "^2.37.6" } }, "sha512-n6L+i7XVELDqo5eQ+Ne3vWBi4mBaXYwUHl10vR4OYSCCMO/K811k17Qxf6D0qCYPeb3cvkkxegxEyGI9jpIZ6g=="],
+    "@geoprotocol/geo-sdk": ["@geoprotocol/geo-sdk@0.20.3", "", { "dependencies": { "@geoprotocol/grc-20": "^0.4.1", "@zerodev/sdk": "^5.5.10", "effect": "^3.17.13", "fflate": "^0.8.2", "fractional-indexing-jittered": "^1.0.0", "image-size": "^2.0.2", "uuid": "^13.0.0", "viem": "^2.37.6" } }, "sha512-vkMmVPZBp+LiHtOoeiC35WsAzu6arLvcU0a4UG1yEZ+sWaoBWS8HPxWZceRZRNsUzzIaDOy4Ae09i/z5qvdv1A=="],
 
     "@geoprotocol/grc-20": ["@geoprotocol/grc-20@0.4.1", "", { "dependencies": { "@bokuweb/zstd-wasm": "^0.0.27" } }, "sha512-J5trJZBydDOO5GsEMzy9ukX9GetblBMLnn4ugpTFOcwS4akA54Lxg/uYJbXUDh5EVPir3PAzC6UN6EiBz0K/Ww=="],
 

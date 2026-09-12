@@ -1,0 +1,23 @@
+{
+  "term": "instrument",
+  "checkedAt": "2026-09-11T20:59:22.688Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "3bb080d132c8b23c746b40702d00d76a",
+      "name": "Instrument type",
+      "description": "Legal or policy instrument extracted from the document title.",
+      "spaceIds": [
+        "8a4955bcd9d0fc0d8613f17f01de3b9f"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiM2JiMDgwZDEtMzJjOC1iMjNjLTc0NmItNDA3MDJkMDBkNzZhIl1d"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Restore original routes for five existing education programs",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/original-route-reconciliation-ops.json",
+  "sha256": "3c0ba99ee675f25002561303940e027b37725cad6bb7b623488e1e37217009d6",
+  "journalPath": "data/education/original-route-reconciliation-publication.json",
+  "validationPath": "data/education/original-route-reconciliation-validation.json",
+  "operationCount": 5,
+  "records": [
+    {
+      "key": 46,
+      "entityId": "c77b1107b93643b4870dfa11c0677d8f",
+      "name": "Boston universal pre-K",
+      "slug": "boston-universal-pre-k"
+    },
+    {
+      "key": 54,
+      "entityId": "d9a9f591762b463ba192d99ba922263d",
+      "name": "Career Academies",
+      "slug": "career-academies"
+    },
+    {
+      "key": 70,
+      "entityId": "d597ffb8910b46158a2eb2c20ad4e48b",
+      "name": "San Francisco ethnic studies curriculum pilot",
+      "slug": "ethnic-studies-curriculum-san-francisco"
+    },
+    {
+      "key": 73,
+      "entityId": "c52c01e8bab14e64b56b8ceb7c244da5",
+      "name": "National Guard Youth ChalleNGe Program",
+      "slug": "national-guard-youth-challenge-program"
+    },
+    {
+      "key": 74,
+      "entityId": "891cbf9044384a04b8a7fc47d444d749",
+      "name": "Enhanced Reading Opportunities / Reading Apprenticeship and Xtreme Reading",
+      "slug": "enhanced-reading-opportunities-raals-xtreme-reading"
+    }
+  ]
+}

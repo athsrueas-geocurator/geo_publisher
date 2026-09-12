@@ -1,0 +1,20 @@
+{
+  "sourceKey": "datasets/seda-v5",
+  "checkedAt": "2026-09-11T17:55:57.074Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://edopportunity.org/opportunity/data/downloads/",
+      "needle": "edopportunity.org/opportunity/data/downloads",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

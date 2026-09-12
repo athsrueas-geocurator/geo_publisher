@@ -1,0 +1,271 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T12:47:10.016Z",
+  "opsHash": "67bbc3a7b44b906bad466636a88647e9bba5adf74e9bf1ca8b18e8d909128072",
+  "content": {
+    "reviewedAt": "2026-09-12",
+    "sourceReview": "docs/class-size-debate-publication.md",
+    "sources": {
+      "krueger": {
+        "id": "d70f7e00c8fd4fb2b6a056df6b844b1f",
+        "name": "Economic Considerations and Class Size",
+        "author": "Alan B. Krueger",
+        "url": "https://classsizematters.org/wp-content/uploads/2011/04/economic-considerations-and-class-size.pdf"
+      },
+      "hanushek": {
+        "name": "Evidence, Politics, and the Class Size Debate",
+        "author": "Eric A. Hanushek",
+        "url": "https://hanushek.stanford.edu/publications/evidence-politics-and-class-size-debate",
+        "description": "Eric Hanushek’s chapter in The Class Size Debate (2002), edited by Lawrence Mishel and Richard Rothstein, pages 37–65. It critiques class-size evidence and broad reduction policies."
+      }
+    },
+    "claims": [
+      {
+        "key": "economic-case",
+        "name": "STAR-sized early-grade class reductions can be worth their cost.",
+        "description": "Krueger (2003) argues that modest achievement gains can justify reducing classes from 22 to 15 pupils in grades K–3. His earnings-based case is conditional on modeled returns, not observed lifetime benefits.",
+        "source": "krueger",
+        "locator": "Section 3, F61; Section 2.2, Table 5, F56–F58; caveats F58–F59",
+        "factual": false
+      },
+      {
+        "key": "weighting",
+        "name": "Counting studies equally strengthens the evidence that smaller classes improve achievement.",
+        "description": "Krueger (2003) finds that reweighting 277 estimates from 59 studies reveals a positive relationship obscured by counting every estimate equally. This is a contested literature interpretation, not a new experiment.",
+        "source": "krueger",
+        "locator": "Section 1, Table 2; Section 3, F59–F60",
+        "factual": false
+      },
+      {
+        "key": "quality",
+        "name": "Equal study weights do not resolve bias in class-size research.",
+        "description": "Hanushek (2002) argues that Krueger’s reweighting favors weaker estimates. He emphasizes omitted state policies and prior educational inputs when judging study quality.",
+        "source": "hanushek",
+        "locator": "Chapter 2, The importance of quality, printed pp. 46–50; conclusion p. 61",
+        "factual": false
+      },
+      {
+        "key": "broad-policy",
+        "name": "STAR does not justify across-the-board class-size reductions.",
+        "description": "Hanushek (2002) argues that broad reductions are too costly for the benefits established by existing evidence. He allows that reductions can be worthwhile in particular circumstances.",
+        "source": "hanushek",
+        "locator": "Chapter 2, Conclusions, printed p. 61",
+        "factual": false
+      },
+      {
+        "key": "projection-risk",
+        "name": "Projected earnings alone are too uncertain to justify large class-size reductions.",
+        "description": "Hanushek (2002) challenges the compounded assumptions connecting early test gains to lifetime earnings. He also argues that policy choices must consider alternatives such as improving teacher quality.",
+        "source": "hanushek",
+        "locator": "Chapter 2, Policy calculations, printed pp. 58–60",
+        "factual": false
+      },
+      {
+        "key": "star-scope",
+        "name": "STAR’s early gains do not establish benefits from smaller classes in later grades.",
+        "description": "Hanushek (2002) interprets STAR’s advantage as concentrated at initial entry into small classes. He disputes extrapolation to later grades or smaller reductions, rather than claiming that no students benefit.",
+        "source": "hanushek",
+        "locator": "Chapter 2, The Tennessee class size experiment, printed pp. 55–58",
+        "factual": false
+      }
+    ],
+    "reusedClaims": {
+      "model-return": "6db38a6c620f4ca1bc2452137457d686",
+      "model-scenario": "b0e661c838de4b8eb406a9c5a82249b1",
+      "kindergarten": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "pairs": [
+      {
+        "target": "economic-case",
+        "argument": "model-return",
+        "bracket": "supports",
+        "reason": "The existing 6.2% conditional return supplies the economic argument; it is not an independent experiment."
+      },
+      {
+        "target": "economic-case",
+        "argument": "model-scenario",
+        "bracket": "supports",
+        "reason": "The existing 4% discount/1% wage-growth scenario supplies the modeled benefit and cost comparison; it shares the return model."
+      },
+      {
+        "target": "economic-case",
+        "argument": "projection-risk",
+        "bracket": "opposes",
+        "reason": "Hanushek challenges relying on this modeled earnings case for investment; one-sided methodological rebuttal, not a denial of the calculation."
+      },
+      {
+        "target": "broad-policy",
+        "argument": "projection-risk",
+        "bracket": "supports",
+        "reason": "Forecast uncertainty and alternative investments underpin Hanushek’s broad-policy objection."
+      },
+      {
+        "target": "broad-policy",
+        "argument": "star-scope",
+        "bracket": "supports",
+        "reason": "Limited extrapolation underpins the objection to across-the-board reductions."
+      },
+      {
+        "target": "broad-policy",
+        "argument": "quality",
+        "bracket": "supports",
+        "reason": "Hanushek’s criticism of the underlying evidence supports his broad-policy conclusion."
+      },
+      {
+        "target": "economic-case",
+        "argument": "broad-policy",
+        "bracket": "related-only",
+        "reason": "A conditional early-grade economic case and an objection to uniform policies have different scope; they are not logical negations."
+      },
+      {
+        "target": "weighting",
+        "argument": "quality",
+        "bracket": "related-only",
+        "reason": "A changed pooled interpretation and a bias objection differ; no claim that reweighting did not change the numerical summary."
+      },
+      {
+        "target": "economic-case",
+        "argument": "weighting",
+        "bracket": "related-only",
+        "reason": "The literature interpretation gives context but does not itself establish economic value."
+      },
+      {
+        "target": "star-scope",
+        "argument": "kindergarten",
+        "bracket": "related-only",
+        "reason": "An initial kindergarten gain is compatible with Hanushek’s extrapolation objection; no forced opposition."
+      },
+      {
+        "target": "economic-case",
+        "argument": "kindergarten",
+        "bracket": "related-only",
+        "reason": "The experimental percentile-rank effect is relevant context, not the model’s separate 0.20-SD inputs."
+      }
+    ]
+  },
+  "skipped": [],
+  "registry": {
+    "ids": {
+      "author/krueger": "0de3a3ba8eb349faa9a03819757644ec",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/0de3a3ba8eb349faa9a03819757644ec/7ed45f2bc48b419e8e4664d5ff680b0d": "0c397b608ce1430b819f55881cc81eef",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/0de3a3ba8eb349faa9a03819757644ec/7ed45f2bc48b419e8e4664d5ff680b0d/entity": "2ca81dedd73942d08999c65be462ce5e",
+      "author/hanushek": "fdfb3d9fbd844f4dbf87b5d7325482eb",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/fdfb3d9fbd844f4dbf87b5d7325482eb/7ed45f2bc48b419e8e4664d5ff680b0d": "a28178e5e54849db8eb6a1ab72c60c2e",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/fdfb3d9fbd844f4dbf87b5d7325482eb/7ed45f2bc48b419e8e4664d5ff680b0d/entity": "1fe4c3a0cf9647aca0cec1065e8d0795",
+      "source/hanushek": "03ab7fe708d646adb8ce086ea9e26b02",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/03ab7fe708d646adb8ce086ea9e26b02/a2a5ed0cacef46b1835de457956ce915": "1ad1cca291e14bda8a15d9d680196f9c",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/03ab7fe708d646adb8ce086ea9e26b02/a2a5ed0cacef46b1835de457956ce915/entity": "d5410433983a4877966d8847d327cbbb",
+      "edge/91a9e2f6e51a48f7997661de8561b690/d70f7e00c8fd4fb2b6a056df6b844b1f/0de3a3ba8eb349faa9a03819757644ec": "d049f9d07dfc4119b0f4da15cb4ac358",
+      "edge/91a9e2f6e51a48f7997661de8561b690/d70f7e00c8fd4fb2b6a056df6b844b1f/0de3a3ba8eb349faa9a03819757644ec/entity": "2b16b140dfe44673939051f89d35ff9a",
+      "edge/91a9e2f6e51a48f7997661de8561b690/03ab7fe708d646adb8ce086ea9e26b02/fdfb3d9fbd844f4dbf87b5d7325482eb": "c86b67f6d9ca436084f3740607c9f678",
+      "edge/91a9e2f6e51a48f7997661de8561b690/03ab7fe708d646adb8ce086ea9e26b02/fdfb3d9fbd844f4dbf87b5d7325482eb/entity": "8bb55d19478a4e1d9b4644dbfd526a75",
+      "topic": "4bb85899505a459da17ec72990eab81c",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/4bb85899505a459da17ec72990eab81c/5ef5a5860f274d8e8f6c59ae5b3e89e2": "51cbfeb3f7674567885b10603305efb4",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/4bb85899505a459da17ec72990eab81c/5ef5a5860f274d8e8f6c59ae5b3e89e2/entity": "da58042f6b7c4cd1b63c58a6eaa73cbf",
+      "claim/economic-case": "44e2a08c02e74fdaaaa6f112e1581fb5",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/44e2a08c02e74fdaaaa6f112e1581fb5/96f859efa1ca4b229372c86ad58b694b": "28ba63eacb6146ca8946e71ec15a3ae4",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/44e2a08c02e74fdaaaa6f112e1581fb5/96f859efa1ca4b229372c86ad58b694b/entity": "574213920f4b462ca63578f03e47c73b",
+      "edge/49c5d5e1679a4dbdbfd33f618f227c94/44e2a08c02e74fdaaaa6f112e1581fb5/d70f7e00c8fd4fb2b6a056df6b844b1f": "96a3f811e5a244bab063c8728341fe50",
+      "edge/49c5d5e1679a4dbdbfd33f618f227c94/44e2a08c02e74fdaaaa6f112e1581fb5/d70f7e00c8fd4fb2b6a056df6b844b1f/entity": "549535f7bd524d94a3f1d3956e1cb578",
+      "claim/weighting": "21388c169ed84bbdbd26f529c390fc54",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/21388c169ed84bbdbd26f529c390fc54/96f859efa1ca4b229372c86ad58b694b": "dcfcdb68a10e40a7b8c73153d6485c5c",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/21388c169ed84bbdbd26f529c390fc54/96f859efa1ca4b229372c86ad58b694b/entity": "66f9df5c9a804230b830dac0a8123340",
+      "edge/49c5d5e1679a4dbdbfd33f618f227c94/21388c169ed84bbdbd26f529c390fc54/d70f7e00c8fd4fb2b6a056df6b844b1f": "12807aed301e401dbe10dc8ef9de8724",
+      "edge/49c5d5e1679a4dbdbfd33f618f227c94/21388c169ed84bbdbd26f529c390fc54/d70f7e00c8fd4fb2b6a056df6b844b1f/entity": "7688d484a7f4487ab5b937c804b6ebf8",
+      "claim/quality": "c050382dc2614403916342d43d2ef87a",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/c050382dc2614403916342d43d2ef87a/96f859efa1ca4b229372c86ad58b694b": "8cfc0ea893764c9483235e6acd9d8991",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/c050382dc2614403916342d43d2ef87a/96f859efa1ca4b229372c86ad58b694b/entity": "84d26f4fe1a8461290b86305359141d4",
+      "edge/49c5d5e1679a4dbdbfd33f618f227c94/c050382dc2614403916342d43d2ef87a/03ab7fe708d646adb8ce086ea9e26b02": "1fa8b6faf06846f885dfe659afa01b54",
+      "edge/49c5d5e1679a4dbdbfd33f618f227c94/c050382dc2614403916342d43d2ef87a/03ab7fe708d646adb8ce086ea9e26b02/entity": "45a05fb74835422196e231ae97291297",
+      "claim/broad-policy": "2700dd4c50a641658f29fbc176d87f31",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/2700dd4c50a641658f29fbc176d87f31/96f859efa1ca4b229372c86ad58b694b": "86ee00ccb4eb4d529e1c666c09328403",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/2700dd4c50a641658f29fbc176d87f31/96f859efa1ca4b229372c86ad58b694b/entity": "860edf93c0714404a05b6831f37128d0",
+      "edge/49c5d5e1679a4dbdbfd33f618f227c94/2700dd4c50a641658f29fbc176d87f31/03ab7fe708d646adb8ce086ea9e26b02": "ebb68a2942d54761a3f520e29a11340d",
+      "edge/49c5d5e1679a4dbdbfd33f618f227c94/2700dd4c50a641658f29fbc176d87f31/03ab7fe708d646adb8ce086ea9e26b02/entity": "9c8cbb208da3482e80e635954e53e321",
+      "claim/projection-risk": "dc9f8289b4c94ed2b89c3e8f913f6d1e",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/dc9f8289b4c94ed2b89c3e8f913f6d1e/96f859efa1ca4b229372c86ad58b694b": "61c16fa3ea1b4bc5bf41a94a1b53bcf2",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/dc9f8289b4c94ed2b89c3e8f913f6d1e/96f859efa1ca4b229372c86ad58b694b/entity": "eb87033a0aec45ceb7cda676ea950068",
+      "edge/49c5d5e1679a4dbdbfd33f618f227c94/dc9f8289b4c94ed2b89c3e8f913f6d1e/03ab7fe708d646adb8ce086ea9e26b02": "447b708cafde4f21833a87c068137ec9",
+      "edge/49c5d5e1679a4dbdbfd33f618f227c94/dc9f8289b4c94ed2b89c3e8f913f6d1e/03ab7fe708d646adb8ce086ea9e26b02/entity": "5d78aee3adf849fa8ee377c38096e5d0",
+      "claim/star-scope": "4b70147b5e53405590e4534fdd017eca",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/4b70147b5e53405590e4534fdd017eca/96f859efa1ca4b229372c86ad58b694b": "8e3d1502ee264e7bbbe110eedad9807c",
+      "edge/8f151ba4de204e3c9cb499ddf96f48f1/4b70147b5e53405590e4534fdd017eca/96f859efa1ca4b229372c86ad58b694b/entity": "0bf0900e893c46688c2e40cd52e34e86",
+      "edge/49c5d5e1679a4dbdbfd33f618f227c94/4b70147b5e53405590e4534fdd017eca/03ab7fe708d646adb8ce086ea9e26b02": "b15b334db7254564a8fab106578686fe",
+      "edge/49c5d5e1679a4dbdbfd33f618f227c94/4b70147b5e53405590e4534fdd017eca/03ab7fe708d646adb8ce086ea9e26b02/entity": "974d40ae05794185ab8c44c7b1d34726",
+      "edge/806d52bc27e94c9193c057978b093351/44e2a08c02e74fdaaaa6f112e1581fb5/4bb85899505a459da17ec72990eab81c": "b90bb3c5f6d6428399ae75aba190cc84",
+      "edge/806d52bc27e94c9193c057978b093351/44e2a08c02e74fdaaaa6f112e1581fb5/4bb85899505a459da17ec72990eab81c/entity": "4d659c005b884a70b93e351c6f9650e7",
+      "edge/806d52bc27e94c9193c057978b093351/21388c169ed84bbdbd26f529c390fc54/4bb85899505a459da17ec72990eab81c": "d8256cd065c741e7bcb989495ad1d26e",
+      "edge/806d52bc27e94c9193c057978b093351/21388c169ed84bbdbd26f529c390fc54/4bb85899505a459da17ec72990eab81c/entity": "6683063d1d5341a2b8cb418979493824",
+      "edge/806d52bc27e94c9193c057978b093351/c050382dc2614403916342d43d2ef87a/4bb85899505a459da17ec72990eab81c": "74d2aaa253b64ead8bb7fd4d1b9bff1b",
+      "edge/806d52bc27e94c9193c057978b093351/c050382dc2614403916342d43d2ef87a/4bb85899505a459da17ec72990eab81c/entity": "c45a702296994e4090998c7da8e449af",
+      "edge/806d52bc27e94c9193c057978b093351/2700dd4c50a641658f29fbc176d87f31/4bb85899505a459da17ec72990eab81c": "30c7eaa83c38427b855362ad1a91c0e8",
+      "edge/806d52bc27e94c9193c057978b093351/2700dd4c50a641658f29fbc176d87f31/4bb85899505a459da17ec72990eab81c/entity": "f1cf894b079e4f6da201604ae6f85c90",
+      "edge/806d52bc27e94c9193c057978b093351/dc9f8289b4c94ed2b89c3e8f913f6d1e/4bb85899505a459da17ec72990eab81c": "c5c37eaef21644a8816f571fadc14735",
+      "edge/806d52bc27e94c9193c057978b093351/dc9f8289b4c94ed2b89c3e8f913f6d1e/4bb85899505a459da17ec72990eab81c/entity": "a5023ec6441b4822a1a42afd68c9f52d",
+      "edge/806d52bc27e94c9193c057978b093351/4b70147b5e53405590e4534fdd017eca/4bb85899505a459da17ec72990eab81c": "92ea9c3f96cd49cf818fcfa0be68edf5",
+      "edge/806d52bc27e94c9193c057978b093351/4b70147b5e53405590e4534fdd017eca/4bb85899505a459da17ec72990eab81c/entity": "ff7bcd1ea4a54e93b615ed68f3e48222",
+      "edge/806d52bc27e94c9193c057978b093351/6db38a6c620f4ca1bc2452137457d686/4bb85899505a459da17ec72990eab81c": "f7f2877d881f4e1395cf0620a81df081",
+      "edge/806d52bc27e94c9193c057978b093351/6db38a6c620f4ca1bc2452137457d686/4bb85899505a459da17ec72990eab81c/entity": "1e3a0b86e7d2474d99c6467464fb4cb7",
+      "edge/806d52bc27e94c9193c057978b093351/b0e661c838de4b8eb406a9c5a82249b1/4bb85899505a459da17ec72990eab81c": "8f623c9368e5430ba804da4c955de6f2",
+      "edge/806d52bc27e94c9193c057978b093351/b0e661c838de4b8eb406a9c5a82249b1/4bb85899505a459da17ec72990eab81c/entity": "f90630ee481c40bbbd0f195750cace82",
+      "edge/806d52bc27e94c9193c057978b093351/7eeddeb79af54141b58e4cffe32d93a5/4bb85899505a459da17ec72990eab81c": "b6559312b4a341df991f2ac1c579c66a",
+      "edge/806d52bc27e94c9193c057978b093351/7eeddeb79af54141b58e4cffe32d93a5/4bb85899505a459da17ec72990eab81c/entity": "7525b94ab49c47c69a240d313939b0f8",
+      "edge/504e5776788844f6a77dba3ee811d8f0/44e2a08c02e74fdaaaa6f112e1581fb5/6db38a6c620f4ca1bc2452137457d686": "6146d5d9c61e4f71a0cc7cd778d6bb3b",
+      "edge/504e5776788844f6a77dba3ee811d8f0/44e2a08c02e74fdaaaa6f112e1581fb5/6db38a6c620f4ca1bc2452137457d686/entity": "5ed94247bceb4c17af50afddaaef7188",
+      "edge/504e5776788844f6a77dba3ee811d8f0/6db38a6c620f4ca1bc2452137457d686/44e2a08c02e74fdaaaa6f112e1581fb5": "fe85eb6cd13743aab0b9d7c1a72e1833",
+      "edge/504e5776788844f6a77dba3ee811d8f0/6db38a6c620f4ca1bc2452137457d686/44e2a08c02e74fdaaaa6f112e1581fb5/entity": "f72d9e9369e74a75935766133afed240",
+      "edge/504e5776788844f6a77dba3ee811d8f0/44e2a08c02e74fdaaaa6f112e1581fb5/b0e661c838de4b8eb406a9c5a82249b1": "389c91edf1604293a065f1faba9589d0",
+      "edge/504e5776788844f6a77dba3ee811d8f0/44e2a08c02e74fdaaaa6f112e1581fb5/b0e661c838de4b8eb406a9c5a82249b1/entity": "cf4d487c31b8415a8c7bb37c01a7b650",
+      "edge/504e5776788844f6a77dba3ee811d8f0/b0e661c838de4b8eb406a9c5a82249b1/44e2a08c02e74fdaaaa6f112e1581fb5": "57fb5263a33e42749d09c6dd08002301",
+      "edge/504e5776788844f6a77dba3ee811d8f0/b0e661c838de4b8eb406a9c5a82249b1/44e2a08c02e74fdaaaa6f112e1581fb5/entity": "e699c385bfb04b0abd6416d99a150e59",
+      "edge/504e5776788844f6a77dba3ee811d8f0/44e2a08c02e74fdaaaa6f112e1581fb5/dc9f8289b4c94ed2b89c3e8f913f6d1e": "0390ee3bc8304864a7cf6ea3fa19ea86",
+      "edge/504e5776788844f6a77dba3ee811d8f0/44e2a08c02e74fdaaaa6f112e1581fb5/dc9f8289b4c94ed2b89c3e8f913f6d1e/entity": "7d340b0643dd44c8a725ff7886948755",
+      "edge/504e5776788844f6a77dba3ee811d8f0/dc9f8289b4c94ed2b89c3e8f913f6d1e/44e2a08c02e74fdaaaa6f112e1581fb5": "a31a63e80028459a828fbf180343103e",
+      "edge/504e5776788844f6a77dba3ee811d8f0/dc9f8289b4c94ed2b89c3e8f913f6d1e/44e2a08c02e74fdaaaa6f112e1581fb5/entity": "6db9ba85807c48f0bb5344430430abdb",
+      "edge/504e5776788844f6a77dba3ee811d8f0/2700dd4c50a641658f29fbc176d87f31/dc9f8289b4c94ed2b89c3e8f913f6d1e": "f6af638e2c7541a3a5e7abb29a0f1279",
+      "edge/504e5776788844f6a77dba3ee811d8f0/2700dd4c50a641658f29fbc176d87f31/dc9f8289b4c94ed2b89c3e8f913f6d1e/entity": "aec289736ca74be1b8fb2729ad1633d6",
+      "edge/504e5776788844f6a77dba3ee811d8f0/dc9f8289b4c94ed2b89c3e8f913f6d1e/2700dd4c50a641658f29fbc176d87f31": "c4398c20b6da455e92a9cb812b895ac2",
+      "edge/504e5776788844f6a77dba3ee811d8f0/dc9f8289b4c94ed2b89c3e8f913f6d1e/2700dd4c50a641658f29fbc176d87f31/entity": "a46746c44e82476492804ad498e65283",
+      "edge/504e5776788844f6a77dba3ee811d8f0/2700dd4c50a641658f29fbc176d87f31/4b70147b5e53405590e4534fdd017eca": "f08d708e340644209184655ba8e42f2a",
+      "edge/504e5776788844f6a77dba3ee811d8f0/2700dd4c50a641658f29fbc176d87f31/4b70147b5e53405590e4534fdd017eca/entity": "71dcc4dfb9084b72a7a65dd2799ce1d8",
+      "edge/504e5776788844f6a77dba3ee811d8f0/4b70147b5e53405590e4534fdd017eca/2700dd4c50a641658f29fbc176d87f31": "b7bd0fcac59448c7939b8a0be67ad35a",
+      "edge/504e5776788844f6a77dba3ee811d8f0/4b70147b5e53405590e4534fdd017eca/2700dd4c50a641658f29fbc176d87f31/entity": "17d565c4488544ffb8cad0acedd53e22",
+      "edge/504e5776788844f6a77dba3ee811d8f0/2700dd4c50a641658f29fbc176d87f31/c050382dc2614403916342d43d2ef87a": "05ea953d84ea4816989e36411750a160",
+      "edge/504e5776788844f6a77dba3ee811d8f0/2700dd4c50a641658f29fbc176d87f31/c050382dc2614403916342d43d2ef87a/entity": "fed558fb0b01465fa9c372a5ce65e5a3",
+      "edge/504e5776788844f6a77dba3ee811d8f0/c050382dc2614403916342d43d2ef87a/2700dd4c50a641658f29fbc176d87f31": "efd06f166f7747bd897228f0f572c7e5",
+      "edge/504e5776788844f6a77dba3ee811d8f0/c050382dc2614403916342d43d2ef87a/2700dd4c50a641658f29fbc176d87f31/entity": "1782a15380594e708fc7dc79c2ce0fac",
+      "edge/504e5776788844f6a77dba3ee811d8f0/44e2a08c02e74fdaaaa6f112e1581fb5/2700dd4c50a641658f29fbc176d87f31": "32babc24fa88477e82e09d8e30180954",
+      "edge/504e5776788844f6a77dba3ee811d8f0/44e2a08c02e74fdaaaa6f112e1581fb5/2700dd4c50a641658f29fbc176d87f31/entity": "8cb7597b804141209237463ef435daf5",
+      "edge/504e5776788844f6a77dba3ee811d8f0/2700dd4c50a641658f29fbc176d87f31/44e2a08c02e74fdaaaa6f112e1581fb5": "bdbb68f92fad4cfd9f350e7c0d104061",
+      "edge/504e5776788844f6a77dba3ee811d8f0/2700dd4c50a641658f29fbc176d87f31/44e2a08c02e74fdaaaa6f112e1581fb5/entity": "60621f86df804d8fae079f41937d2eeb",
+      "edge/504e5776788844f6a77dba3ee811d8f0/21388c169ed84bbdbd26f529c390fc54/c050382dc2614403916342d43d2ef87a": "3441fd09e5f54e4e8275634124ca0d10",
+      "edge/504e5776788844f6a77dba3ee811d8f0/21388c169ed84bbdbd26f529c390fc54/c050382dc2614403916342d43d2ef87a/entity": "81d8280df3114eb3a6d0ac27747adc4d",
+      "edge/504e5776788844f6a77dba3ee811d8f0/c050382dc2614403916342d43d2ef87a/21388c169ed84bbdbd26f529c390fc54": "776cc3b6a4174ce0a718644f32d8bf7a",
+      "edge/504e5776788844f6a77dba3ee811d8f0/c050382dc2614403916342d43d2ef87a/21388c169ed84bbdbd26f529c390fc54/entity": "27c8eca5a4d945abb347b0ee3e213c16",
+      "edge/504e5776788844f6a77dba3ee811d8f0/44e2a08c02e74fdaaaa6f112e1581fb5/21388c169ed84bbdbd26f529c390fc54": "f23460c447814a7096796adc9cbf6931",
+      "edge/504e5776788844f6a77dba3ee811d8f0/44e2a08c02e74fdaaaa6f112e1581fb5/21388c169ed84bbdbd26f529c390fc54/entity": "5d2c15046174425b9ff95a7800767c80",
+      "edge/504e5776788844f6a77dba3ee811d8f0/21388c169ed84bbdbd26f529c390fc54/44e2a08c02e74fdaaaa6f112e1581fb5": "cee6977fa767442aa29ced54c1b8f197",
+      "edge/504e5776788844f6a77dba3ee811d8f0/21388c169ed84bbdbd26f529c390fc54/44e2a08c02e74fdaaaa6f112e1581fb5/entity": "6b687eb7b14b4910bf1ba5542e606234",
+      "edge/504e5776788844f6a77dba3ee811d8f0/4b70147b5e53405590e4534fdd017eca/7eeddeb79af54141b58e4cffe32d93a5": "69a9b8ea545842c59e3052777a511de3",
+      "edge/504e5776788844f6a77dba3ee811d8f0/4b70147b5e53405590e4534fdd017eca/7eeddeb79af54141b58e4cffe32d93a5/entity": "1ecb8e3330d4442a9e45f94f917eac96",
+      "edge/504e5776788844f6a77dba3ee811d8f0/7eeddeb79af54141b58e4cffe32d93a5/4b70147b5e53405590e4534fdd017eca": "7bd5200e517f4e4d914a98a7dad1ff42",
+      "edge/504e5776788844f6a77dba3ee811d8f0/7eeddeb79af54141b58e4cffe32d93a5/4b70147b5e53405590e4534fdd017eca/entity": "330048ac7b384173ac7358d11202d985",
+      "edge/504e5776788844f6a77dba3ee811d8f0/44e2a08c02e74fdaaaa6f112e1581fb5/7eeddeb79af54141b58e4cffe32d93a5": "b3e260d212204245b0e3db3d81032116",
+      "edge/504e5776788844f6a77dba3ee811d8f0/44e2a08c02e74fdaaaa6f112e1581fb5/7eeddeb79af54141b58e4cffe32d93a5/entity": "9a991dcab7d14fe1a78ecd92930a2546",
+      "edge/504e5776788844f6a77dba3ee811d8f0/7eeddeb79af54141b58e4cffe32d93a5/44e2a08c02e74fdaaaa6f112e1581fb5": "e3e4a3a2359741c8ab232ad5b03f7336",
+      "edge/504e5776788844f6a77dba3ee811d8f0/7eeddeb79af54141b58e4cffe32d93a5/44e2a08c02e74fdaaaa6f112e1581fb5/entity": "d865bfb9c6c74c44afc121fa8c1b0c6d",
+      "edge/1dc6a843458848198e7a6e672268f811/44e2a08c02e74fdaaaa6f112e1581fb5/6db38a6c620f4ca1bc2452137457d686": "9c9ed6be5d864d948237fbc6417e9515",
+      "edge/1dc6a843458848198e7a6e672268f811/44e2a08c02e74fdaaaa6f112e1581fb5/6db38a6c620f4ca1bc2452137457d686/entity": "27d361146d2b440b951af81dcc4f3daa",
+      "edge/1dc6a843458848198e7a6e672268f811/44e2a08c02e74fdaaaa6f112e1581fb5/b0e661c838de4b8eb406a9c5a82249b1": "db383a7d806b442eb525940a1722956f",
+      "edge/1dc6a843458848198e7a6e672268f811/44e2a08c02e74fdaaaa6f112e1581fb5/b0e661c838de4b8eb406a9c5a82249b1/entity": "268ffe8000ff4c569287ea7ee1d5b912",
+      "edge/4e6ec5d14292498a84e5f607ca1a08ce/44e2a08c02e74fdaaaa6f112e1581fb5/dc9f8289b4c94ed2b89c3e8f913f6d1e": "368515f1d23348a09209993762d1a42a",
+      "edge/4e6ec5d14292498a84e5f607ca1a08ce/44e2a08c02e74fdaaaa6f112e1581fb5/dc9f8289b4c94ed2b89c3e8f913f6d1e/entity": "2f9897ef65964934be8435e44ae0c4a6",
+      "edge/1dc6a843458848198e7a6e672268f811/2700dd4c50a641658f29fbc176d87f31/dc9f8289b4c94ed2b89c3e8f913f6d1e": "3ec18a97b0664d13bcd9b60c8bd0121c",
+      "edge/1dc6a843458848198e7a6e672268f811/2700dd4c50a641658f29fbc176d87f31/dc9f8289b4c94ed2b89c3e8f913f6d1e/entity": "e86d6f29c5774b80984d14034165b8d2",
+      "edge/1dc6a843458848198e7a6e672268f811/2700dd4c50a641658f29fbc176d87f31/4b70147b5e53405590e4534fdd017eca": "c5ae3ecdfa884c31bf70d1ac12735704",
+      "edge/1dc6a843458848198e7a6e672268f811/2700dd4c50a641658f29fbc176d87f31/4b70147b5e53405590e4534fdd017eca/entity": "0f56371598174d8c981256a9822ba904",
+      "edge/1dc6a843458848198e7a6e672268f811/2700dd4c50a641658f29fbc176d87f31/c050382dc2614403916342d43d2ef87a": "ac1a834d7eac4d74953dc2988fa97712",
+      "edge/1dc6a843458848198e7a6e672268f811/2700dd4c50a641658f29fbc176d87f31/c050382dc2614403916342d43d2ef87a/entity": "2939b3bb90a54d14a1358509878b0f3c"
+    }
+  }
+}

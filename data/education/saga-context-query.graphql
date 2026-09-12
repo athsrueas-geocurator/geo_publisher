@@ -1,0 +1,16 @@
+query SagaContext($spaceId: UUID!, $typeId: UUID!, $filter: EntityFilter!, $after: Cursor) {
+  entitiesConnection(spaceId: $spaceId, typeId: $typeId, first: 10, after: $after, filter: $filter) {
+    nodes {
+      id name
+      values(first: 30, filter: {spaceId: {is: $spaceId}}) {
+        nodes {propertyId text decimal integer}
+        pageInfo {hasNextPage}
+      }
+      relations(first: 30, filter: {spaceId: {is: $spaceId}}) {
+        nodes {typeId toEntityId}
+        pageInfo {hasNextPage}
+      }
+    }
+    pageInfo {hasNextPage endCursor}
+  }
+}

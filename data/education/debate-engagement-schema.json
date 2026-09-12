@@ -1,0 +1,289 @@
+{
+  "a": {
+    "fields": [
+      {
+        "name": "nodeId",
+        "type": {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": {
+            "kind": "SCALAR",
+            "name": "ID"
+          }
+        }
+      },
+      {
+        "name": "id",
+        "type": {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": {
+            "kind": "SCALAR",
+            "name": "Int"
+          }
+        }
+      },
+      {
+        "name": "objectId",
+        "type": {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": {
+            "kind": "SCALAR",
+            "name": "UUID"
+          }
+        }
+      },
+      {
+        "name": "objectType",
+        "type": {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": {
+            "kind": "SCALAR",
+            "name": "Int"
+          }
+        }
+      },
+      {
+        "name": "spaceId",
+        "type": {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": {
+            "kind": "SCALAR",
+            "name": "UUID"
+          }
+        }
+      },
+      {
+        "name": "positive",
+        "type": {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": {
+            "kind": "SCALAR",
+            "name": "BigInt"
+          }
+        }
+      },
+      {
+        "name": "negative",
+        "type": {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": {
+            "kind": "SCALAR",
+            "name": "BigInt"
+          }
+        }
+      },
+      {
+        "name": "updatedAt",
+        "type": {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": {
+            "kind": "SCALAR",
+            "name": "Datetime"
+          }
+        }
+      },
+      {
+        "name": "voteKind",
+        "type": {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": {
+            "kind": "SCALAR",
+            "name": "Int"
+          }
+        }
+      },
+      {
+        "name": "upvotes",
+        "type": {
+          "kind": "SCALAR",
+          "name": "BigInt",
+          "ofType": null
+        }
+      },
+      {
+        "name": "downvotes",
+        "type": {
+          "kind": "SCALAR",
+          "name": "BigInt",
+          "ofType": null
+        }
+      }
+    ]
+  },
+  "b": {
+    "enumValues": [
+      {
+        "name": "NATURAL"
+      },
+      {
+        "name": "ID_ASC"
+      },
+      {
+        "name": "ID_DESC"
+      },
+      {
+        "name": "OBJECT_ID_ASC"
+      },
+      {
+        "name": "OBJECT_ID_DESC"
+      },
+      {
+        "name": "OBJECT_TYPE_ASC"
+      },
+      {
+        "name": "OBJECT_TYPE_DESC"
+      },
+      {
+        "name": "SPACE_ID_ASC"
+      },
+      {
+        "name": "SPACE_ID_DESC"
+      },
+      {
+        "name": "POSITIVE_ASC"
+      },
+      {
+        "name": "POSITIVE_DESC"
+      },
+      {
+        "name": "NEGATIVE_ASC"
+      },
+      {
+        "name": "NEGATIVE_DESC"
+      },
+      {
+        "name": "UPDATED_AT_ASC"
+      },
+      {
+        "name": "UPDATED_AT_DESC"
+      },
+      {
+        "name": "VOTE_KIND_ASC"
+      },
+      {
+        "name": "VOTE_KIND_DESC"
+      },
+      {
+        "name": "UPVOTES_ASC"
+      },
+      {
+        "name": "UPVOTES_DESC"
+      },
+      {
+        "name": "DOWNVOTES_ASC"
+      },
+      {
+        "name": "DOWNVOTES_DESC"
+      },
+      {
+        "name": "PRIMARY_KEY_ASC"
+      },
+      {
+        "name": "PRIMARY_KEY_DESC"
+      }
+    ]
+  },
+  "c": {
+    "inputFields": [
+      {
+        "name": "id",
+        "type": {
+          "kind": "INPUT_OBJECT",
+          "name": "IntFilter"
+        }
+      },
+      {
+        "name": "objectId",
+        "type": {
+          "kind": "INPUT_OBJECT",
+          "name": "UUIDFilter"
+        }
+      },
+      {
+        "name": "objectType",
+        "type": {
+          "kind": "INPUT_OBJECT",
+          "name": "IntFilter"
+        }
+      },
+      {
+        "name": "spaceId",
+        "type": {
+          "kind": "INPUT_OBJECT",
+          "name": "UUIDFilter"
+        }
+      },
+      {
+        "name": "positive",
+        "type": {
+          "kind": "INPUT_OBJECT",
+          "name": "BigIntFilter"
+        }
+      },
+      {
+        "name": "negative",
+        "type": {
+          "kind": "INPUT_OBJECT",
+          "name": "BigIntFilter"
+        }
+      },
+      {
+        "name": "updatedAt",
+        "type": {
+          "kind": "INPUT_OBJECT",
+          "name": "DatetimeFilter"
+        }
+      },
+      {
+        "name": "voteKind",
+        "type": {
+          "kind": "INPUT_OBJECT",
+          "name": "IntFilter"
+        }
+      },
+      {
+        "name": "upvotes",
+        "type": {
+          "kind": "INPUT_OBJECT",
+          "name": "BigIntFilter"
+        }
+      },
+      {
+        "name": "downvotes",
+        "type": {
+          "kind": "INPUT_OBJECT",
+          "name": "BigIntFilter"
+        }
+      },
+      {
+        "name": "and",
+        "type": {
+          "kind": "LIST",
+          "name": null
+        }
+      },
+      {
+        "name": "or",
+        "type": {
+          "kind": "LIST",
+          "name": null
+        }
+      },
+      {
+        "name": "not",
+        "type": {
+          "kind": "INPUT_OBJECT",
+          "name": "VotesCountFilter"
+        }
+      }
+    ]
+  }
+}

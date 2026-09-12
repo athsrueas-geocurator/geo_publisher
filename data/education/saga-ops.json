@@ -1,0 +1,2039 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Effect estimate value",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reported numerical effect; interpret only with the stated unit, estimand and study context.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f47de99d6f584c91831239db7a9f9a4c"
+    },
+    "entity": {
+      "$bytes": "1c78edcedf9d432cb6a435cea145d11c"
+    },
+    "from": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00PT"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8b31e9f8e8574b2b849d42fe0cebb344"
+    },
+    "entity": {
+      "$bytes": "16d3c2a8875e40fb8599b567080d6f32"
+    },
+    "from": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a02YP"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Standard error",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reported standard error of an estimate in the same units as that estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a0defe881ffd48299872b056e4b47593"
+    },
+    "entity": {
+      "$bytes": "85d07eecf0714ca4ab903bfd520d9705"
+    },
+    "from": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Bh8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5936dc2d6d6f4d0aa3295444bcdcf6b2"
+    },
+    "entity": {
+      "$bytes": "f49087f5b2dc4d5a841f8d01d6112bc8"
+    },
+    "from": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a0CKv"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "03b87ec1e71f410db566c7f12920283d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Study number",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-local study or trial number; not a global study identifier.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e1fcca598f894e288db9b3309226cd7a"
+    },
+    "entity": {
+      "$bytes": "7f1273e5b4ec415eb0e5043ffdcba362"
+    },
+    "from": {
+      "$bytes": "03b87ec1e71f410db566c7f12920283d"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a028S"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4ba3920e48c640d2b383517ebb649f6d"
+    },
+    "entity": {
+      "$bytes": "f3f2d87e147943e9925ee5f25ad301ba"
+    },
+    "from": {
+      "$bytes": "03b87ec1e71f410db566c7f12920283d"
+    },
+    "to": {
+      "$bytes": "149fd752d9d04f80820d1d942eea7841"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a03qF"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Outcome unit",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Unit and normalization used for the reported outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5a77d8fbc9dd4080ae84d400448fc5ad"
+    },
+    "entity": {
+      "$bytes": "ee7f59c560a04c488b634c2ad843d782"
+    },
+    "from": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04WW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "64784741b9b84aa7b438a116f641939a"
+    },
+    "entity": {
+      "$bytes": "a7e38e7a07574ce5904197776620a9d5"
+    },
+    "from": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "to": {
+      "$bytes": "9edb6fcce4544aa5861139d7f024c010"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a0AOq"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Follow-up period",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Time horizon at which the reported study outcome was assessed.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c1a4625ec4414775b6391c08f66e3796"
+    },
+    "entity": {
+      "$bytes": "5197b815687a45a083d67d9d86e9aaf8"
+    },
+    "from": {
+      "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00Sx"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fc7b22e71c09448da1badfdc21f24751"
+    },
+    "entity": {
+      "$bytes": "35a5eef968594fb2b55cd73a32d12524"
+    },
+    "from": {
+      "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+    },
+    "to": {
+      "$bytes": "9edb6fcce4544aa5861139d7f024c010"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a0AET"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ba643714da274c37a340a7f8396198dc"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Estimand",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Quantity targeted by the estimator, such as intention-to-treat or treatment-on-the-treated.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5749a874cadb45fdb2c9ec805e1168ad"
+    },
+    "entity": {
+      "$bytes": "c90836cbf36443c79fb56f3032d9ab55"
+    },
+    "from": {
+      "$bytes": "ba643714da274c37a340a7f8396198dc"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05Q1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0b0691adb5c645dba8403acb68b6fc4d"
+    },
+    "entity": {
+      "$bytes": "20a96b952e034553b8dce0e800b6c889"
+    },
+    "from": {
+      "$bytes": "ba643714da274c37a340a7f8396198dc"
+    },
+    "to": {
+      "$bytes": "9edb6fcce4544aa5861139d7f024c010"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a030S"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source table",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table, panel and printed page locating this observation in its linked source.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1c26dc517a0a4c91959e81d4ac4f2ccf"
+    },
+    "entity": {
+      "$bytes": "0326b2501eec48d29a810283859afd6c"
+    },
+    "from": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00B7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9ff57e9abe79405bb0d36a5b3ecb6cd7"
+    },
+    "entity": {
+      "$bytes": "aa326c647c6c438f96d0355ec88b64a6"
+    },
+    "from": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "to": {
+      "$bytes": "9edb6fcce4544aa5861139d7f024c010"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a08cw"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Dataset entries",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Entries belonging to a structured dataset; preserve the order on each relation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aab6314c243349d78db338d491cb1643"
+    },
+    "entity": {
+      "$bytes": "7d9d0957f67643598384b9c92fdcc710"
+    },
+    "from": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0501"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c2f8e2b0b17146c7b45284955fbf7e09"
+    },
+    "entity": {
+      "$bytes": "88a96f1c7b2a43e59beb188411aa9b68"
+    },
+    "from": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "to": {
+      "$bytes": "4b6d9fc1fbfe474c861c83398e1b50d9"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a052w"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6ba2ce00db064687b108aa8449672886"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Cost amount",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reported monetary cost; requires currency, denominator, period and cost-accounting context.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d65c48ca93814ed5beffaab255cde640"
+    },
+    "entity": {
+      "$bytes": "144f8808b9f749ed8fff465e8c168967"
+    },
+    "from": {
+      "$bytes": "6ba2ce00db064687b108aa8449672886"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08Id"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ba66d88025774025b73ae8c4ccb3b61a"
+    },
+    "entity": {
+      "$bytes": "46acd115dad7458687ed190121b0e844"
+    },
+    "from": {
+      "$bytes": "6ba2ce00db064687b108aa8449672886"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a0BYV"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0db260c165ed4cceaf56d5b2c63382d7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Cost lower bound",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Lower end of a reported cost range; not necessarily a confidence bound.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d0d4ce774452405ab40bb7720c27170c"
+    },
+    "entity": {
+      "$bytes": "a83c88f9232d4b1ba2afa0e1e5e7a237"
+    },
+    "from": {
+      "$bytes": "0db260c165ed4cceaf56d5b2c63382d7"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AZM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e3d359a484254095b0a4d0b0c83ba93b"
+    },
+    "entity": {
+      "$bytes": "f9fc062d39084d10badaecca90c526cf"
+    },
+    "from": {
+      "$bytes": "0db260c165ed4cceaf56d5b2c63382d7"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a058F"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "13cc4f64fc2f416ea398094d02a18a53"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Cost upper bound",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Upper end of a reported cost range; not necessarily a confidence bound.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f4f1a974143045e1a90ff86e1e9af8b0"
+    },
+    "entity": {
+      "$bytes": "6fe3082683494ce0a60a302dee879f7f"
+    },
+    "from": {
+      "$bytes": "13cc4f64fc2f416ea398094d02a18a53"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09gP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f0f818d9d4354900b17dd1aa91597645"
+    },
+    "entity": {
+      "$bytes": "bca53b81ce9347d2b48a952a6832c650"
+    },
+    "from": {
+      "$bytes": "13cc4f64fc2f416ea398094d02a18a53"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a032V"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3a558d71454745a992c035040f648729"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Cost denominator",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Unit of delivery or population to which the cost amount applies.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6011fa3024cc4509aedfc826456416c8"
+    },
+    "entity": {
+      "$bytes": "5a311d63737a449398e32383e3da512f"
+    },
+    "from": {
+      "$bytes": "3a558d71454745a992c035040f648729"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a057t"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ed15eb302eed4bbbbd7ee06d21818714"
+    },
+    "entity": {
+      "$bytes": "72d0c3fd75b04aa489afe5e29b1cb7ff"
+    },
+    "from": {
+      "$bytes": "3a558d71454745a992c035040f648729"
+    },
+    "to": {
+      "$bytes": "9edb6fcce4544aa5861139d7f024c010"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a031z"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Price year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Currency purchasing-power base year. Missing means unverified, not the trial year.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4d8532e4aaa944ff98c2e75f17cebd6a"
+    },
+    "entity": {
+      "$bytes": "dc01715a30df4360a3d1318847846806"
+    },
+    "from": {
+      "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00E1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "263463d745114d61bfb375d1016d94c9"
+    },
+    "entity": {
+      "$bytes": "f1db2da559824679ac042b20719534b9"
+    },
+    "from": {
+      "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+    },
+    "to": {
+      "$bytes": "149fd752d9d04f80820d1d942eea7841"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a06qO"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Not Too Late: Improving Academic Outcomes among Adolescents",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "American Economic Review 113(3), 738–765",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.1257/aer.20210434",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://educationlab.uchicago.edu/wp-content/uploads/sites/3/2023/10/UChicago-Education-Lab-Not-Too-Late-Paper_03.23.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "41642b9006d94ccdae752c012a31fd16"
+    },
+    "entity": {
+      "$bytes": "7470dc44f1a34ecfb6d9365b0e0de551"
+    },
+    "from": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a081A"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga tutoring: Chicago trial estimates (Guryan et al., 2023)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Chicago, Illinois, United States; Grade 9–10 students; RCT. EXPLORE/PLAN mathematics. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "first postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://educationlab.uchicago.edu/wp-content/uploads/sites/3/2023/10/UChicago-Education-Lab-Not-Too-Late-Paper_03.23.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0b0b68976b1a49dabff85420563f9428"
+    },
+    "entity": {
+      "$bytes": "3b21c548aaf24412a72886741c608f3b"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AzI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d054bc386006432980eb386ebc134035"
+    },
+    "entity": {
+      "$bytes": "3266daffe42e4e12a26d1b9c39feb705"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07RS"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3f178d30985c477094dbdd90937d8268"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga study 1: year-one math ITT estimate",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A reported trial estimate, not an independent replication of the other estimand from this trial.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "91"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "35"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1852"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 3, p. 749, panel A",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "first postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "17900cbc51714722a52a1ea070b7709c"
+    },
+    "entity": {
+      "$bytes": "bb83d4b922cb403990b225b2fe9d30d1"
+    },
+    "from": {
+      "$bytes": "3f178d30985c477094dbdd90937d8268"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06rE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "802712c2c5ca4a5ab18fc7309a57da5d"
+    },
+    "entity": {
+      "$bytes": "54295464fe3f4e169fb1b1359e68e1ab"
+    },
+    "from": {
+      "$bytes": "3f178d30985c477094dbdd90937d8268"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a00v5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ca9f832f50d04ed0a292b7d3a5ece885"
+    },
+    "entity": {
+      "$bytes": "e3d4cd9ef0e64e1dbfda7f583c34e7de"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "3f178d30985c477094dbdd90937d8268"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a04BT"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9cfaa5763efb4651bbc197286ce72c08"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga study 1: year-one math TOT estimate",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A reported trial estimate, not an independent replication of the other estimand from this trial.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "179"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "66"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1852"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 3, p. 749, panel A",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "first postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "74d0533ea78d4923a9082dd610c087df"
+    },
+    "entity": {
+      "$bytes": "ca842f71d0a94910a796aa57f23a30da"
+    },
+    "from": {
+      "$bytes": "9cfaa5763efb4651bbc197286ce72c08"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03oV"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ef717606dbe447ad87cda15e0644b6be"
+    },
+    "entity": {
+      "$bytes": "b7326459e22d49f0939f778b59457176"
+    },
+    "from": {
+      "$bytes": "9cfaa5763efb4651bbc197286ce72c08"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09uI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "47208342a5de4acd955c76965a87d5b7"
+    },
+    "entity": {
+      "$bytes": "01d9b1c6af30465898940c70f29c7aea"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "9cfaa5763efb4651bbc197286ce72c08"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a1AMM"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "36570925385b495e9de1777b82d01b9b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga study 2: year-one math ITT estimate",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A reported trial estimate, not an independent replication of the other estimand from this trial.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "135"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "36"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1865"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 4, p. 750, panel A",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "first postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aa0767bc14844c8ba766a1d5eb7f23c8"
+    },
+    "entity": {
+      "$bytes": "d3e7c5736620455ea74908c95837c45a"
+    },
+    "from": {
+      "$bytes": "36570925385b495e9de1777b82d01b9b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02kM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9fc710ac2ccf4e9791842e93e8449faf"
+    },
+    "entity": {
+      "$bytes": "4a318bc1e6ac4af88120cd6d92d62b48"
+    },
+    "from": {
+      "$bytes": "36570925385b495e9de1777b82d01b9b"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06j4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e9bbffc5aed74fc5bf0cc0c013176fe7"
+    },
+    "entity": {
+      "$bytes": "3ed577a0a7d84b71936b1cef63d19408"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "36570925385b495e9de1777b82d01b9b"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a29yJ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "604fb6007d6a4cc5ab52d489c9dc17bd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga study 2: year-one math TOT estimate",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A reported trial estimate, not an independent replication of the other estimand from this trial.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "398"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "105"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1865"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 4, p. 750, panel A",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "first postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5674c7d19caa4640aa6408f42f055377"
+    },
+    "entity": {
+      "$bytes": "71501771e6224d7ea303abd5da4e96e3"
+    },
+    "from": {
+      "$bytes": "604fb6007d6a4cc5ab52d489c9dc17bd"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01BP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9d447b7fe915479096a3651101ce3bad"
+    },
+    "entity": {
+      "$bytes": "ae13b3f6906449cbaf1489f4c11a5b08"
+    },
+    "from": {
+      "$bytes": "604fb6007d6a4cc5ab52d489c9dc17bd"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02Y4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f23b48a073354c528cf6f4c93a254947"
+    },
+    "entity": {
+      "$bytes": "4700b537fca34c8e894e3f038f59730e"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "604fb6007d6a4cc5ab52d489c9dc17bd"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a35HV"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0adff420a6bc480b8973880dfdb5f296"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga tutoring: approximate annual cost per pupil, 2013–2015",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "cost-accounting range, not confidence interval. Price year unverified; cost-accounting review pending. This is a cost observation, not a cost-effectiveness estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3500"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0db260c165ed4cceaf56d5b2c63382d7"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3200"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "13cc4f64fc2f416ea398094d02a18a53"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4800"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "pupil-year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "pp. 740, 759; Appendix V cited",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "090b6fa28c8c4aaea1d557bbce0892a3"
+    },
+    "entity": {
+      "$bytes": "e7b9f59d6bb24e1e92c024008cd86e95"
+    },
+    "from": {
+      "$bytes": "0adff420a6bc480b8973880dfdb5f296"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a023L"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d5dbb8b41db04546b30ca24d5ea10a11"
+    },
+    "entity": {
+      "$bytes": "17300fbfc62148348622112bf901ef0d"
+    },
+    "from": {
+      "$bytes": "0adff420a6bc480b8973880dfdb5f296"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01wn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "27ff4f9447f64882815876cd451f24d4"
+    },
+    "entity": {
+      "$bytes": "c257df7932bb4b1081742ec7b10a29d9"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "0adff420a6bc480b8973880dfdb5f296"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a48mQ"
+  }
+]

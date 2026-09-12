@@ -1,0 +1,105 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T04:36:41.880Z",
+  "opsHash": "e76b378362a22db3ab33346b21eef156cc0a2f3f4b91f1871edddd85e956abfb",
+  "checks": [
+    "Complete all-space discovery has no candidate: data/education/discovery/contains-cuny-should-continue-investing-in-asap-for-eligible-community-college-students.json",
+    "Complete all-space discovery has no candidate: data/education/discovery/contains-cuny-asap-continued-investment.json",
+    "Live Relation property: 8f151ba4de204e3c9cb499ddf96f48f1",
+    "Live Relation property: 49c5d5e1679a4dbdbfd33f618f227c94",
+    "Live Relation property: 504e5776788844f6a77dba3ee811d8f0",
+    "Live Relation property: 1dc6a843458848198e7a6e672268f811",
+    "Live Relation property: 4e6ec5d14292498a84e5f607ca1a08ce",
+    "Live Checkbox property: da4a6c1f9d4446f9832ff3b49a4400ef",
+    "Allocated parent ID is unused: 005ffa0ca55b4023badd4e8a777bc4ea",
+    "No all-space exact-name parent exists",
+    "Reused Article has expected type: 536b5cd10a65417ea4e1d52b3322dcad",
+    "Reused Initiative has expected type: 3f6f2b82f8b94d3c85a5198a40e34199",
+    "Reused supporting factual Claim has expected type: 3f683173e12241f085f0123ba443abe0",
+    "Evidence remains factual: 3f683173e12241f085f0123ba443abe0",
+    "Reused opposing factual Claim has expected type: bb0f9095fd6b476cb6a4a3eab822ba5a",
+    "Evidence remains factual: bb0f9095fd6b476cb6a4a3eab822ba5a",
+    "Reused opposing factual Claim has expected type: df9121e211a44e76acc6fe1055f12caf",
+    "Evidence remains factual: df9121e211a44e76acc6fe1055f12caf"
+  ],
+  "edges": [
+    {
+      "from": "005ffa0ca55b4023badd4e8a777bc4ea",
+      "property": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "from": "005ffa0ca55b4023badd4e8a777bc4ea",
+      "property": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "536b5cd10a65417ea4e1d52b3322dcad"
+    },
+    {
+      "from": "005ffa0ca55b4023badd4e8a777bc4ea",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "3f6f2b82f8b94d3c85a5198a40e34199"
+    },
+    {
+      "from": "005ffa0ca55b4023badd4e8a777bc4ea",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "3f683173e12241f085f0123ba443abe0"
+    },
+    {
+      "from": "3f683173e12241f085f0123ba443abe0",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "005ffa0ca55b4023badd4e8a777bc4ea"
+    },
+    {
+      "from": "005ffa0ca55b4023badd4e8a777bc4ea",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "bb0f9095fd6b476cb6a4a3eab822ba5a"
+    },
+    {
+      "from": "bb0f9095fd6b476cb6a4a3eab822ba5a",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "005ffa0ca55b4023badd4e8a777bc4ea"
+    },
+    {
+      "from": "005ffa0ca55b4023badd4e8a777bc4ea",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "df9121e211a44e76acc6fe1055f12caf"
+    },
+    {
+      "from": "df9121e211a44e76acc6fe1055f12caf",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "005ffa0ca55b4023badd4e8a777bc4ea"
+    },
+    {
+      "from": "005ffa0ca55b4023badd4e8a777bc4ea",
+      "property": "1dc6a843458848198e7a6e672268f811",
+      "to": "3f683173e12241f085f0123ba443abe0"
+    },
+    {
+      "from": "005ffa0ca55b4023badd4e8a777bc4ea",
+      "property": "4e6ec5d14292498a84e5f607ca1a08ce",
+      "to": "bb0f9095fd6b476cb6a4a3eab822ba5a"
+    },
+    {
+      "from": "005ffa0ca55b4023badd4e8a777bc4ea",
+      "property": "4e6ec5d14292498a84e5f607ca1a08ce",
+      "to": "df9121e211a44e76acc6fe1055f12caf"
+    }
+  ],
+  "model": {
+    "name": "CUNY should continue investing in ASAP for eligible community-college students.",
+    "description": "This policy position weighs the trial’s higher associate-degree completion against its eight-year cost findings. The MDRC evaluation alone does not settle priorities, scale, or alternatives.",
+    "article": "536b5cd10a65417ea4e1d52b3322dcad",
+    "initiative": "3f6f2b82f8b94d3c85a5198a40e34199",
+    "support": [
+      "3f683173e12241f085f0123ba443abe0"
+    ],
+    "oppose": [
+      "bb0f9095fd6b476cb6a4a3eab822ba5a",
+      "df9121e211a44e76acc6fe1055f12caf"
+    ],
+    "discovery": [
+      "data/education/discovery/contains-cuny-should-continue-investing-in-asap-for-eligible-community-college-students.json",
+      "data/education/discovery/contains-cuny-asap-continued-investment.json"
+    ]
+  },
+  "rationale": "Degree completion supports continued investment; program-minus-control net cost and higher cost per degree challenge it. These roles describe relevance to the policy proposition, not independent replications or a source recommendation."
+}

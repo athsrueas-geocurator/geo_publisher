@@ -1,0 +1,20 @@
+{
+  "name": "Shorten STAR overview and move methods into a content block",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/description-pilot-ops.json",
+  "sha256": "944bed06bd37e4d4f4106f934cf4febcba5a8650a07838565053ebc015f51c1c",
+  "changes": [
+    {
+      "id": "4874a8385a594633ab244f47889f9cab",
+      "name": "STAR class-size economics: modeled costs and earnings (Krueger, 2003)",
+      "before": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than reported 7300. Preserve reported 7300 and disclose the one-dollar discrepancy; do not silently replace it.",
+      "after": "Modeled costs and projected earnings for reducing early-grade class sizes, based on Tennessee STAR evidence. Compare economic assumptions and sensitivity scenarios in 1998 US dollars.",
+      "blockId": "518cf9a33b8740e4b343b7d58d1eb3b5",
+      "markdown": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than reported 7300. The dataset retains the reported value of 7300."
+    }
+  ],
+  "operationCount": 4,
+  "journalPath": "data/education/description-pilot-publication.json",
+  "validationPath": "data/education/description-pilot-validation.json"
+}

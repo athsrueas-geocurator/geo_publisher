@@ -1,0 +1,134 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Quantifying the Life-Cycle Benefits of an Influential Early-Childhood Program",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "García, Heckman, Leaf and Prados analyze life-cycle benefits and costs using the ABC and CARE early-childhood experiments. The analysis combines measured outcomes with forecasts from nonexperimental data.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.1086/705718",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7331936/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "70b201ca80f6436f9f9c64497b9fe7e1"
+    },
+    "entity": {
+      "$bytes": "fef35cf4832e4ef2978d2a071ea70154"
+    },
+    "from": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0035cc21e7174fb6a28badceeef943e3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Publication and accessible manuscript\n\nJorge Luis García, James J. Heckman, Duncan Ermini Leaf and María José Prados. Journal of Political Economy 128(7), 2502–2541 (2020). Published online May 21, 2020. [Publisher record](https://www.journals.uchicago.edu/doi/abs/10.1086/705718) · [Archived author manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC7331936/).\n\n## What the analysis covers\n\nThe analysis pools the Carolina Abecedarian Project with CARE's center-based childcare arm in Chapel Hill, North Carolina. CARE's home-visiting-only arm is excluded. These are two related experiments, not a single independently replicated effect for every model scenario. Many control children attended alternative formal childcare.\n\n## Measured outcomes and modeled returns\n\nExperimental observations extend through midlife; lifetime benefits also require nonexperimental forecasting data and assumptions. The abstract reports an estimated 13.7% annual internal rate of return and a benefit/cost ratio of 7.3. These are author-reported model estimates, not observed lifetime earnings or interchangeable measures of return. Sensitivity analyses vary the assumptions.\n\n## Versions and interpretation\n\nThe earlier NBER working paper is titled Quantifying the Life-cycle Benefits of a Prototypical Early Childhood Program (w23479). It is a related version of this research, not an independent study. The accessible university manuscript and appendix dated August 2, 2018 have their own pagination. Cite the version and table actually used for individual estimates.\n\nThe 2018 appendix's displayed annual cost components do not reconcile to its reported total. That discrepancy does not alter the authors' reported values; it limits independent cost reconstruction and requires care when comparing economic estimates.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "59ac2ffa1e814394897ef51bd432bb4a"
+    },
+    "entity": {
+      "$bytes": "81bca02f360840c1a707ab81daf3f370"
+    },
+    "from": {
+      "$bytes": "0035cc21e7174fb6a28badceeef943e3"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fca101bf757e46aa951cfc9289b99f4a"
+    },
+    "entity": {
+      "$bytes": "4d5e83b6eaa94140be4b66e5e5ca190f"
+    },
+    "from": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "to": {
+      "$bytes": "0035cc21e7174fb6a28badceeef943e3"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    }
+  }
+]

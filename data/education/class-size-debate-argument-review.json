@@ -1,0 +1,19 @@
+{
+ "approved":true,
+ "reviewedAt":"2026-09-12",
+ "contentHash":"dc1ae95530b18b1d04ea303319c2a289631a9cd6bce518d013d6082c26405317",
+ "basis":"Independent strict bracket review after Related stage passed all 82 checks. Read both endpoints and source locators; attribution is not endorsement. User standing publication authorization applies.",
+ "pairs":[
+  {"target":"economic-case","argument":"model-return","bracket":"supports","confidence":"high","reason":"The reported conditional 6.2% real return supplies economic evidence for the bounded can-be-worth-cost claim; uncertainty stays explicit."},
+  {"target":"economic-case","argument":"model-scenario","bracket":"supports","confidence":"high","reason":"The author-reported $15,180 projected earnings versus $7,537 cost under stated assumptions supports potential value. Same model as the IRR, not another study."},
+  {"target":"economic-case","argument":"projection-risk","bracket":"opposes","confidence":"high","reason":"Challenges the sufficiency of the earnings model for investment, not the numerical identity of its outputs. One-sided rebuttal; no reverse edge."},
+  {"target":"broad-policy","argument":"projection-risk","bracket":"supports","confidence":"high","reason":"The author's uncertainty and alternative-policy argument is a reason for his rejection of broad reductions."},
+  {"target":"broad-policy","argument":"star-scope","bracket":"supports","confidence":"high","reason":"A limit on extrapolation is a reason against using STAR to justify uniform cuts across grades."},
+  {"target":"broad-policy","argument":"quality","bracket":"supports","confidence":"high","reason":"The disputed quality of underlying evidence contributes to Hanushek's stated broad-policy conclusion."},
+  {"target":"economic-case","argument":"broad-policy","bracket":"related-only","confidence":"high","reason":"Conditional early-grade benefits and rejection of uniform reductions can both hold; not symmetric opposing positions."},
+  {"target":"weighting","argument":"quality","bracket":"related-only","confidence":"high","reason":"Reweighting can change an interpretation while unresolved bias remains; these are neither identical assertions nor strict negations."},
+  {"target":"economic-case","argument":"weighting","bracket":"related-only","confidence":"high","reason":"An achievement literature association alone does not adjudicate the economic value proposition."},
+  {"target":"star-scope","argument":"kindergarten","bracket":"related-only","confidence":"high","reason":"A kindergarten gain is consistent with uncertainty about later-grade extrapolation."},
+  {"target":"economic-case","argument":"kindergarten","bracket":"related-only","confidence":"high","reason":"The percentile-rank experiment is context; it must not be substituted for the model's subject-SD assumptions."}
+ ]
+}

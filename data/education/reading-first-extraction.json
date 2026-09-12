@@ -1,0 +1,1845 @@
+{
+  "preparedAt": "2026-09-11T20:59:09.022220+00:00",
+  "status": "source-verified; Geo mapping and publication pending",
+  "publication": {
+    "title": "Reading First Impact Study Final Report",
+    "reportNumber": "NCEE 2009-4038",
+    "year": 2008,
+    "month": "November",
+    "authors": [
+      "Beth C. Gamse",
+      "Robin Tepper Jacob",
+      "Megan Horst",
+      "Beth Boulay",
+      "Fatih Unlu"
+    ],
+    "sourceUrl": "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncee/pdf/20094038.pdf",
+    "pdfSha256": "7dc6d6da157522c2bb2715e4f9ceae6a97775420d8941f5328fdb87e8b44d985",
+    "citationNote": "Authors follow the report's suggested citation; additional contributors appear on the title page."
+  },
+  "context": {
+    "program": "Reading First",
+    "study": "Reading First Impact Study",
+    "design": "17 regression-discontinuity sites and one group-randomized site",
+    "assignment": "Receipt of Reading First funds; five treated and five control schools in the randomized site.",
+    "siteComposition": "17 school districts and one state program across 13 states",
+    "sample": {
+      "initialSchools": 258,
+      "finalSchools": 248,
+      "readingFirstSchools": 125,
+      "nonReadingFirstSchools": 123,
+      "sites": 18,
+      "states": 13,
+      "unit": "schools, not a per-outcome student N"
+    },
+    "estimand": "Regression-adjusted impact of Reading First funding, averaged across sites in proportion to their number of Reading First sample schools.",
+    "model": "Linear site rating specification and selected covariates; multilevel models account for clustering. See Chapter 2 and Appendix B for outcome-specific details.",
+    "methodsLocator": "Chapter 2, printed pp. 17 and 24; Appendix B, printed B-3 to B-5",
+    "matchedProgramCost": null,
+    "costStatus": "Not extracted or matched; evaluation contract and state grants must not be treated as per-pupil delivery cost."
+  },
+  "limitations": [
+    "Native and standardized forms are the same outcome contrast. Do not count them as independent effects or studies.",
+    "A common SD label does not establish comparability across outcomes, populations or standardization samples.",
+    "Nonsignificant estimates are not zero effects; preserve their negative and positive confidence bounds.",
+    "Decoding was measured only in grade one in spring 2007. Comprehension estimates pool three spring collections.",
+    "Instructional practices, engagement and self-reported implementation are distinct from measured achievement.",
+    "Survey SEs and confidence intervals are not supplied in these selected exhibits; no values are inferred from p-values.",
+    "Reading-coach survey response rates differ between funded and unfunded schools (p=0.037); self-reports and missingness limit interpretation.",
+    "The 248-school study sample is not the number of students in each outcome analysis; some grade/year cells omit a school.",
+    "Percentage-point impacts are differences, not percent changes; proportion-difference units are separately retained.",
+    "Rounded CI endpoints can equal zero for an estimate marked significant; retain source p-values and bounds without alteration.",
+    "This extraction covers Exhibits 2.1-2.6 and D.1-D.4, not all subgroup, yearly, mechanism or robustness analyses in the report."
+  ],
+  "verification": {
+    "transcriptionSha256": "04754018b67ddab31f695b70b7769e90c8b0e1653c107159084f660495de5770",
+    "numericChecks": 298,
+    "visualChecked": true,
+    "visualPages": [
+      47,
+      48,
+      49,
+      51,
+      54,
+      55,
+      192,
+      193,
+      194,
+      195
+    ]
+  },
+  "records": [
+    {
+      "key": "sat10-score-g1",
+      "measure": "Reading comprehension scaled score",
+      "grade": "1",
+      "domain": "student achievement",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "native": {
+        "value": "4.74",
+        "unit": "SAT 10 scaled-score points",
+        "standardError": "2.72",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.63",
+          "upper": "10.11"
+        }
+      },
+      "standardized": {
+        "value": "0.10",
+        "unit": "standard deviations",
+        "standardError": "0.06",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.01",
+          "upper": "0.21"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005 and 2006 SAT 10 scores, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "543.8",
+        "estimatedCounterfactualWithoutReadingFirst": "539.1",
+        "unit": "SAT 10 scaled-score points",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.083"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "sat10-score-g2",
+      "measure": "Reading comprehension scaled score",
+      "grade": "2",
+      "domain": "student achievement",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "native": {
+        "value": "1.69",
+        "unit": "SAT 10 scaled-score points",
+        "standardError": "2.29",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-2.83",
+          "upper": "6.21"
+        }
+      },
+      "standardized": {
+        "value": "0.04",
+        "unit": "standard deviations",
+        "standardError": "0.05",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.07",
+          "upper": "0.15"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005 and 2006 SAT 10 scores, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "584.4",
+        "estimatedCounterfactualWithoutReadingFirst": "582.8",
+        "unit": "SAT 10 scaled-score points",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.462"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "sat10-score-g3",
+      "measure": "Reading comprehension scaled score",
+      "grade": "3",
+      "domain": "student achievement",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "native": {
+        "value": "0.30",
+        "unit": "SAT 10 scaled-score points",
+        "standardError": "2.12",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-3.88",
+          "upper": "4.48"
+        }
+      },
+      "standardized": {
+        "value": "0.01",
+        "unit": "standard deviations",
+        "standardError": "0.05",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.10",
+          "upper": "0.11"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005 and 2006 SAT 10 scores, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "609.1",
+        "estimatedCounterfactualWithoutReadingFirst": "608.8",
+        "unit": "SAT 10 scaled-score points",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.887"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "sat10-grade-level-g1",
+      "measure": "Reading at or above grade level",
+      "grade": "1",
+      "domain": "student achievement",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "native": {
+        "value": "4.22",
+        "unit": "percentage points",
+        "standardError": "2.58",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.87",
+          "upper": "9.31"
+        }
+      },
+      "standardized": null,
+      "means": {
+        "actualUnadjustedWithReadingFirst": "46.0",
+        "estimatedCounterfactualWithoutReadingFirst": "41.8",
+        "unit": "percent",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.104"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "sat10-grade-level-g2",
+      "measure": "Reading at or above grade level",
+      "grade": "2",
+      "domain": "student achievement",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "native": {
+        "value": "1.60",
+        "unit": "percentage points",
+        "standardError": "2.38",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-3.11",
+          "upper": "6.30"
+        }
+      },
+      "standardized": null,
+      "means": {
+        "actualUnadjustedWithReadingFirst": "38.9",
+        "estimatedCounterfactualWithoutReadingFirst": "37.3",
+        "unit": "percent",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.504"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "sat10-grade-level-g3",
+      "measure": "Reading at or above grade level",
+      "grade": "3",
+      "domain": "student achievement",
+      "instrument": "SAT 10 reading comprehension",
+      "analysisLevel": "student",
+      "followup": "Spring 2005, 2006 and 2007 pooled",
+      "native": {
+        "value": "-0.08",
+        "unit": "percentage points",
+        "standardError": "2.40",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-4.81",
+          "upper": "4.65"
+        }
+      },
+      "standardized": null,
+      "means": {
+        "actualUnadjustedWithReadingFirst": "38.7",
+        "estimatedCounterfactualWithoutReadingFirst": "38.8",
+        "unit": "percent",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.973"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.5",
+          "printedPage": "25",
+          "pdfPage": 54,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "toswrf-decoding-g1",
+      "measure": "Decoding skill standard score",
+      "grade": "1",
+      "domain": "student achievement",
+      "instrument": "Test of Silent Word Reading Fluency (TOSWRF)",
+      "analysisLevel": "student",
+      "followup": "Spring 2007 only",
+      "native": {
+        "value": "2.51",
+        "unit": "TOSWRF standard-score points",
+        "standardError": "1.11",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.32",
+          "upper": "4.69"
+        }
+      },
+      "standardized": {
+        "value": "0.17",
+        "unit": "standard deviations",
+        "standardError": "0.07",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.02",
+          "upper": "0.31"
+        },
+        "normalization": "Non-Reading First outcome SD from spring 2007 grade-one TOSWRF scores."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "96.9",
+        "estimatedCounterfactualWithoutReadingFirst": "94.4",
+        "unit": "TOSWRF standard-score points",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.025"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.6",
+          "printedPage": "26",
+          "pdfPage": 55,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.1",
+          "printedPage": "D-2",
+          "pdfPage": 192,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-total-g1",
+      "measure": "Instruction in five reading dimensions combined",
+      "grade": "1",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "6.92",
+        "unit": "minutes per daily reading block",
+        "standardError": "2.44",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "2.13",
+          "upper": "11.71"
+        }
+      },
+      "standardized": {
+        "value": "0.33",
+        "unit": "standard deviations",
+        "standardError": "0.12",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.10",
+          "upper": "0.56"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "59.23",
+        "estimatedCounterfactualWithoutReadingFirst": "52.31",
+        "unit": "minutes per daily reading block",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.005"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-explicit-g1",
+      "measure": "Intervals in five dimensions with highly explicit instruction",
+      "grade": "1",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "3.29",
+        "unit": "percentage points",
+        "standardError": "1.39",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.57",
+          "upper": "6.01"
+        }
+      },
+      "standardized": {
+        "value": "0.18",
+        "unit": "standard deviations",
+        "standardError": "0.08",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.03",
+          "upper": "0.33"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "29.39",
+        "estimatedCounterfactualWithoutReadingFirst": "26.10",
+        "unit": "percent",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.018"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-practice-g1",
+      "measure": "Intervals in five dimensions with high quality student practice",
+      "grade": "1",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "0.82",
+        "unit": "percentage points",
+        "standardError": "1.25",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-1.63",
+          "upper": "3.27"
+        }
+      },
+      "standardized": {
+        "value": "0.05",
+        "unit": "standard deviations",
+        "standardError": "0.07",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.10",
+          "upper": "0.19"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "18.44",
+        "estimatedCounterfactualWithoutReadingFirst": "17.61",
+        "unit": "percent",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.513"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-total-g2",
+      "measure": "Instruction in five reading dimensions combined",
+      "grade": "2",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "9.79",
+        "unit": "minutes per daily reading block",
+        "standardError": "2.46",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "4.97",
+          "upper": "14.60"
+        }
+      },
+      "standardized": {
+        "value": "0.46",
+        "unit": "standard deviations",
+        "standardError": "0.12",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.23",
+          "upper": "0.69"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "59.08",
+        "estimatedCounterfactualWithoutReadingFirst": "49.30",
+        "unit": "minutes per daily reading block",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-explicit-g2",
+      "measure": "Intervals in five dimensions with highly explicit instruction",
+      "grade": "2",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "3.00",
+        "unit": "percentage points",
+        "standardError": "1.45",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.16",
+          "upper": "5.84"
+        }
+      },
+      "standardized": {
+        "value": "0.16",
+        "unit": "standard deviations",
+        "standardError": "0.08",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.01",
+          "upper": "0.30"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "30.95",
+        "estimatedCounterfactualWithoutReadingFirst": "27.95",
+        "unit": "percent",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.040"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-practice-g2",
+      "measure": "Intervals in five dimensions with high quality student practice",
+      "grade": "2",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "2.94",
+        "unit": "percentage points",
+        "standardError": "1.25",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.50",
+          "upper": "5.39"
+        }
+      },
+      "standardized": {
+        "value": "0.16",
+        "unit": "standard deviations",
+        "standardError": "0.07",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.03",
+          "upper": "0.30"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "17.82",
+        "estimatedCounterfactualWithoutReadingFirst": "14.88",
+        "unit": "percent",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.019"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.1",
+          "printedPage": "18",
+          "pdfPage": 47,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.2",
+          "printedPage": "D-3",
+          "pdfPage": 193,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-phonemic-g1",
+      "measure": "Phonemic awareness instruction",
+      "grade": "1",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "0.61",
+        "unit": "minutes per daily reading block",
+        "standardError": "0.28",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.06",
+          "upper": "1.16"
+        }
+      },
+      "standardized": {
+        "value": "0.23",
+        "unit": "standard deviations",
+        "standardError": "0.10",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.02",
+          "upper": "0.43"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "2.32",
+        "estimatedCounterfactualWithoutReadingFirst": "1.71",
+        "unit": "minutes per daily reading block",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.030"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-phonics-g1",
+      "measure": "Phonics instruction",
+      "grade": "1",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "2.86",
+        "unit": "minutes per daily reading block",
+        "standardError": "1.44",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.04",
+          "upper": "5.68"
+        }
+      },
+      "standardized": {
+        "value": "0.21",
+        "unit": "standard deviations",
+        "standardError": "0.11",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.00",
+          "upper": "0.42"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "21.32",
+        "estimatedCounterfactualWithoutReadingFirst": "18.45",
+        "unit": "minutes per daily reading block",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.048"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-vocabulary-g1",
+      "measure": "Vocabulary instruction",
+      "grade": "1",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "0.57",
+        "unit": "minutes per daily reading block",
+        "standardError": "0.66",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.72",
+          "upper": "1.86"
+        }
+      },
+      "standardized": {
+        "value": "0.09",
+        "unit": "standard deviations",
+        "standardError": "0.10",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.11",
+          "upper": "0.28"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "7.92",
+        "estimatedCounterfactualWithoutReadingFirst": "7.35",
+        "unit": "minutes per daily reading block",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.386"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-fluency-g1",
+      "measure": "Fluency instruction",
+      "grade": "1",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "1.24",
+        "unit": "minutes per daily reading block",
+        "standardError": "0.61",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.05",
+          "upper": "2.43"
+        }
+      },
+      "standardized": {
+        "value": "0.20",
+        "unit": "standard deviations",
+        "standardError": "0.10",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.01",
+          "upper": "0.40"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "4.67",
+        "estimatedCounterfactualWithoutReadingFirst": "3.43",
+        "unit": "minutes per daily reading block",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.043"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-comprehension-g1",
+      "measure": "Comprehension instruction",
+      "grade": "1",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "1.78",
+        "unit": "minutes per daily reading block",
+        "standardError": "1.53",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-1.22",
+          "upper": "4.77"
+        }
+      },
+      "standardized": {
+        "value": "0.12",
+        "unit": "standard deviations",
+        "standardError": "0.11",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.08",
+          "upper": "0.33"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "23.01",
+        "estimatedCounterfactualWithoutReadingFirst": "21.23",
+        "unit": "minutes per daily reading block",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.247"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-phonemic-g2",
+      "measure": "Phonemic awareness instruction",
+      "grade": "2",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "0.12",
+        "unit": "minutes per daily reading block",
+        "standardError": "0.12",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.12",
+          "upper": "0.36"
+        }
+      },
+      "standardized": {
+        "value": "0.10",
+        "unit": "standard deviations",
+        "standardError": "0.10",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.09",
+          "upper": "0.29"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "0.49",
+        "estimatedCounterfactualWithoutReadingFirst": "0.37",
+        "unit": "minutes per daily reading block",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.319"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-phonics-g2",
+      "measure": "Phonics instruction",
+      "grade": "2",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "3.27",
+        "unit": "minutes per daily reading block",
+        "standardError": "1.17",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.97",
+          "upper": "5.57"
+        }
+      },
+      "standardized": {
+        "value": "0.31",
+        "unit": "standard deviations",
+        "standardError": "0.11",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.09",
+          "upper": "0.53"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "13.92",
+        "estimatedCounterfactualWithoutReadingFirst": "10.65",
+        "unit": "minutes per daily reading block",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.006"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-vocabulary-g2",
+      "measure": "Vocabulary instruction",
+      "grade": "2",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "1.73",
+        "unit": "minutes per daily reading block",
+        "standardError": "0.82",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.13",
+          "upper": "3.34"
+        }
+      },
+      "standardized": {
+        "value": "0.20",
+        "unit": "standard deviations",
+        "standardError": "0.09",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.01",
+          "upper": "0.38"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "11.79",
+        "estimatedCounterfactualWithoutReadingFirst": "10.06",
+        "unit": "minutes per daily reading block",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.036"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-fluency-g2",
+      "measure": "Fluency instruction",
+      "grade": "2",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "0.58",
+        "unit": "minutes per daily reading block",
+        "standardError": "0.56",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.51",
+          "upper": "1.67"
+        }
+      },
+      "standardized": {
+        "value": "0.11",
+        "unit": "standard deviations",
+        "standardError": "0.10",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.09",
+          "upper": "0.31"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "4.14",
+        "estimatedCounterfactualWithoutReadingFirst": "3.56",
+        "unit": "minutes per daily reading block",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.297"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "instruction-comprehension-g2",
+      "measure": "Comprehension instruction",
+      "grade": "2",
+      "domain": "observed instructional practice",
+      "instrument": "Instructional Practice in Reading Inventory (IPRI)",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2005, fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "4.01",
+        "unit": "minutes per daily reading block",
+        "standardError": "1.69",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.70",
+          "upper": "7.32"
+        }
+      },
+      "standardized": {
+        "value": "0.24",
+        "unit": "standard deviations",
+        "standardError": "0.10",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "0.04",
+          "upper": "0.44"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across spring 2005, fall 2005 and spring 2006 IPRI data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "28.74",
+        "estimatedCounterfactualWithoutReadingFirst": "24.73",
+        "unit": "minutes per daily reading block",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.019"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.2",
+          "printedPage": "19",
+          "pdfPage": 48,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.3",
+          "printedPage": "D-4",
+          "pdfPage": 194,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "print-engagement-g1",
+      "measure": "Students engaged with print",
+      "grade": "1",
+      "domain": "observed student engagement",
+      "instrument": "Student Time-on-Task and Engagement with Print (STEP)",
+      "analysisLevel": "classroom",
+      "followup": "Fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "5.33",
+        "unit": "percentage points",
+        "standardError": "2.92",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.40",
+          "upper": "11.05"
+        }
+      },
+      "standardized": {
+        "value": "0.18",
+        "unit": "standard deviations",
+        "standardError": "0.10",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.01",
+          "upper": "0.38"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across fall 2005 and spring 2006 STEP data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "47.84",
+        "estimatedCounterfactualWithoutReadingFirst": "42.52",
+        "unit": "percent",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.070"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.3",
+          "printedPage": "20",
+          "pdfPage": 49,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.4",
+          "printedPage": "D-5",
+          "pdfPage": 195,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "print-engagement-g2",
+      "measure": "Students engaged with print",
+      "grade": "2",
+      "domain": "observed student engagement",
+      "instrument": "Student Time-on-Task and Engagement with Print (STEP)",
+      "analysisLevel": "classroom",
+      "followup": "Fall 2005, spring 2006, fall 2006 and spring 2007 pooled",
+      "native": {
+        "value": "-4.75",
+        "unit": "percentage points",
+        "standardError": "2.91",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-10.45",
+          "upper": "0.96"
+        }
+      },
+      "standardized": {
+        "value": "-0.17",
+        "unit": "standard deviations",
+        "standardError": "0.10",
+        "confidenceInterval": {
+          "level": "0.95",
+          "lower": "-0.37",
+          "upper": "0.03"
+        },
+        "normalization": "Non-Reading First outcome SD pooled across fall 2005 and spring 2006 STEP data, separately by grade."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "50.53",
+        "estimatedCounterfactualWithoutReadingFirst": "55.27",
+        "unit": "percent",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.104"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.3",
+          "printedPage": "20",
+          "pdfPage": 49,
+          "role": "means, p-value and headline estimates"
+        },
+        {
+          "exhibit": "D.4",
+          "printedPage": "D-5",
+          "pdfPage": 195,
+          "role": "precise estimates, SEs and 95% CIs"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "reported SE and 95% CI"
+    },
+    {
+      "key": "survey-pd-hours",
+      "measure": "Professional development in reading received by teachers",
+      "grade": null,
+      "domain": "self-reported implementation",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2007 only",
+      "native": {
+        "value": "12.13",
+        "unit": "hours",
+        "standardError": null,
+        "confidenceInterval": null
+      },
+      "standardized": {
+        "value": "0.51",
+        "unit": "standard deviations",
+        "standardError": null,
+        "confidenceInterval": null,
+        "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "25.84",
+        "estimatedCounterfactualWithoutReadingFirst": "13.71",
+        "unit": "hours",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "SE and CI not reported in the selected exhibits; p-value retained"
+    },
+    {
+      "key": "survey-pd-components",
+      "measure": "Reading components covered in teacher professional development",
+      "grade": null,
+      "domain": "self-reported implementation",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2007 only",
+      "native": {
+        "value": "0.55",
+        "unit": "components on a 0-5 scale",
+        "standardError": null,
+        "confidenceInterval": null
+      },
+      "standardized": {
+        "value": "0.31",
+        "unit": "standard deviations",
+        "standardError": null,
+        "confidenceInterval": null,
+        "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "4.30",
+        "estimatedCounterfactualWithoutReadingFirst": "3.75",
+        "unit": "components on a 0-5 scale",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.010"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "SE and CI not reported in the selected exhibits; p-value retained"
+    },
+    {
+      "key": "survey-coaching",
+      "measure": "Teacher receipt of coaching",
+      "grade": null,
+      "domain": "self-reported implementation",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2007 only",
+      "native": {
+        "value": "0.20",
+        "unit": "proportion difference",
+        "standardError": null,
+        "confidenceInterval": null
+      },
+      "standardized": {
+        "value": "0.41",
+        "unit": "standard deviations",
+        "standardError": null,
+        "confidenceInterval": null,
+        "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "0.83",
+        "estimatedCounterfactualWithoutReadingFirst": "0.63",
+        "unit": "proportion",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "SE and CI not reported in the selected exhibits; p-value retained"
+    },
+    {
+      "key": "survey-coach-time",
+      "measure": "Time dedicated to serving as K-3 reading coach",
+      "grade": null,
+      "domain": "self-reported implementation",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "school",
+      "followup": "Spring 2007 only",
+      "native": {
+        "value": "33.49",
+        "unit": "percentage points",
+        "standardError": null,
+        "confidenceInterval": null
+      },
+      "standardized": {
+        "value": "1.03",
+        "unit": "standard deviations",
+        "standardError": null,
+        "confidenceInterval": null,
+        "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "91.06",
+        "estimatedCounterfactualWithoutReadingFirst": "57.57",
+        "unit": "percent",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "SE and CI not reported in the selected exhibits; p-value retained"
+    },
+    {
+      "key": "survey-reading-minutes",
+      "measure": "Reading instruction per day",
+      "grade": null,
+      "domain": "self-reported implementation",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2007 only",
+      "native": {
+        "value": "18.47",
+        "unit": "minutes per day",
+        "standardError": null,
+        "confidenceInterval": null
+      },
+      "standardized": {
+        "value": "0.63",
+        "unit": "standard deviations",
+        "standardError": null,
+        "confidenceInterval": null,
+        "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "105.71",
+        "estimatedCounterfactualWithoutReadingFirst": "87.24",
+        "unit": "minutes per day",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "<",
+        "value": "0.001"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "SE and CI not reported in the selected exhibits; p-value retained"
+    },
+    {
+      "key": "survey-differentiated-materials",
+      "measure": "Availability of differentiated instructional materials for struggling readers",
+      "grade": null,
+      "domain": "self-reported implementation",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "school",
+      "followup": "Spring 2007 only",
+      "native": {
+        "value": "0.01",
+        "unit": "proportion difference",
+        "standardError": null,
+        "confidenceInterval": null
+      },
+      "standardized": {
+        "value": "0.15",
+        "unit": "standard deviations",
+        "standardError": null,
+        "confidenceInterval": null,
+        "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "0.98",
+        "estimatedCounterfactualWithoutReadingFirst": "0.97",
+        "unit": "proportion",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.661"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "SE and CI not reported in the selected exhibits; p-value retained"
+    },
+    {
+      "key": "survey-extra-practice",
+      "measure": "Extra classroom practice for struggling readers",
+      "grade": null,
+      "domain": "self-reported implementation",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2007 only",
+      "native": {
+        "value": "0.19",
+        "unit": "points on a 0-4 scale",
+        "standardError": null,
+        "confidenceInterval": null
+      },
+      "standardized": {
+        "value": "0.20",
+        "unit": "standard deviations",
+        "standardError": null,
+        "confidenceInterval": null,
+        "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "3.79",
+        "estimatedCounterfactualWithoutReadingFirst": "3.59",
+        "unit": "points on a 0-4 scale",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.018"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": true,
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "SE and CI not reported in the selected exhibits; p-value retained"
+    },
+    {
+      "key": "survey-assessments",
+      "measure": "Use of assessments to inform classroom practice",
+      "grade": null,
+      "domain": "self-reported implementation",
+      "instrument": "RFIS Teacher, Reading Coach and Principal Surveys",
+      "analysisLevel": "classroom",
+      "followup": "Spring 2007 only",
+      "native": {
+        "value": "0.18",
+        "unit": "points on a 0-3 scale",
+        "standardError": null,
+        "confidenceInterval": null
+      },
+      "standardized": {
+        "value": "0.19",
+        "unit": "standard deviations",
+        "standardError": null,
+        "confidenceInterval": null,
+        "normalization": "Non-Reading First outcome SD in spring 2007 survey data."
+      },
+      "means": {
+        "actualUnadjustedWithReadingFirst": "2.63",
+        "estimatedCounterfactualWithoutReadingFirst": "2.45",
+        "unit": "points on a 0-3 scale",
+        "interpretation": "The estimated counterfactual is calculated from the adjusted impact, not an observed control-group mean. Do not recompute the published impact by subtracting rounded means."
+      },
+      "pValue": {
+        "operator": "=",
+        "value": "0.090"
+      },
+      "test": "two-tailed",
+      "reportedSignificantAt05": false,
+      "sourceLocations": [
+        {
+          "exhibit": "2.4",
+          "printedPage": "22",
+          "pdfPage": 51,
+          "role": "means, p-value and headline estimates"
+        }
+      ],
+      "outcomeSampleSize": null,
+      "uncertaintyStatus": "SE and CI not reported in the selected exhibits; p-value retained"
+    }
+  ]
+}

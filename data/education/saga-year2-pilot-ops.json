@@ -1,0 +1,613 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f44acacc373c4c12a10bec95ad915ed6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Assumption-dependent bound value",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Source-reported signed bound on an effect under stated identification assumptions, in the outcome's unit. Distinct from a point effect and a confidence-interval endpoint.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "77a02869935940c8a2bcb9cf0d720309"
+    },
+    "entity": {
+      "$bytes": "87fa56455f704f7dad362b7ab37cb448"
+    },
+    "from": {
+      "$bytes": "f44acacc373c4c12a10bec95ad915ed6"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c6ba2f77d4b549858771a946a6c88287"
+    },
+    "entity": {
+      "$bytes": "8057fe6dba004c83b8036c9ae6bc0918"
+    },
+    "from": {
+      "$bytes": "f44acacc373c4c12a10bec95ad915ed6"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "caef4fd959e84ed1a35772e50fa549e0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga year-two analysis: assumption-dependent persistent first-year bound",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fe2ea3a710ed48a4b6c7febf8043f8e8"
+    },
+    "entity": {
+      "$bytes": "02f9bb87e0a14bcb962f8a0d1f33aecf"
+    },
+    "from": {
+      "$bytes": "caef4fd959e84ed1a35772e50fa549e0"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dad69efa66a44f02be6f916f2f977f51"
+    },
+    "entity": {
+      "$bytes": "b579230b9e534d95becee83da60b36a4"
+    },
+    "from": {
+      "$bytes": "caef4fd959e84ed1a35772e50fa549e0"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7f45ab62a21a4f0baecc07a3ea97e73f"
+    },
+    "entity": {
+      "$bytes": "63c23f3e5722449b9e1385f763f38fa7"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "caef4fd959e84ed1a35772e50fa549e0"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "e3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8b6abe5fbc614a50bee256b235d069f3"
+    },
+    "entity": {
+      "$bytes": "b54b8b279d864f5c96ac95b293f26380"
+    },
+    "from": {
+      "$bytes": "63c23f3e5722449b9e1385f763f38fa7"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a6fb391d5bb94a9cb2fd339f7ab8762e"
+    },
+    "entity": {
+      "$bytes": "be0b8a13880d4789a5e3feaaff6287da"
+    },
+    "from": {
+      "$bytes": "63c23f3e5722449b9e1385f763f38fa7"
+    },
+    "to": {
+      "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a07cV"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cdcdb1ad32664a4a81c7b07e6ac5f842"
+    },
+    "entity": {
+      "$bytes": "6131626eae3f46a9819252eb26d01e85"
+    },
+    "from": {
+      "$bytes": "63c23f3e5722449b9e1385f763f38fa7"
+    },
+    "to": {
+      "$bytes": "ba643714da274c37a340a7f8396198dc"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a11Bo"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f0cd676a8fe74bec8da8450ecad7626e"
+    },
+    "entity": {
+      "$bytes": "78985e52260046818126c8565a351e6a"
+    },
+    "from": {
+      "$bytes": "63c23f3e5722449b9e1385f763f38fa7"
+    },
+    "to": {
+      "$bytes": "f44acacc373c4c12a10bec95ad915ed6"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2B4g"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ac231b4619744d9e881a644ef6cf6c7e"
+    },
+    "entity": {
+      "$bytes": "3609f535f6904631a3ec933763a089fd"
+    },
+    "from": {
+      "$bytes": "63c23f3e5722449b9e1385f763f38fa7"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a39ZJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "41c905002a7d472c9374bb2a4ca0ac70"
+    },
+    "entity": {
+      "$bytes": "8c0652e9d9f54d98938020fedfa42e77"
+    },
+    "from": {
+      "$bytes": "63c23f3e5722449b9e1385f763f38fa7"
+    },
+    "to": {
+      "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a4AkH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3460373fdf6e42f5b40a5e920a7b0f4e"
+    },
+    "entity": {
+      "$bytes": "1efcc5f6e74e4260ba05701abcfaa220"
+    },
+    "from": {
+      "$bytes": "63c23f3e5722449b9e1385f763f38fa7"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a54Vl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "58dfc232e7d84ae78d233a563b184b28"
+    },
+    "entity": {
+      "$bytes": "2202517fbeab45d281e2dc9751ac3625"
+    },
+    "from": {
+      "$bytes": "63c23f3e5722449b9e1385f763f38fa7"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a6BW4"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8e40fee2cbc74c70a468b2493aabc544"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 reported a year-two bound of 0.305 study-sample standard deviations for CPS math test (study sample Z), assuming only first-year benefits persist.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports 0.305 (SE 0.067; N=1640; FDR q=0.001). This bound assumes nonnegative benefits and zero incremental second-year benefit; it is not a point effect or confidence limit.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "CPS math test (study sample Z)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f44acacc373c4c12a10bec95ad915ed6"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "305"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "67"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1640"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Bound on persistent first-year benefit assuming zero incremental second-year benefit",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel B; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "00ac4801d739458386b99727d2c66d76"
+    },
+    "entity": {
+      "$bytes": "ac612f7a384d410aa43fb2dffa27b681"
+    },
+    "from": {
+      "$bytes": "8e40fee2cbc74c70a468b2493aabc544"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "72f403e934fc4c13934aa3b2e1b77b0d"
+    },
+    "entity": {
+      "$bytes": "9b747e379ffd414aaf3830481da7d25c"
+    },
+    "from": {
+      "$bytes": "8e40fee2cbc74c70a468b2493aabc544"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "104b0620b874445e932fc9a7f26e47f3"
+    },
+    "entity": {
+      "$bytes": "2b01ecb1e64449dfb35117196f464c0c"
+    },
+    "from": {
+      "$bytes": "8e40fee2cbc74c70a468b2493aabc544"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "00e1f3ec6b2440e0b403d346157aaff1"
+    },
+    "entity": {
+      "$bytes": "ccab0d34478342b5a4041a2fe18d5beb"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "8e40fee2cbc74c70a468b2493aabc544"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "19c5cd4013e6469cabf924d99762ff82"
+    },
+    "entity": {
+      "$bytes": "1c8492dcd6244eff894b882ee46ac92d"
+    },
+    "from": {
+      "$bytes": "caef4fd959e84ed1a35772e50fa549e0"
+    },
+    "to": {
+      "$bytes": "8e40fee2cbc74c70a468b2493aabc544"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a000"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "813a4635194545a2863d847549af7691"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga year-two identification and bound assumptions",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## What Table 6 identifies\n\nStudy 1 randomized the original tutoring offer, not each additional year of participation separately. First-stage estimates describe participation responses to that offer. The academic model estimates a weighted effect per year, observed in the second postrandomization school year.\n\n## Bounds and assumptions\n\nThe authors bound persistent first-year and two-year-participation benefits by assuming both benefits are nonnegative and setting the other component to zero. These are identification bounds, not confidence limits or separate point effects. A negative course-failure bound preserves the reported beneficial reduction direction; it is not an ordinary upper numerical endpoint. Each reported standard error describes its estimator; the FDR q-values can differ across specifications.\n\n## Comparison limits\n\nDo not combine participation first stages, per-year mixtures and bounds as interchangeable academic effects. The graph stores bounds in a distinct numeric property. All records refer to the same Study 1, and add no independent experiment.\n\n## Source\n\n[Final AER article](https://doi.org/10.1257/aer.20210434), Table 6 on printed page 753, with identification discussion on pages 751–752.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0483ec8b20eb42bf9c4156a610420c33"
+    },
+    "entity": {
+      "$bytes": "b9450d686b5f449f9b61f5715edb0b7a"
+    },
+    "from": {
+      "$bytes": "813a4635194545a2863d847549af7691"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a45445d751c141eeb6e03865cbb33a8b"
+    },
+    "entity": {
+      "$bytes": "58044b98112d423c89fb03c5596d5e04"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "813a4635194545a2863d847549af7691"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "e0"
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "term": "representation",
+  "checkedAt": "2026-09-11T21:11:36.981Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "27fa877a7706103b11d506ede8d7e981",
+      "name": "Uses representation",
+      "description": "AI Music ontology relation uses_representation; domain Model, ModelSystem, ModelRelease, Architecture, TrainingRecipe, Technique, ModelComponent, TrainingObjective; range Representation; publish policy plain_relation_ok_after_schema_review.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "47f7219846806fd915d162061aa5a98e",
+      "name": "Representation family",
+      "description": "AI Music ontology field for representation_family; data type controlled vocabulary; vocabulary RepresentationFamily; cardinality one; publish policy facet_or_required_when_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "522bc9a97cf9add42b28bc0f3176ccca",
+      "name": "Representation",
+      "description": "AI Music ontology field for representation; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "7a1159c9ab22a667d32ba53f51870fad",
+      "name": "Representations",
+      "description": "AI Music ontology field for representations; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "8222f802a968ecc79eb04246f326058d",
+      "name": "Target representation",
+      "description": "AI Music ontology field for target_representation; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "8f958023b3e5b732704c0ea9bcb0da66",
+      "name": "Output representation",
+      "description": "AI Music ontology field for output_representation; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "e7badf90989f4dcc3ce103c1b13f7e16",
+      "name": "Input representation",
+      "description": "AI Music ontology field for input_representation; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiODIyMmY4MDItYTk2OC1lY2M3LTllYjAtNDI0NmYzMjYwNThkIl1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTdiYWRmOTAtOTg5Zi00ZGNjLTNjZTEtMDNjMWIxM2Y3ZTE2Il1d"
+    }
+  ]
+}

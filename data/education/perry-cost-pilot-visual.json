@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-09-11T20:17:00Z",
+  "url": "https://www.geobrowser.io/space/dac259bad48a11adf97fe36857d85206/7e86c7f34c614db49497272063f43485",
+  "passed": true,
+  "scope": "Perry initial cost pilot; browser accessibility tree and screenshot reviewed",
+  "checks": {
+    "twoSentenceDescription": true,
+    "costAmount17759": true,
+    "currencyUSD": true,
+    "priceYear2006WithoutGrouping": true,
+    "perChildProgramDenominator": true,
+    "sourceLocatorSection3_1Page117": true,
+    "methodsBelowTable": true,
+    "primaryPdfLink": true,
+    "existingYpsilantiLink": true,
+    "studyAndSourceLinks": true
+  },
+  "limitations": [
+    "Table overflows horizontally; denominator and source columns are in the rendered accessibility tree but outside the initial screenshot viewport.",
+    "Geo displays a 0% Claim voting badge; this is not a study statistic.",
+    "Only initial program cost is published; 83 prepared outcome/return records remain pending."
+  ]
+}

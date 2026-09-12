@@ -1,0 +1,272 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5735b8e6a62745a38b1a99652e3c6457"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Eligible schools should expand universal free meals through the Community Eligibility Provision.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This policy position weighs the studys household food-purchase and food-security findings against the limits of its quasi-experimental exposure design. The linked evidence does not establish academic effects or that every school is eligible or can implement CEP on the same terms.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dc137dacffb24e35879d2aa7c8338dd3"
+    },
+    "entity": {
+      "$bytes": "2b951b85f3674885942561f4651a21da"
+    },
+    "from": {
+      "$bytes": "5735b8e6a62745a38b1a99652e3c6457"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07TJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "825a5ef8400442c488b56164cd2af6e8"
+    },
+    "entity": {
+      "$bytes": "1776dbfc75c24b03a3b2da093f14e520"
+    },
+    "from": {
+      "$bytes": "5735b8e6a62745a38b1a99652e3c6457"
+    },
+    "to": {
+      "$bytes": "de88c706c7644e9a8681c221d5c2536e"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05Dj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "403d3f4a92364954a91e55f73b6f0814"
+    },
+    "entity": {
+      "$bytes": "6a0af870378544c0b66e0a1a42f9110c"
+    },
+    "from": {
+      "$bytes": "5735b8e6a62745a38b1a99652e3c6457"
+    },
+    "to": {
+      "$bytes": "327eef80a0dd423f846fbd50def5bf87"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0A7D"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "19489e26802a4891be9ce55ac1199734"
+    },
+    "entity": {
+      "$bytes": "545729bea68042c6b9372a04bb0f2c51"
+    },
+    "from": {
+      "$bytes": "5735b8e6a62745a38b1a99652e3c6457"
+    },
+    "to": {
+      "$bytes": "9b60b79a061f4931a20aa6147d1bed1e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06cL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d97f16b568c54c0296fbeb653821ea5d"
+    },
+    "entity": {
+      "$bytes": "26c823ce71df4a10a6117f4607ae78da"
+    },
+    "from": {
+      "$bytes": "9b60b79a061f4931a20aa6147d1bed1e"
+    },
+    "to": {
+      "$bytes": "5735b8e6a62745a38b1a99652e3c6457"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04p6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7249d5661e9246a1834a632523c1f515"
+    },
+    "entity": {
+      "$bytes": "1122f70d032e4f8f81d9957b6b6132bb"
+    },
+    "from": {
+      "$bytes": "5735b8e6a62745a38b1a99652e3c6457"
+    },
+    "to": {
+      "$bytes": "e2319933570f466ab02023b00c288464"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Bla"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3f72df1791a54215aadc66bb78bf9902"
+    },
+    "entity": {
+      "$bytes": "118cd0f772e74b1c92d1fb050932a07b"
+    },
+    "from": {
+      "$bytes": "e2319933570f466ab02023b00c288464"
+    },
+    "to": {
+      "$bytes": "5735b8e6a62745a38b1a99652e3c6457"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04kO"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "12689fcc3b8e40948276a570a3c5fd75"
+    },
+    "entity": {
+      "$bytes": "d2627f7410b34820a74827fae232d572"
+    },
+    "from": {
+      "$bytes": "5735b8e6a62745a38b1a99652e3c6457"
+    },
+    "to": {
+      "$bytes": "88e3660656e74b14bb0c209134b69a41"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08fb"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a334fa9cf0ca4d25bd5664c969bff1b9"
+    },
+    "entity": {
+      "$bytes": "743226dde46f4e7597326ad056cdf06d"
+    },
+    "from": {
+      "$bytes": "88e3660656e74b14bb0c209134b69a41"
+    },
+    "to": {
+      "$bytes": "5735b8e6a62745a38b1a99652e3c6457"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05nw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b08d21257e844adf8fae2c58622c9e51"
+    },
+    "entity": {
+      "$bytes": "43f576dcf377428f820339f8871ec698"
+    },
+    "from": {
+      "$bytes": "5735b8e6a62745a38b1a99652e3c6457"
+    },
+    "to": {
+      "$bytes": "9b60b79a061f4931a20aa6147d1bed1e"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a09kg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "97f9168a30b7409883eee61f02c6b45f"
+    },
+    "entity": {
+      "$bytes": "658cd921bc26408b94aac8f9717a6ab1"
+    },
+    "from": {
+      "$bytes": "5735b8e6a62745a38b1a99652e3c6457"
+    },
+    "to": {
+      "$bytes": "e2319933570f466ab02023b00c288464"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a05t4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aa59d57bca314e088af049e3e5102f5f"
+    },
+    "entity": {
+      "$bytes": "51de9e8f3dc5483ea9323b9a5f329ca2"
+    },
+    "from": {
+      "$bytes": "5735b8e6a62745a38b1a99652e3c6457"
+    },
+    "to": {
+      "$bytes": "88e3660656e74b14bb0c209134b69a41"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a05ua"
+  }
+]

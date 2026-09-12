@@ -1,0 +1,22 @@
+{
+  "name": "Add Education glossary with reused randomized-trial concept",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/glossary-ops.json",
+  "sha256": "9325e0553e5ebd209cdc983c08371345ceaf4a68d3d56b66228de05262849f17",
+  "journalPath": "data/education/glossary-publication.json",
+  "validationPath": "data/education/glossary-validation.json",
+  "datasetId": "3f2f83ec99644b4fa9c710584408c383",
+  "crosswalk": [
+    {
+      "sourceKey": "[\"Design glossary\",\"RCT\"]",
+      "sourceTerm": "RCT",
+      "section": "Design glossary",
+      "entityId": "ad9f48f68b804ddd9f9e8ffa5869ef02",
+      "sectionBlockId": "f9630419ce50497d8560a85fbfb7b8e0",
+      "entryRelationEntityId": "a352dea7181846f490c160f9f921e551",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    }
+  ],
+  "operationCount": 12
+}

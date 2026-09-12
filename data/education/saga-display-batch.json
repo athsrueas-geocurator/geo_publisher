@@ -1,0 +1,33 @@
+{
+  "name": "Make Saga estimates readable with a comparison table",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/saga-display-ops.json",
+  "sha256": "82e896410ebb0527d3eea8c31a110dabeeae9a37f189bddeede65a8180257e4d",
+  "operationCount": 21,
+  "journalPath": "data/education/saga-display-publication.json",
+  "validationPath": "data/education/saga-display-validation.json",
+  "blockId": "3fd5a3e82ccb4267bde900ce82fc077e",
+  "changes": [
+    {
+      "id": "3f178d30985c477094dbdd90937d8268",
+      "before": "Saga study 1: year-one math ITT estimate",
+      "after": "Saga's Chicago study 1 estimated a year-one math ITT effect of 0.091 standard deviations."
+    },
+    {
+      "id": "9cfaa5763efb4651bbc197286ce72c08",
+      "before": "Saga study 1: year-one math TOT estimate",
+      "after": "Saga's Chicago study 1 estimated a year-one math TOT effect of 0.179 standard deviations."
+    },
+    {
+      "id": "36570925385b495e9de1777b82d01b9b",
+      "before": "Saga study 2: year-one math ITT estimate",
+      "after": "Saga's Chicago study 2 estimated a year-one math ITT effect of 0.135 standard deviations."
+    },
+    {
+      "id": "604fb6007d6a4cc5ab52d489c9dc17bd",
+      "before": "Saga study 2: year-one math TOT estimate",
+      "after": "Saga's Chicago study 2 estimated a year-one math TOT effect of 0.398 standard deviations."
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "name": "Complete Reading First actual and counterfactual means",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "datasetId": "02b40a84dd87410f9ad78f0481ad237a",
+  "opsPath": "data/education/reading-first-means-remaining-ops.json",
+  "sha256": "1cc410aacd433410b5c1d5e581ff7b013e64f81b9f5d7a63774eea4201251950",
+  "operationCount": 63,
+  "selected": [
+    {
+      "key": "sat10-score-g2",
+      "id": "0d1e184534bf40de8ed81c3f60c837d8",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "5844",
+          "exponent": -1
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "5828",
+          "exponent": -1
+        }
+      ],
+      "unit": "SAT 10 scaled-score points"
+    },
+    {
+      "key": "sat10-score-g3",
+      "id": "0aed4da3d0354a8e921808d13e6c4108",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "6091",
+          "exponent": -1
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "6088",
+          "exponent": -1
+        }
+      ],
+      "unit": "SAT 10 scaled-score points"
+    },
+    {
+      "key": "sat10-grade-level-g2",
+      "id": "b5790e11b8a54055a067c495bf006e95",
+      "values": [
+        {
+          "property": "73b35a4ce05f45908118a089d9995bae",
+          "mantissa": "389",
+          "exponent": -3
+        },
+        {
+          "property": "e625ac07ee054ddc8e21c791c027791c",
+          "mantissa": "373",
+          "exponent": -3
+        }
+      ],
+      "unit": "fraction"
+    },
+    {
+      "key": "sat10-grade-level-g3",
+      "id": "d75cefda66c74d29aa73a93f35eecc91",
+      "values": [
+        {
+          "property": "73b35a4ce05f45908118a089d9995bae",
+          "mantissa": "387",
+          "exponent": -3
+        },
+        {
+          "property": "e625ac07ee054ddc8e21c791c027791c",
+          "mantissa": "388",
+          "exponent": -3
+        }
+      ],
+      "unit": "fraction"
+    },
+    {
+      "key": "toswrf-decoding-g1",
+      "id": "09e38f2ef30241cb98a66ec75ac28c37",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "969",
+          "exponent": -1
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "944",
+          "exponent": -1
+        }
+      ],
+      "unit": "TOSWRF standard-score points"
+    },
+    {
+      "key": "instruction-total-g1",
+      "id": "a7b93648275543749f94227553d4f63a",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "5923",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "5231",
+          "exponent": -2
+        }
+      ],
+      "unit": "minutes per daily reading block"
+    },
+    {
+      "key": "instruction-explicit-g1",
+      "id": "7db594b10154436db6696cb2951cb91e",
+      "values": [
+        {
+          "property": "73b35a4ce05f45908118a089d9995bae",
+          "mantissa": "2939",
+          "exponent": -4
+        },
+        {
+          "property": "e625ac07ee054ddc8e21c791c027791c",
+          "mantissa": "2610",
+          "exponent": -4
+        }
+      ],
+      "unit": "fraction"
+    },
+    {
+      "key": "instruction-practice-g1",
+      "id": "44d15e5671184bfba83c82417d6fb6e1",
+      "values": [
+        {
+          "property": "73b35a4ce05f45908118a089d9995bae",
+          "mantissa": "1844",
+          "exponent": -4
+        },
+        {
+          "property": "e625ac07ee054ddc8e21c791c027791c",
+          "mantissa": "1761",
+          "exponent": -4
+        }
+      ],
+      "unit": "fraction"
+    },
+    {
+      "key": "instruction-total-g2",
+      "id": "5826e6a8487e49baabdc5ccb716df7cf",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "5908",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "4930",
+          "exponent": -2
+        }
+      ],
+      "unit": "minutes per daily reading block"
+    },
+    {
+      "key": "instruction-explicit-g2",
+      "id": "49d3c45c2151490f9a44c75a60bffe3d",
+      "values": [
+        {
+          "property": "73b35a4ce05f45908118a089d9995bae",
+          "mantissa": "3095",
+          "exponent": -4
+        },
+        {
+          "property": "e625ac07ee054ddc8e21c791c027791c",
+          "mantissa": "2795",
+          "exponent": -4
+        }
+      ],
+      "unit": "fraction"
+    },
+    {
+      "key": "instruction-practice-g2",
+      "id": "46d1a145910c4d24bbd64c83f1f1602f",
+      "values": [
+        {
+          "property": "73b35a4ce05f45908118a089d9995bae",
+          "mantissa": "1782",
+          "exponent": -4
+        },
+        {
+          "property": "e625ac07ee054ddc8e21c791c027791c",
+          "mantissa": "1488",
+          "exponent": -4
+        }
+      ],
+      "unit": "fraction"
+    },
+    {
+      "key": "instruction-phonemic-g1",
+      "id": "c017745fb03b493a82c219a3d2c531b9",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "232",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "171",
+          "exponent": -2
+        }
+      ],
+      "unit": "minutes per daily reading block"
+    },
+    {
+      "key": "instruction-phonics-g1",
+      "id": "f051087745894297934a899d5b718a4f",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "2132",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "1845",
+          "exponent": -2
+        }
+      ],
+      "unit": "minutes per daily reading block"
+    },
+    {
+      "key": "instruction-vocabulary-g1",
+      "id": "080908c4da6c421bbf5b1fb12e940b22",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "792",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "735",
+          "exponent": -2
+        }
+      ],
+      "unit": "minutes per daily reading block"
+    },
+    {
+      "key": "instruction-fluency-g1",
+      "id": "ab93117898b14ab7be334ddda3916d20",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "467",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "343",
+          "exponent": -2
+        }
+      ],
+      "unit": "minutes per daily reading block"
+    },
+    {
+      "key": "instruction-comprehension-g1",
+      "id": "66503ca1ea924b368608e543604d5795",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "2301",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "2123",
+          "exponent": -2
+        }
+      ],
+      "unit": "minutes per daily reading block"
+    },
+    {
+      "key": "instruction-phonemic-g2",
+      "id": "5cc18a25b77f4a9ebc220a9524e4dc08",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "49",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "37",
+          "exponent": -2
+        }
+      ],
+      "unit": "minutes per daily reading block"
+    },
+    {
+      "key": "instruction-phonics-g2",
+      "id": "c25d5bf3d2144c14966c7f193b68fe45",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "1392",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "1065",
+          "exponent": -2
+        }
+      ],
+      "unit": "minutes per daily reading block"
+    },
+    {
+      "key": "instruction-vocabulary-g2",
+      "id": "2c3c71d68e2e481c8f4f93cfad9a77a5",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "1179",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "1006",
+          "exponent": -2
+        }
+      ],
+      "unit": "minutes per daily reading block"
+    },
+    {
+      "key": "instruction-fluency-g2",
+      "id": "450593005da44e6d9b3ca2fb804dea72",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "414",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "356",
+          "exponent": -2
+        }
+      ],
+      "unit": "minutes per daily reading block"
+    },
+    {
+      "key": "instruction-comprehension-g2",
+      "id": "b6d90e392e634cde9f3904784e179184",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "2874",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "2473",
+          "exponent": -2
+        }
+      ],
+      "unit": "minutes per daily reading block"
+    },
+    {
+      "key": "print-engagement-g1",
+      "id": "e6def14e137a4990ae61edc1d8c3d113",
+      "values": [
+        {
+          "property": "73b35a4ce05f45908118a089d9995bae",
+          "mantissa": "4784",
+          "exponent": -4
+        },
+        {
+          "property": "e625ac07ee054ddc8e21c791c027791c",
+          "mantissa": "4252",
+          "exponent": -4
+        }
+      ],
+      "unit": "fraction"
+    },
+    {
+      "key": "print-engagement-g2",
+      "id": "5090ee1ec09b495da489723bf76d140d",
+      "values": [
+        {
+          "property": "73b35a4ce05f45908118a089d9995bae",
+          "mantissa": "5053",
+          "exponent": -4
+        },
+        {
+          "property": "e625ac07ee054ddc8e21c791c027791c",
+          "mantissa": "5527",
+          "exponent": -4
+        }
+      ],
+      "unit": "fraction"
+    },
+    {
+      "key": "survey-pd-hours",
+      "id": "5625b4670a674a9cbc56f2f5f01dce21",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "2584",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "1371",
+          "exponent": -2
+        }
+      ],
+      "unit": "hours"
+    },
+    {
+      "key": "survey-pd-components",
+      "id": "03c4448f0de944199db5cdfb9dea50f1",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "430",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "375",
+          "exponent": -2
+        }
+      ],
+      "unit": "components on a 0-5 scale"
+    },
+    {
+      "key": "survey-coaching",
+      "id": "4af4e3514b8f4939ab5d8a843acb0a36",
+      "values": [
+        {
+          "property": "73b35a4ce05f45908118a089d9995bae",
+          "mantissa": "83",
+          "exponent": -2
+        },
+        {
+          "property": "e625ac07ee054ddc8e21c791c027791c",
+          "mantissa": "63",
+          "exponent": -2
+        }
+      ],
+      "unit": "fraction"
+    },
+    {
+      "key": "survey-coach-time",
+      "id": "630abd905b4b4193be52b2fee0281a78",
+      "values": [
+        {
+          "property": "73b35a4ce05f45908118a089d9995bae",
+          "mantissa": "9106",
+          "exponent": -4
+        },
+        {
+          "property": "e625ac07ee054ddc8e21c791c027791c",
+          "mantissa": "5757",
+          "exponent": -4
+        }
+      ],
+      "unit": "fraction"
+    },
+    {
+      "key": "survey-reading-minutes",
+      "id": "19ef85b3139d41c99aa9712fbf640c38",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "10571",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "8724",
+          "exponent": -2
+        }
+      ],
+      "unit": "minutes per day"
+    },
+    {
+      "key": "survey-differentiated-materials",
+      "id": "72cfd0265a2a45b198521187df3a6bf8",
+      "values": [
+        {
+          "property": "73b35a4ce05f45908118a089d9995bae",
+          "mantissa": "98",
+          "exponent": -2
+        },
+        {
+          "property": "e625ac07ee054ddc8e21c791c027791c",
+          "mantissa": "97",
+          "exponent": -2
+        }
+      ],
+      "unit": "fraction"
+    },
+    {
+      "key": "survey-extra-practice",
+      "id": "9482e558289d42dba8f081c1ecf390bc",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "379",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "359",
+          "exponent": -2
+        }
+      ],
+      "unit": "points on a 0-4 scale"
+    },
+    {
+      "key": "survey-assessments",
+      "id": "4feb60ea734f4a7b848255600b80023a",
+      "values": [
+        {
+          "property": "698a64065ce14aa2b0022605e6b803c1",
+          "mantissa": "263",
+          "exponent": -2
+        },
+        {
+          "property": "7711cba8c1ed4db0bc3d3afc2709d240",
+          "mantissa": "245",
+          "exponent": -2
+        }
+      ],
+      "unit": "points on a 0-3 scale"
+    }
+  ],
+  "sourceHash": "b725db03095b70ca15aeb7db3fddde6d1385ed61d035fdc3f07bfd557485c20d",
+  "journalPath": "data/education/reading-first-means-remaining-publication.json",
+  "validationPath": "data/education/reading-first-means-remaining-validation.json"
+}

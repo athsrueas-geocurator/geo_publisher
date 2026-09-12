@@ -91,7 +91,7 @@ function positionsForCount(count: number): string[] {
   const positions: string[] = [];
   let last: string | null = null;
   for (let i = 0; i < count; i++) {
-    const pos = last ? Position.generateBetween(last, null) : Position.generate();
+    const pos: string = last ? Position.generateBetween(last, null) : Position.generate();
     positions.push(pos);
     last = pos;
   }

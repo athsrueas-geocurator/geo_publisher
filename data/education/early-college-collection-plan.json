@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "key": "early-college-collection",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "catalogId": "2279edef1bbe479c872caeb72ee90022",
+  "name": "Early College long-term findings",
+  "description": "Source-reported Early College findings from long-term outcome and cost-benefit follow-ups.",
+  "notes": "These rows reuse existing source-backed Claims. Outcome and cost-benefit Articles remain separate sources; preserve periods and denominators.",
+  "sourceIds": [
+    "038f546c2508401eb3890f0fc6954b53",
+    "0b285e99daa5436f8d02e608fea4fb2b"
+  ],
+  "relatedIds": [],
+  "groups": [
+    {
+      "key": "findings",
+      "name": "Early College findings",
+      "columns": [
+        {
+          "id": "210e9b352b454d6eb7a32906d24d3c8d",
+          "dataType": "Integer"
+        },
+        {
+          "id": "8405509cc7354655a348591349a5f025",
+          "dataType": "Text"
+        }
+      ],
+      "members": [
+        "ad84e7d6d67c4afab9aca739c9754312",
+        "91c94f3b330b4fdabc93641550ad8b7d",
+        "aba7c2b614334f42a245f910c8058bcf",
+        "53567bfbab8b49e1a2944244a552a888",
+        "5304d1e175894c56b9149cb0572d2e4d",
+        "f0866aef191c4ae8a83a2471a23b977c",
+        "990470a979454286be0fdccf78b0bebf",
+        "335b8af106064f938eb110a09bcb958d",
+        "8bb0ab8623a54febb05cefe723ca2dfb",
+        "0f81b38de2e74aab9b70bf3d9002fe95",
+        "4340b6c985034278b4ed85824842da2a"
+      ]
+    }
+  ]
+}

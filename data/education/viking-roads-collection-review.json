@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T15:46:00Z",
+  "reviewer": "publisher preparation review",
+  "planHash": "637fa0b58f3bef3e88340adc643b7d83b0bd80c56f812e4a6557ba515e08eccb",
+  "factsHash": "db40c1cefdebfa8a66b90730b1fe6635b4c10d7690955805f15b573f2af9a4b7",
+  "sources": [
+    {
+      "path": "docs/viking-roads-study-notes.md",
+      "sha256": "4602e92f8385b1ae34948d93e05adf7ad74ae96f744ab459da0e076335e4441c",
+      "sourceId": "581c4b9bd2ec40d69cbcf68b973d8803",
+      "version": "MDRC Charting Pathways, March 2025"
+    }
+  ],
+  "discovery": {
+    "path": "data/education/viking-roads-collection-discovery.json",
+    "sha256": "e89e3f787818277c089bec728031d955e35508c7466e6e774fdbaab408ab293f"
+  },
+  "decisions": {
+    "source": {
+      "status": "accepted",
+      "rationale": "MDRC primary report and study notes identify the source."
+    },
+    "identity": {
+      "status": "accepted",
+      "rationale": "Complete all-space search found no result collection and zero incoming memberships."
+    },
+    "content": {
+      "status": "accepted",
+      "rationale": "Facts preserve existing Claim headers, locators, sample counts and semester horizons; no cost metric is added."
+    }
+  }
+}

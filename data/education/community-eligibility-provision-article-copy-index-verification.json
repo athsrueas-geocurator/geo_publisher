@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-09-12T09:15:06.267Z",
+  "batchName": "Correct Community Eligibility Provision Article description",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 1,
+  "checks": [
+    {
+      "entityId": "de88c706c7644e9a8681c221d5c2536e",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

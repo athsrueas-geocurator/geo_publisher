@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-09-12T12:09:59.727Z",
+  "accepted": [
+    "src-003",
+    "src-033",
+    "src-060",
+    "src-068",
+    "src-071",
+    "src-080",
+    "src-088",
+    "src-093"
+  ],
+  "review": {
+    "src-026": "Original NBER w19403 resolves to Exporting Liquidity: Branch Banking and Financial Integration, unrelated to the supplied teacher-evaluation finding. NBER w19529 is a relevant replacement candidate, not an automatic correction to every original assertion.",
+    "src-034": "Original NBER w16832 resolves to Reestablishing the Income-Democracy Nexus, unrelated to charter schools. NBER w17332 is a relevant replacement candidate with Massachusetts-specific scope, not evidence for every imported national charter assertion.",
+    "src-045": "Existing Article combines NBER working-paper PDF w28756 with QJE DOI 10.1093/qje/qjac036. Reconcile publication-version identity and extraction provenance before mapping the original 2021 working paper.",
+    "src-061": "Original 2016 NBER working paper matches the title of the existing 2017 journal Article. Preserve version distinction; title match alone is insufficient.",
+    "src-066": "Original 2021 NBER working paper matches the title of an existing Article using a 2022 author-hosted final journal manuscript. Verify version before mapping.",
+    "src-070": "Original 2021 journal article DOI 10.1080/19345747.2020.1862374 matches the title of the existing 2019 AIR report ED602451. These are publication versions, not an automatic same-version identity match.",
+    "src-096": "Imported DOI 10.1257/app.20180293 conflicts with the publisher-verified DOI 10.3102/0002831216677002 for the stated 2017 Dee/Penner paper. Existing Geo Article already has the correct DOI; do not overwrite it."
+  },
+  "pinnedSourceModified": false,
+  "scope": "Identity, canonical title and URL only; no source findings, assessments or authorship certified"
+}

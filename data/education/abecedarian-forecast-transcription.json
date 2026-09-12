@@ -1,0 +1,21 @@
+{
+  "sourceVersion": "August 2, 2018 author manuscript",
+  "sourceFile": "tmp/pdfs/abecedarian-2018-manuscript.pdf",
+  "sourceSha256": "0fccd09edba9f46855fb30c6d4c8f559f4fed0ece2e001b7edb3992cc5a61ac9",
+  "table": 6,
+  "printedPage": 32,
+  "pdfPage": 34,
+  "visualEvidence": "tmp/pdfs/abecedarian-table-34.png",
+  "metric": "Benefit/cost ratio",
+  "uncertainty": "Standard error based on empirical bootstrap distribution",
+  "status": "Visually transcribed; final-article reconciliation, cost denominator review and Geo publication pending",
+  "interpretation": "Author-calculated forecasting-method comparisons; these are not independent experimental effects, studies, or estimates directly published by Kline and Walters.",
+  "rows": [
+    {"key":"age27-chetty-labor", "horizon":"Through age 27", "npvSource":"Chetty et al. (2011)", "benefitScope":"Labor income", "klineWaltersMethod":{"value":0.58,"se":0.28}, "authorsMethod":null},
+    {"key":"age27-abc-labor", "horizon":"Through age 27", "npvSource":"ABC/CARE-calculated", "benefitScope":"Labor income", "klineWaltersMethod":{"value":0.09,"se":0.04}, "authorsMethod":{"value":1.09,"se":0.04}},
+    {"key":"age34-abc-labor", "horizon":"Through age 34", "npvSource":"ABC/CARE-calculated", "benefitScope":"Labor income", "klineWaltersMethod":{"value":0.37,"se":0.04}, "authorsMethod":{"value":0.15,"se":0.05}},
+    {"key":"age34-abc-all", "horizon":"Through age 34", "npvSource":"ABC/CARE-calculated", "benefitScope":"All monetized components", "klineWaltersMethod":{"value":1.21,"se":0.05}, "authorsMethod":{"value":3.20,"se":1.04}},
+    {"key":"lifecycle-abc-labor", "horizon":"Life-cycle", "npvSource":"ABC/CARE-calculated", "benefitScope":"Labor income", "klineWaltersMethod":{"value":1.56,"se":0.08}, "authorsMethod":{"value":1.55,"se":0.76}},
+    {"key":"lifecycle-abc-all", "horizon":"Life-cycle", "npvSource":"ABC/CARE-calculated", "benefitScope":"All monetized components", "klineWaltersMethod":{"value":3.80,"se":0.29}, "authorsMethod":{"value":7.33,"se":1.84}}
+  ]
+}

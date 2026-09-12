@@ -1,0 +1,705 @@
+{
+  "checkedAt": "2026-09-12T13:14:21.440Z",
+  "searches": [
+    {
+      "term": "Question",
+      "nodes": [
+        {
+          "id": "0241917525184330b3d2f0af27809021",
+          "name": "Question",
+          "description": "A structured debate question posing two or more contrasting positions on a political or policy topic.",
+          "spaceIds": [
+            "4582fbbee28a16589154f7e36f1ee3c5"
+          ],
+          "types": [],
+          "relations": {
+            "nodes": [],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        },
+        {
+          "id": "4318a1d2c441455cb76544049c45e6cf",
+          "name": "Question",
+          "description": null,
+          "spaceIds": [
+            "a19c345ab9866679b001d7d2138d88a1"
+          ],
+          "types": [
+            {
+              "id": "e7d737c536764c609fa16aa64a8c90ad",
+              "name": "Type"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "toEntityId": "73609ae8644c4463a50a90a3ee585746",
+                "toEntity": {
+                  "name": "Answers"
+                }
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "toEntityId": "806d52bc27e94c9193c057978b093351",
+                "toEntity": {
+                  "name": "Topics"
+                }
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "toEntityId": "257090341ba5406f94e4d4af90042fba",
+                "toEntity": {
+                  "name": "Tags"
+                }
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "toEntityId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                "toEntity": {
+                  "name": "Sources"
+                }
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+                "toEntity": {
+                  "name": "Type"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        },
+        {
+          "id": "99928fc355b849538e4c91523cfee800",
+          "name": "Question",
+          "description": null,
+          "spaceIds": [
+            "c0d179590433596f670d9c557c39ac7f"
+          ],
+          "types": [
+            {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+                "toEntity": {
+                  "name": "Relation"
+                }
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "toEntity": {
+                  "name": "Property"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOTk5MjhmYzMtNTViOC00OTUzLThlNGMtOTE1MjNjZmVlODAwIl1d"
+      }
+    },
+    {
+      "term": "Questions",
+      "nodes": [
+        {
+          "id": "444968f1767b4d43ad535818f36a9092",
+          "name": "Questions",
+          "description": null,
+          "spaceIds": [
+            "89bd89bf28ff8a0963faf92a8c905e20"
+          ],
+          "types": [
+            {
+              "id": "480e3fc267f3499385fbacdf4ddeaa6b",
+              "name": "Page"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "c511932ecbfb4f8f9543abf5416e6677",
+                "toEntity": {
+                  "name": "Questions & Claims"
+                }
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "480e3fc267f3499385fbacdf4ddeaa6b",
+                "toEntity": {
+                  "name": "Page"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        },
+        {
+          "id": "79a28e0e332e401d8affe21366b086cd",
+          "name": "Questions",
+          "description": null,
+          "spaceIds": [
+            "7b650a3be2f767a53c338a14bd0df78f"
+          ],
+          "types": [
+            {
+              "id": "b8803a8665de412bbb357e0c84adf473",
+              "name": "Data block"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "a99f9ce12ffa4dac8c61f6310d46064a",
+                "toEntityId": "fe816cc3ce31411d9ac904d1cdb57521",
+                "toEntity": {
+                  "name": "Is the Trump administration's maximum pressure campaign on Cuba aimed at regime change or a negotiated deal?"
+                }
+              },
+              {
+                "typeId": "a99f9ce12ffa4dac8c61f6310d46064a",
+                "toEntityId": "f093cc6931294eaaa4e5526520c084dd",
+                "toEntity": {
+                  "name": "Does Cuba's designation as a state sponsor of terrorism reflect a genuine security threat or a political tool?"
+                }
+              },
+              {
+                "typeId": "1f69cc9880d444abad493df6a7b15ee4",
+                "toEntityId": "1295037a5d9c4d09b27c5502654b9177",
+                "toEntity": {
+                  "name": "Collection data source"
+                }
+              },
+              {
+                "typeId": "a99f9ce12ffa4dac8c61f6310d46064a",
+                "toEntityId": "d75729ebcefa4c2ca0273bf34fb7f0a1",
+                "toEntity": {
+                  "name": "How will the US-Cuba tensions affect regional stability in the Caribbean and Latin America?"
+                }
+              },
+              {
+                "typeId": "a99f9ce12ffa4dac8c61f6310d46064a",
+                "toEntityId": "fe09ec4eb1794ea6aebca71150b8ae20",
+                "toEntity": {
+                  "name": "Will Cuba accept US humanitarian aid and economic assistance under the conditions set by the Trump administration?"
+                }
+              },
+              {
+                "typeId": "a99f9ce12ffa4dac8c61f6310d46064a",
+                "toEntityId": "5aeb4e5c44464becaca9ef6bebfe4bd9",
+                "toEntity": {
+                  "name": "Can the Cuban government survive the combined pressure of US sanctions and the loss of Venezuelan oil?"
+                }
+              },
+              {
+                "typeId": "a99f9ce12ffa4dac8c61f6310d46064a",
+                "toEntityId": "cdaf5c5d9ebf4076a2149a3f8175bee4",
+                "toEntity": {
+                  "name": "Will the US indictment of Raúl Castro lead to military intervention in Cuba?"
+                }
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "b8803a8665de412bbb357e0c84adf473",
+                "toEntity": {
+                  "name": "Data block"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        },
+        {
+          "id": "8e561065b917496eaf7cad235b3605cd",
+          "name": "Questions",
+          "description": null,
+          "spaceIds": [
+            "073f82d91d780c3d8a160368d656b0b8"
+          ],
+          "types": [
+            {
+              "id": "b8803a8665de412bbb357e0c84adf473",
+              "name": "Data block"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "1f69cc9880d444abad493df6a7b15ee4",
+                "toEntityId": "f9adb87452b949828f55aa40792751e3",
+                "toEntity": {
+                  "name": "Geo data source"
+                }
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "b8803a8665de412bbb357e0c84adf473",
+                "toEntity": {
+                  "name": "Data block"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        },
+        {
+          "id": "9678296fca604e17a997a5dbbc227d18",
+          "name": "Questions",
+          "description": null,
+          "spaceIds": [
+            "a19c345ab9866679b001d7d2138d88a1"
+          ],
+          "types": [
+            {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+                "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+                "toEntity": {
+                  "name": "Question"
+                }
+              },
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+                "toEntity": {
+                  "name": "Relation"
+                }
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "toEntity": {
+                  "name": "Property"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOTY3ODI5NmYtY2E2MC00ZTE3LWE5OTctYTVkYmJjMjI3ZDE4Il1d"
+      }
+    },
+    {
+      "term": "Related questions",
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": null
+      }
+    },
+    {
+      "term": "Debate",
+      "nodes": [
+        {
+          "id": "4d730452828e4341abe9ccd26d899ad8",
+          "name": "Debate",
+          "description": null,
+          "spaceIds": [
+            "941964642f4d3e70ef48f54a3915277d"
+          ],
+          "types": [
+            {
+              "id": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+              "name": "Skill"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+                "toEntity": {
+                  "name": "Skill"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        },
+        {
+          "id": "55c95b2626f8482cb9739ea99dfde438",
+          "name": "Debate",
+          "description": null,
+          "spaceIds": [
+            "41e851610e13a19441c4d980f2f2ce6b",
+            "a19c345ab9866679b001d7d2138d88a1"
+          ],
+          "types": [
+            {
+              "id": "e0fcc66c9e8643f480802469d8a1a93a",
+              "name": "Tag"
+            },
+            {
+              "id": "e0fcc66c9e8643f480802469d8a1a93a",
+              "name": "Tag"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "e0fcc66c9e8643f480802469d8a1a93a",
+                "toEntity": {
+                  "name": "Tag"
+                }
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "e0fcc66c9e8643f480802469d8a1a93a",
+                "toEntity": {
+                  "name": "Tag"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        },
+        {
+          "id": "e17cf89bbc854b128264939518afdfbc",
+          "name": "Debate",
+          "description": null,
+          "spaceIds": [
+            "5908c73ad336472ccbd983491d2d17e4"
+          ],
+          "types": [
+            {
+              "id": "480e3fc267f3499385fbacdf4ddeaa6b",
+              "name": "Page"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "d15021276eef4f0db329b8504eb6e242",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "4645ef9ad154495997e9a90ecae3c455",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "1c86d35c0f3a4a8b9e7eb37097168e56",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "a8a9f6589e78466bab23d1910d658249",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "232f50b6352f455d932a28c9676c3ab3",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "1341af4876f14017b89d6a5b26fde2d0",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "d18f909fa4a7413c850d6f2c9e504b78",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "ac3e7caf4e914edc93ce7af42e45773a",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "fd7f5035a3c84a36845d50add7b5a919",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "480e3fc267f3499385fbacdf4ddeaa6b",
+                "toEntity": {
+                  "name": "Page"
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "bb38f91a855347c683e9a66b8141db38",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "f9274a86505d4dc389511d561df4641d",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "096f99b1f2274c2dac711b63e3b2efed",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "68182bec535144af8f45fe3d31f9bfb4",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "be105c192dc44ef695e4d53af5394ed7",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "1f4804c8ffaa43bcb549dbd1be927ac2",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "c80ad8a4085b4ffc8074943999fb5473",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "a358ce2c61554724a513c6c1de4d7135",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "4454eba70b524c9fbdf41b700c7bcc3c",
+                "toEntity": {
+                  "name": null
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "9b17b4958c5740cf85d780829d07400c",
+                "toEntity": {
+                  "name": null
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        },
+        {
+          "id": "f6b8b0a4856a4cc299873d4260105cef",
+          "name": "Debate",
+          "description": null,
+          "spaceIds": [
+            "c9f267dcb0d270718c2a3c45a64afd32"
+          ],
+          "types": [
+            {
+              "id": "480e3fc267f3499385fbacdf4ddeaa6b",
+              "name": "Page"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "d015b6dc06904bd98d259f66640ca6ab",
+                "toEntity": {
+                  "name": "🔮 New store-of-value theses"
+                }
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "480e3fc267f3499385fbacdf4ddeaa6b",
+                "toEntity": {
+                  "name": "Page"
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "8110187fed1a41cab3464c2ac53f74ca",
+                "toEntity": {
+                  "name": "🥇 Gold, fiat & the debasement trade"
+                }
+              },
+              {
+                "typeId": "beaba5cba67741a8b35377030613fc70",
+                "toEntityId": "4e4e6082bc7246b6bf9cf48e0614d7f9",
+                "toEntity": {
+                  "name": "₿ Is Bitcoin really digital gold?"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        },
+        {
+          "id": "fd51f93520634617be397b672b23364c",
+          "name": "Debate",
+          "description": "Debates include multiple participants sharing their perspective on a debated question",
+          "spaceIds": [
+            "a19c345ab9866679b001d7d2138d88a1"
+          ],
+          "types": [
+            {
+              "id": "e7d737c536764c609fa16aa64a8c90ad",
+              "name": "Type"
+            }
+          ],
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "toEntityId": "e614cce1c4ce45868304fd1237119eb2",
+                "toEntity": {
+                  "name": "Claims"
+                }
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+                "toEntity": {
+                  "name": "Type"
+                }
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "toEntityId": "1d9ceb775d614097bd09ba185cb9ba2b",
+                "toEntity": {
+                  "name": "Debated claims"
+                }
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "toEntityId": "dd0b7975303648eaa2e91eb00e10cb18",
+                "toEntity": {
+                  "name": "Social share video"
+                }
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "toEntityId": "c48dc314fa7148aeb967139160456f1d",
+                "toEntity": {
+                  "name": "Debate videos"
+                }
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "toEntityId": "c504c7d5c3374016a5f083e4b5a92911",
+                "toEntity": {
+                  "name": "Transcripts"
+                }
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "toEntityId": "9678296fca604e17a997a5dbbc227d18",
+                "toEntity": {
+                  "name": "Questions"
+                }
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "toEntityId": "8d4ae49c226d40868ec3af5d5b2a65d0",
+                "toEntity": {
+                  "name": "Notable quotes"
+                }
+              },
+              {
+                "typeId": "01412f8381894ab1836565c7fd358cc1",
+                "toEntityId": "7169d65aa8b94addb6cc23c19c9fc0dd",
+                "toEntity": {
+                  "name": "Participants"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmQ1MWY5MzUtMjA2My00NjE3LWJlMzktN2I2NzJiMjMzNjRjIl1d"
+      }
+    },
+    {
+      "term": "Discussion",
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": null
+      }
+    }
+  ]
+}

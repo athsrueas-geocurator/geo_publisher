@@ -1,0 +1,10 @@
+import { readFileSync, writeFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+const hash = (value: string | Buffer) => createHash('sha256').update(value).digest('hex');
+const ref = (path: string) => ({ path, sha256: hash(readFileSync(path)) });
+const planPath = 'data/education/workadvance-collection-plan.json';
+const factsPath = 'data/education/workadvance-collection-facts.json';
+const discoveryPath = 'data/education/workadvance-collection-discovery.json';
+const review = { version: 1, checkedAt: new Date().toISOString(), reviewer: 'publisher preparation review', planHash: hash(readFileSync(planPath)), factsHash: hash(readFileSync(factsPath)), sources: [{ ...ref('docs/workadvance-study-notes.md'), sourceId: '2278407dc1df480e8a297cd9beb44a4a', version: 'MDRC 2020 long-term WorkAdvance report; source-backed batch review' }], discovery: ref(discoveryPath), decisions: { source: { status: 'accepted', rationale: 'The existing WorkAdvance batch and study notes identify the 2020 long-term report and preserve its locators.' }, identity: { status: 'accepted', rationale: 'Complete all-space exact identity searches returned no candidate collection or conflicting source identity.' }, content: { status: 'accepted', rationale: 'Facts are extracted from the reviewed immutable batch; the shared builder will compare every Claim header, locator, source relation, and typed value before preparing ops.' } } };
+writeFileSync('data/education/workadvance-collection-review.json', JSON.stringify(review, null, 2) + '\n');
+console.log(JSON.stringify({ output: 'data/education/workadvance-collection-review.json', planHash: review.planHash, factsHash: review.factsHash }, null, 2));

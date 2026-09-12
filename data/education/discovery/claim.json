@@ -1,0 +1,105 @@
+{
+  "term": "Claim",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T17:40:30.726Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "81f73286fdc5404491edbb2b932eb70b",
+      "name": "Claim",
+      "description": "A discrete factual assertion extracted from a source document or statement.",
+      "spaceIds": [
+        "941964642f4d3e70ef48f54a3915277d"
+      ],
+      "types": []
+    },
+    {
+      "id": "8c7f4901303249cca0922121de850892",
+      "name": "Claim",
+      "description": "A discrete factual assertion extracted from a source, attributed to a speaker or document.",
+      "spaceIds": [
+        "5908c73ad336472ccbd983491d2d17e4"
+      ],
+      "types": []
+    },
+    {
+      "id": "96f859efa1ca4b229372c86ad58b694b",
+      "name": "Claim",
+      "description": "A specific assertion about a fact, event, person, idea, policy, or outcome that can be supported with evidence or challenged by counter-arguments. Claims connect to the quotes that back them, the sources they cite, the people and topics they involve, and the supporting or opposing arguments raised about them.",
+      "spaceIds": [
+        "bd727a6ad6ec4a058f681ea9002a1fbf",
+        "a19c345ab9866679b001d7d2138d88a1",
+        "52c7ae149838b6d47ce0f3b2a5974546",
+        "c9f267dcb0d270718c2a3c45a64afd32",
+        "4582fbbee28a16589154f7e36f1ee3c5",
+        "44eb138f564fbed6ed9ce543de1b849c",
+        "dc0f0d366defa86c485c443ff5b9e2d0",
+        "cf0e11338b33fcd6cdb032c625c85454"
+      ],
+      "types": [
+        {
+          "id": "522de6b3580b40e3afd02a5fb2512765",
+          "name": "Knowledge"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "aeb4a48aaf714a9383bea67810bc9959",
+      "name": "Claim",
+      "description": "A discrete assertion or argument made by a speaker or author, extracted from a source.",
+      "spaceIds": [
+        "5908c73ad336472ccbd983491d2d17e4"
+      ],
+      "types": []
+    },
+    {
+      "id": "aef75b3bcbb14baeab20face911c4bc6",
+      "name": "Claim",
+      "description": null,
+      "spaceIds": [
+        "073f82d91d780c3d8a160368d656b0b8"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYWVmNzViM2ItY2JiMS00YmFlLWFiMjAtZmFjZTkxMWM0YmM2Il1d"
+    }
+  ]
+}

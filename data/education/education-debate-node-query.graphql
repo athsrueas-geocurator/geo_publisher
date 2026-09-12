@@ -1,0 +1,21 @@
+query EducationDebateNode($id: UUID!, $space: UUID!, $after: Cursor) {
+  entity(id: $id) {
+    id
+    values(first: 30, filter: {spaceId: {is: $space}}) {
+      nodes { propertyId spaceId text decimal integer boolean }
+      pageInfo { hasNextPage endCursor }
+    }
+  }
+  relationsConnection(first: 2, after: $after, filter: {
+    fromEntityId: {is: $id}, spaceId: {is: $space},
+    typeId: {in: [
+      "504e5776788844f6a77dba3ee811d8f0",
+      "1dc6a843458848198e7a6e672268f811",
+      "4e6ec5d14292498a84e5f607ca1a08ce",
+      "49c5d5e1679a4dbdbfd33f618f227c94"
+    ]}
+  }) {
+    nodes { id entityId fromEntityId toEntityId typeId spaceId }
+    pageInfo { hasNextPage endCursor }
+  }
+}

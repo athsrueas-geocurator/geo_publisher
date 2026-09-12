@@ -1,0 +1,23 @@
+{
+  "term": "normalization",
+  "checkedAt": "2026-09-11T21:11:36.574Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "1c3caf8c513cf59f9f33d8d5840706cd",
+      "name": "Normalization status",
+      "description": "Normalization state such as raw, normalized, verified, scored, reviewed, or retired.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMWMzY2FmOGMtNTEzYy1mNTlmLTlmMzMtZDhkNTg0MDcwNmNkIl1d"
+    }
+  ]
+}

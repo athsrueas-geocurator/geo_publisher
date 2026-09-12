@@ -1,0 +1,20 @@
+query SagaPooledTable($table: UUID!, $space: UUID!, $items: UUID!, $after: Cursor) {
+  relationsConnection(first: 5, after: $after, filter: {fromEntityId: {is: $table}, spaceId: {is: $space}, typeId: {is: $items}}) {
+    nodes {
+      toEntityId
+      position
+      toEntity {
+        id
+        values(first: 25, filter: {spaceId: {is: $space}}) {
+          nodes {propertyId text decimal integer boolean}
+          pageInfo {hasNextPage}
+        }
+        relations(first: 25, filter: {spaceId: {is: $space}}) {
+          nodes {typeId toEntityId}
+          pageInfo {hasNextPage}
+        }
+      }
+    }
+    pageInfo {hasNextPage endCursor}
+  }
+}

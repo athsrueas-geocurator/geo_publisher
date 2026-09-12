@@ -1,0 +1,1002 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5d104e15b60f4aa6a7270551984129ad"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age four, the third-grade ECLS-K Reading IOT impact was +3.34 points (p = .075).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This treatment-on-the-treated estimate corresponds to the same cohort’s published +2.23-point ITT reading estimate. It is selected because the access effect was significant at the report’s 10% threshold and is not a separate trial.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "334"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ECLS-K Reading-score treatment-on-the-treated impact at third grade, Head Start participation versus no participation; 4-year-old cohort.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Treatment on the treated (IOT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.9, printed p. 89.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .075",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "831638ace7044d92a91fbeaec550f162"
+    },
+    "entity": {
+      "$bytes": "3b4a98f288294be69f831aeeaae71b7d"
+    },
+    "from": {
+      "$bytes": "5d104e15b60f4aa6a7270551984129ad"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09eu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e2e901ad0a304a00986ffd8d4ae5c39c"
+    },
+    "entity": {
+      "$bytes": "453af6721521423eb5b99c0a5a9fba2e"
+    },
+    "from": {
+      "$bytes": "5d104e15b60f4aa6a7270551984129ad"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BEc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c355a6874a0f4cd2b6ca036b7def0254"
+    },
+    "entity": {
+      "$bytes": "9f35bec187a94f2482b7060da6dbdfc6"
+    },
+    "from": {
+      "$bytes": "5d104e15b60f4aa6a7270551984129ad"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06FX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "01fe5b4cb8544993af790335da6e0185"
+    },
+    "entity": {
+      "$bytes": "59d962f5537e41c882832843ee5c1e35"
+    },
+    "from": {
+      "$bytes": "5d104e15b60f4aa6a7270551984129ad"
+    },
+    "to": {
+      "$bytes": "e2fd2a1b244d4102bafebbb8981780c7"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01VO"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "63383cef719041768dd6e1ee7b4c67f9"
+    },
+    "entity": {
+      "$bytes": "1bcbd5143650454892d580952d21431f"
+    },
+    "from": {
+      "$bytes": "e2fd2a1b244d4102bafebbb8981780c7"
+    },
+    "to": {
+      "$bytes": "5d104e15b60f4aa6a7270551984129ad"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00yd"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d861591f27be4d0c9432632f12dfdc0b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age four, the third-grade aggressive-behavior IOT impact was -0.34 points (p = .043).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Lower scores indicate fewer behavior problems on this parent-reported measure. This is the participation-scaled counterpart of the published -0.23-point ITT result, not an independent effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-34"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Regression-adjusted parent-reported aggressive-behavior treatment-on-the-treated impact at third grade; 4-year-old cohort; lower is more favorable.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Treatment on the treated (IOT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.9, printed p. 89.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .043",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "744910fffeca44399db7d165c954f413"
+    },
+    "entity": {
+      "$bytes": "36742154137d476dad8e496f8b15a6d0"
+    },
+    "from": {
+      "$bytes": "d861591f27be4d0c9432632f12dfdc0b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Bmm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d1f69cc33d204ce3b081b1b3e9bb6eb1"
+    },
+    "entity": {
+      "$bytes": "19c46eec401043488846321dae56c211"
+    },
+    "from": {
+      "$bytes": "d861591f27be4d0c9432632f12dfdc0b"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02UL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2d0a9cbfcfc24f0d8d13e71a5ac2d009"
+    },
+    "entity": {
+      "$bytes": "f912881e33a545e59254ece9011689cb"
+    },
+    "from": {
+      "$bytes": "d861591f27be4d0c9432632f12dfdc0b"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08Pt"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "09e2ece3c2204942a24510eff66d5ca3"
+    },
+    "entity": {
+      "$bytes": "9cbca329fc2b475ea139e68b656b9666"
+    },
+    "from": {
+      "$bytes": "d861591f27be4d0c9432632f12dfdc0b"
+    },
+    "to": {
+      "$bytes": "a185b84516a340beb6ca1d2308780ee7"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a028r"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "43ab54e5645849029ba0ae9c3eb90fd3"
+    },
+    "entity": {
+      "$bytes": "e845b61dc4a648aaa912717b2155ed7d"
+    },
+    "from": {
+      "$bytes": "a185b84516a340beb6ca1d2308780ee7"
+    },
+    "to": {
+      "$bytes": "d861591f27be4d0c9432632f12dfdc0b"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01d5"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "406a5d2ea1f44b128f3610c8fbd872e1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age four, the third-grade IOT impact on being in the normal emotional-symptoms category was -0.09 (p = .005).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Lower probability of the normal category is unfavorable on this teacher-reported measure. This is the participation-scaled counterpart of the published ITT result and remains reporter-specific.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-9"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Regression-adjusted teacher-reported treatment-on-the-treated impact on being in the normal category for emotional symptoms at third grade; 4-year-old cohort; lower is less favorable.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Treatment on the treated (IOT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.9, printed p. 89.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .005",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "747ff92b3fba4274be5ff9d9fda166e7"
+    },
+    "entity": {
+      "$bytes": "78cb9c74fd4f415c9af98ee382c88ace"
+    },
+    "from": {
+      "$bytes": "406a5d2ea1f44b128f3610c8fbd872e1"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AQ7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "75d189fb96d647c595e8ae762db63bf5"
+    },
+    "entity": {
+      "$bytes": "d2697994bb0e48b2b9503d0db27bcf89"
+    },
+    "from": {
+      "$bytes": "406a5d2ea1f44b128f3610c8fbd872e1"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Bg1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f6ccbd6bd5e440428a2d4d4b505082a9"
+    },
+    "entity": {
+      "$bytes": "c5b8c9e2550042aa88740e086440834d"
+    },
+    "from": {
+      "$bytes": "406a5d2ea1f44b128f3610c8fbd872e1"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04yT"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5ecd6b9034ec485896fcd9201253a661"
+    },
+    "entity": {
+      "$bytes": "5d16925285c746aeb4ff6cfaca23c390"
+    },
+    "from": {
+      "$bytes": "406a5d2ea1f44b128f3610c8fbd872e1"
+    },
+    "to": {
+      "$bytes": "c33e113e99dc4f6883a47d67d0842c35"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Ac8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5b9e6dde4a89419687115556f8176189"
+    },
+    "entity": {
+      "$bytes": "0a4bc48b526444149c788f7d322aa38f"
+    },
+    "from": {
+      "$bytes": "c33e113e99dc4f6883a47d67d0842c35"
+    },
+    "to": {
+      "$bytes": "406a5d2ea1f44b128f3610c8fbd872e1"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05dj"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e6708fe654214deaab1e20664f3f8ded"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age four, the third-grade peer-relations IOT impact was -0.21 points (p = .020).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Lower scores indicate worse peer relations on this child-reported measure. This treatment-on-the-treated estimate is the counterpart of the published -0.14-point ITT result, not separate corroboration.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-21"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Regression-adjusted child-reported peer-relations treatment-on-the-treated impact at third grade; 4-year-old cohort; lower is less favorable.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Treatment on the treated (IOT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.9, printed p. 89.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .020",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "da6faed62f8a411c83c5442251fa9e24"
+    },
+    "entity": {
+      "$bytes": "9ccf4e32bf484a8a9439b4cf811afafe"
+    },
+    "from": {
+      "$bytes": "e6708fe654214deaab1e20664f3f8ded"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08Kd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fa2b4a6fe9ea49ad866fdd166b4e9c48"
+    },
+    "entity": {
+      "$bytes": "fa99b370a47140928833002b66ada7c1"
+    },
+    "from": {
+      "$bytes": "e6708fe654214deaab1e20664f3f8ded"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a012g"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6d389149a63f41c6a2fad98671c6b07e"
+    },
+    "entity": {
+      "$bytes": "a9f5e23fabf14db49d8aa24f4773db8c"
+    },
+    "from": {
+      "$bytes": "e6708fe654214deaab1e20664f3f8ded"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0817"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c08eb88b56cf4077887bab0caa1241d1"
+    },
+    "entity": {
+      "$bytes": "6a48228b9bc9494db0f742a652699c88"
+    },
+    "from": {
+      "$bytes": "e6708fe654214deaab1e20664f3f8ded"
+    },
+    "to": {
+      "$bytes": "641abfc8e0dd457792906643e2989850"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Bql"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3991c33a060043da818d0ac6ead0d85d"
+    },
+    "entity": {
+      "$bytes": "539e5be580734878a2fb6258bcce7641"
+    },
+    "from": {
+      "$bytes": "641abfc8e0dd457792906643e2989850"
+    },
+    "to": {
+      "$bytes": "e6708fe654214deaab1e20664f3f8ded"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08eK"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e106644ea9c3493eaff5d9202472427a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "For children entering Head Start at age three, the third-grade social-skills-and-positive-approaches IOT impact was +0.34 points (p = .025).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Higher scores are more favorable on this parent-reported measure. This treatment-on-the-treated estimate is the counterpart of the published +0.24-point ITT result, not a separate study.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "34"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Regression-adjusted parent-reported social-skills-and-positive-approaches-to-learning treatment-on-the-treated impact at third grade; 3-year-old cohort; higher is more favorable.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Treatment on the treated (IOT)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Exhibit 4.10, printed p. 90.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .025",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "414dae50dc294ec98621912a336ea207"
+    },
+    "entity": {
+      "$bytes": "df735afc06fa490cbf464c0959428999"
+    },
+    "from": {
+      "$bytes": "e106644ea9c3493eaff5d9202472427a"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AaA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "44f1c1543a4b467b931f179747c1e0ef"
+    },
+    "entity": {
+      "$bytes": "6980df5e334440d2b55bab15a1658324"
+    },
+    "from": {
+      "$bytes": "e106644ea9c3493eaff5d9202472427a"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05pp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7b534e4286fc487696e210744da4fb05"
+    },
+    "entity": {
+      "$bytes": "b27c92172d9c4ee5a6b8ef3496b3ee59"
+    },
+    "from": {
+      "$bytes": "e106644ea9c3493eaff5d9202472427a"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a043q"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5841be7908294952b0b7f76d13bfc5c9"
+    },
+    "entity": {
+      "$bytes": "1e2d15d39724464eb5f0486b2916bd5b"
+    },
+    "from": {
+      "$bytes": "e106644ea9c3493eaff5d9202472427a"
+    },
+    "to": {
+      "$bytes": "bc2089feb5a448eeafa9a7c95f7a4dd0"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09zj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a081636250fa46129a56bcdd8305fb6e"
+    },
+    "entity": {
+      "$bytes": "57cc8717a4a240c08b83dae2ede1aa75"
+    },
+    "from": {
+      "$bytes": "bc2089feb5a448eeafa9a7c95f7a4dd0"
+    },
+    "to": {
+      "$bytes": "e106644ea9c3493eaff5d9202472427a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04qe"
+  }
+]

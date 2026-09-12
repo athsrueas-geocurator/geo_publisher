@@ -1,0 +1,155 @@
+{
+  "term": "Outcome",
+  "checkedAt": "2026-09-11T20:32:37.238Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "02fa864453b887f27b76dff4c98e734a",
+      "name": "Primary outcome measures",
+      "description": "Primary outcome measures and time frames from the registry.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    },
+    {
+      "id": "08524a40b16049a9baf06c0701f94e98",
+      "name": "Health outcome",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ]
+    },
+    {
+      "id": "0e1320cbf9b3b4f5fe066780d1803b13",
+      "name": "Outcome measure",
+      "description": "Primary or focal outcome measure for the extracted result.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    },
+    {
+      "id": "36a0ce77368a76c9a80c14c13504ca38",
+      "name": "Measures outcome",
+      "description": "Links a study finding to the health outcome or condition measured.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "6b57bd23b7324ae0a1671658768df9ad",
+      "name": "Target outcomes",
+      "description": "Measured or intended effects used to assess intervention impact on physiology symptoms or performance.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "7d0e97c23d97452e817225e3be05b97b",
+      "name": "Fetal outcomes",
+      "description": null,
+      "spaceIds": [
+        "addcaa6921fb8800fd7abb140e76eed6"
+      ]
+    },
+    {
+      "id": "7e21c59657cbc9bc84e1c579e3eb9286",
+      "name": "Outcome measure",
+      "description": "Specific outcome measure used in a study finding.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "8405509cc7354655a348591349a5f025",
+      "name": "Outcome unit",
+      "description": "Unit and normalization used for the reported outcome.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ]
+    },
+    {
+      "id": "88e168b82194d2e93211b3a913e87172",
+      "name": "About outcome",
+      "description": "Links a claim, note, or assessment to the health outcome or condition it concerns.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "9335cb291bc71ff0bf61c456f1862124",
+      "name": "Outcome domain",
+      "description": "Outcome grouping used for filtering, such as sleep, metabolic, performance, mood, cardiovascular, cognition, immune, or deficiency.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "9b4b7900931ab075720bb3d6443505ac",
+      "name": "Assesses outcome",
+      "description": "Links an evidence assessment to the health outcome or condition being assessed.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "b265850f47f64921a25b22d58ac3304d",
+      "name": "Drug outcome",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "b2741b888588c51d8f977ff6376c863d",
+      "name": "Outcome",
+      "description": "What happened after (funds returned, fork, shutdown, insurance)",
+      "spaceIds": [
+        "c9f267dcb0d270718c2a3c45a64afd32"
+      ]
+    },
+    {
+      "id": "caf83a614c5aa1c4e575e235cf2f9545",
+      "name": "Outcome",
+      "description": "AI Music ontology field for outcome; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "ee6ed04a167f49a6bdc732bbeef8fb48",
+      "name": "Health outcomes",
+      "description": "Measurable changes in physical, mental, or social well-being resulting from health conditions, interventions, behaviors, or exposures.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "fc16c6d9b0fd420980b06b6c449fed52",
+      "name": "Health outcomes measured",
+      "description": "Endpoints or health outcomes the study measured or assessed.",
+      "spaceIds": [
+        "e01507b1bd7cb04c074ae8f52196096d"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNmI1N2JkMjMtYjczMi00YWUwLWExNjctMTY1ODc2OGRmOWFkIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOTMzNWNiMjktMWJjNy0xZmYwLWJmNjEtYzQ1NmYxODYyMTI0Il1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZWU2ZWQwNGEtMTY3Zi00OWE2LWJkYzctMzJiYmVlZjhmYjQ4Il1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmMxNmM2ZDktYjBmZC00MjA5LTgwYjAtNmI2YzQ0OWZlZDUyIl1d"
+    }
+  ]
+}

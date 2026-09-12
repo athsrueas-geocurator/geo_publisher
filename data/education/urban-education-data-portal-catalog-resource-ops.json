@@ -1,0 +1,137 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "aa8c1c45e8cb4a48a3375a1fc4776c2c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Urban Institute Education Data Portal",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Urban Institute Education Data Portal provides programmatic access to selected public education data. It supplies delivery and field-shape context; it does not establish that an initiative caused an outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://educationdata.urban.org/documentation/index.html",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5a7f371a4c234c2f9834d93da8a01f6b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Urban Education Data Portal catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** Urban Institute.\n- **Access:** Public JSON API.\n- **Unit:** Source-dependent public administrative data.\n- **Coverage:** Endpoint-dependent and source-dependent.\n- **Geography:** School, district, college, and state.\n- **Join keys:** NCES school ID, LEA ID, UNITID, FIPS, and year.\n- **Uses:** Programmatic extraction, rapid field-shape validation, and prototype queries.\n- **Provenance:** Use the originating agency as the authority for published claims.\n\nThe portal can deliver CCD, CRDC, EDFacts, IPEDS, and related public data. Delivery access does not turn a portal extract into causal evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2955bd98d529457f9c359066c4333e96"
+    },
+    "entity": {
+      "$bytes": "33a6be1094144a329d14d63c3886e411"
+    },
+    "from": {
+      "$bytes": "aa8c1c45e8cb4a48a3375a1fc4776c2c"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09yG"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "38ebf797acaa4f09a90140f667de9589"
+    },
+    "entity": {
+      "$bytes": "1d9d98c53e9d40468915571a2e695ac2"
+    },
+    "from": {
+      "$bytes": "5a7f371a4c234c2f9834d93da8a01f6b"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03Uz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9a53eca10cde4b749de88b9534ac8f1d"
+    },
+    "entity": {
+      "$bytes": "ad98bc749bcc4c8ca219dbbb952c11c5"
+    },
+    "from": {
+      "$bytes": "aa8c1c45e8cb4a48a3375a1fc4776c2c"
+    },
+    "to": {
+      "$bytes": "5a7f371a4c234c2f9834d93da8a01f6b"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a090e"
+  }
+]

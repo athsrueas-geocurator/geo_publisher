@@ -1,0 +1,1211 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e250e966938549269ac74b1935fa380d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "As a Matter of Fact: National Charter School Study III",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A national matched-growth analysis of charter-school and traditional-public-school student progress.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://credo.stanford.edu/reports/item/national-charter-school-study-iii/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2058d75f70bf495dbb9cc7683ffa7f51"
+    },
+    "entity": {
+      "$bytes": "c4ee0b9885b04dd69a48317c486d109c"
+    },
+    "from": {
+      "$bytes": "e250e966938549269ac74b1935fa380d"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06oX"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "06ce03fee15844c18a6bfce808f03d12"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Charter schools overall",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Public charter schools compared with matched traditional-public-school peers in CREDOs national administrative-data study.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://credo.stanford.edu/reports/item/national-charter-school-study-iii/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8c76b92d2bd549e8980970489a3e9f92"
+    },
+    "entity": {
+      "$bytes": "b64f708951884704b608e311323cfcca"
+    },
+    "from": {
+      "$bytes": "06ce03fee15844c18a6bfce808f03d12"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Atv"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "323be67569b14be6be31d37a271dc97c"
+    },
+    "entity": {
+      "$bytes": "d371236c79734f538571d1d12988f462"
+    },
+    "from": {
+      "$bytes": "06ce03fee15844c18a6bfce808f03d12"
+    },
+    "to": {
+      "$bytes": "e250e966938549269ac74b1935fa380d"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01zT"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a4ef6241debe4a59ab43afdd9a7ffa8f"
+    },
+    "entity": {
+      "$bytes": "22badab93dbd4269ae75dc10aa048e58"
+    },
+    "from": {
+      "$bytes": "06ce03fee15844c18a6bfce808f03d12"
+    },
+    "to": {
+      "$bytes": "e250e966938549269ac74b1935fa380d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01KN"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ae72d01cfc13405a9632fa9c1a0d0f61"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Charter students had 16 additional days of reading learning per year relative to matched traditional-public-school peers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "CREDO reports this matched-growth comparison for 201415 through 201819. It is not a randomized charter-admission estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "16"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "31"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Additional days of reading learning per school year, charter students relative to matched traditional-public-school peers; 31 data jurisdictions.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Official CREDO NCSS3 release, key student-level findings, June 2023.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "07d8ffa443254fdf9e911866dd87c230"
+    },
+    "entity": {
+      "$bytes": "e854e9ef53a44b96a4f9c7bf3dccbd3c"
+    },
+    "from": {
+      "$bytes": "ae72d01cfc13405a9632fa9c1a0d0f61"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07Nj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ba8d58cadc954934abb5a8a79ccf26bf"
+    },
+    "entity": {
+      "$bytes": "25447b1367fa44ceb55161026fef2c2c"
+    },
+    "from": {
+      "$bytes": "ae72d01cfc13405a9632fa9c1a0d0f61"
+    },
+    "to": {
+      "$bytes": "e250e966938549269ac74b1935fa380d"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04le"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a1227abaf19d470e980c559072d56bd3"
+    },
+    "entity": {
+      "$bytes": "01768d17d25a45c9a5845b385435fda4"
+    },
+    "from": {
+      "$bytes": "ae72d01cfc13405a9632fa9c1a0d0f61"
+    },
+    "to": {
+      "$bytes": "06ce03fee15844c18a6bfce808f03d12"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00cS"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "96553fbe54d44eb3bad7ff1e7486add7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Charter students had 6 additional days of math learning per year relative to matched traditional-public-school peers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "CREDO reports this matched-growth comparison for 201415 through 201819. It is not a randomized charter-admission estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "6"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "31"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Additional days of math learning per school year, charter students relative to matched traditional-public-school peers; 31 data jurisdictions.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Official CREDO NCSS3 release, key student-level findings, June 2023.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a107d765deed47f1877ed8d8eec6f4c1"
+    },
+    "entity": {
+      "$bytes": "8d1be3badb864bb48117698b4ada7061"
+    },
+    "from": {
+      "$bytes": "96553fbe54d44eb3bad7ff1e7486add7"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0A4d"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "816f8817bc364ad4af5935972c01e0ff"
+    },
+    "entity": {
+      "$bytes": "1c6d1dd0e8e94c5fb1631c6910b0d64b"
+    },
+    "from": {
+      "$bytes": "96553fbe54d44eb3bad7ff1e7486add7"
+    },
+    "to": {
+      "$bytes": "e250e966938549269ac74b1935fa380d"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a073U"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "50c966fd86c34f39a942946604c97b68"
+    },
+    "entity": {
+      "$bytes": "b1f766bd6f5c4d6fbbce85dc14fd1c94"
+    },
+    "from": {
+      "$bytes": "96553fbe54d44eb3bad7ff1e7486add7"
+    },
+    "to": {
+      "$bytes": "06ce03fee15844c18a6bfce808f03d12"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00r3"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "418b23ad246b4312855e72e56c26d46e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "CMO-affiliated charter schools had 27 additional days of reading learning per year relative to traditional public schools.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This sector subgroup result comes from the same matched-growth study and is not independent of the national charter comparison.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "27"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "31"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Additional days of reading learning per school year, CMO-affiliated charter students relative to traditional-public-school peers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Official CREDO NCSS3 release, key student-level findings, June 2023.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "498b872e7e6c45a99dfa036f7ab18851"
+    },
+    "entity": {
+      "$bytes": "726c585372bd4055ba86a15689e82181"
+    },
+    "from": {
+      "$bytes": "418b23ad246b4312855e72e56c26d46e"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02E6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c3bef5f350e1455c9b09623132d01b1e"
+    },
+    "entity": {
+      "$bytes": "5b5057c78934412285f11122f4e9956e"
+    },
+    "from": {
+      "$bytes": "418b23ad246b4312855e72e56c26d46e"
+    },
+    "to": {
+      "$bytes": "e250e966938549269ac74b1935fa380d"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09Q7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "82968b59fc89450e8998705ab65418b9"
+    },
+    "entity": {
+      "$bytes": "d3cf1b884236470f9656336e89df6f19"
+    },
+    "from": {
+      "$bytes": "418b23ad246b4312855e72e56c26d46e"
+    },
+    "to": {
+      "$bytes": "06ce03fee15844c18a6bfce808f03d12"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a092A"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b40799e079774e74bbbda89af4d0076d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "CMO-affiliated charter schools had 23 additional days of math learning per year relative to traditional public schools.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This sector subgroup result comes from the same matched-growth study and is not independent of the national charter comparison.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "23"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "31"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Additional days of math learning per school year, CMO-affiliated charter students relative to traditional-public-school peers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Official CREDO NCSS3 release, key student-level findings, June 2023.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "05a8f2a803de4e2d8051d459b1737c64"
+    },
+    "entity": {
+      "$bytes": "b4b4a47377f84b3298fb8c16088e6714"
+    },
+    "from": {
+      "$bytes": "b40799e079774e74bbbda89af4d0076d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BQ2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "204d5533516045bc983d9ae8b28a23b9"
+    },
+    "entity": {
+      "$bytes": "3e2e15edf95b4f84a0ca2b57032c5f48"
+    },
+    "from": {
+      "$bytes": "b40799e079774e74bbbda89af4d0076d"
+    },
+    "to": {
+      "$bytes": "e250e966938549269ac74b1935fa380d"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03JZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ad6a8bdb7307487b81d74373edcf3b33"
+    },
+    "entity": {
+      "$bytes": "94aaaaecc4164db7b543e4213756d5c8"
+    },
+    "from": {
+      "$bytes": "b40799e079774e74bbbda89af4d0076d"
+    },
+    "to": {
+      "$bytes": "06ce03fee15844c18a6bfce808f03d12"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03i6"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "dc036c8ceb504035a0b7a79fdf90b54c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Stand-alone charter schools had 10 additional days of reading learning per year relative to traditional public schools.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This sector subgroup result comes from the same matched-growth study and is not independent of the national charter comparison.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "10"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "31"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Additional days of reading learning per school year, stand-alone charter students relative to traditional-public-school peers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Official CREDO NCSS3 release, key student-level findings, June 2023.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "57bb598c5e334dc3ab35dc4503263114"
+    },
+    "entity": {
+      "$bytes": "5e74c9238872425facccf6a126cc4a04"
+    },
+    "from": {
+      "$bytes": "dc036c8ceb504035a0b7a79fdf90b54c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02If"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b6d4e70e2bf74dd7afb25ab5a2701d20"
+    },
+    "entity": {
+      "$bytes": "925dacc311454e8bae1f19875928b75e"
+    },
+    "from": {
+      "$bytes": "dc036c8ceb504035a0b7a79fdf90b54c"
+    },
+    "to": {
+      "$bytes": "e250e966938549269ac74b1935fa380d"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BE4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8e5e4f69c0a24a0a9a3c1cf993f6c9ab"
+    },
+    "entity": {
+      "$bytes": "5db39161721b4e21a88a8c03bb0e0a17"
+    },
+    "from": {
+      "$bytes": "dc036c8ceb504035a0b7a79fdf90b54c"
+    },
+    "to": {
+      "$bytes": "06ce03fee15844c18a6bfce808f03d12"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09TY"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "442b6446a1b54fd3a6c60a85e46e9e8e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The gap between the best and worst jurisdictional charter results was 109 reading-learning days.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is heterogeneity across 31 data jurisdictions, not an effect estimate for one charter school or student.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "109"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "31"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Spread in annual reading-learning results between best and worst data jurisdictions in the NCSS3 matched-growth analysis.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Official CREDO NCSS3 release, key student-level findings, June 2023.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d93998421cdf4ab68ec41082ec2fc93b"
+    },
+    "entity": {
+      "$bytes": "be3b9ed4959940e2a7a2c883643e3870"
+    },
+    "from": {
+      "$bytes": "442b6446a1b54fd3a6c60a85e46e9e8e"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08Fn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dfb8fbbb325341ec895ec27780ec7f2b"
+    },
+    "entity": {
+      "$bytes": "e594ea93e4d64bfc884a58b826acef39"
+    },
+    "from": {
+      "$bytes": "442b6446a1b54fd3a6c60a85e46e9e8e"
+    },
+    "to": {
+      "$bytes": "e250e966938549269ac74b1935fa380d"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07RP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f8a6ef0459214bc79c2111b34905356a"
+    },
+    "entity": {
+      "$bytes": "f296b09b90c0423c9765f27cc502d09e"
+    },
+    "from": {
+      "$bytes": "442b6446a1b54fd3a6c60a85e46e9e8e"
+    },
+    "to": {
+      "$bytes": "06ce03fee15844c18a6bfce808f03d12"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01x7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3f1aaf1f5e754fdb8fb55926e3368dba"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The gap between the best and worst jurisdictional charter results was 120 math-learning days.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is heterogeneity across 31 data jurisdictions, not an effect estimate for one charter school or student.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "120"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "31"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Spread in annual math-learning results between best and worst data jurisdictions in the NCSS3 matched-growth analysis.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Official CREDO NCSS3 release, key student-level findings, June 2023.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "497c9b72eedd44bfb794d55b845a966e"
+    },
+    "entity": {
+      "$bytes": "2f436505fe9b4879a4b738875fdd5f27"
+    },
+    "from": {
+      "$bytes": "3f1aaf1f5e754fdb8fb55926e3368dba"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09ym"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d5d6dddf23b6455b9abf6a2897baa67e"
+    },
+    "entity": {
+      "$bytes": "066e88adf2de4483af0f4e86a2153281"
+    },
+    "from": {
+      "$bytes": "3f1aaf1f5e754fdb8fb55926e3368dba"
+    },
+    "to": {
+      "$bytes": "e250e966938549269ac74b1935fa380d"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04hY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a10aed3e453e48a1a263522932802c4f"
+    },
+    "entity": {
+      "$bytes": "ac82c6cbe3cd424c83324307c051edb1"
+    },
+    "from": {
+      "$bytes": "3f1aaf1f5e754fdb8fb55926e3368dba"
+    },
+    "to": {
+      "$bytes": "06ce03fee15844c18a6bfce808f03d12"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00nb"
+  }
+]

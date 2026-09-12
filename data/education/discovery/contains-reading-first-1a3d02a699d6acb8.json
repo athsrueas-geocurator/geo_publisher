@@ -1,0 +1,1144 @@
+{
+  "term": "Reading First",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T21:40:11.176Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "02b361941ec44410a2d188935d49673c",
+      "name": "Reading First funded schools (RFIS)",
+      "description": "Schools receiving Reading First funding in the impact study. Grant allocation used regression-discontinuity rules in 17 sites and random assignment in one site.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "19e3f0af19da48d3b5cd0e59eeda5dd0",
+          "name": "Study arm"
+        }
+      ]
+    },
+    {
+      "id": "02b40a84dd87410f9ad78f0481ad237a",
+      "name": "Reading First: achievement and implementation impacts (Gamse et al., 2008)",
+      "description": "Estimated effects of a US early-reading grant program on achievement, classroom instruction and implementation. Results distinguish measured learning outcomes from observed practices and self-reported delivery.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "0c4babfb43893486af827341bbf32e09",
+          "name": "Dataset"
+        }
+      ]
+    },
+    {
+      "id": "03c4448f0de944199db5cdfb9dea50f1",
+      "name": "Reading First survey: Reading components covered in teacher professional development (components on a 0-5 scale)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "080908c4da6c421bbf5b1fb12e940b22",
+      "name": "Reading First grade 1: Vocabulary instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "09e38f2ef30241cb98a66ec75ac28c37",
+      "name": "Reading First grade 1: Decoding skill standard score (TOSWRF standard-score points)",
+      "description": "Adjusted impact on student achievement. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "0aed4da3d0354a8e921808d13e6c4108",
+      "name": "Reading First grade 3: Reading comprehension scaled score (SAT 10 scaled-score points)",
+      "description": "Adjusted impact on student achievement. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "0d1e184534bf40de8ed81c3f60c837d8",
+      "name": "Reading First grade 2: Reading comprehension scaled score (SAT 10 scaled-score points)",
+      "description": "Adjusted impact on student achievement. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "140834b42c824dae89e24a88b29eb013",
+      "name": "Reading First survey: Availability of differentiated instructional materials for struggling readers (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "19ef85b3139d41c99aa9712fbf640c38",
+      "name": "Reading First survey: Reading instruction per day (minutes per day)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "1a16333277574f3c93970773faf16527",
+      "name": "Reading First grade 2: Fluency instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "1e73e94704da4786b6f4170b9b3f27b3",
+      "name": "Reading First survey: Reading instruction per day (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "2892a8183be54f5698ee17f7fc2e2376",
+      "name": "Reading First grade 1: Fluency instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "2c3c71d68e2e481c8f4f93cfad9a77a5",
+      "name": "Reading First grade 2: Vocabulary instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "2d3f943e0adb4c24aef0419629c161d6",
+      "name": "Proposal 2d3f943e-0adb-4c24-aef0-419629c161d6",
+      "description": "System entity for proposal 2d3f943e-0adb-4c24-aef0-419629c161d6 in space dac259ba-d48a-11ad-f97f-e36857d85206",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206",
+        "d00460c203779d21d96fcfc6102d7a72"
+      ],
+      "types": [
+        {
+          "id": "490a7c90ad4b4029b2b4d85d22fe203a",
+          "name": "Proposal"
+        }
+      ]
+    },
+    {
+      "id": "329772d2385744e1b94117d5abf83caf",
+      "name": "Reading First grade 1: Phonemic awareness instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "32d089b21fb64e68838420d851144759",
+      "name": "Reading First grade 1: Reading comprehension scaled score (SD)",
+      "description": "Adjusted impact on student achievement. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "354379ce40d14743941fd47b25eea4c7",
+      "name": "Reading First grade 1: Vocabulary instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "393d353d16354c29a79e9ed59659b45f",
+      "name": "Reading First grade 2: Phonemic awareness instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "3b01a01c5b784c96b93e38a647984313",
+      "name": "Reading First grade 1: Comprehension instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "44d15e5671184bfba83c82417d6fb6e1",
+      "name": "Reading First grade 1: Intervals in five dimensions with high quality student practice (percentage points)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "450593005da44e6d9b3ca2fb804dea72",
+      "name": "Reading First grade 2: Fluency instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "46d1a145910c4d24bbd64c83f1f1602f",
+      "name": "Reading First grade 2: Intervals in five dimensions with high quality student practice (percentage points)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "49cbe44f10c7413a9822e9f0041fb5ae",
+      "name": "Reading First grade 3: Reading comprehension scaled score (SD)",
+      "description": "Adjusted impact on student achievement. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "49d3c45c2151490f9a44c75a60bffe3d",
+      "name": "Reading First grade 2: Intervals in five dimensions with highly explicit instruction (percentage points)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "4af4e3514b8f4939ab5d8a843acb0a36",
+      "name": "Reading First survey: Teacher receipt of coaching (proportion difference)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "4feb60ea734f4a7b848255600b80023a",
+      "name": "Reading First survey: Use of assessments to inform classroom practice (points on a 0-3 scale)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "5090ee1ec09b495da489723bf76d140d",
+      "name": "Reading First grade 2: Students engaged with print (percentage points)",
+      "description": "Adjusted impact on observed engagement with print. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "5625b4670a674a9cbc56f2f5f01dce21",
+      "name": "Reading First survey: Professional development in reading received by teachers (hours)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "56556c9d0bb84fe5b0037fe4c7952373",
+      "name": "Reading First grade 1: Phonics instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "57ff1c3bac6c496492c6f3b83f3530ad",
+      "name": "Reading First grade 1: Intervals in five dimensions with high quality student practice (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "5826e6a8487e49baabdc5ccb716df7cf",
+      "name": "Reading First grade 2: Instruction in five reading dimensions combined (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "5cc18a25b77f4a9ebc220a9524e4dc08",
+      "name": "Reading First grade 2: Phonemic awareness instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "630abd905b4b4193be52b2fee0281a78",
+      "name": "Reading First survey: Time dedicated to serving as K-3 reading coach (percentage points)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "65c3a84623724caa83a624cf80fa5fb9",
+      "name": "Reading First means: interpretation",
+      "description": null,
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "76474f2f00894e77a0410b39fb17d0bf",
+          "name": "Text block"
+        }
+      ]
+    },
+    {
+      "id": "66503ca1ea924b368608e543604d5795",
+      "name": "Reading First grade 1: Comprehension instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "67d08d12c1ed41869e2227a09df8b607",
+      "name": "Reading First grade 2: Phonics instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "70384a088b554109b0a8c581c4dd9071",
+      "name": "Reading First unfunded comparison schools (RFIS)",
+      "description": "Schools without Reading First funding used to estimate the study's counterfactual. Their observed means are distinct from the report's adjusted estimates of outcomes without funding.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "19e3f0af19da48d3b5cd0e59eeda5dd0",
+          "name": "Study arm"
+        }
+      ]
+    },
+    {
+      "id": "72cfd0265a2a45b198521187df3a6bf8",
+      "name": "Reading First survey: Availability of differentiated instructional materials for struggling readers (proportion difference)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "7359c54b1c524c1d89d1a8c6db69dc71",
+      "name": "Reading First survey: Extra classroom practice for struggling readers (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "74175f0a23de4414be1860873f74402a",
+      "name": "Reading First survey: Reading components covered in teacher professional development (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "7555e84390d941bc833856ffdc363dee",
+      "name": "Reading First survey: Use of assessments to inform classroom practice (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "7db594b10154436db6696cb2951cb91e",
+      "name": "Reading First grade 1: Intervals in five dimensions with highly explicit instruction (percentage points)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "8376945bd3e84bdf9bc5b9d5cc187b38",
+      "name": "Reading First grade 2: Vocabulary instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "9482e558289d42dba8f081c1ecf390bc",
+      "name": "Reading First survey: Extra classroom practice for struggling readers (points on a 0-4 scale)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "98ae0f59802b431fba3b2e2b32380cd5",
+      "name": "Reading First grade 2: Students engaged with print (SD)",
+      "description": "Adjusted impact on observed engagement with print. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "991c2abff5d0410a85c41bfa5f14bb59",
+      "name": "Reading First grade 1: Students engaged with print (SD)",
+      "description": "Adjusted impact on observed engagement with print. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "9b0630fb4e6542b6ba86a34970aea641",
+      "name": "Proposal 9b0630fb-4e65-42b6-ba86-a34970aea641",
+      "description": "System entity for proposal 9b0630fb-4e65-42b6-ba86-a34970aea641 in space dac259ba-d48a-11ad-f97f-e36857d85206",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206",
+        "d00460c203779d21d96fcfc6102d7a72"
+      ],
+      "types": [
+        {
+          "id": "490a7c90ad4b4029b2b4d85d22fe203a",
+          "name": "Proposal"
+        }
+      ]
+    },
+    {
+      "id": "a2b0696cc56a4313bb64cc2e0ccf0175",
+      "name": "Reading firsthand historical accounts, like Victor Klemperer’s diaries, is essential for recognizing the realities of totalitarian regimes.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "a507188f5f9142eb8d156c289d79c434",
+      "name": "Proposal a507188f-5f91-42eb-8d15-6c289d79c434",
+      "description": "System entity for proposal a507188f-5f91-42eb-8d15-6c289d79c434 in space dac259ba-d48a-11ad-f97f-e36857d85206",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206",
+        "d00460c203779d21d96fcfc6102d7a72"
+      ],
+      "types": [
+        {
+          "id": "490a7c90ad4b4029b2b4d85d22fe203a",
+          "name": "Proposal"
+        }
+      ]
+    },
+    {
+      "id": "a7b93648275543749f94227553d4f63a",
+      "name": "Reading First grade 1: Instruction in five reading dimensions combined (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "ab93117898b14ab7be334ddda3916d20",
+      "name": "Reading First grade 1: Fluency instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "b210d6ec50e44b24af2433500969ab67",
+      "name": "Reading First survey: Teacher receipt of coaching (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "b5790e11b8a54055a067c495bf006e95",
+      "name": "Reading First grade 2: Reading at or above grade level (percentage points)",
+      "description": "Adjusted impact on student achievement. The report does not provide a standardized effect for this proficiency contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "b6d90e392e634cde9f3904784e179184",
+      "name": "Reading First grade 2: Comprehension instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "bdab00b728f34b9fac037eb7275c4da5",
+      "name": "Reading First grade 1: Reading at or above grade level (percentage points)",
+      "description": "Adjusted impact on student achievement. The report does not provide a standardized effect for this proficiency contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "bec88901b45c480aaaa943474b04418f",
+      "name": "Reading First grade 2: Intervals in five dimensions with highly explicit instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "bf3fd4ba28c7411b8ac00bb89ae38d14",
+      "name": "Proposal bf3fd4ba-28c7-411b-8ac0-0bb89ae38d14",
+      "description": "System entity for proposal bf3fd4ba-28c7-411b-8ac0-0bb89ae38d14 in space dac259ba-d48a-11ad-f97f-e36857d85206",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206",
+        "d00460c203779d21d96fcfc6102d7a72"
+      ],
+      "types": [
+        {
+          "id": "490a7c90ad4b4029b2b4d85d22fe203a",
+          "name": "Proposal"
+        }
+      ]
+    },
+    {
+      "id": "c017745fb03b493a82c219a3d2c531b9",
+      "name": "Reading First grade 1: Phonemic awareness instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "c25d5bf3d2144c14966c7f193b68fe45",
+      "name": "Reading First grade 2: Phonics instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "d0e0918ce0ef43088e8342550ab96fb2",
+      "name": "Reading First grade 1: Instruction in five reading dimensions combined (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "d3bcd7af4adc418db65850b90086d446",
+      "name": "Reading First standardization notes",
+      "description": null,
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "76474f2f00894e77a0410b39fb17d0bf",
+          "name": "Text block"
+        }
+      ]
+    },
+    {
+      "id": "d445a1b822bc4937b6359ab65beb5848",
+      "name": "Reading First grade 1: Intervals in five dimensions with highly explicit instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "d75cefda66c74d29aa73a93f35eecc91",
+      "name": "Reading First grade 3: Reading at or above grade level (percentage points)",
+      "description": "Adjusted impact on student achievement. The report does not provide a standardized effect for this proficiency contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "d87bc8f30fb84b5fa660f98d1e770c78",
+      "name": "Reading First Impact Study (2008 final report)",
+      "description": "An evaluation of early-reading grants using regression discontinuity in 17 sites and group random assignment in one site.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "3ef269bc5f114691abc02dcbf398fd63",
+          "name": "Study"
+        }
+      ]
+    },
+    {
+      "id": "db0ea33548454e1780c78231066b7d71",
+      "name": "Reading First Impact Study Final Report",
+      "description": "A federal evaluation of Reading First funding, reporting achievement, instruction and implementation findings from 18 US sites.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "a2a5ed0cacef46b1835de457956ce915",
+          "name": "Article"
+        }
+      ]
+    },
+    {
+      "id": "dc0f7b38234b4189aa4f6046cd60a768",
+      "name": "Reading First survey: Professional development in reading received by teachers (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "dc59f0e273594536a194a80308b9a54c",
+      "name": "Reading First survey: Time dedicated to serving as K-3 reading coach (SD)",
+      "description": "Adjusted impact on self-reported implementation in spring 2007. The selected table reports a p-value but no standard error or confidence interval.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "dc5cbc3b34cf499eaac9191fc6ac1e33",
+      "name": "Reading First grade 2: Comprehension instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "dc8cbe377a1b402b927fd577496a52c6",
+      "name": "Reading First grade 2: Reading comprehension scaled score (SD)",
+      "description": "Adjusted impact on student achievement. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "dea76dd2e4d74a9396aeb4414a8f95a3",
+      "name": "Clarify Reading First methods and interpretation",
+      "description": "System entity for proposal dea76dd2-e4d7-4a93-96ae-b4414a8f95a3 in space dac259ba-d48a-11ad-f97f-e36857d85206",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206",
+        "d00460c203779d21d96fcfc6102d7a72"
+      ],
+      "types": [
+        {
+          "id": "490a7c90ad4b4029b2b4d85d22fe203a",
+          "name": "Proposal"
+        }
+      ]
+    },
+    {
+      "id": "e6def14e137a4990ae61edc1d8c3d113",
+      "name": "Reading First grade 1: Students engaged with print (percentage points)",
+      "description": "Adjusted impact on observed engagement with print. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "ec78cae2ad8446cc940c2570360d7f03",
+      "name": "Reading First grade 2: Instruction in five reading dimensions combined (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "f004fa2ccffa444f9daa5e36e19ab8be",
+      "name": "Reading First grade 1 comprehension impact: SAT 10 points (2005-2007)",
+      "description": "Adjusted reading-comprehension impact pooled across three spring assessments. The confidence interval includes zero; the estimate is not evidence of exactly no effect.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "f051087745894297934a899d5b718a4f",
+      "name": "Reading First grade 1: Phonics instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "f3053ad71b0c4daf8b3453385f6b3fa6",
+      "name": "Reading First grade 2: Intervals in five dimensions with high quality student practice (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "feafd14dd97e41e29239189b6a09b911",
+      "name": "Reading First grade 1: Decoding skill standard score (SD)",
+      "description": "Adjusted impact on student achievement. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMDllMzhmMmUtZjMwMi00MWNiLTk4YTYtNmVjNzVhYzI4YzM3Il1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMWExNjMzMzItNzc1Ny00ZjNjLTkzOTctMDc3M2ZhZjE2NTI3Il1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMzI5NzcyZDItMzg1Ny00NGUxLWI5NDEtMTdkNWFiZjgzY2FmIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNDRkMTVlNTYtNzExOC00YmZiLWE4M2MtODI0MTdkNmZiNmUxIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNGFmNGUzNTEtNGI4Zi00OTM5LWFiNWQtOGE4NDNhY2IwYTM2Il1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNTdmZjFjM2ItYWM2Yy00OTY0LTkyYzYtZjNiODNmMzUzMGFkIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNjY1MDNjYTEtZWE5Mi00YjM2LTg2MDgtZTU0MzYwNGQ1Nzk1Il1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNzQxNzVmMGEtMjNkZS00NDE0LWJlMTgtNjA4NzNmNzQ0MDJhIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOThhZTBmNTktODAyYi00MzFmLWJhM2ItMmUyYjMyMzgwY2Q1Il1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYTdiOTM2NDgtMjc1NS00Mzc0LTlmOTQtMjI3NTUzZDRmNjNhIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYmRhYjAwYjctMjhmMy00YjlmLWFjMDMtN2ViNzI3NWM0ZGE1Il1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZDBlMDkxOGMtZTBlZi00MzA4LThlODMtNDI1NTBhYjk2ZmIyIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZGIwZWEzMzUtNDg0NS00ZTE3LTgwYzctODIzMTA2NmI3ZDcxIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZGVhNzZkZDItZTRkNy00YTkzLTk2YWUtYjQ0MTRhOGY5NWEzIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjMwNTNhZDctMWIwYy00ZGFmLThiMzQtNTMzODVmNmIzZmE2Il1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmVhZmQxNGQtZDk3ZS00MWUyLTkyMzktMTg5YjZhMDliOTExIl1d"
+    }
+  ]
+}

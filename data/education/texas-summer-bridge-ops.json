@@ -1,0 +1,1263 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9a01e3c8d25145ada294e929bdb75870"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Getting Ready for College: An Implementation and Early Impacts Study of Eight Texas Developmental Summer Bridge Programs",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "NCPR/MDRC’s 2011 early randomized impact and cost evaluation of eight Texas developmental summer bridge programs.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/getting-ready-college/file-full",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c95ecc7de27841c7b4045059d6ef8c81"
+    },
+    "entity": {
+      "$bytes": "c926660bb3634082bbb43cd00a117a93"
+    },
+    "from": {
+      "$bytes": "9a01e3c8d25145ada294e929bdb75870"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00Kl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bd52b7bec8814429a6a011811a2b8835"
+    },
+    "entity": {
+      "$bytes": "7fc159144c3d4c3cbe665373f72545ef"
+    },
+    "from": {
+      "$bytes": "9a01e3c8d25145ada294e929bdb75870"
+    },
+    "to": {
+      "$bytes": "f457c07ce43d4e0a8bd646e971ef63ca"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a03a3"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "85d44ca8fe064a72a586e7c64f9aa1bc"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Texas Developmental Summer Bridge evaluated multi-site program model",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A varied eight-site Texas model of accelerated developmental instruction, academic support, college knowledge, and a possible completion stipend.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/getting-ready-college/file-full",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5cb610ba50484b9f911bd1df661e359a"
+    },
+    "entity": {
+      "$bytes": "cee6457a804047afa40c8cb6b4f62f12"
+    },
+    "from": {
+      "$bytes": "85d44ca8fe064a72a586e7c64f9aa1bc"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07m1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c9999f2afed64f27b5ee07a401e37e76"
+    },
+    "entity": {
+      "$bytes": "1f71a007d2874def9106b8336558dc49"
+    },
+    "from": {
+      "$bytes": "85d44ca8fe064a72a586e7c64f9aa1bc"
+    },
+    "to": {
+      "$bytes": "9a01e3c8d25145ada294e929bdb75870"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a021i"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b71970546b03474abbb365673fcdf191"
+    },
+    "entity": {
+      "$bytes": "4554c91fdea84ac0ac02425f0182cf39"
+    },
+    "from": {
+      "$bytes": "85d44ca8fe064a72a586e7c64f9aa1bc"
+    },
+    "to": {
+      "$bytes": "f457c07ce43d4e0a8bd646e971ef63ca"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a0B6y"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "01612581ac7e453ca396226587ca5a72"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Texas Summer Bridge randomly assigned 1,318 students across eight colleges.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2009 experiment assigned 793 students to program eligibility and 525 to colleges’ regular services. It evaluates a varied multi-site model, not one uniform college program.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1318"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Individual-level randomized evaluation; 793 program and 525 control students across eight Texas colleges.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table ES.1, p. ES-2; Study Methods, pp. 7–13.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "32b2e2a942e94305b684341b259219b7"
+    },
+    "entity": {
+      "$bytes": "37ae37377ce74a06afadd308e7844a29"
+    },
+    "from": {
+      "$bytes": "01612581ac7e453ca396226587ca5a72"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0C7P"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5581defb9b9742879d7cab9aa2eb0542"
+    },
+    "entity": {
+      "$bytes": "aefbfb008cb84df0af90b97d3cbd98b4"
+    },
+    "from": {
+      "$bytes": "01612581ac7e453ca396226587ca5a72"
+    },
+    "to": {
+      "$bytes": "9a01e3c8d25145ada294e929bdb75870"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08sQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e3219ca708fb49bba11e14cb017e9876"
+    },
+    "entity": {
+      "$bytes": "f28c9c911c944b70a3bb6af99d596ea2"
+    },
+    "from": {
+      "$bytes": "01612581ac7e453ca396226587ca5a72"
+    },
+    "to": {
+      "$bytes": "85d44ca8fe064a72a586e7c64f9aa1bc"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06zU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f326b02b11ed4e41bdabf21cdd78b5eb"
+    },
+    "entity": {
+      "$bytes": "00b788bf3a49424aab449d8ad652bfd5"
+    },
+    "from": {
+      "$bytes": "01612581ac7e453ca396226587ca5a72"
+    },
+    "to": {
+      "$bytes": "f457c07ce43d4e0a8bd646e971ef63ca"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a09zm"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d8a65b2583e641448d872f8c85208d6e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Texas Summer Bridge required $1,319 per admitted student across eight sites (2009 dollars).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This source-reported resource requirement includes staffing, other costs, student resources, and a 30% overhead assumption. Some costs may be start-up costs; it is not a net cost or cost-effectiveness result.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1318"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "2009 USD average resource cost per admitted student across eight sites.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 3.5, p. 34; cost discussion, p. 33.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1319"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2009"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Average resource cost per admitted student across eight sites; includes 30% overhead and may include start-up costs.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9e6a92ba83db43dd949839783e4c98a9"
+    },
+    "entity": {
+      "$bytes": "b7b70f26332b443a946ebc625459ecaf"
+    },
+    "from": {
+      "$bytes": "d8a65b2583e641448d872f8c85208d6e"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02Zf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a7435b4937714957826a3893e3db7b76"
+    },
+    "entity": {
+      "$bytes": "b8709abcb15a43c1bfe9bc24eccfc192"
+    },
+    "from": {
+      "$bytes": "d8a65b2583e641448d872f8c85208d6e"
+    },
+    "to": {
+      "$bytes": "9a01e3c8d25145ada294e929bdb75870"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Bba"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "883e9caf2f054572ad4fefe71826345b"
+    },
+    "entity": {
+      "$bytes": "bb4edf3095444a88b21941d52660b580"
+    },
+    "from": {
+      "$bytes": "d8a65b2583e641448d872f8c85208d6e"
+    },
+    "to": {
+      "$bytes": "85d44ca8fe064a72a586e7c64f9aa1bc"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02dH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f3ea4ab1a2274b90b1c44e2e6d391e08"
+    },
+    "entity": {
+      "$bytes": "96aed025194f4c1f8fb58ee2cfd163c2"
+    },
+    "from": {
+      "$bytes": "d8a65b2583e641448d872f8c85208d6e"
+    },
+    "to": {
+      "$bytes": "f457c07ce43d4e0a8bd646e971ef63ca"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a0BRr"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "22a40b2d33c34352a5fd4fa60f870840"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Texas Summer Bridge increased attempts at a first college-level math course by 8.7 percentage points (15.1% versus 6.5%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is an intent-to-treat fall-2009 course-progression result, not a degree or persistence effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1318"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in attempting a first college-level math course in fall 2009, program minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5.1, p. 47.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "87"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "p < .001",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d401405ca3904e468650c9794d8cb452"
+    },
+    "entity": {
+      "$bytes": "2a4f6aef7bc54fc8869cad0d6b53fd55"
+    },
+    "from": {
+      "$bytes": "22a40b2d33c34352a5fd4fa60f870840"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05hv"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "82497fddd0a14d379e55a45f1d07d0da"
+    },
+    "entity": {
+      "$bytes": "c2d367a3ca1545ecb39d69d838a58500"
+    },
+    "from": {
+      "$bytes": "22a40b2d33c34352a5fd4fa60f870840"
+    },
+    "to": {
+      "$bytes": "9a01e3c8d25145ada294e929bdb75870"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04uz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7ad3982783084306bb46d967449f0030"
+    },
+    "entity": {
+      "$bytes": "047cb01518664fffb0e629c6b33c13e1"
+    },
+    "from": {
+      "$bytes": "22a40b2d33c34352a5fd4fa60f870840"
+    },
+    "to": {
+      "$bytes": "85d44ca8fe064a72a586e7c64f9aa1bc"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06h4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "12637f62036a416297d0ab296e3becbf"
+    },
+    "entity": {
+      "$bytes": "e22d45efffbe4bcd8e7b84332da5b24a"
+    },
+    "from": {
+      "$bytes": "22a40b2d33c34352a5fd4fa60f870840"
+    },
+    "to": {
+      "$bytes": "f457c07ce43d4e0a8bd646e971ef63ca"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a0721"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "96ca6b3cbdcc4308b20865a7a1ba8039"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Texas Summer Bridge increased passing a first college-level math course by 4.4 percentage points (8.8% versus 4.4%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is an intent-to-treat fall-2009 course outcome in a preliminary one-year report.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1318"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in passing a first college-level math course in fall 2009, program minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5.1, p. 47.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "44"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "p < .001",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7806f5be24154811b3ee8ed5953906cf"
+    },
+    "entity": {
+      "$bytes": "a9121959e8ff47e3979f11f0b4b9c257"
+    },
+    "from": {
+      "$bytes": "96ca6b3cbdcc4308b20865a7a1ba8039"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06ix"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "53062fa61498484c90b15c17bd47f93a"
+    },
+    "entity": {
+      "$bytes": "6784be69ac7c408bb65be8fd1a19595a"
+    },
+    "from": {
+      "$bytes": "96ca6b3cbdcc4308b20865a7a1ba8039"
+    },
+    "to": {
+      "$bytes": "9a01e3c8d25145ada294e929bdb75870"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09Bl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "48374ab1eaeb42188199fe33742b0f39"
+    },
+    "entity": {
+      "$bytes": "599c74b093f84648a614b0aee2d47452"
+    },
+    "from": {
+      "$bytes": "96ca6b3cbdcc4308b20865a7a1ba8039"
+    },
+    "to": {
+      "$bytes": "85d44ca8fe064a72a586e7c64f9aa1bc"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03js"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ab893b15e710491a880b156da57ec625"
+    },
+    "entity": {
+      "$bytes": "46aec75066434432afd9b22a25ba4712"
+    },
+    "from": {
+      "$bytes": "96ca6b3cbdcc4308b20865a7a1ba8039"
+    },
+    "to": {
+      "$bytes": "f457c07ce43d4e0a8bd646e971ef63ca"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a08eH"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "73e27306ea7f45559fd2865e085c9d7d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Texas Summer Bridge increased passing a first college-level writing course by 5.1 percentage points (32.0% versus 26.9%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is an intent-to-treat fall-2009 course outcome, not later persistence or completion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1318"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in passing a first college-level writing course in fall 2009, program minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5.1, p. 48.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "51"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "p = .04",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c64bac17347d42339c3e28efffad5fc5"
+    },
+    "entity": {
+      "$bytes": "cc3010ce269846df90b029107a5cb88f"
+    },
+    "from": {
+      "$bytes": "73e27306ea7f45559fd2865e085c9d7d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01JD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "33150463629b47b5b9c65d642e6fd739"
+    },
+    "entity": {
+      "$bytes": "b98c603ea2a641a0a5e1759e00962be2"
+    },
+    "from": {
+      "$bytes": "73e27306ea7f45559fd2865e085c9d7d"
+    },
+    "to": {
+      "$bytes": "9a01e3c8d25145ada294e929bdb75870"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08kd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2f55434a6eea4ad7a5fb849a9a107180"
+    },
+    "entity": {
+      "$bytes": "0bb032b44486432cba568a2f27d3886f"
+    },
+    "from": {
+      "$bytes": "73e27306ea7f45559fd2865e085c9d7d"
+    },
+    "to": {
+      "$bytes": "85d44ca8fe064a72a586e7c64f9aa1bc"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05La"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f87c8052d61448be809a75812425672d"
+    },
+    "entity": {
+      "$bytes": "02933d267d884ecb9863b0b513081d53"
+    },
+    "from": {
+      "$bytes": "73e27306ea7f45559fd2865e085c9d7d"
+    },
+    "to": {
+      "$bytes": "f457c07ce43d4e0a8bd646e971ef63ca"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a09qz"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "782bbddb09874b91ae52c84d933979b4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Texas Summer Bridge showed no statistically significant fall registration difference (+1.0 point; 77.4% versus 76.4%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The fall-2009 enrollment result has p = .68 and standard error 2.4 percentage points. It is a null early registration finding, not proof of no later effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1318"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in registering for at least one fall-2009 course, program minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5.1, p. 47.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "p = .68",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cabfc5df11e24e4f8bb191de5419045a"
+    },
+    "entity": {
+      "$bytes": "0d8a4261b49d4f45811004e7019cdaaa"
+    },
+    "from": {
+      "$bytes": "782bbddb09874b91ae52c84d933979b4"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a032h"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2e76920b5fcb4503acec7768f97a556f"
+    },
+    "entity": {
+      "$bytes": "f309640959854182afae9d55dd8d6717"
+    },
+    "from": {
+      "$bytes": "782bbddb09874b91ae52c84d933979b4"
+    },
+    "to": {
+      "$bytes": "9a01e3c8d25145ada294e929bdb75870"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BvH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9477ad5508fe415b909227b36f9617f7"
+    },
+    "entity": {
+      "$bytes": "7ca83497786e4d3b9ff3833718d5a6be"
+    },
+    "from": {
+      "$bytes": "782bbddb09874b91ae52c84d933979b4"
+    },
+    "to": {
+      "$bytes": "85d44ca8fe064a72a586e7c64f9aa1bc"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00KC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aed018ab125443239029fe5901687411"
+    },
+    "entity": {
+      "$bytes": "83c347e983be43cd83fca6a5b0f01999"
+    },
+    "from": {
+      "$bytes": "782bbddb09874b91ae52c84d933979b4"
+    },
+    "to": {
+      "$bytes": "f457c07ce43d4e0a8bd646e971ef63ca"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a03UF"
+  }
+]

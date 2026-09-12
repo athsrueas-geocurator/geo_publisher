@@ -1,0 +1,103 @@
+{
+  "term": "Early childhood education",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-12T02:51:18.028Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "0df9fad9098d4b11bacb9af0f7a79182",
+      "name": "Early childhood education",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    },
+    {
+      "id": "23953c735b604c01b54184066f3d3c03",
+      "name": "New Mexico's early childhood education trust fund started with $300 million and has grown to $11 billion.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "55ec79eff6ae43b28373fef9804a2b49",
+      "name": "Data indicates that some early childhood education programs, such as Head Start, can produce meaningful long-term benefits.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "59c0068ff2aa4360b378e3ab3516cc8c",
+      "name": "Early childhood education, after-school programs, and free college are proposed as reforms for public education.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "af42f4f1bce14b00bcdcb323e058f0fd",
+      "name": "In 2020, New Mexico created a trust fund for early childhood education using oil and gas revenue.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "ce786253bdd7435d842c80179f0ef845",
+      "name": "New Mexico's Early Childhood Education and Care department aims to close the childcare supply-demand gap in one to two years.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYWY0MmY0ZjEtYmNlMS00YjAwLWJjZGMtYjMyM2UwNThmMGZkIl1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiY2U3ODYyNTMtYmRkNy00MzVkLTg0MmMtODAxNzlmMGVmODQ1Il1d"
+    }
+  ]
+}

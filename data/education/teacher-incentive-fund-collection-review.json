@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T16:27:44.593Z",
+  "reviewer": "publisher preparation review",
+  "planHash": "d7783fd7ed3297cac34e0b7c705500b400a5f5cd2ad4611391dba446882c8fa4",
+  "factsHash": "c7a81691249f7e3f9c0beeb555aa168af2e149e9f297732efff465d9c6989ac3",
+  "sources": [
+    {
+      "path": "docs/teacher-incentive-fund-study-notes.md",
+      "sha256": "422f636db6d61f3d32865ebfaa2a634a92b0c4bf64a7b3ecd7a1f3817fc2171d",
+      "sourceId": "1fcce9b53fa640279448239bba337eef",
+      "version": "Chiang et al., NCEE 2018-4004, Table VI.4"
+    }
+  ],
+  "discovery": {
+    "path": "data/education/teacher-incentive-fund-collection-discovery.json",
+    "sha256": "8391ca6f0af1759c946b5eb65811931f336999c5b92363090ab946944d136bab"
+  },
+  "decisions": {
+    "source": {
+      "status": "accepted",
+      "rationale": "Official NCEE report and study notes identify the source and its bonus-component comparison."
+    },
+    "identity": {
+      "status": "accepted",
+      "rationale": "Complete all-space discovery found only the expected Article and no incoming Collection-item memberships for the eight Claims."
+    },
+    "content": {
+      "status": "accepted",
+      "rationale": "Facts reuse live Claim values, locators and units; no standard errors or benefit-cost ratio are invented."
+    }
+  }
+}

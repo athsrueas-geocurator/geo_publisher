@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-09-11T18:43:11.627Z",
+  "scope": "All Saga batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 5,
+  "checks": [
+    {
+      "entityId": "3f2f83ec99644b4fa9c710584408c383",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "3f2f83ec99644b4fa9c710584408c383",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "3f2f83ec99644b4fa9c710584408c383",
+      "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+      "pass": true
+    },
+    {
+      "relationId": "10af5e61b38a4049839eb12302861fe5",
+      "pass": true
+    },
+    {
+      "relationId": "00fb6a49c0aa4941ba4dee082d438975",
+      "pass": true
+    },
+    {
+      "entityId": "ad9f48f68b804ddd9f9e8ffa5869ef02",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "ad9f48f68b804ddd9f9e8ffa5869ef02",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "relationId": "6670a58accb44b9f9034ebd6ae16896a",
+      "pass": true
+    },
+    {
+      "entityId": "f9630419ce50497d8560a85fbfb7b8e0",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "relationId": "b47f81110b994a3db39409a31bc4065c",
+      "pass": true
+    },
+    {
+      "relationId": "63b4512152cc4f5891382dbce37f3c10",
+      "pass": true
+    },
+    {
+      "relationId": "c58b6f3d4d014e0394d880b2e5d4f4bc",
+      "pass": true
+    },
+    {
+      "relationId": "01c4b142c37c49ffac1a278038b7497f",
+      "pass": true
+    },
+    {
+      "relationId": "1dfa9eadf1ae47f091c047dd8ff73c0b",
+      "pass": true
+    },
+    {
+      "entityId": "a352dea7181846f490c160f9f921e551",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "a352dea7181846f490c160f9f921e551",
+      "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

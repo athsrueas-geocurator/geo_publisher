@@ -1,0 +1,29 @@
+{
+  "term": "magnet",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:31.816Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "f902fc7f083444d160614d02a0ac4971",
+      "name": "MAGNeT",
+      "description": "Masked generative non-autoregressive transformer for audio that achieves 7x faster inference than MusicGen while maintaining comparable quality. Uses a progressive masking schedule over EnCodec tokens with a single-stage architecture.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "95a1c49e75ca50c0f706617ecee63e58",
+          "name": "Model"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjkwMmZjN2YtMDgzNC00NGQxLTYwNjEtNGQwMmEwYWM0OTcxIl1d"
+    }
+  ]
+}

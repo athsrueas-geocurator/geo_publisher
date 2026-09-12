@@ -1,0 +1,1382 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0de3a3ba8eb349faa9a03819757644ec"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Alan B. Krueger",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0c397b608ce1430b819f55881cc81eef"
+    },
+    "entity": {
+      "$bytes": "2ca81dedd73942d08999c65be462ce5e"
+    },
+    "from": {
+      "$bytes": "0de3a3ba8eb349faa9a03819757644ec"
+    },
+    "to": {
+      "$bytes": "7ed45f2bc48b419e8e4664d5ff680b0d"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "fdfb3d9fbd844f4dbf87b5d7325482eb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Eric A. Hanushek",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a28178e5e54849db8eb6a1ab72c60c2e"
+    },
+    "entity": {
+      "$bytes": "1fe4c3a0cf9647aca0cec1065e8d0795"
+    },
+    "from": {
+      "$bytes": "fdfb3d9fbd844f4dbf87b5d7325482eb"
+    },
+    "to": {
+      "$bytes": "7ed45f2bc48b419e8e4664d5ff680b0d"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "03ab7fe708d646adb8ce086ea9e26b02"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Evidence, Politics, and the Class Size Debate",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Eric Hanushek’s chapter in The Class Size Debate (2002), edited by Lawrence Mishel and Richard Rothstein, pages 37–65. It critiques class-size evidence and broad reduction policies.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://hanushek.stanford.edu/publications/evidence-politics-and-class-size-debate",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1ad1cca291e14bda8a15d9d680196f9c"
+    },
+    "entity": {
+      "$bytes": "d5410433983a4877966d8847d327cbbb"
+    },
+    "from": {
+      "$bytes": "03ab7fe708d646adb8ce086ea9e26b02"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d049f9d07dfc4119b0f4da15cb4ac358"
+    },
+    "entity": {
+      "$bytes": "2b16b140dfe44673939051f89d35ff9a"
+    },
+    "from": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "to": {
+      "$bytes": "0de3a3ba8eb349faa9a03819757644ec"
+    },
+    "relationType": {
+      "$bytes": "91a9e2f6e51a48f7997661de8561b690"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c86b67f6d9ca436084f3740607c9f678"
+    },
+    "entity": {
+      "$bytes": "8bb55d19478a4e1d9b4644dbfd526a75"
+    },
+    "from": {
+      "$bytes": "03ab7fe708d646adb8ce086ea9e26b02"
+    },
+    "to": {
+      "$bytes": "fdfb3d9fbd844f4dbf87b5d7325482eb"
+    },
+    "relationType": {
+      "$bytes": "91a9e2f6e51a48f7997661de8561b690"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4bb85899505a459da17ec72990eab81c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Class-size reduction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reducing the number of pupils taught together in a classroom.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "51cbfeb3f7674567885b10603305efb4"
+    },
+    "entity": {
+      "$bytes": "da58042f6b7c4cd1b63c58a6eaa73cbf"
+    },
+    "from": {
+      "$bytes": "4bb85899505a459da17ec72990eab81c"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR-sized early-grade class reductions can be worth their cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Krueger (2003) argues that modest achievement gains can justify reducing classes from 22 to 15 pupils in grades K–3. His earnings-based case is conditional on modeled returns, not observed lifetime benefits.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "28ba63eacb6146ca8946e71ec15a3ae4"
+    },
+    "entity": {
+      "$bytes": "574213920f4b462ca63578f03e47c73b"
+    },
+    "from": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Section 3, F61; Section 2.2, Table 5, F56–F58; caveats F58–F59",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "96a3f811e5a244bab063c8728341fe50"
+    },
+    "entity": {
+      "$bytes": "549535f7bd524d94a3f1d3956e1cb578"
+    },
+    "from": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "21388c169ed84bbdbd26f529c390fc54"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Counting studies equally strengthens the evidence that smaller classes improve achievement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Krueger (2003) finds that reweighting 277 estimates from 59 studies reveals a positive relationship obscured by counting every estimate equally. This is a contested literature interpretation, not a new experiment.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dcfcdb68a10e40a7b8c73153d6485c5c"
+    },
+    "entity": {
+      "$bytes": "66f9df5c9a804230b830dac0a8123340"
+    },
+    "from": {
+      "$bytes": "21388c169ed84bbdbd26f529c390fc54"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "21388c169ed84bbdbd26f529c390fc54"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Section 1, Table 2; Section 3, F59–F60",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "12807aed301e401dbe10dc8ef9de8724"
+    },
+    "entity": {
+      "$bytes": "7688d484a7f4487ab5b937c804b6ebf8"
+    },
+    "from": {
+      "$bytes": "21388c169ed84bbdbd26f529c390fc54"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c050382dc2614403916342d43d2ef87a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Equal study weights do not resolve bias in class-size research.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Hanushek (2002) argues that Krueger’s reweighting favors weaker estimates. He emphasizes omitted state policies and prior educational inputs when judging study quality.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8cfc0ea893764c9483235e6acd9d8991"
+    },
+    "entity": {
+      "$bytes": "84d26f4fe1a8461290b86305359141d4"
+    },
+    "from": {
+      "$bytes": "c050382dc2614403916342d43d2ef87a"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c050382dc2614403916342d43d2ef87a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Chapter 2, The importance of quality, printed pp. 46–50; conclusion p. 61",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1fa8b6faf06846f885dfe659afa01b54"
+    },
+    "entity": {
+      "$bytes": "45a05fb74835422196e231ae97291297"
+    },
+    "from": {
+      "$bytes": "c050382dc2614403916342d43d2ef87a"
+    },
+    "to": {
+      "$bytes": "03ab7fe708d646adb8ce086ea9e26b02"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2700dd4c50a641658f29fbc176d87f31"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR does not justify across-the-board class-size reductions.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Hanushek (2002) argues that broad reductions are too costly for the benefits established by existing evidence. He allows that reductions can be worthwhile in particular circumstances.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "86ee00ccb4eb4d529e1c666c09328403"
+    },
+    "entity": {
+      "$bytes": "860edf93c0714404a05b6831f37128d0"
+    },
+    "from": {
+      "$bytes": "2700dd4c50a641658f29fbc176d87f31"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2700dd4c50a641658f29fbc176d87f31"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Chapter 2, Conclusions, printed p. 61",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ebb68a2942d54761a3f520e29a11340d"
+    },
+    "entity": {
+      "$bytes": "9c8cbb208da3482e80e635954e53e321"
+    },
+    "from": {
+      "$bytes": "2700dd4c50a641658f29fbc176d87f31"
+    },
+    "to": {
+      "$bytes": "03ab7fe708d646adb8ce086ea9e26b02"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "dc9f8289b4c94ed2b89c3e8f913f6d1e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings alone are too uncertain to justify large class-size reductions.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Hanushek (2002) challenges the compounded assumptions connecting early test gains to lifetime earnings. He also argues that policy choices must consider alternatives such as improving teacher quality.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "61c16fa3ea1b4bc5bf41a94a1b53bcf2"
+    },
+    "entity": {
+      "$bytes": "eb87033a0aec45ceb7cda676ea950068"
+    },
+    "from": {
+      "$bytes": "dc9f8289b4c94ed2b89c3e8f913f6d1e"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "dc9f8289b4c94ed2b89c3e8f913f6d1e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Chapter 2, Policy calculations, printed pp. 58–60",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "447b708cafde4f21833a87c068137ec9"
+    },
+    "entity": {
+      "$bytes": "5d78aee3adf849fa8ee377c38096e5d0"
+    },
+    "from": {
+      "$bytes": "dc9f8289b4c94ed2b89c3e8f913f6d1e"
+    },
+    "to": {
+      "$bytes": "03ab7fe708d646adb8ce086ea9e26b02"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4b70147b5e53405590e4534fdd017eca"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR’s early gains do not establish benefits from smaller classes in later grades.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Hanushek (2002) interprets STAR’s advantage as concentrated at initial entry into small classes. He disputes extrapolation to later grades or smaller reductions, rather than claiming that no students benefit.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8e3d1502ee264e7bbbe110eedad9807c"
+    },
+    "entity": {
+      "$bytes": "0bf0900e893c46688c2e40cd52e34e86"
+    },
+    "from": {
+      "$bytes": "4b70147b5e53405590e4534fdd017eca"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4b70147b5e53405590e4534fdd017eca"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Chapter 2, The Tennessee class size experiment, printed pp. 55–58",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b15b334db7254564a8fab106578686fe"
+    },
+    "entity": {
+      "$bytes": "974d40ae05794185ab8c44c7b1d34726"
+    },
+    "from": {
+      "$bytes": "4b70147b5e53405590e4534fdd017eca"
+    },
+    "to": {
+      "$bytes": "03ab7fe708d646adb8ce086ea9e26b02"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b90bb3c5f6d6428399ae75aba190cc84"
+    },
+    "entity": {
+      "$bytes": "4d659c005b884a70b93e351c6f9650e7"
+    },
+    "from": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "to": {
+      "$bytes": "4bb85899505a459da17ec72990eab81c"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d8256cd065c741e7bcb989495ad1d26e"
+    },
+    "entity": {
+      "$bytes": "6683063d1d5341a2b8cb418979493824"
+    },
+    "from": {
+      "$bytes": "21388c169ed84bbdbd26f529c390fc54"
+    },
+    "to": {
+      "$bytes": "4bb85899505a459da17ec72990eab81c"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "74d2aaa253b64ead8bb7fd4d1b9bff1b"
+    },
+    "entity": {
+      "$bytes": "c45a702296994e4090998c7da8e449af"
+    },
+    "from": {
+      "$bytes": "c050382dc2614403916342d43d2ef87a"
+    },
+    "to": {
+      "$bytes": "4bb85899505a459da17ec72990eab81c"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "30c7eaa83c38427b855362ad1a91c0e8"
+    },
+    "entity": {
+      "$bytes": "f1cf894b079e4f6da201604ae6f85c90"
+    },
+    "from": {
+      "$bytes": "2700dd4c50a641658f29fbc176d87f31"
+    },
+    "to": {
+      "$bytes": "4bb85899505a459da17ec72990eab81c"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c5c37eaef21644a8816f571fadc14735"
+    },
+    "entity": {
+      "$bytes": "a5023ec6441b4822a1a42afd68c9f52d"
+    },
+    "from": {
+      "$bytes": "dc9f8289b4c94ed2b89c3e8f913f6d1e"
+    },
+    "to": {
+      "$bytes": "4bb85899505a459da17ec72990eab81c"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "92ea9c3f96cd49cf818fcfa0be68edf5"
+    },
+    "entity": {
+      "$bytes": "ff7bcd1ea4a54e93b615ed68f3e48222"
+    },
+    "from": {
+      "$bytes": "4b70147b5e53405590e4534fdd017eca"
+    },
+    "to": {
+      "$bytes": "4bb85899505a459da17ec72990eab81c"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f7f2877d881f4e1395cf0620a81df081"
+    },
+    "entity": {
+      "$bytes": "1e3a0b86e7d2474d99c6467464fb4cb7"
+    },
+    "from": {
+      "$bytes": "6db38a6c620f4ca1bc2452137457d686"
+    },
+    "to": {
+      "$bytes": "4bb85899505a459da17ec72990eab81c"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8f623c9368e5430ba804da4c955de6f2"
+    },
+    "entity": {
+      "$bytes": "f90630ee481c40bbbd0f195750cace82"
+    },
+    "from": {
+      "$bytes": "b0e661c838de4b8eb406a9c5a82249b1"
+    },
+    "to": {
+      "$bytes": "4bb85899505a459da17ec72990eab81c"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b6559312b4a341df991f2ac1c579c66a"
+    },
+    "entity": {
+      "$bytes": "7525b94ab49c47c69a240d313939b0f8"
+    },
+    "from": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "to": {
+      "$bytes": "4bb85899505a459da17ec72990eab81c"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6146d5d9c61e4f71a0cc7cd778d6bb3b"
+    },
+    "entity": {
+      "$bytes": "5ed94247bceb4c17af50afddaaef7188"
+    },
+    "from": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "to": {
+      "$bytes": "6db38a6c620f4ca1bc2452137457d686"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fe85eb6cd13743aab0b9d7c1a72e1833"
+    },
+    "entity": {
+      "$bytes": "f72d9e9369e74a75935766133afed240"
+    },
+    "from": {
+      "$bytes": "6db38a6c620f4ca1bc2452137457d686"
+    },
+    "to": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "389c91edf1604293a065f1faba9589d0"
+    },
+    "entity": {
+      "$bytes": "cf4d487c31b8415a8c7bb37c01a7b650"
+    },
+    "from": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "to": {
+      "$bytes": "b0e661c838de4b8eb406a9c5a82249b1"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "57fb5263a33e42749d09c6dd08002301"
+    },
+    "entity": {
+      "$bytes": "e699c385bfb04b0abd6416d99a150e59"
+    },
+    "from": {
+      "$bytes": "b0e661c838de4b8eb406a9c5a82249b1"
+    },
+    "to": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0390ee3bc8304864a7cf6ea3fa19ea86"
+    },
+    "entity": {
+      "$bytes": "7d340b0643dd44c8a725ff7886948755"
+    },
+    "from": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "to": {
+      "$bytes": "dc9f8289b4c94ed2b89c3e8f913f6d1e"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a31a63e80028459a828fbf180343103e"
+    },
+    "entity": {
+      "$bytes": "6db9ba85807c48f0bb5344430430abdb"
+    },
+    "from": {
+      "$bytes": "dc9f8289b4c94ed2b89c3e8f913f6d1e"
+    },
+    "to": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f6af638e2c7541a3a5e7abb29a0f1279"
+    },
+    "entity": {
+      "$bytes": "aec289736ca74be1b8fb2729ad1633d6"
+    },
+    "from": {
+      "$bytes": "2700dd4c50a641658f29fbc176d87f31"
+    },
+    "to": {
+      "$bytes": "dc9f8289b4c94ed2b89c3e8f913f6d1e"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c4398c20b6da455e92a9cb812b895ac2"
+    },
+    "entity": {
+      "$bytes": "a46746c44e82476492804ad498e65283"
+    },
+    "from": {
+      "$bytes": "dc9f8289b4c94ed2b89c3e8f913f6d1e"
+    },
+    "to": {
+      "$bytes": "2700dd4c50a641658f29fbc176d87f31"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f08d708e340644209184655ba8e42f2a"
+    },
+    "entity": {
+      "$bytes": "71dcc4dfb9084b72a7a65dd2799ce1d8"
+    },
+    "from": {
+      "$bytes": "2700dd4c50a641658f29fbc176d87f31"
+    },
+    "to": {
+      "$bytes": "4b70147b5e53405590e4534fdd017eca"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b7bd0fcac59448c7939b8a0be67ad35a"
+    },
+    "entity": {
+      "$bytes": "17d565c4488544ffb8cad0acedd53e22"
+    },
+    "from": {
+      "$bytes": "4b70147b5e53405590e4534fdd017eca"
+    },
+    "to": {
+      "$bytes": "2700dd4c50a641658f29fbc176d87f31"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "05ea953d84ea4816989e36411750a160"
+    },
+    "entity": {
+      "$bytes": "fed558fb0b01465fa9c372a5ce65e5a3"
+    },
+    "from": {
+      "$bytes": "2700dd4c50a641658f29fbc176d87f31"
+    },
+    "to": {
+      "$bytes": "c050382dc2614403916342d43d2ef87a"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "efd06f166f7747bd897228f0f572c7e5"
+    },
+    "entity": {
+      "$bytes": "1782a15380594e708fc7dc79c2ce0fac"
+    },
+    "from": {
+      "$bytes": "c050382dc2614403916342d43d2ef87a"
+    },
+    "to": {
+      "$bytes": "2700dd4c50a641658f29fbc176d87f31"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "32babc24fa88477e82e09d8e30180954"
+    },
+    "entity": {
+      "$bytes": "8cb7597b804141209237463ef435daf5"
+    },
+    "from": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "to": {
+      "$bytes": "2700dd4c50a641658f29fbc176d87f31"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bdbb68f92fad4cfd9f350e7c0d104061"
+    },
+    "entity": {
+      "$bytes": "60621f86df804d8fae079f41937d2eeb"
+    },
+    "from": {
+      "$bytes": "2700dd4c50a641658f29fbc176d87f31"
+    },
+    "to": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3441fd09e5f54e4e8275634124ca0d10"
+    },
+    "entity": {
+      "$bytes": "81d8280df3114eb3a6d0ac27747adc4d"
+    },
+    "from": {
+      "$bytes": "21388c169ed84bbdbd26f529c390fc54"
+    },
+    "to": {
+      "$bytes": "c050382dc2614403916342d43d2ef87a"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "776cc3b6a4174ce0a718644f32d8bf7a"
+    },
+    "entity": {
+      "$bytes": "27c8eca5a4d945abb347b0ee3e213c16"
+    },
+    "from": {
+      "$bytes": "c050382dc2614403916342d43d2ef87a"
+    },
+    "to": {
+      "$bytes": "21388c169ed84bbdbd26f529c390fc54"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f23460c447814a7096796adc9cbf6931"
+    },
+    "entity": {
+      "$bytes": "5d2c15046174425b9ff95a7800767c80"
+    },
+    "from": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "to": {
+      "$bytes": "21388c169ed84bbdbd26f529c390fc54"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cee6977fa767442aa29ced54c1b8f197"
+    },
+    "entity": {
+      "$bytes": "6b687eb7b14b4910bf1ba5542e606234"
+    },
+    "from": {
+      "$bytes": "21388c169ed84bbdbd26f529c390fc54"
+    },
+    "to": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "69a9b8ea545842c59e3052777a511de3"
+    },
+    "entity": {
+      "$bytes": "1ecb8e3330d4442a9e45f94f917eac96"
+    },
+    "from": {
+      "$bytes": "4b70147b5e53405590e4534fdd017eca"
+    },
+    "to": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7bd5200e517f4e4d914a98a7dad1ff42"
+    },
+    "entity": {
+      "$bytes": "330048ac7b384173ac7358d11202d985"
+    },
+    "from": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "to": {
+      "$bytes": "4b70147b5e53405590e4534fdd017eca"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b3e260d212204245b0e3db3d81032116"
+    },
+    "entity": {
+      "$bytes": "9a991dcab7d14fe1a78ecd92930a2546"
+    },
+    "from": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "to": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e3e4a3a2359741c8ab232ad5b03f7336"
+    },
+    "entity": {
+      "$bytes": "d865bfb9c6c74c44afc121fa8c1b0c6d"
+    },
+    "from": {
+      "$bytes": "7eeddeb79af54141b58e4cffe32d93a5"
+    },
+    "to": {
+      "$bytes": "44e2a08c02e74fdaaaa6f112e1581fb5"
+    },
+    "relationType": {
+      "$bytes": "504e5776788844f6a77dba3ee811d8f0"
+    }
+  }
+]

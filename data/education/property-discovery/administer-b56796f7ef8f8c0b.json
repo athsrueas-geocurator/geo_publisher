@@ -1,0 +1,23 @@
+{
+  "term": "administer",
+  "checkedAt": "2026-09-11T21:49:14.432Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "d1c6034425684b4caaf2570bee562802",
+      "name": "Administered by",
+      "description": "The entities responsible for the administration of something.",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZDFjNjAzNDQtMjU2OC00YjRjLWFhZjItNTcwYmVlNTYyODAyIl1d"
+    }
+  ]
+}

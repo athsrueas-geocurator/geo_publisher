@@ -1,0 +1,88 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T00:18:20.920Z",
+  "opsHash": "81502fdd3ac610afffb87c90c35771c491f11cd5e0e738dd460f33e4c9f1be92",
+  "modelHash": "f4f8213c967fb19d68f9acd57cfe9cb6a5749dd782c20ca98b7b9bb3748bf5a6",
+  "checks": [
+    "Complete source-neighborhood discovery",
+    "Complete all-space family search",
+    "Schema a126ca530c8e48d5b88882c734c38935 Text",
+    "Schema 9b1f76ff9711404c861e59dc3fa7d037 Text",
+    "Schema 8f151ba4de204e3c9cb499ddf96f48f1 Relation",
+    "Schema da4a6c1f9d4446f9832ff3b49a4400ef Checkbox",
+    "Schema 504e5776788844f6a77dba3ee811d8f0 Relation",
+    "Schema 1dc6a843458848198e7a6e672268f811 Relation",
+    "Schema 4e6ec5d14292498a84e5f607ca1a08ce Relation",
+    "Schema 49c5d5e1679a4dbdbfd33f618f227c94 Relation",
+    "Schema dfa6aebe1ca94bf29faccc4cc7afb24c Relation",
+    "Reviewed existing evidence decoding",
+    "Current evidence copy decoding",
+    "Reviewed existing evidence comprehension-1",
+    "Current evidence copy comprehension-1",
+    "Reviewed existing evidence comprehension-2",
+    "Current evidence copy comprehension-2",
+    "Reviewed existing evidence comprehension-3",
+    "Current evidence copy comprehension-3",
+    "Exact cross-space parent identity decoding-sufficient",
+    "Published parent unchanged",
+    "Exact cross-space parent identity comprehension-required",
+    "Published parent unchanged",
+    "Reuse verified Reading education Topic across spaces",
+    "No edge collision 806d52bc9c24572fc9ca4401d523f6c5",
+    "No duplicate planned edge 806d52bc9c24572fc9ca4401d523f6c5",
+    "No edge collision 806d52bc8a6617309f734401d523f6c5",
+    "No duplicate planned edge 806d52bc8a6617309f734401d523f6c5",
+    "No edge collision 806d52bc09e38f2ef3024401d523f6c5",
+    "No duplicate planned edge 806d52bc09e38f2ef3024401d523f6c5",
+    "No edge collision 806d52bcf004fa2ccffa4401d523f6c5",
+    "No duplicate planned edge 806d52bcf004fa2ccffa4401d523f6c5",
+    "No edge collision 806d52bc0d1e184534bf4401d523f6c5",
+    "No duplicate planned edge 806d52bc0d1e184534bf4401d523f6c5",
+    "No edge collision 806d52bc0aed4da3d0354401d523f6c5",
+    "No duplicate planned edge 806d52bc0aed4da3d0354401d523f6c5"
+  ],
+  "edges": [
+    {
+      "id": "806d52bc9c24572fc9ca4401d523f6c5",
+      "entityId": "806d52bc4401d523f6c59c24572fc9ca",
+      "from": "9c24572fc9ca4650a056bbb0c16c36fa",
+      "type": "806d52bc27e94c9193c057978b093351",
+      "to": "4401d523f6c542d5b20020cf4a6cac50"
+    },
+    {
+      "id": "806d52bc8a6617309f734401d523f6c5",
+      "entityId": "806d52bc4401d523f6c58a6617309f73",
+      "from": "8a6617309f7343d9994ceee76c0c550d",
+      "type": "806d52bc27e94c9193c057978b093351",
+      "to": "4401d523f6c542d5b20020cf4a6cac50"
+    },
+    {
+      "id": "806d52bc09e38f2ef3024401d523f6c5",
+      "entityId": "806d52bc4401d523f6c509e38f2ef302",
+      "from": "09e38f2ef30241cb98a66ec75ac28c37",
+      "type": "806d52bc27e94c9193c057978b093351",
+      "to": "4401d523f6c542d5b20020cf4a6cac50"
+    },
+    {
+      "id": "806d52bcf004fa2ccffa4401d523f6c5",
+      "entityId": "806d52bc4401d523f6c5f004fa2ccffa",
+      "from": "f004fa2ccffa444f9daa5e36e19ab8be",
+      "type": "806d52bc27e94c9193c057978b093351",
+      "to": "4401d523f6c542d5b20020cf4a6cac50"
+    },
+    {
+      "id": "806d52bc0d1e184534bf4401d523f6c5",
+      "entityId": "806d52bc4401d523f6c50d1e184534bf",
+      "from": "0d1e184534bf40de8ed81c3f60c837d8",
+      "type": "806d52bc27e94c9193c057978b093351",
+      "to": "4401d523f6c542d5b20020cf4a6cac50"
+    },
+    {
+      "id": "806d52bc0aed4da3d0354401d523f6c5",
+      "entityId": "806d52bc4401d523f6c50aed4da3d035",
+      "from": "0aed4da3d0354a8e921808d13e6c4108",
+      "type": "806d52bc27e94c9193c057978b093351",
+      "to": "4401d523f6c542d5b20020cf4a6cac50"
+    }
+  ]
+}

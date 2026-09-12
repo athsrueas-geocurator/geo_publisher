@@ -1,0 +1,880 @@
+{
+  "generatedAt": "2026-08-12T03:51:09.415Z",
+  "profiles": [
+    {
+      "datasetId": "ccd-public-school-directory",
+      "purpose": "School and district directory context; join schools by NCES IDs.",
+      "artifacts": 51,
+      "recordCount": 101105,
+      "columns": [
+        "bureau_indian_education",
+        "cbsa",
+        "charter",
+        "city_location",
+        "city_mailing",
+        "congress_district_id",
+        "county_code",
+        "csa",
+        "direct_certification",
+        "elem_cedp",
+        "enrollment",
+        "fips",
+        "free_lunch",
+        "free_or_reduced_price_lunch",
+        "high_cedp",
+        "highest_grade_offered",
+        "latitude",
+        "lea_name",
+        "leaid",
+        "longitude",
+        "lowest_grade_offered",
+        "lunch_program",
+        "magnet",
+        "middle_cedp",
+        "ncessch",
+        "ncessch_num",
+        "phone",
+        "reduced_price_lunch",
+        "school_id",
+        "school_level",
+        "school_name",
+        "school_status",
+        "school_type",
+        "seasch",
+        "shared_time",
+        "state_leaid",
+        "state_leg_district_lower",
+        "state_leg_district_upper",
+        "state_location",
+        "state_mailing",
+        "street_location",
+        "street_mailing",
+        "teachers_fte",
+        "title_i_eligible",
+        "title_i_schoolwide",
+        "title_i_status",
+        "ungrade_cedp",
+        "urban_centric_locale",
+        "virtual",
+        "year",
+        "zip_location",
+        "zip_mailing"
+      ],
+      "joinKeys": [
+        "ncessch",
+        "leaid",
+        "fips"
+      ],
+      "path": "research-data/raw/ccd-public-school-directory/2022"
+    },
+    {
+      "datasetId": "seda-v5",
+      "purpose": "School achievement benchmarking, not program exposure measurement.",
+      "path": "research-data/raw/seda-v6/seda_school_pool_cs_6.0.csv",
+      "bytes": 36998499,
+      "joinKeys": [
+        "ncessch",
+        "leaid",
+        "state"
+      ],
+      "columns": [
+        "sedasch",
+        "sedaschname",
+        "fips",
+        "stateabb",
+        "multi_comp",
+        "subcat",
+        "subgroup",
+        "gap",
+        "gradecenter",
+        "tot_asmts",
+        "cellcount",
+        "mn_asmts",
+        "cs_mn_avg_ol",
+        "cs_mn_lrn_ol",
+        "cs_mn_tav_ol",
+        "cs_mn_tlr_ol",
+        "cs_mn_mth_ol",
+        "cs_mn_avg_ol_se",
+        "cs_mn_lrn_ol_se",
+        "cs_mn_tav_ol_se",
+        "cs_mn_tlr_ol_se",
+        "cs_mn_mth_ol_se",
+        "cs_mn_avg_ol_se_adj",
+        "cs_mn_lrn_ol_se_adj",
+        "cs_mn_tav_ol_se_adj",
+        "cs_mn_tlr_ol_se_adj",
+        "cs_mn_mth_ol_se_adj",
+        "cs_mn_avg_eb",
+        "cs_mn_lrn_eb",
+        "cs_mn_tav_eb",
+        "cs_mn_tlr_eb",
+        "cs_mn_mth_eb",
+        "cs_mn_avg_eb_se",
+        "cs_mn_lrn_eb_se",
+        "cs_mn_tav_eb_se",
+        "cs_mn_tlr_eb_se",
+        "cs_mn_mth_eb_se",
+        "cs_mn_avg_eb_se_adj",
+        "cs_mn_lrn_eb_se_adj",
+        "cs_mn_tav_eb_se_adj",
+        "cs_mn_tlr_eb_se_adj",
+        "cs_mn_mth_eb_se_adj"
+      ]
+    },
+    {
+      "datasetId": "census-f33-school-finance",
+      "purpose": "District-level revenue, expenditure, and debt context from the Census Annual Survey of School System Finances.",
+      "path": "research-data/raw/census-f33/elsec24.xlsx",
+      "bytes": 12639997,
+      "joinKeys": [
+        "LEAID",
+        "state",
+        "district name"
+      ],
+      "format": "XLSX workbook; use its data dictionary and table labels when creating a bounded analysis extract."
+    },
+    {
+      "datasetId": "naep-data-explorer",
+      "purpose": "Public national, state, and participating urban-district mathematics benchmark tables for grades 4 and 8.",
+      "path": "research-data/raw/naep-2022/2022_NAEP_Math_National_Results.xlsx",
+      "bytes": 1433178,
+      "joinKeys": [
+        "jurisdiction",
+        "assessment year",
+        "grade",
+        "subject",
+        "student group"
+      ],
+      "format": "XLSX workbook; preserve NAEP significance flags, accommodation status, and reporting notes."
+    },
+    {
+      "datasetId": "naep-data-explorer",
+      "purpose": "Public national, state, and participating urban-district mathematics benchmark tables for grades 4 and 8.",
+      "path": "research-data/raw/naep-2022/2022_NAEP_Math_State_Results.xlsx",
+      "bytes": 63226834,
+      "joinKeys": [
+        "jurisdiction",
+        "assessment year",
+        "grade",
+        "subject",
+        "student group"
+      ],
+      "format": "XLSX workbook; preserve NAEP significance flags, accommodation status, and reporting notes."
+    },
+    {
+      "datasetId": "naep-data-explorer",
+      "purpose": "Public national, state, and participating urban-district mathematics benchmark tables for grades 4 and 8.",
+      "path": "research-data/raw/naep-2022/2022_NAEP_Math_TUDA_Results.xlsx",
+      "bytes": 17604577,
+      "joinKeys": [
+        "jurisdiction",
+        "assessment year",
+        "grade",
+        "subject",
+        "student group"
+      ],
+      "format": "XLSX workbook; preserve NAEP significance flags, accommodation status, and reporting notes."
+    },
+    {
+      "datasetId": "edfacts-ed-data-express",
+      "purpose": "Chronic-absence outcome context by SEA, LEA, and school.",
+      "path": "research-data/raw/edfacts/SY2223-Chronic-Absenteeism-EDE-110724.zip",
+      "bytes": 12985206,
+      "archiveEntries": [
+        "Read Me First SY2223 DG814 DG814PCT 110724.xlsx",
+        "SY2223_FS195_DG814_SEA_090324.csv",
+        "SY2223_FS195_DG814_LEA_090324.csv",
+        "SY2223_FS195_DG814_SCH_091924.csv",
+        "SY2223_DG814PCT_SEA_082724.csv",
+        "SY2223_DG814PCT_LEA_082724.csv"
+      ],
+      "csvSchemas": [
+        {
+          "entry": "SY2223_FS195_DG814_SEA_090324.csv",
+          "columns": [
+            "SCHOOL_YEAR",
+            "STATE_NAME",
+            "DATA_GROUP_ID",
+            "NUMERIC_VALUE",
+            "TEXT_VALUE",
+            "SUBGROUP",
+            "CHARACTERISTICS"
+          ]
+        },
+        {
+          "entry": "SY2223_FS195_DG814_LEA_090324.csv",
+          "columns": []
+        },
+        {
+          "entry": "SY2223_FS195_DG814_SCH_091924.csv",
+          "columns": []
+        },
+        {
+          "entry": "SY2223_DG814PCT_SEA_082724.csv",
+          "columns": [
+            "SCHOOL_YEAR",
+            "STATE_NAME",
+            "DATA_GROUP_ID",
+            "DENOMINATOR",
+            "NUMERATOR",
+            "TEXT_VALUE",
+            "NUMERIC_VALUE",
+            "SUBGROUP"
+          ]
+        },
+        {
+          "entry": "SY2223_DG814PCT_LEA_082724.csv",
+          "columns": [
+            "SCHOOL_YEAR",
+            "STATE_NAME",
+            "LEAID",
+            "LEA_NAME",
+            "DATA_GROUP_ID",
+            "DENOMINATOR",
+            "NUMERATOR",
+            "TEXT_VALUE",
+            "NUMERIC_VALUE",
+            "SUBGROUP"
+          ]
+        }
+      ],
+      "joinKeys": [
+        "LEAID",
+        "NCESSCH",
+        "ST_LEAID"
+      ]
+    },
+    {
+      "datasetId": "crdc",
+      "purpose": "Civil-rights access and discipline context by LEA and school.",
+      "path": "research-data/raw/crdc/2021-22-crdc-data.zip",
+      "bytes": 832409504,
+      "archiveEntries": [
+        "LEA/Distance Education.csv",
+        "LEA/High School Equivalency Exam.csv",
+        "LEA/LEA Characteristics.csv",
+        "SCH/Advanced Mathematics.csv",
+        "SCH/Advanced Placement.csv",
+        "SCH/Algebra I.csv",
+        "SCH/Algebra II.csv",
+        "SCH/Biology.csv",
+        "SCH/Calculus.csv",
+        "SCH/Chemistry.csv",
+        "SCH/Computer Science.csv",
+        "SCH/Corporal Punishment.csv",
+        "SCH/COVID Directional Indicators.csv",
+        "SCH/Data Science.csv",
+        "SCH/Dual Enrollment.csv",
+        "SCH/Enrollment.csv",
+        "SCH/Expulsions.csv",
+        "SCH/Geometry.csv",
+        "SCH/Gifted and Talented.csv",
+        "SCH/Harassment and Bullying.csv",
+        "SCH/International Baccalaureate.csv",
+        "SCH/Internet Access and Devices.csv",
+        "SCH/Interscholastic Athletics.csv",
+        "SCH/Justice Facilities.csv",
+        "SCH/Offenses.csv",
+        "SCH/Physics.csv",
+        "SCH/Referrals and Arrests.csv",
+        "SCH/Restraint and Seclusion.csv",
+        "SCH/Retention.csv",
+        "SCH/SAT and ACT.csv",
+        "SCH/School Characteristics.csv",
+        "SCH/School Support.csv",
+        "SCH/Single Sex Classes.csv",
+        "SCH/Suspensions.csv",
+        "SCH/Transfers.csv"
+      ],
+      "csvSchemas": [
+        {
+          "entry": "LEA/Distance Education.csv",
+          "columns": []
+        },
+        {
+          "entry": "LEA/High School Equivalency Exam.csv",
+          "columns": []
+        },
+        {
+          "entry": "LEA/LEA Characteristics.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Advanced Mathematics.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Advanced Placement.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Algebra I.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Algebra II.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Biology.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Calculus.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Chemistry.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Computer Science.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Corporal Punishment.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/COVID Directional Indicators.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Data Science.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Dual Enrollment.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Enrollment.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Expulsions.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Geometry.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Gifted and Talented.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Harassment and Bullying.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/International Baccalaureate.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Internet Access and Devices.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Interscholastic Athletics.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Justice Facilities.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Offenses.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Physics.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Referrals and Arrests.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Restraint and Seclusion.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Retention.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/SAT and ACT.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/School Characteristics.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/School Support.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Single Sex Classes.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Suspensions.csv",
+          "columns": []
+        },
+        {
+          "entry": "SCH/Transfers.csv",
+          "columns": []
+        }
+      ],
+      "joinKeys": [
+        "LEAID",
+        "NCESSCH"
+      ]
+    },
+    {
+      "datasetId": "college-scorecard",
+      "purpose": "Postsecondary completion, debt, repayment, and earnings context by institution.",
+      "path": "research-data/raw/college-scorecard/Most-Recent-Cohorts-Institution_06102026.zip",
+      "bytes": 23559465,
+      "archiveEntries": [
+        "Most-Recent-Cohorts-Institution.csv",
+        "__MACOSX/._Most-Recent-Cohorts-Institution.csv"
+      ],
+      "csvSchemas": [
+        {
+          "entry": "Most-Recent-Cohorts-Institution.csv",
+          "columns": []
+        },
+        {
+          "entry": "__MACOSX/._Most-Recent-Cohorts-Institution.csv",
+          "columns": [
+            "\u0000\u0005\u0016\u0007\u0000\u0002\u0000\u0000Mac OS X        \u0000\u0002\u0000\u0000\u0000\t\u0000\u0000\u00002\u0000\u0000\u0000�\u0000\u0000\u0000\u0002\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ATTR\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0000\u0000\u0000�\u0000\u0000\u0000\"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000�\u0000\u0000\u0000\u0010\u0000\u0000\u001acom.apple.lastuseddate#PS\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0012\u0000\u0000\u0015com.apple.quarantine\u0000UG\u0017j\u0000\u0000\u0000\u0000�ܫ)\u0000\u0000\u0000\u0000q/0083;00000000;;\u0000"
+          ]
+        }
+      ],
+      "joinKeys": [
+        "UNITID",
+        "OPEID"
+      ]
+    },
+    {
+      "datasetId": "ipeds",
+      "purpose": "Postsecondary directory, characteristics, completions, and dual-enrollment context.",
+      "path": "research-data/raw/ipeds-2024/C2024_A.zip",
+      "bytes": 4680679,
+      "csvSchemas": [
+        {
+          "entry": "C2024_a.csv",
+          "columns": []
+        }
+      ],
+      "joinKeys": [
+        "UNITID"
+      ]
+    },
+    {
+      "datasetId": "ipeds",
+      "purpose": "Postsecondary directory, characteristics, completions, and dual-enrollment context.",
+      "path": "research-data/raw/ipeds-2024/EFFY2024_HS.zip",
+      "bytes": 91285,
+      "csvSchemas": [
+        {
+          "entry": "EFFY2024_HS.csv",
+          "columns": [
+            "UNITID",
+            "XEYTOTLT",
+            "EFYTOTLT",
+            "XEYTOTLM",
+            "EFYTOTLM",
+            "XEYTOTLW",
+            "EFYTOTLW",
+            "XEFYAIAT",
+            "EFYAIANT",
+            "XEFYAIAM",
+            "EFYAIANM",
+            "XEFYAIAW",
+            "EFYAIANW",
+            "XEFYASIT",
+            "EFYASIAT",
+            "XEFYASIM",
+            "EFYASIAM",
+            "XEFYASIW",
+            "EFYASIAW",
+            "XEFYBKAT",
+            "EFYBKAAT",
+            "XEFYBKAM",
+            "EFYBKAAM",
+            "XEFYBKAW",
+            "EFYBKAAW",
+            "XEFYHIST",
+            "EFYHISPT",
+            "XEFYHISM",
+            "EFYHISPM",
+            "XEFYHISW",
+            "EFYHISPW",
+            "XEFYNHPT",
+            "EFYNHPIT",
+            "XEFYNHPM",
+            "EFYNHPIM",
+            "XEFYNHPW",
+            "EFYNHPIW",
+            "XEFYWHIT",
+            "EFYWHITT",
+            "XEFYWHIM",
+            "EFYWHITM",
+            "XEFYWHIW",
+            "EFYWHITW",
+            "XEFY2MOT",
+            "EFY2MORT",
+            "XEFY2MOM",
+            "EFY2MORM",
+            "XEFY2MOW",
+            "EFY2MORW",
+            "XEYUNKNT",
+            "EFYUNKNT",
+            "XEYUNKNM",
+            "EFYUNKNM",
+            "XEYUNKNW",
+            "EFYUNKNW",
+            "XEYNRALT",
+            "EFYNRALT",
+            "XEYNRALM",
+            "EFYNRALM",
+            "XEYNRALW",
+            "EFYNRALW"
+          ]
+        }
+      ],
+      "joinKeys": [
+        "UNITID"
+      ]
+    },
+    {
+      "datasetId": "ipeds",
+      "purpose": "Postsecondary directory, characteristics, completions, and dual-enrollment context.",
+      "path": "research-data/raw/ipeds-2024/HD2024.zip",
+      "bytes": 1088372,
+      "csvSchemas": [
+        {
+          "entry": "HD2024.csv",
+          "columns": []
+        }
+      ],
+      "joinKeys": [
+        "UNITID"
+      ]
+    },
+    {
+      "datasetId": "ipeds",
+      "purpose": "Postsecondary directory, characteristics, completions, and dual-enrollment context.",
+      "path": "research-data/raw/ipeds-2024/IC2024.zip",
+      "bytes": 135305,
+      "csvSchemas": [
+        {
+          "entry": "IC2024.csv",
+          "columns": [
+            "UNITID",
+            "PEO1ISTR",
+            "PEO2ISTR",
+            "PEO3ISTR",
+            "PEO4ISTR",
+            "PEO5ISTR",
+            "PEO6ISTR",
+            "PEO7ISTR",
+            "CNTLAFFI",
+            "PUBPRIME",
+            "PUBSECON",
+            "RELAFFIL",
+            "LEVEL1",
+            "LEVEL1A",
+            "LEVEL1B",
+            "LEVEL2",
+            "LEVEL3",
+            "LEVEL4",
+            "LEVEL5",
+            "LEVEL6",
+            "LEVEL7",
+            "LEVEL8",
+            "LEVEL12",
+            "LEVEL17",
+            "LEVEL18",
+            "LEVEL19",
+            "CALSYS",
+            "FT_UG",
+            "FT_FTUG",
+            "FTGDNIDP",
+            "PT_UG",
+            "PT_FTUG",
+            "PTGDNIDP",
+            "DOCPP",
+            "DOCPPSP",
+            "OPENADMP",
+            "NONCRDT1",
+            "NONCRDT2",
+            "NONCRDT3",
+            "NONCRDT4",
+            "NONCRDT5",
+            "NONCRDT6",
+            "NONCRDT7",
+            "NONCRDT8",
+            "NONCRDT9",
+            "VET1",
+            "VET2",
+            "VET3",
+            "VET4",
+            "VET5",
+            "VET9",
+            "CREDITS2",
+            "CREDITS3",
+            "CREDITS4",
+            "SLO5",
+            "SLO51",
+            "SLO52",
+            "SLO521",
+            "SLO53",
+            "SLO6",
+            "SLO7",
+            "SLOA",
+            "SLO8",
+            "SLO81",
+            "SLO82",
+            "SLO83",
+            "SLOB",
+            "SLO9",
+            "YRSCOLL",
+            "STUSRV2",
+            "STUSRV3",
+            "STUSRV4",
+            "STUSRV8",
+            "STUSRV9",
+            "LIBRES1",
+            "LIBRES2",
+            "LIBRES3",
+            "LIBRES4",
+            "LIBRES5",
+            "LIBRES6",
+            "LIBRES9",
+            "DSTNUGC",
+            "DSTNUGP",
+            "DSTNUGN",
+            "DSTNGC",
+            "DSTNGP",
+            "DSTNGN",
+            "DISTCRS",
+            "DISTPGS",
+            "DSTNCED1",
+            "DSTNCED2",
+            "DSTNCED3",
+            "DISTNCED",
+            "DISAB",
+            "XDISABPC",
+            "DISABPCT",
+            "ATHASSOC",
+            "ASSOC1",
+            "ASSOC2",
+            "ASSOC3",
+            "ASSOC4",
+            "ASSOC5",
+            "ASSOC6",
+            "SPORT1",
+            "CONFNO1",
+            "SPORT2",
+            "CONFNO2",
+            "SPORT3",
+            "CONFNO3",
+            "SPORT4",
+            "CONFNO4"
+          ]
+        }
+      ],
+      "joinKeys": [
+        "UNITID"
+      ]
+    },
+    {
+      "datasetId": "eric",
+      "purpose": "Bounded ERIC API metadata export for evidence discovery; it is not an intervention-effect dataset.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/eric/education-query-25.json",
+          "bytes": 51617
+        }
+      ],
+      "joinKeys": [
+        "ERIC number",
+        "DOI",
+        "title",
+        "publication year"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "ntps-tfs",
+      "purpose": "Official NTPS/TFS access and methods capture; public-use extracts are produced through NCES DataLab.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/ntps-tfs/ntps-methods-overview.html",
+          "bytes": 21916
+        },
+        {
+          "path": "research-data/raw/ntps-tfs/ntps-tfs-data-access.html",
+          "bytes": 11770
+        }
+      ],
+      "joinKeys": [
+        "survey cycle",
+        "school record where permitted",
+        "teacher or principal record"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "ecls-k",
+      "purpose": "Official ECLS-K:2011 access and cohort documentation capture; public-use child-level files are selected through NCES.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/ecls-k/ecls-k-2011-data-products.html",
+          "bytes": 32651
+        },
+        {
+          "path": "research-data/raw/ecls-k/ecls-program-overview.html",
+          "bytes": 27909
+        }
+      ],
+      "joinKeys": [
+        "child record",
+        "wave",
+        "survey weight"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "hsls-09",
+      "purpose": "Official HSLS:09 access and cohort documentation capture; public-use extracts are generated through NCES DataLab.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/hsls-09/hsls-09-data-access.html",
+          "bytes": 11960
+        },
+        {
+          "path": "research-data/raw/hsls-09/hsls-09-overview.html",
+          "bytes": 29365
+        }
+      ],
+      "joinKeys": [
+        "student record",
+        "wave",
+        "survey weight"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "ssocs",
+      "purpose": "Official SSOCS public-use download path and overview capture for school safety and climate context.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/ssocs/ssocs-data-products.html",
+          "bytes": 31181
+        },
+        {
+          "path": "research-data/raw/ssocs/ssocs-overview.html",
+          "bytes": 9051
+        }
+      ],
+      "joinKeys": [
+        "survey cycle",
+        "school record",
+        "survey weight"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "evidence-for-essa",
+      "purpose": "Versioned Evidence for ESSA review-database capture; retain primary studies for every published claim.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/evidence-for-essa/evidence-for-essa-home.html",
+          "bytes": 50111
+        }
+      ],
+      "joinKeys": [
+        "program name",
+        "study citation",
+        "ESSA evidence tier"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "national-student-clearinghouse-research-center",
+      "purpose": "Versioned public Enrollment Insights report-index capture; public outputs are aggregate context only.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/nsc-research-center/enrollment-insights.html",
+          "bytes": 109951
+        }
+      ],
+      "joinKeys": [
+        "term",
+        "state",
+        "institution sector"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "state-longitudinal-data-systems",
+      "purpose": "Official SLDS access inventory capture; each usable extract requires state-specific approval and documentation.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/slds/slds-program-access.html",
+          "bytes": 19450
+        }
+      ],
+      "joinKeys": [
+        "state student identifier",
+        "school year",
+        "state program identifier"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "what-works-clearinghouse",
+      "purpose": "Versioned local capture of every WWC record cited in this dossier, indexed by source and supported initiative.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/wwc-dossier-corpus/src-002-wwc-home.html",
+          "bytes": 28560
+        },
+        {
+          "path": "research-data/raw/wwc-dossier-corpus/src-007-wwc-essa.html",
+          "bytes": 26266
+        },
+        {
+          "path": "research-data/raw/wwc-dossier-corpus/src-008-wwc-handbooks.html",
+          "bytes": 35130
+        },
+        {
+          "path": "research-data/raw/wwc-dossier-corpus/src-016-success-for-all.html",
+          "bytes": 64703
+        },
+        {
+          "path": "research-data/raw/wwc-dossier-corpus/src-059-dual-language-study.html",
+          "bytes": 277056
+        },
+        {
+          "path": "research-data/raw/wwc-dossier-corpus/src-067-talent-development.html",
+          "bytes": 43719
+        }
+      ],
+      "indexPath": "research-data/wwc-dossier-index.json",
+      "joinKeys": [
+        "source ID",
+        "intervention name",
+        "study citation",
+        "WWC review identifier"
+      ]
+    }
+  ]
+}

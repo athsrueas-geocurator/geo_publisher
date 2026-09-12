@@ -1,0 +1,310 @@
+{
+  "name": "Add reviewed Education glossary input, outcome and evidence terms",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/glossary-expansion-ops.json",
+  "sha256": "2df605f8e87b7bea8100f119f65739e0e4d6f4ceb5ca2b947cebb2ec36d34e83",
+  "journalPath": "data/education/glossary-expansion-publication.json",
+  "validationPath": "data/education/glossary-expansion-validation.json",
+  "datasetId": "3f2f83ec99644b4fa9c710584408c383",
+  "crosswalk": [
+    {
+      "sourceKey": "[\"Evidence signal\",\"Strong causal evidence\"]",
+      "sourceTerm": "Strong causal evidence",
+      "section": "Evidence signal",
+      "entityId": "bfdf43b93627404aac12dd72308c01fb",
+      "sectionBlockId": "a6672e82fbaf48be9280a1db22a0d563",
+      "entryRelationEntityId": "be943fb1ba034531990406108463b5be",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Evidence signal\",\"Promising causal/quasi\"]",
+      "sourceTerm": "Promising causal/quasi",
+      "section": "Evidence signal",
+      "entityId": "c669c7b8946d444aa4d014bbef33543e",
+      "sectionBlockId": "a6672e82fbaf48be9280a1db22a0d563",
+      "entryRelationEntityId": "0290719ceddb41258ab898ed2c5b4955",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Evidence signal\",\"Mixed/conditional\"]",
+      "sourceTerm": "Mixed/conditional",
+      "section": "Evidence signal",
+      "entityId": "ecef323a50d241edbf721ae94abdbcbf",
+      "sectionBlockId": "a6672e82fbaf48be9280a1db22a0d563",
+      "entryRelationEntityId": "1d2adf75be104a8b8f85e95464dfa118",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Evidence signal\",\"Limited/descriptive\"]",
+      "sourceTerm": "Limited/descriptive",
+      "section": "Evidence signal",
+      "entityId": "180fb6ff4d6941f482009ceb3dceebed",
+      "sectionBlockId": "a6672e82fbaf48be9280a1db22a0d563",
+      "entryRelationEntityId": "94dec9843f5144af91ffbda6e7155678",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Evidence signal\",\"Not an outcome intervention\"]",
+      "sourceTerm": "Not an outcome intervention",
+      "section": "Evidence signal",
+      "entityId": "6146285450044e769cc1e7966eeda9a0",
+      "sectionBlockId": "a6672e82fbaf48be9280a1db22a0d563",
+      "entryRelationEntityId": "6a8686fb3c8040e0a84bae19a1b00db6",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Dosage and intensity\"]",
+      "sourceTerm": "Dosage and intensity",
+      "section": "Input variable",
+      "entityId": "39019b2c253248f599c9f0eef7244114",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "c2ac246382e9483fb8c6f766832928e5",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Staffing ratio and adult contact\"]",
+      "sourceTerm": "Staffing ratio and adult contact",
+      "section": "Input variable",
+      "entityId": "213ace78654546eb9907cb07f9f4b771",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "dad598addc18419291bc47ab062719f0",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Curriculum content\"]",
+      "sourceTerm": "Curriculum content",
+      "section": "Input variable",
+      "entityId": "0cd16e5e54654a3cb76d0766d35a1fff",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "ca40016c0f154b6b86116f5c5d2357ef",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Pedagogy and instructional model\"]",
+      "sourceTerm": "Pedagogy and instructional model",
+      "section": "Input variable",
+      "entityId": "c95340d371354fd6ab9185ba787b85cc",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "c157ada10eb442ebb5dca9007175421a",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Technology role\"]",
+      "sourceTerm": "Technology role",
+      "section": "Input variable",
+      "entityId": "2c48eb46c18b4834a7055f95bf6a3898",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "ef24601e32804442992fd78425e0f1ff",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Teacher supports\"]",
+      "sourceTerm": "Teacher supports",
+      "section": "Input variable",
+      "entityId": "5ab428ecb56b4b8ea936b43917c598ea",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "b58889264aa84021a69d071da9ac7d33",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Accountability and incentives\"]",
+      "sourceTerm": "Accountability and incentives",
+      "section": "Input variable",
+      "entityId": "0462965dd49d420a89a2fde1a7be77d6",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "838cbc8add644e198f49123e18059a9b",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Governance and choice\"]",
+      "sourceTerm": "Governance and choice",
+      "section": "Input variable",
+      "entityId": "15a0a1933c3c4c84933993d7a0a539b1",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "17c412a3594c4a05a3aab7e9faacf1f0",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Time structure\"]",
+      "sourceTerm": "Time structure",
+      "section": "Input variable",
+      "entityId": "26acd42afe1041bcadb382d6904a3f6e",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "0c9edd1e50a4467abb7e08ce099d5acc",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Early childhood quality\"]",
+      "sourceTerm": "Early childhood quality",
+      "section": "Input variable",
+      "entityId": "e6a03c80670c4b88bb7093410c2bdb57",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "e02fb4a5a61d4a2d85db42406f7e9957",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Whole-child supports\"]",
+      "sourceTerm": "Whole-child supports",
+      "section": "Input variable",
+      "entityId": "88f3ced258fc445bb4a8b27894603621",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "ee2c7f78a1bc4c77a2da1e3d9ea125ec",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Finance and resources\"]",
+      "sourceTerm": "Finance and resources",
+      "section": "Input variable",
+      "entityId": "c9226207e34a4940a8ac2e1489bb8a88",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "b6dc5018776947c7a85cfde4c8a01703",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Implementation and fidelity\"]",
+      "sourceTerm": "Implementation and fidelity",
+      "section": "Input variable",
+      "entityId": "7ecbd365edf246d58117bfb3cdecc930",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "13f4c670f9444ba5ad50e85062a4a4f1",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Input variable\",\"Counterfactual context\"]",
+      "sourceTerm": "Counterfactual context",
+      "section": "Input variable",
+      "entityId": "5842b14fc54b4a73840ace45c539129d",
+      "sectionBlockId": "3bae0b254d504867a7720a9ee6c34f35",
+      "entryRelationEntityId": "a521845bbfa847959ef4d6d3d919fe99",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"Achievement test scores\"]",
+      "sourceTerm": "Achievement test scores",
+      "section": "Outcome",
+      "entityId": "b34ea41e2caa4c3786846cbe6d9be1e2",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "7aa637cf10064380aa111fe5373b6a06",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"Proficiency and cut-score metrics\"]",
+      "sourceTerm": "Proficiency and cut-score metrics",
+      "section": "Outcome",
+      "entityId": "7e956789f9b34946b4f18e254a3800ff",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "1dceb76634574ada8f353708b72cc0ef",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"Reading subskills\"]",
+      "sourceTerm": "Reading subskills",
+      "section": "Outcome",
+      "entityId": "139ee1f522ad4464a6a4af46268eeb95",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "fc5411dbdc434f35bfc85ad5f75452cb",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"Math subskills and course readiness\"]",
+      "sourceTerm": "Math subskills and course readiness",
+      "section": "Outcome",
+      "entityId": "f1a322e86be14c87802a5bd711e819dc",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "542f739a8a3948a2b18310faf96ffd11",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"Academic growth\"]",
+      "sourceTerm": "Academic growth",
+      "section": "Outcome",
+      "entityId": "89459545b66d4dfab23cf2c127f345c4",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "6b7ccf1ab67c44f0a95d9e11308af2b3",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"Coursework and grades\"]",
+      "sourceTerm": "Coursework and grades",
+      "section": "Outcome",
+      "entityId": "882a1ad78617429fa6803d709b01a2d9",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "0055e0f90a714816bbcd184fbc13d9ab",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"Attendance and engagement\"]",
+      "sourceTerm": "Attendance and engagement",
+      "section": "Outcome",
+      "entityId": "8b44a4b095ac47349019a57e0a5db63e",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "cfce0b5a384d49989f5f154210087c2c",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"Behavior and climate\"]",
+      "sourceTerm": "Behavior and climate",
+      "section": "Outcome",
+      "entityId": "7eb7787b60724fbe95cf593a13c55754",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "160ba8f9b4fa417d8be523e0dd4e9488",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"SEL and noncognitive outcomes\"]",
+      "sourceTerm": "SEL and noncognitive outcomes",
+      "section": "Outcome",
+      "entityId": "a6a65de89e624472bcc94d4273b07287",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "7e6613ca97d045829efa26e471d2b711",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"Grade progression\"]",
+      "sourceTerm": "Grade progression",
+      "section": "Outcome",
+      "entityId": "92ac5bf113824c71931f6457caa17a65",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "ec560c3707da43afb518e2149f18f404",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"Postsecondary outcomes\"]",
+      "sourceTerm": "Postsecondary outcomes",
+      "section": "Outcome",
+      "entityId": "625a9e09323344d3883c34bb29d09a25",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "bef404b72fee45678cbbf3caf657f079",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"Labor market and adult outcomes\"]",
+      "sourceTerm": "Labor market and adult outcomes",
+      "section": "Outcome",
+      "entityId": "9a1cb4dfdb804484a65985f3c98de320",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "7431d45622504e079afaac3af0e6a933",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"Health, crime, and civic outcomes\"]",
+      "sourceTerm": "Health, crime, and civic outcomes",
+      "section": "Outcome",
+      "entityId": "3dc93beae04841f39fa65fa41e2ff907",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "a49b6c2b5a2940ce9bdabffd065caa86",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    },
+    {
+      "sourceKey": "[\"Outcome\",\"Implementation mediators\"]",
+      "sourceTerm": "Implementation mediators",
+      "section": "Outcome",
+      "entityId": "375a27d5f28e431999df4132cf89a11a",
+      "sectionBlockId": "4b154167467340d4a8bc88186c8a393f",
+      "entryRelationEntityId": "fa6b13b2fcb84a3196f66b0d9f9d4ef9",
+      "sourceUrl": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json"
+    }
+  ],
+  "operationCount": 152
+}

@@ -1,0 +1,756 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T16:44:52.348Z",
+  "scope": "destination Question relationship reconciliation",
+  "completeRows": 21,
+  "relationCounts": {
+    "8f151ba4de204e3c9cb499ddf96f48f1": 21
+  },
+  "pendingSourceFields": [
+    "topic",
+    "sourceIds",
+    "keyInitiativeSlugs",
+    "philosophicalDisagreement",
+    "whatWouldChangeOurMind",
+    "continuum",
+    "evidenceStrength",
+    "whatEvidenceSuggests",
+    "commonMisreadings"
+  ],
+  "rows": [
+    {
+      "slug": "screens-harm-development-vs-technology-enables-learning",
+      "entityId": "d3fcf358c8f045058aa2d34050dc5b88",
+      "liveName": "What adult-guided task, for which learner, replaces what prior activity, and with what measured learning gain?",
+      "liveDescription": "Screens harm development vs technology enables learning.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Technology",
+      "sourceIds": [
+        "src-049",
+        "src-048",
+        "src-050"
+      ],
+      "initiativeSlugs": [
+        "gates-personalized-learning-next-generation-learning-challenges",
+        "one-to-one-devices-laptop-initiatives",
+        "adaptive-and-personalized-learning-platforms",
+        "generative-ai-tutoring-and-ai-school-pilots",
+        "remote-learning-and-virtual-schooling-during-covid"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "whole-language-balanced-literacy-vs-phonics-science-of-reading",
+      "entityId": "2b8ebbfdebbe48d38345073ec76ab14b",
+      "liveName": "How do we guarantee code mastery without narrowing reading to decoding drills?",
+      "liveDescription": "Whole language / balanced literacy vs phonics / Science of Reading.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Literacy",
+      "sourceIds": [
+        "src-014",
+        "src-015",
+        "src-010"
+      ],
+      "initiativeSlugs": [
+        "reading-first",
+        "enhanced-reading-opportunities-raals-xtreme-reading"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "knowledge-rich-curriculum-vs-generic-skills",
+      "entityId": "2302b059213c45d09d1a481a3592b25a",
+      "liveName": "What content sequence gives students the background knowledge needed to transfer skills?",
+      "liveDescription": "Knowledge-rich curriculum vs generic skills.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Curriculum",
+      "sourceIds": [
+        "src-019",
+        "src-005",
+        "src-020"
+      ],
+      "initiativeSlugs": [
+        "a-nation-at-risk-modern-standards-movement",
+        "ethnic-studies-curriculum-san-francisco"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "direct-instruction-vs-inquiry-project-based-learning",
+      "entityId": "98983a5634514c92be7bfc0917b93960",
+      "liveName": "For which content, prior knowledge level, and assessment type does inquiry beat explicit teaching?",
+      "liveDescription": "Direct instruction vs inquiry/project-based learning.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Curriculum",
+      "sourceIds": [
+        "src-018",
+        "src-002",
+        "src-023"
+      ],
+      "initiativeSlugs": [
+        "a-nation-at-risk-modern-standards-movement"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "standardization-accountability-vs-professional-autonomy",
+      "entityId": "a143349b77104b268f29f1b94ef1b1dd",
+      "liveName": "Which outcomes should be common and which decisions should remain local?",
+      "liveDescription": "Standardization/accountability vs professional autonomy.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Accountability",
+      "sourceIds": [
+        "src-003",
+        "src-009",
+        "src-007"
+      ],
+      "initiativeSlugs": [
+        "a-nation-at-risk-modern-standards-movement"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "choice-markets-vs-common-public-system",
+      "entityId": "7826c5daf63f43eab428e9716dc97494",
+      "liveName": "What school model and accountability system is being chosen, not just what governance label?",
+      "liveDescription": "Choice/markets vs common public system.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Governance",
+      "sourceIds": [
+        "src-033",
+        "src-034",
+        "src-036"
+      ],
+      "initiativeSlugs": [
+        "private-school-vouchers-dc-and-louisiana-examples"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "central-curriculum-hqim-vs-teacher-created-materials",
+      "entityId": "a9a93e4a83d84e78acdaf9332f5576cb",
+      "liveName": "What adaptations preserve the high-leverage content and task quality of the curriculum?",
+      "liveDescription": "Central curriculum / HQIM vs teacher-created materials.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Education reform",
+      "sourceIds": [
+        "src-020",
+        "src-005"
+      ],
+      "initiativeSlugs": [
+        "a-nation-at-risk-modern-standards-movement"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "remediation-readiness-vs-grade-level-acceleration",
+      "entityId": "f5de77428f4e4db0a608711f55b1642a",
+      "liveName": "What support lets students succeed in grade-level content without tracking them into low expectations?",
+      "liveDescription": "Remediation/readiness vs grade-level acceleration.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Instruction",
+      "sourceIds": [
+        "src-055",
+        "src-021",
+        "src-053"
+      ],
+      "initiativeSlugs": [
+        "reading-recovery",
+        "high-dosage-tutoring",
+        "saga-style-and-tech-infused-tutoring",
+        "generative-ai-tutoring-and-ai-school-pilots",
+        "double-dose-algebra-chicago",
+        "early-warning-intervention-monitoring-system",
+        "national-guard-youth-challenge-program",
+        "enhanced-reading-opportunities-raals-xtreme-reading"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "discipline-order-vs-restorative-relational-climate",
+      "entityId": "1f37c87dbec34463832f0666a8960052",
+      "liveName": "How do we reduce exclusion while preserving safety and time-on-task?",
+      "liveDescription": "Discipline/order vs restorative/relational climate.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "School climate",
+      "sourceIds": [
+        "src-039",
+        "src-040",
+        "src-038"
+      ],
+      "initiativeSlugs": [
+        "restorative-practices"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "sel-whole-child-vs-academics-first",
+      "entityId": "614ce411b5f043089f0b6737569adb11",
+      "liveName": "Which nonacademic supports measurably increase instructional engagement and persistence?",
+      "liveDescription": "SEL/whole-child vs academics-first.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "School climate",
+      "sourceIds": [
+        "src-038",
+        "src-037"
+      ],
+      "initiativeSlugs": [
+        "a-nation-at-risk-modern-standards-movement",
+        "community-eligibility-provision-universal-meals",
+        "21st-century-community-learning-centers"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "teacher-incentives-evaluation-vs-trust-professionalism",
+      "entityId": "7556a5a295f64a9e8271ad8e65199581",
+      "liveName": "Which measures are for development, which for personnel decisions, and how are errors handled?",
+      "liveDescription": "Teacher incentives/evaluation vs trust/professionalism.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Teacher workforce",
+      "sourceIds": [
+        "src-023",
+        "src-025",
+        "src-026",
+        "src-028"
+      ],
+      "initiativeSlugs": [
+        "teacher-coaching",
+        "comprehensive-teacher-induction"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "human-tutoring-vs-ai-tutoring",
+      "entityId": "9a6579f8e2164ed7849a586a846024c6",
+      "liveName": "Can AI raise dosage or teacher capacity without replacing high-value human interaction?",
+      "liveDescription": "Human tutoring vs AI tutoring.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Technology",
+      "sourceIds": [
+        "src-021",
+        "src-050"
+      ],
+      "initiativeSlugs": [
+        "high-dosage-tutoring"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "early-academics-vs-play-based-pre-k",
+      "entityId": "c7b8f02e5396465ba9524e37c3633a67",
+      "liveName": "Which adult-child interactions and curricula produce both readiness and later well-being?",
+      "liveDescription": "Early academics vs play-based pre-K.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Early childhood",
+      "sourceIds": [
+        "src-042",
+        "src-044",
+        "src-045",
+        "src-043"
+      ],
+      "initiativeSlugs": [
+        "head-start"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "college-for-all-vs-cte-career-pathways",
+      "entityId": "f95bcc9e6d254dbc8743c5131248b233",
+      "liveName": "Are students getting portable credentials, academic rigor, and real postsecondary options?",
+      "liveDescription": "College-for-all vs CTE/career pathways.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Pathways",
+      "sourceIds": [
+        "src-051",
+        "src-052",
+        "src-053"
+      ],
+      "initiativeSlugs": [
+        "career-academies",
+        "double-dose-algebra-chicago",
+        "national-guard-youth-challenge-program"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "small-schools-personalization-vs-comprehensive-breadth",
+      "entityId": "1b640bce81654f6f9de5ddac796ea6d2",
+      "liveName": "Which functions need smallness, and which can be shared across a larger system?",
+      "liveDescription": "Small schools/personalization vs comprehensive breadth.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "School design",
+      "sourceIds": [
+        "src-029",
+        "src-030"
+      ],
+      "initiativeSlugs": [
+        "private-school-vouchers-dc-and-louisiana-examples",
+        "talent-development-high-schools"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "data-driven-continuous-improvement-vs-big-bang-reform",
+      "entityId": "f23481529dfd4dea9f42d8f2a42b52d1",
+      "liveName": "What problem is narrow enough for CI, and when is structural redesign required?",
+      "liveDescription": "Data-driven continuous improvement vs big-bang reform.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Improvement",
+      "sourceIds": [
+        "src-031",
+        "src-032",
+        "src-006"
+      ],
+      "initiativeSlugs": [
+        "a-nation-at-risk-modern-standards-movement",
+        "principal-pipeline-initiative",
+        "early-warning-intervention-monitoring-system",
+        "21st-century-community-learning-centers",
+        "talent-development-high-schools"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "integration-desegregation-vs-neighborhood-local-control",
+      "entityId": "449846bac82a4735bfed599f517acbf2",
+      "liveName": "Which student outcomes count: achievement, opportunity, civic contact, safety, or legitimacy?",
+      "liveDescription": "Integration/desegregation vs neighborhood/local control.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Equity",
+      "sourceIds": [
+        "src-002"
+      ],
+      "initiativeSlugs": [
+        "private-school-vouchers-dc-and-louisiana-examples"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "tracking-acceleration-vs-detracking-inclusion",
+      "entityId": "e8844d6fb34c42038a91d45044dfd367",
+      "liveName": "How do schools preserve rigor and access while giving different students different supports?",
+      "liveDescription": "Tracking/acceleration vs detracking/inclusion.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Equity",
+      "sourceIds": [
+        "src-055",
+        "src-021",
+        "src-054"
+      ],
+      "initiativeSlugs": [
+        "reading-recovery",
+        "high-dosage-tutoring",
+        "saga-style-and-tech-infused-tutoring",
+        "generative-ai-tutoring-and-ai-school-pilots"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "bilingual-dual-language-vs-english-immersion",
+      "entityId": "7ca838f7ca754efb8df89e55bb1e42b4",
+      "liveName": "What is the time horizon, and are we measuring English-only achievement or biliteracy plus academics?",
+      "liveDescription": "Bilingual dual-language vs English immersion.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Language",
+      "sourceIds": [
+        "src-002"
+      ],
+      "initiativeSlugs": [
+        "a-nation-at-risk-modern-standards-movement",
+        "dual-language-immersion-programs"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "more-money-resources-vs-money-does-not-matter",
+      "entityId": "c544991c5bf14fa9a5a20b3543cf6ea3",
+      "liveName": "Which marginal dollars buy the highest-value inputs in this context?",
+      "liveDescription": "More money/resources vs 'money does not matter'.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "Finance",
+      "sourceIds": [
+        "src-056",
+        "src-041"
+      ],
+      "initiativeSlugs": [
+        "a-nation-at-risk-modern-standards-movement",
+        "community-eligibility-provision-universal-meals"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    },
+    {
+      "slug": "seat-time-vs-mastery",
+      "entityId": "e67fb8be0ca74c54a148ad318fefbadf",
+      "liveName": "What external outcomes verify mastery when internal grades are redesigned?",
+      "liveDescription": "Seat time vs mastery.",
+      "destinationSpaces": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "relations": [
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "4318a1d2c441455cb76544049c45e6cf",
+          "toEntity": {
+            "name": "Question",
+            "types": [
+              {
+                "id": "e7d737c536764c609fa16aa64a8c90ad",
+                "name": "Type"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceTopic": "School design",
+      "sourceIds": [
+        "src-030",
+        "src-002"
+      ],
+      "initiativeSlugs": [
+        "competency-based-mastery-based-learning"
+      ],
+      "review": "Relationships, synthesis, continuum and assessment fields require source-aware identity review; no edges are inferred by this report."
+    }
+  ]
+}

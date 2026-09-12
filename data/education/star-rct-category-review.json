@@ -1,0 +1,73 @@
+{
+  "data": {
+    "entity": {
+      "id": "82853715d57840fb93f79036e8acdad4",
+      "name": "Randomized controlled trial",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "relations": {
+        "nodes": [
+          {
+            "type": {
+              "id": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "name": "Types"
+            },
+            "toEntity": {
+              "id": "07d23153ead146268af89189abe0b6f3",
+              "name": "Study category"
+            },
+            "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "values": {
+        "nodes": [
+          {
+            "property": {
+              "id": "a126ca530c8e48d5b88882c734c38935",
+              "name": "Name"
+            },
+            "text": "Randomized controlled trial",
+            "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "relationsConnection": {
+      "nodes": [
+        {
+          "fromEntity": {
+            "id": "91673f38141848b3b42b34df376e5918",
+            "name": "Post-exercise cold water immersion attenuates acute anabolic signalling and long-term adaptations in muscle to strength training"
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "fromEntity": {
+            "id": "4347e98585a049bf83910e14aa270503",
+            "name": "Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans"
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "fromEntity": {
+            "id": "033b4004bb484625881cb2a8c48d579c",
+            "name": "The effect of cold showering on health and work: A randomized controlled trial"
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZWMxMzMwYTEtMjZjMC00NjQ5LThhMzQtNmMyZTI5NGNhZDIxIl1d"
+      }
+    }
+  }
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "04a4c7047b0b414b8920890c5ca2f8a0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Stanford Education Data Archive (SEDA), Version 6.0",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "SEDA provides harmonized U.S. achievement, growth, gap, and contextual data across education geographies. It is comparative context data, not evidence that an initiative caused an outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://edopportunity.org/opportunity/data/downloads/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "fc397c8fbbbf4d39b01b171ded7daeac"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "SEDA catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** Stanford Educational Opportunity Project.\n- **Access:** Public CSV and Stata downloads with codebooks.\n- **Unit:** Geographic education unit and student subgroup.\n- **Coverage:** Use the currently released Version 6 files and their technical documentation; the source key remains `seda-v5`, so retain that catalog-version discrepancy.\n- **Geography:** School, geographic and administrative district, county, metro area, commuting zone, and state.\n- **Join keys:** NCES-derived school/district identifiers where supplied, plus geographic codes.\n- **Uses:** Cross-state achievement, growth, gaps, and equity context.\n\nSEDA values need their release, aggregation level, population, measure, and comparison specified before use. They do not by themselves establish a program effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "af55d39e68eb434490394e73fe55de22"
+    },
+    "entity": {
+      "$bytes": "f6bc935ac4214b088e68e7b458c85943"
+    },
+    "from": {
+      "$bytes": "04a4c7047b0b414b8920890c5ca2f8a0"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09PE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3d19bcb78079434bbbd158ae07bf85f0"
+    },
+    "entity": {
+      "$bytes": "858885bf24e6479284d5058be07852d6"
+    },
+    "from": {
+      "$bytes": "fc397c8fbbbf4d39b01b171ded7daeac"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08GW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3266b8270c1642fe926e891648735a71"
+    },
+    "entity": {
+      "$bytes": "b18dc357f6fc48f8b6cfad76f410fa5b"
+    },
+    "from": {
+      "$bytes": "04a4c7047b0b414b8920890c5ca2f8a0"
+    },
+    "to": {
+      "$bytes": "fc397c8fbbbf4d39b01b171ded7daeac"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a074B"
+  }
+]

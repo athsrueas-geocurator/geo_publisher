@@ -1,0 +1,111 @@
+{
+  "term": "Perspective",
+  "checkedAt": "2026-09-11T20:09:21.492Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "0b1b78f419907c4114a75c8bc7df7634",
+      "name": "Perspective quote source",
+      "description": null,
+      "spaceIds": [
+        "f65885c9012be9a9201ddeb6e8c92b61"
+      ]
+    },
+    {
+      "id": "274d5439514bf792107d0cbc97729812",
+      "name": "Perspective confidence",
+      "description": null,
+      "spaceIds": [
+        "f65885c9012be9a9201ddeb6e8c92b61"
+      ]
+    },
+    {
+      "id": "44e87d75552dafc3e9fea69ea0f2adf2",
+      "name": "Perspective underweights",
+      "description": null,
+      "spaceIds": [
+        "f65885c9012be9a9201ddeb6e8c92b61"
+      ]
+    },
+    {
+      "id": "6bc2c1576b7ef085f33f0274fcea0d3a",
+      "name": "Perspective voices",
+      "description": null,
+      "spaceIds": [
+        "f65885c9012be9a9201ddeb6e8c92b61"
+      ]
+    },
+    {
+      "id": "6c1f0458b31b80d7ef1e5a277ab4962a",
+      "name": "Perspective strength",
+      "description": null,
+      "spaceIds": [
+        "f65885c9012be9a9201ddeb6e8c92b61"
+      ]
+    },
+    {
+      "id": "6e75a1eba9536d8b4d06404da4b3d8ac",
+      "name": "Perspective type",
+      "description": null,
+      "spaceIds": [
+        "f65885c9012be9a9201ddeb6e8c92b61"
+      ]
+    },
+    {
+      "id": "6eb868a9021db3c2ad3289857b48ac85",
+      "name": "Perspective weakness",
+      "description": null,
+      "spaceIds": [
+        "f65885c9012be9a9201ddeb6e8c92b61"
+      ]
+    },
+    {
+      "id": "7b93e18fec0724eb46852a3f14af16ea",
+      "name": "Perspective quote",
+      "description": null,
+      "spaceIds": [
+        "f65885c9012be9a9201ddeb6e8c92b61"
+      ]
+    },
+    {
+      "id": "8f637e6a629743c08eb9c49e971b2b54",
+      "name": "Perspectives",
+      "description": null,
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ]
+    },
+    {
+      "id": "d58006b3d9c954457c1dfac0699c95b9",
+      "name": "Perspective provenance",
+      "description": null,
+      "spaceIds": [
+        "f65885c9012be9a9201ddeb6e8c92b61"
+      ]
+    },
+    {
+      "id": "e211fbd94296f535c3c2275c45ca0161",
+      "name": "Perspective credentials",
+      "description": null,
+      "spaceIds": [
+        "f65885c9012be9a9201ddeb6e8c92b61"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNmMxZjA0NTgtYjMxYi04MGQ3LWVmMWUtNWEyNzdhYjQ5NjJhIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZDU4MDA2YjMtZDljOS01NDQ1LTdjMWQtZmFjMDY5OWM5NWI5Il1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTIxMWZiZDktNDI5Ni1mNTM1LWMzYzItMjc1YzQ1Y2EwMTYxIl1d"
+    }
+  ]
+}

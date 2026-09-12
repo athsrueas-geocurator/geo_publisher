@@ -1,0 +1,649 @@
+{
+  "checkedAt": "2026-09-11T22:16:10.464Z",
+  "scope": "Cross-space candidate identity/schema inspection; backlinks limited to five examples, not exhaustive",
+  "entities": {
+    "focusAreas": {
+      "entity": {
+        "id": "02d0b9117c4f119d4b986ded266d7028",
+        "name": "Focus areas",
+        "description": "What the program funds (safety, open source, applied research, etc.)",
+        "spaceIds": [
+          "d69608290513c2a91102c939b3265bd7"
+        ],
+        "types": [
+          {
+            "id": "808a04ceb21c4d888ad12e240613e5ca",
+            "name": "Property"
+          }
+        ],
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "What the program funds (safety, open source, applied research, etc.)",
+              "spaceId": "d69608290513c2a91102c939b3265bd7"
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Focus areas",
+              "spaceId": "d69608290513c2a91102c939b3265bd7"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+              "toEntity": {
+                "name": "Property",
+                "description": null
+              },
+              "spaceId": "d69608290513c2a91102c939b3265bd7"
+            },
+            {
+              "typeId": "6d29d57849bb4959baf72cc696b1671a",
+              "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+              "toEntity": {
+                "name": "Text",
+                "description": null
+              },
+              "spaceId": "d69608290513c2a91102c939b3265bd7"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "backlinks": {
+          "nodes": [
+            {
+              "type": {
+                "name": "Properties"
+              },
+              "fromEntity": {
+                "id": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+                "name": "Grant program"
+              },
+              "spaceId": "d69608290513c2a91102c939b3265bd7"
+            },
+            {
+              "type": {
+                "name": "Properties"
+              },
+              "fromEntity": {
+                "id": "e9ce285da592414abe72fd1bc1ea89e6",
+                "name": null
+              },
+              "spaceId": "41e851610e13a19441c4d980f2f2ce6b"
+            },
+            {
+              "type": {
+                "name": "Properties"
+              },
+              "fromEntity": {
+                "id": "16df0ec20b9c47ba9def066bd4357797",
+                "name": null
+              },
+              "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "property": {
+        "dataTypeName": "Text"
+      }
+    },
+    "topics": {
+      "entity": {
+        "id": "806d52bc27e94c9193c057978b093351",
+        "name": "Topics",
+        "description": "Topics connected to this entity.",
+        "spaceIds": [
+          "a19c345ab9866679b001d7d2138d88a1",
+          "c9f267dcb0d270718c2a3c45a64afd32"
+        ],
+        "types": [
+          {
+            "id": "808a04ceb21c4d888ad12e240613e5ca",
+            "name": "Property"
+          },
+          {
+            "id": "808a04ceb21c4d888ad12e240613e5ca",
+            "name": "Property"
+          },
+          {
+            "id": "808a04ceb21c4d888ad12e240613e5ca",
+            "name": "Property"
+          }
+        ],
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "Topics connected to this entity.",
+              "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Topics",
+              "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+            },
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Topics",
+              "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "6d29d57849bb4959baf72cc696b1671a",
+              "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+              "toEntity": {
+                "name": "Relation",
+                "description": null
+              },
+              "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+              "toEntity": {
+                "name": "Property",
+                "description": null
+              },
+              "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+            },
+            {
+              "typeId": "6d29d57849bb4959baf72cc696b1671a",
+              "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+              "toEntity": {
+                "name": "Text",
+                "description": null
+              },
+              "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+            },
+            {
+              "typeId": "6d29d57849bb4959baf72cc696b1671a",
+              "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+              "toEntity": {
+                "name": "Relation",
+                "description": null
+              },
+              "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+            },
+            {
+              "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+              "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+              "toEntity": {
+                "name": "Topic",
+                "description": "A general concept that can be used to group things of the same category together."
+              },
+              "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+              "toEntity": {
+                "name": "Property",
+                "description": null
+              },
+              "spaceId": "c9f267dcb0d270718c2a3c45a64afd32"
+            },
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+              "toEntity": {
+                "name": "Property",
+                "description": null
+              },
+              "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "backlinks": {
+          "nodes": [
+            {
+              "type": {
+                "name": "Properties"
+              },
+              "fromEntity": {
+                "id": "531ac4c5e40946ad9dd3abcd2db955a0",
+                "name": "Publisher"
+              },
+              "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+            },
+            {
+              "type": {
+                "name": "Properties"
+              },
+              "fromEntity": {
+                "id": "ed6e44701c87496babcc9e389d82fc0a",
+                "name": null
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            },
+            {
+              "type": {
+                "name": "Properties"
+              },
+              "fromEntity": {
+                "id": "770026e1682049a7b38921cfd18c5212",
+                "name": "Health screening instrument"
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            },
+            {
+              "type": {
+                "name": "Properties"
+              },
+              "fromEntity": {
+                "id": "756d6cb7f57f4eefa8a63fdd03859e3f",
+                "name": null
+              },
+              "spaceId": "41e851610e13a19441c4d980f2f2ce6b"
+            },
+            {
+              "type": {
+                "name": "Properties"
+              },
+              "fromEntity": {
+                "id": "e8bb83b79ef44d15986c259780801f13",
+                "name": null
+              },
+              "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      },
+      "property": {
+        "dataTypeName": "Relation"
+      }
+    },
+    "literacyEducation": {
+      "entity": {
+        "id": "5a86d2f3657b4b5baabef07a3393e408",
+        "name": "U.S. literacy education",
+        "description": null,
+        "spaceIds": [
+          "b5a31f8182b042437ede0f84ee02f104"
+        ],
+        "types": [
+          {
+            "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+            "name": "Topic"
+          }
+        ],
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "U.S. literacy education",
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+              "toEntity": {
+                "name": "Topic",
+                "description": "A general concept that can be used to group things of the same category together."
+              },
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "backlinks": {
+          "nodes": [
+            {
+              "type": {
+                "name": "Subtopics"
+              },
+              "fromEntity": {
+                "id": "8501560dfd884ecd849ce1fa4b2d1f88",
+                "name": "U.S. education policy"
+              },
+              "spaceId": "4582fbbee28a16589154f7e36f1ee3c5"
+            },
+            {
+              "type": {
+                "name": null
+              },
+              "fromEntity": {
+                "id": "0e10225f9329474ba2fbb1417d88eeca",
+                "name": "Education levels"
+              },
+              "spaceId": "4582fbbee28a16589154f7e36f1ee3c5"
+            },
+            {
+              "type": {
+                "name": "Subtopics"
+              },
+              "fromEntity": {
+                "id": "0e10225f9329474ba2fbb1417d88eeca",
+                "name": "Education levels"
+              },
+              "spaceId": "4582fbbee28a16589154f7e36f1ee3c5"
+            },
+            {
+              "type": {
+                "name": "Topics"
+              },
+              "fromEntity": {
+                "id": "a5443dfcbabc4e9587ec9b62da3a36e2",
+                "name": "Trump fires Kristi Noem."
+              },
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            },
+            {
+              "type": {
+                "name": null
+              },
+              "fromEntity": {
+                "id": "8501560dfd884ecd849ce1fa4b2d1f88",
+                "name": "U.S. education policy"
+              },
+              "spaceId": "4582fbbee28a16589154f7e36f1ee3c5"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "property": null
+    },
+    "coaches": {
+      "entity": {
+        "id": "06d0bc4860de4838a222c240a46fc8b0",
+        "name": "Literacy coaches",
+        "description": null,
+        "spaceIds": [
+          "b5a31f8182b042437ede0f84ee02f104"
+        ],
+        "types": [
+          {
+            "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+            "name": "Topic"
+          }
+        ],
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Literacy coaches",
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+              "toEntity": {
+                "name": "Topic",
+                "description": "A general concept that can be used to group things of the same category together."
+              },
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "backlinks": {
+          "nodes": [
+            {
+              "type": {
+                "name": "Subtopics"
+              },
+              "fromEntity": {
+                "id": "97f5a2ece58b4a9d9a02f7cf6c68c1fd",
+                "name": "Academic mentorship & advising"
+              },
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            },
+            {
+              "type": {
+                "name": "Topics"
+              },
+              "fromEntity": {
+                "id": "93b26518a5c34178a5ac3cb6c386c953",
+                "name": "The Miracle Unfolding in Mississippi Schools"
+              },
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            },
+            {
+              "type": {
+                "name": "Subtopics"
+              },
+              "fromEntity": {
+                "id": "7dc576abc71a4d889e06fe0c254e2ace",
+                "name": "Teaching & pedagogy"
+              },
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "property": null
+    },
+    "phonics": {
+      "entity": {
+        "id": "09d90bfac91545de8b218e03c026338f",
+        "name": "Phonics instruction",
+        "description": null,
+        "spaceIds": [
+          "b5a31f8182b042437ede0f84ee02f104"
+        ],
+        "types": [
+          {
+            "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+            "name": "Topic"
+          }
+        ],
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Phonics instruction",
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+              "toEntity": {
+                "name": "Topic",
+                "description": "A general concept that can be used to group things of the same category together."
+              },
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "backlinks": {
+          "nodes": [
+            {
+              "type": {
+                "name": "Subtopics"
+              },
+              "fromEntity": {
+                "id": "2e7d83743a31487e91a537c2a176b0be",
+                "name": "Learning"
+              },
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            },
+            {
+              "type": {
+                "name": "Topics"
+              },
+              "fromEntity": {
+                "id": "93b26518a5c34178a5ac3cb6c386c953",
+                "name": "The Miracle Unfolding in Mississippi Schools"
+              },
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            },
+            {
+              "type": {
+                "name": "Subtopics"
+              },
+              "fromEntity": {
+                "id": "7dc576abc71a4d889e06fe0c254e2ace",
+                "name": "Teaching & pedagogy"
+              },
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "property": null
+    },
+    "comprehension": {
+      "entity": {
+        "id": "5c028b0a8a484ee9ae29e07028a1e7d1",
+        "name": "Reading comprehension",
+        "description": null,
+        "spaceIds": [
+          "b5a31f8182b042437ede0f84ee02f104"
+        ],
+        "types": [
+          {
+            "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+            "name": "Topic"
+          }
+        ],
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Reading comprehension",
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "relations": {
+          "nodes": [
+            {
+              "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+              "toEntityId": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+              "toEntity": {
+                "name": "Topic",
+                "description": "A general concept that can be used to group things of the same category together."
+              },
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        },
+        "backlinks": {
+          "nodes": [
+            {
+              "type": {
+                "name": null
+              },
+              "fromEntity": {
+                "id": "0e10225f9329474ba2fbb1417d88eeca",
+                "name": "Education levels"
+              },
+              "spaceId": "4582fbbee28a16589154f7e36f1ee3c5"
+            },
+            {
+              "type": {
+                "name": "Topics"
+              },
+              "fromEntity": {
+                "id": "fc48978eb4024f79a5e89027993e1545",
+                "name": "PREVIEW: The Friday Edition. - Rebuilding a literate America."
+              },
+              "spaceId": "b5a31f8182b042437ede0f84ee02f104"
+            },
+            {
+              "type": {
+                "name": "Topics"
+              },
+              "fromEntity": {
+                "id": "03e5910d89f3456baf1a75be844942c9",
+                "name": "MS MARCO"
+              },
+              "spaceId": "941964642f4d3e70ef48f54a3915277d"
+            },
+            {
+              "type": {
+                "name": "Topics"
+              },
+              "fromEntity": {
+                "id": "0f0eae55440f4519b4eca9ec08590764",
+                "name": "AI21 Labs"
+              },
+              "spaceId": "41e851610e13a19441c4d980f2f2ce6b"
+            },
+            {
+              "type": {
+                "name": "Topics"
+              },
+              "fromEntity": {
+                "id": "d64bb2e0f5fc4068982d0bb5f10bbf2e",
+                "name": "TriviaQA"
+              },
+              "spaceId": "941964642f4d3e70ef48f54a3915277d"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      },
+      "property": null
+    }
+  }
+}

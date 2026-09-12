@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-09-12T00:09:26.328Z",
+  "batchName": "Identify the Reading First decoding estimate as a factual Claim",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 1,
+  "checks": [
+    {
+      "entityId": "09e38f2ef30241cb98a66ec75ac28c37",
+      "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

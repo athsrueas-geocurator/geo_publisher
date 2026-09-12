@@ -1,0 +1,822 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "65dc880374114767abafd1286c7e1835"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Among Black students in San Francisco’s ethnic-studies expansion, enrollment reduced any D/F by 10.4 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2 reports this subgroup two-way-fixed-effects estimate (school-clustered SE 0.021; N=1,335). It is not an overall district effect or a randomized estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-104"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "21"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1335"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point effect of ethnic-studies enrollment on any D/F among Black students in the balanced-panel expansion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2; p. 20.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b910f13930174753adc9c36da271d8e4"
+    },
+    "entity": {
+      "$bytes": "b228eb5c660144dca4b74743ef6cb869"
+    },
+    "from": {
+      "$bytes": "65dc880374114767abafd1286c7e1835"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06gv"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a563caaa586c49a4a7b8923772ec0d26"
+    },
+    "entity": {
+      "$bytes": "797ff9d3270c4adeaa4b94a67853e01b"
+    },
+    "from": {
+      "$bytes": "65dc880374114767abafd1286c7e1835"
+    },
+    "to": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06IP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ec617ecbd3484df98cc9fbfa74e3a345"
+    },
+    "entity": {
+      "$bytes": "f5ff9309544f404594ca5120dd5f2d14"
+    },
+    "from": {
+      "$bytes": "65dc880374114767abafd1286c7e1835"
+    },
+    "to": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03pj"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5c98c41d952c4b4ba8faba59acc7f767"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Among Latine students in San Francisco’s ethnic-studies expansion, enrollment increased GPA by 0.248 grade points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2 reports this subgroup two-way-fixed-effects estimate (school-clustered SE 0.046; N=4,904). It is specific to the paper’s balanced-panel definition.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "248"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "46"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "4904"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Grade-point effect of ethnic-studies enrollment on GPA among Latine students in the balanced-panel expansion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2; p. 20.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7c505b76d0914432bf9008841dbea6f5"
+    },
+    "entity": {
+      "$bytes": "58673a06937e41db873b5e9a354ab087"
+    },
+    "from": {
+      "$bytes": "5c98c41d952c4b4ba8faba59acc7f767"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Ani"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "845d341e8cd4417e87e7faf55ac8a0e3"
+    },
+    "entity": {
+      "$bytes": "401dd896d9464416bf3424a61b52a649"
+    },
+    "from": {
+      "$bytes": "5c98c41d952c4b4ba8faba59acc7f767"
+    },
+    "to": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0AEM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5dd59d55618245108f1161bde1b46ed3"
+    },
+    "entity": {
+      "$bytes": "3da3a236940447939968cb88df886f93"
+    },
+    "from": {
+      "$bytes": "5c98c41d952c4b4ba8faba59acc7f767"
+    },
+    "to": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08pk"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b45fd0512e97455d83f49c9ff922704c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Among Latine students in San Francisco’s ethnic-studies expansion, enrollment reduced any D/F by 11.7 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2 reports this subgroup two-way-fixed-effects estimate (school-clustered SE 0.023; N=4,904). It is an enrollment estimate under the authors’ observational design.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-117"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "23"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "4904"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point effect of ethnic-studies enrollment on any D/F among Latine students in the balanced-panel expansion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2; p. 20.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8bacafd3dadd4aeaa153b3499b1c8206"
+    },
+    "entity": {
+      "$bytes": "d51d7df89f3843d198930d677c4b9b7d"
+    },
+    "from": {
+      "$bytes": "b45fd0512e97455d83f49c9ff922704c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08uK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7967e557a70441eab47bf2fbe05ec2f0"
+    },
+    "entity": {
+      "$bytes": "633b8ab0c889459cb56ecd9b42988fde"
+    },
+    "from": {
+      "$bytes": "b45fd0512e97455d83f49c9ff922704c"
+    },
+    "to": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08Ls"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5b2a7a6e44c6427ab09b2b186117cda6"
+    },
+    "entity": {
+      "$bytes": "d2b6952042524ffeab36c787af33d92c"
+    },
+    "from": {
+      "$bytes": "b45fd0512e97455d83f49c9ff922704c"
+    },
+    "to": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06zK"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "63b9ff02031446a7950ad52118860a9d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Among male students in San Francisco’s ethnic-studies expansion, enrollment increased GPA by 0.192 grade points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2 reports this subgroup two-way-fixed-effects estimate (school-clustered SE 0.044; N=12,345). It does not establish an identical effect for every implementation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "192"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "44"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "12345"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Grade-point effect of ethnic-studies enrollment on GPA among male students in the balanced-panel expansion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2; p. 20.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "feed01069e1044e99fd14e829f22887a"
+    },
+    "entity": {
+      "$bytes": "3e40a24f588f457eae31772cd6a0a0fe"
+    },
+    "from": {
+      "$bytes": "63b9ff02031446a7950ad52118860a9d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08Cu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "31fba46e29e041ae90f1734a4162aad1"
+    },
+    "entity": {
+      "$bytes": "6a61340517f644c9a6f4f4e21a81b439"
+    },
+    "from": {
+      "$bytes": "63b9ff02031446a7950ad52118860a9d"
+    },
+    "to": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02bc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cfa7671107db4218a75947c91c72a7a5"
+    },
+    "entity": {
+      "$bytes": "0bd19f2bd4e342bca87bd525f7910d60"
+    },
+    "from": {
+      "$bytes": "63b9ff02031446a7950ad52118860a9d"
+    },
+    "to": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a020G"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "36bf502e5c3f40d78102acf0856b9ce7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Among male students in San Francisco’s ethnic-studies expansion, enrollment reduced any D/F by 6.8 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2 reports this subgroup two-way-fixed-effects estimate (school-clustered SE 0.017; N=12,345). Course failure means receiving a D or F during the school year.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-68"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "17"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "12345"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point effect of ethnic-studies enrollment on any D/F among male students in the balanced-panel expansion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 2; p. 20.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1b7e536c1c2c4d51b0547d771119466d"
+    },
+    "entity": {
+      "$bytes": "64b53b4a592546c095aee704efe9da90"
+    },
+    "from": {
+      "$bytes": "36bf502e5c3f40d78102acf0856b9ce7"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02CB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8bdaa86ca84f406cb4be5230c965d486"
+    },
+    "entity": {
+      "$bytes": "046547daae444683a69791ab8a20a9a2"
+    },
+    "from": {
+      "$bytes": "36bf502e5c3f40d78102acf0856b9ce7"
+    },
+    "to": {
+      "$bytes": "4c5094291f7340f7b3ba8adca9a25b5c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06jZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1f7cf3cfbe5e49be878bd65c09a058f6"
+    },
+    "entity": {
+      "$bytes": "5d26107c93384d61ae1cb3601d18bfc2"
+    },
+    "from": {
+      "$bytes": "36bf502e5c3f40d78102acf0856b9ce7"
+    },
+    "to": {
+      "$bytes": "c03236fd3748407f9e8828d2306ad8a4"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00Pl"
+  }
+]

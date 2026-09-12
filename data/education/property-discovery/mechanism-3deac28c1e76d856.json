@@ -1,0 +1,111 @@
+{
+  "term": "mechanism",
+  "checkedAt": "2026-09-11T21:42:48.901Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "25956180d899d7d4c3491370ee380e97",
+      "name": "Mechanism of action",
+      "description": "How the drug works — target and effect",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "302a912e2cec4a24a381469b5bc7dac8",
+      "name": "Resistance Mechanism",
+      "description": null,
+      "spaceIds": [
+        "19f11bc6f1a62ac434936af814d1f8b5"
+      ]
+    },
+    {
+      "id": "5616eeec21234220709a9a2a16b9d39b",
+      "name": "Opt out mechanism",
+      "description": "AI Music ontology field for opt_out_mechanism; data type controlled vocabulary; vocabulary OptOutMechanism; cardinality one; publish policy facet_or_required_when_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "56b8b5b7d4704f0e85b4d5940e4c2eb9",
+      "name": "Dissolution mechanism",
+      "description": null,
+      "spaceIds": [
+        "0c747ad3af58ed6b27221a256498068e"
+      ]
+    },
+    {
+      "id": "5ec776480d7844c3a3b3d813115ed61a",
+      "name": "Mechanism of harm",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "6513f27fca7e4f928ede1019b0cec1fe",
+      "name": "Establishment mechanism",
+      "description": null,
+      "spaceIds": [
+        "0c747ad3af58ed6b27221a256498068e"
+      ]
+    },
+    {
+      "id": "6face9cf54a640c3abbb585ef0cb9127",
+      "name": "Privacy mechanism",
+      "description": "The privacy technique a token uses.",
+      "spaceIds": [
+        "c9f267dcb0d270718c2a3c45a64afd32"
+      ]
+    },
+    {
+      "id": "727f774cfbc9245f88775869c2d1643b",
+      "name": "Has Mechanism",
+      "description": "Psychedelic Research relation: has mechanism.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    },
+    {
+      "id": "cbd521c3e88f405d9ab89bf1ab354d99",
+      "name": "Disease mechanisms",
+      "description": "Processes and interactions that drive the development and progression of disease, including molecular, cellular, and systemic pathways.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "cdf369eedb8b4d09a779737cdb273ea1",
+      "name": "Mechanism of hormone action",
+      "description": "Molecular and cellular pathway through which the hormone exerts its effects",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "d0c4399a1d972aa8fdf14229eab51126",
+      "name": "Governance mechanism",
+      "description": "Governance mechanism represented by a topic, claim, project, or paper.",
+      "spaceIds": [
+        "8a4955bcd9d0fc0d8613f17f01de3b9f"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNWVjNzc2NDgtMGQ3OC00NGMzLWEzYjMtZDgxMzExNWVkNjFhIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiY2RmMzY5ZWUtZGI4Yi00ZDA5LWE3NzktNzM3Y2RiMjczZWExIl1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZDBjNDM5OWEtMWQ5Ny0yYWE4LWZkZjEtNDIyOWVhYjUxMTI2Il1d"
+    }
+  ]
+}

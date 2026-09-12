@@ -1,0 +1,272 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3e4404bac6e842b598e0b0a809a4928f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Third Grade Follow-up to the Head Start Impact Study (HSIS), United States, 2007-2008",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "ICPSR’s archive for the Head Start third-grade follow-up. Documentation is public; some analytic data files require a restricted-data agreement to protect respondent privacy.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.3886/ICPSR35003.v2",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.childandfamilydataarchive.org/cfda/archives/cfda/studies/35003",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "71188de963cf467483889eda343568fc"
+    },
+    "entity": {
+      "$bytes": "5cf66ea3b99f4b5caa97ecf0c4e07e3a"
+    },
+    "from": {
+      "$bytes": "3e4404bac6e842b598e0b0a809a4928f"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04UD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "817e9d0ecbf348d9b519b73d5b8c20d9"
+    },
+    "entity": {
+      "$bytes": "502928c88a1f41ef8f3f306151ab3a93"
+    },
+    "from": {
+      "$bytes": "3e4404bac6e842b598e0b0a809a4928f"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Ba9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f7845dd79181449a83fbee3dca3579e4"
+    },
+    "entity": {
+      "$bytes": "55c5a2ecd4fc417188dc417e50943c6f"
+    },
+    "from": {
+      "$bytes": "3e4404bac6e842b598e0b0a809a4928f"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a042O"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "17c15c34c1554ba193eb6d1ad67a9d0d"
+    },
+    "entity": {
+      "$bytes": "0ac3ae067e9549fba2c32822f652a8ff"
+    },
+    "from": {
+      "$bytes": "3e4404bac6e842b598e0b0a809a4928f"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a03Rw"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b63ab84606664cbfae0bd503922beff9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The ICPSR Head Start third-grade archive provides public documentation, while some data files require a restricted-data agreement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The archive separates public-use documentation from protected files. This is a data-access statement, not permission to republish microdata or a claim that every file is openly downloadable.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "29b7182415d54e2c94e03fbea9f9bd9c"
+    },
+    "entity": {
+      "$bytes": "94e8d13b351a4347af2cd8f4d188e042"
+    },
+    "from": {
+      "$bytes": "b63ab84606664cbfae0bd503922beff9"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00M7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3f5b49569a5a4e4d87e78cc1f60cc110"
+    },
+    "entity": {
+      "$bytes": "33e8e260d9234f3b9d2aa4daf3a145c4"
+    },
+    "from": {
+      "$bytes": "b63ab84606664cbfae0bd503922beff9"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a049o"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "402958bf44a04ef99b00093a7bc4d855"
+    },
+    "entity": {
+      "$bytes": "8550c6bd742041d69a480ef7d5809045"
+    },
+    "from": {
+      "$bytes": "b63ab84606664cbfae0bd503922beff9"
+    },
+    "to": {
+      "$bytes": "3e4404bac6e842b598e0b0a809a4928f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05jD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a350221d70a744e0a811668bae74ac0b"
+    },
+    "entity": {
+      "$bytes": "ec2e0db188c94121829a533320b6263c"
+    },
+    "from": {
+      "$bytes": "b63ab84606664cbfae0bd503922beff9"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a038q"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "228550304a9449068de6626380f20e1d"
+    },
+    "entity": {
+      "$bytes": "ed2f871a77f349f39950e8563eabc1cd"
+    },
+    "from": {
+      "$bytes": "b63ab84606664cbfae0bd503922beff9"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a0AX7"
+  }
+]

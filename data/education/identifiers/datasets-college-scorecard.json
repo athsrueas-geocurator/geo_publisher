@@ -1,0 +1,32 @@
+{
+  "sourceKey": "datasets/college-scorecard",
+  "checkedAt": "2026-09-11T17:56:29.794Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://collegescorecard.ed.gov/data/",
+      "needle": "collegescorecard.ed.gov/data",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    },
+    {
+      "url": "https://api.data.gov/ed/collegescorecard/",
+      "needle": "api.data.gov/ed/collegescorecard",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

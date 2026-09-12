@@ -1,0 +1,371 @@
+{
+  "checkedAt": "2026-09-11T22:46:24.941Z",
+  "properties": [
+    {
+      "id": "6ba2ce00db064687b108aa8449672886",
+      "property": {
+        "dataTypeName": "Decimal"
+      },
+      "entity": {
+        "name": "Cost amount",
+        "description": "Reported monetary cost; requires currency, denominator, period and cost-accounting context."
+      }
+    },
+    {
+      "id": "f9d6085e34014562aae4021009f5f390",
+      "property": {
+        "dataTypeName": "Decimal"
+      },
+      "entity": {
+        "name": "Real discount rate",
+        "description": "Annual inflation-adjusted discount rate as a fraction; 0.04 means 4%."
+      }
+    },
+    {
+      "id": "97e14050fc49467bb3aaf4d7eccbbb69",
+      "property": {
+        "dataTypeName": "Integer"
+      },
+      "entity": {
+        "name": "Price year",
+        "description": "Currency purchasing-power base year. Missing means unverified, not the trial year."
+      }
+    },
+    {
+      "id": "6e7371ca96cb44348f16932f77f55e75",
+      "property": {
+        "dataTypeName": "Text"
+      },
+      "entity": {
+        "name": "Currency code",
+        "description": "ISO 4217 three-letter currency code."
+      }
+    },
+    {
+      "id": "3a558d71454745a992c035040f648729",
+      "property": {
+        "dataTypeName": "Text"
+      },
+      "entity": {
+        "name": "Cost denominator",
+        "description": "Unit of delivery or population to which the cost amount applies."
+      }
+    },
+    {
+      "id": "84dacbddca6a44079edb5e11a4c66b40",
+      "property": {
+        "dataTypeName": "Text"
+      },
+      "entity": {
+        "name": "Source table",
+        "description": "Table, panel and printed page locating this observation in its linked source."
+      }
+    },
+    {
+      "id": "ba643714da274c37a340a7f8396198dc",
+      "property": {
+        "dataTypeName": "Text"
+      },
+      "entity": {
+        "name": "Estimand",
+        "description": "Quantity targeted by the estimator, such as intention-to-treat or treatment-on-the-treated."
+      }
+    },
+    {
+      "id": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "property": {
+        "dataTypeName": "Text"
+      },
+      "entity": {
+        "name": "Markdown content",
+        "description": null
+      }
+    },
+    {
+      "id": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "property": {
+        "dataTypeName": "Relation"
+      },
+      "entity": {
+        "name": "Types",
+        "description": null
+      }
+    },
+    {
+      "id": "beaba5cba67741a8b35377030613fc70",
+      "property": {
+        "dataTypeName": "Relation"
+      },
+      "entity": {
+        "name": "Blocks",
+        "description": null
+      }
+    },
+    {
+      "id": "01412f8381894ab1836565c7fd358cc1",
+      "property": {
+        "dataTypeName": "Relation"
+      },
+      "entity": {
+        "name": "Properties",
+        "description": null
+      }
+    },
+    {
+      "id": "1907fd1c81114a3ca378b1f353425b65",
+      "property": {
+        "dataTypeName": "Relation"
+      },
+      "entity": {
+        "name": "View",
+        "description": null
+      }
+    },
+    {
+      "id": "1f69cc9880d444abad493df6a7b15ee4",
+      "property": {
+        "dataTypeName": "Relation"
+      },
+      "entity": {
+        "name": "Data source type",
+        "description": null
+      }
+    },
+    {
+      "id": "a99f9ce12ffa4dac8c61f6310d46064a",
+      "property": {
+        "dataTypeName": "Relation"
+      },
+      "entity": {
+        "name": "Collection item",
+        "description": null
+      }
+    },
+    {
+      "id": "d66cd445e09a41809af46d86f083b41c",
+      "property": {
+        "dataTypeName": "Relation"
+      },
+      "entity": {
+        "name": "Dataset entries",
+        "description": "Entries belonging to a structured dataset; preserve the order on each relation."
+      }
+    },
+    {
+      "id": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "property": {
+        "dataTypeName": "Relation"
+      },
+      "entity": {
+        "name": "Sources",
+        "description": "Scientific papers that document, describe, or provide evidence for this entity - the scholarly references that anchor it to peer-reviewed research."
+      }
+    },
+    {
+      "id": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "property": {
+        "dataTypeName": "Relation"
+      },
+      "entity": {
+        "name": "Related entities",
+        "description": "Other entities meaningfully connected to this one, such as people, events, places, topics, products, findings, or any subject it relates to. Captures broader associations that don't fit the type's dedicated relation properties, giving readers a path to wider context."
+      }
+    }
+  ],
+  "identities": [
+    {
+      "name": "School-finance reforms: author-reported illustrative present cost (2016)",
+      "entitiesConnection": {
+        "nodes": [],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "name": "School-finance reforms: cost illustration and reproduction limits",
+      "entitiesConnection": {
+        "nodes": [],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "name": "School-finance reforms: reported illustrative cost",
+      "entitiesConnection": {
+        "nodes": [],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    }
+  ],
+  "claim": {
+    "entity": {
+      "name": "Claim",
+      "description": "A specific assertion about a fact, event, person, idea, policy, or outcome that can be supported with evidence or challenged by counter-arguments. Claims connect to the quotes that back them, the sources they cite, the people and topics they involve, and the supporting or opposing arguments raised about them.",
+      "types": [
+        {
+          "id": "522de6b3580b40e3afd02a5fb2512765"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad"
+        }
+      ],
+      "relations": {
+        "nodes": [
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "806d52bc27e94c9193c057978b093351"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "1dc6a843458848198e7a6e672268f811"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "5b722cd361d6494e88871310566437ba"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "257090341ba5406f94e4d4af90042fba"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "c57de77c3eee4e7ba0d2258d18aab11c"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "5df8e4329cc54f038f854ac82e157ada"
+          },
+          {
+            "typeId": "4d9cba1c4766469881cd3273891a018b",
+            "toEntityId": "c2ee7d9196c444de926e789de2c61230"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "d19fad5651364a7f8309daf5c7bf99dd"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "5df8e4329cc54f038f854ac82e157ada"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "d19fad5651364a7f8309daf5c7bf99dd"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "95d770021faf4f7cb7deb21a7d48cda0"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "806d52bc27e94c9193c057978b093351"
+          },
+          {
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "toEntityId": "defe27cbf7ae454a82b9e2ddd2111d69"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "49c5d5e1679a4dbdbfd33f618f227c94"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "ee6ed04a167f49a6bdc732bbeef8fb48"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "f9eeaf9d9eb741b1ac5d257c6e82e526"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "806d52bc27e94c9193c057978b093351"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "6b57bd23b7324ae0a1671658768df9ad"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "c57de77c3eee4e7ba0d2258d18aab11c"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "fdc2bbce2b994efda9b33cd01c284bb9"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "f5d68116923c49b8832a0e94a50ce80a"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "49c5d5e1679a4dbdbfd33f618f227c94"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+          },
+          {
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "toEntityId": "defe27cbf7ae454a82b9e2ddd2111d69"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "5df8e4329cc54f038f854ac82e157ada"
+          },
+          {
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "toEntityId": "fb2c1f6a50d4490c96f0c936982b7e62"
+          },
+          {
+            "typeId": "1bb88a7a6b29406496503992a3009e7a",
+            "toEntityId": "882c92dabc774aa78e56933754ef7cb8"
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "5b722cd361d6494e88871310566437ba"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": true
+        }
+      }
+    }
+  },
+  "sourceCost": {
+    "entitiesConnection": {
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  }
+}

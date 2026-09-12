@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-09-12T05:04:20.042Z",
+  "batchName": "Add Youth ChalleNGe modeled internal rate of return",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 1,
+  "checks": [
+    {
+      "entityId": "1387520fa32c42d1bd1d4464d5c91b12",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "1387520fa32c42d1bd1d4464d5c91b12",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "1387520fa32c42d1bd1d4464d5c91b12",
+      "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+      "pass": true
+    },
+    {
+      "entityId": "1387520fa32c42d1bd1d4464d5c91b12",
+      "propertyId": "879d207046024b44be6e3d64c32c60da",
+      "pass": true
+    },
+    {
+      "relationId": "66df79baba4e4627ae06a0772a0b94a1",
+      "pass": true
+    },
+    {
+      "relationId": "d783efcdc2e5435a8f7b4e34496e6924",
+      "pass": true
+    },
+    {
+      "relationId": "112df5a4a091495eb4f47e9c16bcfc7e",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

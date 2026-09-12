@@ -1,0 +1,61 @@
+{
+  "term": "cost",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:38.701Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "15939cb3a073455794ff9df31cfb147b",
+      "name": "Cost",
+      "description": null,
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "types": [
+        {
+          "id": "a4fa26b57a4b41559d5cd571519fe527",
+          "name": "Answer"
+        }
+      ]
+    },
+    {
+      "id": "c880962a1eb747859f9244300b29b5b8",
+      "name": "Cost",
+      "description": null,
+      "spaceIds": [
+        "89bd89bf28ff8a0963faf92a8c905e20"
+      ],
+      "types": []
+    },
+    {
+      "id": "ccc1fd2a894945b6907d34bf4c7d851b",
+      "name": "Cost",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "6c6934d9456d4882b0269524e062d03e",
+          "name": null
+        }
+      ]
+    },
+    {
+      "id": "fc6975f946f144ec915eb7f2501b4563",
+      "name": "Cost",
+      "description": null,
+      "spaceIds": [
+        "89bd89bf28ff8a0963faf92a8c905e20"
+      ],
+      "types": []
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmM2OTc1ZjktNDZmMS00NGVjLTkxNWUtYjdmMjUwMWI0NTYzIl1d"
+    }
+  ]
+}

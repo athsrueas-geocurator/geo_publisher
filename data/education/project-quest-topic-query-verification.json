@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-09-12T06:09:51.975Z",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "initiative": "f557a1af0d3846ca8beaec99f30b6e1c",
+  "relation": "806d52bc27e94c9193c057978b093351",
+  "expected": [
+    "767bf4fd04b54a0fb7cb11f3ec31b52f",
+    "e81e7330b8904938812c02330533738c"
+  ],
+  "actual": [
+    "767bf4fd04b54a0fb7cb11f3ec31b52f",
+    "e81e7330b8904938812c02330533738c"
+  ],
+  "rows": [
+    {
+      "typeId": "806d52bc27e94c9193c057978b093351",
+      "toEntityId": "e81e7330b8904938812c02330533738c",
+      "toEntity": {
+        "name": "Workforce training",
+        "types": [
+          {
+            "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+            "name": "Topic"
+          }
+        ]
+      }
+    },
+    {
+      "typeId": "806d52bc27e94c9193c057978b093351",
+      "toEntityId": "767bf4fd04b54a0fb7cb11f3ec31b52f",
+      "toEntity": {
+        "name": "Workforce development",
+        "types": [
+          {
+            "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+            "name": "Topic"
+          }
+        ]
+      }
+    }
+  ],
+  "checks": {
+    "initiativeName": true,
+    "completePage": true,
+    "exactTopicSet": true,
+    "topicTypes": true
+  }
+}

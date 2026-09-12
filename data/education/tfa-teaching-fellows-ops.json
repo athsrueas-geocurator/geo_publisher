@@ -1,0 +1,1203 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "43083998d74b4f5bbf49ac3f3354e74e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The Effectiveness of Secondary Math Teachers from Teach For America and the Teaching Fellows Programs",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A large-scale randomized evaluation of secondary math teachers from Teach For America and Teaching Fellows programs.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://ies.ed.gov/use-work/resource-library/report/evaluation-report/effectiveness-secondary-math-teachers-teach-america-and-teaching-fellows-programs",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b7582246bc5f4b2fa5fc3eb15649335c"
+    },
+    "entity": {
+      "$bytes": "6ca4a598217f4665b5480b553e989a35"
+    },
+    "from": {
+      "$bytes": "43083998d74b4f5bbf49ac3f3354e74e"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BL7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "743632b3929c40eba49c57d86401dbef"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teach For America and alternate-route pipelines",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Selective alternative-certification pathways for secondary math teachers, evaluated separately against other teachers in the same courses and schools.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://ies.ed.gov/use-work/resource-library/report/evaluation-report/effectiveness-secondary-math-teachers-teach-america-and-teaching-fellows-programs",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "908057028f614169a01050e814784323"
+    },
+    "entity": {
+      "$bytes": "363e4d0e6cb64a4f8f607d4cd08a00dc"
+    },
+    "from": {
+      "$bytes": "743632b3929c40eba49c57d86401dbef"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03vw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3fc2469b72c94fe890e2031ae2d3e633"
+    },
+    "entity": {
+      "$bytes": "2e03d6160d1240e089cecef53ee94682"
+    },
+    "from": {
+      "$bytes": "743632b3929c40eba49c57d86401dbef"
+    },
+    "to": {
+      "$bytes": "43083998d74b4f5bbf49ac3f3354e74e"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a054i"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "52085325398843379ceff67410438a95"
+    },
+    "entity": {
+      "$bytes": "a29304f1fc9441d4889ddf5d0cc4c8e5"
+    },
+    "from": {
+      "$bytes": "743632b3929c40eba49c57d86401dbef"
+    },
+    "to": {
+      "$bytes": "43083998d74b4f5bbf49ac3f3354e74e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00Bb"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "78f60547ae1c43248aa970bf5e43ab4b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Students assigned to Teach For America teachers scored 0.07 SD higher in secondary math than comparison students.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The randomized comparison reports p=0.000, with 2,292 TFA-assigned and 2,281 comparison students across 111 classroom matches. It does not compare TFA directly with Teaching Fellows.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "4573"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score treatment-control impact on end-of-year secondary math achievement; TFA versus other teachers in the same courses and schools.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V.1; p. 56.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .000",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a70e6b688ee6459fbb18da41a00c3b3f"
+    },
+    "entity": {
+      "$bytes": "c207a63dcedb45829fa3caa4e5563358"
+    },
+    "from": {
+      "$bytes": "78f60547ae1c43248aa970bf5e43ab4b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04u9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "df170ac7eb2c4d5ca0e7b63e29a713b1"
+    },
+    "entity": {
+      "$bytes": "b654c520990f4cd6935c098476546c56"
+    },
+    "from": {
+      "$bytes": "78f60547ae1c43248aa970bf5e43ab4b"
+    },
+    "to": {
+      "$bytes": "43083998d74b4f5bbf49ac3f3354e74e"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01kN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "06c784e348bc43e8ab3cc71b8b58d36e"
+    },
+    "entity": {
+      "$bytes": "960617c2647f4741a5bbf6987f9b26ce"
+    },
+    "from": {
+      "$bytes": "78f60547ae1c43248aa970bf5e43ab4b"
+    },
+    "to": {
+      "$bytes": "743632b3929c40eba49c57d86401dbef"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09pr"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2884a49085ee49caa8d2d916c7cd1dfe"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Students assigned to Teaching Fellows teachers had a 0.00 SD average secondary-math difference from comparison students.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The randomized comparison reports p=0.956, with 2,127 Teaching-Fellows-assigned and 1,989 comparison students across 118 classroom matches. This null estimate does not prove zero effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "0"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "4116"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score treatment-control impact on end-of-year secondary math achievement; Teaching Fellows versus other teachers in the same courses and schools.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table VIII.1; p. 92.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .956",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eaa3efa35a8a430b9b909d94f3ab5692"
+    },
+    "entity": {
+      "$bytes": "1afb79ce3ed64a0faeb885e8defe724b"
+    },
+    "from": {
+      "$bytes": "2884a49085ee49caa8d2d916c7cd1dfe"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a043J"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ba02a7f7920d4d7fb79c73643a9fe29a"
+    },
+    "entity": {
+      "$bytes": "4f49fe83c5b64b2696d7464e3a1c0f0e"
+    },
+    "from": {
+      "$bytes": "2884a49085ee49caa8d2d916c7cd1dfe"
+    },
+    "to": {
+      "$bytes": "43083998d74b4f5bbf49ac3f3354e74e"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02qU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "75dc82f5f9e8479589a0b75238afecd6"
+    },
+    "entity": {
+      "$bytes": "a5af804263ac4f379102f2c6707324ed"
+    },
+    "from": {
+      "$bytes": "2884a49085ee49caa8d2d916c7cd1dfe"
+    },
+    "to": {
+      "$bytes": "743632b3929c40eba49c57d86401dbef"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0AHs"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ae115caedc1d40079cb88cdc680c71c8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teaching Fellows teachers had a 0.03 SD secondary-math difference from similarly experienced comparison teachers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The experience-restricted randomized comparison reports p=0.399, with 661 Teaching-Fellows-assigned and 622 comparison students. This null estimate does not prove zero effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1283"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score treatment-control impact on end-of-year secondary math achievement; Teaching Fellows versus comparison teachers within two years of teaching experience.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table VIII.2; p. 97.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .399",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f13d2030d1064e46a57cd41e82dea88e"
+    },
+    "entity": {
+      "$bytes": "7e6efd837dbc49609cc35e42012b997f"
+    },
+    "from": {
+      "$bytes": "ae115caedc1d40079cb88cdc680c71c8"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03yo"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7e6f43331ea54058b75bb5a25017dd6a"
+    },
+    "entity": {
+      "$bytes": "5c5b08a28f6c4807afc39fa941bb30a9"
+    },
+    "from": {
+      "$bytes": "ae115caedc1d40079cb88cdc680c71c8"
+    },
+    "to": {
+      "$bytes": "43083998d74b4f5bbf49ac3f3354e74e"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Ber"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f2848dfb9594461dbe48dd714b34e810"
+    },
+    "entity": {
+      "$bytes": "749e95afd8754b9ea7a548eda5e573f6"
+    },
+    "from": {
+      "$bytes": "ae115caedc1d40079cb88cdc680c71c8"
+    },
+    "to": {
+      "$bytes": "743632b3929c40eba49c57d86401dbef"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02uq"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3cd1756352a94517a0da95670c307f72"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teach For America teachers had a 0.09 SD secondary-math advantage over traditionally certified comparison teachers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report marks this Figure ES.1 subgroup estimate significant after multiple-hypothesis adjustment. It overlaps the overall TFA comparison and has no exact p value in the figure.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "9"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score difference in secondary math; TFA versus traditionally certified comparison teachers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure ES.1; executive summary, p. xxvi.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c6768a247650484393a05601c5cde428"
+    },
+    "entity": {
+      "$bytes": "11d649fe588342aca0e604a4257b50c1"
+    },
+    "from": {
+      "$bytes": "3cd1756352a94517a0da95670c307f72"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04sx"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f9c6f2ac435445fdb07543873c664940"
+    },
+    "entity": {
+      "$bytes": "c9a5d4e490484827ba55239c3de1ca24"
+    },
+    "from": {
+      "$bytes": "3cd1756352a94517a0da95670c307f72"
+    },
+    "to": {
+      "$bytes": "43083998d74b4f5bbf49ac3f3354e74e"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a069p"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2082f4eeedaa481bb27ccc6fbd4a5b6b"
+    },
+    "entity": {
+      "$bytes": "0d64f9c17f32421f9b72a137573720b2"
+    },
+    "from": {
+      "$bytes": "3cd1756352a94517a0da95670c307f72"
+    },
+    "to": {
+      "$bytes": "743632b3929c40eba49c57d86401dbef"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BDD"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "142e98c7820d43c48654cb679f04309f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teach For America teachers had a 0.06 SD secondary-math advantage over less-selective alternative-route comparison teachers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report marks this Figure ES.1 subgroup estimate significant after multiple-hypothesis adjustment. It overlaps the overall TFA comparison and has no exact p value in the figure.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "6"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score difference in secondary math; TFA versus less-selective alternative-route comparison teachers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure ES.1; executive summary, p. xxvi.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5e159efec3874a0ba14ca9009e04b867"
+    },
+    "entity": {
+      "$bytes": "f54542c5710949c7b453fc928c3b8be9"
+    },
+    "from": {
+      "$bytes": "142e98c7820d43c48654cb679f04309f"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01iZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1633226623784c4a8ee174e33eab400f"
+    },
+    "entity": {
+      "$bytes": "d97534eed4e54f9fb7a6c8a94bb058ad"
+    },
+    "from": {
+      "$bytes": "142e98c7820d43c48654cb679f04309f"
+    },
+    "to": {
+      "$bytes": "43083998d74b4f5bbf49ac3f3354e74e"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a027P"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "018c4afef86c40d2bebb604a28bb7e65"
+    },
+    "entity": {
+      "$bytes": "bd03b3c7a30c448fb87a78b19e86b9d0"
+    },
+    "from": {
+      "$bytes": "142e98c7820d43c48654cb679f04309f"
+    },
+    "to": {
+      "$bytes": "743632b3929c40eba49c57d86401dbef"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00ro"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d7993ccda23842c6976de0dc7abe47a6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teaching Fellows teachers had a 0.00 SD secondary-math difference from traditionally certified comparison teachers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The Figure ES.2 subgroup estimate is unstarred and gives no exact p value. It overlaps the overall Teaching Fellows comparison and does not prove zero effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "0"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score difference in secondary math; Teaching Fellows versus traditionally certified comparison teachers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure ES.2; executive summary, p. xxix.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9895feefbd6245ee99ebe77c88d7b00d"
+    },
+    "entity": {
+      "$bytes": "0f70104422a04401bd6e2407cbfd4d38"
+    },
+    "from": {
+      "$bytes": "d7993ccda23842c6976de0dc7abe47a6"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01RX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "945dc658510e4e86bb4f87efc0bd285e"
+    },
+    "entity": {
+      "$bytes": "2be249d0ea1d420e8989821577468e3e"
+    },
+    "from": {
+      "$bytes": "d7993ccda23842c6976de0dc7abe47a6"
+    },
+    "to": {
+      "$bytes": "43083998d74b4f5bbf49ac3f3354e74e"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01Gh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1a7d5f1465b942a1bba49f5ee2154c3b"
+    },
+    "entity": {
+      "$bytes": "97b8521143b14bc79dda1d11c3ef8b09"
+    },
+    "from": {
+      "$bytes": "d7993ccda23842c6976de0dc7abe47a6"
+    },
+    "to": {
+      "$bytes": "743632b3929c40eba49c57d86401dbef"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09w4"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f4441ef0598b45dc8e2f25dab89eb260"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teaching Fellows teachers had a 0.13 SD secondary-math advantage over less-selective alternative-route comparison teachers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report marks this Figure ES.2 subgroup estimate significant after multiple-hypothesis adjustment. It overlaps the overall Teaching Fellows comparison and has no exact p value in the figure.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "13"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score difference in secondary math; Teaching Fellows versus less-selective alternative-route comparison teachers.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure ES.2; executive summary, p. xxix.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4fb5e39e6c42425fa424e6234b63ad11"
+    },
+    "entity": {
+      "$bytes": "ef4575bb863b42b39b6871fe438e92bb"
+    },
+    "from": {
+      "$bytes": "f4441ef0598b45dc8e2f25dab89eb260"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a035k"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2db2b81a2bc44a858699c28e19c9e437"
+    },
+    "entity": {
+      "$bytes": "7c4fb68156f24663b7f5a805e243ef27"
+    },
+    "from": {
+      "$bytes": "f4441ef0598b45dc8e2f25dab89eb260"
+    },
+    "to": {
+      "$bytes": "43083998d74b4f5bbf49ac3f3354e74e"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06p8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7e4ba1ffca344f3aac3a23898fe5e2c3"
+    },
+    "entity": {
+      "$bytes": "ad7324b2d2d747afb040ce01323ea23d"
+    },
+    "from": {
+      "$bytes": "f4441ef0598b45dc8e2f25dab89eb260"
+    },
+    "to": {
+      "$bytes": "743632b3929c40eba49c57d86401dbef"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05SN"
+  }
+]

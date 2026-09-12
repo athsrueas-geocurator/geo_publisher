@@ -1,0 +1,17 @@
+query OriginalCategoryMembers($category: UUID!, $space: UUID!, $after: Cursor) {
+  relationsConnection(first: 20, after: $after, filter: {
+    typeId: {is: "06c899fb04334e679feb1fd56687c3d6"}
+    toEntityId: {is: $category}
+    spaceId: {is: $space}
+  }) {
+    nodes {
+      id
+      fromEntityId
+      toEntityId
+      spaceId
+      fromEntity { id name }
+      toEntity { id name }
+    }
+    pageInfo { hasNextPage endCursor }
+  }
+}

@@ -1,0 +1,993 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bfac9c728a0e43fd9a278a288d9474a0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga Education",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A nonprofit supporting high-impact tutoring in U.S. schools. Formerly SAGA Innovations, it developed from Match Education's tutoring work.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://saga.org/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3a25285f4aa4467c9cbd9e6a9712fc28"
+    },
+    "entity": {
+      "$bytes": "1f376c7b49d24745a3ac98de4fc5f90a"
+    },
+    "from": {
+      "$bytes": "bfac9c728a0e43fd9a278a288d9474a0"
+    },
+    "to": {
+      "$bytes": "9547f4fb78744de0a9a9fdd7b4c01c0c"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "02ee169fedca4ee2b2e469b1a1ad898a"
+    },
+    "entity": {
+      "$bytes": "0439e8bbf46a4b0f8ea580df1433ddc9"
+    },
+    "from": {
+      "$bytes": "bfac9c728a0e43fd9a278a288d9474a0"
+    },
+    "to": {
+      "$bytes": "484a18c5030a499cb0f2ef588ff16d50"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6ce956de8cc047178c33046dd525009d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga high-dosage math tutoring (Chicago trial model)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "In-school tutoring evaluated in two Chicago high-school trials. The studied model paired one tutor with two students for daily math instruction.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3b3c144f084246e3b0af0dd62cc210bd"
+    },
+    "entity": {
+      "$bytes": "90c4be37424d4fbba6bab054e65af237"
+    },
+    "from": {
+      "$bytes": "6ce956de8cc047178c33046dd525009d"
+    },
+    "to": {
+      "$bytes": "2f3e568ca8cb4d6ea130829c3012648f"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e64b7ea956f44e3c92fb6be52a10682e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga Chicago tutoring: delivery and provider context",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Studied delivery model\n\nStudents received 50-minute sessions each school day, combining remedial and grade-level mathematics with frequent assessments. Paraprofessional tutors worked with two students; tutoring supplemented regular math classes. Its timetable displaced different courses in the two trials.\n\n## Provider history and scope\n\nThe article calls the developer Saga Education and explains its origins in Match Education, its spin-off as SAGA Innovations, and its 2019 name change. The provider link identifies that organization and program lineage; it does not assert that the current legal organization operated independently throughout the first trial. This record represents the studied Chicago model, not every later Saga service or technology-assisted variant.\n\n## Evidence\n\n[Final journal article](https://doi.org/10.1257/aer.20210434), printed pp. 740–743. The two trials have distinct study records. Their costs retain an unverified price year; no new efficiency metric is inferred.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6708ef635aca4477859346b9bcafba71"
+    },
+    "entity": {
+      "$bytes": "39526ee9bfc84846a2d7c9c2ecaab9f9"
+    },
+    "from": {
+      "$bytes": "e64b7ea956f44e3c92fb6be52a10682e"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga Chicago tutoring study 1 (2013–2014)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A randomized tutoring evaluation in 12 Chicago public high schools beginning in the 2013–2014 school year. Its male-student sample also underwent independent randomization to Becoming a Man.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "Male students entering grades 9 or 10 in selected Chicago public high schools, 2013–2014",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8e46e3eff9dea2b55d32a5ca7de61938"
+        },
+        "value": {
+          "type": "text",
+          "value": "Randomized controlled trial; 2 × 2 factorial assignment with independent Becoming a Man assignment",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Year-one estimates: 2013–2014 academic year; tutoring offer up to two years",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Printed pp. 741–743; Table 3, p. 749",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "617d8dc27a974ad8802a05088a0948dd"
+    },
+    "entity": {
+      "$bytes": "84d56e27aeeb4c1db7a3ab6e9b0a1fe6"
+    },
+    "from": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "to": {
+      "$bytes": "3ef269bc5f114691abc02dcbf398fd63"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7de19e2634b64fedbb13ac62a6a77892"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga Chicago tutoring study 1 (2013–2014): sample and comparison",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Sample and comparison\n\nThe trial randomized 2,633 students before school entry. Usual school supports remained available to controls. The outcome-complete sample sizes on the linked estimates are not total randomized enrollment.\n\n## Source\n\n[Final journal article](https://doi.org/10.1257/aer.20210434), printed pp. 741–743 and Table 3.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "08afe86545864a2c8c4b3691cb88f935"
+    },
+    "entity": {
+      "$bytes": "eff3e60747f64d8f82d76687e542e399"
+    },
+    "from": {
+      "$bytes": "7de19e2634b64fedbb13ac62a6a77892"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga Chicago tutoring study 2 (2014–2015)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A separate randomized tutoring evaluation in 15 Chicago public high schools during 2014–2015. The sample included female and male students and retained duplicate randomization records.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "Female and male students, mostly entering grade 9 with some grade 10, in selected Chicago public high schools, 2014–2015",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8e46e3eff9dea2b55d32a5ca7de61938"
+        },
+        "value": {
+          "type": "text",
+          "value": "Randomized controlled trial; one-year tutoring offer; no independent Becoming a Man randomization",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Year-one estimates: 2014–2015 academic year; tutoring offer one year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Printed pp. 741–743, footnote 10; Table 4, p. 750",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "830c091ea89f473c9f566ab7993d5c1e"
+    },
+    "entity": {
+      "$bytes": "5803030bf6f04294a27b070a41fd02a4"
+    },
+    "from": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "to": {
+      "$bytes": "3ef269bc5f114691abc02dcbf398fd63"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d8e9e563e99d4fad9b4bea71c58aae0b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga Chicago tutoring study 2 (2014–2015): sample and comparison",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Sample and comparison\n\nThe trial involved 2,645 students but 2,710 randomization records because 65 students were randomized twice. Analyses retained those records and clustered standard errors by student. Controls could receive usual school supports.\n\n## Source\n\n[Final journal article](https://doi.org/10.1257/aer.20210434), printed p. 743, footnote 10, and Table 4.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ad67ba460e5d4b76a2944f34bfc0ebf8"
+    },
+    "entity": {
+      "$bytes": "0815ed6a1f3345f388d3574022db97a7"
+    },
+    "from": {
+      "$bytes": "d8e9e563e99d4fad9b4bea71c58aae0b"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "965e48c3213040528ff17aa0e4881eb5"
+    },
+    "entity": {
+      "$bytes": "e5014a6f7cb04f6fbb328cdbd2b4e19d"
+    },
+    "from": {
+      "$bytes": "bfac9c728a0e43fd9a278a288d9474a0"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6c07672e0ebc4b888dc162c3d3e43f9d"
+    },
+    "entity": {
+      "$bytes": "4e92ef0b113349cb947def90130e911c"
+    },
+    "from": {
+      "$bytes": "6ce956de8cc047178c33046dd525009d"
+    },
+    "to": {
+      "$bytes": "bfac9c728a0e43fd9a278a288d9474a0"
+    },
+    "relationType": {
+      "$bytes": "261fad421cc744938acbaa4a4c74220c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "163d68a61cd44b87bc6f6828d3995e1f"
+    },
+    "entity": {
+      "$bytes": "fa2b4de82c384aa294945a33ccfc34b7"
+    },
+    "from": {
+      "$bytes": "6ce956de8cc047178c33046dd525009d"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d7f7ebb892e34453a9eb68a3f403690d"
+    },
+    "entity": {
+      "$bytes": "510395b24950475baba9b78d1bfd4fd1"
+    },
+    "from": {
+      "$bytes": "6ce956de8cc047178c33046dd525009d"
+    },
+    "to": {
+      "$bytes": "e82f3bfc991a4578aa8b7a503640b95e"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b01274965ebc4dadaf5917b0eff08f62"
+    },
+    "entity": {
+      "$bytes": "be338f28ed9449f590e48206de8d4470"
+    },
+    "from": {
+      "$bytes": "6ce956de8cc047178c33046dd525009d"
+    },
+    "to": {
+      "$bytes": "e64b7ea956f44e3c92fb6be52a10682e"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c98b4c68ca6b45cc9ae8dce4d58069f5"
+    },
+    "entity": {
+      "$bytes": "f1255465a23040178564e32f8d63aadb"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "e64b7ea956f44e3c92fb6be52a10682e"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "615409188c5b4c1c86437b18e1167240"
+    },
+    "entity": {
+      "$bytes": "9ba97850a9cd4b8794131a46d0070f40"
+    },
+    "from": {
+      "$bytes": "6ce956de8cc047178c33046dd525009d"
+    },
+    "to": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b1d1b9b2d49f4bd4803255556ee6efa6"
+    },
+    "entity": {
+      "$bytes": "e225d137e9214605af6624425f63ddcc"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "6ce956de8cc047178c33046dd525009d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "86f191661e2846548ca66ddecc50a47d"
+    },
+    "entity": {
+      "$bytes": "653ddce40f9e4ff6b0fce4ee140cdcd2"
+    },
+    "from": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a996312cb26f4967b0cf42cd94c358e9"
+    },
+    "entity": {
+      "$bytes": "cdd9b782a32e486db8cc36abc454e369"
+    },
+    "from": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "to": {
+      "$bytes": "e82f3bfc991a4578aa8b7a503640b95e"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a33b135027dc4e8d8411ce3f6c26f423"
+    },
+    "entity": {
+      "$bytes": "522e3659530e4ddcb5291ae9a2dd1009"
+    },
+    "from": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "to": {
+      "$bytes": "6ce956de8cc047178c33046dd525009d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fcc8bdeacbee4424881365cdb98151d9"
+    },
+    "entity": {
+      "$bytes": "7fb559f8985d4b24b1b13d801c3309ff"
+    },
+    "from": {
+      "$bytes": "6ce956de8cc047178c33046dd525009d"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e7863be35ed34a99b22349bdc6e384c6"
+    },
+    "entity": {
+      "$bytes": "d16a8676d94c46e3861ec35899b0c21d"
+    },
+    "from": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "to": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ffeabafd15d94647be7f42dc394df53c"
+    },
+    "entity": {
+      "$bytes": "71c12ca0d1754282a9996b3c6f596930"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "96c5d7822bee4b41ab6fa2a1aef9c1bb"
+    },
+    "entity": {
+      "$bytes": "28a3904c231946a585734e1a127db609"
+    },
+    "from": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "to": {
+      "$bytes": "7de19e2634b64fedbb13ac62a6a77892"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "00113dc49343400f967fc80060b34e08"
+    },
+    "entity": {
+      "$bytes": "56c37c3bcae640ecbd6e3b1e3fd895e0"
+    },
+    "from": {
+      "$bytes": "3f178d30985c477094dbdd90937d8268"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "64dd30d98b744fc38d8f501c5859f003"
+    },
+    "entity": {
+      "$bytes": "15afdccdaf444e438294fa10fd2fea46"
+    },
+    "from": {
+      "$bytes": "9cfaa5763efb4651bbc197286ce72c08"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "30a28628479b467ab9340ee0ef9107bc"
+    },
+    "entity": {
+      "$bytes": "47e618b6e53f47a4888948db2d0de6f3"
+    },
+    "from": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "88b7e36605e347e38c8dc084ac68bd8b"
+    },
+    "entity": {
+      "$bytes": "489938c81b2146919e2135711527aa14"
+    },
+    "from": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "to": {
+      "$bytes": "e82f3bfc991a4578aa8b7a503640b95e"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0d4ff54c4fff4fddaf734075c0d90275"
+    },
+    "entity": {
+      "$bytes": "4b6b6c0374ac43a79b3ae96dd72111c4"
+    },
+    "from": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "to": {
+      "$bytes": "6ce956de8cc047178c33046dd525009d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cefb9811199b457e8b6294f60371849a"
+    },
+    "entity": {
+      "$bytes": "b54c9202dc784f81825726999d5b5081"
+    },
+    "from": {
+      "$bytes": "6ce956de8cc047178c33046dd525009d"
+    },
+    "to": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9a789ac6f5fb43dcb62f2de00ac159d5"
+    },
+    "entity": {
+      "$bytes": "6826324936d9446eb6526aa24e099ca9"
+    },
+    "from": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "to": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aa919e16c8c84033b84d48e7767f7be0"
+    },
+    "entity": {
+      "$bytes": "bc350193f6554c33891ef9314bf476e0"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f29e843ae0f04d5bada2409ef646e988"
+    },
+    "entity": {
+      "$bytes": "01273ee643ea40ab9ed54dc02b41f417"
+    },
+    "from": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "to": {
+      "$bytes": "d8e9e563e99d4fad9b4bea71c58aae0b"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c51ac953de5e4463a4ad11eda5654ecd"
+    },
+    "entity": {
+      "$bytes": "e13fa2ed641c4c7c8459f43ba86767ad"
+    },
+    "from": {
+      "$bytes": "36570925385b495e9de1777b82d01b9b"
+    },
+    "to": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2c76e55ac7044e6e9c76de6049a92354"
+    },
+    "entity": {
+      "$bytes": "b7ade74a13934992bb06611353494bff"
+    },
+    "from": {
+      "$bytes": "604fb6007d6a4cc5ab52d489c9dc17bd"
+    },
+    "to": {
+      "$bytes": "86c407ce9e7e49819e1cd8d07b20f4c8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3eaff337d39147709f222a3daba62b98"
+    },
+    "entity": {
+      "$bytes": "ffbda25dfc3c47e28efcdd06732f0075"
+    },
+    "from": {
+      "$bytes": "0adff420a6bc480b8973880dfdb5f296"
+    },
+    "to": {
+      "$bytes": "6ce956de8cc047178c33046dd525009d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  }
+]

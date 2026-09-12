@@ -1,0 +1,20 @@
+import {readFileSync,writeFileSync,existsSync} from 'node:fs';
+import {randomUUID} from 'node:crypto';
+import {Ops,GeoTestnetConfig} from '@geoprotocol/geo-sdk';
+import {createPublicClient,http} from 'viem';
+import {publishOps} from '../src/functions';
+import {geoGraphqlRequest as gql} from '../src/geo-api-client';
+const path='data/book-curation/post-book-publication.json',space='d00460c203779d21d96fcfc6102d7a72',post='fd024e4f126343af98c61c32ae6f917e',book='d0f15b4c079f45ef89651a3f366ce2a4',property='dfa6aebe1ca94bf29faccc4cc7afb24c';
+const journal:any=existsSync(path)?JSON.parse(readFileSync(path,'utf8')):{spaceId:space,postId:post,bookId:book,propertyId:property,sourceSpace:'0477636ace64280fc43a9f440a502291',relationId:randomUUID().replaceAll('-',''),relationEntityId:randomUUID().replaceAll('-',''),state:'ready'};
+const save=()=>writeFileSync(path,JSON.stringify(journal,null,2)+'\n');save();
+if(!process.argv.includes('--publish')){console.log(JSON.stringify(journal));process.exit(0);}
+if(journal.state!=='ready')throw new Error('Already submitted or uncertain; inspect journal, do not duplicate');
+const live:any=await gql('query($id:UUID!,$space:UUID!){entity(id:$id){relations(first:50,filter:{spaceId:{is:$space}}){nodes{id typeId toEntityId position}pageInfo{hasNextPage}}}}',{variables:{id:post,space}});
+if(live.entity.relations.pageInfo.hasNextPage)throw new Error('Incomplete existing references');
+if(live.entity.relations.nodes.some((r:any)=>r.typeId===property&&r.toEntityId===book))throw new Error('Reference already exists');
+journal.before=live.entity;save();
+const ops=Ops.relations.create({id:journal.relationId,entityId:journal.relationEntityId,fromEntity:post,type:property,toEntity:book}).ops;
+await publishOps(ops,'Reference existing Books-space Zen work from Educator turned builder',space,{onPrepared:d=>{journal.prepared=d;save();},onSubmitting:()=>{journal.state='submitting';save();},onSubmitted:hash=>{journal.hash=hash;journal.state='submitted';save();}});
+const rpc=createPublicClient({transport:http(GeoTestnetConfig.chain!.rpcUrl!)});
+const receipt=await rpc.waitForTransactionReceipt({hash:journal.hash,timeout:45000});
+journal.receipt={status:receipt.status,blockNumber:String(receipt.blockNumber)};journal.state=receipt.status==='success'?'confirmed':'reverted';save();console.log(JSON.stringify({state:journal.state,hash:journal.hash,relationId:journal.relationId,relationEntityId:journal.relationEntityId}));

@@ -1,0 +1,1088 @@
+{
+  "checkedAt": "2026-09-11T19:12:59.362Z",
+  "scope": "Current destination-space descriptions written by executed Education migration batches",
+  "batches": [
+    "glossary-batch.json",
+    "glossary-expansion-batch.json",
+    "saga-batch.json",
+    "saga-column-batch.json",
+    "saga-display-batch.json",
+    "saga-geography-batch.json",
+    "star-economic-pilot-batch.json",
+    "star-economic-remaining-batch.json"
+  ],
+  "rows": [
+    {
+      "id": "3f2f83ec99644b4fa9c710584408c383",
+      "name": "Education Initiatives glossary",
+      "types": [
+        {
+          "id": "0c4babfb43893486af827341bbf32e09",
+          "name": "Dataset"
+        }
+      ],
+      "description": "Curated definitions and interpretation guidance from the Education Initiatives source collection. Sections preserve the source organization. Publication is in progress; some entries still require identity resolution.",
+      "characters": 216,
+      "sentenceCount": 3,
+      "needsReview": true
+    },
+    {
+      "id": "ad9f48f68b804ddd9f9e8ffa5869ef02",
+      "name": "Randomized controlled trial",
+      "types": [
+        {
+          "id": "1206e244cf314218b8519a07321337d7",
+          "name": "Evidence"
+        },
+        {
+          "id": "1206e244cf314218b8519a07321337d7",
+          "name": "Evidence"
+        },
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Random assignment to treatment/control; strongest internal validity when implemented and analyzed well.",
+      "characters": 103,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "bfdf43b93627404aac12dd72308c01fb",
+      "name": "Strong causal evidence",
+      "types": [
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        }
+      ],
+      "description": "Multiple RCTs, high-quality RCT/lottery evidence, or strong quasi-experimental evidence with clear student outcome effects.",
+      "characters": 123,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "c669c7b8946d444aa4d014bbef33543e",
+      "name": "Promising causal/quasi",
+      "types": [
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        }
+      ],
+      "description": "Credible lottery, regression discontinuity, difference-in-differences, or well-controlled evidence, but narrower samples or mixed replication.",
+      "characters": 142,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "ecef323a50d241edbf721ae94abdbcbf",
+      "name": "Mixed/conditional",
+      "types": [
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        }
+      ],
+      "description": "Evidence varies by context, outcome, implementation, or student group; may include positive and null/negative findings.",
+      "characters": 119,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "180fb6ff4d6941f482009ceb3dceebed",
+      "name": "Limited/descriptive",
+      "types": [
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        }
+      ],
+      "description": "Implementation, trend, or correlational evidence without strong causal identification.",
+      "characters": 86,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "6146285450044e769cc1e7966eeda9a0",
+      "name": "Not an outcome intervention",
+      "types": [
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        }
+      ],
+      "description": "A research infrastructure, standard, or framework that shapes evidence use but is not itself a student intervention.",
+      "characters": 116,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "39019b2c253248f599c9f0eef7244114",
+      "name": "Dosage and intensity",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Convert planned exposure to attended exposure; report ITT and treatment-on-treated where possible.",
+      "characters": 98,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "213ace78654546eb9907cb07f9f4b771",
+      "name": "Staffing ratio and adult contact",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Normalize to effective contact hours and adult qualification level.",
+      "characters": 67,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "0cd16e5e54654a3cb76d0766d35a1fff",
+      "name": "Curriculum content",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Use common rubrics, curriculum review ratings, lesson artifacts, topic coverage, and teacher usage surveys.",
+      "characters": 107,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "c95340d371354fd6ab9185ba787b85cc",
+      "name": "Pedagogy and instructional model",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Use validated observation rubrics, video coding, instructional logs, and common categories.",
+      "characters": 91,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "2c48eb46c18b4834a7055f95bf6a3898",
+      "name": "Technology role",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Separate access, active academic use, teacher-mediated use, and substitution for in-person instruction.",
+      "characters": 103,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "5ab428ecb56b4b8ea936b43917c598ea",
+      "name": "Teacher supports",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Report content focus, active practice, coaching cycles, and alignment to adopted materials.",
+      "characters": 91,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "0462965dd49d420a89a2fde1a7be77d6",
+      "name": "Accountability and incentives",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Code stakes, affected grades/subjects, thresholds, consequences, and timing.",
+      "characters": 76,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "15a0a1933c3c4c84933993d7a0a539b1",
+      "name": "Governance and choice",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Use lottery offers for ITT where possible; otherwise match on prior achievement and demographics.",
+      "characters": 97,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "26acd42afe1041bcadb382d6904a3f6e",
+      "name": "Time structure",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Convert to active learning time using attendance and instructional-use measures.",
+      "characters": 80,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "e6a03c80670c4b88bb7093410c2bdb57",
+      "name": "Early childhood quality",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Use classroom quality observations, curriculum indicators, and counterfactual care type.",
+      "characters": 88,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "88f3ced258fc445bb4a8b27894603621",
+      "name": "Whole-child supports",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Track service eligibility, take-up, completion, and schoolwide climate exposure.",
+      "characters": 80,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "c9226207e34a4940a8ac2e1489bb8a88",
+      "name": "Finance and resources",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Use real dollars, exposure years, district fixed effects, and cost-effectiveness ratios.",
+      "characters": 88,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "7ecbd365edf246d58117bfb3cdecc930",
+      "name": "Implementation and fidelity",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Separate intent-to-treat, implementation-on-treated, and mediator analyses.",
+      "characters": 75,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "5842b14fc54b4a73840ace45c539129d",
+      "name": "Counterfactual context",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Use baseline trends, matched controls, cohort fixed effects, and sensitivity analyses.",
+      "characters": 86,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "b34ea41e2caa4c3786846cbe6d9be1e2",
+      "name": "Achievement test scores",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Convert to student-level or grade-level SD; use common NAEP/SEDA scales for cross-state comparisons.",
+      "characters": 100,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "7e956789f9b34946b4f18e254a3800ff",
+      "name": "Proficiency and cut-score metrics",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Do not equate state proficient with NAEP Proficient; map state standards carefully.",
+      "characters": 83,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "139ee1f522ad4464a6a4af46268eeb95",
+      "name": "Reading subskills",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Report domains separately; early decoding gains do not guarantee comprehension gains.",
+      "characters": 85,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "f1a322e86be14c87802a5bd711e819dc",
+      "name": "Math subskills and course readiness",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Normalize by grade, course content, and test alignment.",
+      "characters": 55,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "89459545b66d4dfab23cf2c127f345c4",
+      "name": "Academic growth",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Growth metrics are less sensitive to baseline level but still depend on test scale and ceiling/floor.",
+      "characters": 101,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "882a1ad78617429fa6803d709b01a2d9",
+      "name": "Coursework and grades",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Normalize course titles and rigor; credit inflation can mask learning.",
+      "characters": 70,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "8b44a4b095ac47349019a57e0a5db63e",
+      "name": "Attendance and engagement",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Use same chronic absenteeism threshold and handle remote/partial days consistently.",
+      "characters": 83,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "7eb7787b60724fbe95cf593a13c55754",
+      "name": "Behavior and climate",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Standardize reporting rules; separate actual behavior from adult referral behavior.",
+      "characters": 83,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "a6a65de89e624472bcc94d4273b07287",
+      "name": "SEL and noncognitive outcomes",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Use common scales or standardize within sample; triangulate self, teacher, and admin measures.",
+      "characters": 94,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "92ac5bf113824c71931f6457caa17a65",
+      "name": "Grade progression",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Define on-track consistently; account for policy-induced retention.",
+      "characters": 67,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "625a9e09323344d3883c34bb29d09a25",
+      "name": "Postsecondary outcomes",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Compare enrollment quality, persistence, and degree, not only initial entry.",
+      "characters": 76,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "9a1cb4dfdb804484a65985f3c98de320",
+      "name": "Labor market and adult outcomes",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Use real dollars and discounting; account for local labor markets and mobility.",
+      "characters": 79,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "3dc93beae04841f39fa65fa41e2ff907",
+      "name": "Health, crime, and civic outcomes",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Use consistent legal/reporting definitions and subgroup precision checks.",
+      "characters": 73,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "375a27d5f28e431999df4132cf89a11a",
+      "name": "Implementation mediators",
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ],
+      "description": "Use as mechanism evidence, not final student outcome unless the theory is explicitly adult practice.",
+      "characters": 100,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "e500e2585a964d2c9df4a47b199616c3",
+      "name": "Effect estimate value",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Reported numerical effect; interpret only with the stated unit, estimand and study context.",
+      "characters": 91,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "cc28953bd89e406096c9627021f4713d",
+      "name": "Standard error",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Reported standard error of an estimate in the same units as that estimate.",
+      "characters": 74,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "03b87ec1e71f410db566c7f12920283d",
+      "name": "Study number",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Source-local study or trial number; not a global study identifier.",
+      "characters": 66,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "8405509cc7354655a348591349a5f025",
+      "name": "Outcome unit",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Unit and normalization used for the reported outcome.",
+      "characters": 53,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "c962e0fb4a3148e5ba125144691236a8",
+      "name": "Follow-up period",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Time horizon at which the reported study outcome was assessed.",
+      "characters": 62,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "ba643714da274c37a340a7f8396198dc",
+      "name": "Estimand",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Quantity targeted by the estimator, such as intention-to-treat or treatment-on-the-treated.",
+      "characters": 91,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "84dacbddca6a44079edb5e11a4c66b40",
+      "name": "Source table",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Table, panel and printed page locating this observation in its linked source.",
+      "characters": 77,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "d66cd445e09a41809af46d86f083b41c",
+      "name": "Dataset entries",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Entries belonging to a structured dataset; preserve the order on each relation.",
+      "characters": 79,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "6ba2ce00db064687b108aa8449672886",
+      "name": "Cost amount",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Reported monetary cost; requires currency, denominator, period and cost-accounting context.",
+      "characters": 91,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "0db260c165ed4cceaf56d5b2c63382d7",
+      "name": "Cost lower bound",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Lower end of a reported cost range; not necessarily a confidence bound.",
+      "characters": 71,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "13cc4f64fc2f416ea398094d02a18a53",
+      "name": "Cost upper bound",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Upper end of a reported cost range; not necessarily a confidence bound.",
+      "characters": 71,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "3a558d71454745a992c035040f648729",
+      "name": "Cost denominator",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Unit of delivery or population to which the cost amount applies.",
+      "characters": 64,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "97e14050fc49467bb3aaf4d7eccbbb69",
+      "name": "Price year",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Currency purchasing-power base year. Missing means unverified, not the trial year.",
+      "characters": 82,
+      "sentenceCount": 2,
+      "needsReview": false
+    },
+    {
+      "id": "8812b3d57a4c4221a10c1024557a764a",
+      "name": "Not Too Late: Improving Academic Outcomes among Adolescents",
+      "types": [
+        {
+          "id": "a2a5ed0cacef46b1835de457956ce915",
+          "name": "Article"
+        }
+      ],
+      "description": "American Economic Review 113(3), 738–765",
+      "characters": 40,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "52448bbbf0cd4c1bb8e949ebe9d628d2",
+      "name": "Saga tutoring: Chicago trial estimates (Guryan et al., 2023)",
+      "types": [
+        {
+          "id": "0c4babfb43893486af827341bbf32e09",
+          "name": "Dataset"
+        }
+      ],
+      "description": "Chicago, Illinois, United States; Grade 9–10 students; RCT. EXPLORE/PLAN mathematics. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+      "characters": 291,
+      "sentenceCount": 5,
+      "needsReview": true
+    },
+    {
+      "id": "3f178d30985c477094dbdd90937d8268",
+      "name": "Saga's Chicago study 1 estimated a year-one math ITT effect of 0.091 standard deviations.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Intention-to-treat estimate; standard error 0.035; outcome-complete N=1852. Table 3, p. 749, panel A. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+      "characters": 307,
+      "sentenceCount": 5,
+      "needsReview": true
+    },
+    {
+      "id": "9cfaa5763efb4651bbc197286ce72c08",
+      "name": "Saga's Chicago study 1 estimated a year-one math TOT effect of 0.179 standard deviations.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Treatment-on-the-treated estimate; standard error 0.066; outcome-complete N=1852. Table 3, p. 749, panel A. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+      "characters": 313,
+      "sentenceCount": 5,
+      "needsReview": true
+    },
+    {
+      "id": "36570925385b495e9de1777b82d01b9b",
+      "name": "Saga's Chicago study 2 estimated a year-one math ITT effect of 0.135 standard deviations.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Intention-to-treat estimate; standard error 0.036; outcome-complete N=1865. Table 4, p. 750, panel A. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+      "characters": 307,
+      "sentenceCount": 5,
+      "needsReview": true
+    },
+    {
+      "id": "604fb6007d6a4cc5ab52d489c9dc17bd",
+      "name": "Saga's Chicago study 2 estimated a year-one math TOT effect of 0.398 standard deviations.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Treatment-on-the-treated estimate; standard error 0.105; outcome-complete N=1865. Table 4, p. 750, panel A. Outcome-complete observations; baseline-adjusted models. Study 2 retains 65 duplicate randomizations and clusters standard errors by student. ITT and TOT describe the same trials, not independent evidence.",
+      "characters": 313,
+      "sentenceCount": 5,
+      "needsReview": true
+    },
+    {
+      "id": "0adff420a6bc480b8973880dfdb5f296",
+      "name": "Saga tutoring: approximate annual cost per pupil, 2013–2015",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "cost-accounting range, not confidence interval. Price year unverified; cost-accounting review pending. This is a cost observation, not a cost-effectiveness estimate.",
+      "characters": 165,
+      "sentenceCount": 3,
+      "needsReview": true
+    },
+    {
+      "id": "f9d6085e34014562aae4021009f5f390",
+      "name": "Real discount rate",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Annual inflation-adjusted discount rate as a fraction; 0.04 means 4%.",
+      "characters": 69,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "51a331c9b55e40ed9ba9b3aa7eacbf0b",
+      "name": "Annual real wage growth",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Assumed annual inflation-adjusted earnings growth as a fraction; 0.01 means 1%.",
+      "characters": 79,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "49fcf7e6ccea49dab672345486cd9df9",
+      "name": "Present value of benefits",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Discounted monetary benefits; interpret with currency, price year, denominator, discount rate and modeled benefit scope.",
+      "characters": 120,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "879d207046024b44be6e3d64c32c60da",
+      "name": "Real internal rate of return",
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "description": "Annual inflation-adjusted rate equating discounted costs and benefits, expressed as a fraction.",
+      "characters": 95,
+      "sentenceCount": 1,
+      "needsReview": false
+    },
+    {
+      "id": "d70f7e00c8fd4fb2b6a056df6b844b1f",
+      "name": "Economic Considerations and Class Size",
+      "types": [
+        {
+          "id": "a2a5ed0cacef46b1835de457956ce915",
+          "name": "Article"
+        }
+      ],
+      "description": "Alan B. Krueger; The Economic Journal 113(485), F34–F63, 2003. Published article; working paper DOI 10.3386/w8875.",
+      "characters": 114,
+      "sentenceCount": 3,
+      "needsReview": true
+    },
+    {
+      "id": "4874a8385a594633ab244f47889f9cab",
+      "name": "STAR class-size economics: modeled costs and earnings (Krueger, 2003)",
+      "types": [
+        {
+          "id": "0c4babfb43893486af827341bbf32e09",
+          "name": "Dataset"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than reported 7300. Preserve reported 7300 and disclose the one-dollar discrepancy; do not silently replace it.",
+      "characters": 1035,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "b0e661c838de4b8eb406a9c5a82249b1",
+      "name": "STAR model: 4% discount, 1% wage growth; $15180 earnings versus $7537 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than reported 7300. Preserve reported 7300 and disclose the one-dollar discrepancy; do not silently replace it.",
+      "characters": 1035,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "8d771b3a82e8475c945f258e35af6390",
+      "name": "STAR model: 2% discount, 0% wage growth; $21725 earnings versus $7787 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "5bd25b7faf3e46c7b6072d99ef1c8db8",
+      "name": "STAR model: 2% discount, 1% wage growth; $31478 earnings versus $7787 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "818fe1434caf4d0c8e416c99f001d961",
+      "name": "STAR model: 2% discount, 2% wage growth; $46294 earnings versus $7787 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "c2dde1afcd154f4fb1245ebbca516c0c",
+      "name": "STAR model: 3% discount, 0% wage growth; $15174 earnings versus $7660 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "f7078c3786294db8885c4868a63d0046",
+      "name": "STAR model: 3% discount, 1% wage growth; $21667 earnings versus $7660 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "a987df7e9dc14f81a04892eafbaf4fd3",
+      "name": "STAR model: 3% discount, 2% wage growth; $31403 earnings versus $7660 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "7467a37094084d529f36e14c7e75599a",
+      "name": "STAR model: 4% discount, 0% wage growth; $10784 earnings versus $7537 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "5e2a860dd8aa4f90bf1b8953e9bbb924",
+      "name": "STAR model: 4% discount, 2% wage growth; $21686 earnings versus $7537 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "34cae62372cd429fb66d09bfdc6aa290",
+      "name": "STAR model: 5% discount, 0% wage growth; $7791 earnings versus $7417 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "48045ce49a334e4cafee8c6de38a10e8",
+      "name": "STAR model: 5% discount, 1% wage growth; $10819 earnings versus $7417 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "89ee9184e65448229773c81addfa4d6c",
+      "name": "STAR model: 5% discount, 2% wage growth; $15238 earnings versus $7417 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "1b10a3ca00654eb29e4f794329e0032e",
+      "name": "STAR model: 6% discount, 0% wage growth; $5718 earnings versus $7300 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "3de72d69a6e9490191d875c27510ad96",
+      "name": "STAR model: 6% discount, 1% wage growth; $7836 earnings versus $7300 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    },
+    {
+      "id": "559f5b1464b747648219f51b0ee05dc6",
+      "name": "STAR model: 6% discount, 2% wage growth; $10889 earnings versus $7300 cost.",
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ],
+      "description": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than the reported 7300. This dataset retains the published value of 7300.",
+      "characters": 997,
+      "sentenceCount": 11,
+      "needsReview": true
+    }
+  ]
+}

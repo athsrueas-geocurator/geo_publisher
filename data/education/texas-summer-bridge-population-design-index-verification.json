@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-09-12T07:23:52.978Z",
+  "batchName": "Add Texas Summer Bridge structured population and design facets",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 1,
+  "checks": [
+    {
+      "entityId": "85d44ca8fe064a72a586e7c64f9aa1bc",
+      "propertyId": "7a1f6d017895206e84e1988c0c74621e",
+      "pass": true
+    },
+    {
+      "entityId": "85d44ca8fe064a72a586e7c64f9aa1bc",
+      "propertyId": "8e46e3eff9dea2b55d32a5ca7de61938",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,14 @@
+import {readFileSync,writeFileSync,existsSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {Ops,SystemIds} from '@geoprotocol/geo-sdk';
+import {gql} from '../src/functions';
+import {EDUCATION_PUBLICATION as target} from '../src/education-bounty';
+const root='data/education',prefix='saga-pooled-column';
+if(existsSync(`${root}/${prefix}-publication.json`))throw new Error('Preserve submitted repair');
+const ids=JSON.parse(readFileSync(`${root}/saga-pooled-registry.json`,'utf8')),id=ids['relation/table/5/column/0'];
+const {relations}=await gql('query($id:UUID!){relations(filter:{id:{is:$id}}){id fromEntityId toEntityId typeId spaceId}}',{id});
+if(relations.length!==1||relations[0].fromEntityId!==ids['relation-entity/table/5/attachment']||relations[0].toEntityId!==SystemIds.NAME_PROPERTY||relations[0].typeId!==SystemIds.PROPERTIES||relations[0].spaceId!==target.spaceId)throw new Error('Expected redundant Name metadata does not match');
+const bytes=JSON.stringify(Ops.relations.delete({id}).ops,(_k,v)=>v instanceof Uint8Array?{$bytes:Buffer.from(v).toString('hex')}:v,2)+'\n',sha256=createHash('sha256').update(bytes).digest('hex');
+const batch={name:'Remove redundant Name column from pooled Saga table',spaceId:target.spaceId,bounty:target.bountyId,opsPath:`${root}/${prefix}-ops.json`,sha256,journalPath:`${root}/${prefix}-publication.json`,validationPath:`${root}/${prefix}-validation.json`};
+writeFileSync(batch.opsPath,bytes);writeFileSync(`${root}/${prefix}-batch.json`,JSON.stringify(batch,null,2)+'\n');writeFileSync(batch.validationPath,JSON.stringify({ready:true,checkedAt:new Date().toISOString(),opsHash:sha256,scope:'Redundant display metadata only; no Claim or scientific fact deletion',verifiedRelation:relations[0]},null,2)+'\n');
+console.log(JSON.stringify({operations:1,sha256}));

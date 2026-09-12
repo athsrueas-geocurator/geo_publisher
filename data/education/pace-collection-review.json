@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T15:55:00Z",
+  "reviewer": "publisher preparation review",
+  "planHash": "94824617459ba3e53bbf20b61cd920ab085eca02519cb2ea89d65ca863f5e3e7",
+  "factsHash": "1fee6bd56d82f385c6535921b97ca3b6f653961f8b3b11040924538127e56233",
+  "sources": [
+    {
+      "path": "docs/pace-study-notes.md",
+      "sha256": "f52ff4815648c76b62be56a4f0a6cf627bd2f7cfd7f29be44a35588c0623dd01",
+      "sourceId": "c8303039db3946ea8c71e717ec00c9e1",
+      "version": "MDRC Focusing on Girls\u2019 Futures, 2019"
+    }
+  ],
+  "discovery": {
+    "path": "data/education/pace-collection-discovery.json",
+    "sha256": "57a716a22846dfb8dc4b093862d480fed985365f384087fc214143125b0e5bad"
+  },
+  "decisions": {
+    "source": {
+      "status": "accepted",
+      "rationale": "MDRC primary report and study notes identify the source."
+    },
+    "identity": {
+      "status": "accepted",
+      "rationale": "Complete all-space search found no result collection and zero incoming memberships."
+    },
+    "content": {
+      "status": "accepted",
+      "rationale": "Facts preserve Claim headers, locators, sample counts and separate short-term outcome/cost scopes."
+    }
+  }
+}

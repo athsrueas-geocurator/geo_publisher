@@ -1,0 +1,204 @@
+{
+  "checkedAt": "2026-09-11T22:42:24.013Z",
+  "sourceSha256": "ebb142984253e919653e6bbd612dde24113efbd70b43a6490f8e5f8845410741",
+  "sourceLocator": "Printed pp. 212–213; PDF pp. 57–58",
+  "authorReported": {
+    "status": "author-reported model; not reconciled for computed comparisons",
+    "printedPages": [
+      212,
+      213
+    ],
+    "pdfPages": [
+      57,
+      58
+    ],
+    "priceYear": 2013,
+    "currency": "USD",
+    "baselineAnnualPerPupilSpending": "5459",
+    "spendingIncreaseFraction": "0.10",
+    "spendingYears": 12,
+    "discountRateFraction": "0.06",
+    "reportedPresentCost": "4850",
+    "medianAnnualEarnings": "28031",
+    "earningsAges": [
+      25,
+      60
+    ],
+    "wageIncreaseFractionInCostParagraph": "0.072",
+    "wageIncreaseFractionInPrecedingParagraph": "0.077",
+    "reportedPresentBenefit": "just over 10000",
+    "reportedBenefitCostRatio": "about 3",
+    "reportedInternalRateOfReturn": "roughly 10%",
+    "caveat": "Do not calculate a reconciled ratio or treat approximate phrases as exact values; adjoining paragraphs use different wage increases and do not fully specify reproduction timing."
+  },
+  "interpretation": "Sensitivity calculations, not the authors’ confirmed cash-flow schedule. Time zero is school entry in 1980 at age five. Costs are 12 equal annual increments; earnings increments are constant, with no growth, tax, survival or employment adjustments. Start 20 corresponds to age 25; start 21 tests one-year payment timing. 35/36 payments test exclusive/inclusive age-60 endpoints. No scenario is selected as an authoritative replacement.",
+  "scenarios": [
+    {
+      "wageGain": 0.072,
+      "costStart": 0,
+      "earningsStart": 20,
+      "earningsCount": 35,
+      "cost": 4851.344831478567,
+      "benefit": 9671.083278124233,
+      "benefitCostRatio": 1.9934850261255768,
+      "irr": 0.08882042229568243
+    },
+    {
+      "wageGain": 0.072,
+      "costStart": 0,
+      "earningsStart": 20,
+      "earningsCount": 36,
+      "cost": 4851.344831478567,
+      "benefit": 9752.957747481278,
+      "benefitCostRatio": 2.0103616803732383,
+      "irr": 0.08901058430351683
+    },
+    {
+      "wageGain": 0.072,
+      "costStart": 0,
+      "earningsStart": 21,
+      "earningsCount": 35,
+      "cost": 4851.344831478567,
+      "benefit": 9123.66346992852,
+      "benefitCostRatio": 1.8806462510618644,
+      "irr": 0.08525916761806285
+    },
+    {
+      "wageGain": 0.072,
+      "costStart": 0,
+      "earningsStart": 21,
+      "earningsCount": 36,
+      "cost": 4851.344831478567,
+      "benefit": 9200.903535359694,
+      "benefitCostRatio": 1.8965676229936206,
+      "irr": 0.08545574806386125
+    },
+    {
+      "wageGain": 0.072,
+      "costStart": 1,
+      "earningsStart": 20,
+      "earningsCount": 35,
+      "cost": 4576.740407055251,
+      "benefit": 9671.083278124233,
+      "benefitCostRatio": 2.113094127693112,
+      "irr": 0.09272407894979884
+    },
+    {
+      "wageGain": 0.072,
+      "costStart": 1,
+      "earningsStart": 20,
+      "earningsCount": 36,
+      "cost": 4576.740407055251,
+      "benefit": 9752.957747481278,
+      "benefitCostRatio": 2.1309833811956334,
+      "irr": 0.09290702610296864
+    },
+    {
+      "wageGain": 0.072,
+      "costStart": 1,
+      "earningsStart": 21,
+      "earningsCount": 35,
+      "cost": 4576.740407055251,
+      "benefit": 9123.66346992852,
+      "benefitCostRatio": 1.9934850261255768,
+      "irr": 0.08882042229568243
+    },
+    {
+      "wageGain": 0.072,
+      "costStart": 1,
+      "earningsStart": 21,
+      "earningsCount": 36,
+      "cost": 4576.740407055251,
+      "benefit": 9200.903535359694,
+      "benefitCostRatio": 2.0103616803732383,
+      "irr": 0.08901058430351683
+    },
+    {
+      "wageGain": 0.077,
+      "costStart": 0,
+      "earningsStart": 20,
+      "earningsCount": 35,
+      "cost": 4851.344831478567,
+      "benefit": 10342.686283549529,
+      "benefitCostRatio": 2.1319214862731863,
+      "irr": 0.09177186003876503
+    },
+    {
+      "wageGain": 0.077,
+      "costStart": 0,
+      "earningsStart": 20,
+      "earningsCount": 36,
+      "cost": 4851.344831478567,
+      "benefit": 10430.246479945255,
+      "benefitCostRatio": 2.149970130399158,
+      "irr": 0.0919508893174249
+    },
+    {
+      "wageGain": 0.077,
+      "costStart": 0,
+      "earningsStart": 21,
+      "earningsCount": 35,
+      "cost": 4851.344831478567,
+      "benefit": 9757.25121089578,
+      "benefitCostRatio": 2.0112466851633832,
+      "irr": 0.0880658166962659
+    },
+    {
+      "wageGain": 0.077,
+      "costStart": 0,
+      "earningsStart": 21,
+      "earningsCount": 36,
+      "cost": 4851.344831478567,
+      "benefit": 9839.855169759674,
+      "benefitCostRatio": 2.0282737079237334,
+      "irr": 0.08825149822598133
+    },
+    {
+      "wageGain": 0.077,
+      "costStart": 1,
+      "earningsStart": 20,
+      "earningsCount": 35,
+      "cost": 4576.740407055251,
+      "benefit": 10342.686283549529,
+      "benefitCostRatio": 2.2598367754495783,
+      "irr": 0.09583736269972831
+    },
+    {
+      "wageGain": 0.077,
+      "costStart": 1,
+      "earningsStart": 20,
+      "earningsCount": 36,
+      "cost": 4576.740407055251,
+      "benefit": 10430.246479945255,
+      "benefitCostRatio": 2.2789683382231076,
+      "irr": 0.0960089638688445
+    },
+    {
+      "wageGain": 0.077,
+      "costStart": 1,
+      "earningsStart": 21,
+      "earningsCount": 35,
+      "cost": 4576.740407055251,
+      "benefit": 9757.25121089578,
+      "benefitCostRatio": 2.131921486273187,
+      "irr": 0.09177186003876503
+    },
+    {
+      "wageGain": 0.077,
+      "costStart": 1,
+      "earningsStart": 21,
+      "earningsCount": 36,
+      "cost": 4576.740407055251,
+      "benefit": 9839.855169759674,
+      "benefitCostRatio": 2.149970130399158,
+      "irr": 0.0919508893174249
+    }
+  ],
+  "checks": {
+    "sourceFingerprint": true,
+    "independentAnnuityAgreement": true,
+    "irrRootResidual": true
+  },
+  "conclusion": "The cost stream starting at time zero gives 4851.3448 USD, close to the reported rounded 4850. Neither wage percentage and tested timing convention reproduces a ratio of 3. Preserve the author-reported ratio and roughly 10% IRR with approximate qualifiers; do not silently overwrite them or rank this illustration as a reconciled cost-effectiveness estimate.",
+  "computedComparisonEligible": false
+}

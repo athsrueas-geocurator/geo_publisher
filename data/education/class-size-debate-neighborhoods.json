@@ -1,0 +1,781 @@
+{
+  "checkedAt": "2026-09-12T12:38:32.654Z",
+  "neighborhoods": [
+    {
+      "id": "d70f7e00c8fd4fb2b6a056df6b844b1f",
+      "complete": true,
+      "nodes": [
+        {
+          "id": "10fdb83099e748e1984373be4124d46d",
+          "fromEntityId": "4874a8385a594633ab244f47889f9cab",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR class-size economics: modeled costs and earnings (Krueger, 2003)",
+            "description": "Modeled costs and projected earnings for reducing early-grade class sizes, based on Tennessee STAR evidence. Compare economic assumptions and sensitivity scenarios in 1998 US dollars.",
+            "types": [
+              {
+                "id": "0c4babfb43893486af827341bbf32e09",
+                "name": "Dataset"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1120cdc8cc384fd2bfdddbc799a6d543",
+          "fromEntityId": "6db38a6c620f4ca1bc2452137457d686",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR's modeled real annual internal return is 6.2% when assumed real wage growth is 1%.",
+            "description": "This author-modeled class-size calculation projects earnings over ages 18–65; it is not an observed investment return or a confidence bound.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "117e2e799ed24ab1a6225f669638bc08",
+          "fromEntityId": "818fe1434caf4d0c8e416c99f001d961",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 2% discount, 2% wage growth; $46294 earnings versus $7787 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "15a1fe407c874feeb317b2bc37576313",
+          "fromEntityId": "efdefdaf3fbd4d02bd44228882c09359",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+          "fromEntity": {
+            "name": "Experimental Estimates of Education Production Functions",
+            "description": "A published analysis of Tennessee Project STAR’s effects on student achievement, using classroom assignment and observed class size.",
+            "types": [
+              {
+                "id": "a2a5ed0cacef46b1835de457956ce915",
+                "name": "Article"
+              }
+            ]
+          }
+        },
+        {
+          "id": "16d9627edbb845f5917b5de0e9596c35",
+          "fromEntityId": "7467a37094084d529f36e14c7e75599a",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 4% discount, 0% wage growth; $10784 earnings versus $7537 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2524b99c5f2749db8eccdb7cfe65ae7b",
+          "fromEntityId": "5e2a860dd8aa4f90bf1b8953e9bbb924",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 4% discount, 2% wage growth; $21686 earnings versus $7537 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "3372ab05b2614e798e3302f0b7fb42f8",
+          "fromEntityId": "a987df7e9dc14f81a04892eafbaf4fd3",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 3% discount, 2% wage growth; $31403 earnings versus $7660 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "4771208f368a4c56bac108d6fa452b17",
+          "fromEntityId": "c2dde1afcd154f4fb1245ebbca516c0c",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 3% discount, 0% wage growth; $15174 earnings versus $7660 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "4eaec19f4d544ceba0ea986653bfceda",
+          "fromEntityId": "34cae62372cd429fb66d09bfdc6aa290",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 5% discount, 0% wage growth; $7791 earnings versus $7417 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "62cce112ceb04a82ab55a87ec2513e9c",
+          "fromEntityId": "89ee9184e65448229773c81addfa4d6c",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 5% discount, 2% wage growth; $15238 earnings versus $7417 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "6a7f11e850b64614aaa8a624f7ec1ea2",
+          "fromEntityId": "559f5b1464b747648219f51b0ee05dc6",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 6% discount, 2% wage growth; $10889 earnings versus $7300 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "7b8620ac356f4bd6ac4914884d5e9e0c",
+          "fromEntityId": "3e69566289c14f80b6fb19a84a0300e4",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR's modeled real annual internal return is 5.2% when assumed real wage growth is 0%.",
+            "description": "This author-modeled class-size calculation projects earnings over ages 18–65; it is not an observed investment return or a confidence bound.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "849feb2cef5f42cf97c3110c1cca69a9",
+          "fromEntityId": "b0e661c838de4b8eb406a9c5a82249b1",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 4% discount, 1% wage growth; $15180 earnings versus $7537 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8e1d40f5cc2547bebf54680907b1b147",
+          "fromEntityId": "3de72d69a6e9490191d875c27510ad96",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 6% discount, 1% wage growth; $7836 earnings versus $7300 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "94d6ccdca51d4c0db85978a209ba5d09",
+          "fromEntityId": "1b10a3ca00654eb29e4f794329e0032e",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 6% discount, 0% wage growth; $5718 earnings versus $7300 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "a2d3d7165e5741aaa544cecbf3763502",
+          "fromEntityId": "8d771b3a82e8475c945f258e35af6390",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 2% discount, 0% wage growth; $21725 earnings versus $7787 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "aa7fe7bf727b42bc8d9c84b18594e653",
+          "fromEntityId": "cc14cee1099d4271841287a2455d9045",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR's modeled real annual internal return is 7.3% when assumed real wage growth is 2%.",
+            "description": "This author-modeled class-size calculation projects earnings over ages 18–65; it is not an observed investment return or a confidence bound.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e2ec845a198d42b8aa4d1ac54e990840",
+          "fromEntityId": "5bd25b7faf3e46c7b6072d99ef1c8db8",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 2% discount, 1% wage growth; $31478 earnings versus $7787 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ebce269c4ef94fe09894a29023532efb",
+          "fromEntityId": "48045ce49a334e4cafee8c6de38a10e8",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 5% discount, 1% wage growth; $10819 earnings versus $7417 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "f461a7e793b144729364935b11f7b9c8",
+          "fromEntityId": "f7078c3786294db8885c4868a63d0046",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR model: 3% discount, 1% wage growth; $21667 earnings versus $7660 cost.",
+            "description": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "efdefdaf3fbd4d02bd44228882c09359",
+      "complete": true,
+      "nodes": [
+        {
+          "id": "05fb64473b9140fa889373b366e46b1f",
+          "fromEntityId": "d68c6d1d10af47418fc80ed09d4e097f",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "Tennessee Project STAR",
+            "description": "A Tennessee experiment that randomly assigned students and teachers within schools to small classes, regular classes, or regular classes with full-time aides.",
+            "types": [
+              {
+                "id": "3ef269bc5f114691abc02dcbf398fd63",
+                "name": "Study"
+              }
+            ]
+          }
+        },
+        {
+          "id": "159be843f720486385041aaa4076473c",
+          "fromEntityId": "7eeddeb79af54141b58e4cffe32d93a5",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "In Tennessee STAR, small-class assignment raised kindergarten achievement by an estimated 5.36 percentile points.",
+            "description": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.36 points (class-clustered SE 1.21). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "16952c7d85e34826945f8176b8694d04",
+          "fromEntityId": "9220554acfd249a18920b301dcbb6cf0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR class sizes and classroom aides: experimental results (Krueger, 1999)",
+            "description": "Measured achievement effects from Tennessee’s randomized class-size experiment, organized by grade and assigned classroom condition. Effects are percentile points, with standard errors and source citations.",
+            "types": [
+              {
+                "id": "0c4babfb43893486af827341bbf32e09",
+                "name": "Dataset"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2cc904e95045403e8d472feed2dda8b0",
+          "fromEntityId": "4fcc10047b6648f9a9d3aa077e33aadf",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR regular-class comparison assignment",
+            "description": "Initial assignment to a class planned for 22–25 students without a full-time aide in Tennessee Project STAR. Some regular classes had part-time aide access in grades 1–3.",
+            "types": [
+              {
+                "id": "19e3f0af19da48d3b5cd0e59eeda5dd0",
+                "name": "Study arm"
+              }
+            ]
+          }
+        },
+        {
+          "id": "46f50cbc2c4d4c61900cfc719b3ab3cf",
+          "fromEntityId": "c234b1291e90415b9fa31a9f02782339",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "In Tennessee STAR, full-time-aide assignment raised grade 1 achievement by an estimated 1.64 percentile points.",
+            "description": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 1.64 points (class-clustered SE 0.76). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "4caf32f32daf4c258c2f2e3ff78cfb9f",
+          "fromEntityId": "88a750e93ad64f5784a62644f8f4a9db",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "In Tennessee STAR, small-class assignment raised grade 1 achievement by an estimated 6.79 percentile points.",
+            "description": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 6.79 points (class-clustered SE 1.10). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "519de208b9c34bdfb9f9b8d1f7d6389c",
+          "fromEntityId": "28500731d7ea47869b219483710e0b1c",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 3 achievement.",
+            "description": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 0.13 points (class-clustered SE 0.81). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "9febbc43aadb43179fa90ddd059ee7f1",
+          "fromEntityId": "a06f616cfe594329b80245b88960a5e5",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "In Tennessee STAR, full-time-aide assignment did not clearly improve grade 2 achievement.",
+            "description": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 1.16 points (class-clustered SE 0.81). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "a17bc0b7dbf049aa962fb59984f29ead",
+          "fromEntityId": "04cc2815daee4657879fd16d5cbec2b2",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR regular-class assignment with full-time aide",
+            "description": "Initial assignment to a class planned for 22–25 students with a full-time classroom aide in Tennessee Project STAR.",
+            "types": [
+              {
+                "id": "19e3f0af19da48d3b5cd0e59eeda5dd0",
+                "name": "Study arm"
+              }
+            ]
+          }
+        },
+        {
+          "id": "a616d7f8d95c43fb8d228618e49cc6bd",
+          "fromEntityId": "1712d6b99fdd4e2cb6bea8bee28d61a3",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "In Tennessee STAR, small-class assignment raised grade 3 achievement by an estimated 5.30 percentile points.",
+            "description": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.30 points (class-clustered SE 1.03). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "b6b3aee3ff964c939d36c0976b2046a4",
+          "fromEntityId": "831a394e674a4826b8343d205df764d6",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "In Tennessee STAR, full-time-aide assignment did not clearly improve kindergarten achievement.",
+            "description": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 0.53 points (class-clustered SE 1.09). Krueger (1999), Table V column 7, found a statistically significant aide gain only in grade 1, not a consistent gain across grades.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        },
+        {
+          "id": "bb9ab8ef58014dd98b5679119f6fe400",
+          "fromEntityId": "9c49d94122dc4f54b9311d20b9b10c33",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "STAR small-class assignment",
+            "description": "Initial assignment to a class planned for 13–17 students in Tennessee Project STAR.",
+            "types": [
+              {
+                "id": "19e3f0af19da48d3b5cd0e59eeda5dd0",
+                "name": "Study arm"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e8da80990a2845ada641837a8f375026",
+          "fromEntityId": "939d786645e44217b3c435ca3a0c2b6b",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "fromEntity": {
+            "name": "In Tennessee STAR, small-class assignment raised grade 2 achievement by an estimated 5.27 percentile points.",
+            "description": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.27 points (class-clustered SE 1.10). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+            "types": [
+              {
+                "id": "96f859efa1ca4b229372c86ad58b694b",
+                "name": "Claim"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "semantic": [
+    {
+      "query": "class size reduction economic returns",
+      "bounded": true,
+      "data": {
+        "search": [
+          {
+            "id": "d70f7e00c8fd4fb2b6a056df6b844b1f",
+            "name": "Economic Considerations and Class Size",
+            "description": "Alan B. Krueger’s 2003 Economic Journal article examines class-size evidence and models its economic returns.",
+            "spaceIds": [
+              "dac259bad48a11adf97fe36857d85206"
+            ],
+            "types": [
+              {
+                "id": "a2a5ed0cacef46b1835de457956ce915",
+                "name": "Article"
+              }
+            ]
+          },
+          {
+            "id": "715d4704fe5142ec945dfed565e754b9",
+            "name": "Economic sanctions relief",
+            "description": null,
+            "spaceIds": [
+              "b5a31f8182b042437ede0f84ee02f104"
+            ],
+            "types": [
+              {
+                "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+                "name": "Topic"
+              }
+            ]
+          },
+          {
+            "id": "f502444e07ff428ba2d2d42bfd362339",
+            "name": "Economic sanctions relief",
+            "description": "The removal of the terrorism designation follows the dismantling of broader U.S. sanctions in 2025, clearing legal hurdles for financial institutions to engage with Syria as it faces over $200 billion in reconstruction needs.",
+            "spaceIds": [
+              "da96a4c26e718bfa6c27c3b1f3c316cd",
+              "89bd89bf28ff8a0963faf92a8c905e20"
+            ],
+            "types": [
+              {
+                "id": "b8803a8665de412bbb357e0c84adf473",
+                "name": "Data block"
+              },
+              {
+                "id": "b8803a8665de412bbb357e0c84adf473",
+                "name": "Data block"
+              }
+            ]
+          },
+          {
+            "id": "20d6b7a08bdd4301b10b02cf6ea19716",
+            "name": "Economic Sanctions",
+            "description": null,
+            "spaceIds": [
+              "b5a31f8182b042437ede0f84ee02f104"
+            ],
+            "types": [
+              {
+                "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+                "name": "Topic"
+              }
+            ]
+          },
+          {
+            "id": "516ec3ec607343899e966eeba10585fb",
+            "name": "Economic sanctions",
+            "description": null,
+            "spaceIds": [
+              "4582fbbee28a16589154f7e36f1ee3c5"
+            ],
+            "types": [
+              {
+                "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+                "name": "Topic"
+              }
+            ]
+          },
+          {
+            "id": "54288f8439bf4e569cc3e92d5e3a2938",
+            "name": "Economic & sanctions",
+            "description": "International sanctions against Russia, economic consequences of the war, energy disruptions, and the financial strain on both countries.",
+            "spaceIds": [
+              "cb4731c48a7b2a660bf7f482fe01ea95"
+            ],
+            "types": [
+              {
+                "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+                "name": "Topic"
+              }
+            ]
+          },
+          {
+            "id": "59c13d1f039449669cd37c8d21ffb414",
+            "name": "Economic sanctions",
+            "description": null,
+            "spaceIds": [
+              "89bd89bf28ff8a0963faf92a8c905e20"
+            ],
+            "types": []
+          },
+          {
+            "id": "109a514a7f784b669e8fa5fd499f9a67",
+            "name": "Economic sanctions on Cuba",
+            "description": null,
+            "spaceIds": [
+              "b5a31f8182b042437ede0f84ee02f104"
+            ],
+            "types": [
+              {
+                "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+                "name": "Topic"
+              }
+            ]
+          },
+          {
+            "id": "0eb76c2d65f84b1d94e1bd4c93d7a4a2",
+            "name": "Economic sanctions (Cuba)",
+            "description": null,
+            "spaceIds": [
+              "b5a31f8182b042437ede0f84ee02f104"
+            ],
+            "types": [
+              {
+                "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+                "name": "Topic"
+              }
+            ]
+          },
+          {
+            "id": "1d3a1ebc0864447d96b48f13dcc8af6a",
+            "name": "Economic Regulation",
+            "description": null,
+            "spaceIds": [
+              "b5a31f8182b042437ede0f84ee02f104"
+            ],
+            "types": [
+              {
+                "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+                "name": "Topic"
+              }
+            ]
+          },
+          {
+            "id": "4f7e8a29549b42408b1a1b997316f86b",
+            "name": "Economic sanctions on Russia",
+            "description": null,
+            "spaceIds": [
+              "b5a31f8182b042437ede0f84ee02f104"
+            ],
+            "types": [
+              {
+                "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+                "name": "Topic"
+              }
+            ]
+          },
+          {
+            "id": "b06d542979234d6b9348f37b18ff0428",
+            "name": "U.S.-China economic relations",
+            "description": null,
+            "spaceIds": [
+              "b5a31f8182b042437ede0f84ee02f104"
+            ],
+            "types": [
+              {
+                "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+                "name": "Topic"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "Hanushek Krueger study weighting",
+      "bounded": true,
+      "data": {
+        "search": [
+          {
+            "id": "192dc4c8e7b647f4aa318cdd87e3c1b4",
+            "name": "Hanna Krueger",
+            "description": null,
+            "spaceIds": [
+              "b5a31f8182b042437ede0f84ee02f104"
+            ],
+            "types": [
+              {
+                "id": "7ed45f2bc48b419e8e4664d5ff680b0d",
+                "name": "Person"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "smaller classes teacher quality",
+      "bounded": true,
+      "data": {
+        "search": [
+          {
+            "id": "89586fb2d4154e3790137feb127816a1",
+            "name": "Assess felled timber quality",
+            "description": "Evaluate the quality of the felled timber.",
+            "spaceIds": [
+              "d69608290513c2a91102c939b3265bd7"
+            ],
+            "types": [
+              {
+                "id": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+                "name": "Skill"
+              }
+            ]
+          },
+          {
+            "id": "822d5e6ed5c14e14b5f0ed7642cffde8",
+            "name": "Assess sound quality",
+            "description": "Assess the recorded sound and music. Make sure it conforms to specifications.",
+            "spaceIds": [
+              "d69608290513c2a91102c939b3265bd7"
+            ],
+            "types": [
+              {
+                "id": "9ca6ab1f3a114e49bbaf72e0c9a985cf",
+                "name": "Skill"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

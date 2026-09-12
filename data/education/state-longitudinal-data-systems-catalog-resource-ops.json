@@ -1,0 +1,137 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2bddbb14384640418afcae30c3df58d3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "State Longitudinal Data Systems (SLDS) Program",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "State Longitudinal Data Systems (SLDS) Program provides local evaluation feasibility,longitudinal outcome linkage,implementation exposure measurement. It is a source or access layer, so causal effects must be taken from the underlying study records.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://nces.ed.gov/programs/slds/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0c2d3a033b5b4604ad4dab6d66857519"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "State Longitudinal Data Systems (SLDS) Program catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** National Center for Education Statistics\n- **Access:** State-administered systems; no single national public microdata file\n- **Access URL:** https://nces.ed.gov/programs/slds/\n- **Unit:** State-specific linked administrative record\n- **Coverage:** State-dependent\n- **Update cadence:** State-dependent\n- **Geography:** state, district, school, student where authorized\n- **Join keys:** state student identifier, district and school identifiers, school year, state program identifiers\n- **Measures:** enrollment, assessment, course taking, graduation, postsecondary and workforce links where available\n- **Uses:** local evaluation feasibility, longitudinal outcome linkage, implementation exposure measurement\n\nThis is an access and evaluation-design layer, not one downloadable national dataset. Any state extract must retain that state's data dictionary, approval record, and disclosure controls.\n\n[Official resource](https://nces.ed.gov/programs/slds/)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "60860b518da54df3a01e43502ddcf6a9"
+    },
+    "entity": {
+      "$bytes": "f3c3d7063b454cfdaa33a4f337bf1369"
+    },
+    "from": {
+      "$bytes": "2bddbb14384640418afcae30c3df58d3"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09Na"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a688a86670ad4bbfadc6706714d97f89"
+    },
+    "entity": {
+      "$bytes": "e1adb07cb6e24654bfa41e003a8b2b2d"
+    },
+    "from": {
+      "$bytes": "0c2d3a033b5b4604ad4dab6d66857519"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Az6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4f04a969b18e4307b152ba3a8c90556d"
+    },
+    "entity": {
+      "$bytes": "cfe46c82758d4f7483f6205ae620f814"
+    },
+    "from": {
+      "$bytes": "2bddbb14384640418afcae30c3df58d3"
+    },
+    "to": {
+      "$bytes": "0c2d3a033b5b4604ad4dab6d66857519"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a06WU"
+  }
+]

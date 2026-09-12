@@ -1,0 +1,105 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T04:41:18.384Z",
+  "opsHash": "d880297a95aa5188c68d3827aa5ae634af7533984602160dd2d5c683e1f9442e",
+  "checks": [
+    "Complete all-space discovery has no candidate: data/education/discovery/contains-states-should-use-school-finance-reforms-to-increase-k-12-spending-for-students-from-low-income-families.json",
+    "Complete all-space discovery has no candidate: data/education/discovery/contains-school-finance-reform-low-income-spending-policy.json",
+    "Live Relation property: 8f151ba4de204e3c9cb499ddf96f48f1",
+    "Live Relation property: 49c5d5e1679a4dbdbfd33f618f227c94",
+    "Live Relation property: 504e5776788844f6a77dba3ee811d8f0",
+    "Live Relation property: 1dc6a843458848198e7a6e672268f811",
+    "Live Relation property: 4e6ec5d14292498a84e5f607ca1a08ce",
+    "Live Checkbox property: da4a6c1f9d4446f9832ff3b49a4400ef",
+    "Allocated parent ID is unused: 4b1c0a6c5d4a49af972a5d04b3e51861",
+    "No all-space exact-name parent exists",
+    "Reused Article has expected type: 4e5efbb09d0945ea98f2c3140be1cd0a",
+    "Reused supporting factual Claim has expected type: 12495ccb45fd44699425a6e5b026f00a",
+    "Evidence remains factual: 12495ccb45fd44699425a6e5b026f00a",
+    "Reused supporting factual Claim has expected type: 563ddf93c85241c3b5e8011a81f03edd",
+    "Evidence remains factual: 563ddf93c85241c3b5e8011a81f03edd",
+    "Reused opposing factual Claim has expected type: f72679e4612c4d2b9d4496626826f71c",
+    "Evidence remains factual: f72679e4612c4d2b9d4496626826f71c",
+    "Reused Study exists: db495f402635466dbf63e71f970c67c2"
+  ],
+  "edges": [
+    {
+      "from": "4b1c0a6c5d4a49af972a5d04b3e51861",
+      "property": "8f151ba4de204e3c9cb499ddf96f48f1",
+      "to": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    {
+      "from": "4b1c0a6c5d4a49af972a5d04b3e51861",
+      "property": "49c5d5e1679a4dbdbfd33f618f227c94",
+      "to": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    {
+      "from": "4b1c0a6c5d4a49af972a5d04b3e51861",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "db495f402635466dbf63e71f970c67c2"
+    },
+    {
+      "from": "4b1c0a6c5d4a49af972a5d04b3e51861",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "12495ccb45fd44699425a6e5b026f00a"
+    },
+    {
+      "from": "12495ccb45fd44699425a6e5b026f00a",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "4b1c0a6c5d4a49af972a5d04b3e51861"
+    },
+    {
+      "from": "4b1c0a6c5d4a49af972a5d04b3e51861",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "563ddf93c85241c3b5e8011a81f03edd"
+    },
+    {
+      "from": "563ddf93c85241c3b5e8011a81f03edd",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "4b1c0a6c5d4a49af972a5d04b3e51861"
+    },
+    {
+      "from": "4b1c0a6c5d4a49af972a5d04b3e51861",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "f72679e4612c4d2b9d4496626826f71c"
+    },
+    {
+      "from": "f72679e4612c4d2b9d4496626826f71c",
+      "property": "504e5776788844f6a77dba3ee811d8f0",
+      "to": "4b1c0a6c5d4a49af972a5d04b3e51861"
+    },
+    {
+      "from": "4b1c0a6c5d4a49af972a5d04b3e51861",
+      "property": "1dc6a843458848198e7a6e672268f811",
+      "to": "12495ccb45fd44699425a6e5b026f00a"
+    },
+    {
+      "from": "4b1c0a6c5d4a49af972a5d04b3e51861",
+      "property": "1dc6a843458848198e7a6e672268f811",
+      "to": "563ddf93c85241c3b5e8011a81f03edd"
+    },
+    {
+      "from": "4b1c0a6c5d4a49af972a5d04b3e51861",
+      "property": "4e6ec5d14292498a84e5f607ca1a08ce",
+      "to": "f72679e4612c4d2b9d4496626826f71c"
+    }
+  ],
+  "model": {
+    "name": "States should use school-finance reforms to increase K–12 spending for students from low-income families.",
+    "description": "This policy position weighs the study’s estimated long-run gains for its low-income group against the cost of increasing spending. The reform-based estimates and illustrative cost do not settle priorities, implementation, or alternatives.",
+    "article": "4e5efbb09d0945ea98f2c3140be1cd0a",
+    "study": "db495f402635466dbf63e71f970c67c2",
+    "support": [
+      "12495ccb45fd44699425a6e5b026f00a",
+      "563ddf93c85241c3b5e8011a81f03edd"
+    ],
+    "oppose": [
+      "f72679e4612c4d2b9d4496626826f71c"
+    ],
+    "discovery": [
+      "data/education/discovery/contains-states-should-use-school-finance-reforms-to-increase-k-12-spending-for-students-from-low-income-families.json",
+      "data/education/discovery/contains-school-finance-reform-low-income-spending-policy.json"
+    ]
+  },
+  "rationale": "The source-reported low-income education and poverty estimates support a policy aimed at that group. The author-reported spending-cost illustration challenges it by making fiscal tradeoffs salient; it is not an effect estimate, a measured counterargument, or a reconstructed benefit-cost result."
+}

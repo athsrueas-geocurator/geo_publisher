@@ -1,0 +1,362 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2ea66377657940dfb6633d2ecf8cd0a1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Per Scholas",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Bronx information-technology provider in the 2011–2013 WorkAdvance demonstration.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3190d364838044959d1335395cfe97d4"
+    },
+    "entity": {
+      "$bytes": "eff6f5634b704e3fb7c411f71ecc9557"
+    },
+    "from": {
+      "$bytes": "2ea66377657940dfb6633d2ecf8cd0a1"
+    },
+    "to": {
+      "$bytes": "9547f4fb78744de0a9a9fdd7b4c01c0c"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AUw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0ca30c34a3d8451a8c96e11876192e73"
+    },
+    "entity": {
+      "$bytes": "1238ee1a4e8f4a3c8d9dc733a9661dae"
+    },
+    "from": {
+      "$bytes": "2ea66377657940dfb6633d2ecf8cd0a1"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0ByJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ca321122fad647cb8f1d81c63118b9cc"
+    },
+    "entity": {
+      "$bytes": "edbc9d4e4c8e4c1f95cec8976f713ea4"
+    },
+    "from": {
+      "$bytes": "c609e1790a274c6cb1dffc05ce509649"
+    },
+    "to": {
+      "$bytes": "2ea66377657940dfb6633d2ecf8cd0a1"
+    },
+    "relationType": {
+      "$bytes": "261fad421cc744938acbaa4a4c74220c"
+    },
+    "position": "a0688"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "017bdc4c544a4291b1b9369a7ca4504c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "St. Nicks Alliance",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Brooklyn environmental-remediation provider in the 2011–2013 WorkAdvance demonstration.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a7d61327902540bb8c932fb2602c9b96"
+    },
+    "entity": {
+      "$bytes": "fa5b77ae12c146aab84e903c3dca4361"
+    },
+    "from": {
+      "$bytes": "017bdc4c544a4291b1b9369a7ca4504c"
+    },
+    "to": {
+      "$bytes": "9547f4fb78744de0a9a9fdd7b4c01c0c"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04oq"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "855f22489f134d439483658f0fa9a61c"
+    },
+    "entity": {
+      "$bytes": "85ac2cf542d444e9ac27dd46b85fff01"
+    },
+    "from": {
+      "$bytes": "017bdc4c544a4291b1b9369a7ca4504c"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03ij"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f8aed300e1794111bffa97b92565018d"
+    },
+    "entity": {
+      "$bytes": "d4daef377446423ab4531d1a72c34c2d"
+    },
+    "from": {
+      "$bytes": "d2f8240d139545ca92e67b868ad792e5"
+    },
+    "to": {
+      "$bytes": "017bdc4c544a4291b1b9369a7ca4504c"
+    },
+    "relationType": {
+      "$bytes": "261fad421cc744938acbaa4a4c74220c"
+    },
+    "position": "a02lT"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "67988ba281084be8a645f02276993554"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Madison Strategies Group",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Tulsa transportation and manufacturing provider in the 2011–2013 WorkAdvance demonstration.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "275b14f597934241a25c24369977a93e"
+    },
+    "entity": {
+      "$bytes": "865edb42c9864031a745943191e57de2"
+    },
+    "from": {
+      "$bytes": "67988ba281084be8a645f02276993554"
+    },
+    "to": {
+      "$bytes": "9547f4fb78744de0a9a9fdd7b4c01c0c"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03O1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ac4f54cd19b44d8a8007cf7d8711994f"
+    },
+    "entity": {
+      "$bytes": "e14184739645460899486775604e3821"
+    },
+    "from": {
+      "$bytes": "67988ba281084be8a645f02276993554"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0C29"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1068e196b8674c18ac3e70f3f9abb67e"
+    },
+    "entity": {
+      "$bytes": "4be3d6d1daac4b3d9660882cd85e3d21"
+    },
+    "from": {
+      "$bytes": "c0fb562fcddd4fe1a3a97def4fe90899"
+    },
+    "to": {
+      "$bytes": "67988ba281084be8a645f02276993554"
+    },
+    "relationType": {
+      "$bytes": "261fad421cc744938acbaa4a4c74220c"
+    },
+    "position": "a09Oc"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ab6c3003f61547fda01e6df3f8c3cfc7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Towards Employment",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Northeast Ohio health-care and manufacturing provider in the 2011–2013 WorkAdvance demonstration.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "510c001330a74a7a9187352544bfdf61"
+    },
+    "entity": {
+      "$bytes": "174f23e5d27e4604b6e4a7993e2a8460"
+    },
+    "from": {
+      "$bytes": "ab6c3003f61547fda01e6df3f8c3cfc7"
+    },
+    "to": {
+      "$bytes": "9547f4fb78744de0a9a9fdd7b4c01c0c"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05n0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3e29572bed584dc496853267482206a2"
+    },
+    "entity": {
+      "$bytes": "b8f167113da34a899f8053ff13d8d21e"
+    },
+    "from": {
+      "$bytes": "ab6c3003f61547fda01e6df3f8c3cfc7"
+    },
+    "to": {
+      "$bytes": "2278407dc1df480e8a297cd9beb44a4a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0C8q"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "36449fb9749e4ffb91c472ee58c9607c"
+    },
+    "entity": {
+      "$bytes": "a60d6f80a022499d96299e8cfb1f3d9f"
+    },
+    "from": {
+      "$bytes": "aaf2430558924ac5acf2f55fd3973620"
+    },
+    "to": {
+      "$bytes": "ab6c3003f61547fda01e6df3f8c3cfc7"
+    },
+    "relationType": {
+      "$bytes": "261fad421cc744938acbaa4a4c74220c"
+    },
+    "position": "a0AeM"
+  }
+]

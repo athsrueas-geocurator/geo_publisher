@@ -1,0 +1,96 @@
+{
+  "status": "Source-reviewed draft; not published; complete live identity, numeric mapping and staged relation checks before submission",
+  "source": {
+    "articleId": "783f6a0c029249f9a10f73fb02a4c385",
+    "studyId": "415914702fcb448a991b05734a84290a",
+    "datasetId": "7e86c7f34c614db49497272063f43485",
+    "url": "https://jenni.uchicago.edu/Spencer_Conference/Papers%202010/Heckman_Moon_etal_2010_Rate%20of%20Return%20Perry.pdf",
+    "pdfSha256": "6ddac9dfc5838d03db068ddfe151c4a0a35b8385dde4cc26912da081db7df3bf"
+  },
+  "parents": [
+    {
+      "key": "expansion-justified",
+      "name": "Perry's economic returns are sufficient grounds to expand publicly funded preschool for disadvantaged children.",
+      "description": "This policy judgment favors expansion based on Perry's modeled long-term benefits. Whether those benefits would transfer to new programs remains a separate evidentiary question.",
+      "isFactual": false
+    },
+    {
+      "key": "expansion-needs-more-evidence",
+      "name": "Expanding publicly funded preschool for disadvantaged children requires evidence beyond Perry's economic returns.",
+      "description": "This policy judgment calls for evidence about the programs and populations proposed for expansion. It does not deny the positive returns estimated for Perry itself.",
+      "isFactual": false
+    }
+  ],
+  "evidence": [
+    {
+      "key": "pooled-low-valuation-lifetime",
+      "id": "9acd93c61285457585cc55d4853fb86e",
+      "registryKey": "estimate/benefit-cost/discount-0.03/low/all",
+      "action": "reuse",
+      "sourceLocator": "Table 1, printed p.115",
+      "value": "7.1",
+      "standardError": "2.3"
+    },
+    {
+      "key": "pooled-high-valuation-lifetime",
+      "id": "511ab2ec16b54619a6a500dbd8e4e623",
+      "registryKey": "estimate/benefit-cost/discount-0.03/high/all",
+      "action": "reuse-related-sensitivity",
+      "sourceLocator": "Table 1, printed p.115",
+      "value": "12.2",
+      "standardError": "5.3",
+      "interpretation": "Alternative murder valuation of the same study/model; not independent support or replication."
+    },
+    {
+      "key": "earnings-extrapolation",
+      "action": "new-candidate-pending-identity",
+      "name": "Perry's modeled lifetime returns include projected earnings beyond the study's age-40 follow-up.",
+      "description": "Heckman and colleagues (2010) extend earnings profiles through age 65 using outside data. They also estimate returns with benefits ending at age 40 to examine sensitivity to extrapolation.",
+      "isFactual": true,
+      "sourceLocator": "Introduction p.115; Section 3 p.117; Section 3.2.2 p.119; Section 4.3 pp.125-126"
+    },
+    {
+      "key": "pooled-low-valuation-through-40",
+      "action": "source-image-verified-new-numeric-candidate-pending-identity-and-mapping",
+      "name": "Perry's modeled societal benefit/cost ratio remains 5.4 when benefits end at age 40, at a 3% discount rate.",
+      "description": "Heckman and colleagues (2010), Table 7, report SE 2.2 for the pooled sample, using the $13,000 murder valuation and $0.50 tax-financing welfare loss per tax dollar. This scenario omits benefits after age 40 but still uses imputation and economic valuation.",
+      "isFactual": true,
+      "value": "5.4",
+      "standardError": "2.2",
+      "discountRate": "0.03",
+      "deadweightLoss": "0.5",
+      "murderValuation": "13000",
+      "benefitHorizonAge": 40,
+      "sourceLocator": "Table 7, printed p.126 / PDF page 13; Separate arrest ratios, low murder cost, pooled sample",
+      "mappingRequirement": "Use typed existing ratio, SE, discount, welfare-loss, valuation, perspective and population properties; verify an age-endpoint field distinct from elapsed follow-up. Do not silently label this a 40-year follow-up or a directly observed causal ratio. Reuse the Table 1 age-65 comparator instead of creating a duplicate Table 7 cell."
+    }
+  ],
+  "pairReview": [
+    {"a":"expansion-justified","b":"expansion-needs-more-evidence","related":"both","proposedBracket":"OPPOSES","argumentDirection":"both","reason":"Opposite judgments about whether Perry's economic returns are sufficient grounds for expansion; neither is a paper conclusion."},
+    {"a":"expansion-justified","b":"pooled-low-valuation-lifetime","related":"both","proposedBracket":"SUPPORTS","argumentDirection":"a-to-b","reason":"Positive modeled net social benefits supply an economic argument for expansion without proving transportability."},
+    {"a":"expansion-needs-more-evidence","b":"pooled-low-valuation-lifetime","related":"both","proposedBracket":"RELATED-ONLY","reason":"This parent explicitly accepts Perry's positive model results; those results alone do not contradict its demand for additional evidence."},
+    {"a":"expansion-justified","b":"earnings-extrapolation","related":"both","proposedBracket":"RELATED-ONLY","reason":"A modeling assumption qualifies the inference but does not itself refute a policy judgment."},
+    {"a":"expansion-needs-more-evidence","b":"earnings-extrapolation","related":"both","proposedBracket":"RELATED-ONLY","reason":"Extrapolation within Perry is distinct from evidence of generalization to new programs; do not force support for the transportability claim."},
+    {"a":"pooled-low-valuation-lifetime","b":"pooled-high-valuation-lifetime","related":"both","proposedBracket":"RELATED-ONLY","reason":"Different valuation assumptions materially change the assertion; neither duplicate nor independent replication."},
+    {"a":"expansion-justified","b":"pooled-low-valuation-through-40","related":"both","proposedBracket":"RELATED-ONLY","reason":"Same study sensitivity case qualifies the lifetime supporter; avoid presenting two horizons as independent evidence."},
+    {"a":"expansion-needs-more-evidence","b":"pooled-low-valuation-through-40","related":"both","proposedBracket":"RELATED-ONLY","reason":"Positive within-follow-up modeled benefits do not resolve transferability; they prevent an exaggerated claim that all benefits require later extrapolation."},
+    {"a":"earnings-extrapolation","b":"pooled-low-valuation-through-40","related":"both","proposedBracket":"RELATED-ONLY","reason":"The age-40 result is a complementary sensitivity finding, not a contradiction of the lifetime model's use of projections."},
+    {"a":"pooled-low-valuation-lifetime","b":"pooled-low-valuation-through-40","related":"both","proposedBracket":"RELATED-ONLY","reason":"Same population and assumptions with distinct benefit horizons; expose paired comparison rather than duplicate evidence counts."}
+  ],
+  "discovery": {
+    "reports": ["perry-debate-name-discovery.json","discovery/contains-preschool.json","discovery/contains-early-childhood.json","discovery/contains-highscope.json"],
+    "counts": {"Perry":271,"preschool":66,"early childhood":53,"HighScope":2},
+    "broadRoiCandidate": "4c6e9e711aaf437bb7ac8d61a7eba37f",
+    "candidateDecision": "Not an identity match: combines Perry and Abecedarian, a $4-9 range and political undervaluation. No source verification or cross-space link is implied.",
+    "topicCandidate": "0df9fad9098d4b11bacb9af0f7a79182",
+    "topicDecision": "Existing Early childhood education Topic; inspect canonical facts before reusing. The grouping exclusion concerns Podcast-resident Claims; do not create a duplicate Topic simply because this Topic is resident there. Never link excluded Claims.",
+    "remaining": "Exact proposed-name checks, source-neighborhood/semantic identity checks for new factual candidates, stable IDs, live residency checks and numeric horizon mapping. Name-search completeness is not exhaustive semantic absence."
+  },
+  "publicationSequence": [
+    "Table 7 source image verified; resolve the numeric horizon mapping and all new identities across spaces.",
+    "Prepare source-linked typed Claims and Related grouping using existing SDK publisher; attach the education bounty and verify execution/indexing.",
+    "Re-adjudicate actual published pairs before publishing supporting/opposing edges; preserve Related-only decisions.",
+    "Reuse a verified Topic for dedicated-page navigation; verify policy Agree/Disagree, evidence Verify/Dispute, citations and gallery.",
+    "Extend the tested dashboard graph query to this debate and paired-horizon comparison; document stable IDs and remaining limits."
+  ]
+}

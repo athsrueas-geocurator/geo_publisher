@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-09-12T10:42:36.400Z",
+  "batchName": "Add What Works Clearinghouse catalog resource and metadata block",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "entityId": "547924b539e241d997f47963941b4367",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "547924b539e241d997f47963941b4367",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "547924b539e241d997f47963941b4367",
+      "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+      "pass": true
+    },
+    {
+      "relationId": "ff649eda1bd64439bfa411aa1dd0f92f",
+      "pass": true
+    },
+    {
+      "relationId": "b939db5b28394233b4cc7c4e13120fea",
+      "pass": true
+    },
+    {
+      "entityId": "8502d253b85a4054803d5e880bd00dbe",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "8502d253b85a4054803d5e880bd00dbe",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "relationId": "76f390bb52a541c5a993da3e6b81d5f9",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

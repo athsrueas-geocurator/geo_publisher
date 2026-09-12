@@ -1,0 +1,29 @@
+{
+  "term": "Source locator",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T17:44:34.405Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "bd90b1d2df3d28aa58b6176bb87e38e4",
+      "name": "Source locator",
+      "description": "AI Music ontology field for source_locator; data type relation to SourceLocator; cardinality one; publish policy required_when_referenced_or_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYmQ5MGIxZDItZGYzZC0yOGFhLTU4YjYtMTc2YmI4N2UzOGU0Il1d"
+    }
+  ]
+}

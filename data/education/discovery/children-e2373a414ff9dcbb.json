@@ -1,0 +1,29 @@
+{
+  "term": "Children",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T21:50:44.869Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "561872867e1b4b80a5f37ddeb27570b5",
+      "name": "Children",
+      "description": "Young people who have not yet reached the age of adulthood.",
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "3c60617f2cde43fb8bf386a9a68d3ee9",
+          "name": "Demographic"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNTYxODcyODYtN2UxYi00YjgwLWE1ZjMtN2RkZWIyNzU3MGI1Il1d"
+    }
+  ]
+}

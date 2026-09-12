@@ -1,0 +1,26 @@
+{
+  "paperName":"The Effects of School Spending on Educational and Economic Outcomes: Evidence from School Finance Reforms",
+  "paperUrl":"https://doi.org/10.1093/qje/qjv036",
+  "pdfUrl":"https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/b/3664/files/2020/10/QJE_resubmit_final_version_stamped.pdf",
+  "authors":["C. Kirabo Jackson","Rucker C. Johnson","Claudia Persico"],
+  "studyName":"School-finance reform and adult outcomes study (Jackson, Johnson and Persico)",
+  "datasetName":"School-finance reforms: spending and adult outcomes (Jackson, Johnson and Persico, 2016)",
+  "datasetDescription":"Estimates of how reform-induced school spending relates to educational attainment and adult economic outcomes. Results distinguish childhood-income groups and preserve the reported regression scale.",
+  "studyDescription":"A U.S. study linking childhood school spending and court-mandated finance reforms to adult outcomes. Event-study and instrumental-variable analyses use differences in exposure across birth cohorts and districts.",
+  "pilotKey":"education-years/all",
+  "studyType":"3ef269bc5f114691abc02dcbf398fd63",
+  "populationSummaryProperty":"7a1f6d017895206e84e1988c0c74621e",
+  "outcomeMeasureProperty":"0e1320cbf9b3b4f5fe066780d1803b13",
+  "studyDesignProperty":"8e46e3eff9dea2b55d32a5ca7de61938",
+  "pValueProperty":"ba5f8fe9d1cd9a6094338d2f37b74a5e",
+  "groups":{
+    "all":"All sampled children, birth cohorts 1955–1985",
+    "low-income":"Parental family income below twice the poverty line in any childhood year",
+    "nonpoor":"Parental family income never below twice the poverty line during measured childhood"
+  },
+  "populationSourceLocator":"Final article, printed p. 165 (PDF page 10)",
+  "coefficientDisplay":"Raw coefficient per unit increase in natural log of average school-age per-pupil spending; do not apply percent formatting to the coefficient itself.",
+  "sampleCountPolicy":"Store model individuals, families and person-years separately. Do not assign a pooled model count as subgroup-specific N.",
+  "groupMappingStatus":"Use the verified Population summary Text property for exact source-defined group filters initially; general cohort relation modeling and the existing Perry Population type require review.",
+  "methodsMarkdown":"## Study and exposure\n\nThe study links school finance reforms and district spending with Panel Study of Income Dynamics birth cohorts from 1955 through 1985, followed through 2011. The preferred instrumental-variable specification uses court-ordered reform exposure and predicted spending-change quartiles. These estimates depend on the study's identification assumptions; they are not randomized trial effects.\n\n## Reading the coefficients\n\nThe exposure is the natural log of average school-age per-pupil spending. Tables III–V supply coefficients in years, probability units or log-income units per unit of log spending. The authors' approximate interpretation for a 10% sustained spending increase uses a 0.10 change; an exact 10% increase would use ln(1.10). Neither should silently replace the reported coefficients.\n\n## Population and uncertainty\n\nLow-income means parental family income below twice the poverty line in any childhood year. Nonpoor is the study's complementary group, not a synonym for never below the official poverty line. Standard errors are clustered by school district. Model counts combine income groups and are not subgroup-specific sample sizes.\n\n## Cost illustration\n\nThe article's illustrative benefit-cost discussion is distinct from the regressions. Its rounded figures and differing wage assumptions require reconciliation before a computed cost-effectiveness comparison. National spending exposure is not a uniform program price.\n\n## Source\n\n[Final journal article](https://doi.org/10.1093/qje/qjv036), Tables III–V and printed pp. 165, 212–213. [Author-hosted full text](https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/b/3664/files/2020/10/QJE_resubmit_final_version_stamped.pdf)."
+}

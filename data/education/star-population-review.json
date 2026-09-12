@@ -1,0 +1,148 @@
+{
+  "data": {
+    "entity": {
+      "id": "95930302f7294124a85db5ab33c8ad38",
+      "name": "Population",
+      "values": {
+        "nodes": [
+          {
+            "property": {
+              "name": "Description"
+            },
+            "text": "Demographic group defined by age, sex, or physiological status used to stratify reference ranges.",
+            "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+          },
+          {
+            "property": {
+              "name": "Description"
+            },
+            "text": "Demographic group defined by age, sex, or physiological status used to stratify reference ranges.",
+            "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+          },
+          {
+            "property": {
+              "name": "Name"
+            },
+            "text": "Population",
+            "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+          },
+          {
+            "property": {
+              "name": "Name"
+            },
+            "text": "Population",
+            "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "entities": [
+      {
+        "id": "16ae35582d244ec89b49e872c94d4867",
+        "name": "Child (1–12 yr)",
+        "description": "Pediatric population aged 1 through 12 years.",
+        "spaceIds": [
+          "44eb138f564fbed6ed9ce543de1b849c"
+        ]
+      },
+      {
+        "id": "196fdf8f2b33434697d72bc44883c94a",
+        "name": "Healthy Dutch working adults",
+        "description": null,
+        "spaceIds": [
+          "52c7ae149838b6d47ce0f3b2a5974546"
+        ]
+      },
+      {
+        "id": "262cc7255aee440b84d82704d0815f9d",
+        "name": "Middle-aged adults",
+        "description": "People aged 45 to 64 years.",
+        "spaceIds": [
+          "44eb138f564fbed6ed9ce543de1b849c"
+        ]
+      },
+      {
+        "id": "3e2fa05bc58e49058471f4abecb900d2",
+        "name": "Older adults",
+        "description": "People of advanced age generally regarded as seniors.",
+        "spaceIds": [
+          "44eb138f564fbed6ed9ce543de1b849c"
+        ]
+      },
+      {
+        "id": "4285f697d73b417593a984d0374691f1",
+        "name": "Adult Female",
+        "description": "Females aged 18 years and older.",
+        "spaceIds": [
+          "44eb138f564fbed6ed9ce543de1b849c"
+        ]
+      }
+    ],
+    "property": {
+      "id": "aa77da401d9b4ca3b250fd24c9b8701f",
+      "name": "Population studied",
+      "dataTypeName": "Relation"
+    },
+    "relationsConnection": {
+      "nodes": [
+        {
+          "fromEntity": {
+            "id": "3da741e5778a491391a13fca49f5258e",
+            "name": "Sleep and recovery following cold water immersion in female netball players"
+          },
+          "toEntity": {
+            "id": "948ebdf6d03043d3b52dab826cf694a1",
+            "name": "Elite female netball players",
+            "types": [
+              {
+                "id": "95930302f7294124a85db5ab33c8ad38",
+                "name": "Population"
+              }
+            ]
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "fromEntity": {
+            "id": "4347e98585a049bf83910e14aa270503",
+            "name": "Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans"
+          },
+          "toEntity": {
+            "id": "ef793edf85fa4f2a8a8d96fdefab73a7",
+            "name": "Healthy young adult males",
+            "types": [
+              {
+                "id": "95930302f7294124a85db5ab33c8ad38",
+                "name": "Population"
+              }
+            ]
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "fromEntity": {
+            "id": "33433cff08314af1ab9be38cc3e537d8",
+            "name": "Altered brown fat thermoregulation and enhanced cold-induced thermogenesis in young, healthy, winter-swimming men"
+          },
+          "toEntity": {
+            "id": "9c16c80b09664fc28ad1d598933b4e3b",
+            "name": "Habitual winter swimmers and controls",
+            "types": [
+              {
+                "id": "95930302f7294124a85db5ab33c8ad38",
+                "name": "Population"
+              }
+            ]
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": true
+      }
+    }
+  }
+}

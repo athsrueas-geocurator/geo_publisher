@@ -1,0 +1,137 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bf490a4a56e44533b3fb140b0adc509e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Civil Rights Data Collection (CRDC)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "CRDC provides collection-cycle data on civil-rights conditions in U.S. public schools and districts. It supplies equity and implementation context; it does not establish that an initiative caused an outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://ocrdata.ed.gov/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6f090dc7fef54b9c8bf7253887ff6e22"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "CRDC catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** U.S. Department of Education Office for Civil Rights.\n- **Access:** Public downloadable collection files.\n- **Unit:** Public school and district, collection-year and subgroup-disaggregated.\n- **Coverage:** Collection-cycle dependent; record the collection year and file definition.\n- **Join keys:** LEA ID, school ID, school year, and subgroup.\n- **Measures:** Discipline, restraint and seclusion, advanced-course access, staffing, preschool, and harassment/bullying.\n- **Use boundary:** Preserve changing collection definitions and suppressed values with every analytic use.\n\nCRDC can provide equity, school-climate, opportunity-to-learn, and implementation-risk context. Its released values do not alone establish that a program caused an outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "40eeb432aa234abca8c9753ec7064eae"
+    },
+    "entity": {
+      "$bytes": "5270f5fb652744c4918dbdb14acc7c79"
+    },
+    "from": {
+      "$bytes": "bf490a4a56e44533b3fb140b0adc509e"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0978"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8f81381929094c5e8e44688cdab2b907"
+    },
+    "entity": {
+      "$bytes": "8155b0f01a0b44338d53c2e1dbaa2882"
+    },
+    "from": {
+      "$bytes": "6f090dc7fef54b9c8bf7253887ff6e22"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01wX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "05ffd3651811495b9e9198b21c8bc649"
+    },
+    "entity": {
+      "$bytes": "dd239896a0164cc9b9ac36dc765789b7"
+    },
+    "from": {
+      "$bytes": "bf490a4a56e44533b3fb140b0adc509e"
+    },
+    "to": {
+      "$bytes": "6f090dc7fef54b9c8bf7253887ff6e22"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0421"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-09-12T00:49:25.122Z",
+  "batchName": "Remove redundant Name column from pooled Saga table",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 0,
+  "checks": [
+    {
+      "deletedRelationId": "3ddbcf667cf543fcbedfac8f3a14f0e7",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

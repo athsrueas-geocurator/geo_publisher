@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "observedDate": "2026-09-11 America/Indianapolis",
+  "datasetTab": 56,
+  "claimTab": 57,
+  "tableId": "83c9c6a366e14992a951ec702dbc67a3",
+  "scope": "All 16 trial-specific follow-up table rows and one dedicated Study 2 math Claim",
+  "pages": [{"page":1,"rows":9},{"page":2,"rows":7}],
+  "checks": ["Single Name column with Study number, outcome, estimand, estimate, SE, N, unit, qualified follow-up and A-12 locator", "All 16 records visible across two table pages", "Study 2 ITT math Claim states 0.027 SD, SE 0.040, N 1445, q 0.502 and no established later math improvement", "Dedicated Claim shows Verify/Dispute and the original Article link"],
+  "limits": "Does not verify every dedicated Claim page, current Curator presentation, or full frontend integration."
+}

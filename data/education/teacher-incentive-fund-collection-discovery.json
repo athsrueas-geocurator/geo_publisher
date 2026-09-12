@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T16:26:28.734Z",
+  "scope": "all-spaces",
+  "sourceId": "1fcce9b53fa640279448239bba337eef",
+  "claimIds": [
+    "12d7d800884d4cefaacf5be2538a2bbc",
+    "f206b6c5510d4a759c1e309dde11c685",
+    "a55fb976e792432987178812b2f6bc65",
+    "af8402d1b9a54766acecd750dd6c2444",
+    "ffc7228f4c98435a9e640657101e63f0",
+    "c8fa9bf3965945a1beca67e18e6b0ee7",
+    "f2667ffde3fd44dabe4a65c5da53a6e4",
+    "dcb3349e9b4043a69c65188bacac29c5"
+  ],
+  "searches": [
+    {
+      "kind": "alias",
+      "query": "Evaluation of the Teacher Incentive Fund: Final Report on Implementation and Impacts of Pay-for-Performance Across Four Years",
+      "complete": true,
+      "candidates": [
+        {
+          "id": "1fcce9b53fa640279448239bba337eef",
+          "name": "Evaluation of the Teacher Incentive Fund: Final Report on Implementation and Impacts of Pay-for-Performance Across Four Years",
+          "description": "A multisite randomized evaluation of the pay-for-performance bonus component of Teacher Incentive Fund compensation systems.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "a2a5ed0cacef46b1835de457956ce915",
+              "name": "Article"
+            }
+          ],
+          "decision": "distinct",
+          "rationale": "Expected Article source identity; it is not a result collection."
+        }
+      ]
+    },
+    {
+      "kind": "identifier",
+      "query": "1fcce9b53fa640279448239bba337eef",
+      "complete": true,
+      "candidates": [
+        {
+          "id": "1fcce9b53fa640279448239bba337eef",
+          "name": "Evaluation of the Teacher Incentive Fund: Final Report on Implementation and Impacts of Pay-for-Performance Across Four Years",
+          "description": "A multisite randomized evaluation of the pay-for-performance bonus component of Teacher Incentive Fund compensation systems.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "a2a5ed0cacef46b1835de457956ce915",
+              "name": "Article"
+            }
+          ],
+          "decision": "distinct",
+          "rationale": "Expected Article source identity; it is not a result collection."
+        }
+      ]
+    }
+  ],
+  "identitySearch": {
+    "query": "Evaluation of the Teacher Incentive Fund: Final Report on Implementation and Impacts of Pay-for-Performance Across Four Years",
+    "complete": true,
+    "nodes": [
+      {
+        "id": "1fcce9b53fa640279448239bba337eef",
+        "name": "Evaluation of the Teacher Incentive Fund: Final Report on Implementation and Impacts of Pay-for-Performance Across Four Years",
+        "description": "A multisite randomized evaluation of the pay-for-performance bonus component of Teacher Incentive Fund compensation systems.",
+        "spaceIds": [
+          "dac259bad48a11adf97fe36857d85206"
+        ],
+        "types": [
+          {
+            "id": "a2a5ed0cacef46b1835de457956ce915",
+            "name": "Article"
+          }
+        ]
+      }
+    ]
+  },
+  "claimMemberships": [
+    {
+      "claimId": "12d7d800884d4cefaacf5be2538a2bbc",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "f206b6c5510d4a759c1e309dde11c685",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "a55fb976e792432987178812b2f6bc65",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "af8402d1b9a54766acecd750dd6c2444",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "ffc7228f4c98435a9e640657101e63f0",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "c8fa9bf3965945a1beca67e18e6b0ee7",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "f2667ffde3fd44dabe4a65c5da53a6e4",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "dcb3349e9b4043a69c65188bacac29c5",
+      "complete": true,
+      "nodes": []
+    }
+  ],
+  "datasetDecision": "create",
+  "rationale": "Complete all-space source identity and incoming Collection-item queries; the expected Article identity is not a result collection, and existing Claims remain immutable."
+}

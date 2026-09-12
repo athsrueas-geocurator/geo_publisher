@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-09-12T08:13:23.417Z",
+  "batchName": "Correct Year Up randomized design sample to 2,544 applicants",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 1,
+  "checks": [
+    {
+      "entityId": "c780662e4ac6467b846943dccf0a7308",
+      "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

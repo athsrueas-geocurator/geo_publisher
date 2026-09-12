@@ -1,0 +1,73 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "44c758588b7b48cbb60496a704f298b4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "CCD catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** National Center for Education Statistics\n- **Access:** Primary annual bulk files; an Urban Institute API mirror can support bounded extracts.\n- **Unit:** Public school or local education agency, annually.\n- **Coverage:** Annual releases; select and record the exact vintage before analysis.\n- **Join keys:** NCES school ID, LEA ID, state LEA ID, and FIPS.\n- **Uses:** Directory, enrollment, staffing, grade span, locale, and charter/magnet context.\n\nCCD is an identifier and descriptive-context backbone. It cannot by itself establish that an education initiative caused an outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dd940793e2704912827d36dded0843d1"
+    },
+    "entity": {
+      "$bytes": "8980c4360397438e9c90cc3e939217b5"
+    },
+    "from": {
+      "$bytes": "44c758588b7b48cbb60496a704f298b4"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08DP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8592025e27c14ef6bc8be756a41f6f45"
+    },
+    "entity": {
+      "$bytes": "d978f67e4ad440328385953bec6fd023"
+    },
+    "from": {
+      "$bytes": "6bf3954ea2814e1db6f84bedbdba599c"
+    },
+    "to": {
+      "$bytes": "44c758588b7b48cbb60496a704f298b4"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0Bcw"
+  }
+]

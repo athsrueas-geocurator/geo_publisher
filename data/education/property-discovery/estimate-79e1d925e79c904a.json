@@ -1,0 +1,75 @@
+{
+  "term": "estimate",
+  "checkedAt": "2026-09-11T21:30:12.297Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "04218e90b76d4f359c3f3a65c84e7cfa",
+      "name": "Estimate",
+      "description": "Effort estimate for a unit of work.",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ]
+    },
+    {
+      "id": "3b37f81f4ead4ec4bcbb6406a1576e6b",
+      "name": "Estimated Install Time",
+      "description": null,
+      "spaceIds": [
+        "d8ba11cee21fb24628c7debc76b609c2"
+      ]
+    },
+    {
+      "id": "8a595e850e55fc74d3b4fb1fb33717a8",
+      "name": "Estimated effect",
+      "description": "Human-readable summary of the estimated effect for an evidence assessment.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "97076a0c11f13ad3791ca5e200b7682f",
+      "name": "Word count estimate",
+      "description": "Approximate extracted text word count.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    },
+    {
+      "id": "e500e2585a964d2c9df4a47b199616c3",
+      "name": "Effect estimate value",
+      "description": "Reported numerical effect; interpret only with the stated unit, estimand and study context.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ]
+    },
+    {
+      "id": "eb80a0313e674eea8afd65d9763ec84c",
+      "name": "Tax Revenue Estimate (KRW)",
+      "description": null,
+      "spaceIds": [
+        "941964642f4d3e70ef48f54a3915277d"
+      ]
+    },
+    {
+      "id": "f2c37a90da794cb5a3def6fb6b975761",
+      "name": "Estimated power capacity(MW)",
+      "description": "The maximum electrical capacity available to the entity, typically measured in units of power such as megawatts (MW).",
+      "spaceIds": [
+        "870e3b3068661e6280fad2ab456829bc"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTUwMGUyNTgtNWE5Ni00ZDJjLTlkZjQtYTQ3YjE5OTYxNmMzIl1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjJjMzdhOTAtZGE3OS00Y2I1LWEzZGUtZjZmYjZiOTc1NzYxIl1d"
+    }
+  ]
+}

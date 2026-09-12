@@ -1,0 +1,32 @@
+{
+  "name": "Add source-backed No Child Left Behind findings",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/nclb-findings-ops.json",
+  "sha256": "c9e433428420f614ed6377ac0cbc13b88f6a886cf5a17be23f5ad78757fbea1f",
+  "journalPath": "data/education/nclb-findings-publication.json",
+  "validationPath": "data/education/nclb-findings-validation.json",
+  "article": "d83f04c4e8594faeb657a226c26c134c",
+  "initiative": "ed3fbb4f693c4785955b627ea98c03fb",
+  "records": [
+    {
+      "key": "grade4-math",
+      "id": "0bf6eec672674e449f3473ce134e77cd",
+      "value": "0.22",
+      "unit": "Effect size as reported in the NBER abstract; scale not further specified there."
+    },
+    {
+      "key": "grade8-math",
+      "id": "8a6350c64b7b49ceb5860ef6baf77e6c",
+      "value": null,
+      "unit": null
+    },
+    {
+      "key": "reading",
+      "id": "96e166271b344f27b932e83442381be3",
+      "value": null,
+      "unit": null
+    }
+  ],
+  "operationCount": 12
+}

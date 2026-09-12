@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "extractedAt": "2026-09-11",
+  "status": "all eight estimates published, indexed and browser verified on 2026-09-11",
+  "publication": {
+    "title": "Experimental Estimates of Education Production Functions",
+    "author": "Alan B. Krueger",
+    "year": 1999,
+    "doi": "10.1162/003355399556052",
+    "workingPaperDoi": "10.3386/w6051",
+    "journal": "Quarterly Journal of Economics",
+    "volume": 114,
+    "issue": 2,
+    "pages": "497–532",
+    "sourceUrl": "https://hceconomics.uchicago.edu/sites/default/files/events/Krueger_1999_QJE_v114_n2.pdf",
+    "version": "published journal article",
+    "table": "V",
+    "column": 7,
+    "printedPages": [512, 513],
+    "pdfPages": [17, 18]
+  },
+  "context": {
+    "experiment": "Tennessee Project STAR",
+    "geography": "Tennessee, United States",
+    "locationId": "b753211b9fd6470b8bb0ed709b97b789",
+    "locationSourceSpace": "84a679ce188f061ac9a92380bac2bab5",
+    "schoolYears": "1985–86 through 1988–89",
+    "design": "within-school random assignment",
+    "sampleAcrossYears": 11600,
+    "schoolsAcrossYears": 80,
+    "smallClassAssignedSize": [13, 17],
+    "regularClassAssignedSize": [22, 25],
+    "comparison": "regular class without a full-time aide",
+    "instrument": "Stanford Achievement Test: reading, word recognition and mathematics",
+    "outcome": "average subject percentile rank",
+    "unit": "percentile points",
+    "normalization": "Each subject ranked against pooled regular and regular/aide students within grade; three subject percentiles averaged",
+    "estimand": "reduced-form initial class-type assignment effect",
+    "controls": ["school fixed effects", "student race", "student gender", "free-lunch status"],
+    "teacherControlsIncluded": false,
+    "standardErrorMethod": "robust, allowing within-class correlated residuals",
+    "sampleSizeMeaning": "grade-level analysis sample across all three arms",
+    "methodsLocator": "pp. 507–511; Table V notes p. 513",
+    "followup": "end of the indicated grade"
+  },
+  "estimates": [
+    {"key":"k-small-rf7","grade":"K","arm":"small class","value":5.36,"standardError":1.21,"n":5861,"panel":"A","locator":"Table V, column 7, panel A, p. 512"},
+    {"key":"k-aide-rf7","grade":"K","arm":"regular class with full-time aide","value":0.53,"standardError":1.09,"n":5861,"panel":"A","locator":"Table V, column 7, panel A, p. 512"},
+    {"key":"g1-small-rf7","grade":"1","arm":"small class","value":6.79,"standardError":1.10,"n":6452,"panel":"B","locator":"Table V, column 7, panel B, p. 512"},
+    {"key":"g1-aide-rf7","grade":"1","arm":"regular class with full-time aide","value":1.64,"standardError":0.76,"n":6452,"panel":"B","locator":"Table V, column 7, panel B, p. 512"},
+    {"key":"g2-small-rf7","grade":"2","arm":"small class","value":5.27,"standardError":1.10,"n":5950,"panel":"C","locator":"Table V, column 7, panel C, p. 513"},
+    {"key":"g2-aide-rf7","grade":"2","arm":"regular class with full-time aide","value":1.16,"standardError":0.81,"n":5950,"panel":"C","locator":"Table V, column 7, panel C, p. 513"},
+    {"key":"g3-small-rf7","grade":"3","arm":"small class","value":5.30,"standardError":1.03,"n":6109,"panel":"D","locator":"Table V, column 7, panel D, p. 513"},
+    {"key":"g3-aide-rf7","grade":"3","arm":"regular class with full-time aide","value":0.13,"standardError":0.81,"n":6109,"panel":"D","locator":"Table V, column 7, panel D, p. 513"}
+  ],
+  "limitations": [
+    "Grade estimates share participants and comparison groups; they are not eight independent trials.",
+    "Attrition, class switching and first-grade re-randomization complicate interpretation.",
+    "Regular classes had some part-time aide access in grades 1–3.",
+    "Column 7 excludes teacher covariates; column 8 is a different specification.",
+    "Percentile-point effects cannot be ranked directly against Saga standard-deviation effects.",
+    "The 2003 economic model's 0.20 SD assumption is not this column's outcome unit."
+  ],
+  "verification": {
+    "tableImages": ["tmp/pdfs/star-experiment-table5-17.png", "tmp/pdfs/star-experiment-table5-18.png"],
+    "visualChecked": true,
+    "geoIdentity": "1999 DOI/title probes complete; working-paper DOI probe completed with no matches on 2026-09-11",
+    "publication": "Dataset 9220554acfd249a18920b301dcbb6cf0; executed bounty-linked proposals 490f4f13922b415395650b09e175ba46 and 2ce99c63d1ac4276a0e90d8a3b537102; see star-experimental-notes.md"
+  }
+}

@@ -1,0 +1,511 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f72679e4612c4d2b9d4496626826f71c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: author-reported illustrative present cost (2016)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A reported model of incremental spending for a sustained increase in school resources. Interpret it with the price year, discount rate and separate reproduction limitations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4850"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "6"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2013"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of incremental spending over 12 school years",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Printed pp. 212–213 (PDF pp. 57–58); benefit-cost illustration",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Present value per pupil of incremental school spending for a 10% increase over 12 school years",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3835289716a44c978c3c256bba93b7a9"
+    },
+    "entity": {
+      "$bytes": "314244888ce341baa70eb79d1a9f8874"
+    },
+    "from": {
+      "$bytes": "f72679e4612c4d2b9d4496626826f71c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a1e1eb23fdd74a63b6ff61b54a4498e5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: cost illustration and reproduction limits",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Author-reported illustration\n\nThe final article considers a child born in 1975, entering school around 1980. Baseline annual school spending is 5,459 USD in 2013 prices; a 10% increase lasts 12 school years. The authors report an incremental present cost of 4,850 USD per pupil at a 6% discount rate. This is an illustrative spending model, not a provider invoice or an observed program price.\n\nThe earnings calculation uses median annual earnings of 28,031 USD and a 7.2% increase between ages 25 and 60. It reports benefits slightly above 10,000 USD, a benefit-cost ratio of approximately 3, and an internal rate of return around 10%. The preceding paragraph instead cites a 7.7% wage increase. These approximate source figures are preserved as reported.\n\n## Comparison limits\n\nThe authors' exact cash-flow schedule has not been independently reconciled from the stated inputs. The reported ratio and return remain qualified illustrative results, not independently reproduced estimates. All numerical figures in this block come from the article; diagnostic recalculations are not included.\n\nThe structured cost row preserves the source-reported 4,850 USD. It is not eligible for a reconciled cost-effectiveness ranking or an automatic pairing with individual regression coefficients. No subgroup-specific cost, observed benefit, or exact reported benefit-cost ratio is implied.\n\n## Source\n\nJackson, Johnson and Persico (2016), [final journal article](https://doi.org/10.1093/qje/qjv036), printed pp. 212–213 (PDF pp. 57–58). [Author-hosted full text](https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/b/3664/files/2020/10/QJE_resubmit_final_version_stamped.pdf).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f4232a9d0ae34667a9dc8cbe37bb6834"
+    },
+    "entity": {
+      "$bytes": "ab7d0b4579c94997867e7a6651712fc6"
+    },
+    "from": {
+      "$bytes": "a1e1eb23fdd74a63b6ff61b54a4498e5"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0c6aa9e01d0d478994f77ad7d1d0c3c5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: reported illustrative cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cc651d36e66e47afb351daba8c0713b2"
+    },
+    "entity": {
+      "$bytes": "fc5e48675db945008f5aff51513d4a30"
+    },
+    "from": {
+      "$bytes": "0c6aa9e01d0d478994f77ad7d1d0c3c5"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "877b32af9cec4de090ed025d98d1953b"
+    },
+    "entity": {
+      "$bytes": "8c77eaa4d4a84e86acb9748964fe89e4"
+    },
+    "from": {
+      "$bytes": "f72679e4612c4d2b9d4496626826f71c"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d746b369073d45439cd008c27f9230a8"
+    },
+    "entity": {
+      "$bytes": "3288c68dbd7f47a5899f7aae073eed56"
+    },
+    "from": {
+      "$bytes": "f72679e4612c4d2b9d4496626826f71c"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "997c8fb1161b4d928360ebb00c0c06a9"
+    },
+    "entity": {
+      "$bytes": "8b5b4d12e4f74b64b6e36be3bfec1b35"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "f72679e4612c4d2b9d4496626826f71c"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9d58f3081df24088a76633ef9fbb1e2a"
+    },
+    "entity": {
+      "$bytes": "8f9f6a4aec28467eb59e79fb7f7ac149"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "0c6aa9e01d0d478994f77ad7d1d0c3c5"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a21LA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d361c91d3c034073aaa41075e29166a7"
+    },
+    "entity": {
+      "$bytes": "7fba27adbea340c4b52f009363b80615"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "a1e1eb23fdd74a63b6ff61b54a4498e5"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a384Q"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fd52eb89de094d039eb29b35321e200f"
+    },
+    "entity": {
+      "$bytes": "b695370595514d278c596e578d97b6c4"
+    },
+    "from": {
+      "$bytes": "f72679e4612c4d2b9d4496626826f71c"
+    },
+    "to": {
+      "$bytes": "a1e1eb23fdd74a63b6ff61b54a4498e5"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5e63394c0d49413a88f0b253dcb9ec8f"
+    },
+    "entity": {
+      "$bytes": "f8045cc117b446a799531712407e280e"
+    },
+    "from": {
+      "$bytes": "8f9f6a4aec28467eb59e79fb7f7ac149"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a66b99c21a8b4ee9b40604e5fd5b4292"
+    },
+    "entity": {
+      "$bytes": "38bac5a633fe46ee9636b7b03fa9802a"
+    },
+    "from": {
+      "$bytes": "0c6aa9e01d0d478994f77ad7d1d0c3c5"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bab77b52924f4210bdcaf0d6c8f9e7cc"
+    },
+    "entity": {
+      "$bytes": "3de8541decc844d1ada27c78a86690e5"
+    },
+    "from": {
+      "$bytes": "0c6aa9e01d0d478994f77ad7d1d0c3c5"
+    },
+    "to": {
+      "$bytes": "f72679e4612c4d2b9d4496626826f71c"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "62974e3c555842b2b9bf6978f437eb07"
+    },
+    "entity": {
+      "$bytes": "297b8cf3162f4017aa5d502d49ceb298"
+    },
+    "from": {
+      "$bytes": "8f9f6a4aec28467eb59e79fb7f7ac149"
+    },
+    "to": {
+      "$bytes": "6ba2ce00db064687b108aa8449672886"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0AER"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "90fea5130edc49718195e6a14695e829"
+    },
+    "entity": {
+      "$bytes": "aa3af78eca4f4cdf96a3dc6900bd5300"
+    },
+    "from": {
+      "$bytes": "8f9f6a4aec28467eb59e79fb7f7ac149"
+    },
+    "to": {
+      "$bytes": "f9d6085e34014562aae4021009f5f390"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1264"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e5862a7f64e0492581cd5bac6c75a959"
+    },
+    "entity": {
+      "$bytes": "f0e38833a28e4b979d14e3265c5c6ebf"
+    },
+    "from": {
+      "$bytes": "8f9f6a4aec28467eb59e79fb7f7ac149"
+    },
+    "to": {
+      "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2Abp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d60e83c07f4b4e38895823cd959b5d02"
+    },
+    "entity": {
+      "$bytes": "ea8a445458854d48b8250fecb0af571f"
+    },
+    "from": {
+      "$bytes": "8f9f6a4aec28467eb59e79fb7f7ac149"
+    },
+    "to": {
+      "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a3BQh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e1eb325010684c11a180e61b454ef084"
+    },
+    "entity": {
+      "$bytes": "94964097517e4897bcffbe72eb876371"
+    },
+    "from": {
+      "$bytes": "8f9f6a4aec28467eb59e79fb7f7ac149"
+    },
+    "to": {
+      "$bytes": "3a558d71454745a992c035040f648729"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a48w1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c7750832fd2e4de6876145623535eef4"
+    },
+    "entity": {
+      "$bytes": "30e8ebbdf37c44f5b4892dde00b60c0e"
+    },
+    "from": {
+      "$bytes": "8f9f6a4aec28467eb59e79fb7f7ac149"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a50nN"
+  }
+]

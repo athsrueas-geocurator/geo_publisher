@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-09-12T13:37:57.038Z",
+  "batchName": "Add verified teacher-coaching synthesis method and DOI",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "entityId": "6a85813ac8734141b55affa06793661c",
+      "propertyId": "7cb59354e30c48119e99ff62fcf61646",
+      "pass": true
+    },
+    {
+      "relationId": "21d2559494184ed8b099b48ade136b5c",
+      "pass": true
+    },
+    {
+      "entityId": "ff5386fa441544ad8400091c039ce79d",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "relationId": "ded6bd712b4d4427b28478bf3036886e",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

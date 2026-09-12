@@ -1,0 +1,15 @@
+import { readFileSync, writeFileSync } from 'node:fs';
+import { geoGraphqlRequest as gql } from '../src/geo-api-client';
+
+const root = 'data/education';
+const sourceId = '7cf51d06726242b88157ca3ea1f5b228';
+const claimIds = ['385e7cb36c144d04b09508c0d49876a2', '115917ad7cba4ee38e591b93a5c1426d', '8197239bfd0f417ca57263877d8c2021'];
+async function pages(query: string, variables: any, key: string) { const nodes: any[] = []; let after: string | null = null; const seen = new Set<string>(); for (;;) { const data: any = await gql(query, { variables: { ...variables, after } }); const page = data[key]; nodes.push(...page.nodes); if (!page.pageInfo.hasNextPage) return nodes; if (!page.pageInfo.endCursor || seen.has(page.pageInfo.endCursor)) throw new Error('Repeated or missing cursor'); seen.add(page.pageInfo.endCursor); after = page.pageInfo.endCursor; } }
+const source: any = await gql('query($id:UUID!){entity(id:$id){name}}', { variables: { id: sourceId } });
+const identity = await pages('query($name:String!,$after:Cursor){entitiesConnection(first:20,after:$after,filter:{name:{isInsensitive:$name}}){nodes{id name description spaceIds types{id name}} pageInfo{hasNextPage endCursor}}}', { name: source.entity?.name }, 'entitiesConnection');
+const distinct = identity.map((candidate: any) => ({ ...candidate, decision: 'distinct', rationale: 'Retain matching publication identity for explicit source/version review; it is not a result collection.' }));
+const memberships = await Promise.all(claimIds.map(async (claimId) => ({ claimId, complete: true, nodes: await pages('query($id:UUID!,$after:Cursor){relationsConnection(first:20,after:$after,filter:{toEntityId:{is:$id},typeId:{is:"a99f9ce12ffa4dac8c61f6310d46064a"}}){nodes{id fromEntityId spaceId position} pageInfo{hasNextPage endCursor}}}', { id: claimId }, 'relationsConnection') })));
+const sourceOnly = identity.length === 1 && identity[0].id === sourceId && identity[0].types?.every((type: any) => type.name === 'Article');
+const report = { version: 1, checkedAt: new Date().toISOString(), scope: 'all-spaces', sourceId, claimIds, searches: [{ kind: 'alias', query: source.entity?.name, complete: true, candidates: distinct }, { kind: 'identifier', query: sourceId, complete: true, candidates: distinct.filter((candidate: any) => candidate.id === sourceId) }], identitySearch: { query: source.entity?.name, complete: true, nodes: identity }, claimMemberships: memberships, datasetDecision: sourceOnly && memberships.every((membership) => membership.nodes.length === 0) ? 'create' : 'review', rationale: 'Complete all-space source identity and incoming Collection-item queries; preserve separate RDD and expansion publication versions and keep existing Claims immutable.' };
+writeFileSync(`${root}/ethnic-studies-collection-discovery.json`, JSON.stringify(report, null, 2) + '\n');
+console.log(JSON.stringify({ identityCandidates: identity.length, claimsChecked: claimIds.length, memberships: memberships.reduce((count, membership) => count + membership.nodes.length, 0), datasetDecision: report.datasetDecision }));

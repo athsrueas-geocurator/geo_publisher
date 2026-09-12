@@ -1,0 +1,180 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d83f04c4e8594faeb657a226c26c134c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The Impact of No Child Left Behind on Student Achievement",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Dee and Jacob’s NBER working paper evaluates No Child Left Behind using student-achievement evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.nber.org/papers/w15531",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.3386/w15531",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f3377cacf01e4bffb11b3d4fb6b6615d"
+    },
+    "entity": {
+      "$bytes": "4f43c01a18814e4e8cbc5e9567e8084d"
+    },
+    "from": {
+      "$bytes": "d83f04c4e8594faeb657a226c26c134c"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a030A"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ed3fbb4f693c4785955b627ea98c03fb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "No Child Left Behind",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A US federal education policy that paired annual testing, subgroup reporting and accountability consequences. Its evidence record includes reported math gains, weaker reading effects and implementation incentives that can affect interpretation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.nber.org/papers/w15531",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9240467f46d04c87902ccf55fc265985"
+    },
+    "entity": {
+      "$bytes": "b766a268aba3456bbe9f873feb69c88c"
+    },
+    "from": {
+      "$bytes": "ed3fbb4f693c4785955b627ea98c03fb"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AI3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d409469b6bc046c8b7ea8dab24d20e78"
+    },
+    "entity": {
+      "$bytes": "1673e4c75b484f22a3de0ead7261b4d2"
+    },
+    "from": {
+      "$bytes": "ed3fbb4f693c4785955b627ea98c03fb"
+    },
+    "to": {
+      "$bytes": "d83f04c4e8594faeb657a226c26c134c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04ln"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a8a1cd9af20e452fa337459ba99e7b85"
+    },
+    "entity": {
+      "$bytes": "e3e277daec5c4e9d97f73eea01f8a3ba"
+    },
+    "from": {
+      "$bytes": "ed3fbb4f693c4785955b627ea98c03fb"
+    },
+    "to": {
+      "$bytes": "d83f04c4e8594faeb657a226c26c134c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Brz"
+  }
+]

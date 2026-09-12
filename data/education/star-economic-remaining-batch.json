@@ -1,0 +1,114 @@
+{
+  "name": "Add remaining STAR economic sensitivity scenarios",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/star-economic-remaining-ops.json",
+  "registry": "data/education/star-economic-registry.json",
+  "sha256": "067fa6c31e303ff372bf085abbc35aed3c7f268be9caa79def0c6cf3e10726a5",
+  "operationCount": 70,
+  "datasetId": "4874a8385a594633ab244f47889f9cab",
+  "paperId": "d70f7e00c8fd4fb2b6a056df6b844b1f",
+  "blockId": "7d8aeb49b7104ad7bedda3d7b16ad370",
+  "selected": [
+    {
+      "id": "8d771b3a82e8475c945f258e35af6390",
+      "discount": 0.02,
+      "growth": 0,
+      "cost": 7787,
+      "benefit": 21725
+    },
+    {
+      "id": "5bd25b7faf3e46c7b6072d99ef1c8db8",
+      "discount": 0.02,
+      "growth": 0.01,
+      "cost": 7787,
+      "benefit": 31478
+    },
+    {
+      "id": "818fe1434caf4d0c8e416c99f001d961",
+      "discount": 0.02,
+      "growth": 0.02,
+      "cost": 7787,
+      "benefit": 46294
+    },
+    {
+      "id": "c2dde1afcd154f4fb1245ebbca516c0c",
+      "discount": 0.03,
+      "growth": 0,
+      "cost": 7660,
+      "benefit": 15174
+    },
+    {
+      "id": "f7078c3786294db8885c4868a63d0046",
+      "discount": 0.03,
+      "growth": 0.01,
+      "cost": 7660,
+      "benefit": 21667
+    },
+    {
+      "id": "a987df7e9dc14f81a04892eafbaf4fd3",
+      "discount": 0.03,
+      "growth": 0.02,
+      "cost": 7660,
+      "benefit": 31403
+    },
+    {
+      "id": "7467a37094084d529f36e14c7e75599a",
+      "discount": 0.04,
+      "growth": 0,
+      "cost": 7537,
+      "benefit": 10784
+    },
+    {
+      "id": "5e2a860dd8aa4f90bf1b8953e9bbb924",
+      "discount": 0.04,
+      "growth": 0.02,
+      "cost": 7537,
+      "benefit": 21686
+    },
+    {
+      "id": "34cae62372cd429fb66d09bfdc6aa290",
+      "discount": 0.05,
+      "growth": 0,
+      "cost": 7417,
+      "benefit": 7791
+    },
+    {
+      "id": "48045ce49a334e4cafee8c6de38a10e8",
+      "discount": 0.05,
+      "growth": 0.01,
+      "cost": 7417,
+      "benefit": 10819
+    },
+    {
+      "id": "89ee9184e65448229773c81addfa4d6c",
+      "discount": 0.05,
+      "growth": 0.02,
+      "cost": 7417,
+      "benefit": 15238
+    },
+    {
+      "id": "1b10a3ca00654eb29e4f794329e0032e",
+      "discount": 0.06,
+      "growth": 0,
+      "cost": 7300,
+      "benefit": 5718
+    },
+    {
+      "id": "3de72d69a6e9490191d875c27510ad96",
+      "discount": 0.06,
+      "growth": 0.01,
+      "cost": 7300,
+      "benefit": 7836
+    },
+    {
+      "id": "559f5b1464b747648219f51b0ee05dc6",
+      "discount": 0.06,
+      "growth": 0.02,
+      "cost": 7300,
+      "benefit": 10889
+    }
+  ],
+  "journalPath": "data/education/star-economic-remaining-publication.json",
+  "validationPath": "data/education/star-economic-remaining-validation.json"
+}

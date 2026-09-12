@@ -1,0 +1,64 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T13:03:15.574Z",
+  "opsHash": "f6660a104ed3089d73edeb777edaa4cf37f1d9c0e53c7743ab25338936c3486d",
+  "review": {
+    "reviewedAt": "2026-09-12",
+    "scope": "Identity and original routes only; study-specific source coverage, findings and assessments remain separate",
+    "accepted": [
+      {
+        "originalId": 22,
+        "entityId": "e181f6b918e548b79304a674743753fd",
+        "expectedName": "Teacher coaching programs",
+        "reason": "Both original and existing entities describe sustained teacher coaching across multiple programs; the existing 2018 meta-analysis is the original src-088 and src-023 publication."
+      },
+      {
+        "originalId": 45,
+        "entityId": "4384e208b2964c6c9432823574a5a1e2",
+        "expectedName": "Tennessee Voluntary Pre-K Program",
+        "reason": "Same named Tennessee state-funded voluntary pre-K program; study-period oversubscribed-site limits remain in the description and are not generalized."
+      },
+      {
+        "originalId": 72,
+        "entityId": "327eef80a0dd423f846fbd50def5bf87",
+        "expectedName": "Community Eligibility Provision",
+        "reason": "Original title explicitly identifies the same federal CEP option for eligible schools; adding the route does not certify its source versions or academic-outcome coverage."
+      }
+    ],
+    "held": [
+      {
+        "originalId": 20,
+        "candidateId": "6ce956de8cc047178c33046dd525009d",
+        "reason": "Chicago Saga trial model does not cover the original broader Saga-style and technology-infused tutoring umbrella."
+      },
+      {
+        "originalId": 30,
+        "candidateId": "a375aee3832b4c6890352b81c7a981a2",
+        "reason": "NYC admissions-lottery evaluation is narrower than Gates-funded small high schools generally; clarify representation without broadening the evaluated record."
+      },
+      {
+        "originalId": 56,
+        "candidateId": "5c33ee4be2fc4c38ae220a4fff9a3d69",
+        "reason": "Ten AIR study sites do not equal the original national Early College network; a one-to-many program/study mapping is needed."
+      },
+      {
+        "originalId": 24,
+        "candidateId": "743632b3929c40eba49c57d86401dbef",
+        "reason": "Exact name masks secondary-math alternative-certification trial scope; retain prior hold."
+      },
+      {
+        "originalId": 33,
+        "candidateId": "06ce03fee15844c18a6bfce808f03d12",
+        "reason": "Exact name masks CREDO matched national-study perspective; retain prior hold."
+      }
+    ],
+    "sourceAlias": {
+      "sourceKey": "src-023",
+      "entityId": "6a85813ac8734141b55affa06793661c",
+      "sameAsOriginalSource": "src-088",
+      "evidence": "https://annenberg.brown.edu/publications/effect-teacher-coaching-instruction-and-achievement-meta-analysis-causal-evidence",
+      "doi": "https://doi.org/10.3102/0034654318759268",
+      "reason": "Brown's publication record supplies the full title, three authors, journal, year and DOI of the existing Article; original short title and institutional placeholder are superseded by the canonical paper metadata."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "term": "SEDA",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:39:40.087Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "2f34d515353b9dd3b0180415cc88dd85",
+      "name": "Seda",
+      "description": "Seda is a city in Valmiera, Latvia with a population of 1,101.",
+      "spaceIds": [
+        "84a679ce188f061ac9a92380bac2bab5"
+      ],
+      "types": [
+        {
+          "id": "01b05333941a4b00bc78fac5a15b467d",
+          "name": "City"
+        }
+      ]
+    },
+    {
+      "id": "b84e5637acf7ce7ffa08872a4b12cd77",
+      "name": "Seda",
+      "description": "Seda is a city in Telšiai, Lithuania with a population of 1,224.",
+      "spaceIds": [
+        "84a679ce188f061ac9a92380bac2bab5"
+      ],
+      "types": [
+        {
+          "id": "01b05333941a4b00bc78fac5a15b467d",
+          "name": "City"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYjg0ZTU2MzctYWNmNy1jZTdmLWZhMDgtODcyYTRiMTJjZDc3Il1d"
+    }
+  ]
+}

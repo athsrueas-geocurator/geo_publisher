@@ -1,0 +1,13 @@
+# Source citation and method error resolution — 2026-09-12
+
+These records are pinned-source defects. The corrections below document identity and methodological evidence; they do not rewrite the original JSON or authorize unsupported findings.
+
+| Source key | Verified record | Reconciliation decision |
+| --- | --- | --- |
+| `src-003` | NBER [w15531](https://www.nber.org/papers/w15531), *The Impact of No Child Left Behind on Student Achievement*, Thomas Dee and Brian Jacob (2009) | Article identity and difference-in-differences method are supported. The imported “pre-NCLB accountability” finding is not certified by this citation and remains held for source-specific review. |
+| `src-026` | Imported NBER w19403 does not match the supplied teacher-evaluation finding. NBER w19529, [*Incentives, Selection, and Teacher Performance: Evidence from IMPACT*](https://www.nber.org/papers/w19529), is a relevant candidate about DCPS IMPACT, not an automatic replacement. | Keep the original source and finding association unresolved until the exact intended paper is identified; do not substitute w19529 silently. |
+| `src-033` | CREDO [National Charter School Study III](https://credo.stanford.edu/research-reports/charter-studies/) uses matched traditional-public-school comparisons and the [Virtual Control Record methodology](https://credo.stanford.edu/expertise/credo-methodologies/). | Imported `Lottery` is incompatible with the identified CREDO study. Keep the method field held; a lottery result would require a separate exact source identity. |
+| `src-034` | NBER w16832 is *Reestablishing the Income-Democracy Nexus* (Benhabib, Corvalan and Spiegel, 2011), not a charter-school study. NBER [w17332](https://www.nber.org/papers/w17332), *Explaining Charter School Effectiveness*, is a Massachusetts-specific candidate with admissions-lottery evidence, not a universal replacement. | Preserve the pinned citation and hold the imported national charter finding until the intended source/version is resolved. |
+| `src-096` | Dee and Penner’s 2017 AERJ article is [*The Causal Effects of Cultural Relevance*](https://doi.org/10.3102/0002831216677002), using a fuzzy regression-discontinuity design; the publisher record and ERIC copy identify the same DOI. | The imported DOI is wrong; the existing Geo Article’s verified DOI remains authoritative. Do not overwrite the source input or create a duplicate Article. |
+
+The source identity audit and bibliography notes remain the machine-readable decision record. Findings, assessments, and initiative links stay held where the citation does not support them.

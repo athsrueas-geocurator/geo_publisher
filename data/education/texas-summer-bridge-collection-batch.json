@@ -1,0 +1,37 @@
+{
+  "publisherVersion": "collection-v1",
+  "name": "Texas Summer Bridge findings",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "sha256": "6fe0a6aaeba898a4a0bc6622a4f36da3e4eec53ca1944dda3cc50b60e406543d",
+  "opsPath": "data/education/texas-summer-bridge-collection-ops.json",
+  "journalPath": "data/education/texas-summer-bridge-collection-publication.json",
+  "validationPath": "data/education/texas-summer-bridge-collection-validation.json",
+  "reviewBinding": {
+    "path": "data/education/texas-summer-bridge-collection-review-binding.json",
+    "sha256": "4e80d6b14dab039f73aecaca1bb2c356dc4985c9d390c03133ee60c4aab266fa"
+  },
+  "datasetId": "32aee60d0b8841e982f3fc0584346f7e",
+  "catalogId": "2279edef1bbe479c872caeb72ee90022",
+  "groups": [
+    {
+      "key": "context",
+      "blockId": "bad1ad48e4754bf08dc516e00c97603d",
+      "memberIds": [
+        "01612581ac7e453ca396226587ca5a72"
+      ]
+    },
+    {
+      "key": "findings",
+      "blockId": "020e9d62854b44f5baffb34a5a331c8c",
+      "memberIds": [
+        "d8a65b2583e641448d872f8c85208d6e",
+        "22a40b2d33c34352a5fd4fa60f870840",
+        "96ca6b3cbdcc4308b20865a7a1ba8039",
+        "73e27306ea7f45559fd2865e085c9d7d",
+        "782bbddb09874b91ae52c84d933979b4"
+      ]
+    }
+  ],
+  "operationCount": 26
+}

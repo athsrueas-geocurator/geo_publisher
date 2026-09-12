@@ -1,0 +1,879 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "581c4b9bd2ec40d69cbcf68b973d8803"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Charting Pathways: Three-Year Findings from the Viking ROADS Demonstration",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "MDRC’s 2025 three-year randomized evaluation of Viking ROADS, an ASAP-style support program at SUNY Westchester.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/charting-pathways/file-full",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "41588cd6b8f54c2eb09191594c9454c1"
+    },
+    "entity": {
+      "$bytes": "0d5c8dee107e4e659d44ddb282c34fd5"
+    },
+    "from": {
+      "$bytes": "581c4b9bd2ec40d69cbcf68b973d8803"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BzR"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0fbccd38112b486fa1e3417ac1497bec"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Viking ROADS evaluated ASAP-style student-support program at SUNY Westchester",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A three-year student, financial, and specialized-course-enrollment support package modeled closely on CUNY ASAP.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/charting-pathways/file-full",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f28fbc5473c14c4db535f127787fcb4b"
+    },
+    "entity": {
+      "$bytes": "8dba2087f76440178214aef44d69fb39"
+    },
+    "from": {
+      "$bytes": "0fbccd38112b486fa1e3417ac1497bec"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07ii"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "01b9e444b1b34dc494ccbd509c675379"
+    },
+    "entity": {
+      "$bytes": "088684f9c03f4e0e9428344b334e18a6"
+    },
+    "from": {
+      "$bytes": "0fbccd38112b486fa1e3417ac1497bec"
+    },
+    "to": {
+      "$bytes": "581c4b9bd2ec40d69cbcf68b973d8803"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BOu"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "140afd7dd5f44ddf8e1502a768bbfd07"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Viking ROADS randomly assigned 574 eligible SUNY Westchester students to program eligibility or usual services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The study enrolled 288 program-group and 286 control-group students across fall 2019, fall 2020, and spring 2021. Controls could use existing college services but were not eligible for Viking ROADS.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "574"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Randomized controlled trial; 288 program and 286 control students.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "p. 3.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f01385f6f2464485b6eb731d4f2a60da"
+    },
+    "entity": {
+      "$bytes": "1090c94611ea4673bcc933c5086ebb48"
+    },
+    "from": {
+      "$bytes": "140afd7dd5f44ddf8e1502a768bbfd07"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04yZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fe73cfe02d82429bbe944b9a2f7d886a"
+    },
+    "entity": {
+      "$bytes": "2b9a0f2e14db40698b066f5e2633c1ea"
+    },
+    "from": {
+      "$bytes": "140afd7dd5f44ddf8e1502a768bbfd07"
+    },
+    "to": {
+      "$bytes": "581c4b9bd2ec40d69cbcf68b973d8803"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04i8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "00be15a5151544a2b6c1da10e86014de"
+    },
+    "entity": {
+      "$bytes": "9d27904dbfde4af09737bbfa2502a225"
+    },
+    "from": {
+      "$bytes": "140afd7dd5f44ddf8e1502a768bbfd07"
+    },
+    "to": {
+      "$bytes": "0fbccd38112b486fa1e3417ac1497bec"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Ant"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "eb113208010248d7a2d22f4eeda40cdb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Viking ROADS increased SUNY Westchester enrollment in semester 3 by 8.2 percentage points (73.9% versus 65.8%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is a semester-3 enrollment result within a six-semester follow-up. It does not measure degree completion or enrollment at every college.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "574"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in SUNY Westchester enrollment in semester 3, program minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "p. 7; Figure 1.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "82"
+            }
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "68f2c0e17cd84f40a1faf18724fc0890"
+    },
+    "entity": {
+      "$bytes": "bed16c0b547f43a4b7bba0c47475fc15"
+    },
+    "from": {
+      "$bytes": "eb113208010248d7a2d22f4eeda40cdb"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0CJj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3a543eb199914123a0415cb07241879a"
+    },
+    "entity": {
+      "$bytes": "9ebb22b9b1764e0da7e2853c2851a6c7"
+    },
+    "from": {
+      "$bytes": "eb113208010248d7a2d22f4eeda40cdb"
+    },
+    "to": {
+      "$bytes": "581c4b9bd2ec40d69cbcf68b973d8803"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08lD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d3694ee6195644a5a04028dd06fb950b"
+    },
+    "entity": {
+      "$bytes": "5f4ead199d2049c29f0fbd0366e5dbc5"
+    },
+    "from": {
+      "$bytes": "eb113208010248d7a2d22f4eeda40cdb"
+    },
+    "to": {
+      "$bytes": "0fbccd38112b486fa1e3417ac1497bec"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09F7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "38ed3fd2ec414f46ace844121bbfa8c1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Viking ROADS students had 3.6 more cumulative credits by the end of semester 3.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The source reports this three-semester credit-attainment difference during the randomized follow-up. It is not a cost, degree, or later labor-market estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "574"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Difference in cumulative credits earned by end of semester 3, program minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "p. 8; Figure 2.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "36"
+            }
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "db8c41af9d444818ac3e7376a07e0332"
+    },
+    "entity": {
+      "$bytes": "9369c344904347f0b4f7f7e4e83edb84"
+    },
+    "from": {
+      "$bytes": "38ed3fd2ec414f46ace844121bbfa8c1"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05CJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f4f946a1c59f4ab995de1e7387761f0e"
+    },
+    "entity": {
+      "$bytes": "bf0bb504588e4c5994f728c8255fa6c1"
+    },
+    "from": {
+      "$bytes": "38ed3fd2ec414f46ace844121bbfa8c1"
+    },
+    "to": {
+      "$bytes": "581c4b9bd2ec40d69cbcf68b973d8803"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01DG"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "682b7759305d411cb4749cb806d46adf"
+    },
+    "entity": {
+      "$bytes": "df44b1f55a304d42b84a25e618293b56"
+    },
+    "from": {
+      "$bytes": "38ed3fd2ec414f46ace844121bbfa8c1"
+    },
+    "to": {
+      "$bytes": "0fbccd38112b486fa1e3417ac1497bec"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0AR3"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "87780a52e93a4fe4a3029e02a3dd3be6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Viking ROADS increased credential attainment by 11.8 percentage points after six semesters (35.5% versus 23.7%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The confirmatory three-year outcome is any degree or certificate at any college. The study was conducted at one college during major COVID-era disruptions.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "574"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in any degree or certificate attainment at any college after six semesters, program minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "p. 9; Figure 3.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "118"
+            }
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "09579b8d6e714d4caab49909697bb128"
+    },
+    "entity": {
+      "$bytes": "327877b69c534efa9187a9f19636a29a"
+    },
+    "from": {
+      "$bytes": "87780a52e93a4fe4a3029e02a3dd3be6"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05Pz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a3f1dee769fc44899ac6ea86ad6ec826"
+    },
+    "entity": {
+      "$bytes": "998d2d40840a443fa969b9cff557feb0"
+    },
+    "from": {
+      "$bytes": "87780a52e93a4fe4a3029e02a3dd3be6"
+    },
+    "to": {
+      "$bytes": "581c4b9bd2ec40d69cbcf68b973d8803"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a051w"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ffceb3e8d9344575b08889d47141bdbd"
+    },
+    "entity": {
+      "$bytes": "ccc59533a051428087611a1e61324760"
+    },
+    "from": {
+      "$bytes": "87780a52e93a4fe4a3029e02a3dd3be6"
+    },
+    "to": {
+      "$bytes": "0fbccd38112b486fa1e3417ac1497bec"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01PZ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6430ac45989d4297b9a871c7157b6fb3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Viking ROADS increased earning 60 or more credits after six semesters by 4.4 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report cites this as a three-year threshold result and discusses it alongside the larger credential-attainment difference. It is not a complete explanation of the program’s mechanism.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "574"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in earning 60 or more credits after six semesters, program minus control.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "p. 9; Supplementary Table S.5 reference.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "44"
+            }
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "27167916fe2b41438453c2625c38fe48"
+    },
+    "entity": {
+      "$bytes": "36e9cfe46b8e49b1a2ec46aa3e852ec2"
+    },
+    "from": {
+      "$bytes": "6430ac45989d4297b9a871c7157b6fb3"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01Hs"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4915857b8eb748ada18d61feb2b9e477"
+    },
+    "entity": {
+      "$bytes": "bce118b40a564bf28bfa514f76052819"
+    },
+    "from": {
+      "$bytes": "6430ac45989d4297b9a871c7157b6fb3"
+    },
+    "to": {
+      "$bytes": "581c4b9bd2ec40d69cbcf68b973d8803"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09Qt"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e6f86fa072174d65a9f615467c128401"
+    },
+    "entity": {
+      "$bytes": "b1a0f07c883c4d9aa77cf487aeeb4b17"
+    },
+    "from": {
+      "$bytes": "6430ac45989d4297b9a871c7157b6fb3"
+    },
+    "to": {
+      "$bytes": "0fbccd38112b486fa1e3417ac1497bec"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BM2"
+  }
+]

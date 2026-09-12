@@ -1,0 +1,215 @@
+{
+  "term": "Organization",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T22:53:20.541Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "12dc50252c8e4fc7937dabd68cb754c9",
+      "name": "Organization",
+      "description": "An institution — such as a university, government ministry, research council, nonprofit foundation, or private company — that exists independently of any single project, holds a legal identity, has a founding history, and maintains an ongoing operational structure.",
+      "spaceIds": [
+        "bf8d69f36987dee797bae24f586a99fa"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "245f5d31644f4b438dbca7dcf5f2c138",
+      "name": "Proposal 245f5d31-644f-4b43-8dbc-a7dcf5f2c138",
+      "description": "System entity for proposal 245f5d31-644f-4b43-8dbc-a7dcf5f2c138 in space 44eb138f-564f-bed6-ed9c-e543de1b849c",
+      "spaceIds": [
+        "d23eaaed1ded3f52b5116e254473f96d",
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "490a7c90ad4b4029b2b4d85d22fe203a",
+          "name": "Proposal"
+        }
+      ]
+    },
+    {
+      "id": "3506fd1d86354512ab1580503fce033c",
+      "name": "Organization",
+      "description": null,
+      "spaceIds": [
+        "941964642f4d3e70ef48f54a3915277d"
+      ],
+      "types": [
+        {
+          "id": "52e68966a4f743d3a7ae6cca8f838514",
+          "name": "Category"
+        }
+      ]
+    },
+    {
+      "id": "3bc3b3e44644488f81a6ce3afdbc0dfe",
+      "name": "Organization",
+      "description": "An institution — such as a university, government ministry, research council, nonprofit foundation, or private company — that exists independently of any single project, holds a legal identity, has a founding history, and maintains an ongoing operational structure.",
+      "spaceIds": [
+        "bf8d69f36987dee797bae24f586a99fa"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "3d77da68dd774204bdcfc4b6786a63b3",
+      "name": "Organization",
+      "description": null,
+      "spaceIds": [
+        "cc31e40f74231d530f1b5d0fc1cd94d8"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "79a00d54913a47fcbca8428bb2e89f9b",
+      "name": "Organization",
+      "description": "An institution, body, or structured group involved in archaeological research, AI development, or funding — including universities, research labs, government bodies, non-profits, and corporate research divisions.",
+      "spaceIds": [
+        "bf8d69f36987dee797bae24f586a99fa"
+      ],
+      "types": [
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        }
+      ]
+    },
+    {
+      "id": "9547f4fb78744de0a9a9fdd7b4c01c0c",
+      "name": "Organization",
+      "description": "A structured entity representing any organized group of people operating under a defined mission, legal structure or authority, to pursue shared goals and purposes.",
+      "spaceIds": [
+        "bd727a6ad6ec4a058f681ea9002a1fbf",
+        "a19c345ab9866679b001d7d2138d88a1",
+        "c9f267dcb0d270718c2a3c45a64afd32",
+        "89bd89bf28ff8a0963faf92a8c905e20"
+      ],
+      "types": [
+        {
+          "id": "10eb3c89c4254f7b89726f18a6677b36",
+          "name": "Resource"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "b96f0d59e9d682cfe877c8948d6f1f50",
+      "name": "Organization",
+      "description": "Company, university, nonprofit, standards body, court, agency, collective, publisher, rights organization, or other institutional actor. Required: name, description, organization_category. Recommended: website, location, parent_organization, known_roles. Publish tier: secondary_browse.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "d14286d9980d4762b19eef8e233c61b2",
+      "name": "Organization",
+      "description": "An institution — such as a university, government ministry, research council, nonprofit foundation, or private company — that exists independently of any single project, holds a legal identity, has a founding history, and maintains an ongoing operational structure.",
+      "spaceIds": [
+        "0c747ad3af58ed6b27221a256498068e"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "e8aae82d1b224851bf547f4df2dd3b42",
+      "name": "Organization",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "f23242cdf224cd84483442ae1b1fe9aa",
+      "name": "Organization",
+      "description": null,
+      "spaceIds": [
+        "d69608290513c2a91102c939b3265bd7"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "fb0797eeeca842bfa1fe24f997fd4050",
+      "name": "Organization",
+      "description": "An institution, body, or structured group involved in archaeological research, AI development, or funding — including universities, research labs, government bodies, non-profits, and corporate research divisions.",
+      "spaceIds": [
+        "cf0e11338b33fcd6cdb032c625c85454"
+      ],
+      "types": [
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiM2Q3N2RhNjgtZGQ3Ny00MjA0LWJkY2YtYzRiNjc4NmE2M2IzIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZThhYWU4MmQtMWIyMi00ODUxLWJmNTQtN2Y0ZGYyZGQzYjQyIl1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmIwNzk3ZWUtZWNhOC00MmJmLWExZmUtMjRmOTk3ZmQ0MDUwIl1d"
+    }
+  ]
+}

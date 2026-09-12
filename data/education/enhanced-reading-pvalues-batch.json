@@ -1,0 +1,18 @@
+{
+  "name": "Add reported p values to Enhanced Reading Opportunities claims",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/enhanced-reading-pvalues-ops.json",
+  "sha256": "4c4ee7fcade5f5344f26886518d6ef045550ec000ed9e4ffac0901a5fb6b1597",
+  "journalPath": "data/education/enhanced-reading-pvalues-publication.json",
+  "validationPath": "data/education/enhanced-reading-pvalues-validation.json",
+  "entities": {
+    "claims": {
+      "9de409cf2a3a4fc29dc68bcc3abbe9a5": "P = 0.002",
+      "00f19327dbe44129bddd7f8a015967ee": "P = 0.002",
+      "37101612fbcd447f989249a7e9558e3f": "P = 0.017",
+      "322ed581e4934da8994953574296d483": "P = 0.061"
+    }
+  },
+  "operationCount": 4
+}

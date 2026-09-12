@@ -1,0 +1,1456 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1fcce9b53fa640279448239bba337eef"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Evaluation of the Teacher Incentive Fund: Final Report on Implementation and Impacts of Pay-for-Performance Across Four Years",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A multisite randomized evaluation of the pay-for-performance bonus component of Teacher Incentive Fund compensation systems.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncee/pubs/20184004/pdf/20184004.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "04ee6e44635e4a839d4a84e9feaeff2a"
+    },
+    "entity": {
+      "$bytes": "2a98daf00e584b88b7172603e2e27524"
+    },
+    "from": {
+      "$bytes": "1fcce9b53fa640279448239bba337eef"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01be"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "66f8690ed0b249f6829a075a2c5976d1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher Incentive Fund pay-for-performance bonuses",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Performance-based bonus systems in high-need schools; the evaluation compares bonus eligibility with a one-percent across-the-board control bonus while other system components remain in both arms.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncee/pubs/20184004/pdf/20184004.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2392f16c1dac4ab2a93ff7de4db97bcc"
+    },
+    "entity": {
+      "$bytes": "ada9feeccdb44151a638616adb086372"
+    },
+    "from": {
+      "$bytes": "66f8690ed0b249f6829a075a2c5976d1"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09sl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ab489aa993ca4da8b55d2e5528818a34"
+    },
+    "entity": {
+      "$bytes": "c7287ef9fc6d4823856de25ed150130a"
+    },
+    "from": {
+      "$bytes": "66f8690ed0b249f6829a075a2c5976d1"
+    },
+    "to": {
+      "$bytes": "1fcce9b53fa640279448239bba337eef"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a078u"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "200740c0fa2046c3b34b072f92770750"
+    },
+    "entity": {
+      "$bytes": "e3ba044fad5e41709cde1c0c7ce930a2"
+    },
+    "from": {
+      "$bytes": "66f8690ed0b249f6829a075a2c5976d1"
+    },
+    "to": {
+      "$bytes": "1fcce9b53fa640279448239bba337eef"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a039t"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "12d7d800884d4cefaacf5be2538a2bbc"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher Incentive Fund pay-for-performance did not significantly change Year-1 math achievement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The multisite randomized estimate was +0.02 SD (p = .33; N = 40,535 students in 131 schools). It is a first-year result from the bonus-component comparison, not a separate study.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "40535"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score treatment-control impact on Year-1 math achievement; 131-school multisite random-assignment evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table VI.4; Year 1 math; p. 99.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .33",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7585f907fde1469cb200141faab1a874"
+    },
+    "entity": {
+      "$bytes": "da5459ac0c44426b8b3be4a63ab81b24"
+    },
+    "from": {
+      "$bytes": "12d7d800884d4cefaacf5be2538a2bbc"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03qh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c0a4507f761e4f388e81ef91412240c4"
+    },
+    "entity": {
+      "$bytes": "e0135c7f8b5e48ecb600846a65a8344e"
+    },
+    "from": {
+      "$bytes": "12d7d800884d4cefaacf5be2538a2bbc"
+    },
+    "to": {
+      "$bytes": "1fcce9b53fa640279448239bba337eef"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Aat"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "91d2c68b216c43ed8b7a29e54ccfaa4f"
+    },
+    "entity": {
+      "$bytes": "723c464286fc43cdb4a7d2958172d1ba"
+    },
+    "from": {
+      "$bytes": "12d7d800884d4cefaacf5be2538a2bbc"
+    },
+    "to": {
+      "$bytes": "66f8690ed0b249f6829a075a2c5976d1"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01MI"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f206b6c5510d4a759c1e309dde11c685"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher Incentive Fund pay-for-performance increased Year-1 reading achievement by 0.03 SD.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The multisite randomized estimate has p = .04 (N = 40,256 students in 131 schools). It is a short-run reading result from the same bonus-component experiment.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "40256"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score treatment-control impact on Year-1 reading achievement; 131-school multisite random-assignment evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table VI.4; Year 1 reading; p. 99.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .04",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "343aa9a8dc4547e1ba2209f55a35dbc8"
+    },
+    "entity": {
+      "$bytes": "7b5ea1639f314478aee3d688e385b47d"
+    },
+    "from": {
+      "$bytes": "f206b6c5510d4a759c1e309dde11c685"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02AW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "955694d4b0624b2cb962cc767a7ac3d9"
+    },
+    "entity": {
+      "$bytes": "be9eb0f0cb1c4b2abcfc2f7e1b3c3fd3"
+    },
+    "from": {
+      "$bytes": "f206b6c5510d4a759c1e309dde11c685"
+    },
+    "to": {
+      "$bytes": "1fcce9b53fa640279448239bba337eef"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01F1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0100bb8f14c746d5b001dadc604fd8d8"
+    },
+    "entity": {
+      "$bytes": "02e695a9ac27412591c8a40d5fa3fd50"
+    },
+    "from": {
+      "$bytes": "f206b6c5510d4a759c1e309dde11c685"
+    },
+    "to": {
+      "$bytes": "66f8690ed0b249f6829a075a2c5976d1"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BZy"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a55fb976e792432987178812b2f6bc65"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher Incentive Fund pay-for-performance did not significantly change Year-2 math achievement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The multisite randomized estimate was +0.04 SD (p = .07; N = 40,454 students in 131 schools). It is the second annual horizon from the same experiment.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "40454"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score treatment-control impact on Year-2 math achievement; 131-school multisite random-assignment evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table VI.4; Year 2 math; p. 99.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .07",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "11645a05140046cca2e38b4b37fd6e1f"
+    },
+    "entity": {
+      "$bytes": "ae8979de0f7141a9908f29aa4f11e78d"
+    },
+    "from": {
+      "$bytes": "a55fb976e792432987178812b2f6bc65"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a099k"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9d5d80c0c3264d6fb26d6526f19f0e90"
+    },
+    "entity": {
+      "$bytes": "93e0a89d49a949508f2310c24745e54d"
+    },
+    "from": {
+      "$bytes": "a55fb976e792432987178812b2f6bc65"
+    },
+    "to": {
+      "$bytes": "1fcce9b53fa640279448239bba337eef"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BmD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ab3af3c058a84fd2b5785f667edd9bb3"
+    },
+    "entity": {
+      "$bytes": "22956733cb48484ca8661433a50195c0"
+    },
+    "from": {
+      "$bytes": "a55fb976e792432987178812b2f6bc65"
+    },
+    "to": {
+      "$bytes": "66f8690ed0b249f6829a075a2c5976d1"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a089u"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "af8402d1b9a54766acecd750dd6c2444"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher Incentive Fund pay-for-performance increased Year-2 reading achievement by 0.03 SD.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The multisite randomized estimate has p = .02 (N = 40,122 students in 131 schools). It is the second annual horizon from the same experiment.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "40122"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score treatment-control impact on Year-2 reading achievement; 131-school multisite random-assignment evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table VI.4; Year 2 reading; p. 99.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .02",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eb495529452f4416a429fd95e4fc001a"
+    },
+    "entity": {
+      "$bytes": "f09a66cec7764796bdf0394d53cc62a9"
+    },
+    "from": {
+      "$bytes": "af8402d1b9a54766acecd750dd6c2444"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BLH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e6b20ce66c704e619bb84f98b88d7b0e"
+    },
+    "entity": {
+      "$bytes": "e0b8feab7cf84c8da372d7ae985c8f7b"
+    },
+    "from": {
+      "$bytes": "af8402d1b9a54766acecd750dd6c2444"
+    },
+    "to": {
+      "$bytes": "1fcce9b53fa640279448239bba337eef"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03Ze"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fd1c227bcb3d4183af479c1da8560770"
+    },
+    "entity": {
+      "$bytes": "16f8117be4d04df0a0b37cb3f9e2dff7"
+    },
+    "from": {
+      "$bytes": "af8402d1b9a54766acecd750dd6c2444"
+    },
+    "to": {
+      "$bytes": "66f8690ed0b249f6829a075a2c5976d1"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0C0m"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ffc7228f4c98435a9e640657101e63f0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher Incentive Fund pay-for-performance increased Year-3 math achievement by 0.06 SD.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The multisite randomized estimate has p = .02 (N = 39,770 students in 131 schools). It is a Year-3 bonus-component result, not the effect of every component of the wider TIF system.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "6"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "39770"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score treatment-control impact on Year-3 math achievement; 131-school multisite random-assignment evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table VI.4; Year 3 math; p. 99.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .02",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2a0ddc871b8d44fcb45a98246f53893b"
+    },
+    "entity": {
+      "$bytes": "dc31de8bc09845d9a7be1214d3f98b7c"
+    },
+    "from": {
+      "$bytes": "ffc7228f4c98435a9e640657101e63f0"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AQp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c9b9ef9d801743b9a4aca8bd411cc229"
+    },
+    "entity": {
+      "$bytes": "839177aafdf74c6cb0813bb2f2bbe225"
+    },
+    "from": {
+      "$bytes": "ffc7228f4c98435a9e640657101e63f0"
+    },
+    "to": {
+      "$bytes": "1fcce9b53fa640279448239bba337eef"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Bhq"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4e252b07ebee41c6b86d08175d7ed357"
+    },
+    "entity": {
+      "$bytes": "da9191445bc745c190bdd3c81efb3a76"
+    },
+    "from": {
+      "$bytes": "ffc7228f4c98435a9e640657101e63f0"
+    },
+    "to": {
+      "$bytes": "66f8690ed0b249f6829a075a2c5976d1"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06WM"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c8fa9bf3965945a1beca67e18e6b0ee7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher Incentive Fund pay-for-performance increased Year-3 reading achievement by 0.04 SD.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The multisite randomized estimate has p = .02 (N = 39,538 students in 131 schools). It is one annual horizon from the same experiment, not a separate replication.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "39538"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score treatment-control impact on Year-3 reading achievement; 131-school multisite random-assignment evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table VI.4; Year 3 reading; p. 99.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .02",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cb2afa95a0494798b9512e1aeb4ea9e8"
+    },
+    "entity": {
+      "$bytes": "8f9c61950b104112aa4858de95ca0399"
+    },
+    "from": {
+      "$bytes": "c8fa9bf3965945a1beca67e18e6b0ee7"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0962"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "85c33321a4cf4928b4bd59dc3e8ea255"
+    },
+    "entity": {
+      "$bytes": "8a05b8960f894b1e8a809af202592bfb"
+    },
+    "from": {
+      "$bytes": "c8fa9bf3965945a1beca67e18e6b0ee7"
+    },
+    "to": {
+      "$bytes": "1fcce9b53fa640279448239bba337eef"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0AGd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ee06c1dc37b84f9590f8c1306fa0eca9"
+    },
+    "entity": {
+      "$bytes": "0b18cf68d8304a6f8dfe172db57c5c99"
+    },
+    "from": {
+      "$bytes": "c8fa9bf3965945a1beca67e18e6b0ee7"
+    },
+    "to": {
+      "$bytes": "66f8690ed0b249f6829a075a2c5976d1"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00Ah"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f2667ffde3fd44dabe4a65c5da53a6e4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher Incentive Fund pay-for-performance did not significantly change Year-4 math achievement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The multisite randomized estimate was +0.04 SD (p = .13; N = 38,939 students in 131 schools). This does not prove zero effect, but it did not meet the report’s 5% threshold.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "38939"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score treatment-control impact on Year-4 math achievement; 131-school multisite random-assignment evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table VI.4; Year 4 math; p. 99.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .13",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6ee264cc93be4472b2ac1541eeb2dc82"
+    },
+    "entity": {
+      "$bytes": "555c4b2924b547d38eaa4f6508e95cb8"
+    },
+    "from": {
+      "$bytes": "f2667ffde3fd44dabe4a65c5da53a6e4"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a030C"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8a2d68a5d8db4a3e995a1f18ff5f6d88"
+    },
+    "entity": {
+      "$bytes": "44c739acbce041b9a8f01e5225bb956d"
+    },
+    "from": {
+      "$bytes": "f2667ffde3fd44dabe4a65c5da53a6e4"
+    },
+    "to": {
+      "$bytes": "1fcce9b53fa640279448239bba337eef"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01Nx"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dcc80972324d418087725e356c382de8"
+    },
+    "entity": {
+      "$bytes": "fa6b213b01de4720aac7319d4f33f5b4"
+    },
+    "from": {
+      "$bytes": "f2667ffde3fd44dabe4a65c5da53a6e4"
+    },
+    "to": {
+      "$bytes": "66f8690ed0b249f6829a075a2c5976d1"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0CH4"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "dcb3349e9b4043a69c65188bacac29c5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher Incentive Fund pay-for-performance did not significantly change Year-4 reading achievement.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The multisite randomized estimate was +0.04 SD (p = .08; N = 38,929 students in 131 schools). This does not prove zero effect, but it did not meet the report’s 5% threshold.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "38929"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Student z-score treatment-control impact on Year-4 reading achievement; 131-school multisite random-assignment evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table VI.4; Year 4 reading; p. 99.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "P = .08",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a4928ebd479649439d96a6f74b4a4502"
+    },
+    "entity": {
+      "$bytes": "3fd74102e0a64b3aa812a4e7ec2cc9dc"
+    },
+    "from": {
+      "$bytes": "dcb3349e9b4043a69c65188bacac29c5"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a030q"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f021b3d4da3743b095e5af046e4b524a"
+    },
+    "entity": {
+      "$bytes": "07a68e0c65934b0f89ba1a77e9d23e89"
+    },
+    "from": {
+      "$bytes": "dcb3349e9b4043a69c65188bacac29c5"
+    },
+    "to": {
+      "$bytes": "1fcce9b53fa640279448239bba337eef"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BKM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7f10484f50cc4811a7165c94064a9175"
+    },
+    "entity": {
+      "$bytes": "3058aaf348d947fbb0f3335f28a6250a"
+    },
+    "from": {
+      "$bytes": "dcb3349e9b4043a69c65188bacac29c5"
+    },
+    "to": {
+      "$bytes": "66f8690ed0b249f6829a075a2c5976d1"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03Ly"
+  }
+]

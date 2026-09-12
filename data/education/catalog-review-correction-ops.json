@@ -1,0 +1,128 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "63e0be67eb5a41a693b9623d7b9c9ae8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A nationally representative study follows students who were ninth-graders in fall 2009 into postsecondary education. Its observational data support analysis of educational pathways; causal effects require a separate credible study design.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "eb7428c70fa04b1980afcc1607db8e06"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** National Center for Education Statistics\n- **Access:** Public-use custom extracts through NCES DataLab; restricted-use files require a license\n- **Access URL:** https://nces.ed.gov/surveys/hsls09/hsls09_data.asp\n- **Unit:** Longitudinal student record with linked parent, teacher, counselor, school, transcript, and postsecondary records\n- **Coverage:** 2009 ninth-grade cohort through 2021 postsecondary administrative records\n- **Geography:** nation, selected states\n- **Record identifiers:** Student record, wave, and school record where permitted; apply survey weights for analysis.\n- **Measures:** course taking, CTE participation, math assessment, college expectations, postsecondary enrollment and completion\n- **Uses:** postsecondary pathway context, course-taking context, CTE and college-readiness context\n\nNational cohort context; school and student identifiers are suppressed in public-use files, so causal initiative evaluation requires a separate study design.\n\n[Official resource](https://nces.ed.gov/surveys/hsls09/)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "655b053c43344e9dab5dc048367490ab"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A nationally representative cross-sectional survey describes crime and safety in U.S. public schools. It provides school-safety context rather than longitudinal estimates of program effects.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6a045d705aaf4a09bb8e8bfabf006f5f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** National Center for Education Statistics\n- **Access:** Public-use data files and documentation; restricted-use files require a license\n- **Access URL:** https://nces.ed.gov/surveys/ssocs/data_products.asp\n- **Unit:** Sampled public school, cross-sectional\n- **Coverage:** 1999-2000 onward; most recent public-use cycle 2021-22\n- **Geography:** nation\n- **Record identifiers:** Survey cycle and school record; apply survey weights for analysis.\n- **Measures:** incidents, discipline, safety policies, security, mental-health and restorative supports\n- **Uses:** school climate context, discipline context, safety implementation context\n\nA nationally representative school survey, not a longitudinal impact evaluation or a school-level program-effect file.\n\n[Official resource](https://nces.ed.gov/surveys/ssocs/)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "547924b539e241d997f47963941b4367"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "An Institute of Education Sciences resource reviews education research and summarizes findings about interventions and practices. Read its assessments alongside the underlying primary studies.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8502d253b85a4054803d5e880bd00dbe"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** Institute of Education Sciences\n- **Access:** Public evidence reviews and study-level exports\n- **Access URL:** https://ies.ed.gov/ncee/wwc/\n- **Unit:** Reviewed intervention or study\n- **Coverage:** Continuously updated repository\n- **Geography:** study-dependent\n- **Record identifiers:** Intervention name, study citation, and WWC review identifier.\n- **Measures:** study quality, outcome domain, effect direction, evidence tier\n- **Uses:** study-quality normalization, evidence discovery\n\nA review repository, not an outcome dataset; preserve the primary study alongside any WWC assessment.\n\n[Official resource](https://ies.ed.gov/ncee/wwc/)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  }
+]

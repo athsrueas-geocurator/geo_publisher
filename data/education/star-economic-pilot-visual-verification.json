@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-09-11T19:10:20Z",
+  "url": "https://www.geobrowser.io/space/dac259bad48a11adf97fe36857d85206/4874a8385a594633ab244f47889f9cab",
+  "passed": true,
+  "scope": "Pilot table numeric rates, amounts, price-year value, denominator, source locator and source link render; cosmetic issues recorded separately",
+  "observed": {"rows":1,"discount":"4%","growth":"1%","cost":"7,537","benefit":"15,180","priceYear":"1,998","currency":"USD","locator":"Table 5, F56 (PDF page 23)"},
+  "issues": ["Price-year digit grouping", "Separate Geo claim-rating badge is not an extracted finding", "Instruction-like rounding caveat needs reader-facing wording"],
+  "issueDocument": "docs/geo-number-formatting.md"
+}

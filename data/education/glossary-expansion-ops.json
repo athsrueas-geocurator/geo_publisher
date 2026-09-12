@@ -1,0 +1,3846 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3f2f83ec99644b4fa9c710584408c383"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Education Initiatives glossary",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Curated definitions and interpretation guidance from the Education Initiatives source collection. Sections preserve the source organization. Publication is in progress; some entries still require identity resolution.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "10af5e61b38a4049839eb12302861fe5"
+    },
+    "entity": {
+      "$bytes": "ac3a1f97c73e4734b395ff4dd93b7c1c"
+    },
+    "from": {
+      "$bytes": "3f2f83ec99644b4fa9c710584408c383"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AFj"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bfdf43b93627404aac12dd72308c01fb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Strong causal evidence",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Multiple RCTs, high-quality RCT/lottery evidence, or strong quasi-experimental evidence with clear student outcome effects.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ce2a0a6735a54f38a1761260be38e2d8"
+    },
+    "entity": {
+      "$bytes": "1212271257a84505ade15949e9f58230"
+    },
+    "from": {
+      "$bytes": "bfdf43b93627404aac12dd72308c01fb"
+    },
+    "to": {
+      "$bytes": "e0fcc66c9e8643f480802469d8a1a93a"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0B6U"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a6672e82fbaf48be9280a1db22a0d563"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Evidence signal",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "15c2bef68b5e4f51896d8927f6464cb3"
+    },
+    "entity": {
+      "$bytes": "48913391aeb945de9641f6f0436974d9"
+    },
+    "from": {
+      "$bytes": "a6672e82fbaf48be9280a1db22a0d563"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07St"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "27d8b974dfd045d48a0af6a4cf317c10"
+    },
+    "entity": {
+      "$bytes": "a437fe923f5e4bfeb978e1ac6b82dc8c"
+    },
+    "from": {
+      "$bytes": "a6672e82fbaf48be9280a1db22a0d563"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a07Go"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "43457fa27dcc433886752dd18e2ca7e0"
+    },
+    "entity": {
+      "$bytes": "0f0237e889024f3e8314f2a8175ab1cb"
+    },
+    "from": {
+      "$bytes": "3f2f83ec99644b4fa9c710584408c383"
+    },
+    "to": {
+      "$bytes": "a6672e82fbaf48be9280a1db22a0d563"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a04ok"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f4891ab624194597a2c358cb780189e4"
+    },
+    "entity": {
+      "$bytes": "7d1af99ee0064a2a9792570c9d1b9c0e"
+    },
+    "from": {
+      "$bytes": "0f0237e889024f3e8314f2a8175ab1cb"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a031p"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bd47743503a5420cb6485afa2ce77d95"
+    },
+    "entity": {
+      "$bytes": "4b8b680de714491ab21fb28188b1216b"
+    },
+    "from": {
+      "$bytes": "0f0237e889024f3e8314f2a8175ab1cb"
+    },
+    "to": {
+      "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0Bod"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d87eeae633ae432ea941678cf555c90b"
+    },
+    "entity": {
+      "$bytes": "be943fb1ba034531990406108463b5be"
+    },
+    "from": {
+      "$bytes": "a6672e82fbaf48be9280a1db22a0d563"
+    },
+    "to": {
+      "$bytes": "bfdf43b93627404aac12dd72308c01fb"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a02A0"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "be943fb1ba034531990406108463b5be"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Strong causal evidence",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c669c7b8946d444aa4d014bbef33543e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Promising causal/quasi",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Credible lottery, regression discontinuity, difference-in-differences, or well-controlled evidence, but narrower samples or mixed replication.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d99bc18f200e4814b4482cb9c90f8eb1"
+    },
+    "entity": {
+      "$bytes": "087f821632264aaf9453cdab5cc9fb98"
+    },
+    "from": {
+      "$bytes": "c669c7b8946d444aa4d014bbef33543e"
+    },
+    "to": {
+      "$bytes": "e0fcc66c9e8643f480802469d8a1a93a"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03TX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1f21def4a42943eca90cf56dbb2c95d9"
+    },
+    "entity": {
+      "$bytes": "0290719ceddb41258ab898ed2c5b4955"
+    },
+    "from": {
+      "$bytes": "a6672e82fbaf48be9280a1db22a0d563"
+    },
+    "to": {
+      "$bytes": "c669c7b8946d444aa4d014bbef33543e"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a03w2"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0290719ceddb41258ab898ed2c5b4955"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Promising causal/quasi",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ecef323a50d241edbf721ae94abdbcbf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Mixed/conditional",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Evidence varies by context, outcome, implementation, or student group; may include positive and null/negative findings.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f1aef40058c74a59b0151409581f9f77"
+    },
+    "entity": {
+      "$bytes": "e0db7dffe1dc4244bb03b9757e52a752"
+    },
+    "from": {
+      "$bytes": "ecef323a50d241edbf721ae94abdbcbf"
+    },
+    "to": {
+      "$bytes": "e0fcc66c9e8643f480802469d8a1a93a"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00kY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1c2e52850ece42b8baa6b2db188c30e1"
+    },
+    "entity": {
+      "$bytes": "1d2adf75be104a8b8f85e95464dfa118"
+    },
+    "from": {
+      "$bytes": "a6672e82fbaf48be9280a1db22a0d563"
+    },
+    "to": {
+      "$bytes": "ecef323a50d241edbf721ae94abdbcbf"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a08m5"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1d2adf75be104a8b8f85e95464dfa118"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Mixed/conditional",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "180fb6ff4d6941f482009ceb3dceebed"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Limited/descriptive",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Implementation, trend, or correlational evidence without strong causal identification.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3e170f2c9e114a1f94928ad559e90295"
+    },
+    "entity": {
+      "$bytes": "28934fdff79943079778c95de1765202"
+    },
+    "from": {
+      "$bytes": "180fb6ff4d6941f482009ceb3dceebed"
+    },
+    "to": {
+      "$bytes": "e0fcc66c9e8643f480802469d8a1a93a"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Bgt"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "319faf788a4b475fa571141caea8478e"
+    },
+    "entity": {
+      "$bytes": "94dec9843f5144af91ffbda6e7155678"
+    },
+    "from": {
+      "$bytes": "a6672e82fbaf48be9280a1db22a0d563"
+    },
+    "to": {
+      "$bytes": "180fb6ff4d6941f482009ceb3dceebed"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a03de"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "94dec9843f5144af91ffbda6e7155678"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Limited/descriptive",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6146285450044e769cc1e7966eeda9a0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Not an outcome intervention",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A research infrastructure, standard, or framework that shapes evidence use but is not itself a student intervention.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aae78643786449909fbe1ec5216aabea"
+    },
+    "entity": {
+      "$bytes": "8142c9c1a6c743058c89f71165827bb9"
+    },
+    "from": {
+      "$bytes": "6146285450044e769cc1e7966eeda9a0"
+    },
+    "to": {
+      "$bytes": "e0fcc66c9e8643f480802469d8a1a93a"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09gw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5db19eccff54496ebdf0906f192d4274"
+    },
+    "entity": {
+      "$bytes": "6a8686fb3c8040e0a84bae19a1b00db6"
+    },
+    "from": {
+      "$bytes": "a6672e82fbaf48be9280a1db22a0d563"
+    },
+    "to": {
+      "$bytes": "6146285450044e769cc1e7966eeda9a0"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a04O7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6a8686fb3c8040e0a84bae19a1b00db6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Not an outcome intervention",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "39019b2c253248f599c9f0eef7244114"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Dosage and intensity",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Convert planned exposure to attended exposure; report ITT and treatment-on-treated where possible.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "21afaeda83a845ea9e176d95d3fce1f3"
+    },
+    "entity": {
+      "$bytes": "0580051ca1a54809a4fe8dab9eb577a3"
+    },
+    "from": {
+      "$bytes": "39019b2c253248f599c9f0eef7244114"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Bz5"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Input variable",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "afa5e6cc6fec4033a12a87d7dbc83f23"
+    },
+    "entity": {
+      "$bytes": "96fdc6d219e04ec39a0e1746eaee6453"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00vT"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "991757f7798c4206a58ccd6d39f160da"
+    },
+    "entity": {
+      "$bytes": "be25e5679ac442ba93a67d9020009754"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a00NK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7ce5471486e5496884fc1c11107ebc3c"
+    },
+    "entity": {
+      "$bytes": "42a511f4290948239c355266ae69d23d"
+    },
+    "from": {
+      "$bytes": "3f2f83ec99644b4fa9c710584408c383"
+    },
+    "to": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0Bdy"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0ba0f12dcfc045f2bc662c524a297198"
+    },
+    "entity": {
+      "$bytes": "d4c697b63d8641b78b3866cf35002a87"
+    },
+    "from": {
+      "$bytes": "42a511f4290948239c355266ae69d23d"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a02TN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d73a5cbb87c0477c93144c2610e4e36e"
+    },
+    "entity": {
+      "$bytes": "465697e18c6b4f9db41c552c9b859a36"
+    },
+    "from": {
+      "$bytes": "42a511f4290948239c355266ae69d23d"
+    },
+    "to": {
+      "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a08cU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "76c1394d6a1d43a4b0fba3763b73755a"
+    },
+    "entity": {
+      "$bytes": "c2ac246382e9483fb8c6f766832928e5"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "39019b2c253248f599c9f0eef7244114"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a07H9"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c2ac246382e9483fb8c6f766832928e5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Dosage and intensity",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "213ace78654546eb9907cb07f9f4b771"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Staffing ratio and adult contact",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Normalize to effective contact hours and adult qualification level.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "34a187f5e4554e40814cc16e438ca155"
+    },
+    "entity": {
+      "$bytes": "24374f4e79bb4a45996646b8af262419"
+    },
+    "from": {
+      "$bytes": "213ace78654546eb9907cb07f9f4b771"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0CAf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "151bed5e2b4140e299d883db5d32ba9a"
+    },
+    "entity": {
+      "$bytes": "dad598addc18419291bc47ab062719f0"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "213ace78654546eb9907cb07f9f4b771"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a00lo"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "dad598addc18419291bc47ab062719f0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Staffing ratio and adult contact",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0cd16e5e54654a3cb76d0766d35a1fff"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Curriculum content",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Use common rubrics, curriculum review ratings, lesson artifacts, topic coverage, and teacher usage surveys.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a0995b518fd1402dbe139153b8689a82"
+    },
+    "entity": {
+      "$bytes": "e34531966c854f04a1eed1b1c3a078da"
+    },
+    "from": {
+      "$bytes": "0cd16e5e54654a3cb76d0766d35a1fff"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07kM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3f678b60e5b1482fad8f3f91e35f1be3"
+    },
+    "entity": {
+      "$bytes": "ca40016c0f154b6b86116f5c5d2357ef"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "0cd16e5e54654a3cb76d0766d35a1fff"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a00lv"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ca40016c0f154b6b86116f5c5d2357ef"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Curriculum content",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c95340d371354fd6ab9185ba787b85cc"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Pedagogy and instructional model",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Use validated observation rubrics, video coding, instructional logs, and common categories.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ae7eb14e3cf94ec1a62e381e871a11e0"
+    },
+    "entity": {
+      "$bytes": "e9db3072992040b9992172d2ecdd3670"
+    },
+    "from": {
+      "$bytes": "c95340d371354fd6ab9185ba787b85cc"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02vZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "21b06b6267f14f9fa0b7ab8266442aa6"
+    },
+    "entity": {
+      "$bytes": "c157ada10eb442ebb5dca9007175421a"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "c95340d371354fd6ab9185ba787b85cc"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a01TW"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c157ada10eb442ebb5dca9007175421a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Pedagogy and instructional model",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2c48eb46c18b4834a7055f95bf6a3898"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Technology role",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Separate access, active academic use, teacher-mediated use, and substitution for in-person instruction.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a50763d7e21d4c04a471ba1cb60f070f"
+    },
+    "entity": {
+      "$bytes": "9b17cbdc5cda435f8e46ce625d19bf61"
+    },
+    "from": {
+      "$bytes": "2c48eb46c18b4834a7055f95bf6a3898"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06t8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cd6daaf8298b42ca8300ccae2d6ac150"
+    },
+    "entity": {
+      "$bytes": "ef24601e32804442992fd78425e0f1ff"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "2c48eb46c18b4834a7055f95bf6a3898"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a08Ik"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ef24601e32804442992fd78425e0f1ff"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Technology role",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5ab428ecb56b4b8ea936b43917c598ea"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher supports",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Report content focus, active practice, coaching cycles, and alignment to adopted materials.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f58745158bb843b39146de1a1060e8fb"
+    },
+    "entity": {
+      "$bytes": "3874db08b7ec4436bfc8c359f1bd2553"
+    },
+    "from": {
+      "$bytes": "5ab428ecb56b4b8ea936b43917c598ea"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06Rg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "50133bac02b64490a6838e7a17c31a6a"
+    },
+    "entity": {
+      "$bytes": "b58889264aa84021a69d071da9ac7d33"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "5ab428ecb56b4b8ea936b43917c598ea"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0BA5"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b58889264aa84021a69d071da9ac7d33"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher supports",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0462965dd49d420a89a2fde1a7be77d6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Accountability and incentives",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Code stakes, affected grades/subjects, thresholds, consequences, and timing.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "142ba3552f6d4c95a3685b88abe23782"
+    },
+    "entity": {
+      "$bytes": "a687492ffce849acb1c4aee4c114ba8e"
+    },
+    "from": {
+      "$bytes": "0462965dd49d420a89a2fde1a7be77d6"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07KX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b3da8a3371414e378ac54f5bc70fb39d"
+    },
+    "entity": {
+      "$bytes": "838cbc8add644e198f49123e18059a9b"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "0462965dd49d420a89a2fde1a7be77d6"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a07J4"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "838cbc8add644e198f49123e18059a9b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Accountability and incentives",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "15a0a1933c3c4c84933993d7a0a539b1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Governance and choice",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Use lottery offers for ITT where possible; otherwise match on prior achievement and demographics.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "70dbb67e0e844bbda24835530dcf4664"
+    },
+    "entity": {
+      "$bytes": "ff2fb4729d50456a92a6e11dde26fc02"
+    },
+    "from": {
+      "$bytes": "15a0a1933c3c4c84933993d7a0a539b1"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00Cw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8a5b0413cc40405e839413b9ca82fe26"
+    },
+    "entity": {
+      "$bytes": "17c412a3594c4a05a3aab7e9faacf1f0"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "15a0a1933c3c4c84933993d7a0a539b1"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a00hC"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "17c412a3594c4a05a3aab7e9faacf1f0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Governance and choice",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "26acd42afe1041bcadb382d6904a3f6e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Time structure",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Convert to active learning time using attendance and instructional-use measures.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4672e246f88b41a7bded4d8c03dc1840"
+    },
+    "entity": {
+      "$bytes": "9e53dc1f1d864425974c9ae2aa2fd035"
+    },
+    "from": {
+      "$bytes": "26acd42afe1041bcadb382d6904a3f6e"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03t0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0ba1d7d9a6bf4203a1cb0b7ae24efdcb"
+    },
+    "entity": {
+      "$bytes": "0c9edd1e50a4467abb7e08ce099d5acc"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "26acd42afe1041bcadb382d6904a3f6e"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a09k1"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0c9edd1e50a4467abb7e08ce099d5acc"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Time structure",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e6a03c80670c4b88bb7093410c2bdb57"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Early childhood quality",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Use classroom quality observations, curriculum indicators, and counterfactual care type.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7b93e8358f2f4938a38061265beeaf03"
+    },
+    "entity": {
+      "$bytes": "2aad3b53b4064c239e75dae27b6d87ef"
+    },
+    "from": {
+      "$bytes": "e6a03c80670c4b88bb7093410c2bdb57"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03LS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b9590452d1d24b66b1546a5bf7cce135"
+    },
+    "entity": {
+      "$bytes": "e02fb4a5a61d4a2d85db42406f7e9957"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "e6a03c80670c4b88bb7093410c2bdb57"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a05lY"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e02fb4a5a61d4a2d85db42406f7e9957"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Early childhood quality",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "88f3ced258fc445bb4a8b27894603621"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Whole-child supports",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Track service eligibility, take-up, completion, and schoolwide climate exposure.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a4f48a0614b84333b6954d9e68b85416"
+    },
+    "entity": {
+      "$bytes": "57550f85b5804e7cb54291e0d727c889"
+    },
+    "from": {
+      "$bytes": "88f3ced258fc445bb4a8b27894603621"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Aoe"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "832795ffbc64455b842d0441a3cffc31"
+    },
+    "entity": {
+      "$bytes": "ee2c7f78a1bc4c77a2da1e3d9ea125ec"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "88f3ced258fc445bb4a8b27894603621"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a03W7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ee2c7f78a1bc4c77a2da1e3d9ea125ec"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Whole-child supports",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c9226207e34a4940a8ac2e1489bb8a88"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Finance and resources",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Use real dollars, exposure years, district fixed effects, and cost-effectiveness ratios.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "917abeec738a43fdb7907018c691fee0"
+    },
+    "entity": {
+      "$bytes": "1736f4ba8afa44dda233c0549fab7195"
+    },
+    "from": {
+      "$bytes": "c9226207e34a4940a8ac2e1489bb8a88"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00ck"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8639b3800b934000a751a883c11fa386"
+    },
+    "entity": {
+      "$bytes": "b6dc5018776947c7a85cfde4c8a01703"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "c9226207e34a4940a8ac2e1489bb8a88"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a00Ma"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b6dc5018776947c7a85cfde4c8a01703"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Finance and resources",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7ecbd365edf246d58117bfb3cdecc930"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Implementation and fidelity",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Separate intent-to-treat, implementation-on-treated, and mediator analyses.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aad1533a66e840b0b0d186e604913d09"
+    },
+    "entity": {
+      "$bytes": "f584f630db9049be8c78a3241774aeef"
+    },
+    "from": {
+      "$bytes": "7ecbd365edf246d58117bfb3cdecc930"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0ALK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0c18e7360b7047b5b32e2a91ffe80965"
+    },
+    "entity": {
+      "$bytes": "13f4c670f9444ba5ad50e85062a4a4f1"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "7ecbd365edf246d58117bfb3cdecc930"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a03qY"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "13f4c670f9444ba5ad50e85062a4a4f1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Implementation and fidelity",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5842b14fc54b4a73840ace45c539129d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Counterfactual context",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Use baseline trends, matched controls, cohort fixed effects, and sensitivity analyses.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "071533b25f5b4dd3a649aee00b138eea"
+    },
+    "entity": {
+      "$bytes": "98980fa5b5824071b4b9c5e4fe338e95"
+    },
+    "from": {
+      "$bytes": "5842b14fc54b4a73840ace45c539129d"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00ml"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ce6a8e3ae7124fb399cbe0c4f199e3f6"
+    },
+    "entity": {
+      "$bytes": "a521845bbfa847959ef4d6d3d919fe99"
+    },
+    "from": {
+      "$bytes": "3bae0b254d504867a7720a9ee6c34f35"
+    },
+    "to": {
+      "$bytes": "5842b14fc54b4a73840ace45c539129d"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a04Fd"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a521845bbfa847959ef4d6d3d919fe99"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Counterfactual context",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b34ea41e2caa4c3786846cbe6d9be1e2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Achievement test scores",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Convert to student-level or grade-level SD; use common NAEP/SEDA scales for cross-state comparisons.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0fe157d6722e4f85ad359daa0451d078"
+    },
+    "entity": {
+      "$bytes": "864dceb728934468ad843e62b50bed8f"
+    },
+    "from": {
+      "$bytes": "b34ea41e2caa4c3786846cbe6d9be1e2"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0A24"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Outcome",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d636e541daa24cc0bdffc4c55b33f7f6"
+    },
+    "entity": {
+      "$bytes": "72078262918e447490c6f0eb7fdc1fcd"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02Pn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "516ced58ef214ec39ef6a766420dc407"
+    },
+    "entity": {
+      "$bytes": "1f616225ae9b4a5d8106d0b414714f4d"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a09nW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fc88e0bfad794e05a5182f9c14318547"
+    },
+    "entity": {
+      "$bytes": "a7453c6b2c604378adc725762b34472f"
+    },
+    "from": {
+      "$bytes": "3f2f83ec99644b4fa9c710584408c383"
+    },
+    "to": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a00QH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1566deab3f5b43a9b48b4b29f9797e87"
+    },
+    "entity": {
+      "$bytes": "c80f5ca4267a46f28557d3b9bed850ba"
+    },
+    "from": {
+      "$bytes": "a7453c6b2c604378adc725762b34472f"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a00BP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "81852ffe8d05490f945b7f968962885c"
+    },
+    "entity": {
+      "$bytes": "a32b2d6737d843fdbf381f0e7ab83489"
+    },
+    "from": {
+      "$bytes": "a7453c6b2c604378adc725762b34472f"
+    },
+    "to": {
+      "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0975"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8eaf12c37dad4d83b456482789adf463"
+    },
+    "entity": {
+      "$bytes": "7aa637cf10064380aa111fe5373b6a06"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "b34ea41e2caa4c3786846cbe6d9be1e2"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a05cF"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7aa637cf10064380aa111fe5373b6a06"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Achievement test scores",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7e956789f9b34946b4f18e254a3800ff"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Proficiency and cut-score metrics",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Do not equate state proficient with NAEP Proficient; map state standards carefully.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "247d4077a75845faa363614c8398e68a"
+    },
+    "entity": {
+      "$bytes": "b90d61b6f22a4b0491e496299cddb2db"
+    },
+    "from": {
+      "$bytes": "7e956789f9b34946b4f18e254a3800ff"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Aie"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1507d7d4ccc944cd81d7a199f0490427"
+    },
+    "entity": {
+      "$bytes": "1dceb76634574ada8f353708b72cc0ef"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "7e956789f9b34946b4f18e254a3800ff"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a09TA"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1dceb76634574ada8f353708b72cc0ef"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Proficiency and cut-score metrics",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "139ee1f522ad4464a6a4af46268eeb95"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading subskills",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Report domains separately; early decoding gains do not guarantee comprehension gains.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6b49299d91674715bba23cab63e63f62"
+    },
+    "entity": {
+      "$bytes": "a82a9d0121e64157928245b41ee13d34"
+    },
+    "from": {
+      "$bytes": "139ee1f522ad4464a6a4af46268eeb95"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05FA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "23669701fdce4007bfe0fcaf61643c08"
+    },
+    "entity": {
+      "$bytes": "fc5411dbdc434f35bfc85ad5f75452cb"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "139ee1f522ad4464a6a4af46268eeb95"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a069a"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "fc5411dbdc434f35bfc85ad5f75452cb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading subskills",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f1a322e86be14c87802a5bd711e819dc"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Math subskills and course readiness",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Normalize by grade, course content, and test alignment.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "09787573cee94f45ac17a87e3589b85d"
+    },
+    "entity": {
+      "$bytes": "0e7b165f3d904fd39fc7ece5149da66c"
+    },
+    "from": {
+      "$bytes": "f1a322e86be14c87802a5bd711e819dc"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05qR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b80137a43bd844178b01743798bc9fec"
+    },
+    "entity": {
+      "$bytes": "542f739a8a3948a2b18310faf96ffd11"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "f1a322e86be14c87802a5bd711e819dc"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0897"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "542f739a8a3948a2b18310faf96ffd11"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Math subskills and course readiness",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "89459545b66d4dfab23cf2c127f345c4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Academic growth",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Growth metrics are less sensitive to baseline level but still depend on test scale and ceiling/floor.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8d445780527f46d392f36494ee801918"
+    },
+    "entity": {
+      "$bytes": "1fde28c30c9e402488f103ab0e5b0be1"
+    },
+    "from": {
+      "$bytes": "89459545b66d4dfab23cf2c127f345c4"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03Lj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6f0666090e4e45a9af83db8d67523ee5"
+    },
+    "entity": {
+      "$bytes": "6b7ccf1ab67c44f0a95d9e11308af2b3"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "89459545b66d4dfab23cf2c127f345c4"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a07AE"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6b7ccf1ab67c44f0a95d9e11308af2b3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Academic growth",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "882a1ad78617429fa6803d709b01a2d9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Coursework and grades",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Normalize course titles and rigor; credit inflation can mask learning.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "94960b4a6f4a415da03e593c8bd723ea"
+    },
+    "entity": {
+      "$bytes": "c4eaf5438e914c3e96fe4f3b49f94fad"
+    },
+    "from": {
+      "$bytes": "882a1ad78617429fa6803d709b01a2d9"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05gY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cac6c9e674fb46cc8e1344d6f626bd6b"
+    },
+    "entity": {
+      "$bytes": "0055e0f90a714816bbcd184fbc13d9ab"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "882a1ad78617429fa6803d709b01a2d9"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0AwU"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0055e0f90a714816bbcd184fbc13d9ab"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Coursework and grades",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8b44a4b095ac47349019a57e0a5db63e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Attendance and engagement",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Use same chronic absenteeism threshold and handle remote/partial days consistently.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a2e92a142fa24e6bb08a910be95e6985"
+    },
+    "entity": {
+      "$bytes": "795e60e198c4403897e4fcd96648cfa4"
+    },
+    "from": {
+      "$bytes": "8b44a4b095ac47349019a57e0a5db63e"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a06is"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "35b521a7b5304478823baeb65305f533"
+    },
+    "entity": {
+      "$bytes": "cfce0b5a384d49989f5f154210087c2c"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "8b44a4b095ac47349019a57e0a5db63e"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a05NK"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "cfce0b5a384d49989f5f154210087c2c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Attendance and engagement",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7eb7787b60724fbe95cf593a13c55754"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Behavior and climate",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Standardize reporting rules; separate actual behavior from adult referral behavior.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "50eb38d47bec45dcbb8e8a7cd4ffa024"
+    },
+    "entity": {
+      "$bytes": "1c387b8cf4134ddb97596bc9880a65d6"
+    },
+    "from": {
+      "$bytes": "7eb7787b60724fbe95cf593a13c55754"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08SV"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d19a92c3154047a39bbabffed6bd58c1"
+    },
+    "entity": {
+      "$bytes": "160ba8f9b4fa417d8be523e0dd4e9488"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "7eb7787b60724fbe95cf593a13c55754"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a05VW"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "160ba8f9b4fa417d8be523e0dd4e9488"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Behavior and climate",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a6a65de89e624472bcc94d4273b07287"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "SEL and noncognitive outcomes",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Use common scales or standardize within sample; triangulate self, teacher, and admin measures.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5ce27b677b6b48229115851dab8f2570"
+    },
+    "entity": {
+      "$bytes": "4c5525b932414010a781394a089dbc37"
+    },
+    "from": {
+      "$bytes": "a6a65de89e624472bcc94d4273b07287"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05Ij"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d24776f07b334b6baf709c7c32d00556"
+    },
+    "entity": {
+      "$bytes": "7e6613ca97d045829efa26e471d2b711"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "a6a65de89e624472bcc94d4273b07287"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a043B"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7e6613ca97d045829efa26e471d2b711"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "SEL and noncognitive outcomes",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "92ac5bf113824c71931f6457caa17a65"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Grade progression",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Define on-track consistently; account for policy-induced retention.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f35b328639234b34a46bfe1fcd638088"
+    },
+    "entity": {
+      "$bytes": "84743fe914474e118e7413644c7095ea"
+    },
+    "from": {
+      "$bytes": "92ac5bf113824c71931f6457caa17a65"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00lL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "afe9dbf62fcb4842ac64842ca0208168"
+    },
+    "entity": {
+      "$bytes": "ec560c3707da43afb518e2149f18f404"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "92ac5bf113824c71931f6457caa17a65"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a04Bq"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ec560c3707da43afb518e2149f18f404"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Grade progression",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "625a9e09323344d3883c34bb29d09a25"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Postsecondary outcomes",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Compare enrollment quality, persistence, and degree, not only initial entry.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9714c4f1111245c280a38405a94d8c5e"
+    },
+    "entity": {
+      "$bytes": "ddb7e24581134b399dc4613035cc3dfb"
+    },
+    "from": {
+      "$bytes": "625a9e09323344d3883c34bb29d09a25"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02pP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "401fed43b0994fee9d3528fc120f7176"
+    },
+    "entity": {
+      "$bytes": "bef404b72fee45678cbbf3caf657f079"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "625a9e09323344d3883c34bb29d09a25"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a04j6"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bef404b72fee45678cbbf3caf657f079"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Postsecondary outcomes",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9a1cb4dfdb804484a65985f3c98de320"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Labor market and adult outcomes",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Use real dollars and discounting; account for local labor markets and mobility.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6befd3d0b42d4721994bf5a4f88a3021"
+    },
+    "entity": {
+      "$bytes": "cbf5529791f24a738ab0798eb53e9ec9"
+    },
+    "from": {
+      "$bytes": "9a1cb4dfdb804484a65985f3c98de320"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0B8C"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "677700dd7c31478d8c7d8b1009a1af2d"
+    },
+    "entity": {
+      "$bytes": "7431d45622504e079afaac3af0e6a933"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "9a1cb4dfdb804484a65985f3c98de320"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0C8l"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7431d45622504e079afaac3af0e6a933"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Labor market and adult outcomes",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3dc93beae04841f39fa65fa41e2ff907"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Health, crime, and civic outcomes",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Use consistent legal/reporting definitions and subgroup precision checks.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5be6be88b83e414c8f261fec267eb8f6"
+    },
+    "entity": {
+      "$bytes": "8bfe7946a7934c6da99a744b91fef573"
+    },
+    "from": {
+      "$bytes": "3dc93beae04841f39fa65fa41e2ff907"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05NA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "da1ea8d1a40f4f8e843081b23b82f45c"
+    },
+    "entity": {
+      "$bytes": "a49b6c2b5a2940ce9bdabffd065caa86"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "3dc93beae04841f39fa65fa41e2ff907"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a07Ma"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a49b6c2b5a2940ce9bdabffd065caa86"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Health, crime, and civic outcomes",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "375a27d5f28e431999df4132cf89a11a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Implementation mediators",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Use as mechanism evidence, not final student outcome unless the theory is explicitly adult practice.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e9b963fe46354566a1de68cd51c62ca5"
+    },
+    "entity": {
+      "$bytes": "324542c8f2ca4963982180bed70c55e4"
+    },
+    "from": {
+      "$bytes": "375a27d5f28e431999df4132cf89a11a"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AFA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "18965b8d1c474603b3cd9c5be8991930"
+    },
+    "entity": {
+      "$bytes": "fa6b13b2fcb84a3196f66b0d9f9d4ef9"
+    },
+    "from": {
+      "$bytes": "4b154167467340d4a8bc88186c8a393f"
+    },
+    "to": {
+      "$bytes": "375a27d5f28e431999df4132cf89a11a"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a07GQ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "fa6b13b2fcb84a3196f66b0d9f9d4ef9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Implementation mediators",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  }
+]

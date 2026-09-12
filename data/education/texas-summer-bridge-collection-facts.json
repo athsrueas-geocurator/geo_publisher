@@ -1,0 +1,117 @@
+[
+  {
+    "id": "01612581ac7e453ca396226587ca5a72",
+    "sourceId": "9a01e3c8d25145ada294e929bdb75870",
+    "locator": "Table ES.1, p. ES-2; Study Methods, pp. 7–13.",
+    "classification": "study-design",
+    "context": "Texas Summer Bridge randomized evaluation; implementation, enrollment and one-year academic outcomes remain distinct.",
+    "name": "Texas Summer Bridge randomly assigned 1,318 students across eight colleges.",
+    "description": "The 2009 experiment assigned 793 students to program eligibility and 525 to colleges’ regular services. It evaluates a varied multi-site model, not one uniform college program.",
+    "values": []
+  },
+  {
+    "id": "d8a65b2583e641448d872f8c85208d6e",
+    "sourceId": "9a01e3c8d25145ada294e929bdb75870",
+    "locator": "Table 3.5, p. 34; cost discussion, p. 33.",
+    "classification": "observed",
+    "context": "Texas Summer Bridge randomized evaluation; implementation, enrollment and one-year academic outcomes remain distinct.",
+    "name": "Texas Summer Bridge required $1,319 per admitted student across eight sites (2009 dollars).",
+    "description": "This source-reported resource requirement includes staffing, other costs, student resources, and a 30% overhead assumption. Some costs may be start-up costs; it is not a net cost or cost-effectiveness result.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "1318"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "2009 USD average resource cost per admitted student across eight sites."
+      }
+    ]
+  },
+  {
+    "id": "22a40b2d33c34352a5fd4fa60f870840",
+    "sourceId": "9a01e3c8d25145ada294e929bdb75870",
+    "locator": "Table 5.1, p. 47.",
+    "classification": "observed",
+    "context": "Texas Summer Bridge randomized evaluation; implementation, enrollment and one-year academic outcomes remain distinct.",
+    "name": "Texas Summer Bridge increased attempts at a first college-level math course by 8.7 percentage points (15.1% versus 6.5%).",
+    "description": "This is an intent-to-treat fall-2009 course-progression result, not a degree or persistence effect.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "1318"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Percentage-point difference in attempting a first college-level math course in fall 2009, program minus control."
+      }
+    ]
+  },
+  {
+    "id": "96ca6b3cbdcc4308b20865a7a1ba8039",
+    "sourceId": "9a01e3c8d25145ada294e929bdb75870",
+    "locator": "Table 5.1, p. 47.",
+    "classification": "observed",
+    "context": "Texas Summer Bridge randomized evaluation; implementation, enrollment and one-year academic outcomes remain distinct.",
+    "name": "Texas Summer Bridge increased passing a first college-level math course by 4.4 percentage points (8.8% versus 4.4%).",
+    "description": "This is an intent-to-treat fall-2009 course outcome in a preliminary one-year report.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "1318"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Percentage-point difference in passing a first college-level math course in fall 2009, program minus control."
+      }
+    ]
+  },
+  {
+    "id": "73e27306ea7f45559fd2865e085c9d7d",
+    "sourceId": "9a01e3c8d25145ada294e929bdb75870",
+    "locator": "Table 5.1, p. 48.",
+    "classification": "observed",
+    "context": "Texas Summer Bridge randomized evaluation; implementation, enrollment and one-year academic outcomes remain distinct.",
+    "name": "Texas Summer Bridge increased passing a first college-level writing course by 5.1 percentage points (32.0% versus 26.9%).",
+    "description": "This is an intent-to-treat fall-2009 course outcome, not later persistence or completion.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "1318"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Percentage-point difference in passing a first college-level writing course in fall 2009, program minus control."
+      }
+    ]
+  },
+  {
+    "id": "782bbddb09874b91ae52c84d933979b4",
+    "sourceId": "9a01e3c8d25145ada294e929bdb75870",
+    "locator": "Table 5.1, p. 47.",
+    "classification": "observed",
+    "context": "Texas Summer Bridge randomized evaluation; implementation, enrollment and one-year academic outcomes remain distinct.",
+    "name": "Texas Summer Bridge showed no statistically significant fall registration difference (+1.0 point; 77.4% versus 76.4%).",
+    "description": "The fall-2009 enrollment result has p = .68 and standard error 2.4 percentage points. It is a null early registration finding, not proof of no later effect.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "1318"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Percentage-point difference in registering for at least one fall-2009 course, program minus control."
+      }
+    ]
+  }
+]

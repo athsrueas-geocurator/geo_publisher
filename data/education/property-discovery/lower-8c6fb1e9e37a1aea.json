@@ -1,0 +1,47 @@
+{
+  "term": "lower",
+  "checkedAt": "2026-09-11T20:59:21.408Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "0db260c165ed4cceaf56d5b2c63382d7",
+      "name": "Cost lower bound",
+      "description": "Lower end of a reported cost range; not necessarily a confidence bound.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ]
+    },
+    {
+      "id": "ab8dc01681254e74a06734e6194b05fc",
+      "name": "Followers Count",
+      "description": null,
+      "spaceIds": [
+        "2b77408477aed553da9729faf1ca57e2"
+      ]
+    },
+    {
+      "id": "b3adc5f5edc651a5a815f9edc8b546e8",
+      "name": "Lower bound",
+      "description": "Minimum allowable flux through this reaction in millimoles per gram dry weight per hour (mmol/gDW/h). Negative values indicate reversibility; zero enforces irreversibility in the forward direction only.",
+      "spaceIds": [
+        "aec359295ff90d00aea6696f0ddb1bbc"
+      ]
+    },
+    {
+      "id": "f2ed51004316452c81bc14613265bb38",
+      "name": "Followers on X",
+      "description": "The number of accounts following this source on X, as reported by the platform.",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjJlZDUxMDAtNDMxNi00NTJjLTgxYmMtMTQ2MTMyNjViYjM4Il1d"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "term": "lottery",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:33.793Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "255e67ac34019f5d4069fd25ba30da63",
+      "name": "Lottery",
+      "description": "Lottery is a city in Saint James, Jamaica.",
+      "spaceIds": [
+        "84a679ce188f061ac9a92380bac2bab5"
+      ],
+      "types": [
+        {
+          "id": "01b05333941a4b00bc78fac5a15b467d",
+          "name": "City"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMjU1ZTY3YWMtMzQwMS05ZjVkLTQwNjktZmQyNWJhMzBkYTYzIl1d"
+    }
+  ]
+}

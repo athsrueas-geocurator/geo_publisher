@@ -1,0 +1,29 @@
+{
+  "term": "PD",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:30.131Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "5aeac3e6b2218019b47fd6a1f07248f0",
+      "name": "PD",
+      "description": "Diagnostic or related non diagnostic item or service provided in a wholly owned or operated entity to a patient who is admitted as an inpatient within 3 days",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "c7bb1c80d96b4797966ea9cc864b3e94",
+          "name": "HCPCS Level II code"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNWFlYWMzZTYtYjIyMS04MDE5LWI0N2YtZDZhMWYwNzI0OGYwIl1d"
+    }
+  ]
+}

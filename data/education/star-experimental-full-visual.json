@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-09-11",
+  "url": "https://www.geobrowser.io/space/dac259bad48a11adf97fe36857d85206/9220554acfd249a18920b301dcbb6cf0",
+  "method": "Live in-app browser accessibility tree after indexing and a fresh navigation; tab 10",
+  "passed": true,
+  "rowCount": 8,
+  "rowOrder": ["k-small-rf7","k-aide-rf7","g1-small-rf7","g1-aide-rf7","g2-small-rf7","g2-aide-rf7","g3-small-rf7","g3-aide-rf7"],
+  "observed": [
+    {"effect":"5.36","se":"1.21","n":"5,861"},
+    {"effect":"0.53","se":"1.09","n":"5,861"},
+    {"effect":"6.79","se":"1.1","n":"6,452"},
+    {"effect":"1.64","se":"0.76","n":"6,452"},
+    {"effect":"5.27","se":"1.1","n":"5,950"},
+    {"effect":"1.16","se":"0.81","n":"5,950"},
+    {"effect":"5.3","se":"1.03","n":"6,109"},
+    {"effect":"0.13","se":"0.81","n":"6,109"}
+  ],
+  "checks": [
+    "All eight rows show the intended US grade and intervention-arm links",
+    "Every row shows the common regular-class comparison assignment",
+    "Every effect uses percentile points and has the correct Table V panel/page locator",
+    "Two-sentence description and full methods block remain correctly separated",
+    "Table row order matches extraction order; no pagination hides rows"
+  ],
+  "limitations": [
+    "Default numeric display removes trailing zeros: 1.10 becomes 1.1 and 5.30 becomes 5.3 without changing their numeric values",
+    "Claim 0% badges are voting controls, not effect values",
+    "A browser opened before indexing retained the pilot-only state until fresh navigation; verify indexed data before judging the final rendered batch",
+    "This is not verification of Curator bounty-page presentation or the complete comparison dashboard"
+  ]
+}

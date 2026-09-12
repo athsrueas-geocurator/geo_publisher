@@ -1,0 +1,74 @@
+{
+  "entity": {
+    "id": "c3b48b961db3b34ea416b6c0948bd302",
+    "name": "Federal agency",
+    "description": "An executive department of the United States federal government, a bureau within one, or an independent federal agency.",
+    "types": [
+      {
+        "id": "e7d737c536764c609fa16aa64a8c90ad"
+      }
+    ],
+    "relations": {
+      "nodes": [
+        {
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "type": {
+            "name": "Properties"
+          },
+          "toEntityId": "8f5266df11e34c89a0a7b42aecf2bb9c",
+          "toEntity": {
+            "name": "Wikipedia"
+          },
+          "spaceId": "4582fbbee28a16589154f7e36f1ee3c5"
+        },
+        {
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "type": {
+            "name": "Properties"
+          },
+          "toEntityId": "47f1296e8da54bedbb34ada6ba9a8af2",
+          "toEntity": {
+            "name": "Press room"
+          },
+          "spaceId": "4582fbbee28a16589154f7e36f1ee3c5"
+        },
+        {
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "type": {
+            "name": "Properties"
+          },
+          "toEntityId": "eed38e74e67946bf8a42ea3e4f8fb5fb",
+          "toEntity": {
+            "name": "Website"
+          },
+          "spaceId": "4582fbbee28a16589154f7e36f1ee3c5"
+        },
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "type": {
+            "name": "Types"
+          },
+          "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+          "toEntity": {
+            "name": "Type"
+          },
+          "spaceId": "4582fbbee28a16589154f7e36f1ee3c5"
+        },
+        {
+          "typeId": "01412f8381894ab1836565c7fd358cc1",
+          "type": {
+            "name": "Properties"
+          },
+          "toEntityId": "0d6259784b3c4b57a86fde45c997c73c",
+          "toEntity": {
+            "name": "X"
+          },
+          "spaceId": "4582fbbee28a16589154f7e36f1ee3c5"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  }
+}

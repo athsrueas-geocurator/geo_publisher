@@ -1,0 +1,137 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c22943d410c545c1856cbb458451e0b5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Evidence for ESSA",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Evidence for ESSA provides evidence discovery,program screening,ESSA evidence context. It is a source or access layer, so causal effects must be taken from the underlying study records.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://evidenceforessa.org/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f029231da47b4084b3c97317a5e11cdd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Evidence for ESSA catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** Center for Research and Reform in Education, Johns Hopkins University\n- **Access:** Public searchable evidence review database\n- **Access URL:** https://evidenceforessa.org/\n- **Unit:** Reviewed K-12 program or practice\n- **Coverage:** Continuously updated reviews\n- **Update cadence:** Rolling\n- **Geography:** study-dependent\n- **Join keys:** program name, grade band, subject, study citation, ESSA evidence tier\n- **Measures:** program ratings, study citations, reading and math scope, ESSA-aligned evidence tier\n- **Uses:** evidence discovery, program screening, ESSA evidence context\n\nA review database that complements, rather than replaces, WWC and primary-study records.\n\n[Official resource](https://evidenceforessa.org/)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fd8158056a414f739c4951d3496217b0"
+    },
+    "entity": {
+      "$bytes": "b3abf9c4604f48af8e6b748dcb39a248"
+    },
+    "from": {
+      "$bytes": "c22943d410c545c1856cbb458451e0b5"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a082s"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "11d070f52a6449128768b0234f37a337"
+    },
+    "entity": {
+      "$bytes": "bfc6a5fd17ed402baa96bd8fc3d5f660"
+    },
+    "from": {
+      "$bytes": "f029231da47b4084b3c97317a5e11cdd"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01Js"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4911379fe56448318c11964368ae4b43"
+    },
+    "entity": {
+      "$bytes": "bd32b1cc2cf9465fb96bd97accbd1839"
+    },
+    "from": {
+      "$bytes": "c22943d410c545c1856cbb458451e0b5"
+    },
+    "to": {
+      "$bytes": "f029231da47b4084b3c97317a5e11cdd"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0C04"
+  }
+]

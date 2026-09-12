@@ -1,0 +1,104 @@
+{
+  "term": "Perry Preschool",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T20:19:56.882Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "415914702fcb448a991b05734a84290a",
+      "name": "HighScope Perry Preschool study",
+      "description": "A preschool experiment involving 123 children in Ypsilanti, Michigan during the 1960s. Subsequent reassignment compromised the initial randomization, requiring adjustment in later analyses.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "3ef269bc5f114691abc02dcbf398fd63",
+          "name": "Study"
+        }
+      ]
+    },
+    {
+      "id": "4c6e9e711aaf437bb7ac8d61a7eba37f",
+      "name": "The $4-9 ROI figure comes from long-term studies (Perry Preschool, Abecedarian). Short-term budget cycles rarely capture these multi-decade returns, making them politically undervalued.",
+      "description": null,
+      "spaceIds": [
+        "5f0358f813d67dedad7ecb3c45416c23"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "6f68d6b9512a49148dc4a704583f1290",
+      "name": "Perry Preschool initial program cost: 17,759 USD per child (2006 prices)",
+      "description": "An undiscounted program resource cost per child, including operating expenses and classroom facilities. It is not annual expenditure or the financing-adjusted denominator for every economic scenario.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "783f6a0c029249f9a10f73fb02a4c385",
+      "name": "The rate of return to the HighScope Perry Preschool Program",
+      "description": "An economic analysis of the HighScope Perry Preschool experiment, published in 2010. It estimates returns while accounting for compromised randomization and uncertainty in projected outcomes.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "a2a5ed0cacef46b1835de457956ce915",
+          "name": "Article"
+        }
+      ]
+    },
+    {
+      "id": "7e86c7f34c614db49497272063f43485",
+      "name": "Perry Preschool: costs, observed outcomes and modeled returns",
+      "description": "Study evidence from a preschool intervention in Ypsilanti, Michigan. Costs, descriptive outcomes and modeled economic returns retain their distinct assumptions and source context.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "0c4babfb43893486af827341bbf32e09",
+          "name": "Dataset"
+        }
+      ]
+    },
+    {
+      "id": "f0122f6b2bcd4778bdcb874fdf25fe27",
+      "name": "Proposal f0122f6b-2bcd-4778-bdcb-874fdf25fe27",
+      "description": "System entity for proposal f0122f6b-2bcd-4778-bdcb-874fdf25fe27 in space dac259ba-d48a-11ad-f97f-e36857d85206",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206",
+        "d00460c203779d21d96fcfc6102d7a72"
+      ],
+      "types": [
+        {
+          "id": "490a7c90ad4b4029b2b4d85d22fe203a",
+          "name": "Proposal"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiN2U4NmM3ZjMtNGM2MS00ZGI0LTk0OTctMjcyMDYzZjQzNDg1Il1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjAxMjJmNmItMmJjZC00Nzc4LWJkY2ItODc0ZmRmMjVmZTI3Il1d"
+    }
+  ]
+}

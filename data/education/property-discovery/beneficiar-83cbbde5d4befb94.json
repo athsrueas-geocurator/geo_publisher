@@ -1,0 +1,31 @@
+{
+  "term": "beneficiar",
+  "checkedAt": "2026-09-11T21:49:14.646Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "6224bb9342d74b119ec35081ea0c98ee",
+      "name": "Number of beneficiaries",
+      "description": null,
+      "spaceIds": [
+        "5908c73ad336472ccbd983491d2d17e4"
+      ]
+    },
+    {
+      "id": "af029e0ecbd64751b690276c67fc0813",
+      "name": "Number of beneficiaries",
+      "description": null,
+      "spaceIds": [
+        "c9f267dcb0d270718c2a3c45a64afd32"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYWYwMjllMGUtY2JkNi00NzUxLWI2OTAtMjc2YzY3ZmMwODEzIl1d"
+    }
+  ]
+}

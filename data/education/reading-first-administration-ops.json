@@ -1,0 +1,239 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bbfe2860b5d04e4a98d647183af924bf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Office of Elementary and Secondary Education",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "An office within the U.S. Department of Education. The department's 2008 program guide identifies it as the administering office for Reading First.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8b2dde59bf074554b42b1a1b23fad070"
+    },
+    "entity": {
+      "$bytes": "9337c2d6fc8448018bfee374d1f413ad"
+    },
+    "from": {
+      "$bytes": "bbfe2860b5d04e4a98d647183af924bf"
+    },
+    "to": {
+      "$bytes": "c3b48b961db3b34ea416b6c0948bd302"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "cb2bc5b224bb42bbb6f868db870db4dd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Guide to U.S. Department of Education Programs 2008",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A 2008 federal guide to Department of Education programs. Its Reading First entry documents administration, grant eligibility and annual appropriations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://files.eric.ed.gov/fulltext/ED502979.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "611b9a2605364241842288bfcecd23a4"
+    },
+    "entity": {
+      "$bytes": "1d38122285cb4da18af2507ad19dc48c"
+    },
+    "from": {
+      "$bytes": "cb2bc5b224bb42bbb6f868db870db4dd"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "99058013c7904de782e86c393cb52035"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading First administration and grant structure",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Administration in the 2008 program guide\n\nThe Office of Elementary and Secondary Education (OESE), within the U.S. Department of Education, administered Reading First. This identifies the federal office in the historical guide; it does not identify every local delivery organization.\n\n## Grants and local implementation\n\nState education agencies received formula grants. Eligible local education agencies applied to states for competitive subgrants. These grant recipients are distinct from the federal administering office and from the funded and comparison schools in the impact evaluation.\n\n## Funding and comparison limits\n\nNational appropriations and anticipated awards are program funding measures. They are not measured delivery costs per student or costs matched to the evaluation's estimated impacts, and cannot serve as cost-effectiveness denominators.\n\n## Source\n\n[Guide to U.S. Department of Education Programs 2008](https://files.eric.ed.gov/fulltext/ED502979.pdf), printed p. 155 (PDF page 181).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4e0d0b5a51914783a1118b6316d1c565"
+    },
+    "entity": {
+      "$bytes": "6d7ab9aa184f40d182672f778a4d1e04"
+    },
+    "from": {
+      "$bytes": "99058013c7904de782e86c393cb52035"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9170428eeda04860869d14604942b66b"
+    },
+    "entity": {
+      "$bytes": "2da5155093284f7ab0e8ebea8dd57325"
+    },
+    "from": {
+      "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+    },
+    "to": {
+      "$bytes": "bbfe2860b5d04e4a98d647183af924bf"
+    },
+    "relationType": {
+      "$bytes": "d1c6034425684b4caaf2570bee562802"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7195ed22380e429796c68a27ca654b7b"
+    },
+    "entity": {
+      "$bytes": "e03d8abba923476a8dd0461082381ed8"
+    },
+    "from": {
+      "$bytes": "bbfe2860b5d04e4a98d647183af924bf"
+    },
+    "to": {
+      "$bytes": "cb2bc5b224bb42bbb6f868db870db4dd"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d3b43ef305354c709d28ab715469cf30"
+    },
+    "entity": {
+      "$bytes": "a68387c9075441c89e644c712625fd4c"
+    },
+    "from": {
+      "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+    },
+    "to": {
+      "$bytes": "cb2bc5b224bb42bbb6f868db870db4dd"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1765f5a2315a4d908d706710a553a88c"
+    },
+    "entity": {
+      "$bytes": "4a086dd9cdd94c939ff77112728d290b"
+    },
+    "from": {
+      "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+    },
+    "to": {
+      "$bytes": "99058013c7904de782e86c393cb52035"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    }
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "name": "Add AIR Early College lottery outcomes and source-reported cost-benefit model",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/early-college-ops.json",
+  "sha256": "7aa254752efe42ae3772f4c1362e6fbc080accf2ff3e978aee1fdf9df14d0fae",
+  "journalPath": "data/education/early-college-publication.json",
+  "validationPath": "data/education/early-college-validation.json",
+  "entities": {
+    "outcomeArticle": "038f546c2508401eb3890f0fc6954b53",
+    "costArticle": "0b285e99daa5436f8d02e608fea4fb2b",
+    "initiative": "5c33ee4be2fc4c38ae220a4fff9a3d69",
+    "claims": {
+      "design": "ad84e7d6d67c4afab9aca739c9754312",
+      "any-college": "91c94f3b330b4fdabc93641550ad8b7d",
+      "any-degree": "aba7c2b614334f42a245f910c8058bcf",
+      "associate-certificate": "53567bfbab8b49e1a2944244a552a888",
+      "bachelors": "5304d1e175894c56b9149cb0572d2e4d",
+      "four-year-enrollment": "f0866aef191c4ae8a83a2471a23b977c",
+      "modeled-benefits": "990470a979454286be0fdccf78b0bebf",
+      "modeled-cost": "335b8af106064f938eb110a09bcb958d",
+      "modeled-npv": "8bb0ab8623a54febb05cefe723ca2dfb",
+      "modeled-bcr": "0f81b38de2e74aab9b70bf3d9002fe95",
+      "conservative-bcr": "4340b6c985034278b4ed85824842da2a"
+    }
+  },
+  "operationCount": 52
+}

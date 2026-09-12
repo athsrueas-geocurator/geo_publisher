@@ -1,0 +1,86 @@
+[
+  {
+    "key": "statistic/s1/t6/A/years/effect",
+    "name": "Saga's Chicago study 1 estimated that offering tutoring increased participation by 0.563 years.",
+    "description": "Table 6, p. 753 reports 0.563 (SE 0.020; N=2633). This measures how the randomized offer changed participation, not an academic outcome.",
+    "kind": "randomized-assignment participation effect"
+  },
+  {
+    "key": "statistic/s1/t6/A/one-plus/effect",
+    "name": "Saga's Chicago study 1 estimated that offering tutoring increased participation for at least one year by 42.3 percentage points.",
+    "description": "Table 6, p. 753 reports 0.423 (SE 0.014; N=2633). This measures how the randomized offer changed participation, not an academic outcome.",
+    "kind": "randomized-assignment participation effect"
+  },
+  {
+    "key": "statistic/s1/t6/A/two/effect",
+    "name": "Saga's Chicago study 1 estimated that offering tutoring increased participation for two years by 13.9 percentage points.",
+    "description": "Table 6, p. 753 reports 0.139 (SE 0.010; N=2633). This measures how the randomized offer changed participation, not an academic outcome.",
+    "kind": "randomized-assignment participation effect"
+  },
+  {
+    "key": "statistic/s1/t6/B/cps-math/perYear",
+    "name": "Saga's Chicago study 1 estimated a year-two CPS math test (study sample Z) effect of 0.228 study-sample standard deviations per year of tutoring.",
+    "description": "Table 6, p. 753 reports 0.228 (SE 0.050; N=1640; FDR q=0.001). This is a weighted per-year effect measured in year two, not a separately randomized dose comparison.",
+    "kind": "weighted per-year effect"
+  },
+  {
+    "key": "statistic/s1/t6/B/cps-math/twoYearBound",
+    "name": "Saga's Chicago study 1 reported a year-two bound of 0.835 study-sample standard deviations for CPS math test (study sample Z), assuming only two-year participation contributes.",
+    "description": "Table 6, p. 753 reports 0.835 (SE 0.189; N=1640; FDR q=0.001). This bound assumes nonnegative benefits and no persistence for first-year-only participants; it is not a point effect or confidence limit.",
+    "kind": "assumption-dependent two-year participation bound"
+  },
+  {
+    "key": "statistic/s1/t6/B/math-gpa/perYear",
+    "name": "Saga's Chicago study 1 estimated a year-two Math GPA effect of 0.180 GPA points per year of tutoring.",
+    "description": "Table 6, p. 753 reports 0.180 (SE 0.065; N=1841; FDR q=0.012). This is a weighted per-year effect measured in year two, not a separately randomized dose comparison.",
+    "kind": "weighted per-year effect"
+  },
+  {
+    "key": "statistic/s1/t6/B/math-gpa/persistentBound",
+    "name": "Saga's Chicago study 1 reported a year-two bound of 0.243 GPA points for Math GPA, assuming only first-year benefits persist.",
+    "description": "Table 6, p. 753 reports 0.243 (SE 0.088; N=1841; FDR q=0.012). This bound assumes nonnegative benefits and zero incremental second-year benefit; it is not a point effect or confidence limit.",
+    "kind": "assumption-dependent persistent first-year bound"
+  },
+  {
+    "key": "statistic/s1/t6/B/math-gpa/twoYearBound",
+    "name": "Saga's Chicago study 1 reported a year-two bound of 0.630 GPA points for Math GPA, assuming only two-year participation contributes.",
+    "description": "Table 6, p. 753 reports 0.630 (SE 0.230; N=1841; FDR q=0.013). This bound assumes nonnegative benefits and no persistence for first-year-only participants; it is not a point effect or confidence limit.",
+    "kind": "assumption-dependent two-year participation bound"
+  },
+  {
+    "key": "statistic/s1/t6/B/math-failure/perYear",
+    "name": "Saga's Chicago study 1 estimated 8.0 percentage points fewer math courses failed per year of tutoring, measured in year two.",
+    "description": "Table 6, p. 753 reports -0.080 (SE 0.035; N=1841; FDR q=0.021). This is a weighted per-year effect measured in year two, not a separately randomized dose comparison.",
+    "kind": "weighted per-year effect"
+  },
+  {
+    "key": "statistic/s1/t6/B/math-failure/persistentBound",
+    "name": "Saga's Chicago study 1 reported a 10.9-percentage-point bound on reducing math-course failure, assuming only first-year benefits persist.",
+    "description": "Table 6, p. 753 reports -0.109 (SE 0.047; N=1841; FDR q=0.021). This bound assumes nonnegative benefits and zero incremental second-year benefit; it is not a point effect or confidence limit.",
+    "kind": "assumption-dependent persistent first-year bound"
+  },
+  {
+    "key": "statistic/s1/t6/B/math-failure/twoYearBound",
+    "name": "Saga's Chicago study 1 reported a 28.1-percentage-point bound on reducing math-course failure, assuming only two-year participation contributes.",
+    "description": "Table 6, p. 753 reports -0.281 (SE 0.123; N=1841; FDR q=0.023). This bound assumes nonnegative benefits and no persistence for first-year-only participants; it is not a point effect or confidence limit.",
+    "kind": "assumption-dependent two-year participation bound"
+  },
+  {
+    "key": "statistic/s1/t6/B/research-math/perYear",
+    "name": "Saga's Chicago study 1 estimated a year-two Research-team administered math test (study sample Z) effect of 0.139 study-sample standard deviations per year of tutoring.",
+    "description": "Table 6, p. 753 reports 0.139 (SE 0.059; N=878; FDR q=0.021). This is a weighted per-year effect measured in year two, not a separately randomized dose comparison.",
+    "kind": "weighted per-year effect"
+  },
+  {
+    "key": "statistic/s1/t6/B/research-math/persistentBound",
+    "name": "Saga's Chicago study 1 reported a year-two bound of 0.188 study-sample standard deviations for Research-team administered math test (study sample Z), assuming only first-year benefits persist.",
+    "description": "Table 6, p. 753 reports 0.188 (SE 0.080; N=878; FDR q=0.021). This bound assumes nonnegative benefits and zero incremental second-year benefit; it is not a point effect or confidence limit.",
+    "kind": "assumption-dependent persistent first-year bound"
+  },
+  {
+    "key": "statistic/s1/t6/B/research-math/twoYearBound",
+    "name": "Saga's Chicago study 1 reported a year-two bound of 0.512 study-sample standard deviations for Research-team administered math test (study sample Z), assuming only two-year participation contributes.",
+    "description": "Table 6, p. 753 reports 0.512 (SE 0.223; N=878; FDR q=0.023). This bound assumes nonnegative benefits and no persistence for first-year-only participants; it is not a point effect or confidence limit.",
+    "kind": "assumption-dependent two-year participation bound"
+  }
+]

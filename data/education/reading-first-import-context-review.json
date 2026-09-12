@@ -1,0 +1,208 @@
+{
+  "sourceCommit": "3cd97449ce9ca73cccb77efe22aac69cc56131e5",
+  "programId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+  "blockId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+  "sourceRecord": {
+    "slug": "reading-first",
+    "id": 12,
+    "name": "Reading First",
+    "years": "2002-2008; federal grants",
+    "category": "Literacy",
+    "theoryOfAction": "Fund scientifically based reading instruction and assessment systems in high-poverty schools.",
+    "inputVariablesChanged": "Reading coaches, PD, K-3 curricula, assessment, instructional time",
+    "targetPopulation": "K-3 students in participating schools",
+    "evaluationDesigns": "Regression discontinuity; randomized component; implementation study",
+    "methodTags": [
+      "RCT",
+      "Regression discontinuity"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "outputsMeasured": "Reading comprehension, decoding, instruction time, teacher practice",
+    "normalizationIssues": "The evaluation tests the federal grant implementation, not the National Reading Panel findings themselves.",
+    "oneLineFinding": "Improved some reading instruction measures but did not produce clear broad comprehension gains in the national impact study.",
+    "sourceIds": [
+      "src-015",
+      "src-014"
+    ],
+    "tags": "Reading First; NCLB; literacy",
+    "relatedDichotomySlugs": [
+      "whole-language-balanced-literacy-vs-phonics-science-of-reading"
+    ]
+  },
+  "markdown": "## Imported Education-Initiatives overview\n\nThis section preserves the source project's editorial record. Its evidence classification and tags are curated assessments, not additional experimental findings; historical period labels are not verified exact dates. Method tags describe the imported record and do not classify the entire mixed-design impact study as randomized.\n\n### Imported route slug\n\nreading-first\n\n### Source record number\n\n12\n\n### Source name\n\nReading First\n\n### Source period label\n\n2002-2008; federal grants\n\n### Source category\n\nLiteracy\n\n### Theory of action\n\nFund scientifically based reading instruction and assessment systems in high-poverty schools.\n\n### Inputs changed\n\nReading coaches, PD, K-3 curricula, assessment, instructional time\n\n### Target population\n\nK-3 students in participating schools\n\n### Evaluation designs\n\nRegression discontinuity; randomized component; implementation study\n\n### Method tags\n\nRCT; Regression discontinuity\n\n### Editorial evidence classification\n\nmixed-conditional\n\n### Outcomes measured\n\nReading comprehension, decoding, instruction time, teacher practice\n\n### Interpretation limits\n\nThe evaluation tests the federal grant implementation, not the National Reading Panel findings themselves.\n\n### Imported summary\n\nImproved some reading instruction measures but did not produce clear broad comprehension gains in the national impact study.\n\n### Source reference keys\n\nsrc-015; src-014\n\n### Source tags\n\nReading First; NCLB; literacy\n\n### Related comparison keys\n\nwhole-language-balanced-literacy-vs-phonics-science-of-reading\n\n## Provenance\n\n[Education-Initiatives source record](https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/initiatives.json), record 12, slug reading-first. Source reference keys src-015 and src-014 denote the impact report and National Reading Panel background respectively; they are not interchangeable evidence. The related comparison key names an editorial grouping, not a new causal result.\n",
+  "existingProgram": {
+    "values": {
+      "nodes": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "text": "A U.S. federal grant program supporting research-based early reading instruction. Funding supported curricula, teacher development and coaching, and assessment and intervention for struggling readers."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "text": "Reading First"
+        },
+        {
+          "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+          "text": "Executive Summary, printed pp. xvi-xvii (PDF pp. 17-18)"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    "relations": {
+      "nodes": [
+        {
+          "typeId": "beaba5cba67741a8b35377030613fc70",
+          "toEntityId": "99058013c7904de782e86c393cb52035",
+          "toEntity": {
+            "name": "Reading First administration and grant structure"
+          }
+        },
+        {
+          "typeId": "806d52bc27e94c9193c057978b093351",
+          "toEntityId": "09d90bfac91545de8b218e03c026338f",
+          "toEntity": {
+            "name": "Phonics instruction"
+          }
+        },
+        {
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "toEntityId": "db0ea33548454e1780c78231066b7d71",
+          "toEntity": {
+            "name": "Reading First Impact Study Final Report"
+          }
+        },
+        {
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "toEntityId": "bb326cc9809b4bf89d161701f49b74d9",
+          "toEntity": {
+            "name": "Report of the National Reading Panel: Teaching Children to Read: Reports of the Subgroups"
+          }
+        },
+        {
+          "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+          "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+          "toEntity": {
+            "name": "Reading First Impact Study (2008 final report)"
+          }
+        },
+        {
+          "typeId": "806d52bc27e94c9193c057978b093351",
+          "toEntityId": "5a86d2f3657b4b5baabef07a3393e408",
+          "toEntity": {
+            "name": "U.S. literacy education"
+          }
+        },
+        {
+          "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+          "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+          "toEntity": {
+            "name": "Reading First: achievement and implementation impacts (Gamse et al., 2008)"
+          }
+        },
+        {
+          "typeId": "beaba5cba67741a8b35377030613fc70",
+          "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+          "toEntity": {
+            "name": "Reading First program and evaluation context"
+          }
+        },
+        {
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+          "toEntity": {
+            "name": "Grant program"
+          }
+        },
+        {
+          "typeId": "806d52bc27e94c9193c057978b093351",
+          "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1",
+          "toEntity": {
+            "name": "Reading comprehension"
+          }
+        },
+        {
+          "typeId": "d1c6034425684b4caaf2570bee562802",
+          "toEntityId": "bbfe2860b5d04e4a98d647183af924bf",
+          "toEntity": {
+            "name": "Office of Elementary and Secondary Education"
+          }
+        },
+        {
+          "typeId": "beaba5cba67741a8b35377030613fc70",
+          "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+          "toEntity": {
+            "name": "Reading First intended audience and exposure"
+          }
+        },
+        {
+          "typeId": "98c0849922164db0822b5a78444c17b3",
+          "toEntityId": "32ef1b9c498b42c18725f72a93fd2917",
+          "toEntity": {
+            "name": "Kindergarten (United States)"
+          }
+        },
+        {
+          "typeId": "98c0849922164db0822b5a78444c17b3",
+          "toEntityId": "c66d539b68a54250889bee59b97fcfc0",
+          "toEntity": {
+            "name": "First grade (United States)"
+          }
+        },
+        {
+          "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+          "toEntityId": "0093d90725d94cb08903515673538d40",
+          "toEntity": {
+            "name": "United States"
+          }
+        },
+        {
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd",
+          "toEntity": {
+            "name": "Guide to U.S. Department of Education Programs 2008"
+          }
+        },
+        {
+          "typeId": "98c0849922164db0822b5a78444c17b3",
+          "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef",
+          "toEntity": {
+            "name": "Third grade (United States)"
+          }
+        },
+        {
+          "typeId": "98c0849922164db0822b5a78444c17b3",
+          "toEntityId": "74a01717791841c3beef132e8e5cec4e",
+          "toEntity": {
+            "name": "Second grade (United States)"
+          }
+        },
+        {
+          "typeId": "806d52bc27e94c9193c057978b093351",
+          "toEntityId": "06d0bc4860de4838a222c240a46fc8b0",
+          "toEntity": {
+            "name": "Literacy coaches"
+          }
+        },
+        {
+          "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+          "toEntityId": "561872867e1b4b80a5f37ddeb27570b5",
+          "toEntity": {
+            "name": "Children"
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  },
+  "identity": {
+    "nodes": [],
+    "pageInfo": {
+      "hasNextPage": false
+    }
+  },
+  "scope": "Preserve all 17 source fields in labeled context plus typed route slug; does not complete structured semantic migration"
+}

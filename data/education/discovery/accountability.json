@@ -1,0 +1,57 @@
+{
+  "term": "accountability",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:27.448Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "64d8e9e39200459283776d84c50ccdc2",
+      "name": "Accountability",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    },
+    {
+      "id": "b1628897739b459280f8d74bc1b060ca",
+      "name": "Accountability",
+      "description": null,
+      "spaceIds": [
+        "0c747ad3af58ed6b27221a256498068e"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "c72b6b28b6df42248234a5e11ebd4d19",
+      "name": "accountability",
+      "description": null,
+      "spaceIds": [
+        "addcaa6921fb8800fd7abb140e76eed6"
+      ],
+      "types": [
+        {
+          "id": "e0fcc66c9e8643f480802469d8a1a93a",
+          "name": "Tag"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYzcyYjZiMjgtYjZkZi00MjI0LTgyMzQtYTVlMTFlYmQ0ZDE5Il1d"
+    }
+  ]
+}

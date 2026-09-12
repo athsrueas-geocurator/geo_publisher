@@ -1,0 +1,29 @@
+{
+  "term": "Service",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T22:53:20.132Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "2f3e568ca8cb4d6ea130829c3012648f",
+      "name": "Service",
+      "description": "An activity or function delivered by an entity to fulfill a specific need. Unlike a product, it is intangible, consumed at the point of delivery, and cannot be owned or stored.",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMmYzZTU2OGMtYThjYi00ZDZlLWExMzAtODI5YzMwMTI2NDhmIl1d"
+    }
+  ]
+}

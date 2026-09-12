@@ -1,0 +1,149 @@
+{
+  "term": "phonics",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T22:15:42.167Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "09d90bfac91545de8b218e03c026338f",
+      "name": "Phonics instruction",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    },
+    {
+      "id": "427d5b12b2704e0282ae92b56ebf5b9f",
+      "name": "@TBYSTweet I've always preferred Japanese because the phonics are much easier to",
+      "description": "@TBYSTweet I've always preferred Japanese because the phonics are much easier to grasp for my English perspective. \n\nPlus I really like the concept with Hiragana being building blocks for whole Kanji \"words\" (I know they aren't *really* words per se, but the point remains).",
+      "spaceIds": [
+        "2b77408477aed553da9729faf1ca57e2"
+      ],
+      "types": [
+        {
+          "id": "d6f0506def324d8e9de4976b986e78ec",
+          "name": "Tweet"
+        },
+        {
+          "id": "f3d4461486b74d2583d89709c9d84f65",
+          "name": "Post"
+        }
+      ]
+    },
+    {
+      "id": "56556c9d0bb84fe5b0037fe4c7952373",
+      "name": "Reading First grade 1: Phonics instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "67d08d12c1ed41869e2227a09df8b607",
+      "name": "Reading First grade 2: Phonics instruction (SD)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "8c12ef65b99d4192ab9b5028089f4f91",
+      "name": "Implementing phonics and explicit instruction for teaching reading",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    },
+    {
+      "id": "c25d5bf3d2144c14966c7f193b68fe45",
+      "name": "Reading First grade 2: Phonics instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "d8fcc6dc1a0b4da0a82d6a8d50591308",
+      "name": "The phonics method of reading instruction is rarely used in California's public schools.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "f051087745894297934a899d5b718a4f",
+      "name": "Reading First grade 1: Phonics instruction (minutes per daily reading block)",
+      "description": "Adjusted impact on observed instruction. Native and standardized versions of this outcome share the same study contrast.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "f4b3d840601d4741804fd8c439db3262",
+      "name": "Mississippi's reading instruction reform mandates the explicit teaching of phonics, where children learn to sound out words.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOGMxMmVmNjUtYjk5ZC00MTkyLWFiOWItNTAyODA4OWY0ZjkxIl1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjRiM2Q4NDAtNjAxZC00NzQxLTgwNGYtZDhjNDM5ZGIzMjYyIl1d"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T15:08:01.370Z",
+  "reviewer": "publisher preparation review",
+  "planHash": "640fa87b4b1c6daddc1d6d3454d07db56b7b83ad22b65d1bbe6ee534d3d80aca",
+  "factsHash": "9e3cb88bfcbcd17147b9ce1f70c7ef1362290c2745b23ad5ceac8e68252645e7",
+  "sources": [
+    {
+      "path": "docs/workadvance-study-notes.md",
+      "sha256": "8a3529439eb2c6438f25b1c569aaa303ba13df0a57e1e5fade8895b04c16b689",
+      "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+      "version": "MDRC 2020 long-term WorkAdvance report; source-backed batch review"
+    }
+  ],
+  "discovery": {
+    "path": "data/education/workadvance-collection-discovery.json",
+    "sha256": "893afcf7d48d47c2097d24f499d96d30eb37db940db7f1fc64f553ab1d152a4f"
+  },
+  "decisions": {
+    "source": {
+      "status": "accepted",
+      "rationale": "The existing WorkAdvance batch and study notes identify the 2020 long-term report and preserve its locators."
+    },
+    "identity": {
+      "status": "accepted",
+      "rationale": "Complete all-space exact identity searches returned no candidate collection or conflicting source identity."
+    },
+    "content": {
+      "status": "accepted",
+      "rationale": "Facts are extracted from the reviewed immutable batch; the shared builder will compare every Claim header, locator, source relation, and typed value before preparing ops."
+    }
+  }
+}

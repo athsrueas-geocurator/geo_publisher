@@ -1,0 +1,158 @@
+{
+  "checkedAt": "2026-09-12T06:18:17.371Z",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "location": "deaa7d31c1e569ec5d9f27ae307f08cb",
+  "locationName": "New York City",
+  "queryPath": "data/education/study-location-query.graphql",
+  "expected": [
+    "0beecfa08f39431b827a08d4d2076719",
+    "3f683173e12241f085f0123ba443abe0",
+    "3f6f2b82f8b94d3c85a5198a40e34199",
+    "413205d66d2d465380c8cab7e7960aa5",
+    "536b5cd10a65417ea4e1d52b3322dcad",
+    "84231ad5631249a99f56e89dc540e3d6",
+    "8bc4688bf6cd469aae76433fde1e67a2",
+    "bb0f9095fd6b476cb6a4a3eab822ba5a",
+    "d67b77b6641247d4bae9af3e346d7d34",
+    "df9121e211a44e76acc6fe1055f12caf"
+  ],
+  "actual": [
+    "0beecfa08f39431b827a08d4d2076719",
+    "3f683173e12241f085f0123ba443abe0",
+    "3f6f2b82f8b94d3c85a5198a40e34199",
+    "413205d66d2d465380c8cab7e7960aa5",
+    "536b5cd10a65417ea4e1d52b3322dcad",
+    "84231ad5631249a99f56e89dc540e3d6",
+    "8bc4688bf6cd469aae76433fde1e67a2",
+    "bb0f9095fd6b476cb6a4a3eab822ba5a",
+    "d67b77b6641247d4bae9af3e346d7d34",
+    "df9121e211a44e76acc6fe1055f12caf"
+  ],
+  "rows": [
+    {
+      "id": "09bdb8aa1d19481da6076629b1091f2c",
+      "spaceId": "dac259bad48a11adf97fe36857d85206",
+      "fromEntity": {
+        "id": "bb0f9095fd6b476cb6a4a3eab822ba5a",
+        "name": "CUNY ASAP’s eight-year net educational cost was $13,838 per program-group member in 2019 dollars."
+      },
+      "toEntity": {
+        "id": "deaa7d31c1e569ec5d9f27ae307f08cb",
+        "name": "New York City"
+      }
+    },
+    {
+      "id": "225e9e6d87904d4d8dd65b3272abc10c",
+      "spaceId": "dac259bad48a11adf97fe36857d85206",
+      "fromEntity": {
+        "id": "3f683173e12241f085f0123ba443abe0",
+        "name": "Eight years after study entry, CUNY ASAP increased associate-degree receipt by 12 percentage points (52% versus 39.9%)."
+      },
+      "toEntity": {
+        "id": "deaa7d31c1e569ec5d9f27ae307f08cb",
+        "name": "New York City"
+      }
+    },
+    {
+      "id": "4ffc101ae68943fcba3a25009b89321a",
+      "spaceId": "dac259bad48a11adf97fe36857d85206",
+      "fromEntity": {
+        "id": "536b5cd10a65417ea4e1d52b3322dcad",
+        "name": "An Eight-Year Cost Analysis from a Randomized Controlled Trial of CUNY’s Accelerated Study in Associate Programs"
+      },
+      "toEntity": {
+        "id": "deaa7d31c1e569ec5d9f27ae307f08cb",
+        "name": "New York City"
+      }
+    },
+    {
+      "id": "57ca818048b74a0c93da409803e11cfb",
+      "spaceId": "dac259bad48a11adf97fe36857d85206",
+      "fromEntity": {
+        "id": "0beecfa08f39431b827a08d4d2076719",
+        "name": "In semester six, CUNY ASAP increased enrollment in a four-year college by 7.8 percentage points (25.1% versus 17.3%)."
+      },
+      "toEntity": {
+        "id": "deaa7d31c1e569ec5d9f27ae307f08cb",
+        "name": "New York City"
+      }
+    },
+    {
+      "id": "7a4c9df75c7c443ea8180409f722c32d",
+      "spaceId": "dac259bad48a11adf97fe36857d85206",
+      "fromEntity": {
+        "id": "84231ad5631249a99f56e89dc540e3d6",
+        "name": "Doubling Graduation Rates: Three-Year Effects of CUNY’s Accelerated Study in Associate Programs (ASAP) for Developmental Education Students"
+      },
+      "toEntity": {
+        "id": "deaa7d31c1e569ec5d9f27ae307f08cb",
+        "name": "New York City"
+      }
+    },
+    {
+      "id": "8ca47572b66749b98a23013392d377d1",
+      "spaceId": "dac259bad48a11adf97fe36857d85206",
+      "fromEntity": {
+        "id": "3f6f2b82f8b94d3c85a5198a40e34199",
+        "name": "CUNY Accelerated Study in Associate Programs (ASAP)"
+      },
+      "toEntity": {
+        "id": "deaa7d31c1e569ec5d9f27ae307f08cb",
+        "name": "New York City"
+      }
+    },
+    {
+      "id": "bf7bd4ff53d049eea49cb177a84f6df1",
+      "spaceId": "dac259bad48a11adf97fe36857d85206",
+      "fromEntity": {
+        "id": "8bc4688bf6cd469aae76433fde1e67a2",
+        "name": "After three years, CUNY ASAP increased degree receipt by 18.3 percentage points (40.1% versus 21.8%)."
+      },
+      "toEntity": {
+        "id": "deaa7d31c1e569ec5d9f27ae307f08cb",
+        "name": "New York City"
+      }
+    },
+    {
+      "id": "bf85743dc8394ae09707ac73f1b3680f",
+      "spaceId": "dac259bad48a11adf97fe36857d85206",
+      "fromEntity": {
+        "id": "413205d66d2d465380c8cab7e7960aa5",
+        "name": "After three years, CUNY ASAP students earned 8.67 more total credits than controls (47.68 versus 39.01)."
+      },
+      "toEntity": {
+        "id": "deaa7d31c1e569ec5d9f27ae307f08cb",
+        "name": "New York City"
+      }
+    },
+    {
+      "id": "cab2feb26aab4d42842de1b6f0453ea2",
+      "spaceId": "dac259bad48a11adf97fe36857d85206",
+      "fromEntity": {
+        "id": "df9121e211a44e76acc6fe1055f12caf",
+        "name": "After eight years, CUNY ASAP’s average cost per associate degree was $9,162 higher than control ($84,087 versus $74,925 in 2019 dollars)."
+      },
+      "toEntity": {
+        "id": "deaa7d31c1e569ec5d9f27ae307f08cb",
+        "name": "New York City"
+      }
+    },
+    {
+      "id": "dbce87778e2d4d6aa69f59b11b935bb8",
+      "spaceId": "dac259bad48a11adf97fe36857d85206",
+      "fromEntity": {
+        "id": "d67b77b6641247d4bae9af3e346d7d34",
+        "name": "The CUNY ASAP evaluation randomly assigned 896 low-income students needing one or two developmental courses to program or usual services."
+      },
+      "toEntity": {
+        "id": "deaa7d31c1e569ec5d9f27ae307f08cb",
+        "name": "New York City"
+      }
+    }
+  ],
+  "checks": {
+    "completePage": true,
+    "exactCunyAsapSet": true,
+    "allDestinationScoped": true
+  }
+}

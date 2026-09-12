@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-09-12T13:12:25.527Z",
+  "batchName": "Repair encoding damage in eight education text values",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 8,
+  "checks": [
+    {
+      "entityId": "5735b8e6a62745a38b1a99652e3c6457",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "1c6c7ea0742c4dc8849b983c8437296e",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "03cd942d5566419bb39a1608580c6f8a",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "ae72d01cfc13405a9632fa9c1a0d0f61",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "06ce03fee15844c18a6bfce808f03d12",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "4d20a987683a4686af61d1b9710475d2",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "96553fbe54d44eb3bad7ff1e7486add7",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "70be9dadb884480a914ce4f3595fb7b3",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

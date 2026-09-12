@@ -1,0 +1,67 @@
+{
+  "term": "Arm",
+  "checkedAt": "2026-09-11T20:33:17.052Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "061dbc4816b0413b83ebe771ef3d9875",
+      "name": "Comparison arms",
+      "description": "Study-specific assigned comparison groups used as the reference for an outcome estimate.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ]
+    },
+    {
+      "id": "22a9fba0fe754866afc0c61281d1f1ce",
+      "name": "BC Pharmacare Unit Price",
+      "description": null,
+      "spaceIds": [
+        "19f11bc6f1a62ac434936af814d1f8b5"
+      ]
+    },
+    {
+      "id": "2520b1ce048058b340dd424d6900b906",
+      "name": "Study arm summary",
+      "description": "Concise summary of treatment/control arms.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    },
+    {
+      "id": "5ec776480d7844c3a3b3d813115ed61a",
+      "name": "Mechanism of harm",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "65a80eb09a5746e78206f62cbd3679b4",
+      "name": "Pharmacodynamics",
+      "description": "What a drug does to the body, including its biochemical and physiological effects and the mechanisms through which these effects are produced.",
+      "spaceIds": [
+        "19f11bc6f1a62ac434936af814d1f8b5"
+      ]
+    },
+    {
+      "id": "a0109f6192b1414fa93fb756779643ed",
+      "name": "Intervention arms",
+      "description": "Study-specific assigned intervention groups evaluated by an outcome estimate.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNjVhODBlYjAtOWE1Ny00NmU3LTgyMDYtZjYyY2JkMzY3OWI0Il1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYTAxMDlmNjEtOTJiMS00MTRmLWE5M2YtYjc1Njc3OTY0M2VkIl1d"
+    }
+  ]
+}

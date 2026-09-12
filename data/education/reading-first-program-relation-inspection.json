@@ -1,0 +1,266 @@
+{
+  "checkedAt": "2026-09-11T21:47:46.016Z",
+  "relations": [
+    {
+      "expected": {
+        "type": "createRelation",
+        "id": {
+          "$bytes": "78d1a14e1ef54f4c8cf369fd1afb9f3c"
+        },
+        "entity": {
+          "$bytes": "d0eee6dfe68f44ef80fce3ffbb1d1f3d"
+        },
+        "from": {
+          "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+        },
+        "to": {
+          "$bytes": "9ba04d040e6bed81dc2ebd593e8cd0e7"
+        },
+        "relationType": {
+          "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+        }
+      },
+      "actual": {
+        "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+        "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+        "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+        "fromEntityId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+        "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7",
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "position": null
+      }
+    },
+    {
+      "expected": {
+        "type": "createRelation",
+        "id": {
+          "$bytes": "2a313ca9de1e45218307a571da014080"
+        },
+        "entity": {
+          "$bytes": "7626ed4973494b6895add2d49135df73"
+        },
+        "from": {
+          "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+        },
+        "to": {
+          "$bytes": "db0ea33548454e1780c78231066b7d71"
+        },
+        "relationType": {
+          "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+        }
+      },
+      "actual": {
+        "id": "2a313ca9de1e45218307a571da014080",
+        "entityId": "7626ed4973494b6895add2d49135df73",
+        "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+        "fromEntityId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+        "toEntityId": "db0ea33548454e1780c78231066b7d71",
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "position": null
+      }
+    },
+    {
+      "expected": {
+        "type": "createRelation",
+        "id": {
+          "$bytes": "cf064d9bf1ec4ccf962232fb83824bca"
+        },
+        "entity": {
+          "$bytes": "7711ffbe0079453ea09c7e46ff2c1183"
+        },
+        "from": {
+          "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+        },
+        "to": {
+          "$bytes": "0093d90725d94cb08903515673538d40"
+        },
+        "relationType": {
+          "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+        }
+      },
+      "actual": {
+        "id": "cf064d9bf1ec4ccf962232fb83824bca",
+        "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+        "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+        "fromEntityId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+        "toEntityId": "0093d90725d94cb08903515673538d40",
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "position": null
+      }
+    },
+    {
+      "expected": {
+        "type": "createRelation",
+        "id": {
+          "$bytes": "305ca4d8755640cf80f592aca778560c"
+        },
+        "entity": {
+          "$bytes": "a4167a5b41e641c5b52d481b10535421"
+        },
+        "from": {
+          "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+        },
+        "to": {
+          "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+        },
+        "relationType": {
+          "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+        }
+      },
+      "actual": {
+        "id": "305ca4d8755640cf80f592aca778560c",
+        "entityId": "a4167a5b41e641c5b52d481b10535421",
+        "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+        "fromEntityId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+        "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "position": null
+      }
+    },
+    {
+      "expected": {
+        "type": "createRelation",
+        "id": {
+          "$bytes": "55d0f863891846d0886f085ddbc46d85"
+        },
+        "entity": {
+          "$bytes": "e5588bbbc7724a489fa582c7e4d17654"
+        },
+        "from": {
+          "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+        },
+        "to": {
+          "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+        },
+        "relationType": {
+          "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+        }
+      },
+      "actual": {
+        "id": "55d0f863891846d0886f085ddbc46d85",
+        "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+        "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+        "fromEntityId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+        "toEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "position": null
+      }
+    },
+    {
+      "expected": {
+        "type": "createRelation",
+        "id": {
+          "$bytes": "765e69132a474b04b248af59aec47e00"
+        },
+        "entity": {
+          "$bytes": "f5e43d5ec1334e95ba5a25910e1e7b36"
+        },
+        "from": {
+          "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+        },
+        "to": {
+          "$bytes": "00a867e97ad24dfaa8524febaf54b345"
+        },
+        "relationType": {
+          "$bytes": "beaba5cba67741a8b35377030613fc70"
+        }
+      },
+      "actual": {
+        "id": "765e69132a474b04b248af59aec47e00",
+        "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+        "typeId": "beaba5cba67741a8b35377030613fc70",
+        "fromEntityId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+        "toEntityId": "00a867e97ad24dfaa8524febaf54b345",
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "position": null
+      }
+    },
+    {
+      "expected": {
+        "type": "createRelation",
+        "id": {
+          "$bytes": "6a404117989a45a68043df681c29a659"
+        },
+        "entity": {
+          "$bytes": "75427060a7dd477188bcd5a814b59a60"
+        },
+        "from": {
+          "$bytes": "d87bc8f30fb84b5fa660f98d1e770c78"
+        },
+        "to": {
+          "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+        },
+        "relationType": {
+          "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+        }
+      },
+      "actual": {
+        "id": "6a404117989a45a68043df681c29a659",
+        "entityId": "75427060a7dd477188bcd5a814b59a60",
+        "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+        "fromEntityId": "d87bc8f30fb84b5fa660f98d1e770c78",
+        "toEntityId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "position": null
+      }
+    },
+    {
+      "expected": {
+        "type": "createRelation",
+        "id": {
+          "$bytes": "e72d914c3f384a27a8fc7d89bbbb67bc"
+        },
+        "entity": {
+          "$bytes": "c2f3a9c99efc4b9bbb4b4037c8798759"
+        },
+        "from": {
+          "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+        },
+        "to": {
+          "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+        },
+        "relationType": {
+          "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+        }
+      },
+      "actual": {
+        "id": "e72d914c3f384a27a8fc7d89bbbb67bc",
+        "entityId": "c2f3a9c99efc4b9bbb4b4037c8798759",
+        "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+        "fromEntityId": "02b40a84dd87410f9ad78f0481ad237a",
+        "toEntityId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "position": null
+      }
+    },
+    {
+      "expected": {
+        "type": "createRelation",
+        "id": {
+          "$bytes": "af6cacfdae1c47d0b44a5c25855489c6"
+        },
+        "entity": {
+          "$bytes": "85583159115c4ce983cc5a15a2667970"
+        },
+        "from": {
+          "$bytes": "00a867e97ad24dfaa8524febaf54b345"
+        },
+        "to": {
+          "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+        },
+        "relationType": {
+          "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+        }
+      },
+      "actual": {
+        "id": "af6cacfdae1c47d0b44a5c25855489c6",
+        "entityId": "85583159115c4ce983cc5a15a2667970",
+        "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+        "fromEntityId": "00a867e97ad24dfaa8524febaf54b345",
+        "toEntityId": "76474f2f00894e77a0410b39fb17d0bf",
+        "spaceId": "dac259bad48a11adf97fe36857d85206",
+        "position": null
+      }
+    }
+  ]
+}

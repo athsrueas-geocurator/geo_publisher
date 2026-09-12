@@ -1,0 +1,43 @@
+{
+  "term": "Systematic review",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:40:06.278Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "13e956b9ec8349e99cb067ba219e8648",
+      "name": "Systematic review",
+      "description": "Structured synthesis of all available research on a defined question using explicit inclusion criteria and reproducible methods to minimize bias and summarize evidence.",
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "1206e244cf314218b8519a07321337d7",
+          "name": "Evidence"
+        }
+      ]
+    },
+    {
+      "id": "2ccb428287674d80b73214e7f3aac5de",
+      "name": "Systematic review",
+      "description": "A structured synthesis of multiple studies on a defined question using a reproducible methodology to identify, evaluate, and summarize available evidence.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "07d23153ead146268af89189abe0b6f3",
+          "name": "Study category"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMmNjYjQyODItODc2Ny00ZDgwLWI3MzItMTRlN2YzYWFjNWRlIl1d"
+    }
+  ]
+}

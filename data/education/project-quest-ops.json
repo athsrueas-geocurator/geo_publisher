@@ -1,0 +1,589 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Nine Year Gains: Project QUEST’s Continuing Impact",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A nine-year randomized evaluation of Project QUEST’s health-care training and support program in San Antonio.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://economicmobilitycorp.org/wp-content/uploads/2019/04/NineYearGains_web.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8f72aad3b5174c92bd189df237a5a265"
+    },
+    "entity": {
+      "$bytes": "344f0a53b63e4fe2b167b606ddd0a119"
+    },
+    "from": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00NB"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Project QUEST health-care workforce training and support",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A San Antonio workforce program combining occupational-training financial aid, counseling, supports, and job-placement assistance.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://economicmobilitycorp.org/wp-content/uploads/2019/04/NineYearGains_web.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d406f4d289d345f08ceb83cdd0e38be8"
+    },
+    "entity": {
+      "$bytes": "ce07cdf6a6b94839af3ddf3c45fbc200"
+    },
+    "from": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05C5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dc410a9e66de4977a88242024bb5973f"
+    },
+    "entity": {
+      "$bytes": "8fd3aab3253e41189f714eab020a9d83"
+    },
+    "from": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "to": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07EO"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fe0fc393f0e5446da9229f9c820db429"
+    },
+    "entity": {
+      "$bytes": "e42790c107fe42f69960cf8d67b2f897"
+    },
+    "from": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "to": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06wI"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3a0d718ce32449ae8876df60ddf55a53"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Project QUEST randomly assigned 410 San Antonio adults seeking health-care training to program or control groups.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Between 2006 and 2008, 207 people were assigned to Project QUEST and 203 to control; the report uses regression-adjusted intent-to-treat estimates. The evidence is specific to this health-care-focused support model and study sample.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Randomized design and full administrative-data sample.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "410"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6b6801e285014ca68aef353702fdfbc5"
+    },
+    "entity": {
+      "$bytes": "647201b5ef544b648b25060a1ad5ef38"
+    },
+    "from": {
+      "$bytes": "3a0d718ce32449ae8876df60ddf55a53"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BGL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6322330157f24701b9f98c9f2d9596d6"
+    },
+    "entity": {
+      "$bytes": "fd0e2be88d4b418dac49cffa2c06ef34"
+    },
+    "from": {
+      "$bytes": "3a0d718ce32449ae8876df60ddf55a53"
+    },
+    "to": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0A9M"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f50f31a4dfcd4e828fa329a238aed83d"
+    },
+    "entity": {
+      "$bytes": "a121a73c2d624ca3b16842e4e49ccd3b"
+    },
+    "from": {
+      "$bytes": "3a0d718ce32449ae8876df60ddf55a53"
+    },
+    "to": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09tv"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bab671b1e148491d93384fbed1c5ed1d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Nine years after random assignment, Project QUEST increased average annual earnings by $5,239 in current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The full administrative-data sample contained 410 participants; the report marks this annual ITT difference statistically significant. Current-dollar earnings are not inflation-adjusted and are not a benefit-cost ratio.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in average annual earnings in year nine after random assignment; current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5239"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": 410,
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "410"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "30b9885781284dae9671fd857b44316a"
+    },
+    "entity": {
+      "$bytes": "54d768e8d0d84ed6aa129e695ac430d1"
+    },
+    "from": {
+      "$bytes": "bab671b1e148491d93384fbed1c5ed1d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02vd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a84e7b9af830428faa74466c0d8619b8"
+    },
+    "entity": {
+      "$bytes": "161c37d2bd3a49b7b40a9a1039e5ad60"
+    },
+    "from": {
+      "$bytes": "bab671b1e148491d93384fbed1c5ed1d"
+    },
+    "to": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03Wm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b93b5ab004964158aa4f86315545a730"
+    },
+    "entity": {
+      "$bytes": "6aa2f3b605534f4b9c303481510bd650"
+    },
+    "from": {
+      "$bytes": "bab671b1e148491d93384fbed1c5ed1d"
+    },
+    "to": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01Zm"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ad8c7271fbb14119a582cf581601cb39"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Project QUEST’s reported operating cost averaged $10,501 per participant.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Participants received support for an average of 22 months. The report says this excludes the full cost of postsecondary education and does not deduct control-group education or services, so it is not a net cost or benefit-cost estimate.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Operating cost per Project QUEST participant; source report does not state a price year.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "10501"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": null,
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4fbd4867a88c4bdaafd196df28feabaa"
+    },
+    "entity": {
+      "$bytes": "d4d067b3d3dd492bb666c7c421dc2ba3"
+    },
+    "from": {
+      "$bytes": "ad8c7271fbb14119a582cf581601cb39"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a065w"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ea143758d5c94542877edd1588b3a103"
+    },
+    "entity": {
+      "$bytes": "d20be953269340f7ae26f07a30df7f7e"
+    },
+    "from": {
+      "$bytes": "ad8c7271fbb14119a582cf581601cb39"
+    },
+    "to": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BsL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7482f93814cc4b1a8882059a501226e9"
+    },
+    "entity": {
+      "$bytes": "26710b10eb0d4ea487b8cc5d0599e632"
+    },
+    "from": {
+      "$bytes": "ad8c7271fbb14119a582cf581601cb39"
+    },
+    "to": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09rb"
+  }
+]

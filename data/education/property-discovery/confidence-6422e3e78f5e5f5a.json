@@ -1,0 +1,135 @@
+{
+  "term": "Confidence",
+  "checkedAt": "2026-09-11T20:54:25.846Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "10cac0aa38efdd4730a0a6fbbfb8db32",
+      "name": "Confidence",
+      "description": "Curation confidence label.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    },
+    {
+      "id": "14023ffc5ba34d5987ed9783c8e70655",
+      "name": "Confidence",
+      "description": "The sourcing confidence level for a claimed relationship (e.g. primary-sourced, secondary-analysis).",
+      "spaceIds": [
+        "89bd89bf28ff8a0963faf92a8c905e20"
+      ]
+    },
+    {
+      "id": "169265d23ab9a200c48d30f2a963cc39",
+      "name": "Extraction confidence",
+      "description": "Normalized score from 0 to 1 describing extraction confidence.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "1773a3b16a3e0bee4ca92124efeefcb2",
+      "name": "Confidence interval",
+      "description": "AI Music ontology field for confidence_interval; data type text or number; cardinality one; publish policy required_when_referenced_by_relation_or_profile.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "1a0b68c9fa4b50e8fb301370b864d891",
+      "name": "High Confidence Vote Count",
+      "description": "Count of suspicious-vote annotations marked high confidence in the source data.",
+      "spaceIds": [
+        "7788fc2b7470f47108d2c5512e6fc93e"
+      ]
+    },
+    {
+      "id": "1b7b5cb2cb12db6297fa54022f9abb67",
+      "name": "Identity confidence",
+      "description": "AI Music ontology field for identity_confidence; data type controlled vocabulary; vocabulary IdentityConfidence; cardinality one; publish policy facet_or_required_when_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "274d5439514bf792107d0cbc97729812",
+      "name": "Perspective confidence",
+      "description": null,
+      "spaceIds": [
+        "f65885c9012be9a9201ddeb6e8c92b61"
+      ]
+    },
+    {
+      "id": "4ee2c48c91d6c60d46748f2b7288f781",
+      "name": "Vote confidence",
+      "description": "Suspicious-vote confidence label from the source JSON (high/medium).",
+      "spaceIds": [
+        "7788fc2b7470f47108d2c5512e6fc93e"
+      ]
+    },
+    {
+      "id": "96dba6345e167486b903f0a504473748",
+      "name": "Confidence summary",
+      "description": "Short summary explaining confidence in an evidence assessment.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "9e4e1813f763488a6d9420f93a2627c7",
+      "name": "Confidence",
+      "description": "AI Music ontology field for confidence; data type decimal or controlled label; cardinality one; publish policy required_for_risky_relations.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "b7c23b00609440ecab489bf065d09bfa",
+      "name": "Medium Confidence Vote Count",
+      "description": "Count of suspicious-vote annotations marked medium confidence in the source data.",
+      "spaceIds": [
+        "7788fc2b7470f47108d2c5512e6fc93e"
+      ]
+    },
+    {
+      "id": "d1a7b81534644045ba37cbf2efc973ee",
+      "name": "Confidence",
+      "description": null,
+      "spaceIds": [
+        "2b77408477aed553da9729faf1ca57e2"
+      ]
+    },
+    {
+      "id": "d21c736598fc58e7d095633be0c1b86b",
+      "name": "Confidence interval",
+      "description": "Confidence interval for an extracted effect when available.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "e5dcd5a47491b146b3c65ea29c3c4e7b",
+      "name": "Confidence reason",
+      "description": "AI Music ontology field for confidence_reason; data type text; cardinality one; publish policy required_when_referenced_or_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMWEwYjY4YzktZmE0Yi01MGU4LWZiMzAtMTM3MGI4NjRkODkxIl1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOWU0ZTE4MTMtZjc2My00ODhhLTZkOTQtMjBmOTNhMjYyN2M3Il1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTVkY2Q1YTQtNzQ5MS1iMTQ2LWIzYzYtNWVhMjljM2M0ZTdiIl1d"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "sourcePdf": "tmp/pdfs/saga-2023.pdf",
+  "sourceSha256": "16f0208e93a27d36fe4aecf9f744caadab5f40901c1a552b3f124230037fdf9c",
+  "pdfPage": 16,
+  "printedPage": 753,
+  "table": 6,
+  "study": 1,
+  "firstStageColumns": ["N","effect","SE"],
+  "firstStage": [
+    {"key":"years","label":"Years of high-dosage tutoring","unit":"years of participation","values":["2633","0.563","0.020"]},
+    {"key":"one-plus","label":"1 or more years of high-dosage tutoring","unit":"proportion difference","values":["2633","0.423","0.014"]},
+    {"key":"two","label":"2 years of high-dosage tutoring","unit":"proportion difference","values":["2633","0.139","0.010"]}
+  ],
+  "outcomeColumns": ["N","controlMean","perYear","perYearSE","perYearQ","persistentBound","persistentBoundSE","persistentBoundQ","twoYearBound","twoYearBoundSE","twoYearBoundQ"],
+  "outcomes": [
+    {"key":"cps-math","label":"CPS math test (study sample Z)","unit":"study-sample standard deviations","values":["1640","0.000","0.228","0.050","0.001","0.305","0.067","0.001","0.835","0.189","0.001"]},
+    {"key":"math-gpa","label":"Math GPA","unit":"GPA points","values":["1841","1.879","0.180","0.065","0.012","0.243","0.088","0.012","0.630","0.230","0.013"]},
+    {"key":"math-failure","label":"Math courses failed","unit":"proportion difference","values":["1841","0.295","-0.080","0.035","0.021","-0.109","0.047","0.021","-0.281","0.123","0.023"]},
+    {"key":"research-math","label":"Research-team administered math test (study sample Z)","unit":"study-sample standard deviations","values":["878","0.000","0.139","0.059","0.021","0.188","0.080","0.021","0.512","0.223","0.023"]}
+  ],
+  "interpretation": "Panel A estimates the effect of original randomized assignment on participation. Panel B's first estimate is a weighted per-year effect; its other two columns are assumption-dependent bounds, not separate independently identified dose effects or confidence limits. Preserve the reported negative sign for course failure; do not interpret a negative number as an ordinary numerical upper endpoint without explaining the beneficial-effect orientation.",
+  "visualReview": "tmp/pdfs/saga-followup-16.png"
+}

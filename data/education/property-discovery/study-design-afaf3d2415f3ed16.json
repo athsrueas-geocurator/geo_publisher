@@ -1,0 +1,47 @@
+{
+  "term": "Study design",
+  "checkedAt": "2026-09-11T21:00:23.997Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "8e46e3eff9dea2b55d32a5ca7de61938",
+      "name": "Study design",
+      "description": "Study design for the source study.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    },
+    {
+      "id": "ac67153a8c3ce68603ca8453b7586dda",
+      "name": "Study design",
+      "description": "Study design category such as meta-analysis, systematic review, randomized controlled trial, observational study, mechanistic study, or anecdote.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "b1fdc75afb6841a18d8286427099ea44",
+      "name": "Study design",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ]
+    },
+    {
+      "id": "e278c93fc5504f0e98b9f9519e739856",
+      "name": "Study design",
+      "description": "Methodology of the trial: randomized, double-blind, open-label",
+      "spaceIds": [
+        "c45e5508572e026a7e78715e113529d1"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTI3OGM5M2YtYzU1MC00ZjBlLTk4YjktZjk1MTllNzM5ODU2Il1d"
+    }
+  ]
+}

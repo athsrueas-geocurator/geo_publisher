@@ -1,0 +1,617 @@
+{
+  "checkedAt": "2026-09-11T22:55:56.295Z",
+  "types": [
+    {
+      "id": "2f3e568ca8cb4d6ea130829c3012648f",
+      "entity": {
+        "name": "Service",
+        "description": "An activity or function delivered by an entity to fulfill a specific need. Unlike a product, it is intangible, consumed at the point of delivery, and cannot be owned or stored.",
+        "types": [
+          {
+            "id": "e7d737c536764c609fa16aa64a8c90ad"
+          }
+        ],
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Service"
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "An activity or function delivered by an entity to fulfill a specific need. Unlike a product, it is intangible, consumed at the point of delivery, and cannot be owned or stored."
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "relationsConnection": {
+        "nodes": [
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "5b722cd361d6494e88871310566437ba",
+            "toEntity": {
+              "name": "Related spaces"
+            }
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "257090341ba5406f94e4d4af90042fba",
+            "toEntity": {
+              "name": "Tags"
+            }
+          },
+          {
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "toEntityId": "2628628524d24c588bcab9ce75b6750f",
+            "toEntity": {
+              "name": "Crypto space Services"
+            }
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "6e3503fab974460ea3dbab8af9a41427",
+            "toEntity": {
+              "name": "Related projects"
+            }
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "806d52bc27e94c9193c057978b093351",
+            "toEntity": {
+              "name": "Topics"
+            }
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+            "toEntity": {
+              "name": "Type"
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "entitiesConnection": {
+        "nodes": [
+          {
+            "id": "00662bba7e5949aab1cade94def8b224",
+            "name": "Consumer applications",
+            "description": "White-label mobile application offering for vehicle connectivity, telemetry, trip tracking, diagnostics, and permission management within the DIMO ecosystem."
+          },
+          {
+            "id": "028379362ab34572844b387ef45415dc",
+            "name": "Hydrogen traceability solution",
+            "description": "Traceability solution for tracking green hydrogen attributes across energy and sustainability workflows."
+          },
+          {
+            "id": "04919ec221f3423aa10ccd7209a9d2cf",
+            "name": "On chain data analytics",
+            "description": null
+          },
+          {
+            "id": "0584e22b175a4f0b92af8420c28e8ca1",
+            "name": "token swaps",
+            "description": null
+          },
+          {
+            "id": "05e58a7a13e2407eab0a854181c89d2d",
+            "name": "Digital content authentication",
+            "description": "Content-authentication service for verifying digital media provenance and integrity through blockchain-backed records."
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": true
+        }
+      }
+    },
+    {
+      "id": "9547f4fb78744de0a9a9fdd7b4c01c0c",
+      "entity": {
+        "name": "Organization",
+        "description": "A structured entity representing any organized group of people operating under a defined mission, legal structure or authority, to pursue shared goals and purposes.",
+        "types": [
+          {
+            "id": "10eb3c89c4254f7b89726f18a6677b36"
+          },
+          {
+            "id": "e7d737c536764c609fa16aa64a8c90ad"
+          },
+          {
+            "id": "e7d737c536764c609fa16aa64a8c90ad"
+          },
+          {
+            "id": "e7d737c536764c609fa16aa64a8c90ad"
+          },
+          {
+            "id": "e7d737c536764c609fa16aa64a8c90ad"
+          }
+        ],
+        "values": {
+          "nodes": [
+            {
+              "propertyId": "a126ca530c8e48d5b88882c734c38935",
+              "text": "Organization"
+            },
+            {
+              "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+              "text": "A structured entity representing any organized group of people operating under a defined mission, legal structure or authority, to pursue shared goals and purposes."
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "relationsConnection": {
+        "nodes": [
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "a09625a4b98448768f0da28a65e47f85",
+            "toEntity": {
+              "name": "Team members"
+            }
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "1155befffad549b7a2e0da4777b8792c",
+            "toEntity": {
+              "name": "Avatar"
+            }
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "0d6259784b3c4b57a86fde45c997c73c",
+            "toEntity": {
+              "name": "X"
+            }
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "eed38e74e67946bf8a42ea3e4f8fb5fb",
+            "toEntity": {
+              "name": "Website"
+            }
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "806d52bc27e94c9193c057978b093351",
+            "toEntity": {
+              "name": "Topics"
+            }
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+            "toEntity": {
+              "name": "Type"
+            }
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "8f5266df11e34c89a0a7b42aecf2bb9c",
+            "toEntity": {
+              "name": "Wikipedia"
+            }
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "acf8ffffe94d470eb1a3e3977727610a",
+            "toEntity": {
+              "name": "Year founded"
+            }
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "257090341ba5406f94e4d4af90042fba",
+            "toEntity": {
+              "name": "Tags"
+            }
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "7f397325170e4e2a8f9be7d3c8715ef6",
+            "toEntity": {
+              "name": "Teams"
+            }
+          },
+          {
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "toEntityId": "cdf139bce610446cac42d57cd7967478",
+            "toEntity": {
+              "name": "LinkedIn"
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "entitiesConnection": {
+        "nodes": [
+          {
+            "id": "000236355526601af3b6295e1b780ec7",
+            "name": "COMMON SENSE MARYLAND",
+            "description": "Donor organization inferred from 1 Corruption Map donation line(s), linked to 1 politician(s)."
+          },
+          {
+            "id": "002101bc0f02d0e95b71b6056c9f8e34",
+            "name": "EMPLOYEES OF RTX CORPORATION POLITICAL ACTION COMMITTEE",
+            "description": "Donor organization inferred from 30 Corruption Map donation line(s), linked to 30 politician(s)."
+          },
+          {
+            "id": "003f6b08e95c0acf494b569a51fd719a",
+            "name": "DEMOCRACY DEFENSE FUND",
+            "description": "Donor organization inferred from 2 Corruption Map donation line(s), linked to 2 politician(s)."
+          },
+          {
+            "id": "007c0d39a4d373b10617076b3baef786",
+            "name": "TEVA PHARMACEUTICALS USA INC. POLITICAL ACTION COMMITTEE (TEVA PAC)",
+            "description": "Donor organization inferred from 1 Corruption Map donation line(s), linked to 1 politician(s)."
+          },
+          {
+            "id": "0088637d126843b9afc87074ea63f444",
+            "name": "Joint Harmonization Initiative",
+            "description": null
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": true
+        }
+      }
+    },
+    {
+      "id": "3ef269bc5f114691abc02dcbf398fd63",
+      "entity": {
+        "name": "Study",
+        "description": "Scientific investigation or publication that addresses a defined research question and reports its design, methods, and findings.",
+        "types": [
+          {
+            "id": "e7d737c536764c609fa16aa64a8c90ad"
+          }
+        ],
+        "values": {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      },
+      "relationsConnection": {
+        "nodes": [],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "entitiesConnection": {
+        "nodes": [
+          {
+            "id": "415914702fcb448a991b05734a84290a",
+            "name": "HighScope Perry Preschool study",
+            "description": "A preschool experiment involving 123 children in Ypsilanti, Michigan during the 1960s. Subsequent reassignment compromised the initial randomization, requiring adjustment in later analyses."
+          },
+          {
+            "id": "d68c6d1d10af47418fc80ed09d4e097f",
+            "name": "Tennessee Project STAR",
+            "description": "A Tennessee experiment that randomly assigned students and teachers within schools to small classes, regular classes, or regular classes with full-time aides."
+          },
+          {
+            "id": "d87bc8f30fb84b5fa660f98d1e770c78",
+            "name": "Reading First Impact Study (2008 final report)",
+            "description": "An evaluation of early-reading grants using regression discontinuity in 17 sites and group random assignment in one site."
+          },
+          {
+            "id": "db495f402635466dbf63e71f970c67c2",
+            "name": "School-finance reform and adult outcomes study (Jackson, Johnson and Persico)",
+            "description": "A U.S. study linking childhood school spending and court-mandated finance reforms to adult outcomes. Event-study and instrumental-variable analyses use differences in exposure across birth cohorts and districts."
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    }
+  ],
+  "properties": [
+    {
+      "id": "261fad421cc744938acbaa4a4c74220c",
+      "property": {
+        "dataTypeName": "Relation"
+      },
+      "entity": {
+        "name": "Providers",
+        "description": "Those who supply a product or service."
+      },
+      "relationsConnection": {
+        "nodes": [
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "type": {
+              "name": "Data type"
+            },
+            "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+            "toEntity": {
+              "name": "Relation"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "typeId": "f394b9b4420d4ab4bceb81ded11df4d5",
+            "type": {
+              "name": "Relation entity types"
+            },
+            "toEntityId": "484a18c5030a499cb0f2ef588ff16d50",
+            "toEntity": {
+              "name": "Project"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "type": {
+              "name": "Types"
+            },
+            "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+            "toEntity": {
+              "name": "Property"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "7a1f6d017895206e84e1988c0c74621e",
+      "property": {
+        "dataTypeName": "Text"
+      },
+      "entity": {
+        "name": "Population summary",
+        "description": "Short text describing the population to which evidence applies."
+      },
+      "relationsConnection": {
+        "nodes": [
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "type": {
+              "name": "Types"
+            },
+            "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+            "toEntity": {
+              "name": "Property"
+            },
+            "spaceId": "5c7851580401d2548e4f948d724b8794"
+          },
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "type": {
+              "name": "Data type"
+            },
+            "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+            "toEntity": {
+              "name": "Text"
+            },
+            "spaceId": "5c7851580401d2548e4f948d724b8794"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "id": "8e46e3eff9dea2b55d32a5ca7de61938",
+      "property": {
+        "dataTypeName": "Text"
+      },
+      "entity": {
+        "name": "Study design",
+        "description": "Study design for the source study."
+      },
+      "relationsConnection": {
+        "nodes": [
+          {
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "type": {
+              "name": "Types"
+            },
+            "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+            "toEntity": {
+              "name": "Property"
+            },
+            "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+          },
+          {
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "type": {
+              "name": "Data type"
+            },
+            "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+            "toEntity": {
+              "name": "Text"
+            },
+            "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    }
+  ],
+  "aliases": [
+    {
+      "text": "Saga Education",
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ],
+      "nodes": [],
+      "complete": true
+    },
+    {
+      "text": "SAGA Innovations",
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ],
+      "nodes": [],
+      "complete": true
+    }
+  ],
+  "providerExamples": {
+    "relationsConnection": {
+      "nodes": [
+        {
+          "fromEntity": {
+            "id": "225b92fed057436a9396a117fcd83c40",
+            "name": "MIMIC-IV ICU dataset",
+            "types": [
+              {
+                "id": "0c4babfb43893486af827341bbf32e09",
+                "name": "Dataset"
+              }
+            ]
+          },
+          "toEntity": {
+            "id": "3cd9cb12210d4a899402ce870e629e1d",
+            "name": "PhsysioNet",
+            "types": [
+              {
+                "id": "b9a456d44ee44f418f9cca322871cafa",
+                "name": "Project"
+              }
+            ]
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "fromEntity": {
+            "id": "dc52ceba19424786acf4559d41a054d8",
+            "name": "OpenClaw getting started",
+            "types": [
+              {
+                "id": "ae724b5687254a098d7ea542bc587ebd",
+                "name": "Course"
+              }
+            ]
+          },
+          "toEntity": {
+            "id": "f24d7ee339484963976ff6480efd765b",
+            "name": "OpenClaw project",
+            "types": [
+              {
+                "id": "484a18c5030a499cb0f2ef588ff16d50",
+                "name": "Project"
+              },
+              {
+                "id": "fa464fe0c27b4d54bbac4caa20ca7781",
+                "name": "Tool"
+              }
+            ]
+          },
+          "spaceId": "41e851610e13a19441c4d980f2f2ce6b"
+        },
+        {
+          "fromEntity": {
+            "id": "761352a0e4534925864d964676456961",
+            "name": "UK Biobank imaging dataset",
+            "types": [
+              {
+                "id": "0c4babfb43893486af827341bbf32e09",
+                "name": "Dataset"
+              }
+            ]
+          },
+          "toEntity": {
+            "id": "dae88f90410c4fe7a011ff9024620bd7",
+            "name": "UK Biobank",
+            "types": [
+              {
+                "id": "b9a456d44ee44f418f9cca322871cafa",
+                "name": "Project"
+              }
+            ]
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "fromEntity": {
+            "id": "749f84b066d74f53be213aa6a110ed6d",
+            "name": "CDC WONDER mortality dataset",
+            "types": [
+              {
+                "id": "0c4babfb43893486af827341bbf32e09",
+                "name": "Dataset"
+              }
+            ]
+          },
+          "toEntity": {
+            "id": "e0234a5f3983468cb32486b6ac7b1204",
+            "name": "CDC",
+            "types": [
+              {
+                "id": "484a18c5030a499cb0f2ef588ff16d50",
+                "name": "Project"
+              }
+            ]
+          },
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "fromEntity": {
+            "id": "951a3991705a453a96fdf3a8a78d41b0",
+            "name": "Microsoft generative AI for beginners",
+            "types": [
+              {
+                "id": "ae724b5687254a098d7ea542bc587ebd",
+                "name": "Course"
+              }
+            ]
+          },
+          "toEntity": {
+            "id": "c8dd24baf4ae40949d7e52b3fbc5b64b",
+            "name": "Microsoft",
+            "types": [
+              {
+                "id": "484a18c5030a499cb0f2ef588ff16d50",
+                "name": "Project"
+              },
+              {
+                "id": "484a18c5030a499cb0f2ef588ff16d50",
+                "name": "Project"
+              },
+              {
+                "id": "484a18c5030a499cb0f2ef588ff16d50",
+                "name": "Project"
+              },
+              {
+                "id": "e059a29e6f6b437bbc15c7983d078c0d",
+                "name": "Company"
+              },
+              {
+                "id": "e059a29e6f6b437bbc15c7983d078c0d",
+                "name": "Company"
+              }
+            ]
+          },
+          "spaceId": "7aed0e58f713f656e2933f7635f08e62"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": true
+      }
+    }
+  }
+}

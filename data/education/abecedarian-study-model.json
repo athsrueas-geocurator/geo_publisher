@@ -1,0 +1,37 @@
+{
+  "sourceArticleId":"ca413140fa584837a21c9eefc76e15c3",
+  "sourceUrl":"https://pmc.ncbi.nlm.nih.gov/articles/PMC7331936/",
+  "sourceSection":"2. ABC/CARE: Background",
+  "studyType":"3ef269bc5f114691abc02dcbf398fd63",
+  "locationId":"680ba16493aaf450f3ceca22b11d2cf1",
+  "locationSourceSpace":"84a679ce188f061ac9a92380bac2bab5",
+  "locationIdentity":"Chapel Hill, North Carolina, United States; reject the same-name Queensland and Tennessee entities",
+  "randomizedDesignId":"ad9f48f68b804ddd9f9e8ffa5869ef02",
+  "designProperty":"b1fdc75afb6841a18d8286427099ea44",
+  "studies":[
+    {
+      "key":"study/abc",
+      "name":"Carolina Abecedarian Project trial",
+      "description":"An early-childhood randomized study in Chapel Hill, North Carolina, recruiting four cohorts born in 1972–1976. Its first phase evaluated enriched center-based childcare through age five.",
+      "birthCohortYears":[1972,1976],
+      "initialFamilies":120,
+      "reportedStudySubjects":114,
+      "reportedTreatmentSubjects":58,
+      "reportedControlSubjects":56,
+      "scope":"These are source-reported recruitment/study counts, not outcome-specific sample sizes. School-age treatment used a separate randomization and must not be conflated with the early-childhood assignment."
+    },
+    {
+      "key":"study/care",
+      "name":"Carolina Approach to Responsive Education trial",
+      "description":"An early-childhood randomized study in Chapel Hill, North Carolina, recruiting two cohorts born in 1978–1980. Its initial arms included center-based childcare, family education and control conditions.",
+      "birthCohortYears":[1978,1980],
+      "initialFamilies":65,
+      "reportedCenterBasedFamilies":17,
+      "reportedFamilyEducationFamilies":25,
+      "reportedControlFamilies":23,
+      "scope":"The life-cycle economic paper pools the center-based arm with ABC, excluding CARE's home-visiting-only arm. The full trial is distinct from the analysis subset; do not assign all 65 families to that pooled sample."
+    }
+  ],
+  "analysisScope":"Pooled first-phase ABC and CARE center-based treatment versus their randomized controls; not an independent third trial. Control children could attend alternative formal childcare.",
+  "publicationStatus":"Prepared; live type/location/design validation and submission pending"
+}

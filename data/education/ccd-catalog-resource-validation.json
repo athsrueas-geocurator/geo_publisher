@@ -1,0 +1,18 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T08:26:22.660Z",
+  "opsHash": "db9702a2ce7317e35f0706aaf88b5e0ac69a778e90df28115954e67acce6b154",
+  "checks": [
+    "Schema 8f151ba4de204e3c9cb499ddf96f48f1",
+    "Schema 412ff593e9154012a43d4c27ec5c68b6",
+    "Complete all-space substring discovery has no candidate: Common Core of Data",
+    "Complete all-space substring discovery has no candidate: Public School Universe"
+  ],
+  "source": {
+    "catalogKey": "ccd-public-school-directory",
+    "sourcePath": "Education-Initiatives/research-data/dataset-catalog.json",
+    "officialUrl": "https://nces.ed.gov/ccd/pubschuniv.asp",
+    "accessMethod": "Primary bulk files; optional Urban Institute API mirror for bounded extracts"
+  },
+  "scope": "Catalog metadata only. No raw CCD data, derived outcome, causal claim, initiative effect, or unsupported initiative relation is published."
+}

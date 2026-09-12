@@ -1,0 +1,21 @@
+{
+  "name": "Add EWIMS randomized evaluation and first-year outcomes",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/ewims-ops.json",
+  "sha256": "7afbb4a59e7bd42bbe5475b8b3675c3912781ae01814107fd26a3c9763e7e503",
+  "journalPath": "data/education/ewims-publication.json",
+  "validationPath": "data/education/ewims-validation.json",
+  "entities": {
+    "article": "f13bc8619a934875b46f6ca296454dd5",
+    "initiative": "0728c2e68dcc4d7fa50a0dd61b787cae",
+    "findings": {
+      "design": "daee2a0143c8424e947db9ca08cc8981",
+      "chronic-absence": "c9d827735fb947d398092dbf5459b90b",
+      "course-failure": "85466d6690f1484c88d5faa727353823",
+      "credits": "0de12708d651452abdc2dabbfd9be21b",
+      "implementation": "5c3e095b65194d1fb896ea0e75b33367"
+    }
+  },
+  "operationCount": 26
+}

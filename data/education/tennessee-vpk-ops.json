@@ -1,0 +1,553 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "732cfa110f25499ba22a3f8025c9f903"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Effects of the Tennessee Prekindergarten Program on children’s achievement and behavior through third grade",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A 2018 open-access report of Tennessee’s statewide randomized voluntary pre-K evaluation through third grade.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.1016/j.ecresq.2018.03.005",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://cdn.vanderbilt.edu/vu-my/wp-content/uploads/sites/1147/2018/11/14112745/LipseyFarranDurkin_2018ECRQ.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8a0178fd11334dab91c299bbe4fefcd9"
+    },
+    "entity": {
+      "$bytes": "3c1a1960d46e4855a55fa1fcba70cc8f"
+    },
+    "from": {
+      "$bytes": "732cfa110f25499ba22a3f8025c9f903"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09h4"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4384e208b2964c6c9432823574a5a1e2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Tennessee Voluntary Pre-K Program",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Tennessee’s state-funded voluntary pre-K program for eligible children. The linked randomized evaluation concerns oversubscribed sites and its study-period comparison conditions.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://cdn.vanderbilt.edu/vu-my/wp-content/uploads/sites/1147/2018/11/14112745/LipseyFarranDurkin_2018ECRQ.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dc7d7b912b8d492a9916ee9e83c1a135"
+    },
+    "entity": {
+      "$bytes": "396e9005e51248f2865495a33aace820"
+    },
+    "from": {
+      "$bytes": "4384e208b2964c6c9432823574a5a1e2"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03ZA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2eff4129f7e7454286a723cff5b316d8"
+    },
+    "entity": {
+      "$bytes": "1cd83465725840edb9e510a3d953dddf"
+    },
+    "from": {
+      "$bytes": "4384e208b2964c6c9432823574a5a1e2"
+    },
+    "to": {
+      "$bytes": "732cfa110f25499ba22a3f8025c9f903"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0745"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c0362f05a37d4594b190f6ce04869951"
+    },
+    "entity": {
+      "$bytes": "79ad60f1e03c46f0bf212aafcb1311e3"
+    },
+    "from": {
+      "$bytes": "4384e208b2964c6c9432823574a5a1e2"
+    },
+    "to": {
+      "$bytes": "732cfa110f25499ba22a3f8025c9f903"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02cF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9031dcc04e4c408aabac97e03d22e07c"
+    },
+    "entity": {
+      "$bytes": "9cceadef5c7d4569808420082e1fb3a0"
+    },
+    "from": {
+      "$bytes": "4384e208b2964c6c9432823574a5a1e2"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a09p6"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4fbfa11f56634a2a9206e79db9dc1d6a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The Tennessee Voluntary Pre-K evaluation randomly assigned 2,990 low-income applicants to receive admission offers or remain on a waiting list.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "State education records followed the full randomized sample from pre-K through third grade; an additional consented subsample had 1,076 children. This is a waiting-list offer comparison in Tennessee, not a result for every public pre-K model.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "902355b2fd3b4ab5a2578d814f11bce3"
+    },
+    "entity": {
+      "$bytes": "b32468c9a07c4f5e8a570f7672ca81f3"
+    },
+    "from": {
+      "$bytes": "4fbfa11f56634a2a9206e79db9dc1d6a"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AkD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "546c39147c5b4dfa8c1bc2e6d0d07186"
+    },
+    "entity": {
+      "$bytes": "d651026e588a4aa48bb4106fffe4aa19"
+    },
+    "from": {
+      "$bytes": "4fbfa11f56634a2a9206e79db9dc1d6a"
+    },
+    "to": {
+      "$bytes": "732cfa110f25499ba22a3f8025c9f903"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09Xp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9359d8b44a6f438ebc58d2238b59209e"
+    },
+    "entity": {
+      "$bytes": "dcf0877b14ea42c4a2ba4f631f3fc17b"
+    },
+    "from": {
+      "$bytes": "4fbfa11f56634a2a9206e79db9dc1d6a"
+    },
+    "to": {
+      "$bytes": "4384e208b2964c6c9432823574a5a1e2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02x6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "15955d0eea7c408bb0152b5e93943a56"
+    },
+    "entity": {
+      "$bytes": "fac358bdad434bb2bed2c05245fc38ed"
+    },
+    "from": {
+      "$bytes": "4fbfa11f56634a2a9206e79db9dc1d6a"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a0Bt1"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3356d0eba4e54eeeab1db7a8d9691077"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "In the Tennessee Voluntary Pre-K trial, children offered pre-K did not perform as well as controls on third-grade state achievement tests.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The paper reports early test advantages at the end of pre-K, then control-group catch-up in kindergarten and later grades. This outcome does not establish effects on unmeasured later-life outcomes or every achievement instrument.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "83bc631d9214416880b9ebf5526a120d"
+    },
+    "entity": {
+      "$bytes": "9da0bf2dc4d84cbd80a911913f997195"
+    },
+    "from": {
+      "$bytes": "3356d0eba4e54eeeab1db7a8d9691077"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a006k"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "da1b9e392ef24eaa81a4457cdc745fc8"
+    },
+    "entity": {
+      "$bytes": "b57aae18fcd64d4ea4097d894b0deb5a"
+    },
+    "from": {
+      "$bytes": "3356d0eba4e54eeeab1db7a8d9691077"
+    },
+    "to": {
+      "$bytes": "732cfa110f25499ba22a3f8025c9f903"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a00Ns"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e577c554ec5b4a9e9a766d0c60fe310f"
+    },
+    "entity": {
+      "$bytes": "6097847266914610bd52d1c502dc4ccd"
+    },
+    "from": {
+      "$bytes": "3356d0eba4e54eeeab1db7a8d9691077"
+    },
+    "to": {
+      "$bytes": "4384e208b2964c6c9432823574a5a1e2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0ANp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "20414d2484064c0182097f84155e4ff6"
+    },
+    "entity": {
+      "$bytes": "d8e10a6b9191475687ce040d1eb45610"
+    },
+    "from": {
+      "$bytes": "3356d0eba4e54eeeab1db7a8d9691077"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a0Beq"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3b87b7c104cb44a6b82e8db91c163dc9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "In the Tennessee Voluntary Pre-K trial, teacher behavior ratings showed no overall group advantage, while later school records included more rule violations and persistent special-education designations for pre-K participants.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The article reports heterogeneous results, including some favorable effects for male and Black children on selected ratings and attendance. These school-record patterns do not identify the mechanism or generalize automatically beyond the evaluated program.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f289e8d1babd47eda43245540dd553b7"
+    },
+    "entity": {
+      "$bytes": "dac85754d94a413e837ec942775da1c8"
+    },
+    "from": {
+      "$bytes": "3b87b7c104cb44a6b82e8db91c163dc9"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04eh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "96b8bcdacb934a0b8507b5b68f2d1aab"
+    },
+    "entity": {
+      "$bytes": "b7ac128690d141499f921f4e8e259ddf"
+    },
+    "from": {
+      "$bytes": "3b87b7c104cb44a6b82e8db91c163dc9"
+    },
+    "to": {
+      "$bytes": "732cfa110f25499ba22a3f8025c9f903"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03tA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "808244fdd7ab4ff2b652c85b07fd3e1e"
+    },
+    "entity": {
+      "$bytes": "bf2a5cfe37064a1cbc1d31221f2eb8eb"
+    },
+    "from": {
+      "$bytes": "3b87b7c104cb44a6b82e8db91c163dc9"
+    },
+    "to": {
+      "$bytes": "4384e208b2964c6c9432823574a5a1e2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08a3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6e6f98ca54474542a7cb90391edb9554"
+    },
+    "entity": {
+      "$bytes": "e078785e365d45fcab22c1efe74842bc"
+    },
+    "from": {
+      "$bytes": "3b87b7c104cb44a6b82e8db91c163dc9"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a02HE"
+  }
+]

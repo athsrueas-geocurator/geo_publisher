@@ -1,0 +1,113 @@
+{
+  "name": "Organize existing Head Start impact findings and complete ITT labels",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/head-start-collection-ops.json",
+  "sha256": "482457fa769e10b2c4bb734f4e0b1f39971cdf0a80b5fdad88eed09324813980",
+  "journalPath": "data/education/head-start-collection-publication.json",
+  "validationPath": "data/education/head-start-collection-validation.json",
+  "datasetId": "bde747c9dd7b4b34a4115b1f2cf0b468",
+  "groups": [
+    {
+      "key": "initial",
+      "blockId": "0e5090dfd1c040ba8064cd725bc48cd3",
+      "memberIds": [
+        "ccb338ae58a44f3e81541f9cb958fcb3",
+        "c94ca8e97b2a40f297ffbe86db191a07",
+        "5f893830d2a249c29143f904fe4882eb",
+        "82668a2ddf8646c59a81cee556974d0d"
+      ]
+    },
+    {
+      "key": "followup",
+      "blockId": "a28c0bc735144f83822c2d64bef585f9",
+      "memberIds": [
+        "68b02f7a1980436e9bdb6fd908278a5c",
+        "c7ede29bb16543889aee96049231a4c6",
+        "3dd5519b7eae4a6ea1f6b708e20829f1",
+        "738352627e694053ae6d7384d7293d01"
+      ]
+    },
+    {
+      "key": "cognitive-four",
+      "blockId": "0c714209bd454917a483ba5cfea835c8",
+      "memberIds": [
+        "e2fd2a1b244d4102bafebbb8981780c7",
+        "5c82c782947c47028a47400e16702870",
+        "5b02e1f4ded1472e824dc4ec72d3a772",
+        "077db384eb6c44ffa603cdb1df6babca",
+        "abe06302835b40b191d09c50ecc0527d"
+      ]
+    },
+    {
+      "key": "cognitive-three",
+      "blockId": "22d47abb4dd3427da03823483c136c8e",
+      "memberIds": [
+        "5a9bcb3bcefe4ba7aca2d65a34b40268",
+        "63f6ee056e884f9e98a9695740af5b30",
+        "88b7f88424de4eefa20b5a53fede323f",
+        "6878e89ead3840bea0fc42003d648ebc",
+        "32fd5b7fd71748ddbfaf66c26dfba396"
+      ]
+    },
+    {
+      "key": "other-itt",
+      "blockId": "545bc7a2c33f486c8180df2c8d83953c",
+      "memberIds": [
+        "a185b84516a340beb6ca1d2308780ee7",
+        "bc2089feb5a448eeafa9a7c95f7a4dd0",
+        "7c9180da2b3c4d698ed196db8423d943",
+        "e6bcb5c29ea74e5e93cfcb550fb9b127",
+        "641abfc8e0dd457792906643e2989850",
+        "92f33511b5b84541be7ac3f6ec699338",
+        "c33e113e99dc4f6883a47d67d0842c35",
+        "f2fde6171f684e5688bad62638d5fb23",
+        "af2d8b40901042e9a3d1b9b0fb54c459"
+      ]
+    },
+    {
+      "key": "iot",
+      "blockId": "e5e6c5df9ed145bdb8b7daf06e2f73bb",
+      "memberIds": [
+        "2355c47904614503b2c107b6fcb5475a",
+        "e106644ea9c3493eaff5d9202472427a",
+        "854919bb6d1e43a7a279a5e1e126204f",
+        "d861591f27be4d0c9432632f12dfdc0b",
+        "406a5d2ea1f44b128f3610c8fbd872e1",
+        "f157c7f622a14502a871b6840a3b1c2b",
+        "5d104e15b60f4aa6a7270551984129ad",
+        "d95d03698ee947e692bf84aa2f181371",
+        "931014fa9a4841c183a964ef3f85f2e4",
+        "e6708fe654214deaab1e20664f3f8ded"
+      ]
+    }
+  ],
+  "estimandAdditions": [
+    "077db384eb6c44ffa603cdb1df6babca",
+    "5b02e1f4ded1472e824dc4ec72d3a772",
+    "a185b84516a340beb6ca1d2308780ee7",
+    "32fd5b7fd71748ddbfaf66c26dfba396",
+    "5c82c782947c47028a47400e16702870",
+    "bc2089feb5a448eeafa9a7c95f7a4dd0",
+    "88b7f88424de4eefa20b5a53fede323f",
+    "641abfc8e0dd457792906643e2989850",
+    "63f6ee056e884f9e98a9695740af5b30",
+    "6878e89ead3840bea0fc42003d648ebc",
+    "e2fd2a1b244d4102bafebbb8981780c7",
+    "c33e113e99dc4f6883a47d67d0842c35",
+    "5a9bcb3bcefe4ba7aca2d65a34b40268",
+    "abe06302835b40b191d09c50ecc0527d"
+  ],
+  "excludedArchiveClaim": "b63ab84606664cbfae0bd503922beff9",
+  "operationCount": 107,
+  "unitCorrections": [
+    {
+      "id": "c33e113e99dc4f6883a47d67d0842c35",
+      "unit": "Regression-adjusted teacher-reported probability difference (fraction scale), ITT, for the normal emotional-symptoms category at third grade; 4-year-old cohort; lower is less favorable."
+    },
+    {
+      "id": "406a5d2ea1f44b128f3610c8fbd872e1",
+      "unit": "Regression-adjusted teacher-reported probability difference (fraction scale), treatment on the treated (IOT), for the normal emotional-symptoms category at third grade; 4-year-old cohort; lower is less favorable."
+    }
+  ]
+}

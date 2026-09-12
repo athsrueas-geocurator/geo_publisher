@@ -1,0 +1,103 @@
+{
+  "term": "education level",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T19:21:40.207Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "0e10225f9329474ba2fbb1417d88eeca",
+      "name": "Education levels",
+      "description": null,
+      "spaceIds": [
+        "4582fbbee28a16589154f7e36f1ee3c5"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    },
+    {
+      "id": "425305215c6a4f858b206a77332e748b",
+      "name": "The Gallup poll found no significant difference in opinion on data centers based on political party, age, race, or education level.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "51325667ea3846878a6ba7672906d9dd",
+      "name": "Societal divisions are often based on wealth, religion, race, and education level.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "6b7639c220bc44fbac6ed5fa18810f0a",
+      "name": "The growing alignment on economic issues across education levels",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    },
+    {
+      "id": "7668dc8bc6fa49ce9e9ada01d328b1a1",
+      "name": "Government tracks divorce statistics through marriage dissolution certificates that include details about children and education levels.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "e4852c5cd6314024809ec46d90f7f48c",
+      "name": "Kristie Metcalfe's goal was for legislation to be understandable to a regular person, regardless of their education level.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNzY2OGRjOGItYzZmYS00OWNlLTllOWEtZGEwMWQzMjhiMWExIl1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTQ4NTJjNWMtZDYzMS00MDI0LTgwOWUtYzQ2ZDkwZjdmNDhjIl1d"
+    }
+  ]
+}

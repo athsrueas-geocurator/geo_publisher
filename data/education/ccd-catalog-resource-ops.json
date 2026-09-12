@@ -1,0 +1,66 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6bf3954ea2814e1db6f84bedbdba599c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Common Core of Data (CCD) Public School and LEA Universe",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "NCES’s annual public directory of U.S. public schools and local education agencies. It supplies identifiers and descriptive context; it does not estimate program effects.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://nces.ed.gov/ccd/pubschuniv.asp",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9daeade04e5a4288b186f8b2f4f38500"
+    },
+    "entity": {
+      "$bytes": "2c19ad99b0104f71904c48b6aa4b77a3"
+    },
+    "from": {
+      "$bytes": "6bf3954ea2814e1db6f84bedbdba599c"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01Jw"
+  }
+]

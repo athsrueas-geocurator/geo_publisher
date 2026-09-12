@@ -1,0 +1,43 @@
+{
+  "term": "No Child Left Behind",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-12T03:33:55.692Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "177d02fcef094ea488c1ec34f2146128",
+      "name": "President George W. Bush's \"No Child Left Behind\" act emphasized preparing more children for college.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "751736325de24455ad2cb15f3837e6d8",
+      "name": "Melissa Murray observed that younger generations, educated post-No Child Left Behind, had a limited understanding of American government.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNzUxNzM2MzItNWRlMi00NDU1LWFkMmMtYjE1ZjM4MzdlNmQ4Il1d"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "status": "pilot model; full program, implementation and measurement-concept mapping remains pending",
+  "datasetName": "Reading First: achievement and implementation impacts (Gamse et al., 2008)",
+  "datasetDescription": "Estimated effects of a US early-reading grant program on achievement, classroom instruction and implementation. Results distinguish measured learning outcomes from observed practices and self-reported delivery.",
+  "studyName": "Reading First Impact Study (2008 final report)",
+  "studyType": "3ef269bc5f114691abc02dcbf398fd63",
+  "countryId": "0093d90725d94cb08903515673538d40",
+  "pValueProperty": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+  "studyDesignProperty": "8e46e3eff9dea2b55d32a5ca7de61938",
+  "outcomeMeasureProperty": "0e1320cbf9b3b4f5fe066780d1803b13",
+  "reuseSourceSpace": "03f7a1efafaeecaeae31a3b38fe9e446",
+  "newProperties": [
+    {"key":"ciLower","name":"Confidence interval lower bound","description":"Lower endpoint of a confidence interval for the estimate on this record, in the estimate's stated unit."},
+    {"key":"ciUpper","name":"Confidence interval upper bound","description":"Upper endpoint of a confidence interval for the estimate on this record, in the estimate's stated unit."},
+    {"key":"ciLevel","name":"Confidence interval level","description":"Confidence level expressed as a fraction, such as 0.95 for a 95% interval."}
+  ],
+  "arms": [
+    {"key":"funded","name":"Reading First funded schools (RFIS)","description":"Schools receiving Reading First funding in the impact study. Grant allocation used regression-discontinuity rules in 17 sites and random assignment in one site."},
+    {"key":"comparison","name":"Reading First unfunded comparison schools (RFIS)","description":"Schools without Reading First funding used to estimate the study's counterfactual. Their observed means are distinct from the report's adjusted estimates of outcomes without funding."}
+  ],
+  "pilotKey": "sat10-score-g1",
+  "pilotRepresentation": "native",
+  "pilotName": "Reading First grade 1 comprehension impact: SAT 10 points (2005-2007)",
+  "pilotDescription": "Adjusted reading-comprehension impact pooled across three spring assessments. The confidence interval includes zero; the estimate is not evidence of exactly no effect.",
+  "tableName": "Student achievement: reported impact and uncertainty",
+  "identityDecision": "Reading First, ReadingFirst, RFIS and report-number/name/URL probes found no matching study, program or source. RFIS substring results concern starfish and unrelated subjects. New confidence bounds are needed because existing confidence-interval fields are Text; existing lower/upper bounds describe cost ranges or biochemical flux. Name searches are complete within the documented query scope, not proof against every possible alias.",
+  "displayRules": [
+    "Descriptions stay within two concise sentences; methods, coverage and cautions use Markdown blocks.",
+    "Effect, SE and CI bounds retain numeric values with explicit units; no global percent format on mixed-unit properties.",
+    "Confidence level uses the verified fraction-to-percent Format metadata.",
+    "P value uses the existing Text property to retain exact reported operators and decimal precision.",
+    "Do not label the study RCT-only or claim the 248 schools are the student sample size.",
+    "A raw effect and its standardized representation share one contrast and must remain linked; publishing the pilot alone does not establish those pair links."
+  ]
+}

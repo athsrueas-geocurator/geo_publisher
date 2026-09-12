@@ -1,0 +1,43 @@
+{
+  "term": "Publication year",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:29:38.692Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "0e281b911118e64e953f6e6b2cf9c939",
+      "name": "Publication year",
+      "description": "AI Music ontology field for publication_year; data type INTEGER.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "68b0e0bd492d4f24b03e921cfd061182",
+      "name": "Publication year",
+      "description": null,
+      "spaceIds": [
+        "19f11bc6f1a62ac434936af814d1f8b5"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNjhiMGUwYmQtNDkyZC00ZjI0LWIwM2UtOTIxY2ZkMDYxMTgyIl1d"
+    }
+  ]
+}

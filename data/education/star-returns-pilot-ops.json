@@ -1,0 +1,399 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "396f8c72dfd04b5791ea09c1b9321b2f"
+        },
+        "value": {
+          "type": "text",
+          "value": "group-off precision-integer",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8676d367bcf14892944f14a22d273053"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled real returns by wage-growth assumption",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0b312696975b41eda9ab5a5e387f8f8a"
+    },
+    "entity": {
+      "$bytes": "44094a0c30ee49f8bcc19b620c749a2b"
+    },
+    "from": {
+      "$bytes": "8676d367bcf14892944f14a22d273053"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07kk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dde95fe47af440bcb250aef6f3613fd0"
+    },
+    "entity": {
+      "$bytes": "52f38361a23f49fc9e7857ed4c6c3756"
+    },
+    "from": {
+      "$bytes": "8676d367bcf14892944f14a22d273053"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a05ch"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9109016ac5db4ea69007f8bb39b93068"
+    },
+    "entity": {
+      "$bytes": "22862e8afeee443bb0fbb413724b260b"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "8676d367bcf14892944f14a22d273053"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0p6k"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a0f5a00c052e4706a78e7b8d6280d988"
+    },
+    "entity": {
+      "$bytes": "e25bbd3f523b462b8539a5edcc641bbd"
+    },
+    "from": {
+      "$bytes": "22862e8afeee443bb0fbb413724b260b"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a02tE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7f342168ee8f4b1eaa39fd42937ea59c"
+    },
+    "entity": {
+      "$bytes": "4624502ad65a4e31a7143b7b9366141b"
+    },
+    "from": {
+      "$bytes": "22862e8afeee443bb0fbb413724b260b"
+    },
+    "to": {
+      "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eed7d7bcfaf844f39f437c97b3aaba69"
+    },
+    "entity": {
+      "$bytes": "949de744521f485189696904e79b613c"
+    },
+    "from": {
+      "$bytes": "22862e8afeee443bb0fbb413724b260b"
+    },
+    "to": {
+      "$bytes": "879d207046024b44be6e3d64c32c60da"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "733358b678e14fe5bbe3caab1abacd2b"
+    },
+    "entity": {
+      "$bytes": "5b92079c6b0b42d9b1d0e180b0e99398"
+    },
+    "from": {
+      "$bytes": "22862e8afeee443bb0fbb413724b260b"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "edc7888ea51a4296a0ce111aa46ad488"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Interpreting the return estimates\n\nThese are modeled annual real internal rates of return for US kindergarten entrants in 1998, not observed investment returns or independent studies. The rate equates discounted modeled class-size costs with projected earnings benefits over ages 18–65.\n\nThe three rows vary annual real wage growth. They share the economic model and assumptions described below; they are not confidence bounds. Rates are dimensionless and do not require a currency symbol.\n\nSource: [Economic Considerations and Class Size](https://classsizematters.org/wp-content/uploads/2011/04/economic-considerations-and-class-size.pdf), Table 5, F56 (PDF page 23), Internal Rate of Return row; methods Section 2.2, F54–F58; equations 4–6.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2fdbef4016ad40968aa1fe0cb88703d8"
+    },
+    "entity": {
+      "$bytes": "73b5431e8e1645efa611413f290413a6"
+    },
+    "from": {
+      "$bytes": "edc7888ea51a4296a0ce111aa46ad488"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03dl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a0801f2c1d364ffea93db41bc1f02fb4"
+    },
+    "entity": {
+      "$bytes": "d9e0e8648ebb4b6f932ff13ff2ae0460"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "edc7888ea51a4296a0ce111aa46ad488"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0y9sBPM"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3e69566289c14f80b6fb19a84a0300e4"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR modeled real return: 0% annual wage growth",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled annual real internal rate of return on early-grade class-size reduction. Interpret it with the wage-growth assumption and the shared economic-model limitations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "0"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "879d207046024b44be6e3d64c32c60da"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "52"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23); Internal Rate of Return row",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4a3173e4e7034cf6b2e2b25563d6e59a"
+    },
+    "entity": {
+      "$bytes": "eb68c695de744c78b4b3ccc49bdbed6a"
+    },
+    "from": {
+      "$bytes": "3e69566289c14f80b6fb19a84a0300e4"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01ie"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7b8620ac356f4bd6ac4914884d5e9e0c"
+    },
+    "entity": {
+      "$bytes": "6930c8cb7a8c4a0699349fa6ca4ca6b6"
+    },
+    "from": {
+      "$bytes": "3e69566289c14f80b6fb19a84a0300e4"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06Yc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3d0643cf649f49fab05a8a20006ef520"
+    },
+    "entity": {
+      "$bytes": "9f465253f7e04bc8b79049d07a2e3875"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "3e69566289c14f80b6fb19a84a0300e4"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a08L5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4668f86321084727a44fdff43dcc6581"
+    },
+    "entity": {
+      "$bytes": "23caf28bdc4a443191b71e90e5fcbbdf"
+    },
+    "from": {
+      "$bytes": "8676d367bcf14892944f14a22d273053"
+    },
+    "to": {
+      "$bytes": "3e69566289c14f80b6fb19a84a0300e4"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "term": "Randomized controlled trial",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:40:05.927Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "82853715d57840fb93f79036e8acdad4",
+      "name": "Randomized controlled trial",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "07d23153ead146268af89189abe0b6f3",
+          "name": "Study category"
+        }
+      ]
+    },
+    {
+      "id": "ad9f48f68b804ddd9f9e8ffa5869ef02",
+      "name": "Randomized controlled trial",
+      "description": "Experimental study design in which participants are randomly assigned to intervention or control conditions, considered the gold standard for establishing causal relationships in health research.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546",
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "1206e244cf314218b8519a07321337d7",
+          "name": "Evidence"
+        },
+        {
+          "id": "1206e244cf314218b8519a07321337d7",
+          "name": "Evidence"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYWQ5ZjQ4ZjYtOGI4MC00ZGRkLTlmOWUtOGZmYTU4NjllZjAyIl1d"
+    }
+  ]
+}

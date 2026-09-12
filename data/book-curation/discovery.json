@@ -1,0 +1,1482 @@
+{
+  "checkedAt": "2026-09-11T21:23:35.454Z",
+  "scope": "Read-only personal/profile and Books identity/schema inspection",
+  "sdk": {
+    "pageType": "480e3fc267f3499385fbacdf4ddeaa6b"
+  },
+  "entities": {
+    "profile": {
+      "id": "a525e625551246c58965df8e286b0414",
+      "name": "Thomas Freestone",
+      "spaceIds": [
+        "d00460c203779d21d96fcfc6102d7a72"
+      ],
+      "types": [
+        {
+          "id": "362c1dbddc6444bba3c4652f38a642d7",
+          "name": "Space"
+        },
+        {
+          "id": "7ed45f2bc48b419e8e4664d5ff680b0d",
+          "name": "Person"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "85a4668a42fa4f488969c0a9de0c294b",
+            "text": null,
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72"
+          },
+          {
+            "propertyId": "9eedefa860ae4ac19a04805054a4b094",
+            "text": "https://github.com/athsrueas",
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72"
+          },
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "Software Project Manager for a Design Build construction company.",
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72"
+          },
+          {
+            "propertyId": "cdf139bce610446cac42d57cd7967478",
+            "text": "https://www.linkedin.com/in/thomasfreestone",
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72"
+          },
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Thomas Freestone",
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72"
+          },
+          {
+            "propertyId": "0d6259784b3c4b57a86fde45c997c73c",
+            "text": "https://x.com/athsrueas",
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "06a735ef37bc44b99334a37135e43003",
+            "entityId": "d928d0afcabe4b67937500fe6cd19558",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "type": {
+              "name": "Types"
+            },
+            "toEntityId": "362c1dbddc6444bba3c4652f38a642d7",
+            "toEntity": {
+              "name": "Space"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "0745ce90c1384270bf30a9d13be7a3a0",
+            "entityId": "d709bc6fb62543b78aa11159b089e739",
+            "typeId": "ff7e1b4444a2419187324e6c222afe07",
+            "type": {
+              "name": "Interested In"
+            },
+            "toEntityId": "3f982b1100b9570497e8e5f6f2638e7d",
+            "toEntity": {
+              "name": null
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "264199090f764e96a6ce51aeb293d382",
+            "entityId": "545296e232e14d92a1d6761a28ce12f8",
+            "typeId": "ff7e1b4444a2419187324e6c222afe07",
+            "type": {
+              "name": "Interested In"
+            },
+            "toEntityId": "f2bcbc2948e558be89668277f4469fbc",
+            "toEntity": {
+              "name": null
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "3e3db5837c0a4c8ba503c1ccaa0caf84",
+            "entityId": "0d2737781a63487cba226f9ef8b73d71",
+            "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+            "type": {
+              "name": "Roles"
+            },
+            "toEntityId": "a989f2dcb2974bf8abc4fb26b16c21fb",
+            "toEntity": {
+              "name": "Project manager"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "4755ef5ff90543bda052f2cb7e8b2429",
+            "entityId": "4c7e18e61134416594ffb5036c86fece",
+            "typeId": "a38732e33a3d47f9a459fb369c287709",
+            "type": {
+              "name": "Skills"
+            },
+            "toEntityId": "9dbb9d1b80cd478188da89675f45b5fb",
+            "toEntity": {
+              "name": "Research"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "5ad68ffec516497e8361548d8062368a",
+            "entityId": "b2f5ae49ca6e4b548ceabcabff5cac06",
+            "typeId": "a38732e33a3d47f9a459fb369c287709",
+            "type": {
+              "name": "Skills"
+            },
+            "toEntityId": "809fd464b7c842d191f297a7216e90b1",
+            "toEntity": {
+              "name": "Data Architecture"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "61f965e8e0544b90a647e8c3c250f1f2",
+            "entityId": "6bb863389f2a413bb533a779bc5968a2",
+            "typeId": "1155befffad549b7a2e0da4777b8792c",
+            "type": {
+              "name": "Avatar"
+            },
+            "toEntityId": "7b98c361ae3440028190ebf4c4956351",
+            "toEntity": {
+              "name": "Avatar"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "7623f53390ef4b48bd4843f249f830cf",
+            "entityId": "d74bb2dc006248208f4ee83e44745e4b",
+            "typeId": "dac6e89e76be4f7788e10f556ceb6869",
+            "type": {
+              "name": "Works at"
+            },
+            "toEntityId": "bbe8731708294ed497aa370dc3d444d5",
+            "toEntity": {
+              "name": "Performance Services inc"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "90e5d9622a9a401ab50b7c407d25c710",
+            "entityId": "8d2cf5d5fafb438388d5438d02b6afc9",
+            "typeId": "a38732e33a3d47f9a459fb369c287709",
+            "type": {
+              "name": "Skills"
+            },
+            "toEntityId": "1620841c3a1d47b583b40d5f8ee95891",
+            "toEntity": {
+              "name": "Data scraping"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "a72b1cf1b6fc480d856af2fa4340f59d",
+            "entityId": "79172aa234694bc6aa30c915c82bd26d",
+            "typeId": "a38732e33a3d47f9a459fb369c287709",
+            "type": {
+              "name": "Skills"
+            },
+            "toEntityId": "fdc06ab6852b44cb88ba9e44fbf70f65",
+            "toEntity": {
+              "name": "Writing"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "b06af1dd287540958027ea08841f3836",
+            "entityId": "9a01c9dc16a64ba581791054e90d0ac5",
+            "typeId": "ff7e1b4444a2419187324e6c222afe07",
+            "type": {
+              "name": "Interested In"
+            },
+            "toEntityId": "debce2de46094f299ee8e89fe244a9dc",
+            "toEntity": {
+              "name": "Education programs dashboard "
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "b179fcf203df424a8b317cbe98f70abd",
+            "entityId": "f1b0931a2eed4ff28f786372d8833c33",
+            "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+            "type": {
+              "name": "Roles"
+            },
+            "toEntityId": "d07cd02b10d941339a056372b593574a",
+            "toEntity": {
+              "name": "Writer"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "b7e6bea7578b471d9fe07dc7be183201",
+            "entityId": "9764d98c65384d5eb00b7b684ad03c1b",
+            "typeId": "e4047a7700434ed4a41072139bff7f7e",
+            "type": {
+              "name": "Accounts"
+            },
+            "toEntityId": "1da74a3d13bf42be88d30f65d0b2aaa9",
+            "toEntity": {
+              "name": "0x260881863ACEAc6Bccaa8dE2EF7D7a566d8eD0bF"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "ba6c22dac2434263b2a22e37cc43a24b",
+            "entityId": "e190397d37514451aebac2ff2f6cf76d",
+            "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+            "type": {
+              "name": "Roles"
+            },
+            "toEntityId": "78e13af167a14defbe83501b11f0e535",
+            "toEntity": {
+              "name": "Researcher"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "c8c60ae0857449ab96555dbd64702d26",
+            "entityId": "edd2710ff3574eebb9c7d34d6657679b",
+            "typeId": "8fcfe5ef3d9147bd83223830a998d26b",
+            "type": {
+              "name": "Roles"
+            },
+            "toEntityId": "aa1541a64373421ab6b8a1d228c4a929",
+            "toEntity": {
+              "name": "Developer"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "cc94c508bc1b479ea22ffc1de7170488",
+            "entityId": "01d05ca342f0437e8230d4f14124f792",
+            "typeId": "ff7e1b4444a2419187324e6c222afe07",
+            "type": {
+              "name": "Interested In"
+            },
+            "toEntityId": "c9f08d3c90a541e78acbceae95c49e32",
+            "toEntity": {
+              "name": "Debate Publisher - AI"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "d1ee5b0bfa9143679330a5cb4cdba597",
+            "entityId": "c34a895ba3aa4c7d8b2b763ee54e77ae",
+            "typeId": "dac6e89e76be4f7788e10f556ceb6869",
+            "type": {
+              "name": "Works at"
+            },
+            "toEntityId": "ee7878f543ca41b8bc2d7680b952f4c1",
+            "toEntity": {
+              "name": "Pathway of Hope"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "e078f89d3bc346dba5310b147e1d5c5f",
+            "entityId": "0760bfd9e23840618c0a05555c726aa4",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "type": {
+              "name": "Types"
+            },
+            "toEntityId": "7ed45f2bc48b419e8e4664d5ff680b0d",
+            "toEntity": {
+              "name": "Person"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "e90eda04de6741249125bc24a8dddbf0",
+            "entityId": "be110972d7bb4a619302aed63577335b",
+            "typeId": "ff7e1b4444a2419187324e6c222afe07",
+            "type": {
+              "name": "Interested In"
+            },
+            "toEntityId": "2d54c80326a95902a84e53587541f4bb",
+            "toEntity": {
+              "name": null
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "f312afffc9e9425c98c1eaf820b81d63",
+            "entityId": "8837753113b940d88b3deff1b061be3e",
+            "typeId": "a38732e33a3d47f9a459fb369c287709",
+            "type": {
+              "name": "Skills"
+            },
+            "toEntityId": "52f059e33df942939160eefd25a0de37",
+            "toEntity": {
+              "name": "Education"
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          },
+          {
+            "id": "f713551411c64d27ba58b0a22a923389",
+            "entityId": "eb277daa0e0849689da4b479a335cc9e",
+            "typeId": "ff7e1b4444a2419187324e6c222afe07",
+            "type": {
+              "name": "Interested In"
+            },
+            "toEntityId": "6329320126ad5adcb75a1a8e7693a1fa",
+            "toEntity": {
+              "name": null
+            },
+            "spaceId": "d00460c203779d21d96fcfc6102d7a72",
+            "position": null
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "zen": {
+      "id": "d0f15b4c079f45ef89651a3f366ce2a4",
+      "name": "Zen and the Art of Motorcycle Maintenance: An Inquiry into Values",
+      "spaceIds": [
+        "0477636ace64280fc43a9f440a502291"
+      ],
+      "types": [
+        {
+          "id": "8864304115334498b8ea6c1ae833628e",
+          "name": "Book"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "aa5da9278af44294a8a9b79421762c3a",
+            "text": "Robert M. Pirsig blends narrative and philosophy in this modern classic, following a father and his young son on a summer motorcycle trip across the American Northwest. As the miles pass, the journey becomes an intellectual odyssey into questions of quality, reason, and how to live well, interweaving memory and a search for a buried former self. Probing the divide between romantic and classical ways of seeing the world, the book offers a penetrating, deeply personal examination of values and the meaning of a good life.",
+            "spaceId": "0477636ace64280fc43a9f440a502291"
+          },
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "Robert M. Pirsig's influential philosophical novel frames a father-and-son motorcycle journey across America's Northwest as a meditation on values and how to live.",
+            "spaceId": "0477636ace64280fc43a9f440a502291"
+          },
+          {
+            "propertyId": "233cb522cc3b47f39e863e24967c7a0c",
+            "text": "OL827357W",
+            "spaceId": "0477636ace64280fc43a9f440a502291"
+          },
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Zen and the Art of Motorcycle Maintenance: An Inquiry into Values",
+            "spaceId": "0477636ace64280fc43a9f440a502291"
+          },
+          {
+            "propertyId": "ff4e18668c93440481e122d8a170bf61",
+            "text": null,
+            "spaceId": "0477636ace64280fc43a9f440a502291"
+          },
+          {
+            "propertyId": "a123b36243884eff8646f2992426ca17",
+            "text": null,
+            "spaceId": "0477636ace64280fc43a9f440a502291"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "7ec2f5e0b3a44b65914a48a05f806471",
+            "entityId": "5f6d65acacf54bdfbd472a6e0553c9d2",
+            "typeId": "34f535072e6b42c5a84443981a77cfa2",
+            "type": {
+              "name": "Cover"
+            },
+            "toEntityId": "8a07ffd43def4f3397dcd5bcfa35c616",
+            "toEntity": {
+              "name": "Zen and the Art of Motorcycle Maintenance: An Inquiry into Values cover"
+            },
+            "spaceId": "0477636ace64280fc43a9f440a502291",
+            "position": "a039g"
+          },
+          {
+            "id": "97bb18d50d1f4fdabf02ae80180dee70",
+            "entityId": "3f1a446bc0df4352ae6c58f4be1a31cb",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "type": {
+              "name": "Types"
+            },
+            "toEntityId": "8864304115334498b8ea6c1ae833628e",
+            "toEntity": {
+              "name": "Book"
+            },
+            "spaceId": "0477636ace64280fc43a9f440a502291",
+            "position": null
+          },
+          {
+            "id": "9a6bd6d8930a4a12864e4bdc5ebc45f5",
+            "entityId": "30638b3616d7468597c885e7a92fcd0b",
+            "typeId": "91a9e2f6e51a48f7997661de8561b690",
+            "type": {
+              "name": "Authors"
+            },
+            "toEntityId": "3d864e0a87f744009b74abd56e67e253",
+            "toEntity": {
+              "name": "Robert M. Pirsig"
+            },
+            "spaceId": "0477636ace64280fc43a9f440a502291",
+            "position": null
+          },
+          {
+            "id": "cdbded0637da4ef483f130c172912d18",
+            "entityId": "6ec087f9273640c9b782b2a61d74ef65",
+            "typeId": "1155befffad549b7a2e0da4777b8792c",
+            "type": {
+              "name": "Avatar"
+            },
+            "toEntityId": "5a3269f70c8343528c963afcd78319d6",
+            "toEntity": {
+              "name": "Zen and the Art of Motorcycle Maintenance: An Inquiry into Values cover"
+            },
+            "spaceId": "0477636ace64280fc43a9f440a502291",
+            "position": null
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "postman": {
+      "id": "0373f5e944d94ebf8c74ce87c01623eb",
+      "name": "Neil Postman",
+      "spaceIds": [
+        "0477636ace64280fc43a9f440a502291"
+      ],
+      "types": [
+        {
+          "id": "7ed45f2bc48b419e8e4664d5ff680b0d",
+          "name": "Person"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "<a href=http://en.wikipedia.org/wiki/Neil_Postman>Neil Postman</a> was a popular American humanist who was well known for his comments on the social effects of technology, in particular of television.",
+            "spaceId": "0477636ace64280fc43a9f440a502291"
+          },
+          {
+            "propertyId": "233cb522cc3b47f39e863e24967c7a0c",
+            "text": "OL22067A",
+            "spaceId": "0477636ace64280fc43a9f440a502291"
+          },
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Neil Postman",
+            "spaceId": "0477636ace64280fc43a9f440a502291"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "0710008938cf47a7a4f0d0b57f79acdb",
+            "entityId": "6d50ab556c774cd38c9c2ceb1f2222ca",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "type": {
+              "name": "Types"
+            },
+            "toEntityId": "7ed45f2bc48b419e8e4664d5ff680b0d",
+            "toEntity": {
+              "name": "Person"
+            },
+            "spaceId": "0477636ace64280fc43a9f440a502291",
+            "position": null
+          },
+          {
+            "id": "d3a7e88a07e640e39caa9f5d7abe70d2",
+            "entityId": "1402ef2ac4ea48c6b8d53ef1ba782223",
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "type": {
+              "name": "Blocks"
+            },
+            "toEntityId": "0ac813be31e84d74887d817a1341a378",
+            "toEntity": {
+              "name": "Published books"
+            },
+            "spaceId": "0477636ace64280fc43a9f440a502291",
+            "position": "a0C2i"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "pirsig": {
+      "id": "3d864e0a87f744009b74abd56e67e253",
+      "name": "Robert M. Pirsig",
+      "spaceIds": [
+        "0477636ace64280fc43a9f440a502291"
+      ],
+      "types": [
+        {
+          "id": "7ed45f2bc48b419e8e4664d5ff680b0d",
+          "name": "Person"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Robert M. Pirsig",
+            "spaceId": "0477636ace64280fc43a9f440a502291"
+          },
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "American writer and philosopher (1928–2017) whose best-seller Zen and the Art of Motorcycle Maintenance blends a road trip with an inquiry into values and quality.",
+            "spaceId": "0477636ace64280fc43a9f440a502291"
+          },
+          {
+            "propertyId": "233cb522cc3b47f39e863e24967c7a0c",
+            "text": "OL70357A",
+            "spaceId": "0477636ace64280fc43a9f440a502291"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "34f44a41aa4d4b869d07cc472b0b8a86",
+            "entityId": "e4b581cc196f415b9c3983565f17ecd7",
+            "typeId": "1155befffad549b7a2e0da4777b8792c",
+            "type": {
+              "name": "Avatar"
+            },
+            "toEntityId": "3fba39947bba413092707f90e4c92083",
+            "toEntity": {
+              "name": "Robert M. Pirsig portrait"
+            },
+            "spaceId": "0477636ace64280fc43a9f440a502291",
+            "position": null
+          },
+          {
+            "id": "bc4867e102d842e0a8db8c4e71635211",
+            "entityId": "8e77305bf2484df189ad492485aef706",
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "type": {
+              "name": "Blocks"
+            },
+            "toEntityId": "4ad42210066646c8b0593ed534aa7c6e",
+            "toEntity": {
+              "name": "Published books"
+            },
+            "spaceId": "0477636ace64280fc43a9f440a502291",
+            "position": "a06z8"
+          },
+          {
+            "id": "be36ced93cba4782965d572a1a1f6ab4",
+            "entityId": "ac7381a8b35b4f908b78635357d098f9",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "type": {
+              "name": "Types"
+            },
+            "toEntityId": "7ed45f2bc48b419e8e4664d5ff680b0d",
+            "toEntity": {
+              "name": "Person"
+            },
+            "spaceId": "0477636ace64280fc43a9f440a502291",
+            "position": null
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "bookType": {
+      "id": "8864304115334498b8ea6c1ae833628e",
+      "name": "Book",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Book",
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "A long-form written work, fiction or non-fiction, published in print, audio, or digital form; it can also refer to the physical or digital object itself, with earlier forms including codices, scrolls, and tablets.",
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "095d5f8b265d47d2a0395e6479891304",
+            "entityId": "11b88869190b4b3cb1704ac745ef0aab",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "412ff593e9154012a43d4c27ec5c68b6",
+            "toEntity": {
+              "name": "Web URL"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a08Df"
+          },
+          {
+            "id": "1ff8960175c943c097bf18eae726e4ff",
+            "entityId": "1f82094e36ad4dd3b2d3e626a1621f8d",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "ff4e18668c93440481e122d8a170bf61",
+            "toEntity": {
+              "name": "Pages"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a51Dv"
+          },
+          {
+            "id": "293b7f30a87047b0b58bd774ad3eeb0c",
+            "entityId": "1afb709f6c4a4a4387d00eed4cb2bd24",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "toEntity": {
+              "name": "Description"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a40N4"
+          },
+          {
+            "id": "39ce781bf6124440ad4b9354fa03853d",
+            "entityId": "824c0f1b2a45488ca065e02bee6e7ebc",
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "type": {
+              "name": "Blocks"
+            },
+            "toEntityId": "f33e103d59904100a2d17751c6294ba7",
+            "toEntity": {
+              "name": "AI space Books"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a03Or"
+          },
+          {
+            "id": "407d70cb40964f5db7e8e2ca35985a78",
+            "entityId": "6363c2a695604a3b9b6d51ce81844420",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "1155befffad549b7a2e0da4777b8792c",
+            "toEntity": {
+              "name": "Avatar"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a00Zd"
+          },
+          {
+            "id": "47bf77a7c09b486a9c77f05739884c71",
+            "entityId": "379932cdd6f44d8d9c5fcb6f0dd2791a",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "257090341ba5406f94e4d4af90042fba",
+            "toEntity": {
+              "name": "Tags"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a02eG"
+          },
+          {
+            "id": "647009cb8a574004b5c808a0091fa490",
+            "entityId": "cc28c2c4b29e443885ef5acffa6504b8",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "type": {
+              "name": "Types"
+            },
+            "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+            "toEntity": {
+              "name": "Type"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": null
+          },
+          {
+            "id": "6db42463229c4e6595fc612b3bc30f40",
+            "entityId": "15bb597cc0a3406fb7598efdc8c02447",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "9ec2b47e481947c0a99e8ddb27a3ed8e",
+            "toEntity": {
+              "name": "Publisher"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a08qm"
+          },
+          {
+            "id": "72f9cc47124c46a1831f46c63f38305a",
+            "entityId": "3eed391efcfc468394256841bf55a7ab",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "fce8953f56af4e42a869725ed0b024f0",
+            "toEntity": {
+              "name": "Contributors"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a018c"
+          },
+          {
+            "id": "782541ea3f8d4ecda1a0c9bdb89adf7f",
+            "entityId": "28f156560b3649ee8519e2ce1b75efee",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "a123b36243884eff8646f2992426ca17",
+            "toEntity": {
+              "name": "Publish date"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a17Mi"
+          },
+          {
+            "id": "7c36a7d85bf346638cae699a1e25659c",
+            "entityId": "65279cf264d945ab80eeeaa74dfcd57e",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "0c334e436c5a48dcb48e88188bc93d3b",
+            "toEntity": {
+              "name": "Genres"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a00Ec"
+          },
+          {
+            "id": "7e6316625f234349b7178a2556740e97",
+            "entityId": "c46d0127a4874ea391ac3437b2df9590",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "806d52bc27e94c9193c057978b093351",
+            "toEntity": {
+              "name": "Topics"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a0Ajr"
+          },
+          {
+            "id": "9685f3f825b64624825d1b1f0ddc1fb3",
+            "entityId": "d89bf58e13a14fada237eaf57f21f3fd",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "a126ca530c8e48d5b88882c734c38935",
+            "toEntity": {
+              "name": "Name"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a35MD"
+          },
+          {
+            "id": "9f444bd973af4e4fa95867681c5eef33",
+            "entityId": "d8945e9a58a4476182d7158e638b0259",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "233cb522cc3b47f39e863e24967c7a0c",
+            "toEntity": {
+              "name": "Open Library ID"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a6CEh"
+          },
+          {
+            "id": "d31c0c4447744a9ebb41cbae69006612",
+            "entityId": "63382f037c874e4689ba5fe54298684b",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "aa5da9278af44294a8a9b79421762c3a",
+            "toEntity": {
+              "name": "Summary"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a22k1"
+          },
+          {
+            "id": "d4111278e94e40d7aa5c456e1d44160c",
+            "entityId": "f79d6f01727d48ef995a7463ae76edf3",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "3f89038134d74fb1a7bcab06a61f9046",
+            "toEntity": {
+              "name": "ISBN "
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a0AMg"
+          },
+          {
+            "id": "d6a8059283c64dfea8328ffce16d746a",
+            "entityId": "556fa9d012df43e990beabd07d6aff4a",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "5b722cd361d6494e88871310566437ba",
+            "toEntity": {
+              "name": "Related spaces"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a072H"
+          },
+          {
+            "id": "de07399a545743a08966fb8507622f7c",
+            "entityId": "bc9ce97e2a5949c4aa04adfc6421be83",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "ccd3758ae7b34b51b03ac3c3efaa1451",
+            "toEntity": {
+              "name": "Literary movements"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a79f5"
+          },
+          {
+            "id": "e0f5080a33124558a92aa7df167153b1",
+            "entityId": "c0a64bb0716e45f49aec26d864858547",
+            "typeId": "01412f8381894ab1836565c7fd358cc1",
+            "type": {
+              "name": "Properties"
+            },
+            "toEntityId": "91a9e2f6e51a48f7997661de8561b690",
+            "toEntity": {
+              "name": "Authors"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a04gJ"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "pageType": {
+      "id": "480e3fc267f3499385fbacdf4ddeaa6b",
+      "name": "Page",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "Pages are used for tabs. Entities with Types: Page will not show up in search.",
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          },
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Page",
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "093ad0d2e4404778b62259f04f8869be",
+            "entityId": "b58d66eb761644c68e8c1f44af3d6bb2",
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "type": {
+              "name": "Blocks"
+            },
+            "toEntityId": "6b032cce561f481ba37865eda3155821",
+            "toEntity": {
+              "name": "Health space Pages"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a38jU"
+          },
+          {
+            "id": "55f838a745594fd9bdb8721e8162b10a",
+            "entityId": "df3d8e613c644aa7a89981dbc879c87f",
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "type": {
+              "name": "Blocks"
+            },
+            "toEntityId": "5fca049bbec14f7a83ab435a91131331",
+            "toEntity": {
+              "name": "AI space Pages"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a2BPh"
+          },
+          {
+            "id": "b8a459b60984496da6e5f701b9493550",
+            "entityId": "59c0beb530d940fbb1a645f584b8e706",
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "type": {
+              "name": "Blocks"
+            },
+            "toEntityId": "7286f21ab07745a68eee852704a9a3bc",
+            "toEntity": {
+              "name": "Crypto space Pages"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a11Dd"
+          },
+          {
+            "id": "d51a9dc0d6514d1bb7bbc2d1bd28afff",
+            "entityId": "42b6f3a906574be98d38579dda5e6ded",
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "type": {
+              "name": "Blocks"
+            },
+            "toEntityId": "93054cff6bb441b3ae572615d2984239",
+            "toEntity": {
+              "name": "Pages"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a094O"
+          },
+          {
+            "id": "dcd3119aa19343e88425e0a726502dfb",
+            "entityId": "6a2d4a5ca47947f9b709d6d9a603c98f",
+            "typeId": "beaba5cba67741a8b35377030613fc70",
+            "type": {
+              "name": "Blocks"
+            },
+            "toEntityId": "4af4636dcf424dada3a0dd1104ac2108",
+            "toEntity": {
+              "name": "World affairs space Pages"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a43Dx"
+          },
+          {
+            "id": "ff28967b40bd49f8b847b63d7c7a72e2",
+            "entityId": "b6b92779d95b42b7ab1cea6cef76c414",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "type": {
+              "name": "Types"
+            },
+            "toEntityId": "e7d737c536764c609fa16aa64a8c90ad",
+            "toEntity": {
+              "name": "Type"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a0CHh"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    "authors": {
+      "id": "91a9e2f6e51a48f7997661de8561b690",
+      "name": "Authors",
+      "spaceIds": [
+        "bd727a6ad6ec4a058f681ea9002a1fbf",
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        },
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ],
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Authors",
+            "spaceId": "bd727a6ad6ec4a058f681ea9002a1fbf"
+          },
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Authors",
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "11a5da783d554491aad8b0c7ec66ade0",
+            "entityId": "ba5d61cc3bae483195b1d4ee8d44fab2",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "type": {
+              "name": "Types"
+            },
+            "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+            "toEntity": {
+              "name": "Property"
+            },
+            "spaceId": "bd727a6ad6ec4a058f681ea9002a1fbf",
+            "position": null
+          },
+          {
+            "id": "3b3f2859823f40578a7645a4e4dba4fb",
+            "entityId": "cbff080ca29d85508970c906df397e1b",
+            "typeId": "6d29d57849bb4959baf72cc696b1671a",
+            "type": {
+              "name": "Data type"
+            },
+            "toEntityId": "4b6d9fc1fbfe474c861c83398e1b50d9",
+            "toEntity": {
+              "name": "Relation"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": null
+          },
+          {
+            "id": "58be1c76271e478bbb95959e35f5b060",
+            "entityId": "3ad7fe32ade44853bc7b7006ba4dcd13",
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "type": {
+              "name": "To entity types"
+            },
+            "toEntityId": "484a18c5030a499cb0f2ef588ff16d50",
+            "toEntity": {
+              "name": "Project"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a01Q2"
+          },
+          {
+            "id": "7049fcc7127a4d879c3f8b8432773208",
+            "entityId": "4d1a2efd6d364909a6f198d89611a02e",
+            "typeId": "9eea393f17dd4971a62ea603e8bfec20",
+            "type": {
+              "name": "To entity types"
+            },
+            "toEntityId": "7ed45f2bc48b419e8e4664d5ff680b0d",
+            "toEntity": {
+              "name": "Person"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": "a1BFF"
+          },
+          {
+            "id": "8d1a625da9c84e68a794992c83d3b7d4",
+            "entityId": "983772dfc67d8673852a91c0db541e05",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "type": {
+              "name": "Types"
+            },
+            "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+            "toEntity": {
+              "name": "Property"
+            },
+            "spaceId": "a19c345ab9866679b001d7d2138d88a1",
+            "position": null
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    }
+  },
+  "spaceSchema": {
+    "__type": {
+      "fields": [
+        {
+          "name": "nodeId",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "ID"
+            }
+          }
+        },
+        {
+          "name": "id",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "UUID"
+            }
+          }
+        },
+        {
+          "name": "type",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "SpaceTypes"
+            }
+          }
+        },
+        {
+          "name": "address",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "String"
+            }
+          }
+        },
+        {
+          "name": "topicId",
+          "type": {
+            "kind": "SCALAR",
+            "name": "UUID",
+            "ofType": null
+          }
+        },
+        {
+          "name": "topic",
+          "type": {
+            "kind": "OBJECT",
+            "name": "Entity",
+            "ofType": null
+          }
+        },
+        {
+          "name": "subspacesByParentSpaceIdConnection",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "SubspacesConnection"
+            }
+          }
+        },
+        {
+          "name": "subspacesByParentSpaceId",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": null
+            }
+          }
+        },
+        {
+          "name": "subspacesByChildSpaceIdConnection",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "SubspacesConnection"
+            }
+          }
+        },
+        {
+          "name": "subspacesByChildSpaceId",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": null
+            }
+          }
+        },
+        {
+          "name": "proposalVotesConnection",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "ProposalVotesConnection"
+            }
+          }
+        },
+        {
+          "name": "proposalVotes",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": null
+            }
+          }
+        },
+        {
+          "name": "proposalsConnection",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "ProposalsConnection"
+            }
+          }
+        },
+        {
+          "name": "proposals",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": null
+            }
+          }
+        },
+        {
+          "name": "subspaceTopicsConnection",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "SubspaceTopicsConnection"
+            }
+          }
+        },
+        {
+          "name": "subspaceTopics",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": null
+            }
+          }
+        },
+        {
+          "name": "spaceVotingSetting",
+          "type": {
+            "kind": "OBJECT",
+            "name": "SpaceVotingSetting",
+            "ofType": null
+          }
+        },
+        {
+          "name": "editors",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "EditorsConnection"
+            }
+          }
+        },
+        {
+          "name": "editorsList",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": null
+            }
+          }
+        },
+        {
+          "name": "members",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "MembersConnection"
+            }
+          }
+        },
+        {
+          "name": "membersList",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": null
+            }
+          }
+        },
+        {
+          "name": "relationsConnection",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "RelationsConnection"
+            }
+          }
+        },
+        {
+          "name": "relations",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": null
+            }
+          }
+        },
+        {
+          "name": "relationsByFromSpaceIdConnection",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "RelationsConnection"
+            }
+          }
+        },
+        {
+          "name": "relationsByFromSpaceId",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": null
+            }
+          }
+        },
+        {
+          "name": "relationsByToSpaceIdConnection",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "RelationsConnection"
+            }
+          }
+        },
+        {
+          "name": "relationsByToSpaceId",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": null
+            }
+          }
+        },
+        {
+          "name": "valuesConnection",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": "ValuesConnection"
+            }
+          }
+        },
+        {
+          "name": "values",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "name": null
+            }
+          }
+        },
+        {
+          "name": "page",
+          "type": {
+            "kind": "OBJECT",
+            "name": "Entity",
+            "ofType": null
+          }
+        }
+      ]
+    }
+  },
+  "space/d00460c203779d21d96fcfc6102d7a72": {
+    "space": {
+      "id": "d00460c203779d21d96fcfc6102d7a72",
+      "type": "PERSONAL",
+      "topic": null
+    }
+  },
+  "space/0477636ace64280fc43a9f440a502291": {
+    "space": {
+      "id": "0477636ace64280fc43a9f440a502291",
+      "type": "DAO",
+      "topic": {
+        "id": "d78face39c8e48dc840e968f5d4a1d68",
+        "name": "Books"
+      }
+    }
+  }
+}

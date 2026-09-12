@@ -1,0 +1,922 @@
+{
+  "checkedAt": "2026-09-11T21:30:50.396Z",
+  "scope": "All-space schema reads and up to five actual uses per candidate; usage sampling is not exhaustive",
+  "properties": {
+    "pValueString": {
+      "id": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+      "checkedAt": "2026-09-11T21:00:07.506Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Text"
+        },
+        "entity": {
+          "id": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+          "name": "P value",
+          "spaceIds": [
+            "03f7a1efafaeecaeae31a3b38fe9e446"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "P value",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              },
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Published p-value string, preserving operators such as < or =.",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              },
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [
+            {
+              "entity": {
+                "id": "9b9c2c77d57c87f54bf7a1dd5a0a0d66",
+                "name": "Psilocybin-assisted therapy for major depressive disorder (Davis et al., 2020)"
+              },
+              "text": "P < 0.001",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "da24dc2815516d108c90d8bd258624c4",
+                "name": "IV ketamine plus cognitive training for depression (ClinicalIntuition card)"
+              },
+              "text": "P = 0.0004",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "81fe9198631f20889767649e0fe94711",
+                "name": "Single-dose psilocybin for treatment-resistant depression (COMP360, 2022)"
+              },
+              "text": "P < 0.001",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "159202ea3f92cd1cc1bd2783be6b033f",
+                "name": "Ayahuasca for treatment-resistant depression (Palhano-Fontes et al., 2019)"
+              },
+              "text": "P < 0.0001",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "a867140856cf193059d3e140dffa681e",
+                "name": "Psilocybin-assisted psychotherapy for alcohol use disorder (Bogenschutz et al., 2022)"
+              },
+              "text": "P = 0.01",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    "pValueEvidence": {
+      "id": "dbad304fc83a13a2f84b6260501a562c",
+      "checkedAt": "2026-09-11T21:00:07.818Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Text"
+        },
+        "entity": {
+          "id": "dbad304fc83a13a2f84b6260501a562c",
+          "name": "P value",
+          "spaceIds": [
+            "5c7851580401d2548e4f948d724b8794"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "P value for an extracted result when available.",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              },
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "P value",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    "pValueNumeric": {
+      "id": "f6e654253ec0c1decbe6a6058f003868",
+      "checkedAt": "2026-09-11T21:00:08.010Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Float"
+        },
+        "entity": {
+          "id": "f6e654253ec0c1decbe6a6058f003868",
+          "name": "P value numeric",
+          "spaceIds": [
+            "03f7a1efafaeecaeae31a3b38fe9e446"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "P value numeric",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              },
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Numeric p-value or conservative threshold used for sorting.",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "9b597aaec31c46c88565a370da0c2a65",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [
+            {
+              "entity": {
+                "id": "a867140856cf193059d3e140dffa681e",
+                "name": "Psilocybin-assisted psychotherapy for alcohol use disorder (Bogenschutz et al., 2022)"
+              },
+              "text": null,
+              "decimal": null,
+              "float": 0.01,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "159202ea3f92cd1cc1bd2783be6b033f",
+                "name": "Ayahuasca for treatment-resistant depression (Palhano-Fontes et al., 2019)"
+              },
+              "text": null,
+              "decimal": null,
+              "float": 0.0001,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "75416d6ead9b00577182cdf6d94ef433",
+                "name": "MDMA-assisted therapy for severe PTSD (MAPP1, 2021)"
+              },
+              "text": null,
+              "decimal": null,
+              "float": 0.0001,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "9b9c2c77d57c87f54bf7a1dd5a0a0d66",
+                "name": "Psilocybin-assisted therapy for major depressive disorder (Davis et al., 2020)"
+              },
+              "text": null,
+              "decimal": null,
+              "float": 0.001,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "c54938f5d8d22d470cad6dbc03f7969a",
+                "name": "LSD-assisted psychotherapy for illness-related anxiety (Gasser et al., 2014)"
+              },
+              "text": null,
+              "decimal": null,
+              "float": 0.033,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    "confidenceIntervalEvidence": {
+      "id": "d21c736598fc58e7d095633be0c1b86b",
+      "checkedAt": "2026-09-11T21:00:08.283Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Text"
+        },
+        "entity": {
+          "id": "d21c736598fc58e7d095633be0c1b86b",
+          "name": "Confidence interval",
+          "spaceIds": [
+            "5c7851580401d2548e4f948d724b8794"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Confidence interval",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              },
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Confidence interval for an extracted effect when available.",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    "confidenceIntervalMusic": {
+      "id": "1773a3b16a3e0bee4ca92124efeefcb2",
+      "checkedAt": "2026-09-11T21:00:08.546Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Text"
+        },
+        "entity": {
+          "id": "1773a3b16a3e0bee4ca92124efeefcb2",
+          "name": "Confidence interval",
+          "spaceIds": [
+            "0e964b063541ae7df0f8b8365fb25882"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "AI Music ontology field for confidence_interval; data type text or number; cardinality one; publish policy required_when_referenced_by_relation_or_profile.",
+                "spaceId": "0e964b063541ae7df0f8b8365fb25882"
+              },
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Confidence interval",
+                "spaceId": "0e964b063541ae7df0f8b8365fb25882"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+                "spaceId": "0e964b063541ae7df0f8b8365fb25882"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "0e964b063541ae7df0f8b8365fb25882"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    "studyDesignRegistry": {
+      "id": "8e46e3eff9dea2b55d32a5ca7de61938",
+      "checkedAt": "2026-09-11T21:01:24.138Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Text"
+        },
+        "entity": {
+          "id": "8e46e3eff9dea2b55d32a5ca7de61938",
+          "name": "Study design",
+          "spaceIds": [
+            "03f7a1efafaeecaeae31a3b38fe9e446"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Study design",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              },
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Study design for the source study.",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              },
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+                "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [
+            {
+              "entity": {
+                "id": "da24dc2815516d108c90d8bd258624c4",
+                "name": "IV ketamine plus cognitive training for depression (ClinicalIntuition card)"
+              },
+              "text": "Randomized controlled clinical trial result card",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "5213427787b54ad0207c3aa76f1930c9",
+                "name": "NCT06430541: Study of Psilocybin Assisted Psychotherapy to Address Fear of Recurrence"
+              },
+              "text": "Type: Interventional; Allocation: Na; Model: Single Group; Purpose: Supportive Care; Masking: None",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "a1deee3f7da95cff626da7bce577ee8e",
+                "name": "Long-lasting neuroprotective effect of sildenafil against MDMA-induced 5-HT deficits in the rat brain"
+              },
+              "text": "Preclinical rat experiment with delayed sildenafil pretreatment before repeated MDMA dosing",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "1de76dc011bcf89adc1d8da78dcd42a7",
+                "name": "NCT06941844: A Phase 3 Trial of MM120 for Major Depressive Disorder (Emerge)"
+              },
+              "text": "Type: Interventional; Allocation: Randomized; Model: Parallel; Purpose: Treatment; Masking: Triple",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            },
+            {
+              "entity": {
+                "id": "6958a63cc0ff933cb0f80b2bb72c31c7",
+                "name": "Measuring the performance of prediction models to personalize treatment choice"
+              },
+              "text": "Statistical methods paper with proposed performance measures and case studies",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "03f7a1efafaeecaeae31a3b38fe9e446"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    "observedProportion": {
+      "id": "73b35a4ce05f45908118a089d9995bae",
+      "checkedAt": "2026-09-11T21:30:50.865Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Decimal"
+        },
+        "entity": {
+          "id": "73b35a4ce05f45908118a089d9995bae",
+          "name": "Observed proportion",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "396f8c72dfd04b5791ea09c1b9321b2f",
+                "text": "measure-unit/percent scale/100 precision-unlimited",
+                "spaceId": "dac259bad48a11adf97fe36857d85206"
+              },
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Observed group proportion for a specified outcome and follow-up, expressed as a fraction. It is not a between-group causal effect.",
+                "spaceId": "dac259bad48a11adf97fe36857d85206"
+              },
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Observed proportion",
+                "spaceId": "dac259bad48a11adf97fe36857d85206"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "a3288c22a0564f6fb409fbcccb2c118c",
+                "spaceId": "dac259bad48a11adf97fe36857d85206"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "dac259bad48a11adf97fe36857d85206"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [
+            {
+              "entity": {
+                "id": "3629758081d745edafdceb5c9cda9288",
+                "name": "Perry Ever on welfare: female control, ages 26–40"
+              },
+              "text": null,
+              "decimal": "0.41",
+              "float": null,
+              "integer": null,
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            },
+            {
+              "entity": {
+                "id": "2ae3e706c3574a42a2943f38f635c516",
+                "name": "Perry High-school graduation: male control, age 27"
+              },
+              "text": null,
+              "decimal": "0.54",
+              "float": null,
+              "integer": null,
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            },
+            {
+              "entity": {
+                "id": "9ceed54f14e84bbc9779d94363470cba",
+                "name": "Perry Currently employed: female treatment, age 27"
+              },
+              "text": null,
+              "decimal": "0.8",
+              "float": null,
+              "integer": null,
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            },
+            {
+              "entity": {
+                "id": "f4dec891c93e4fa5885eb7abe0bbbe27",
+                "name": "Perry Ever on welfare: female treatment, ages 18–27"
+              },
+              "text": null,
+              "decimal": "0.48",
+              "float": null,
+              "integer": null,
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            },
+            {
+              "entity": {
+                "id": "0c1f615708714a228904cf123d2f63d4",
+                "name": "Perry Currently employed: female treatment, age 40"
+              },
+              "text": null,
+              "decimal": "0.83",
+              "float": null,
+              "integer": null,
+              "spaceId": "dac259bad48a11adf97fe36857d85206"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    "resultValueNumeric": {
+      "id": "3163ea823b4c9ebf0d26ce3a20eb855f",
+      "checkedAt": "2026-09-11T21:30:51.090Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Text"
+        },
+        "entity": {
+          "id": "3163ea823b4c9ebf0d26ce3a20eb855f",
+          "name": "Result value numeric",
+          "spaceIds": [
+            "0e964b063541ae7df0f8b8365fb25882"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "AI Music ontology field for result_value_numeric; data type number; cardinality one; publish policy required_when_referenced_by_relation_or_profile.",
+                "spaceId": "0e964b063541ae7df0f8b8365fb25882"
+              },
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Result value numeric",
+                "spaceId": "0e964b063541ae7df0f8b8365fb25882"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+                "spaceId": "0e964b063541ae7df0f8b8365fb25882"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "0e964b063541ae7df0f8b8365fb25882"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    "measurement": {
+      "id": "88d020ba7ff94d24b412a6e8d102a941",
+      "checkedAt": "2026-09-11T21:30:51.607Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Text"
+        },
+        "entity": {
+          "id": "88d020ba7ff94d24b412a6e8d102a941",
+          "name": "Measurement",
+          "spaceIds": [
+            "44eb138f564fbed6ed9ce543de1b849c"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Measurement",
+                "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+                "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [
+            {
+              "entity": {
+                "id": "3ba9b912214048678b0cab9f8de0c9e1",
+                "name": "Modest population weight reduction"
+              },
+              "text": "Mean BMI change; obesity prevalence (%); energy intake from SSBs (kcal/day)",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+            },
+            {
+              "entity": {
+                "id": "d397330ae2fb42d4afb23ff272a62574",
+                "name": "Decreased child mortality"
+              },
+              "text": "Under-5 mortality rate (deaths per 1,000 live births)",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+            },
+            {
+              "entity": {
+                "id": "566293be567c43d496953a71d66a57b7",
+                "name": "Reduced typhoid incidence"
+              },
+              "text": "Typhoid incidence rate per 100,000; blood culture-confirmed case rate",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+            },
+            {
+              "entity": {
+                "id": "87d03fb61b9847e38171de495f09c2db",
+                "name": "Reduced sugar-sweetened beverage consumption"
+              },
+              "text": "SSB sales volume (litres per capita); household purchase survey data",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+            },
+            {
+              "entity": {
+                "id": "b71b658a482543e8b89edcf887eadc4c",
+                "name": "Reduced blood pressure"
+              },
+              "text": "Mean population systolic/diastolic blood pressure (mmHg); urinary sodium excretion",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "44eb138f564fbed6ed9ce543de1b849c"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    },
+    "measurementUnit": {
+      "id": "5c67ae17c84ce783f3b8cd8ffa063661",
+      "checkedAt": "2026-09-11T21:30:51.707Z",
+      "schema": {
+        "property": {
+          "dataTypeName": "Text"
+        },
+        "entity": {
+          "id": "5c67ae17c84ce783f3b8cd8ffa063661",
+          "name": "Measurement unit",
+          "spaceIds": [
+            "5c7851580401d2548e4f948d724b8794"
+          ],
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Unit used for an outcome measurement, such as mg/dL, mmHg, minutes, scale points, or standardized mean difference.",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              },
+              {
+                "propertyId": "a126ca530c8e48d5b88882c734c38935",
+                "text": "Measurement unit",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "6d29d57849bb4959baf72cc696b1671a",
+                "toEntityId": "9edb6fcce4544aa5861139d7f024c010",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              },
+              {
+                "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+                "toEntityId": "808a04ceb21c4d888ad12e240613e5ca",
+                "spaceId": "5c7851580401d2548e4f948d724b8794"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      },
+      "uses": {
+        "valuesConnection": {
+          "nodes": [
+            {
+              "entity": {
+                "id": "3f094f9bc2fe0b418e986187e54cd0f1",
+                "name": "Lean mass"
+              },
+              "text": "kg",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            },
+            {
+              "entity": {
+                "id": "e7f9a8ff7b81c5b9488a4f4e367b1646",
+                "name": "bone health"
+              },
+              "text": "Source-specific",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            },
+            {
+              "entity": {
+                "id": "aecab79baef8700e2c1985b1d846c7ad",
+                "name": "child ADHD"
+              },
+              "text": "Source-specific",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            },
+            {
+              "entity": {
+                "id": "ec298cefe86da294385e60e3d3f06f0e",
+                "name": "colorectal cancer"
+              },
+              "text": "Source-specific",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            },
+            {
+              "entity": {
+                "id": "0cef5faffd4f0a325378af807708fa3b",
+                "name": "dna damage, immune system"
+              },
+              "text": "Source-specific",
+              "decimal": null,
+              "float": null,
+              "integer": null,
+              "spaceId": "5c7851580401d2548e4f948d724b8794"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": true
+          }
+        }
+      }
+    }
+  }
+}

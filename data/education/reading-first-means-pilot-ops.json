@@ -1,0 +1,898 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Actual unadjusted mean",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Actual unadjusted group mean in the reported measurement unit. It is not an adjusted treatment effect or an estimated counterfactual.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "53a26330eeb547dcb8d9b5a48fa8bc9c"
+    },
+    "entity": {
+      "$bytes": "e7bd1c126b2e46e5b4b9f89ef4b843e9"
+    },
+    "from": {
+      "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00Ag"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "30eda8f922c544c5b675b8aeecaf1ed7"
+    },
+    "entity": {
+      "$bytes": "f75514001bc841d08bef7d526e58d626"
+    },
+    "from": {
+      "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a05Xo"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Estimated counterfactual mean",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Estimated group mean under the specified counterfactual condition, in the reported measurement unit. It is not an observed comparison-group mean.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9d322fb0f1fc4c83962fc703c17fb7e4"
+    },
+    "entity": {
+      "$bytes": "65df81e9d447472f8433f1e68ca817df"
+    },
+    "from": {
+      "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0335"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7da339b05be04aff86581b8ba400ce59"
+    },
+    "entity": {
+      "$bytes": "9be81aa33545481781e850fe61eee3fe"
+    },
+    "from": {
+      "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a0Bpt"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Estimated counterfactual proportion",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Estimated group proportion under the specified counterfactual condition, stored as a fraction. It is not an observed comparison-group proportion.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "396f8c72dfd04b5791ea09c1b9321b2f"
+        },
+        "value": {
+          "type": "text",
+          "value": "measure-unit/percent scale/100 precision-unlimited",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "00da5e272f3f4b62a4e832a6c8885b14"
+    },
+    "entity": {
+      "$bytes": "61e291d7ceed4e68a790f057df6fe72a"
+    },
+    "from": {
+      "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00U2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f5289e95ff1b486c97b9f937ee2814c9"
+    },
+    "entity": {
+      "$bytes": "84eb766d3b3d4754a12b2fd277d6efb2"
+    },
+    "from": {
+      "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a086n"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Actual and counterfactual means",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2fca37a5098b458bad312e5cf9708c24"
+    },
+    "entity": {
+      "$bytes": "d71977b156bb4ca488db789156bac68f"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04CU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cfdcd93117de471488b47d65c52d6acd"
+    },
+    "entity": {
+      "$bytes": "08646cdb42074216b2c146140501836d"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a09eo"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dce0cf7d76a747f6bc7c89d7f723580d"
+    },
+    "entity": {
+      "$bytes": "25d3ddb5c76c443da9024f33ad2b9f34"
+    },
+    "from": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "to": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a4C8g"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "678a0c44716b46848f84de76530ee6a0"
+    },
+    "entity": {
+      "$bytes": "614a19570467495881ece91feb460a71"
+    },
+    "from": {
+      "$bytes": "25d3ddb5c76c443da9024f33ad2b9f34"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a07F2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1305f518a31a4c38a9cd57d43a87090b"
+    },
+    "entity": {
+      "$bytes": "b8fda717c335479e8b02b7cb566a2f7a"
+    },
+    "from": {
+      "$bytes": "25d3ddb5c76c443da9024f33ad2b9f34"
+    },
+    "to": {
+      "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0AUd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "312c799c023546d488f51d2e2168dd04"
+    },
+    "entity": {
+      "$bytes": "af0264795c294a1784b071966fc5087c"
+    },
+    "from": {
+      "$bytes": "25d3ddb5c76c443da9024f33ad2b9f34"
+    },
+    "to": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a197l"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4fc11ed9cf274e57a0b606fe330744ff"
+    },
+    "entity": {
+      "$bytes": "2c00a1930753408a93a1ff98d45ab439"
+    },
+    "from": {
+      "$bytes": "25d3ddb5c76c443da9024f33ad2b9f34"
+    },
+    "to": {
+      "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a27Yk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fdb457bcdec44f84880c975b184541be"
+    },
+    "entity": {
+      "$bytes": "7aea3602cda1476ba032b4b05830442e"
+    },
+    "from": {
+      "$bytes": "25d3ddb5c76c443da9024f33ad2b9f34"
+    },
+    "to": {
+      "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a33dQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "20bcc2c984a4468a91a25fd2f6d2ae77"
+    },
+    "entity": {
+      "$bytes": "3440c310bd95409a905c09f3d9a22c32"
+    },
+    "from": {
+      "$bytes": "25d3ddb5c76c443da9024f33ad2b9f34"
+    },
+    "to": {
+      "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a4BV7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "44ca175b33c54fdd9d7365ff240463e5"
+    },
+    "entity": {
+      "$bytes": "0c557421166f44599f4eb395e7ec08ca"
+    },
+    "from": {
+      "$bytes": "25d3ddb5c76c443da9024f33ad2b9f34"
+    },
+    "to": {
+      "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a5AgV"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aa9866c10965423ab0eabfc0c81c2c65"
+    },
+    "entity": {
+      "$bytes": "31def75490da4cbf93483791ef64685b"
+    },
+    "from": {
+      "$bytes": "25d3ddb5c76c443da9024f33ad2b9f34"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a66oW"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Actual and counterfactual proportions",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1897af8d2f3248ca848eeb0118b8089c"
+    },
+    "entity": {
+      "$bytes": "e42a790b1bff42a8a20b159d54d9870b"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02e4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "938ae1efd4344b9b80bc33eef8b8ab41"
+    },
+    "entity": {
+      "$bytes": "364441988a224bd39456fa55b7a9a9ac"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a04La"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7fe04f266fc74e89882d9f7b6f08d645"
+    },
+    "entity": {
+      "$bytes": "d36be54f09bd4d179b7bece2ad4b345c"
+    },
+    "from": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "to": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a48TX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bd5a5c5000a44d7d8a8c81b70971471c"
+    },
+    "entity": {
+      "$bytes": "391fa157eac7462b86a0ef58962b18d7"
+    },
+    "from": {
+      "$bytes": "d36be54f09bd4d179b7bece2ad4b345c"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a04NB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "111f6a865e464558a03a1c261e275b38"
+    },
+    "entity": {
+      "$bytes": "439e3dbff79441a58d4029fa6cd964d2"
+    },
+    "from": {
+      "$bytes": "d36be54f09bd4d179b7bece2ad4b345c"
+    },
+    "to": {
+      "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a03uj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b3a518b50fde4beab05b2b2efbe24d5e"
+    },
+    "entity": {
+      "$bytes": "e931cfcc58e5497098f134b8a042bda4"
+    },
+    "from": {
+      "$bytes": "d36be54f09bd4d179b7bece2ad4b345c"
+    },
+    "to": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a12Up"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3d3882d0cbd54fb88ac812cd53f21a96"
+    },
+    "entity": {
+      "$bytes": "48e4b93f24484552af90348bee820810"
+    },
+    "from": {
+      "$bytes": "d36be54f09bd4d179b7bece2ad4b345c"
+    },
+    "to": {
+      "$bytes": "73b35a4ce05f45908118a089d9995bae"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a24FB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "620a1b30e99e4d0d956fa6acb013ce36"
+    },
+    "entity": {
+      "$bytes": "1785dac17af54a22a63d74aa728d2978"
+    },
+    "from": {
+      "$bytes": "d36be54f09bd4d179b7bece2ad4b345c"
+    },
+    "to": {
+      "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a35w7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d7ac03c945f14b53b4e195ac7b111606"
+    },
+    "entity": {
+      "$bytes": "88a03c46fe184597a244d060cc8f5e99"
+    },
+    "from": {
+      "$bytes": "d36be54f09bd4d179b7bece2ad4b345c"
+    },
+    "to": {
+      "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a40tL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b76c6a3341694a6aa5e28ed799083aeb"
+    },
+    "entity": {
+      "$bytes": "8fc655cabf8e435899d73058c75e6a50"
+    },
+    "from": {
+      "$bytes": "d36be54f09bd4d179b7bece2ad4b345c"
+    },
+    "to": {
+      "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a5BGI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "81650e291ec9465bb2a2aed6800c7f66"
+    },
+    "entity": {
+      "$bytes": "33182f035231420ab2793516cfefdf54"
+    },
+    "from": {
+      "$bytes": "d36be54f09bd4d179b7bece2ad4b345c"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a68F8"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "65c3a84623724caa83a624cf80fa5fb9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading First means: interpretation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Actual and counterfactual means\n\nActual funded-group means are unadjusted. Without-funding means are estimated counterfactuals, not observed comparison-group results. The report derives counterfactuals using adjusted impacts; subtracting rounded displayed means does not reproduce every precise impact.\n\nPercentages display from numeric fractions. Other means retain their reported scores, minutes, hours or scale units. Uncertainty shown on the linked impact records applies to the impacts, not these means; mean uncertainty and per-outcome sample sizes remain unknown.\n\nBoth mean columns belong to the same study contrast, grade, follow-up and source. These tables add context to the existing impacts, not independent studies.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8c977706ddf849719ef23a343d9f8704"
+    },
+    "entity": {
+      "$bytes": "2bbda800de8f4ca9b923cd10aea0f388"
+    },
+    "from": {
+      "$bytes": "65c3a84623724caa83a624cf80fa5fb9"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AAn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8e398cd173c5408d8e43c34432c0ed9d"
+    },
+    "entity": {
+      "$bytes": "92c752891c6841c6b0b3323c2e6bad80"
+    },
+    "from": {
+      "$bytes": "02b40a84dd87410f9ad78f0481ad237a"
+    },
+    "to": {
+      "$bytes": "65c3a84623724caa83a624cf80fa5fb9"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a41VO"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5438"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5391"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "SAT 10 scaled-score points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c86ae5a2ecc44c9092d0d026cb40907e"
+    },
+    "entity": {
+      "$bytes": "79c34ba9c1384758a9771b78f2be27a2"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "f004fa2ccffa444f9daa5e36e19ab8be"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a004L"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bdab00b728f34b9fac037eb7275c4da5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "73b35a4ce05f45908118a089d9995bae"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "460"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "418"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "62a321fd8a87455485d7dc183123b6c5"
+    },
+    "entity": {
+      "$bytes": "db88c6579efa42b1beec0b045b043771"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "bdab00b728f34b9fac037eb7275c4da5"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a07zM"
+  }
+]

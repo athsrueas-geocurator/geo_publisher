@@ -1,0 +1,528 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "32aee60d0b8841e982f3fc0584346f7e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Texas Summer Bridge findings",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Randomized findings and source-reported resources from the Texas Summer Bridge evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "52dc9455bbcd428397aeba4b880cf1f0"
+    },
+    "entity": {
+      "$bytes": "848e1b18e5184fd399b8b1ef4b0a3479"
+    },
+    "from": {
+      "$bytes": "32aee60d0b8841e982f3fc0584346f7e"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03Y0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8386a5dbd31b437e8bd222129270d8dd"
+    },
+    "entity": {
+      "$bytes": "4290d9347a554d209a17e0456a870c95"
+    },
+    "from": {
+      "$bytes": "32aee60d0b8841e982f3fc0584346f7e"
+    },
+    "to": {
+      "$bytes": "9a01e3c8d25145ada294e929bdb75870"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a02z1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cd2450324f0a4f0a9ed73df59c03c6a9"
+    },
+    "entity": {
+      "$bytes": "a62e417a7b5e4627a3d4f56f6d822d48"
+    },
+    "from": {
+      "$bytes": "32aee60d0b8841e982f3fc0584346f7e"
+    },
+    "to": {
+      "$bytes": "85d44ca8fe064a72a586e7c64f9aa1bc"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05H1"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4e26c55177ad46e2a0fdfe6c439c68f5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading the findings",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "Rows reuse existing Claims; outcome significance and conditional cost-effectiveness arithmetic retain their source qualifications.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "65de58b5d0f34b72a7ca305b89fd7385"
+    },
+    "entity": {
+      "$bytes": "d4a9c9514016473ab2e7050fd3bd0cfd"
+    },
+    "from": {
+      "$bytes": "4e26c55177ad46e2a0fdfe6c439c68f5"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00cS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6a48f71659614277a59c8709a0872a79"
+    },
+    "entity": {
+      "$bytes": "044f8df581a34439abd6869f84a30103"
+    },
+    "from": {
+      "$bytes": "32aee60d0b8841e982f3fc0584346f7e"
+    },
+    "to": {
+      "$bytes": "4e26c55177ad46e2a0fdfe6c439c68f5"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a05EY"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bad1ad48e4754bf08dc516e00c97603d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Texas Summer Bridge study design",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dda8c89d84bb47a090fbd74661718d09"
+    },
+    "entity": {
+      "$bytes": "51ad6b00652b421ba16677ded105cf3b"
+    },
+    "from": {
+      "$bytes": "bad1ad48e4754bf08dc516e00c97603d"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07BS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8ef3a3686e064c5c9f1d5dddad846c59"
+    },
+    "entity": {
+      "$bytes": "fb8b84ecb5004cc8b2c96917da164eb1"
+    },
+    "from": {
+      "$bytes": "bad1ad48e4754bf08dc516e00c97603d"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a059w"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4e4196f803a844159514b82295f8f76e"
+    },
+    "entity": {
+      "$bytes": "08d54b5b67fc40f1bc3106100f4fb167"
+    },
+    "from": {
+      "$bytes": "32aee60d0b8841e982f3fc0584346f7e"
+    },
+    "to": {
+      "$bytes": "bad1ad48e4754bf08dc516e00c97603d"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a16UF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7a88a4123fd24829827f69a55898bc00"
+    },
+    "entity": {
+      "$bytes": "d56ee39d4f2145a88664c6486ec3ad70"
+    },
+    "from": {
+      "$bytes": "08d54b5b67fc40f1bc3106100f4fb167"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a09YU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2bae41c40a5e41a7923c00eceed23b05"
+    },
+    "entity": {
+      "$bytes": "98d003ba2b464dbcac574d121d3e0e65"
+    },
+    "from": {
+      "$bytes": "bad1ad48e4754bf08dc516e00c97603d"
+    },
+    "to": {
+      "$bytes": "01612581ac7e453ca396226587ca5a72"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a01hB"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "020e9d62854b44f5baffb34a5a331c8c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Texas Summer Bridge findings",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b1210c3fc3ef494daedc2a0841cbd2c6"
+    },
+    "entity": {
+      "$bytes": "5d8f0f9ed6c245f9be9d77f59b349cb4"
+    },
+    "from": {
+      "$bytes": "020e9d62854b44f5baffb34a5a331c8c"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04Nk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b0a8bd5265e14a4a90518b2addfaf767"
+    },
+    "entity": {
+      "$bytes": "2bda877a36874a4c971a13fb4761fdf3"
+    },
+    "from": {
+      "$bytes": "020e9d62854b44f5baffb34a5a331c8c"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a01eK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "76885b6f77304005bb426968b1a214f6"
+    },
+    "entity": {
+      "$bytes": "ea7b386b15dc4fac906fd6cfd052b09a"
+    },
+    "from": {
+      "$bytes": "32aee60d0b8841e982f3fc0584346f7e"
+    },
+    "to": {
+      "$bytes": "020e9d62854b44f5baffb34a5a331c8c"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a25sM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2b701c9f7e8c4e9d8bd61f86a7fdfdd7"
+    },
+    "entity": {
+      "$bytes": "832fff1fd29f4943bea9abedd1141eba"
+    },
+    "from": {
+      "$bytes": "ea7b386b15dc4fac906fd6cfd052b09a"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a04KQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "73658b3b0c1f4007a0f2cbe2eae4940e"
+    },
+    "entity": {
+      "$bytes": "8fb3f5e9b1ba4bd4ba831c041f88d656"
+    },
+    "from": {
+      "$bytes": "ea7b386b15dc4fac906fd6cfd052b09a"
+    },
+    "to": {
+      "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a09OO"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "828c72c9cb9547b5a91931c9652f4546"
+    },
+    "entity": {
+      "$bytes": "c6899629a9444ae98ad47fb505242729"
+    },
+    "from": {
+      "$bytes": "ea7b386b15dc4fac906fd6cfd052b09a"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1Bbw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "975a5fc22c264e00b80e830b28d4a5b2"
+    },
+    "entity": {
+      "$bytes": "79e575e6fedb4f89ab8cb5f39e47f9b9"
+    },
+    "from": {
+      "$bytes": "020e9d62854b44f5baffb34a5a331c8c"
+    },
+    "to": {
+      "$bytes": "d8a65b2583e641448d872f8c85208d6e"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0Aix"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9a7953c53b9248e0b4308a8d760d4121"
+    },
+    "entity": {
+      "$bytes": "52429752f2d2454fa8a0845d3e09471e"
+    },
+    "from": {
+      "$bytes": "020e9d62854b44f5baffb34a5a331c8c"
+    },
+    "to": {
+      "$bytes": "22a40b2d33c34352a5fd4fa60f870840"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a1BIP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6a570167203442cba07fac2dd1b4d687"
+    },
+    "entity": {
+      "$bytes": "58c2925577654b1aa1ff34f8c1711504"
+    },
+    "from": {
+      "$bytes": "020e9d62854b44f5baffb34a5a331c8c"
+    },
+    "to": {
+      "$bytes": "96ca6b3cbdcc4308b20865a7a1ba8039"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a211R"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2efd857180964ebfb74ce1960db05036"
+    },
+    "entity": {
+      "$bytes": "aed4cea1877340ceae379440503005b0"
+    },
+    "from": {
+      "$bytes": "020e9d62854b44f5baffb34a5a331c8c"
+    },
+    "to": {
+      "$bytes": "73e27306ea7f45559fd2865e085c9d7d"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a3But"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "72585972b4d94187bd8f59ce8afe7469"
+    },
+    "entity": {
+      "$bytes": "e6ad5df39870450988c24cb09499c261"
+    },
+    "from": {
+      "$bytes": "020e9d62854b44f5baffb34a5a331c8c"
+    },
+    "to": {
+      "$bytes": "782bbddb09874b91ae52c84d933979b4"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a4AhM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e6d6e82cec9f484cb312677fa26b6b74"
+    },
+    "entity": {
+      "$bytes": "e61bd7031c32449882207e9555ac00d5"
+    },
+    "from": {
+      "$bytes": "2279edef1bbe479c872caeb72ee90022"
+    },
+    "to": {
+      "$bytes": "32aee60d0b8841e982f3fc0584346f7e"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aLs1J0Z4"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1745ad006731498f8c87ab5836a1a061"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Education Resources Information Center (ERIC)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "ERIC indexes education research records and links to available full text. It supports source discovery and verification; it does not establish that an initiative caused an outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://ies.ed.gov/use-work/education-research-database-eric",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6ca572f39b124ec0a0cda880328f7263"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ERIC catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** Institute of Education Sciences.\n- **Access:** Public search interface and JSON API; use bounded query exports.\n- **Unit:** Bibliographic research record.\n- **Coverage:** 1966 onward; continuously indexed.\n- **Geography:** Study-dependent.\n- **Join keys:** ERIC number, DOI, title, authors, and publication year.\n- **Contents:** Citation metadata, abstracts, descriptors, publication type, and full-text links when available.\n- **Uses:** Evidence discovery, source verification, and research-synthesis discovery.\n\nERIC is discovery metadata, not an intervention-outcome dataset. Preserve the query and retrieval date for each bounded export, and cite the underlying study when publishing a factual claim.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "81c40e323f46430493ffc4f9f51cb4e3"
+    },
+    "entity": {
+      "$bytes": "1086f4cab8374ca599cfe64a2d981b3d"
+    },
+    "from": {
+      "$bytes": "1745ad006731498f8c87ab5836a1a061"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05mj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a59412fccef74a58a3ecbe3bab4921e6"
+    },
+    "entity": {
+      "$bytes": "dd75a2faf45645ba9208634e2dea972c"
+    },
+    "from": {
+      "$bytes": "6ca572f39b124ec0a0cda880328f7263"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00NQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4fc1d038e63548c28ce81c6bbb5c3dbd"
+    },
+    "entity": {
+      "$bytes": "05c882c5ed1d40308a08584412565577"
+    },
+    "from": {
+      "$bytes": "1745ad006731498f8c87ab5836a1a061"
+    },
+    "to": {
+      "$bytes": "6ca572f39b124ec0a0cda880328f7263"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a00wT"
+  }
+]

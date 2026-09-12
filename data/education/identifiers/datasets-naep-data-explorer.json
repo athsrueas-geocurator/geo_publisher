@@ -1,0 +1,32 @@
+{
+  "sourceKey": "datasets/naep-data-explorer",
+  "checkedAt": "2026-09-11T17:56:13.534Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://nces.ed.gov/nationsreportcard/about/naeptools.aspx",
+      "needle": "nces.ed.gov/nationsreportcard/about/naeptools.aspx",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    },
+    {
+      "url": "https://nces.ed.gov/nationsreportcard/naepdata/",
+      "needle": "nces.ed.gov/nationsreportcard/naepdata",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

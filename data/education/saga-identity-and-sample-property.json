@@ -1,0 +1,35 @@
+{
+  "data": {
+    "entity": {
+      "id": "157cfd818d4a45caa19904905e4dae81",
+      "relations": {
+        "nodes": [
+          {
+            "type": {
+              "name": "Types"
+            },
+            "toEntity": {
+              "id": "808a04ceb21c4d888ad12e240613e5ca",
+              "name": "Property"
+            }
+          },
+          {
+            "type": {
+              "name": "Data type"
+            },
+            "toEntity": {
+              "id": "9edb6fcce4544aa5861139d7f024c010",
+              "name": "Text"
+            }
+          }
+        ]
+      }
+    },
+    "valuesConnection": {
+      "nodes": [],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  }
+}

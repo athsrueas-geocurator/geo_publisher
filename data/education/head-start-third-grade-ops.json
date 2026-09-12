@@ -1,0 +1,496 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Third Grade Follow-up to the Head Start Impact Study: Final Report",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2012 federal follow-up of the Head Start randomized study, reporting outcomes through the end of third grade.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://acf.gov/sites/default/files/documents/opre/head_start_report_0.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c7073e6964134736a5f30e135fdfcdda"
+    },
+    "entity": {
+      "$bytes": "150ffe8fe990488784cb23f901923378"
+    },
+    "from": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09fc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "237c9596c7604dfa8efc0cb6eca9cd88"
+    },
+    "entity": {
+      "$bytes": "b9710cf110234622a4158892cf321dad"
+    },
+    "from": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "to": {
+      "$bytes": "a0d0dfad77074f10a028bf89ccebb17f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09SS"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c7ede29bb16543889aee96049231a4c6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The third-grade Head Start follow-up found improved preschool outcomes across developmental domains but few impacts from kindergarten through third grade.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report summarizes the randomized access comparison over the full study period. “Few impacts” does not mean every outcome or subgroup was unchanged, and the comparison group had access to other care arrangements.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3756a2e2f1c04ca3943543760f19e053"
+    },
+    "entity": {
+      "$bytes": "855c4154ded2451bb122c4bc65f3a5a7"
+    },
+    "from": {
+      "$bytes": "c7ede29bb16543889aee96049231a4c6"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09h6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cd44f905af7a4f2db0f5065a59863009"
+    },
+    "entity": {
+      "$bytes": "fe68e0a808ff4109b27de8d4968b5c04"
+    },
+    "from": {
+      "$bytes": "c7ede29bb16543889aee96049231a4c6"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a007Q"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "41178eb72b614195be6ef6bb49cd2e16"
+    },
+    "entity": {
+      "$bytes": "2d5af3d235364330b8f55c889cebae37"
+    },
+    "from": {
+      "$bytes": "c7ede29bb16543889aee96049231a4c6"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00Rb"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "de18d815ba324aa188876b4e885ea725"
+    },
+    "entity": {
+      "$bytes": "96fef20eba034d0490e44dd84334fea7"
+    },
+    "from": {
+      "$bytes": "c7ede29bb16543889aee96049231a4c6"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a04Hy"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3baa1b53af0a436e815ea94e75cb4082"
+    },
+    "entity": {
+      "$bytes": "5c781e82d2674e54a54bdb709d1b633d"
+    },
+    "from": {
+      "$bytes": "c7ede29bb16543889aee96049231a4c6"
+    },
+    "to": {
+      "$bytes": "88d4b6e4b5f84305b2a302f803ef9e6a"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a07MP"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "68b02f7a1980436e9bdb6fd908278a5c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The third-grade Head Start follow-up reports that modest early language and literacy effects left one impact in each age cohort by the end of third grade.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This source-specific follow-up statement preserves the report’s cohort structure and its distinction between early effects and third-grade measurement. It is not a claim about unmeasured later-life outcomes.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1397a703bb7c4260965bfa854a2308a9"
+    },
+    "entity": {
+      "$bytes": "09c278b714334ef398983a66f5e435ad"
+    },
+    "from": {
+      "$bytes": "68b02f7a1980436e9bdb6fd908278a5c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04J7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4a2b94a82ae44c0e9ac3970d189af6a8"
+    },
+    "entity": {
+      "$bytes": "03e7e6090d4d4cb6a2dc29caaaf59ff3"
+    },
+    "from": {
+      "$bytes": "68b02f7a1980436e9bdb6fd908278a5c"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08Oz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ffb2d8929bfe4083aa30a671789154dd"
+    },
+    "entity": {
+      "$bytes": "0d2ac4a8bb8e42fba81fa85f09988913"
+    },
+    "from": {
+      "$bytes": "68b02f7a1980436e9bdb6fd908278a5c"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09lH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "abd3e4c1c78540c499d8d60e1afe68fc"
+    },
+    "entity": {
+      "$bytes": "7c5293a4d13c4130ac080623c7d0e28e"
+    },
+    "from": {
+      "$bytes": "68b02f7a1980436e9bdb6fd908278a5c"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a09AP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "483d3b719c5449c592b3b78d37e45fcc"
+    },
+    "entity": {
+      "$bytes": "fe7c0e534e8b4f759a474b718f2d29c0"
+    },
+    "from": {
+      "$bytes": "68b02f7a1980436e9bdb6fd908278a5c"
+    },
+    "to": {
+      "$bytes": "88d4b6e4b5f84305b2a302f803ef9e6a"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a03iH"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "738352627e694053ae6d7384d7293d01"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The third-grade Head Start follow-up found that social-emotional results differed by age cohort and by whether parents, teachers or children reported them.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report describes favorable and unfavorable findings for different reporters and cohorts. Do not aggregate these into one universal social-emotional effect or treat reporter differences as a contradiction without outcome-level review.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b7c827d143a54c95aa52ae27a0da3c22"
+    },
+    "entity": {
+      "$bytes": "34f625c7d60c46e1833b2a2aad53c598"
+    },
+    "from": {
+      "$bytes": "738352627e694053ae6d7384d7293d01"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08N3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2578757fd80b47db8ac342d00e51e05f"
+    },
+    "entity": {
+      "$bytes": "bde1ee1ec96e483a99a1c6cdb6653d0d"
+    },
+    "from": {
+      "$bytes": "738352627e694053ae6d7384d7293d01"
+    },
+    "to": {
+      "$bytes": "c183f28d3bc34439b797138e50d5c1f3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06af"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "80368f798d7c4e0b8fa3fc3ac84ed0e4"
+    },
+    "entity": {
+      "$bytes": "3cb2245534fc40f299d45d01e0f72cb9"
+    },
+    "from": {
+      "$bytes": "738352627e694053ae6d7384d7293d01"
+    },
+    "to": {
+      "$bytes": "d03b32bd416443e49b9aa376e744cb03"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Ax0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3c32ddbc9f7744549bb5ac72c5b33967"
+    },
+    "entity": {
+      "$bytes": "700a555cd1e14bf3b860f81974da3805"
+    },
+    "from": {
+      "$bytes": "738352627e694053ae6d7384d7293d01"
+    },
+    "to": {
+      "$bytes": "0df9fad9098d4b11bacb9af0f7a79182"
+    },
+    "relationType": {
+      "$bytes": "806d52bc27e94c9193c057978b093351"
+    },
+    "position": "a005O"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "35841295566e4cbead4a6a74091f1933"
+    },
+    "entity": {
+      "$bytes": "7f66ad5deda24986b4cf450ba41e4651"
+    },
+    "from": {
+      "$bytes": "738352627e694053ae6d7384d7293d01"
+    },
+    "to": {
+      "$bytes": "88d4b6e4b5f84305b2a302f803ef9e6a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07DR"
+  }
+]

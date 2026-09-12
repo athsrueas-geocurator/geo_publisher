@@ -1,0 +1,36 @@
+{
+  "name": "Repair STAR modeled-return Claims with actual estimates",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/star-return-claim-copy-ops.json",
+  "sha256": "32eed2e4ad5bffb038688535a4f32da1efe9092c05a8e34f51465f2276d96af0",
+  "journalPath": "data/education/star-return-claim-copy-publication.json",
+  "validationPath": "data/education/star-return-claim-copy-validation.json",
+  "repairs": [
+    {
+      "id": "3e69566289c14f80b6fb19a84a0300e4",
+      "old": "STAR modeled real return: 0% annual wage growth",
+      "name": "STAR's modeled real annual internal return is 5.2% when assumed real wage growth is 0%.",
+      "description": "This author-modeled class-size calculation projects earnings over ages 18–65; it is not an observed investment return or a confidence bound.",
+      "irr": 0.052,
+      "growth": 0
+    },
+    {
+      "id": "6db38a6c620f4ca1bc2452137457d686",
+      "old": "STAR modeled real return: 1% annual wage growth",
+      "name": "STAR's modeled real annual internal return is 6.2% when assumed real wage growth is 1%.",
+      "description": "This author-modeled class-size calculation projects earnings over ages 18–65; it is not an observed investment return or a confidence bound.",
+      "irr": 0.062,
+      "growth": 0.01
+    },
+    {
+      "id": "cc14cee1099d4271841287a2455d9045",
+      "old": "STAR modeled real return: 2% annual wage growth",
+      "name": "STAR's modeled real annual internal return is 7.3% when assumed real wage growth is 2%.",
+      "description": "This author-modeled class-size calculation projects earnings over ages 18–65; it is not an observed investment return or a confidence bound.",
+      "irr": 0.073,
+      "growth": 0.02
+    }
+  ],
+  "operationCount": 3
+}

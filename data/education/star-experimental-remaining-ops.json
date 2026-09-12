@@ -1,0 +1,2053 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "831a394e674a4826b8343d205df764d6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR kindergarten: regular class with full-time aide assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "53"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "109"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "5861"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "percentile points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "End of kindergarten",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "reduced-form initial class-type assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V, column 7, panel A, p. 512",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3f4ccb21434c4746a69cf4ce59f6bb78"
+    },
+    "entity": {
+      "$bytes": "407cbc2ecb524cec88cb58dbea30f96c"
+    },
+    "from": {
+      "$bytes": "831a394e674a4826b8343d205df764d6"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03A5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9caf7ef6f70f4a5ba0c75539e1c5e583"
+    },
+    "entity": {
+      "$bytes": "f625db076a6d4d3aa938041555532f6a"
+    },
+    "from": {
+      "$bytes": "831a394e674a4826b8343d205df764d6"
+    },
+    "to": {
+      "$bytes": "32ef1b9c498b42c18725f72a93fd2917"
+    },
+    "relationType": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "position": "a0BNS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5a5b1678eb2d48d0aab3dbc530c0f4a0"
+    },
+    "entity": {
+      "$bytes": "e37687a816fa4acfa2047a834ad84e0d"
+    },
+    "from": {
+      "$bytes": "831a394e674a4826b8343d205df764d6"
+    },
+    "to": {
+      "$bytes": "04cc2815daee4657879fd16d5cbec2b2"
+    },
+    "relationType": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "position": "a04sn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6a9be48b83cf47f6babb0d5f7d04a67c"
+    },
+    "entity": {
+      "$bytes": "b8012d84a13e4bd5bf7e6a2dc70936e3"
+    },
+    "from": {
+      "$bytes": "831a394e674a4826b8343d205df764d6"
+    },
+    "to": {
+      "$bytes": "4fcc10047b6648f9a9d3aa077e33aadf"
+    },
+    "relationType": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "position": "a02hi"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "362cd88f73af4e34a496f68e1d378204"
+    },
+    "entity": {
+      "$bytes": "58a0f59c1514442d808af79a2e09e7fa"
+    },
+    "from": {
+      "$bytes": "831a394e674a4826b8343d205df764d6"
+    },
+    "to": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a035H"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b6b3aee3ff964c939d36c0976b2046a4"
+    },
+    "entity": {
+      "$bytes": "d43099d86611465ca9458244c7d5422d"
+    },
+    "from": {
+      "$bytes": "831a394e674a4826b8343d205df764d6"
+    },
+    "to": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04wy"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1dda05244e094d4580bb628b3fdea1ea"
+    },
+    "entity": {
+      "$bytes": "8cd9beef82ae438e8623531c2118dedd"
+    },
+    "from": {
+      "$bytes": "831a394e674a4826b8343d205df764d6"
+    },
+    "to": {
+      "$bytes": "b753211b9fd6470b8bb0ed709b97b789"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a05b0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e039fb345e2e45fca07f421f236d4079"
+    },
+    "entity": {
+      "$bytes": "5d9b43d47a144f809542555e4c7a8386"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "831a394e674a4826b8343d205df764d6"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a04gh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a1b9618977cf462784f02e7f1e6194b1"
+    },
+    "entity": {
+      "$bytes": "5da932ba7b564c9c83909a769282f3ec"
+    },
+    "from": {
+      "$bytes": "8de2afc87d99401b99c6db5e8d25460b"
+    },
+    "to": {
+      "$bytes": "831a394e674a4826b8343d205df764d6"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "88a750e93ad64f5784a62644f8f4a9db"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR grade 1: small class assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "679"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "11"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "6452"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "percentile points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "End of grade 1",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "reduced-form initial class-type assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V, column 7, panel B, p. 512",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0ff4e23723104a9eba282a3ef8267fd5"
+    },
+    "entity": {
+      "$bytes": "8989775b3e694ba39222e4ca4290b48c"
+    },
+    "from": {
+      "$bytes": "88a750e93ad64f5784a62644f8f4a9db"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Axa"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cfd3a8bb7e4a48d6bb468ae668a53ecc"
+    },
+    "entity": {
+      "$bytes": "720ee6b7b2754252b8183bdd37b5c755"
+    },
+    "from": {
+      "$bytes": "88a750e93ad64f5784a62644f8f4a9db"
+    },
+    "to": {
+      "$bytes": "c66d539b68a54250889bee59b97fcfc0"
+    },
+    "relationType": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "position": "a0CJF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ce0be4c7683b4468b7e16d0f533a8097"
+    },
+    "entity": {
+      "$bytes": "0b355fd995224fd4b1f7199f87bb9584"
+    },
+    "from": {
+      "$bytes": "88a750e93ad64f5784a62644f8f4a9db"
+    },
+    "to": {
+      "$bytes": "9c49d94122dc4f54b9311d20b9b10c33"
+    },
+    "relationType": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "position": "a0A5r"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0d335e8a6cb24605b53c80d8a2437d96"
+    },
+    "entity": {
+      "$bytes": "738c39ebeec243bca2e5895b7ff5259e"
+    },
+    "from": {
+      "$bytes": "88a750e93ad64f5784a62644f8f4a9db"
+    },
+    "to": {
+      "$bytes": "4fcc10047b6648f9a9d3aa077e33aadf"
+    },
+    "relationType": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "position": "a07Wq"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "937018906f4b47fbbcb0017ab02ec00e"
+    },
+    "entity": {
+      "$bytes": "0c9b549c5ffe4fb98231c681e87d083b"
+    },
+    "from": {
+      "$bytes": "88a750e93ad64f5784a62644f8f4a9db"
+    },
+    "to": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a00jM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4caf32f32daf4c258c2f2e3ff78cfb9f"
+    },
+    "entity": {
+      "$bytes": "f09430a169c049988d580db94e66130b"
+    },
+    "from": {
+      "$bytes": "88a750e93ad64f5784a62644f8f4a9db"
+    },
+    "to": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01L2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "776559f09b064a41afe68a2871765a03"
+    },
+    "entity": {
+      "$bytes": "686ce611f0744c63ae1a3d47d645a48e"
+    },
+    "from": {
+      "$bytes": "88a750e93ad64f5784a62644f8f4a9db"
+    },
+    "to": {
+      "$bytes": "b753211b9fd6470b8bb0ed709b97b789"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a0ACQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "48f38e351abf487696f0f41a3eb43385"
+    },
+    "entity": {
+      "$bytes": "481d4746942944e4911473281994bf65"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "88a750e93ad64f5784a62644f8f4a9db"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a05V3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bc19ce5427d14b48ab6241255781ec7f"
+    },
+    "entity": {
+      "$bytes": "b5547c0566c643cc96b5da6ac7fc060d"
+    },
+    "from": {
+      "$bytes": "8de2afc87d99401b99c6db5e8d25460b"
+    },
+    "to": {
+      "$bytes": "88a750e93ad64f5784a62644f8f4a9db"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c234b1291e90415b9fa31a9f02782339"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR grade 1: regular class with full-time aide assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "164"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "76"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "6452"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "percentile points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "End of grade 1",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "reduced-form initial class-type assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V, column 7, panel B, p. 512",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "47247bf1147940b0bd7ffe0e495ee537"
+    },
+    "entity": {
+      "$bytes": "772d67cab6024622b9230542be6e60aa"
+    },
+    "from": {
+      "$bytes": "c234b1291e90415b9fa31a9f02782339"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02hM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ad37642d510c459cb0c33e956bf7f8e4"
+    },
+    "entity": {
+      "$bytes": "bef32e6fa12d4877a38fb585948526ac"
+    },
+    "from": {
+      "$bytes": "c234b1291e90415b9fa31a9f02782339"
+    },
+    "to": {
+      "$bytes": "c66d539b68a54250889bee59b97fcfc0"
+    },
+    "relationType": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "position": "a08Pc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3a559e431619494eb401c079ebf933dd"
+    },
+    "entity": {
+      "$bytes": "2ee7355f1dca4ba6a91600a61b5bb8b9"
+    },
+    "from": {
+      "$bytes": "c234b1291e90415b9fa31a9f02782339"
+    },
+    "to": {
+      "$bytes": "04cc2815daee4657879fd16d5cbec2b2"
+    },
+    "relationType": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "position": "a04pr"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "270e0e640c2e4f0986affce865b6de08"
+    },
+    "entity": {
+      "$bytes": "7511fc16dfd243e08a58ac51267c5aad"
+    },
+    "from": {
+      "$bytes": "c234b1291e90415b9fa31a9f02782339"
+    },
+    "to": {
+      "$bytes": "4fcc10047b6648f9a9d3aa077e33aadf"
+    },
+    "relationType": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "position": "a07j2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "52cca3f97c014e2f9dc3cb5cc0525d89"
+    },
+    "entity": {
+      "$bytes": "09fe491a28364cefb773619f33f9116f"
+    },
+    "from": {
+      "$bytes": "c234b1291e90415b9fa31a9f02782339"
+    },
+    "to": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a025O"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "46f50cbc2c4d4c61900cfc719b3ab3cf"
+    },
+    "entity": {
+      "$bytes": "a5743d77bfdf4ba3bfc49394296d4de9"
+    },
+    "from": {
+      "$bytes": "c234b1291e90415b9fa31a9f02782339"
+    },
+    "to": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Bjz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7aa25445dfcc421e926008641795f7c0"
+    },
+    "entity": {
+      "$bytes": "203b54d62a2449b3980dc7027d8715ad"
+    },
+    "from": {
+      "$bytes": "c234b1291e90415b9fa31a9f02782339"
+    },
+    "to": {
+      "$bytes": "b753211b9fd6470b8bb0ed709b97b789"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a0AbA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "735b721412ff4a4baa2171530aec0620"
+    },
+    "entity": {
+      "$bytes": "a86c67ad7a164bd4a6fbcc3852272951"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "c234b1291e90415b9fa31a9f02782339"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a0Bnk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "43d2b1067fd4486c93e108b03927e818"
+    },
+    "entity": {
+      "$bytes": "3b4c261bea2b46a9aa0db37cf7dcf2da"
+    },
+    "from": {
+      "$bytes": "8de2afc87d99401b99c6db5e8d25460b"
+    },
+    "to": {
+      "$bytes": "c234b1291e90415b9fa31a9f02782339"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a3"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "939d786645e44217b3c435ca3a0c2b6b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR grade 2: small class assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "527"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "11"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "5950"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "percentile points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "End of grade 2",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "reduced-form initial class-type assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V, column 7, panel C, p. 513",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "22120377f8914c418593ea166e42599c"
+    },
+    "entity": {
+      "$bytes": "28f331988dc5459dbfe0487427bf794d"
+    },
+    "from": {
+      "$bytes": "939d786645e44217b3c435ca3a0c2b6b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04w7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c1854a7816584e3b87af8267812e9850"
+    },
+    "entity": {
+      "$bytes": "4f19aa3143df41edb675253b3189c088"
+    },
+    "from": {
+      "$bytes": "939d786645e44217b3c435ca3a0c2b6b"
+    },
+    "to": {
+      "$bytes": "74a01717791841c3beef132e8e5cec4e"
+    },
+    "relationType": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "position": "a0B56"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "06f6a8c05dd44a9c8cba9f2082cada00"
+    },
+    "entity": {
+      "$bytes": "6410260062124408ad8248e9c4d0b28b"
+    },
+    "from": {
+      "$bytes": "939d786645e44217b3c435ca3a0c2b6b"
+    },
+    "to": {
+      "$bytes": "9c49d94122dc4f54b9311d20b9b10c33"
+    },
+    "relationType": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "position": "a09wK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "da33cd6b63a54d6193b08cff536f0555"
+    },
+    "entity": {
+      "$bytes": "7432eb7170a0435999a26c8e25264911"
+    },
+    "from": {
+      "$bytes": "939d786645e44217b3c435ca3a0c2b6b"
+    },
+    "to": {
+      "$bytes": "4fcc10047b6648f9a9d3aa077e33aadf"
+    },
+    "relationType": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "position": "a02Kt"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3b2d2772b2394f2aab9616a0dff63fd3"
+    },
+    "entity": {
+      "$bytes": "552fdf6d159d4f2a9789ea2696bfa7e4"
+    },
+    "from": {
+      "$bytes": "939d786645e44217b3c435ca3a0c2b6b"
+    },
+    "to": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05H1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e8da80990a2845ada641837a8f375026"
+    },
+    "entity": {
+      "$bytes": "51b10a71db6d4e8684b25f9e3b7497ba"
+    },
+    "from": {
+      "$bytes": "939d786645e44217b3c435ca3a0c2b6b"
+    },
+    "to": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07qC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b90164a4846b4430b08c37053db6707b"
+    },
+    "entity": {
+      "$bytes": "e619118eec88412684a1aa71b85894ec"
+    },
+    "from": {
+      "$bytes": "939d786645e44217b3c435ca3a0c2b6b"
+    },
+    "to": {
+      "$bytes": "b753211b9fd6470b8bb0ed709b97b789"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a01wz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e18b23e58948476e943f44af29977d96"
+    },
+    "entity": {
+      "$bytes": "eaef0ccc484d459bac2a39d728e82558"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "939d786645e44217b3c435ca3a0c2b6b"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a0632"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1280a747852349e6933020fcd7fa2e73"
+    },
+    "entity": {
+      "$bytes": "7cd0e06d466a47528a6e93407b0357da"
+    },
+    "from": {
+      "$bytes": "8de2afc87d99401b99c6db5e8d25460b"
+    },
+    "to": {
+      "$bytes": "939d786645e44217b3c435ca3a0c2b6b"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a4"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a06f616cfe594329b80245b88960a5e5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR grade 2: regular class with full-time aide assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "116"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "81"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "5950"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "percentile points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "End of grade 2",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "reduced-form initial class-type assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V, column 7, panel C, p. 513",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d6b1f735f2104e1fa31377b6e3960079"
+    },
+    "entity": {
+      "$bytes": "dd8c47e7028b45a4bff920032feb958c"
+    },
+    "from": {
+      "$bytes": "a06f616cfe594329b80245b88960a5e5"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07W4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8a2fb4cb0bce4ea1b4a1676a7895b8e4"
+    },
+    "entity": {
+      "$bytes": "5838b301979f469f8422fdbe7be09439"
+    },
+    "from": {
+      "$bytes": "a06f616cfe594329b80245b88960a5e5"
+    },
+    "to": {
+      "$bytes": "74a01717791841c3beef132e8e5cec4e"
+    },
+    "relationType": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "position": "a0BE1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ff79f8d3191840a1a8b62b990813f016"
+    },
+    "entity": {
+      "$bytes": "8f3a8409924941f9b812c92fba44c859"
+    },
+    "from": {
+      "$bytes": "a06f616cfe594329b80245b88960a5e5"
+    },
+    "to": {
+      "$bytes": "04cc2815daee4657879fd16d5cbec2b2"
+    },
+    "relationType": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "position": "a01s7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "26330d2d700d4940a862751abe6fd7fb"
+    },
+    "entity": {
+      "$bytes": "a7f19c7522894281a2f22650f57c8d51"
+    },
+    "from": {
+      "$bytes": "a06f616cfe594329b80245b88960a5e5"
+    },
+    "to": {
+      "$bytes": "4fcc10047b6648f9a9d3aa077e33aadf"
+    },
+    "relationType": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "position": "a00ng"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e09ed01db33f45be9f3353882d37faf1"
+    },
+    "entity": {
+      "$bytes": "0f5ff3b4b985471c86e53b6e9d3acf05"
+    },
+    "from": {
+      "$bytes": "a06f616cfe594329b80245b88960a5e5"
+    },
+    "to": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03Eu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9febbc43aadb43179fa90ddd059ee7f1"
+    },
+    "entity": {
+      "$bytes": "784d1209543b451e8741caa0705af743"
+    },
+    "from": {
+      "$bytes": "a06f616cfe594329b80245b88960a5e5"
+    },
+    "to": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03rr"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a5510984b62f49b2b18ba13ae2bc0732"
+    },
+    "entity": {
+      "$bytes": "855e2ac54f1e418fa8c95bd50b6f64fa"
+    },
+    "from": {
+      "$bytes": "a06f616cfe594329b80245b88960a5e5"
+    },
+    "to": {
+      "$bytes": "b753211b9fd6470b8bb0ed709b97b789"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a05tA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "74a9a84d888f461ab5771d2f8d987c77"
+    },
+    "entity": {
+      "$bytes": "3578e0f5c5be43488cb05eea19eef92f"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "a06f616cfe594329b80245b88960a5e5"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a05sW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e138c569230d4167851f2d02de9185c1"
+    },
+    "entity": {
+      "$bytes": "8a64c1a4cf9645d58b720deea73a3824"
+    },
+    "from": {
+      "$bytes": "8de2afc87d99401b99c6db5e8d25460b"
+    },
+    "to": {
+      "$bytes": "a06f616cfe594329b80245b88960a5e5"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a5"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1712d6b99fdd4e2cb6bea8bee28d61a3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR grade 3: small class assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "53"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "103"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "6109"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "percentile points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "End of grade 3",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "reduced-form initial class-type assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V, column 7, panel D, p. 513",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6d11b1e78c4a4344bd27cd78407286dc"
+    },
+    "entity": {
+      "$bytes": "3c1b8808b85141f8bec9b005faed3b53"
+    },
+    "from": {
+      "$bytes": "1712d6b99fdd4e2cb6bea8bee28d61a3"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04oY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "807eb7033b11426aae8c98e29baf74b0"
+    },
+    "entity": {
+      "$bytes": "f428dbc22df1458f98ff438784198305"
+    },
+    "from": {
+      "$bytes": "1712d6b99fdd4e2cb6bea8bee28d61a3"
+    },
+    "to": {
+      "$bytes": "6fc7ceeb03bf486da5b79bb3874b46ef"
+    },
+    "relationType": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "position": "a04FP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d8f255ce088247e29d56a49101111c74"
+    },
+    "entity": {
+      "$bytes": "f60d97c7341d4f7db46f494e865717ae"
+    },
+    "from": {
+      "$bytes": "1712d6b99fdd4e2cb6bea8bee28d61a3"
+    },
+    "to": {
+      "$bytes": "9c49d94122dc4f54b9311d20b9b10c33"
+    },
+    "relationType": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "position": "a03ln"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5bb88e9e4adb41a38b2a790de898755e"
+    },
+    "entity": {
+      "$bytes": "a7356fe91ae64cb79f21f7c60342a82c"
+    },
+    "from": {
+      "$bytes": "1712d6b99fdd4e2cb6bea8bee28d61a3"
+    },
+    "to": {
+      "$bytes": "4fcc10047b6648f9a9d3aa077e33aadf"
+    },
+    "relationType": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "position": "a05TZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5312edf8249440219ecabfa5f2ed3ba4"
+    },
+    "entity": {
+      "$bytes": "5d4f30c49e7345aea623dca295815f9a"
+    },
+    "from": {
+      "$bytes": "1712d6b99fdd4e2cb6bea8bee28d61a3"
+    },
+    "to": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0AJL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a616d7f8d95c43fb8d228618e49cc6bd"
+    },
+    "entity": {
+      "$bytes": "cab5af3fcfb24142aa42a5c132e3c478"
+    },
+    "from": {
+      "$bytes": "1712d6b99fdd4e2cb6bea8bee28d61a3"
+    },
+    "to": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0CCX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c5b03eaef3714c5eab3cb3473edb1a7a"
+    },
+    "entity": {
+      "$bytes": "e45e1f50aa884e048ec9b4de6f97be71"
+    },
+    "from": {
+      "$bytes": "1712d6b99fdd4e2cb6bea8bee28d61a3"
+    },
+    "to": {
+      "$bytes": "b753211b9fd6470b8bb0ed709b97b789"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a08Hk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e855f64af0854b4f83d32d664c53df56"
+    },
+    "entity": {
+      "$bytes": "00eadae734e14a4b9fd970e3dcceddd3"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "1712d6b99fdd4e2cb6bea8bee28d61a3"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a01a3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ec9112c0a5564339bee9fd48f41174cb"
+    },
+    "entity": {
+      "$bytes": "c66ba5790c884afdaec901196d989c1e"
+    },
+    "from": {
+      "$bytes": "8de2afc87d99401b99c6db5e8d25460b"
+    },
+    "to": {
+      "$bytes": "1712d6b99fdd4e2cb6bea8bee28d61a3"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a6"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "28500731d7ea47869b219483710e0b1c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR grade 3: regular class with full-time aide assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "13"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "81"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "6109"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "percentile points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "End of grade 3",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "reduced-form initial class-type assignment effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V, column 7, panel D, p. 513",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1614e79918974def8e93c7eb54de22f8"
+    },
+    "entity": {
+      "$bytes": "8f688dc236a24c3d8accd2e3fcb9a1d5"
+    },
+    "from": {
+      "$bytes": "28500731d7ea47869b219483710e0b1c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a064K"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1cca2f9c65034c47a9b9002c83a60755"
+    },
+    "entity": {
+      "$bytes": "2f7d027a97484f3cbb45dae336450628"
+    },
+    "from": {
+      "$bytes": "28500731d7ea47869b219483710e0b1c"
+    },
+    "to": {
+      "$bytes": "6fc7ceeb03bf486da5b79bb3874b46ef"
+    },
+    "relationType": {
+      "$bytes": "98c0849922164db0822b5a78444c17b3"
+    },
+    "position": "a04bH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "86fdae1931d24b409551abca846d202c"
+    },
+    "entity": {
+      "$bytes": "226a9bf4151d4380838a9712817e17bb"
+    },
+    "from": {
+      "$bytes": "28500731d7ea47869b219483710e0b1c"
+    },
+    "to": {
+      "$bytes": "04cc2815daee4657879fd16d5cbec2b2"
+    },
+    "relationType": {
+      "$bytes": "a0109f6192b1414fa93fb756779643ed"
+    },
+    "position": "a003y"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b7dd13adc13b4ff787b82256d54f66a8"
+    },
+    "entity": {
+      "$bytes": "8f17e3c136d0474eabae1efde3d952c5"
+    },
+    "from": {
+      "$bytes": "28500731d7ea47869b219483710e0b1c"
+    },
+    "to": {
+      "$bytes": "4fcc10047b6648f9a9d3aa077e33aadf"
+    },
+    "relationType": {
+      "$bytes": "061dbc4816b0413b83ebe771ef3d9875"
+    },
+    "position": "a02fs"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "67d29408b9a443a0b38506d8c1cad292"
+    },
+    "entity": {
+      "$bytes": "e3c75d6066ad4363947ef6ab5a3dfbc5"
+    },
+    "from": {
+      "$bytes": "28500731d7ea47869b219483710e0b1c"
+    },
+    "to": {
+      "$bytes": "d68c6d1d10af47418fc80ed09d4e097f"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07tp"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "519de208b9c34bdfb9f9b8d1f7d6389c"
+    },
+    "entity": {
+      "$bytes": "aa365d68441f498b92d1c78e6c6b297c"
+    },
+    "from": {
+      "$bytes": "28500731d7ea47869b219483710e0b1c"
+    },
+    "to": {
+      "$bytes": "efdefdaf3fbd4d02bd44228882c09359"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05q7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "785cfeaf562f49738af17b8c50d609f6"
+    },
+    "entity": {
+      "$bytes": "058f19d99b414fe1abd2ef98c9670df2"
+    },
+    "from": {
+      "$bytes": "28500731d7ea47869b219483710e0b1c"
+    },
+    "to": {
+      "$bytes": "b753211b9fd6470b8bb0ed709b97b789"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a02AC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c780a4b94e614007b3c030035a457886"
+    },
+    "entity": {
+      "$bytes": "a3379244ae4440f2a2715416cd8de316"
+    },
+    "from": {
+      "$bytes": "9220554acfd249a18920b301dcbb6cf0"
+    },
+    "to": {
+      "$bytes": "28500731d7ea47869b219483710e0b1c"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a0ATu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8020161cdf2f4b6eb47b78b47f08ed61"
+    },
+    "entity": {
+      "$bytes": "f0101017aa26410fbe16cbe0afe3d35d"
+    },
+    "from": {
+      "$bytes": "8de2afc87d99401b99c6db5e8d25460b"
+    },
+    "to": {
+      "$bytes": "28500731d7ea47869b219483710e0b1c"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a7"
+  }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "049614ea288941cabd7aed7bc67bf596"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Incentives, Selection, and Teacher Performance: Evidence from IMPACT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Thomas Dee and James Wyckoff's October 2013 NBER working paper examines teacher retention and performance around DCPS IMPACT rating thresholds using regression discontinuity.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.nber.org/papers/w19529",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.3386/w19529",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "efe8567cf23e4fafb8da9eae04b65f35"
+    },
+    "entity": {
+      "$bytes": "6f165a39a65e42dbbfd1d608a2b5e3d2"
+    },
+    "from": {
+      "$bytes": "049614ea288941cabd7aed7bc67bf596"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0ed2e122cee541dc93a075aeca9feace"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "DC IMPACT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "District of Columbia Public Schools' evaluation and feedback system for school-based personnel, introduced in 2009. It combines multiple measures of performance with feedback and personnel incentives.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://dcps.dc.gov/node/976262",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "dc-impact-teacher-evaluation-with-consequences",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "457c6c868618468fae603a8416d92c68"
+    },
+    "entity": {
+      "$bytes": "0dff3f9829a14b89a67f5ebb9a8fb5ff"
+    },
+    "from": {
+      "$bytes": "0ed2e122cee541dc93a075aeca9feace"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1dbcd6ed0592406c860efbdfcf565269"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Thomas Dee",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6da314c9ab9b434abac1156a479ca7d8"
+    },
+    "entity": {
+      "$bytes": "e7525edd154444c38f42b3b3768afbb6"
+    },
+    "from": {
+      "$bytes": "1dbcd6ed0592406c860efbdfcf565269"
+    },
+    "to": {
+      "$bytes": "7ed45f2bc48b419e8e4664d5ff680b0d"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "65048615c06e4153afed16aa506d8181"
+    },
+    "entity": {
+      "$bytes": "34ab0b020ef24f8fb1f1956b9af09ad1"
+    },
+    "from": {
+      "$bytes": "049614ea288941cabd7aed7bc67bf596"
+    },
+    "to": {
+      "$bytes": "1dbcd6ed0592406c860efbdfcf565269"
+    },
+    "relationType": {
+      "$bytes": "91a9e2f6e51a48f7997661de8561b690"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "58f9b0ff11ab4948a04f5af0712480e7"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "James Wyckoff",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "20fb395e253d4d69b00fd8a6ca513a8f"
+    },
+    "entity": {
+      "$bytes": "6261cece22684cde8f0d19572abda1a4"
+    },
+    "from": {
+      "$bytes": "58f9b0ff11ab4948a04f5af0712480e7"
+    },
+    "to": {
+      "$bytes": "7ed45f2bc48b419e8e4664d5ff680b0d"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c1a63513d6c843fbbca4a6a39b0f1d21"
+    },
+    "entity": {
+      "$bytes": "e36bdc2d135f44a29372c98170ab3f76"
+    },
+    "from": {
+      "$bytes": "049614ea288941cabd7aed7bc67bf596"
+    },
+    "to": {
+      "$bytes": "58f9b0ff11ab4948a04f5af0712480e7"
+    },
+    "relationType": {
+      "$bytes": "91a9e2f6e51a48f7997661de8561b690"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f6be3888045e417bb69cf963e783dcc7"
+    },
+    "entity": {
+      "$bytes": "18d2bb5d3f0c4442b6c73efa6e0474e6"
+    },
+    "from": {
+      "$bytes": "0ed2e122cee541dc93a075aeca9feace"
+    },
+    "to": {
+      "$bytes": "049614ea288941cabd7aed7bc67bf596"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  }
+]

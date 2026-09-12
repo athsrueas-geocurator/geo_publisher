@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-09-12T12:08:07.593Z",
+  "batchName": "Restore literacy and early-childhood categories using existing Geo entities",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 6,
+  "checks": [
+    {
+      "relationId": "41b8def8c08f4436ad24d262ec8ced21",
+      "pass": true
+    },
+    {
+      "relationId": "873ba46a8371483a9b1e0398c8031d4a",
+      "pass": true
+    },
+    {
+      "relationId": "e7bbab9b81494e838a68283691b293eb",
+      "pass": true
+    },
+    {
+      "relationId": "aebfb0112f1d465c80f91c1accd86fa4",
+      "pass": true
+    },
+    {
+      "relationId": "b31602279e054ba8bfdbec1d5365fd0c",
+      "pass": true
+    },
+    {
+      "relationId": "8688409da29740f3bfd23a7f5150034c",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

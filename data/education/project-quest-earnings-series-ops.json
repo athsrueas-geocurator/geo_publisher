@@ -1,0 +1,1194 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a5d6539c8a3746a2a1a76dbe3e7687a0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Project QUEST’s year-1 annual earnings impact was −$1,801 in current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This full-sample ITT difference compares average annual earnings 1 year after random assignment (N=410). Earnings are current dollars; the early negative difference coincided with participants’ training period.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-1801"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "410"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in average annual earnings in year 1 after random assignment; current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure 1 and Figure 4; pp. 1, 4–5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "580e675f04374aa295afb4c1a111f8ef"
+    },
+    "entity": {
+      "$bytes": "b3f40a1cfb1f4c72b88fe552376777b3"
+    },
+    "from": {
+      "$bytes": "a5d6539c8a3746a2a1a76dbe3e7687a0"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07vl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "59e7a7420191411e8008ed9a0b519338"
+    },
+    "entity": {
+      "$bytes": "99b26fdaf6a942b49e0eb03df0e522df"
+    },
+    "from": {
+      "$bytes": "a5d6539c8a3746a2a1a76dbe3e7687a0"
+    },
+    "to": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0AQl"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aa0d2bbbae6249fba8ebe671b3151514"
+    },
+    "entity": {
+      "$bytes": "60f845a3b82742a4a1059c01ce74a0c7"
+    },
+    "from": {
+      "$bytes": "a5d6539c8a3746a2a1a76dbe3e7687a0"
+    },
+    "to": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08JS"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ffc75a1e575344eca325405dd41ecf98"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Project QUEST’s year-2 annual earnings impact was −$2,369 in current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This full-sample ITT difference compares average annual earnings 2 years after random assignment (N=410). Earnings are current dollars; the early negative difference coincided with participants’ training period.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-2369"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "410"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in average annual earnings in year 2 after random assignment; current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure 1 and Figure 4; pp. 1, 4–5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bedf64ddd10f48d5b113d7cd16e752f0"
+    },
+    "entity": {
+      "$bytes": "f2171165ddd4491e98bf736d2d17f69b"
+    },
+    "from": {
+      "$bytes": "ffc75a1e575344eca325405dd41ecf98"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09PE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "143a4c5a0ca04eb2b61f5ae3a1d1b17c"
+    },
+    "entity": {
+      "$bytes": "d425072895cc40e5b73892d86cf6d6c5"
+    },
+    "from": {
+      "$bytes": "ffc75a1e575344eca325405dd41ecf98"
+    },
+    "to": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a083a"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1a16653f0c274d448af29ac4e8ab793a"
+    },
+    "entity": {
+      "$bytes": "2c9d3788b2044172aaa0284635d4ce3a"
+    },
+    "from": {
+      "$bytes": "ffc75a1e575344eca325405dd41ecf98"
+    },
+    "to": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a024C"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e04897d09dc14e8294f0667904d7bde8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Project QUEST’s year-3 annual earnings impact was $1,881 in current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This full-sample ITT difference compares average annual earnings 3 years after random assignment (N=410). Earnings are current dollars; the report does not provide a cost-effectiveness calculation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1881"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "410"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in average annual earnings in year 3 after random assignment; current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure 1 and Figure 4; pp. 1, 4–5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5b40bba1671b4c34bad9ca6903c35c9c"
+    },
+    "entity": {
+      "$bytes": "7f6771080230485bad42eec100048063"
+    },
+    "from": {
+      "$bytes": "e04897d09dc14e8294f0667904d7bde8"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05tO"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "11cd9192ade64b9ba7da32f9b5989fb1"
+    },
+    "entity": {
+      "$bytes": "3c55f25f61e34cc2bc9c8c74dccc2760"
+    },
+    "from": {
+      "$bytes": "e04897d09dc14e8294f0667904d7bde8"
+    },
+    "to": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0798"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d0c3d29947ea484cb2a15497a0f3e69f"
+    },
+    "entity": {
+      "$bytes": "f7c1984642784367af7af95b994bf9a2"
+    },
+    "from": {
+      "$bytes": "e04897d09dc14e8294f0667904d7bde8"
+    },
+    "to": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05cM"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5c7fa63ba54e454db3aab82101d31224"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Project QUEST’s year-4 annual earnings impact was $3,925 in current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This full-sample ITT difference compares average annual earnings 4 years after random assignment (N=410). Earnings are current dollars; the report does not provide a cost-effectiveness calculation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3925"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "410"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in average annual earnings in year 4 after random assignment; current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure 1 and Figure 4; pp. 1, 4–5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8f1bff85e82d4090875cc2b7d4c39af4"
+    },
+    "entity": {
+      "$bytes": "3966a4bef2a74b549baea5b3bd99f89f"
+    },
+    "from": {
+      "$bytes": "5c7fa63ba54e454db3aab82101d31224"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BKd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f47c935b4dca450398447b1544d907e4"
+    },
+    "entity": {
+      "$bytes": "390fa76c8d3e4ee1adfcaf2c2f51f15e"
+    },
+    "from": {
+      "$bytes": "5c7fa63ba54e454db3aab82101d31224"
+    },
+    "to": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06GP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d75ff7e47f1d493296b5d005b382038a"
+    },
+    "entity": {
+      "$bytes": "d186e0ce9ac0424cbcc155e4e3c898df"
+    },
+    "from": {
+      "$bytes": "5c7fa63ba54e454db3aab82101d31224"
+    },
+    "to": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03Md"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "1b83f22bd4f74f3b8526f01fdfd66fdf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Project QUEST’s year-5 annual earnings impact was $3,980 in current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This full-sample ITT difference compares average annual earnings 5 years after random assignment (N=410). Earnings are current dollars; the report does not provide a cost-effectiveness calculation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3980"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "410"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in average annual earnings in year 5 after random assignment; current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure 1 and Figure 4; pp. 1, 4–5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e8cf9fecbd9d4ccaaf02f1cfcb7290a7"
+    },
+    "entity": {
+      "$bytes": "88b450e02a324f24882d95456cbf5a68"
+    },
+    "from": {
+      "$bytes": "1b83f22bd4f74f3b8526f01fdfd66fdf"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05df"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2abd276ba5224c7bbfde505727ccb80f"
+    },
+    "entity": {
+      "$bytes": "479d87839dec443e9a15df4d8afc27e6"
+    },
+    "from": {
+      "$bytes": "1b83f22bd4f74f3b8526f01fdfd66fdf"
+    },
+    "to": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0AxX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "75678143af5047aaa6431e429ea5c887"
+    },
+    "entity": {
+      "$bytes": "205b78dd7ac94c5ebec6ace275da4660"
+    },
+    "from": {
+      "$bytes": "1b83f22bd4f74f3b8526f01fdfd66fdf"
+    },
+    "to": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04rn"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "022c945ffb12436e9d98c5b808361691"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Project QUEST’s year-6 annual earnings impact was $4,691 in current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This full-sample ITT difference compares average annual earnings 6 years after random assignment (N=410). Earnings are current dollars; the report does not provide a cost-effectiveness calculation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4691"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "410"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in average annual earnings in year 6 after random assignment; current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure 1 and Figure 4; pp. 1, 4–5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "82ff46046bd0433b81108be5662c9dab"
+    },
+    "entity": {
+      "$bytes": "a39006fb240d4188a53094f49b7a3170"
+    },
+    "from": {
+      "$bytes": "022c945ffb12436e9d98c5b808361691"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00BU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f4fea4c3d8024c33bd34f3e21f65102d"
+    },
+    "entity": {
+      "$bytes": "67abb998065d44cf81822fbea04fda47"
+    },
+    "from": {
+      "$bytes": "022c945ffb12436e9d98c5b808361691"
+    },
+    "to": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0ARE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1df68e16d81e4e8291740e98f0c32fdb"
+    },
+    "entity": {
+      "$bytes": "5b0e0db96c5c4bb1804bef1306d4b686"
+    },
+    "from": {
+      "$bytes": "022c945ffb12436e9d98c5b808361691"
+    },
+    "to": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05mb"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ecfccdd3646a42ff932842c06b7ad1cf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Project QUEST’s year-7 annual earnings impact was $2,176 in current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This full-sample ITT difference compares average annual earnings 7 years after random assignment (N=410). Earnings are current dollars; the report does not provide a cost-effectiveness calculation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2176"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "410"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in average annual earnings in year 7 after random assignment; current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure 1 and Figure 4; pp. 1, 4–5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4c0989d85e4c48ee8f149101ffdbe5ca"
+    },
+    "entity": {
+      "$bytes": "f4748f6c8bee4741a48d42074fc10b2e"
+    },
+    "from": {
+      "$bytes": "ecfccdd3646a42ff932842c06b7ad1cf"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02dn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cd4a48497bdc4f249c0f5aa80d8a781f"
+    },
+    "entity": {
+      "$bytes": "28bd83fd06474910ab0ed0631c86786d"
+    },
+    "from": {
+      "$bytes": "ecfccdd3646a42ff932842c06b7ad1cf"
+    },
+    "to": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06sI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "718a2de23f5344dca76a7451f5041aa4"
+    },
+    "entity": {
+      "$bytes": "689f5ac7bc1b45f6a1555722200efd15"
+    },
+    "from": {
+      "$bytes": "ecfccdd3646a42ff932842c06b7ad1cf"
+    },
+    "to": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09AG"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "80758bd7690546128f233124d4080018"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Project QUEST’s year-8 annual earnings impact was $2,952 in current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This full-sample ITT difference compares average annual earnings 8 years after random assignment (N=410). Earnings are current dollars; the report does not provide a cost-effectiveness calculation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2952"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "410"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in average annual earnings in year 8 after random assignment; current dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure 1 and Figure 4; pp. 1, 4–5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a9ecb4b13fc540bfa5a3805299f76f1e"
+    },
+    "entity": {
+      "$bytes": "6ade01ea68a9483ab143df201a2704b1"
+    },
+    "from": {
+      "$bytes": "80758bd7690546128f233124d4080018"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0648"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a44b2702afbd4057b86ae0ef422a0644"
+    },
+    "entity": {
+      "$bytes": "0c92676472614e35bc11e5c2a8b42cc4"
+    },
+    "from": {
+      "$bytes": "80758bd7690546128f233124d4080018"
+    },
+    "to": {
+      "$bytes": "83427dac98de4da496573df368a07561"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08az"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5fe1e3b579e549eab5944c431a85082d"
+    },
+    "entity": {
+      "$bytes": "9bd4140db2614014b20ef5cdb2a1b843"
+    },
+    "from": {
+      "$bytes": "80758bd7690546128f233124d4080018"
+    },
+    "to": {
+      "$bytes": "f557a1af0d3846ca8beaec99f30b6e1c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0B98"
+  }
+]

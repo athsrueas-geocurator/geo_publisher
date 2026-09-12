@@ -1,0 +1,20 @@
+{
+  "source": {
+    "title": "Commencement Day: Six-Year Effects of a Freshman Learning Community Program at Kingsborough Community College",
+    "url": "https://www.mdrc.org/work/publications/commencement-day/file-full",
+    "publisher": "MDRC",
+    "year": 2012
+  },
+  "study": {
+    "name": "Opening Doors Learning Communities at Kingsborough Community College",
+    "design": "Individual-level randomized comparison of program eligibility with standard Kingsborough courses and services",
+    "sample": {"total": 1534, "program": 769, "control": 765},
+    "horizon": "Six years after random assignment"
+  },
+  "records": [
+    {"key":"degree","kind":"effect","value":4.6,"standardError":2.7,"unit":"Percentage-point difference in earning a degree at any college after six years, program minus control.","programMean":35.9,"controlMean":31.3,"locator":"Appendix Table C.8, printed p. 79 / PDF p. 102."},
+    {"key":"net-cost","kind":"cost","value":3580,"priceYear":2011,"currency":"USD","unit":"2011 USD net education cost per program-group member over six years, program minus control.","locator":"Table 5.3, printed p. 50 / PDF p. 73."},
+    {"key":"cost-per-degree","kind":"cost","value":-2480,"priceYear":2011,"currency":"USD","unit":"2011 USD difference in cost per degree earned over six years, program minus control; 94,680 versus 97,160.","locator":"Table 5.3, printed p. 50 / PDF p. 73."}
+  ],
+  "limits": "Cost accounting compares group-level education resources and degree rates. It is not a benefit-cost ratio, general savings claim, or evidence for other learning-community trials."
+}

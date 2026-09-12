@@ -1,0 +1,53 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T12:17:22.995Z",
+  "opsHash": "9570c159e0eb03c77df4607e456672c1e5ccec55b9bfe2b68dc069c8b8096411",
+  "scope": "One program and corrected source with two authors; all created entities typed; no numerical findings or imported assessments",
+  "content": {
+    "sourceKey": "src-026",
+    "originalInitiativeId": 27,
+    "correction": "Original w19403 is unrelated to teacher evaluation. This verified w19529 reference replaces that citation for the IMPACT program; it does not certify all original finding or assessment prose.",
+    "article": {
+      "name": "Incentives, Selection, and Teacher Performance: Evidence from IMPACT",
+      "description": "Thomas Dee and James Wyckoff's October 2013 NBER working paper examines teacher retention and performance around DCPS IMPACT rating thresholds using regression discontinuity.",
+      "url": "https://www.nber.org/papers/w19529",
+      "doi": "10.3386/w19529",
+      "authors": [
+        "Thomas Dee",
+        "James Wyckoff"
+      ]
+    },
+    "initiative": {
+      "name": "DC IMPACT",
+      "description": "District of Columbia Public Schools' evaluation and feedback system for school-based personnel, introduced in 2009. It combines multiple measures of performance with feedback and personnel incentives.",
+      "url": "https://dcps.dc.gov/node/976262"
+    },
+    "evidence": [
+      "https://www.nber.org/papers/w19529",
+      "https://www.nber.org/system/files/working_papers/w19529/w19529.pdf",
+      "https://dcps.dc.gov/node/976262"
+    ]
+  },
+  "registry": {
+    "ids": {
+      "article": "049614ea288941cabd7aed7bc67bf596",
+      "article/type": "efe8567cf23e4fafb8da9eae04b65f35",
+      "article/type/entity": "6f165a39a65e42dbbfd1d608a2b5e3d2",
+      "initiative": "0ed2e122cee541dc93a075aeca9feace",
+      "initiative/type": "457c6c868618468fae603a8416d92c68",
+      "initiative/type/entity": "0dff3f9829a14b89a67f5ebb9a8fb5ff",
+      "author/Thomas Dee": "1dbcd6ed0592406c860efbdfcf565269",
+      "author/Thomas Dee/type": "6da314c9ab9b434abac1156a479ca7d8",
+      "author/Thomas Dee/type/entity": "e7525edd154444c38f42b3b3768afbb6",
+      "authorship/Thomas Dee": "65048615c06e4153afed16aa506d8181",
+      "authorship/Thomas Dee/entity": "34ab0b020ef24f8fb1f1956b9af09ad1",
+      "author/James Wyckoff": "58f9b0ff11ab4948a04f5af0712480e7",
+      "author/James Wyckoff/type": "20fb395e253d4d69b00fd8a6ca513a8f",
+      "author/James Wyckoff/type/entity": "6261cece22684cde8f0d19572abda1a4",
+      "authorship/James Wyckoff": "c1a63513d6c843fbbca4a6a39b0f1d21",
+      "authorship/James Wyckoff/entity": "e36bdc2d135f44a29372c98170ab3f76",
+      "initiative/source": "f6be3888045e417bb69cf963e783dcc7",
+      "initiative/source/entity": "18d2bb5d3f0c4442b6c73efa6e0474e6"
+    }
+  }
+}

@@ -1,0 +1,234 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7237824ca62e4790b4d9d882f47ab0bd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School systems should prioritize tutoring delivered during the school day.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This policy position gives weight to the meta-analysis finding that tutoring delivered during school had larger average impacts than after-school tutoring. It does not establish cost, feasibility, staffing, or the effect of every in-school program.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "78051af886784c659b8b94031e55762f"
+    },
+    "entity": {
+      "$bytes": "4e22ce32cace4d50b3075224046f9f2e"
+    },
+    "from": {
+      "$bytes": "7237824ca62e4790b4d9d882f47ab0bd"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BmE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4ba053af2b264ff3bf2df6277a904026"
+    },
+    "entity": {
+      "$bytes": "fa57c33be5a54c58a4273f5e83e6621d"
+    },
+    "from": {
+      "$bytes": "7237824ca62e4790b4d9d882f47ab0bd"
+    },
+    "to": {
+      "$bytes": "76f18ade420143779ca3c67183dc1dd8"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06kc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "09bfe8f0c4464ef79a749fd726466ca2"
+    },
+    "entity": {
+      "$bytes": "4bd079ea21854347ae3a3453d9373745"
+    },
+    "from": {
+      "$bytes": "7237824ca62e4790b4d9d882f47ab0bd"
+    },
+    "to": {
+      "$bytes": "9b94180ac02b464a9bd1a2c873d75e97"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04B5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b810d18284604e338c875bf1c603e51e"
+    },
+    "entity": {
+      "$bytes": "0850276815634546923cb287b32dc5d0"
+    },
+    "from": {
+      "$bytes": "9b94180ac02b464a9bd1a2c873d75e97"
+    },
+    "to": {
+      "$bytes": "7237824ca62e4790b4d9d882f47ab0bd"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01cf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "38cc5d4785ba423aa1d876202b8872e4"
+    },
+    "entity": {
+      "$bytes": "260f380aee0541ea84a6b3750fd8822e"
+    },
+    "from": {
+      "$bytes": "7237824ca62e4790b4d9d882f47ab0bd"
+    },
+    "to": {
+      "$bytes": "051b0b0f782d469a84520218e49bc4ec"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02lD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "57f7b6e15ff14fe2b868713b1d8d60df"
+    },
+    "entity": {
+      "$bytes": "01251f09de2a44b6906014f85390acd2"
+    },
+    "from": {
+      "$bytes": "051b0b0f782d469a84520218e49bc4ec"
+    },
+    "to": {
+      "$bytes": "7237824ca62e4790b4d9d882f47ab0bd"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07th"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bbd0182d778446158f40ca7d6e271c4e"
+    },
+    "entity": {
+      "$bytes": "1d64ef10836e4ac9aba5d12506c1d7bb"
+    },
+    "from": {
+      "$bytes": "7237824ca62e4790b4d9d882f47ab0bd"
+    },
+    "to": {
+      "$bytes": "25f0ec3189e4427cbdb294d2016b692d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03V8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9cb25d47c62b4762b7f1f811cdccd296"
+    },
+    "entity": {
+      "$bytes": "f6325f30e60d414785d57008fc0428eb"
+    },
+    "from": {
+      "$bytes": "25f0ec3189e4427cbdb294d2016b692d"
+    },
+    "to": {
+      "$bytes": "7237824ca62e4790b4d9d882f47ab0bd"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BP1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "14f5017d47e441fb99aa06529daab3fb"
+    },
+    "entity": {
+      "$bytes": "7cc5bd1017334eb1a0a6594062db018b"
+    },
+    "from": {
+      "$bytes": "7237824ca62e4790b4d9d882f47ab0bd"
+    },
+    "to": {
+      "$bytes": "9b94180ac02b464a9bd1a2c873d75e97"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a04cG"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1b5cade2543346f4b73627c462013002"
+    },
+    "entity": {
+      "$bytes": "0559f2207e634f83a9cb7db065502a51"
+    },
+    "from": {
+      "$bytes": "7237824ca62e4790b4d9d882f47ab0bd"
+    },
+    "to": {
+      "$bytes": "051b0b0f782d469a84520218e49bc4ec"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a0924"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "term": "Dataset",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:29:39.580Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "0c4babfb43893486af827341bbf32e09",
+      "name": "Dataset",
+      "description": "Structured collection of data published for analysis, research, or reference.",
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b",
+        "a19c345ab9866679b001d7d2138d88a1",
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "7e66b3d6ccd52cdb6cd89552cc9a15cb",
+      "name": "Dataset",
+      "description": "Training dataset, evaluation corpus, benchmark dataset, caption set, symbolic corpus, stem set, singing dataset, rights dataset, or MIR dataset. Required: name, description, source_url, evidence_level. Recommended: year, modality, task, versions, annotation_sets, source_media, collection_method, size, duration, license, license_scope, access_level, distribution_url, dataset_role, known_leakage_risks, manifest_url, checksum. Publish tier: secondary_browse.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "95818e88f08f4194b493ce4ebdeb2a3e",
+      "name": "Dataset",
+      "description": "AI Music ontology field for dataset; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOTU4MThlODgtZjA4Zi00MTk0LWI0OTMtY2U0ZWJkZWIyYTNlIl1d"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Add TFA and Teaching Fellows randomized secondary-math evidence",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/tfa-teaching-fellows-ops.json",
+  "sha256": "9c312a0463a040db75953f5e0bbecb0fd0427000e647579aac0d85d20c41ac0d",
+  "journalPath": "data/education/tfa-teaching-fellows-publication.json",
+  "validationPath": "data/education/tfa-teaching-fellows-validation.json",
+  "entities": {
+    "article": "43083998d74b4f5bbf49ac3f3354e74e",
+    "initiative": "743632b3929c40eba49c57d86401dbef",
+    "claims": {
+      "tfa-overall": "78f60547ae1c43248aa970bf5e43ab4b",
+      "teaching-fellows-overall": "2884a49085ee49caa8d2d916c7cd1dfe",
+      "teaching-fellows-similar-experience": "ae115caedc1d40079cb88cdc680c71c8",
+      "tfa-traditional-route": "3cd1756352a94517a0da95670c307f72",
+      "tfa-less-selective-route": "142e98c7820d43c48654cb679f04309f",
+      "teaching-fellows-traditional-route": "d7993ccda23842c6976de0dc7abe47a6",
+      "teaching-fellows-less-selective-route": "f4441ef0598b45dc8e2f25dab89eb260"
+    }
+  },
+  "operationCount": 34
+}

@@ -1,0 +1,31 @@
+{
+  "term": "mean",
+  "checkedAt": "2026-09-11T21:30:02.062Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "09ae889541a945a080431017d590d864",
+      "name": "Means employed",
+      "description": "The tool, weapon, platform or diplomatic instrument used to carry out the action, as explicitly named in the primary sources of eveidence. Examples: ballistic missile, naval drone, emergency session, press release.",
+      "spaceIds": [
+        "89bd89bf28ff8a0963faf92a8c905e20"
+      ]
+    },
+    {
+      "id": "1400ffc3e5fe46a49c7a9ceb145c07af",
+      "name": "Observed monetary mean",
+      "description": "Observed group mean of a monetary outcome, interpreted with currency, price year and follow-up. It is not a between-group causal effect.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMTQwMGZmYzMtZTVmZS00NmE0LTljN2EtOWNlYjE0NWMwN2FmIl1d"
+    }
+  ]
+}

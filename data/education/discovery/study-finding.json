@@ -1,0 +1,29 @@
+{
+  "term": "Study finding",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T17:44:33.452Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "a7575916aedd48b8dbe19f73f23b1039",
+      "name": "Study Finding",
+      "description": "Structured result extracted from one evidence source for a supplement, outcome, population, dose, and comparator.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYTc1NzU5MTYtYWVkZC00OGI4LWRiZTEtOWY3M2YyM2IxMDM5Il1d"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+import {readFileSync,writeFileSync,existsSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {Ops,SystemIds} from '@geoprotocol/geo-sdk';
+import {geoGraphqlRequest as gql} from '../src/geo-api-client';
+import {EDUCATION_PUBLICATION as target} from '../src/education-bounty';
+const root='data/education',prefix='factual-claim-pilot';
+const read=(name:string)=>JSON.parse(readFileSync(`${root}/${name}.json`,'utf8'));
+if(existsSync(`${root}/${prefix}-publication.json`))throw new Error('Preserve submitted payload');
+const model=read(`${prefix}-model`),expected=read(model.priorCopyReview).find((r:any)=>r.id===model.claimId),checks:string[]=[];
+function check(ok:unknown,label:string){if(!ok)throw new Error(label);checks.push(label);}
+check(expected&&model.value===true,'Reviewed checkable research assertion');
+const data=await gql<any>('query($id:UUID!,$property:UUID!,$space:UUID!){property(id:$property){dataTypeName}entity(id:$id){types{id}values(first:30,filter:{spaceId:{is:$space}}){nodes{propertyId text boolean}pageInfo{hasNextPage}}}}',{variables:{id:model.claimId,property:model.propertyId,space:target.spaceId}});
+check(data.property?.dataTypeName==='Checkbox','Live Checkbox schema');
+check(data.entity.types.some((t:any)=>t.id==='96f859efa1ca4b229372c86ad58b694b')&&!data.entity.values.pageInfo.hasNextPage,'Existing Claim and complete destination facts');
+for(const [property,text] of [[SystemIds.NAME_PROPERTY,expected.after.name],[SystemIds.DESCRIPTION_PROPERTY,expected.after.description]])check(data.entity.values.nodes.some((v:any)=>v.propertyId===property&&v.text===text),'Reviewed published copy unchanged');
+check(!data.entity.values.nodes.some((v:any)=>v.propertyId===model.propertyId),'No existing destination factual classification overwritten');
+const ops=Ops.entities.update({id:model.claimId,values:[{property:model.propertyId,type:'boolean',value:model.value}]}).ops;
+const bytes=JSON.stringify(ops,(_k,v)=>v instanceof Uint8Array?{$bytes:Buffer.from(v).toString('hex')}:typeof v==='bigint'?{$bigint:String(v)}:v,2)+'\n';
+const encoded=JSON.parse(bytes);
+check(encoded.length===1&&encoded[0].type==='updateEntity'&&encoded[0].set.length===1&&encoded[0].set[0].value.type==='boolean'&&encoded[0].set[0].value.value===true,'One SDK boolean operation only');
+const sha256=createHash('sha256').update(bytes).digest('hex');
+const batch={name:'Identify the Reading First decoding estimate as a factual Claim',spaceId:target.spaceId,bounty:target.bountyId,opsPath:`${root}/${prefix}-ops.json`,sha256,operationCount:ops.length,journalPath:`${root}/${prefix}-publication.json`,validationPath:`${root}/${prefix}-validation.json`};
+writeFileSync(batch.opsPath,bytes);writeFileSync(`${root}/${prefix}-batch.json`,JSON.stringify(batch,null,2)+'\n');writeFileSync(batch.validationPath,JSON.stringify({ready:true,checkedAt:new Date().toISOString(),opsHash:sha256,checks},null,2)+'\n');console.log(JSON.stringify({batch,checks}));

@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T15:48:22.227Z",
+  "scope": "all-spaces",
+  "sourceId": "581c4b9bd2ec40d69cbcf68b973d8803",
+  "searches": [
+    {
+      "kind": "alias",
+      "query": "Charting Pathways: Three-Year Findings from the Viking ROADS Demonstration",
+      "complete": true,
+      "candidates": [
+        {
+          "id": "581c4b9bd2ec40d69cbcf68b973d8803",
+          "name": "Charting Pathways: Three-Year Findings from the Viking ROADS Demonstration",
+          "description": "MDRC’s 2025 three-year randomized evaluation of Viking ROADS, an ASAP-style support program at SUNY Westchester.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "a2a5ed0cacef46b1835de457956ce915",
+              "name": "Article"
+            }
+          ],
+          "decision": "distinct",
+          "rationale": "Retained for explicit review before reuse or creation."
+        }
+      ]
+    },
+    {
+      "kind": "identifier",
+      "query": "viking-roads-collection",
+      "complete": true,
+      "candidates": []
+    }
+  ],
+  "claimMemberships": [
+    {
+      "claimId": "140afd7dd5f44ddf8e1502a768bbfd07",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "eb113208010248d7a2d22f4eeda40cdb",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "38ed3fd2ec414f46ace844121bbfa8c1",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "87780a52e93a4fe4a3029e02a3dd3be6",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "6430ac45989d4297b9a871c7157b6fb3",
+      "complete": true,
+      "nodes": []
+    }
+  ],
+  "datasetDecision": "create",
+  "rationale": "Complete exact all-space identity and incoming Collection-item queries; existing Claims remain immutable."
+}

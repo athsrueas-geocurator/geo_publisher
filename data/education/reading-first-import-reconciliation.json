@@ -1,0 +1,307 @@
+{
+  "checkedAt": "2026-09-12T01:18:51.199Z",
+  "sourceKey": "initiatives/12",
+  "programId": "26c06d8c6d1d42f2b87bbf3a51806a18",
+  "sourcePath": "content/initiatives.json",
+  "sourceFields": [
+    {
+      "field": "slug",
+      "sourceValue": "reading-first",
+      "mapping": "Published Route slug preserves reading-first on the existing program; verify the live value.",
+      "preservedInImportedContext": true,
+      "complete": true
+    },
+    {
+      "field": "id",
+      "sourceValue": 12,
+      "mapping": "Source record number retained in imported-context block; a dedicated typed import-key property remains pending.",
+      "preservedInImportedContext": true,
+      "complete": false
+    },
+    {
+      "field": "name",
+      "sourceValue": "Reading First",
+      "mapping": "Program identity and published Name verified below.",
+      "preservedInImportedContext": true,
+      "complete": true
+    },
+    {
+      "field": "years",
+      "sourceValue": "2002-2008; federal grants",
+      "mapping": "Imported 2002-2008 span needs historical scope review; it is not a verified exact start/end date.",
+      "preservedInImportedContext": true,
+      "complete": false
+    },
+    {
+      "field": "category",
+      "sourceValue": "Literacy",
+      "mapping": "Literacy category needs cross-space concept/alias resolution and typed relation mapping.",
+      "preservedInImportedContext": true,
+      "complete": false
+    },
+    {
+      "field": "theoryOfAction",
+      "sourceValue": "Fund scientifically based reading instruction and assessment systems in high-poverty schools.",
+      "mapping": "Published in program context prose; no dedicated mechanism relation yet.",
+      "preservedInImportedContext": true,
+      "complete": false
+    },
+    {
+      "field": "inputVariablesChanged",
+      "sourceValue": "Reading coaches, PD, K-3 curricula, assessment, instructional time",
+      "mapping": "Published in context and outcome records; intervention components still need structured concepts.",
+      "preservedInImportedContext": true,
+      "complete": false
+    },
+    {
+      "field": "targetPopulation",
+      "sourceValue": "K-3 students in participating schools",
+      "mapping": "Children and intended K-3 relations published; participating-school eligibility remains context prose.",
+      "preservedInImportedContext": true,
+      "complete": false
+    },
+    {
+      "field": "evaluationDesigns",
+      "sourceValue": "Regression discontinuity; randomized component; implementation study",
+      "mapping": "Study context describes mixed assignment design; implementation evaluation is a separate source, not interchangeable with impact study.",
+      "preservedInImportedContext": true,
+      "complete": false
+    },
+    {
+      "field": "methodTags",
+      "sourceValue": [
+        "RCT",
+        "Regression discontinuity"
+      ],
+      "mapping": "RCT and regression discontinuity need explicit source-to-study method relations; no claim that the whole study is an RCT.",
+      "preservedInImportedContext": true,
+      "complete": false
+    },
+    {
+      "field": "evidenceStrength",
+      "sourceValue": "mixed-conditional",
+      "mapping": "Imported mixed-conditional label is an editorial classification, not a numeric evidence rating; rubric and mapping pending.",
+      "preservedInImportedContext": true,
+      "complete": false
+    },
+    {
+      "field": "outputsMeasured",
+      "sourceValue": "Reading comprehension, decoding, instruction time, teacher practice",
+      "mapping": "Selected outcomes exist on contrast records; shared measurement-concept mapping remains unfinished.",
+      "preservedInImportedContext": true,
+      "complete": false
+    },
+    {
+      "field": "normalizationIssues",
+      "sourceValue": "The evaluation tests the federal grant implementation, not the National Reading Panel findings themselves.",
+      "mapping": "Published context distinguishes funding evaluation from National Reading Panel research.",
+      "preservedInImportedContext": true,
+      "complete": false
+    },
+    {
+      "field": "oneLineFinding",
+      "sourceValue": "Improved some reading instruction measures but did not produce clear broad comprehension gains in the national impact study.",
+      "mapping": "Source-backed effects and uncertainty published; imported summary not separately preserved as a reviewed claim.",
+      "preservedInImportedContext": true,
+      "complete": false
+    },
+    {
+      "field": "sourceIds",
+      "sourceValue": [
+        "src-015",
+        "src-014"
+      ],
+      "mapping": "Verify both intended source references on program; background research is distinct from outcome evidence.",
+      "preservedInImportedContext": true,
+      "complete": true
+    },
+    {
+      "field": "tags",
+      "sourceValue": "Reading First; NCLB; literacy",
+      "mapping": "Program name, NCLB and literacy have different identities; taxonomy/legislation links remain unfinished.",
+      "preservedInImportedContext": true,
+      "complete": false
+    },
+    {
+      "field": "relatedDichotomySlugs",
+      "sourceValue": [
+        "whole-language-balanced-literacy-vs-phonics-science-of-reading"
+      ],
+      "mapping": "Composite debate identity and backlink mapping remain unfinished.",
+      "preservedInImportedContext": true,
+      "complete": false
+    }
+  ],
+  "importedContextId": "c9bc9c2dbc4247469bf40b4a0b6738df",
+  "liveChecks": {
+    "publishedName": true,
+    "impactSource": true,
+    "backgroundSource": true,
+    "study": true,
+    "dataset": true,
+    "administrator": true,
+    "slug": true
+  },
+  "liveEvidence": {
+    "id": "26c06d8c6d1d42f2b87bbf3a51806a18",
+    "name": "Reading First",
+    "values": {
+      "nodes": [
+        {
+          "propertyId": "b0305ef28312c519d954bc0efe22f013",
+          "text": "reading-first"
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "text": "A U.S. federal grant program supporting research-based early reading instruction. Funding supported curricula, teacher development and coaching, and assessment and intervention for struggling readers."
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "text": "Reading First"
+        },
+        {
+          "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+          "text": "Executive Summary, printed pp. xvi-xvii (PDF pp. 17-18)"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    "relations": {
+      "nodes": [
+        {
+          "id": "1765f5a2315a4d908d706710a553a88c",
+          "entityId": "4a086dd9cdd94c939ff77112728d290b",
+          "typeId": "beaba5cba67741a8b35377030613fc70",
+          "toEntityId": "99058013c7904de782e86c393cb52035"
+        },
+        {
+          "id": "293ffbed731045cb91499172db5124a8",
+          "entityId": "d800220bae6e4b54b257d632e026c8e3",
+          "typeId": "806d52bc27e94c9193c057978b093351",
+          "toEntityId": "09d90bfac91545de8b218e03c026338f"
+        },
+        {
+          "id": "2a313ca9de1e45218307a571da014080",
+          "entityId": "7626ed4973494b6895add2d49135df73",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "toEntityId": "db0ea33548454e1780c78231066b7d71"
+        },
+        {
+          "id": "2da206791ca340f386b59bd9c31162df",
+          "entityId": "a7d8b83161004c2a8ccb6c83700514f6",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "toEntityId": "bb326cc9809b4bf89d161701f49b74d9"
+        },
+        {
+          "id": "305ca4d8755640cf80f592aca778560c",
+          "entityId": "a4167a5b41e641c5b52d481b10535421",
+          "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+          "toEntityId": "d87bc8f30fb84b5fa660f98d1e770c78"
+        },
+        {
+          "id": "44134c4418e143a3a0b014d21a8982ff",
+          "entityId": "62fb87781a7c432b854e2992be931d92",
+          "typeId": "806d52bc27e94c9193c057978b093351",
+          "toEntityId": "5a86d2f3657b4b5baabef07a3393e408"
+        },
+        {
+          "id": "55d0f863891846d0886f085ddbc46d85",
+          "entityId": "e5588bbbc7724a489fa582c7e4d17654",
+          "typeId": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+          "toEntityId": "02b40a84dd87410f9ad78f0481ad237a"
+        },
+        {
+          "id": "65a385fd285346e2867cad7bfb55de14",
+          "entityId": "29f29774ecf84f7aab7d767968a3b0e9",
+          "typeId": "beaba5cba67741a8b35377030613fc70",
+          "toEntityId": "c9bc9c2dbc4247469bf40b4a0b6738df"
+        },
+        {
+          "id": "765e69132a474b04b248af59aec47e00",
+          "entityId": "f5e43d5ec1334e95ba5a25910e1e7b36",
+          "typeId": "beaba5cba67741a8b35377030613fc70",
+          "toEntityId": "00a867e97ad24dfaa8524febaf54b345"
+        },
+        {
+          "id": "78d1a14e1ef54f4c8cf369fd1afb9f3c",
+          "entityId": "d0eee6dfe68f44ef80fce3ffbb1d1f3d",
+          "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+          "toEntityId": "9ba04d040e6bed81dc2ebd593e8cd0e7"
+        },
+        {
+          "id": "881addc9a1ef4ba6a92c70392296b213",
+          "entityId": "da133dd8e5b84f95b54db6639aebdcca",
+          "typeId": "806d52bc27e94c9193c057978b093351",
+          "toEntityId": "5c028b0a8a484ee9ae29e07028a1e7d1"
+        },
+        {
+          "id": "9170428eeda04860869d14604942b66b",
+          "entityId": "2da5155093284f7ab0e8ebea8dd57325",
+          "typeId": "d1c6034425684b4caaf2570bee562802",
+          "toEntityId": "bbfe2860b5d04e4a98d647183af924bf"
+        },
+        {
+          "id": "b11b327a5a2d4755a90733c6bc9d71b5",
+          "entityId": "c8d887b315ac4ce1b94e94b5e5a5a29a",
+          "typeId": "beaba5cba67741a8b35377030613fc70",
+          "toEntityId": "9b7c11b6a5684461bfc8c4bae7a5afd8"
+        },
+        {
+          "id": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+          "entityId": "239506a7789d4b2ba8ad638e72517523",
+          "typeId": "98c0849922164db0822b5a78444c17b3",
+          "toEntityId": "32ef1b9c498b42c18725f72a93fd2917"
+        },
+        {
+          "id": "be426d90e2af45829e9b23b4ceb87b6f",
+          "entityId": "c753c9cb48c7488cbf32765f364d62de",
+          "typeId": "98c0849922164db0822b5a78444c17b3",
+          "toEntityId": "c66d539b68a54250889bee59b97fcfc0"
+        },
+        {
+          "id": "cf064d9bf1ec4ccf962232fb83824bca",
+          "entityId": "7711ffbe0079453ea09c7e46ff2c1183",
+          "typeId": "95d770021faf4f7cb7deb21a7d48cda0",
+          "toEntityId": "0093d90725d94cb08903515673538d40"
+        },
+        {
+          "id": "d3b43ef305354c709d28ab715469cf30",
+          "entityId": "a68387c9075441c89e644c712625fd4c",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "toEntityId": "cb2bc5b224bb42bbb6f868db870db4dd"
+        },
+        {
+          "id": "d4447a46bd7249e49b449674c1ffda81",
+          "entityId": "5154262bc6ae41f7ab15c7b98017fd5b",
+          "typeId": "98c0849922164db0822b5a78444c17b3",
+          "toEntityId": "6fc7ceeb03bf486da5b79bb3874b46ef"
+        },
+        {
+          "id": "d8c0182eac7946bb8b73fbec35803a5b",
+          "entityId": "64cb6ae0fb6442539168e76e99121bbb",
+          "typeId": "98c0849922164db0822b5a78444c17b3",
+          "toEntityId": "74a01717791841c3beef132e8e5cec4e"
+        },
+        {
+          "id": "de8f96a825fe41eeaf16d7c3f66007ce",
+          "entityId": "3b6abaf595584282a1833b977ffad621",
+          "typeId": "806d52bc27e94c9193c057978b093351",
+          "toEntityId": "06d0bc4860de4838a222c240a46fc8b0"
+        },
+        {
+          "id": "f94a635d5d8c47d48c6d99f347b429ec",
+          "entityId": "8407945db7544be89960358de0916221",
+          "typeId": "07546da1a8a04c0d8e0dac5351dcb25b",
+          "toEntityId": "561872867e1b4b80a5f37ddeb27570b5"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  },
+  "complete": false,
+  "next": "Complete structured component/method/editorial-comparison mappings; source preservation alone does not complete queryable semantic migration."
+}

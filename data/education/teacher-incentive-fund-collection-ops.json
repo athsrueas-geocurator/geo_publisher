@@ -1,0 +1,488 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b03dde2a34e14ae683231fe8449a906b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher Incentive Fund achievement findings",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Annual achievement estimates from the Teacher Incentive Fund pay-for-performance evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "28fce42ece994f39b3e34a5d4c5fb593"
+    },
+    "entity": {
+      "$bytes": "712e1636ec7a4e3b8d039fa1e0a770c8"
+    },
+    "from": {
+      "$bytes": "b03dde2a34e14ae683231fe8449a906b"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Azu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b3fb4f07d2ce4b5e9cd5a9fc4355a43d"
+    },
+    "entity": {
+      "$bytes": "06d4857d87864602b412796b55ab28b1"
+    },
+    "from": {
+      "$bytes": "b03dde2a34e14ae683231fe8449a906b"
+    },
+    "to": {
+      "$bytes": "1fcce9b53fa640279448239bba337eef"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03Jz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "78825ca3be9e4aeba17b824d3537973e"
+    },
+    "entity": {
+      "$bytes": "9999ee74da114569bfc5d780935da467"
+    },
+    "from": {
+      "$bytes": "b03dde2a34e14ae683231fe8449a906b"
+    },
+    "to": {
+      "$bytes": "66f8690ed0b249f6829a075a2c5976d1"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03OE"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5cb9693776ca46e4998e2bf0a5b17dc8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading the findings",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "Rows reuse eight source-backed Claims from one multisite randomized experiment. The comparison is bonus-component eligibility versus a one-percent across-the-board control bonus; annual horizons are not independent studies.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1dd10435862c4e97903caa133ca2cac2"
+    },
+    "entity": {
+      "$bytes": "3315ea9bc4024987930deff2ba92b329"
+    },
+    "from": {
+      "$bytes": "5cb9693776ca46e4998e2bf0a5b17dc8"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a053Y"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3eb04bf2119e4e5a8a6ce2d11226fabe"
+    },
+    "entity": {
+      "$bytes": "af6a6edb3c87457dbcf6efef75d054e5"
+    },
+    "from": {
+      "$bytes": "b03dde2a34e14ae683231fe8449a906b"
+    },
+    "to": {
+      "$bytes": "5cb9693776ca46e4998e2bf0a5b17dc8"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0CMn"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "79a507942c4848f7a0afa305efa5f6a6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Teacher Incentive Fund Table VI.4 findings",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "338879d747d84444adcf9d65ccae7f95"
+    },
+    "entity": {
+      "$bytes": "4ab08dc8a8654cc9ac7e1b3e917a17de"
+    },
+    "from": {
+      "$bytes": "79a507942c4848f7a0afa305efa5f6a6"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BtR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dd51ba06dd5b4951bf1a5e52f5361a50"
+    },
+    "entity": {
+      "$bytes": "4beed202458e4f85b6cfe6143286377b"
+    },
+    "from": {
+      "$bytes": "79a507942c4848f7a0afa305efa5f6a6"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a0BDq"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8eeb217689064af68f16df18cb2a438f"
+    },
+    "entity": {
+      "$bytes": "9ff845ddd5324e4cab300f5b3ebfcc07"
+    },
+    "from": {
+      "$bytes": "b03dde2a34e14ae683231fe8449a906b"
+    },
+    "to": {
+      "$bytes": "79a507942c4848f7a0afa305efa5f6a6"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a14Yy"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5d3fd96247b44d8d8a5a83b854f8672c"
+    },
+    "entity": {
+      "$bytes": "6c023ab50c644f10ae78ed8ab4b801dd"
+    },
+    "from": {
+      "$bytes": "9ff845ddd5324e4cab300f5b3ebfcc07"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a07la"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c6248a4bbf7040df9480235ad5be5a91"
+    },
+    "entity": {
+      "$bytes": "a5d280d59a14443d8648469822a9872c"
+    },
+    "from": {
+      "$bytes": "9ff845ddd5324e4cab300f5b3ebfcc07"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0BDc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7bbcc29f36944a608da96ecff2af2862"
+    },
+    "entity": {
+      "$bytes": "de6433ef1f2b4976ae50e1288c3aab92"
+    },
+    "from": {
+      "$bytes": "9ff845ddd5324e4cab300f5b3ebfcc07"
+    },
+    "to": {
+      "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a14tj"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9e7551f85b7d4ad38d7dd2521971bab1"
+    },
+    "entity": {
+      "$bytes": "ca0d1c15b3ea43009ba65c18e168a2ff"
+    },
+    "from": {
+      "$bytes": "9ff845ddd5324e4cab300f5b3ebfcc07"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2BkH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "658ee3bdeb04477e83dffb69e10afd1e"
+    },
+    "entity": {
+      "$bytes": "b38e575a75494344b73ca367826a191b"
+    },
+    "from": {
+      "$bytes": "79a507942c4848f7a0afa305efa5f6a6"
+    },
+    "to": {
+      "$bytes": "12d7d800884d4cefaacf5be2538a2bbc"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0CIS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ae14d0f181204315a152c9b4aee46e31"
+    },
+    "entity": {
+      "$bytes": "c245851f53c145a48ebadb32087bd9b4"
+    },
+    "from": {
+      "$bytes": "79a507942c4848f7a0afa305efa5f6a6"
+    },
+    "to": {
+      "$bytes": "f206b6c5510d4a759c1e309dde11c685"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a1C9E"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8435896d53274ffda83794beefcb122e"
+    },
+    "entity": {
+      "$bytes": "fc08e07b79e240d9a1e1d7dc9fe308fe"
+    },
+    "from": {
+      "$bytes": "79a507942c4848f7a0afa305efa5f6a6"
+    },
+    "to": {
+      "$bytes": "a55fb976e792432987178812b2f6bc65"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a28P1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ddf207d091a1445e8d16ffb15d90420a"
+    },
+    "entity": {
+      "$bytes": "61874c49dc8b476b8dda08c3351a110d"
+    },
+    "from": {
+      "$bytes": "79a507942c4848f7a0afa305efa5f6a6"
+    },
+    "to": {
+      "$bytes": "af8402d1b9a54766acecd750dd6c2444"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a36hv"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d125c5de007f4533b5f445e9ff3ff5ce"
+    },
+    "entity": {
+      "$bytes": "f87407ea13654732827ee7c6458be378"
+    },
+    "from": {
+      "$bytes": "79a507942c4848f7a0afa305efa5f6a6"
+    },
+    "to": {
+      "$bytes": "ffc7228f4c98435a9e640657101e63f0"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a45ou"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7931d03da5154c438f361cad17a83cf6"
+    },
+    "entity": {
+      "$bytes": "5f3df147a6894148ab3958713b4fb840"
+    },
+    "from": {
+      "$bytes": "79a507942c4848f7a0afa305efa5f6a6"
+    },
+    "to": {
+      "$bytes": "c8fa9bf3965945a1beca67e18e6b0ee7"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a512l"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "88aa4e978f834fddad2b6085f9f4d948"
+    },
+    "entity": {
+      "$bytes": "db6cb36e880b4a05ac1e66c24181c83b"
+    },
+    "from": {
+      "$bytes": "79a507942c4848f7a0afa305efa5f6a6"
+    },
+    "to": {
+      "$bytes": "f2667ffde3fd44dabe4a65c5da53a6e4"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a63Wm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4591c824935f48da9b73314cad5e3d82"
+    },
+    "entity": {
+      "$bytes": "d297d7c9e12c4b71b67482d3d6344ffe"
+    },
+    "from": {
+      "$bytes": "79a507942c4848f7a0afa305efa5f6a6"
+    },
+    "to": {
+      "$bytes": "dcb3349e9b4043a69c65188bacac29c5"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a7CIk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "63e4723da341448e8dca0aa810910f99"
+    },
+    "entity": {
+      "$bytes": "dee533487576467585ca3351191cda5e"
+    },
+    "from": {
+      "$bytes": "2279edef1bbe479c872caeb72ee90022"
+    },
+    "to": {
+      "$bytes": "b03dde2a34e14ae683231fe8449a906b"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aLs1JBMA"
+  }
+]

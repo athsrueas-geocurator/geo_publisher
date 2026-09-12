@@ -1,0 +1,55 @@
+{
+  "term": "operator",
+  "checkedAt": "2026-09-11T21:42:48.510Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "422143f8fc0b4c699a3e47f8b32b082b",
+      "name": "Operators",
+      "description": "The organization responsible for managing and operating the data center facility.",
+      "spaceIds": [
+        "870e3b3068661e6280fad2ab456829bc"
+      ]
+    },
+    {
+      "id": "97fcde2a485ba34b89556ddca570c357",
+      "name": "Operator",
+      "description": null,
+      "spaceIds": [
+        "c9f267dcb0d270718c2a3c45a64afd32"
+      ]
+    },
+    {
+      "id": "b5614a2e9e1e4342b334a2391f34a51e",
+      "name": "Flight operator",
+      "description": null,
+      "spaceIds": [
+        "d23eaaed1ded3f52b5116e254473f96d"
+      ]
+    },
+    {
+      "id": "db005155b90946f39ca5324e8c4974d2",
+      "name": "Operator",
+      "description": "Operator value from the IM3 Open Source Data Center Atlas CSV.",
+      "spaceIds": [
+        "b9e48b8bc1a1db6320ab5da9dbf28269"
+      ]
+    },
+    {
+      "id": "e5fd2a3306284a6db25a05f90475a653",
+      "name": "Operator roles",
+      "description": null,
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTVmZDJhMzMtMDYyOC00YTZkLWIyNWEtMDVmOTA0NzVhNjUzIl1d"
+    }
+  ]
+}

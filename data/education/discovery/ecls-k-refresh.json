@@ -1,0 +1,69 @@
+{
+  "sourceKey": "datasets:ecls-k",
+  "sourceTitle": "Early Childhood Longitudinal Study, Kindergarten Class of 2010-11 (ECLS-K:2011)",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; complete paginated title, focused-alias, and official-URL identifier searches",
+  "checkedAt": "2026-09-12T10:34:02.271Z",
+  "searches": [
+    {
+      "kind": "name",
+      "term": "Early Childhood Longitudinal Study, Kindergarten Class of 2010-11 (ECLS-K:2011)",
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ],
+      "complete": true
+    },
+    {
+      "kind": "name",
+      "term": "Early Childhood Longitudinal Study",
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ],
+      "complete": true
+    },
+    {
+      "kind": "name",
+      "term": "ECLS-K:2011",
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ],
+      "complete": true
+    },
+    {
+      "kind": "name",
+      "term": "Kindergarten Class of 2010-11",
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ],
+      "complete": true
+    },
+    {
+      "kind": "identifier",
+      "term": "nces.ed.gov/ecls",
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ],
+      "complete": true
+    }
+  ]
+}

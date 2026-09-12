@@ -1,0 +1,237 @@
+{
+  "checkedAt": "2026-09-12T12:22:29.301Z",
+  "passed": true,
+  "checks": [
+    {
+      "key": "article",
+      "field": "name",
+      "pass": true
+    },
+    {
+      "key": "article",
+      "field": "description",
+      "pass": true
+    },
+    {
+      "key": "article",
+      "field": "url",
+      "pass": true
+    },
+    {
+      "key": "article",
+      "field": "doi",
+      "pass": true
+    },
+    {
+      "key": "article",
+      "field": "type",
+      "pass": true
+    },
+    {
+      "key": "initiative",
+      "field": "name",
+      "pass": true
+    },
+    {
+      "key": "initiative",
+      "field": "description",
+      "pass": true
+    },
+    {
+      "key": "initiative",
+      "field": "url",
+      "pass": true
+    },
+    {
+      "key": "initiative",
+      "field": "slug",
+      "pass": true
+    },
+    {
+      "key": "initiative",
+      "field": "type",
+      "pass": true
+    },
+    {
+      "key": "author/Thomas Dee",
+      "field": "name",
+      "pass": true
+    },
+    {
+      "key": "author/Thomas Dee",
+      "field": "type",
+      "pass": true
+    },
+    {
+      "key": "author/James Wyckoff",
+      "field": "name",
+      "pass": true
+    },
+    {
+      "key": "author/James Wyckoff",
+      "field": "type",
+      "pass": true
+    },
+    {
+      "field": "author/Thomas Dee",
+      "pass": true
+    },
+    {
+      "field": "author/James Wyckoff",
+      "pass": true
+    },
+    {
+      "field": "program/source",
+      "pass": true
+    }
+  ],
+  "rows": [
+    {
+      "key": "article",
+      "id": "049614ea288941cabd7aed7bc67bf596",
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Incentives, Selection, and Teacher Performance: Evidence from IMPACT"
+          },
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "Thomas Dee and James Wyckoff's October 2013 NBER working paper examines teacher retention and performance around DCPS IMPACT rating thresholds using regression discontinuity."
+          },
+          {
+            "propertyId": "7cb59354e30c48119e99ff62fcf61646",
+            "text": "https://doi.org/10.3386/w19529"
+          },
+          {
+            "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+            "text": "https://www.nber.org/papers/w19529"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "65048615c06e4153afed16aa506d8181",
+            "typeId": "91a9e2f6e51a48f7997661de8561b690",
+            "toEntityId": "1dbcd6ed0592406c860efbdfcf565269"
+          },
+          {
+            "id": "c1a63513d6c843fbbca4a6a39b0f1d21",
+            "typeId": "91a9e2f6e51a48f7997661de8561b690",
+            "toEntityId": "58f9b0ff11ab4948a04f5af0712480e7"
+          },
+          {
+            "id": "efe8567cf23e4fafb8da9eae04b65f35",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "a2a5ed0cacef46b1835de457956ce915"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "key": "initiative",
+      "id": "0ed2e122cee541dc93a075aeca9feace",
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "DC IMPACT"
+          },
+          {
+            "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+            "text": "https://dcps.dc.gov/node/976262"
+          },
+          {
+            "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+            "text": "District of Columbia Public Schools' evaluation and feedback system for school-based personnel, introduced in 2009. It combines multiple measures of performance with feedback and personnel incentives."
+          },
+          {
+            "propertyId": "b0305ef28312c519d954bc0efe22f013",
+            "text": "dc-impact-teacher-evaluation-with-consequences"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "457c6c868618468fae603a8416d92c68",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "d272f19cef87485fb83e26fb68957395"
+          },
+          {
+            "id": "f6be3888045e417bb69cf963e783dcc7",
+            "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+            "toEntityId": "049614ea288941cabd7aed7bc67bf596"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "key": "author/Thomas Dee",
+      "id": "1dbcd6ed0592406c860efbdfcf565269",
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "Thomas Dee"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "6da314c9ab9b434abac1156a479ca7d8",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "7ed45f2bc48b419e8e4664d5ff680b0d"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    },
+    {
+      "key": "author/James Wyckoff",
+      "id": "58f9b0ff11ab4948a04f5af0712480e7",
+      "values": {
+        "nodes": [
+          {
+            "propertyId": "a126ca530c8e48d5b88882c734c38935",
+            "text": "James Wyckoff"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      },
+      "relations": {
+        "nodes": [
+          {
+            "id": "20fb395e253d4d69b00fd8a6ca513a8f",
+            "typeId": "8f151ba4de204e3c9cb499ddf96f48f1",
+            "toEntityId": "7ed45f2bc48b419e8e4664d5ff680b0d"
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false
+        }
+      }
+    }
+  ]
+}

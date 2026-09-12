@@ -1,0 +1,35 @@
+{
+  "reviewedAt": "2026-09-11",
+  "scope": "All spaces and types; exact/substring primary names and unrestricted text-value DOI matching",
+  "evidence": [
+    "discovery/economic-considerations-and-class-size.json",
+    "discovery/experimental-estimates-of-education-production-functions.json",
+    "discovery/contains-economic-considerations-and-class-size.json",
+    "discovery/contains-experimental-estimates-of-education-production.json",
+    "discovery/contains-project-star.json",
+    "discovery/contains-tennessee-star.json",
+    "discovery/tennessee.json",
+    "star-identifier-discovery.json"
+  ],
+  "publications": {
+    "10.1111/1468-0297.00098": "No matching publication candidate found in completed title/DOI probes; create eligible after ontology review",
+    "10.3386/w8875": "Working-paper version of economic article; preserve version association rather than count as another experiment",
+    "10.1162/003355399556052": "No matching publication candidate found in completed title/DOI probes; experimental extraction still pending"
+  },
+  "rejectedCandidates": [
+    {"id":"ee61894c540e42be9420f62bae31e744","reason":"Tennessee Star news article, not education experiment"},
+    {"id":"2cf26b3b128d4fb499520213a0299e33","reason":"Project Stargate claim, not education experiment"},
+    {"id":"3a6b0524332d44e6a50a7203e0c8f608","reason":"Project Stargate claim, not education experiment"},
+    {"id":"6da3ec76233e436d9bf5423dfe543739","reason":"Project Stargate claim, not education experiment"},
+    {"id":"8968874817134f1e8ed65cf0d6cc44fa","reason":"StarQuest art project, not education experiment"},
+    {"id":"a3493997a5704885bd249f9e727a3317","reason":"Project Stargate claim, not education experiment"},
+    {"id":"cad987c220df40b187b857086c428189","reason":"Project Stargate claim, not education experiment"},
+    {"id":"de015770da5e4dd68885faa0d05b04a7","reason":"Project Stargate topic, not education experiment"},
+    {"id":"e91e0fb4582d401c9bf3415737585fe0","reason":"Project Stargate claim, not education experiment"}
+  ],
+  "geography": {
+    "tennesseeId": "b753211b9fd6470b8bb0ed709b97b789",
+    "sourceSpace": "84a679ce188f061ac9a92380bac2bab5",
+    "decision": "Reuse existing State/Place for experiment geography; economic model population is US entrants, so do not label model national costs as observed Tennessee costs"
+  }
+}

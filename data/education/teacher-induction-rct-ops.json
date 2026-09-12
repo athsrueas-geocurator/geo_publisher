@@ -1,0 +1,615 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "fae731c205e34a5580d8cef78a5aa074"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Impacts of Comprehensive Teacher Induction: Final Results from a Randomized Controlled Study",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A federal randomized evaluation of comprehensive induction for beginning teachers, with three-year achievement and retention follow-up.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://nces.ed.gov/sites/default/files/migrated/nces_pubs/ncee/pubs/20104027/pdf/20104027.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e1d73037635b44f9930bd5c12b6220a4"
+    },
+    "entity": {
+      "$bytes": "61ecec7ba16147f3bd4001aad36080a7"
+    },
+    "from": {
+      "$bytes": "fae731c205e34a5580d8cef78a5aa074"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a047Q"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7568174c9ce043d09aee74e46aee35a9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Comprehensive teacher induction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "An induction model using trained full-time mentors, instructional support, professional development, observation, and feedback for beginning teachers. The study distinguishes one- and two-year district implementations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://nces.ed.gov/sites/default/files/migrated/nces_pubs/ncee/pubs/20104027/pdf/20104027.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "61c4a9a582524b329008940ec94a7e8d"
+    },
+    "entity": {
+      "$bytes": "fa943662950748088d2fe331da2f0a8e"
+    },
+    "from": {
+      "$bytes": "7568174c9ce043d09aee74e46aee35a9"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BY7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c1ba5523f4e345e4b2b1a5529e655b28"
+    },
+    "entity": {
+      "$bytes": "b9fcf1c08a3a44fda801cbe3cbf07e57"
+    },
+    "from": {
+      "$bytes": "7568174c9ce043d09aee74e46aee35a9"
+    },
+    "to": {
+      "$bytes": "fae731c205e34a5580d8cef78a5aa074"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a00Qe"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2d0c72fdc4074ac89b5a43873936dc41"
+    },
+    "entity": {
+      "$bytes": "b95a6ec356b048168a78fb883c423a3d"
+    },
+    "from": {
+      "$bytes": "7568174c9ce043d09aee74e46aee35a9"
+    },
+    "to": {
+      "$bytes": "fae731c205e34a5580d8cef78a5aa074"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09U4"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d6db6079c37d4dd991138ca32b4c8772"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Two years of comprehensive induction increased year-three reading scores by 0.11 SD in the benchmark sample.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V.5 reports p=.018 for 1,347 students of 74 teachers in six two-year districts. The result depends on the current-and-prior-test benchmark sample and is not a one-year induction result.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "11"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1347"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Standardized treatment-control effect size in year-three reading; two-year districts, benchmark sample.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V.5, p. 93.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e9c110435b4e4889a6d1d1d0c85e91ec"
+    },
+    "entity": {
+      "$bytes": "9d8bb290b9bb429f92c12771da65afac"
+    },
+    "from": {
+      "$bytes": "d6db6079c37d4dd991138ca32b4c8772"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07A9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e767e6a675c6409b93ae7ae1d6d55501"
+    },
+    "entity": {
+      "$bytes": "8a0c5e061afa47dc9e4d715677e536c8"
+    },
+    "from": {
+      "$bytes": "d6db6079c37d4dd991138ca32b4c8772"
+    },
+    "to": {
+      "$bytes": "fae731c205e34a5580d8cef78a5aa074"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0129"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "50a7b2e83217467e9db84c0dc57e2cb3"
+    },
+    "entity": {
+      "$bytes": "d34bd0521c5045e6a2f5e7314e6105e4"
+    },
+    "from": {
+      "$bytes": "d6db6079c37d4dd991138ca32b4c8772"
+    },
+    "to": {
+      "$bytes": "7568174c9ce043d09aee74e46aee35a9"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02x3"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "12a76912aea44c4ea28cff2306bf2269"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Two years of comprehensive induction increased year-three math scores by 0.20 SD in the benchmark sample.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V.5 reports p<.001 for 1,198 students of 68 teachers in six two-year districts. It is a benchmark-sample finding, not an effect for all tested students or all induction durations.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "20"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1198"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Standardized treatment-control effect size in year-three math; two-year districts, benchmark sample.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table V.5, p. 93.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e778f0115e4c470789047feed1a0c53b"
+    },
+    "entity": {
+      "$bytes": "3cfe497437e04aa4b729b3c444f85620"
+    },
+    "from": {
+      "$bytes": "12a76912aea44c4ea28cff2306bf2269"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09GK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5cafd3bed49e4bf5849c8f76d5ed7887"
+    },
+    "entity": {
+      "$bytes": "574f740f367b4566b2f9f1a7671ba920"
+    },
+    "from": {
+      "$bytes": "12a76912aea44c4ea28cff2306bf2269"
+    },
+    "to": {
+      "$bytes": "fae731c205e34a5580d8cef78a5aa074"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a05U7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "04d3cadff7bf4c39bd61ffe08ee11e15"
+    },
+    "entity": {
+      "$bytes": "f44177fe9bf04b72842b960d2832a65c"
+    },
+    "from": {
+      "$bytes": "12a76912aea44c4ea28cff2306bf2269"
+    },
+    "to": {
+      "$bytes": "7568174c9ce043d09aee74e46aee35a9"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06C0"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "70be9dadb884480a914ce4f3595fb7b3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Two years of comprehensive induction did not significantly change same-school retention after three years (+7.1 percentage points; p=.159).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The adjusted result covers 375 teachers in two-year districts. It does not prove no retention effect, but it was not statistically significant at the reports 5% threshold.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "71"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "375"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point treatment-control difference in same-school retention after three years; two-year districts.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table D.10, p. D-11.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1791e096c685471e892c27f018e5ce09"
+    },
+    "entity": {
+      "$bytes": "1da5bbe1fe9d423cb982d8acd0679c99"
+    },
+    "from": {
+      "$bytes": "70be9dadb884480a914ce4f3595fb7b3"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00xo"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "231e884520cb4d00ae7e203a5fdda574"
+    },
+    "entity": {
+      "$bytes": "4c77274007bd4fdca77ebc8319c67316"
+    },
+    "from": {
+      "$bytes": "70be9dadb884480a914ce4f3595fb7b3"
+    },
+    "to": {
+      "$bytes": "fae731c205e34a5580d8cef78a5aa074"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09LC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ea533d36f159421387629f085ebfbec0"
+    },
+    "entity": {
+      "$bytes": "0d49659addb040adac19023eeaa538aa"
+    },
+    "from": {
+      "$bytes": "70be9dadb884480a914ce4f3595fb7b3"
+    },
+    "to": {
+      "$bytes": "7568174c9ce043d09aee74e46aee35a9"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a05Ny"
+  }
+]

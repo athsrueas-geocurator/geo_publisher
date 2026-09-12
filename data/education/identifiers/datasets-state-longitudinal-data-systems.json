@@ -1,0 +1,20 @@
+{
+  "sourceKey": "datasets/state-longitudinal-data-systems",
+  "checkedAt": "2026-09-11T17:58:34.533Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://nces.ed.gov/programs/slds/",
+      "needle": "nces.ed.gov/programs/slds",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

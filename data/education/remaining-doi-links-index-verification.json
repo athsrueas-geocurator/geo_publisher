@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-09-12T12:29:42.707Z",
+  "batchName": "Repair DOI resolver links across the education bibliography",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 1,
+  "checks": [
+    {
+      "entityId": "3e4404bac6e842b598e0b0a809a4928f",
+      "propertyId": "7cb59354e30c48119e99ff62fcf61646",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

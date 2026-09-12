@@ -1,0 +1,326 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Carolina Abecedarian Project trial",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "An early-childhood randomized study in Chapel Hill, North Carolina, recruiting four cohorts born in 1972–1976. Its first phase evaluated enriched center-based childcare through age five.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5e78af530e6b4137a00096b405f278f3"
+    },
+    "entity": {
+      "$bytes": "95e2957f7da343808b9f96116b52ff57"
+    },
+    "from": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "to": {
+      "$bytes": "3ef269bc5f114691abc02dcbf398fd63"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5c97a93bb0594d3e83c9b4dda47dfeec"
+    },
+    "entity": {
+      "$bytes": "f077c68ed61a4232aacf38b82ff214a8"
+    },
+    "from": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1e42ea47858c4665a80cbb8e3f80c1e6"
+    },
+    "entity": {
+      "$bytes": "d36ad183829a4a34964f254943cd967d"
+    },
+    "from": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "to": {
+      "$bytes": "680ba16493aaf450f3ceca22b11d2cf1"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "199b6718b0f249d9b4ea6d39401b7dab"
+    },
+    "entity": {
+      "$bytes": "07f67a5c7ea24059bdf9d8ef6865b3f6"
+    },
+    "from": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "to": {
+      "$bytes": "ad9f48f68b804ddd9f9e8ffa5869ef02"
+    },
+    "relationType": {
+      "$bytes": "b1fdc75afb6841a18d8286427099ea44"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a38e5a70d28a4074ba2a3884a1adca65"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Cohorts and study design\n\nBirth cohorts: 1972–1976. The source describes 120 initial families and a study sample of 114 subjects (58 treatment and 56 control). These recruitment and study counts differ from outcome-specific analysis samples. School-age support involved a separate randomization.\n\n## Relationship to the economic analysis\n\nThe economic paper pools first-phase ABC and CARE center-based treatment against their randomized controls. It does not constitute a third independent trial. Control children could attend alternative formal childcare, and life-cycle forecasts extend beyond observed follow-up.\n\n[Source: 2. ABC/CARE: Background](https://pmc.ncbi.nlm.nih.gov/articles/PMC7331936/)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "457d5cdba0344c128f3aa5d5115bffd9"
+    },
+    "entity": {
+      "$bytes": "b1b1e0a5a970476d9d01606f56d864fd"
+    },
+    "from": {
+      "$bytes": "a38e5a70d28a4074ba2a3884a1adca65"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "939da0903add4dcca4cf1c0af2432915"
+    },
+    "entity": {
+      "$bytes": "ac2abebf479f44a786299ddf42eb2bd4"
+    },
+    "from": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "to": {
+      "$bytes": "a38e5a70d28a4074ba2a3884a1adca65"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Carolina Approach to Responsive Education trial",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "An early-childhood randomized study in Chapel Hill, North Carolina, recruiting two cohorts born in 1978–1980. Its initial arms included center-based childcare, family education and control conditions.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "11c6bd57ca9a4041afa9acfc9dacbd66"
+    },
+    "entity": {
+      "$bytes": "ef9eee11fa3342f7a1a7e8b14e911572"
+    },
+    "from": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "to": {
+      "$bytes": "3ef269bc5f114691abc02dcbf398fd63"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "942e421f9c2047ada627fddbf3965d31"
+    },
+    "entity": {
+      "$bytes": "fe1176f6907e47a291fef847fad5fcc6"
+    },
+    "from": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "90e41fdd09b34bc3b101f0652ec038c8"
+    },
+    "entity": {
+      "$bytes": "59caa37ec63a41488ef921f48c4c77e7"
+    },
+    "from": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "to": {
+      "$bytes": "680ba16493aaf450f3ceca22b11d2cf1"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f02e01e8220a44e19255e8a1a7a83283"
+    },
+    "entity": {
+      "$bytes": "6084a0bd064f42b89ebf8a84bf26c307"
+    },
+    "from": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "to": {
+      "$bytes": "ad9f48f68b804ddd9f9e8ffa5869ef02"
+    },
+    "relationType": {
+      "$bytes": "b1fdc75afb6841a18d8286427099ea44"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a7a137758816409491505e57d9dd3b8e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Cohorts and study design\n\nBirth cohorts: 1978–1980. The source describes 65 initial families: 17 assigned to center-based childcare, 25 to family education and 23 to control. The life-cycle economic analysis excludes the home-visiting-only family-education arm.\n\n## Relationship to the economic analysis\n\nThe economic paper pools first-phase ABC and CARE center-based treatment against their randomized controls. It does not constitute a third independent trial. Control children could attend alternative formal childcare, and life-cycle forecasts extend beyond observed follow-up.\n\n[Source: 2. ABC/CARE: Background](https://pmc.ncbi.nlm.nih.gov/articles/PMC7331936/)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "02bb53fc1005435ca49a58f45195043c"
+    },
+    "entity": {
+      "$bytes": "bd388267afcc480b9a1eb52ec644959f"
+    },
+    "from": {
+      "$bytes": "a7a137758816409491505e57d9dd3b8e"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "92038c26e99d415187a5a6013512c485"
+    },
+    "entity": {
+      "$bytes": "230d5e29c7484e01a038d66481eb21bb"
+    },
+    "from": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "to": {
+      "$bytes": "a7a137758816409491505e57d9dd3b8e"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    }
+  }
+]

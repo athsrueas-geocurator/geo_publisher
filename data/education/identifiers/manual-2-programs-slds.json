@@ -1,0 +1,20 @@
+{
+  "sourceKey": "manual/2-programs-slds",
+  "checkedAt": "2026-09-12T16:45:19.214Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://nces.ed.gov/programs/slds/",
+      "needle": "nces.ed.gov/programs/slds",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

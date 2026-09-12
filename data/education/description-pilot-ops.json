@@ -1,0 +1,82 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled costs and projected earnings for reducing early-grade class sizes, based on Tennessee STAR evidence. Compare economic assumptions and sensitivity scenarios in 1998 US dollars.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "518cf9a33b8740e4b343b7d58d1eb3b5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Methods and interpretation\n\nModeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than reported 7300. The dataset retains the reported value of 7300.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2fdfb531ba8c4e4d9bc1b25460b19251"
+    },
+    "entity": {
+      "$bytes": "e73d8098f1ba40a4a5534c77e5e33a38"
+    },
+    "from": {
+      "$bytes": "518cf9a33b8740e4b343b7d58d1eb3b5"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03Gz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3617b07e98bf4aceaf624d3b44bd1f10"
+    },
+    "entity": {
+      "$bytes": "bcdc7cdbe82d47d18195bf8a0e4e25b6"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "518cf9a33b8740e4b343b7d58d1eb3b5"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a17D1"
+  }
+]

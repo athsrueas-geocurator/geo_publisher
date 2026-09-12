@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-09-12T03:08:11.765Z",
+  "batchName": "Add Reading First intended population and grade coverage",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "relationId": "f94a635d5d8c47d48c6d99f347b429ec",
+      "pass": true
+    },
+    {
+      "relationId": "b9f9d14de82a4730b3ec0aa733b8e8d5",
+      "pass": true
+    },
+    {
+      "relationId": "be426d90e2af45829e9b23b4ceb87b6f",
+      "pass": true
+    },
+    {
+      "relationId": "d8c0182eac7946bb8b73fbec35803a5b",
+      "pass": true
+    },
+    {
+      "relationId": "d4447a46bd7249e49b449674c1ffda81",
+      "pass": true
+    },
+    {
+      "relationId": "b11b327a5a2d4755a90733c6bc9d71b5",
+      "pass": true
+    },
+    {
+      "entityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "9b7c11b6a5684461bfc8c4bae7a5afd8",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "relationId": "3adcbf1c63c94cacba4a985fe8c0720e",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

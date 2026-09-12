@@ -1,0 +1,514 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ebea6acfc7fc49b792cd7a7d7e164d6b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga first-year estimates: Mathematics",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "801bba51f3c5441cbdd32a54b1735fa9"
+    },
+    "entity": {
+      "$bytes": "cb81f9543afb427988302f2c8431e52c"
+    },
+    "from": {
+      "$bytes": "ebea6acfc7fc49b792cd7a7d7e164d6b"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "12589c1d9b254a9c911a6682a0821bc8"
+    },
+    "entity": {
+      "$bytes": "7dfbd7c591444776b16261e00c0f1c29"
+    },
+    "from": {
+      "$bytes": "ebea6acfc7fc49b792cd7a7d7e164d6b"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1b86a6a629af422991c239684d40c4f8"
+    },
+    "entity": {
+      "$bytes": "20fa491e0a4248d4a04fc6da87e694e6"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "ebea6acfc7fc49b792cd7a7d7e164d6b"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "b0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "32c0c884f9524a6bb3ac044448545e82"
+    },
+    "entity": {
+      "$bytes": "ebceb245eed74ef28ea75c556e316824"
+    },
+    "from": {
+      "$bytes": "20fa491e0a4248d4a04fc6da87e694e6"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a5d15f7b8dc74135b2e28cbb359dca24"
+    },
+    "entity": {
+      "$bytes": "37ca265033c6467ca9d5c2b75247d738"
+    },
+    "from": {
+      "$bytes": "20fa491e0a4248d4a04fc6da87e694e6"
+    },
+    "to": {
+      "$bytes": "03b87ec1e71f410db566c7f12920283d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a05XJ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7b0874f1237149e3ba5d71048bf03418"
+    },
+    "entity": {
+      "$bytes": "492c92eaf095469399d0201aeaf56754"
+    },
+    "from": {
+      "$bytes": "20fa491e0a4248d4a04fc6da87e694e6"
+    },
+    "to": {
+      "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a19D9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "527b5c16b024494192240d966d492104"
+    },
+    "entity": {
+      "$bytes": "1f64af84150b4771b6c859fdbc8e32c7"
+    },
+    "from": {
+      "$bytes": "20fa491e0a4248d4a04fc6da87e694e6"
+    },
+    "to": {
+      "$bytes": "ba643714da274c37a340a7f8396198dc"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2AfY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b99f0df6b359418398e24632df9b8e11"
+    },
+    "entity": {
+      "$bytes": "bcebd978ad5342f5ae77476b459761d3"
+    },
+    "from": {
+      "$bytes": "20fa491e0a4248d4a04fc6da87e694e6"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a37nK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "547e4ea9cae14695b81a992712a77e38"
+    },
+    "entity": {
+      "$bytes": "86edc04765224c64b58ce502e8f73359"
+    },
+    "from": {
+      "$bytes": "20fa491e0a4248d4a04fc6da87e694e6"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a41oZ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d581ed4e209943d7bff7708c6b887218"
+    },
+    "entity": {
+      "$bytes": "29b4c0c3f431414cbd1ab3019426ec9d"
+    },
+    "from": {
+      "$bytes": "20fa491e0a4248d4a04fc6da87e694e6"
+    },
+    "to": {
+      "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a56RT"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ae6a7f3874084e26a9e156b6450d070e"
+    },
+    "entity": {
+      "$bytes": "c132cf4faea8426aa81d1ccd57c998a1"
+    },
+    "from": {
+      "$bytes": "20fa491e0a4248d4a04fc6da87e694e6"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a67FU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aba92e76a5ac45f291e4d64ac7bdf78b"
+    },
+    "entity": {
+      "$bytes": "95d3837daccb4211bf160234886038fb"
+    },
+    "from": {
+      "$bytes": "20fa491e0a4248d4a04fc6da87e694e6"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a77CK"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "022d596aadaf40709f4e0c2f04db8c8a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga Chicago study 1: Math GPA (ITT, year one)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "First-year trial estimate, with its reported standard error and outcome-specific sample count. ITT and TOT estimates describe the same trial.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Math GPA",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "Male students entering grades 9 or 10 in selected Chicago public high schools, 2013–2014",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "279"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "40"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2215"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "ITT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Year-one estimates: 2013–2014 academic year; tutoring offer up to two years",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 3, panel A; printed p. 749 (PDF p. 12)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "GPA points (0–4 scale)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2a1f7740e08340449011737c4f761f36"
+    },
+    "entity": {
+      "$bytes": "a3fa49776054400e9ee89aa869c89263"
+    },
+    "from": {
+      "$bytes": "022d596aadaf40709f4e0c2f04db8c8a"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d2d821904d5049fb9fc7afccc627127f"
+    },
+    "entity": {
+      "$bytes": "d27464bdc303400997bf97d8771f29e3"
+    },
+    "from": {
+      "$bytes": "022d596aadaf40709f4e0c2f04db8c8a"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "71e4b9b4adbf4c0e92584fbc01f68c41"
+    },
+    "entity": {
+      "$bytes": "f43d68b352ba4eaa87600756bd6df3e9"
+    },
+    "from": {
+      "$bytes": "022d596aadaf40709f4e0c2f04db8c8a"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a75362581ec44bcc86f2129e485529cb"
+    },
+    "entity": {
+      "$bytes": "25e7466f06b945ddaaa0a214af4d382a"
+    },
+    "from": {
+      "$bytes": "022d596aadaf40709f4e0c2f04db8c8a"
+    },
+    "to": {
+      "$bytes": "e82f3bfc991a4578aa8b7a503640b95e"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "833164060956491fb38073204864aa7b"
+    },
+    "entity": {
+      "$bytes": "482b622adf6a44eabc7eb9e539f2e950"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "022d596aadaf40709f4e0c2f04db8c8a"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a3cc77592fd74a95b2e69e7b9e92e37b"
+    },
+    "entity": {
+      "$bytes": "e8c80cc7eacd41708998648676a7303f"
+    },
+    "from": {
+      "$bytes": "ebea6acfc7fc49b792cd7a7d7e164d6b"
+    },
+    "to": {
+      "$bytes": "022d596aadaf40709f4e0c2f04db8c8a"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a002"
+  }
+]

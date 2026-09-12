@@ -1,0 +1,2193 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0d1e184534bf40de8ed81c3f60c837d8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5844"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5828"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "SAT 10 scaled-score points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2a6da9ec810c445988eff318ddbb10af"
+    },
+    "entity": {
+      "$bytes": "2fa5f7fe018345b5aa9f643b7c501379"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "0d1e184534bf40de8ed81c3f60c837d8"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a10d3"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0aed4da3d0354a8e921808d13e6c4108"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "6091"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "6088"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "SAT 10 scaled-score points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eefb4a509ecd4bb2a687c0a0e8e9acb2"
+    },
+    "entity": {
+      "$bytes": "2093e3d604dc4d8ea76122809c2dd1de"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "0aed4da3d0354a8e921808d13e6c4108"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a22bx"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b5790e11b8a54055a067c495bf006e95"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "73b35a4ce05f45908118a089d9995bae"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "389"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "373"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7fd72b8419504e0ea802a427d0d2ba35"
+    },
+    "entity": {
+      "$bytes": "eb530761032c43f9ad0f77adec136198"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "b5790e11b8a54055a067c495bf006e95"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a1BFD"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d75cefda66c74d29aa73a93f35eecc91"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "73b35a4ce05f45908118a089d9995bae"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "387"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "388"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "32b7346549924ff48e26544117dc2911"
+    },
+    "entity": {
+      "$bytes": "634827a7992d4d5687bd4e4dc1674d08"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "d75cefda66c74d29aa73a93f35eecc91"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a25UZ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "09e38f2ef30241cb98a66ec75ac28c37"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "969"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "944"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "TOSWRF standard-score points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "36223e863a3b49a18b34decaf1415dc5"
+    },
+    "entity": {
+      "$bytes": "0c29681438e04588a9abaca154752573"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "09e38f2ef30241cb98a66ec75ac28c37"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a32zF"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a7b93648275543749f94227553d4f63a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5923"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5231"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "minutes per daily reading block",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "098869061dfd4495a3bb9b7db3e61563"
+    },
+    "entity": {
+      "$bytes": "76a63b935d4e463a814692f5541f8012"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "a7b93648275543749f94227553d4f63a"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a458Z"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7db594b10154436db6696cb2951cb91e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "73b35a4ce05f45908118a089d9995bae"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2939"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2610"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "23e1c6b88f4e4b95a905a94dbefbca24"
+    },
+    "entity": {
+      "$bytes": "189866b848234ed9832db015b59a8cc6"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "7db594b10154436db6696cb2951cb91e"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a350I"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "44d15e5671184bfba83c82417d6fb6e1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "73b35a4ce05f45908118a089d9995bae"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1844"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1761"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f64c192a37ed438b9daabba9812237f6"
+    },
+    "entity": {
+      "$bytes": "77e649fa4e644421be302c32ceb67012"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "44d15e5671184bfba83c82417d6fb6e1"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a49j1"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5826e6a8487e49baabdc5ccb716df7cf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5908"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4930"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "minutes per daily reading block",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dbd5975fe363486f87947b1b5180c80a"
+    },
+    "entity": {
+      "$bytes": "e02b33a081ab4c14a474d3e4d4783f07"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "5826e6a8487e49baabdc5ccb716df7cf"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a592I"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "49d3c45c2151490f9a44c75a60bffe3d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "73b35a4ce05f45908118a089d9995bae"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3095"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2795"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "37ce8a8d8a344bfab091c74b9a592f65"
+    },
+    "entity": {
+      "$bytes": "fd28b100bfb1484c8c9207eb57f18c3b"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "49d3c45c2151490f9a44c75a60bffe3d"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a5AdO"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "46d1a145910c4d24bbd64c83f1f1602f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "73b35a4ce05f45908118a089d9995bae"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1782"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1488"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0eea772dc18e47649594b34ad689f93e"
+    },
+    "entity": {
+      "$bytes": "e699a273b56e4279b94a0f3e27f8316e"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "46d1a145910c4d24bbd64c83f1f1602f"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a68dJ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c017745fb03b493a82c219a3d2c531b9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "232"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "171"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "minutes per daily reading block",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8c0804ffc10a4eb0a0cc3bc8d9d27576"
+    },
+    "entity": {
+      "$bytes": "4027b017cb17413eae5d8563fce275d7"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "c017745fb03b493a82c219a3d2c531b9"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a6Bfn"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f051087745894297934a899d5b718a4f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2132"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1845"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "minutes per daily reading block",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e48c2f207fe84a249fa98852b189b388"
+    },
+    "entity": {
+      "$bytes": "5030da5eb9454a2cbe802dc4d972621c"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "f051087745894297934a899d5b718a4f"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a78nH"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "080908c4da6c421bbf5b1fb12e940b22"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "792"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "735"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "minutes per daily reading block",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "39102ae9c2c04cc2a768766aa6936ee1"
+    },
+    "entity": {
+      "$bytes": "9a653086f5b04df3b3294a9cec025519"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "080908c4da6c421bbf5b1fb12e940b22"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a88iE"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ab93117898b14ab7be334ddda3916d20"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "467"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "343"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "minutes per daily reading block",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bede1c1d5e3241fc8d7941a5fa8da7ed"
+    },
+    "entity": {
+      "$bytes": "6a09a8f75ce24a28b40e0b73d23d57c8"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "ab93117898b14ab7be334ddda3916d20"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a98Uf"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "66503ca1ea924b368608e543604d5795"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2301"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2123"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "minutes per daily reading block",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "66e1319f5df54c5c9616cd94dfa1d4da"
+    },
+    "entity": {
+      "$bytes": "5211d5d15e854965825ccb877b044482"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "66503ca1ea924b368608e543604d5795"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aA7eX"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5cc18a25b77f4a9ebc220a9524e4dc08"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "49"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "37"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "minutes per daily reading block",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "03fb2e386e1049a89ac078a5d1c31097"
+    },
+    "entity": {
+      "$bytes": "069afb6fcb9b4dd1b56be20189aa8dd5"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "5cc18a25b77f4a9ebc220a9524e4dc08"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aB6g4"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c25d5bf3d2144c14966c7f193b68fe45"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1392"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1065"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "minutes per daily reading block",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "50a6935a029e4eb6bc7b80d43f8290c7"
+    },
+    "entity": {
+      "$bytes": "038ec0eedb32467e89f42647aa608b8e"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "c25d5bf3d2144c14966c7f193b68fe45"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aC7H5"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2c3c71d68e2e481c8f4f93cfad9a77a5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1179"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1006"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "minutes per daily reading block",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7036c68d30ea4bf794e56fc3dd7e7582"
+    },
+    "entity": {
+      "$bytes": "5b31934a222042ad97cc299269661fa1"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "2c3c71d68e2e481c8f4f93cfad9a77a5"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aD6C5"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "450593005da44e6d9b3ca2fb804dea72"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "414"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "356"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "minutes per daily reading block",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "34a317b65e7a4627a6e3620c6ee769eb"
+    },
+    "entity": {
+      "$bytes": "e5eb7fc7e507460593e49f398a15c18f"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "450593005da44e6d9b3ca2fb804dea72"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aE6Oq"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b6d90e392e634cde9f3904784e179184"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2874"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2473"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "minutes per daily reading block",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1ba65297abc64bbaaa049be6438ceaa3"
+    },
+    "entity": {
+      "$bytes": "c06c6ce1b5e64a719cd3bedc476c7676"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "b6d90e392e634cde9f3904784e179184"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aF7zL"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e6def14e137a4990ae61edc1d8c3d113"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "73b35a4ce05f45908118a089d9995bae"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4784"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4252"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8b177fb1681341f7bdafcb7291f923bb"
+    },
+    "entity": {
+      "$bytes": "d7b65fc8f12a45d7b7b8edf95598e796"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "e6def14e137a4990ae61edc1d8c3d113"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a76zu"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5090ee1ec09b495da489723bf76d140d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "73b35a4ce05f45908118a089d9995bae"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5053"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5527"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "76ba50a528854cd38d8f4e20180d606a"
+    },
+    "entity": {
+      "$bytes": "ab5037d13b8c4c39a45645fd0c4c6a9b"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "5090ee1ec09b495da489723bf76d140d"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a87sP"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5625b4670a674a9cbc56f2f5f01dce21"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "2584"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1371"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "hours",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "62e28395f43345a7ac35c9dea2522a6e"
+    },
+    "entity": {
+      "$bytes": "95dc40d476d94df2bc9eb2cfc19ef1f0"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "5625b4670a674a9cbc56f2f5f01dce21"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aG2ME"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "03c4448f0de944199db5cdfb9dea50f1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "430"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "375"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "components on a 0-5 scale",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d9ea5094631942efa8c80f89063705d9"
+    },
+    "entity": {
+      "$bytes": "a85717665d244d1a82f43ba0c0fd8d3a"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "03c4448f0de944199db5cdfb9dea50f1"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aH1AP"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4af4e3514b8f4939ab5d8a843acb0a36"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "73b35a4ce05f45908118a089d9995bae"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "83"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "63"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "718430b745c243d484763b87c8a05038"
+    },
+    "entity": {
+      "$bytes": "246f2b489d16462bbcb782ea78acfbb7"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "4af4e3514b8f4939ab5d8a843acb0a36"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a9A8j"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "630abd905b4b4193be52b2fee0281a78"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "73b35a4ce05f45908118a089d9995bae"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "9106"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5757"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a1970eb99925421ba802a007c8824eca"
+    },
+    "entity": {
+      "$bytes": "7fb60b70bde94fc2b3259464d4792908"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "630abd905b4b4193be52b2fee0281a78"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aA17y"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "19ef85b3139d41c99aa9712fbf640c38"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "10571"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "8724"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "minutes per day",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fe67a9bc357345ba88d5d3ac25ec8495"
+    },
+    "entity": {
+      "$bytes": "f31df60991a043efa0080194a798c8db"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "19ef85b3139d41c99aa9712fbf640c38"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aIARv"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "72cfd0265a2a45b198521187df3a6bf8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "73b35a4ce05f45908118a089d9995bae"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "98"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e625ac07ee054ddc8e21c791c027791c"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "97"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e16698dd95434041a05383a5243058d0"
+    },
+    "entity": {
+      "$bytes": "69a438fd866f44efb8a8fa1faab9351d"
+    },
+    "from": {
+      "$bytes": "b9d0f5e162044ecf9d23439654fe75a0"
+    },
+    "to": {
+      "$bytes": "72cfd0265a2a45b198521187df3a6bf8"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aBBli"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "9482e558289d42dba8f081c1ecf390bc"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "379"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "359"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "points on a 0-4 scale",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "989261a504ea47b1865eba24fbc6ea4c"
+    },
+    "entity": {
+      "$bytes": "eb0e796573aa4750b1b9c778cda16385"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "9482e558289d42dba8f081c1ecf390bc"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aJB6A"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4feb60ea734f4a7b848255600b80023a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "698a64065ce14aa2b0022605e6b803c1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "263"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7711cba8c1ed4db0bc3d3afc2709d240"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "245"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "5c67ae17c84ce783f3b8cd8ffa063661"
+        },
+        "value": {
+          "type": "text",
+          "value": "points on a 0-3 scale",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "19f3a33686b8424aa1b8b530b40f87fc"
+    },
+    "entity": {
+      "$bytes": "325447a4bbd548f4ad17956320874a6f"
+    },
+    "from": {
+      "$bytes": "9afe0b6ef4604af9b45f82ec3d4773cd"
+    },
+    "to": {
+      "$bytes": "4feb60ea734f4a7b848255600b80023a"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "aK7p3"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f3d7dd479fd4495d9fcd35d212bbb2e1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Publication coverage\n\nThe tables contain all 33 selected outcome contrasts from Exhibits 2.1–2.6, with 63 native-unit or standardized representations and reported uncertainty from D.1–D.4. Native and standardized versions are paired, not independent findings.\n\nThe mean tables include all 33 pairs of actual funded-group means and estimated without-funding counterfactual means from Exhibits 2.1–2.6. The pairs are attached to the existing native-unit contrasts. Matched delivery costs and complete program, implementation and measurement-concept links remain unresolved. No cost-effectiveness ranking is supported.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  }
+]

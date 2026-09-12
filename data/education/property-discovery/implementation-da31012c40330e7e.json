@@ -1,0 +1,39 @@
+{
+  "term": "implementation",
+  "checkedAt": "2026-09-11T21:42:49.378Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "64a1148c3cd98e7709d867137e798046",
+      "name": "Metric implementation",
+      "description": "AI Music ontology field for metric_implementation; data type relation to MetricImplementation; cardinality one; publish policy required_when_referenced_or_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "d1f057ca125113bb63274bb86f3bed80",
+      "name": "Implementation type",
+      "description": "Implementation category for a civic technology project, platform, method, or case.",
+      "spaceIds": [
+        "8a4955bcd9d0fc0d8613f17f01de3b9f"
+      ]
+    },
+    {
+      "id": "d7caa1d4fcac4c5aa493eaf87dc316aa",
+      "name": "Implementations",
+      "description": null,
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZDdjYWExZDQtZmNhYy00YzVhLWE0OTMtZWFmODdkYzMxNmFhIl1d"
+    }
+  ]
+}

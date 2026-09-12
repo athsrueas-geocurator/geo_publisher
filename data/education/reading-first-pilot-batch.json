@@ -1,0 +1,90 @@
+{
+  "name": "Add Reading First study and first comprehension impact with confidence interval",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/reading-first-pilot-ops.json",
+  "sha256": "c77193c07cc369b4d17ea79582644baf1bed000d6409e152a2242e56fe416385",
+  "operationCount": 61,
+  "datasetId": "02b40a84dd87410f9ad78f0481ad237a",
+  "paperId": "db0ea33548454e1780c78231066b7d71",
+  "studyId": "d87bc8f30fb84b5fa660f98d1e770c78",
+  "blockId": "afb866bcc2064a58a07e0fd2b3fedd2b",
+  "selected": [
+    {
+      "id": "f004fa2ccffa444f9daa5e36e19ab8be",
+      "key": "sat10-score-g1",
+      "representation": "native"
+    }
+  ],
+  "entities": [
+    {
+      "id": "60e8b11660d04c94b1e1ebe4321bedcf",
+      "name": "Confidence interval lower bound",
+      "description": "Lower endpoint of a confidence interval for the estimate on this record, in the estimate's stated unit.",
+      "type": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    {
+      "id": "2b6e1e8fa3324dc08e9b9051f3dee669",
+      "name": "Confidence interval upper bound",
+      "description": "Upper endpoint of a confidence interval for the estimate on this record, in the estimate's stated unit.",
+      "type": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    {
+      "id": "6463e2fdc01a4b0694e40ccc499f6eca",
+      "name": "Confidence interval level",
+      "description": "Confidence level expressed as a fraction, such as 0.95 for a 95% interval.",
+      "type": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    {
+      "id": "db0ea33548454e1780c78231066b7d71",
+      "name": "Reading First Impact Study Final Report",
+      "description": "A federal evaluation of Reading First funding, reporting achievement, instruction and implementation findings from 18 US sites.",
+      "type": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    {
+      "id": "d87bc8f30fb84b5fa660f98d1e770c78",
+      "name": "Reading First Impact Study (2008 final report)",
+      "description": "An evaluation of early-reading grants using regression discontinuity in 17 sites and group random assignment in one site.",
+      "type": "3ef269bc5f114691abc02dcbf398fd63"
+    },
+    {
+      "id": "02b361941ec44410a2d188935d49673c",
+      "name": "Reading First funded schools (RFIS)",
+      "description": "Schools receiving Reading First funding in the impact study. Grant allocation used regression-discontinuity rules in 17 sites and random assignment in one site.",
+      "type": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    {
+      "id": "70384a088b554109b0a8c581c4dd9071",
+      "name": "Reading First unfunded comparison schools (RFIS)",
+      "description": "Schools without Reading First funding used to estimate the study's counterfactual. Their observed means are distinct from the report's adjusted estimates of outcomes without funding.",
+      "type": "19e3f0af19da48d3b5cd0e59eeda5dd0"
+    },
+    {
+      "id": "02b40a84dd87410f9ad78f0481ad237a",
+      "name": "Reading First: achievement and implementation impacts (Gamse et al., 2008)",
+      "description": "Estimated effects of a US early-reading grant program on achievement, classroom instruction and implementation. Results distinguish measured learning outcomes from observed practices and self-reported delivery.",
+      "type": "0c4babfb43893486af827341bbf32e09"
+    },
+    {
+      "id": "f004fa2ccffa444f9daa5e36e19ab8be",
+      "name": "Reading First grade 1 comprehension impact: SAT 10 points (2005-2007)",
+      "description": "Adjusted reading-comprehension impact pooled across three spring assessments. The confidence interval includes zero; the estimate is not evidence of exactly no effect.",
+      "type": "96f859efa1ca4b229372c86ad58b694b"
+    }
+  ],
+  "columns": [
+    "98c0849922164db0822b5a78444c17b3",
+    "e500e2585a964d2c9df4a47b199616c3",
+    "cc28953bd89e406096c9627021f4713d",
+    "60e8b11660d04c94b1e1ebe4321bedcf",
+    "2b6e1e8fa3324dc08e9b9051f3dee669",
+    "6463e2fdc01a4b0694e40ccc499f6eca",
+    "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+    "8405509cc7354655a348591349a5f025",
+    "84dacbddca6a44079edb5e11a4c66b40"
+  ],
+  "journalPath": "data/education/reading-first-pilot-publication.json",
+  "validationPath": "data/education/reading-first-pilot-validation.json",
+  "registry": "data/education/reading-first-registry.json",
+  "sourceHash": "b725db03095b70ca15aeb7db3fddde6d1385ed61d035fdc3f07bfd557485c20d"
+}

@@ -1,0 +1,83 @@
+{
+  "term": "population",
+  "checkedAt": "2026-09-11T21:42:48.711Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "08a0ff3c10e348c5afad9efe6dadf2fb",
+      "name": "Population",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ]
+    },
+    {
+      "id": "234b4043dd564920961042f1c37bbe1f",
+      "name": "Population studied",
+      "description": "People or biological samples examined in a study, described by their relevant characteristics.",
+      "spaceIds": [
+        "e01507b1bd7cb04c074ae8f52196096d"
+      ]
+    },
+    {
+      "id": "2f20b60b8bd287a2ba2e1e63b51e4f7d",
+      "name": "In population",
+      "description": "Links a study finding to the population context studied.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "7a1f6d017895206e84e1988c0c74621e",
+      "name": "Population summary",
+      "description": "Short text describing the population to which evidence applies.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "aa77da401d9b4ca3b250fd24c9b8701f",
+      "name": "Population studied",
+      "description": "Identifies the participant group examined in a study, such as healthy adults, athletes, older adults, or people with specific conditions.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "c6b263ea84974485a66d87b96a402e1f",
+      "name": "Population",
+      "description": "Total population count.",
+      "spaceIds": [
+        "84a679ce188f061ac9a92380bac2bab5"
+      ]
+    },
+    {
+      "id": "d4c2782dda7383b72584dbfaf2f2ef17",
+      "name": "Recommended populations",
+      "description": "Population groups for whom an intervention is advised based on age risk exposure or clinical guidance.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ]
+    },
+    {
+      "id": "e004f7846df83a54965fc71103434522",
+      "name": "Applies to population",
+      "description": "Links evidence, claims, or notes to a population context.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYWE3N2RhNDAtMWQ5Yi00Y2EzLWIyNTAtZmQyNGM5Yjg3MDFmIl1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTAwNGY3ODQtNmRmOC0zYTU0LTk2NWYtYzcxMTAzNDM0NTIyIl1d"
+    }
+  ]
+}

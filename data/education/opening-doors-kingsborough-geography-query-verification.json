@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-09-12T07:46:47.120Z",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "locationId": "deaa7d31c1e569ec5d9f27ae307f08cb",
+  "locationName": "New York City",
+  "queryPath": "data/education/study-location-query.graphql",
+  "expected": [
+    "01f3068dfb154641be12cd1d5d9cfcfb",
+    "5e2cc196b5c64587a024d5a9f4c3156d",
+    "9931dab1c90b4fb3bf8f3043c1da046b",
+    "c1f4e38c5e544d2499087fba2776b0d3",
+    "d87635a2d7374daba6ddea72578c3be6",
+    "e6329e1831db4ceea35b483e5fc50cc1"
+  ],
+  "actual": [
+    "01f3068dfb154641be12cd1d5d9cfcfb",
+    "5e2cc196b5c64587a024d5a9f4c3156d",
+    "9931dab1c90b4fb3bf8f3043c1da046b",
+    "c1f4e38c5e544d2499087fba2776b0d3",
+    "d87635a2d7374daba6ddea72578c3be6",
+    "e6329e1831db4ceea35b483e5fc50cc1"
+  ],
+  "checks": {
+    "completePage": true,
+    "allKingsboroughPresent": true,
+    "allDestinationScoped": true
+  }
+}

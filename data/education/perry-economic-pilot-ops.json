@@ -1,0 +1,1813 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Benefit-cost ratio",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Ratio of discounted benefits to discounted costs under the stated accounting perspective and assumptions. A value of 2 means two units of benefit per unit of cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "396f8c72dfd04b5791ea09c1b9321b2f"
+        },
+        "value": {
+          "type": "text",
+          "value": "precision-unlimited",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "58cebaae3e5c47aea73671bc60db556d"
+    },
+    "entity": {
+      "$bytes": "7d32c82f19a24e7195c224b793c95178"
+    },
+    "from": {
+      "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AK7"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9269c406693842b8a69a9471f3b18f8e"
+    },
+    "entity": {
+      "$bytes": "c88ff25263e547eaaf1c5990bf1604e5"
+    },
+    "from": {
+      "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a05PS"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0baed391e467482889e44ca00658cf62"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Tax deadweight loss",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Assumed additional welfare loss per unit of tax revenue raised, expressed as a fraction. A value of 0.5 means an additional loss of 50% of the revenue amount.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "396f8c72dfd04b5791ea09c1b9321b2f"
+        },
+        "value": {
+          "type": "text",
+          "value": "measure-unit/percent scale/100 precision-unlimited",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "883d4c78f959492fb8db1695747d4848"
+    },
+    "entity": {
+      "$bytes": "508a2ca12b544740b42319cb66a77d39"
+    },
+    "from": {
+      "$bytes": "0baed391e467482889e44ca00658cf62"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08YD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0fcea2cdbc7844d9b936b18087aa873e"
+    },
+    "entity": {
+      "$bytes": "a43fbcda7fe4436cb04b26e267401168"
+    },
+    "from": {
+      "$bytes": "0baed391e467482889e44ca00658cf62"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a012C"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4298a78f5ff54e3abf19207e9b8dea24"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Economic perspectives",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Accounting perspectives specifying whose costs and benefits enter an economic evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0795bccd440a4505b2d28d76fef39fb7"
+    },
+    "entity": {
+      "$bytes": "2f5456ae3794405b8be2b86dac9d9b3e"
+    },
+    "from": {
+      "$bytes": "4298a78f5ff54e3abf19207e9b8dea24"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a020E"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d5389e64d9834ee0ae44c7d23b323eda"
+    },
+    "entity": {
+      "$bytes": "9f62109f3f3747cdaf12f7637c513d5c"
+    },
+    "from": {
+      "$bytes": "4298a78f5ff54e3abf19207e9b8dea24"
+    },
+    "to": {
+      "$bytes": "4b6d9fc1fbfe474c861c83398e1b50d9"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a06Dm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "99ee6b5ad0704b5ab0f2d73a2a5bc63d"
+    },
+    "entity": {
+      "$bytes": "952d843a1c9a48aeba0ac6de1001cb12"
+    },
+    "from": {
+      "$bytes": "4298a78f5ff54e3abf19207e9b8dea24"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "9eea393f17dd4971a62ea603e8bfec20"
+    },
+    "position": "a0CLz"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d15fb305b4244ffbbb1af981e84ebd6c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Murder valuation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Monetary value assigned to a murder in an economic model, interpreted with currency, price year and included harms.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7da91feb703f4a0f814b5454a467ad9f"
+    },
+    "entity": {
+      "$bytes": "fb815d35827746dab2ab02e9779cadbe"
+    },
+    "from": {
+      "$bytes": "d15fb305b4244ffbbb1af981e84ebd6c"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a000E"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "453e842a93674fab93df10f99227efe8"
+    },
+    "entity": {
+      "$bytes": "48511d308d994716a9be66d0fa7ebcf2"
+    },
+    "from": {
+      "$bytes": "d15fb305b4244ffbbb1af981e84ebd6c"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a09vr"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0f3db3824f9b43209048665c798bebfb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Perry Preschool participants",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The full historical participant population in the HighScope Perry Preschool experiment in Ypsilanti, Michigan.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0f6e168852a741aeb6d967f35bdb2195"
+    },
+    "entity": {
+      "$bytes": "6cee0a65b75b4012aeb1beb4ada71409"
+    },
+    "from": {
+      "$bytes": "0f3db3824f9b43209048665c798bebfb"
+    },
+    "to": {
+      "$bytes": "95930302f7294124a85db5ab33c8ad38"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08QU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8429e77ca9fd441f9efbdc2941ca9bca"
+    },
+    "entity": {
+      "$bytes": "398b165bd76d4606a79d7588bb5afb7b"
+    },
+    "from": {
+      "$bytes": "0f3db3824f9b43209048665c798bebfb"
+    },
+    "to": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03uW"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a4039c9f849b40ceaa22838631321a39"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Male Perry Preschool participants",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Male participants in the historical HighScope Perry Preschool experiment in Ypsilanti, Michigan.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2c3c4027084c404ca6e22cb87e74eabc"
+    },
+    "entity": {
+      "$bytes": "61cecc7c702a4d5e8d05f506c5657277"
+    },
+    "from": {
+      "$bytes": "a4039c9f849b40ceaa22838631321a39"
+    },
+    "to": {
+      "$bytes": "95930302f7294124a85db5ab33c8ad38"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a073R"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d2852b8bdee74619bd0e5693d7a1442c"
+    },
+    "entity": {
+      "$bytes": "311eb39d76394532acc9421df0b1c21a"
+    },
+    "from": {
+      "$bytes": "a4039c9f849b40ceaa22838631321a39"
+    },
+    "to": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a002w"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b8ebd7d5109d4b57994df54a5167a479"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Female Perry Preschool participants",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Female participants in the historical HighScope Perry Preschool experiment in Ypsilanti, Michigan.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8611726b29a042f7bef0488c9af475ad"
+    },
+    "entity": {
+      "$bytes": "f7d56bfa19b84b418e2e9e245d4065d1"
+    },
+    "from": {
+      "$bytes": "b8ebd7d5109d4b57994df54a5167a479"
+    },
+    "to": {
+      "$bytes": "95930302f7294124a85db5ab33c8ad38"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a05IS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cec9c5da04664994971e08c29dd0b338"
+    },
+    "entity": {
+      "$bytes": "ebf781c0bd2b4e319b6a9ffd845dc808"
+    },
+    "from": {
+      "$bytes": "b8ebd7d5109d4b57994df54a5167a479"
+    },
+    "to": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Agl"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "98c1acf4e2e849de94ccf7b60c7fbb78"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Participant perspective",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "An economic evaluation perspective counting costs and benefits accruing to intervention participants.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e703c00506374cf8bd1553eebfa21aaf"
+    },
+    "entity": {
+      "$bytes": "fa2710bccdc2461889c5c30468085290"
+    },
+    "from": {
+      "$bytes": "98c1acf4e2e849de94ccf7b60c7fbb78"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00BJ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0fbb2114a28a4894b13b86307ece089e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Societal perspective",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "An economic evaluation perspective counting costs and benefits across participants and the wider public.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8fe4fa6eda3d4445b53964880b1b34d5"
+    },
+    "entity": {
+      "$bytes": "c94fca96450b4de4a1dfe896348f9a52"
+    },
+    "from": {
+      "$bytes": "0fbb2114a28a4894b13b86307ece089e"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0CGC"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c712fcddf2d44901967c1fe08a1d90cb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Cost scope and comparison limits\n\nThe reported cost is **17,759 USD per child in 2006 prices**, undiscounted for the preschool program. It includes operating expenses (teachers and administration) and capital resources (classrooms and facilities), reported from Barnett (1996) by Heckman and colleagues. It is not a per-year cost.\n\nTax-financing assumptions alter economic costs and benefits. This initial resource cost is not the denominator for every published benefit/cost scenario. No standard error is reported for this cost.\n\n## Study and evidence coverage\n\nDisadvantaged African-American children in the historical Perry study; early to mid-1960s; five entering cohorts. Children entered at age 3, with a planned 2-year intervention: 2.5-hour preschool sessions on school weekdays and weekly teacher home visits. Initial randomization was subsequently compromised by reassignment. Original sample size 123 does not establish the complete-case denominator for each outcome.\n\nObserved follow-ups and projected lifetime earnings are distinct evidence. Table 2 group means are descriptive, not adjusted causal contrasts; Table 1 economic estimates combine observations, imputations and projections through age 65.\n\nThis page presents the initial program cost and two pilot economic estimates. The remaining economic estimates and observed outcome tables are not yet included.\n\nSource: [The rate of return to the HighScope Perry Preschool Program](https://jenni.uchicago.edu/Spencer_Conference/Papers%202010/Heckman_Moon_etal_2010_Rate%20of%20Return%20Perry.pdf), Section 3.1, printed p. 117 (PDF page 4).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ab49118587994f00ad46c3f25fe059b1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled annual real returns",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8d6b38af51f34a45ba81c6d6f18b9861"
+    },
+    "entity": {
+      "$bytes": "a3dfe98d8b894ff0a83059d33a141823"
+    },
+    "from": {
+      "$bytes": "ab49118587994f00ad46c3f25fe059b1"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Bh1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f6ac77a6d2bc44a8a94471dc0c665f82"
+    },
+    "entity": {
+      "$bytes": "f21a39cad4054a389db79d6fcc200857"
+    },
+    "from": {
+      "$bytes": "ab49118587994f00ad46c3f25fe059b1"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a04RB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c2f60ce9efbc45b7a0f24c4e64a07bcb"
+    },
+    "entity": {
+      "$bytes": "e16eefabc60d49a0907b5a8f4808683d"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "ab49118587994f00ad46c3f25fe059b1"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f291e18f2ac949ffb0483209cc17c818"
+    },
+    "entity": {
+      "$bytes": "da7443d8c42a419d8f2fc235158954e5"
+    },
+    "from": {
+      "$bytes": "e16eefabc60d49a0907b5a8f4808683d"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a089s"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ea1d7a2466304815bbc0c425ff1f9a85"
+    },
+    "entity": {
+      "$bytes": "62f15a9464dd41c6be626b9b40dd2473"
+    },
+    "from": {
+      "$bytes": "e16eefabc60d49a0907b5a8f4808683d"
+    },
+    "to": {
+      "$bytes": "879d207046024b44be6e3d64c32c60da"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a01MU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3e161929d1fb4613b066bd7f5e2d3012"
+    },
+    "entity": {
+      "$bytes": "c42798554a7d442f919b9f57499b993b"
+    },
+    "from": {
+      "$bytes": "e16eefabc60d49a0907b5a8f4808683d"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a10PR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2a89f96790e54f83bd77a3b6b60d94f0"
+    },
+    "entity": {
+      "$bytes": "91125b42dc524c2ebc19706753755389"
+    },
+    "from": {
+      "$bytes": "e16eefabc60d49a0907b5a8f4808683d"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a25oQ"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "005ab6b89c114c54b843b3a27966d6a7"
+    },
+    "entity": {
+      "$bytes": "c8db13c0bcac4f8582750068f8265a4e"
+    },
+    "from": {
+      "$bytes": "e16eefabc60d49a0907b5a8f4808683d"
+    },
+    "to": {
+      "$bytes": "aa77da401d9b4ca3b250fd24c9b8701f"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a36ui"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3d3fd65d4c734c7dac777ed2556de21f"
+    },
+    "entity": {
+      "$bytes": "642b1b36182d4ef9b084115570fbc4cf"
+    },
+    "from": {
+      "$bytes": "e16eefabc60d49a0907b5a8f4808683d"
+    },
+    "to": {
+      "$bytes": "4298a78f5ff54e3abf19207e9b8dea24"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a49Px"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "951dfa3ed129441e9f50346136b3447d"
+    },
+    "entity": {
+      "$bytes": "3da6bd3ad8624c3983a94e85a1ee5936"
+    },
+    "from": {
+      "$bytes": "e16eefabc60d49a0907b5a8f4808683d"
+    },
+    "to": {
+      "$bytes": "0baed391e467482889e44ca00658cf62"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a53IY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "607e8f68758a408894d9cb54eee7e3ec"
+    },
+    "entity": {
+      "$bytes": "d95d95dc134049a79009dc376f4e7500"
+    },
+    "from": {
+      "$bytes": "e16eefabc60d49a0907b5a8f4808683d"
+    },
+    "to": {
+      "$bytes": "d15fb305b4244ffbbb1af981e84ebd6c"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a60Ky"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "fcf8578fdf594e4dae03cf38747e804f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled benefit-cost ratios",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "14f6b96f1fc54c38b3f03df456b57c17"
+    },
+    "entity": {
+      "$bytes": "c1b56964eecc4665acf402f2cce9fb33"
+    },
+    "from": {
+      "$bytes": "fcf8578fdf594e4dae03cf38747e804f"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09Ji"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d739a66e04f446df98215d512bd86672"
+    },
+    "entity": {
+      "$bytes": "c4931d218c6b4a20a4dbd4ec4d139bb3"
+    },
+    "from": {
+      "$bytes": "fcf8578fdf594e4dae03cf38747e804f"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a00hL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6866c96ba8e44a6e9bc7c20f74979afe"
+    },
+    "entity": {
+      "$bytes": "f352223c3ce74638a83a2404e7611c04"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "fcf8578fdf594e4dae03cf38747e804f"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "93276897cc9c42eba027559fc5a2c5c6"
+    },
+    "entity": {
+      "$bytes": "5beee90e0fd0403faedc3b2ed7703ae3"
+    },
+    "from": {
+      "$bytes": "f352223c3ce74638a83a2404e7611c04"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a07Z6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9280c6093bcc4c4f93d4162ffa5c4020"
+    },
+    "entity": {
+      "$bytes": "063293f26f354dba9748eefbe53eb7a8"
+    },
+    "from": {
+      "$bytes": "f352223c3ce74638a83a2404e7611c04"
+    },
+    "to": {
+      "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a011W"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8dc9853f8cb14a759626ba314fdc2905"
+    },
+    "entity": {
+      "$bytes": "80ccff07d52c4f619659445bfc9b5c89"
+    },
+    "from": {
+      "$bytes": "f352223c3ce74638a83a2404e7611c04"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a16Dz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9247eb7a9da643dcb267f3fbf36120a5"
+    },
+    "entity": {
+      "$bytes": "9b82089508f641338f4e60a39e96b988"
+    },
+    "from": {
+      "$bytes": "f352223c3ce74638a83a2404e7611c04"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a21yx"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ecd3c6b072724b529dbc529b8f00b342"
+    },
+    "entity": {
+      "$bytes": "21621924514941f989835f1590ad3182"
+    },
+    "from": {
+      "$bytes": "f352223c3ce74638a83a2404e7611c04"
+    },
+    "to": {
+      "$bytes": "aa77da401d9b4ca3b250fd24c9b8701f"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a36Jn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d5c51137164244e1b8bfa7db5c0bb43a"
+    },
+    "entity": {
+      "$bytes": "7314c6f3d2334ffcaa2a3b03e6e1b2ba"
+    },
+    "from": {
+      "$bytes": "f352223c3ce74638a83a2404e7611c04"
+    },
+    "to": {
+      "$bytes": "4298a78f5ff54e3abf19207e9b8dea24"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a47sb"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ecf075027c894779b5a0b77ef708e7ad"
+    },
+    "entity": {
+      "$bytes": "a0eef6b3e81c41aea2b53a6f47480705"
+    },
+    "from": {
+      "$bytes": "f352223c3ce74638a83a2404e7611c04"
+    },
+    "to": {
+      "$bytes": "0baed391e467482889e44ca00658cf62"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a58Xa"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4f657674c4674c46a5570e87b89a9c10"
+    },
+    "entity": {
+      "$bytes": "ce141fb2c59f4ffe98f453a832e6eeb7"
+    },
+    "from": {
+      "$bytes": "f352223c3ce74638a83a2404e7611c04"
+    },
+    "to": {
+      "$bytes": "f9d6085e34014562aae4021009f5f390"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a61b8"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b076fe9949454d15b4d5be4feb3798b2"
+    },
+    "entity": {
+      "$bytes": "ec6b63f383234513a07e9bdee314828b"
+    },
+    "from": {
+      "$bytes": "f352223c3ce74638a83a2404e7611c04"
+    },
+    "to": {
+      "$bytes": "d15fb305b4244ffbbb1af981e84ebd6c"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a75av"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "85cfdc4ce9ac44458f6f245a5a5a90cd"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Economic assumptions and uncertainty\n\nThese modeled estimates share one historical experiment; they are not independent trials or confidence bounds. Individual perspective covers participants, while societal perspective also includes the wider public. Pooled results come from pooled profiles, not the average of male and female returns.\n\nInternal returns vary tax deadweight loss. Benefit-cost ratios vary the real discount rate and hold tax deadweight loss at 50%. Deadweight loss is additional welfare loss per tax dollar.\n\nThe high murder valuation is 4.1 million USD and includes statistical life; the low valuation is 13,000 USD and excludes it. These assumptions use the study's 2006-price accounting. Individual-perspective rows have no crime-valuation assumption.\n\nRate estimates display as percentages; their standard errors are fractional values: 0.018 means 1.8 percentage points. Ratio estimates and their standard errors are dimensionless ratios. Standard errors combine resampling of prediction errors and bootstrapping, not all model-assumption uncertainty.\n\nMissing earnings before age 40 are imputed; later earnings are projected through age 65. The initial program resource cost above is not every scenario's financing-adjusted denominator.\n\nSource: [The rate of return to the HighScope Perry Preschool Program](https://jenni.uchicago.edu/Spencer_Conference/Papers%202010/Heckman_Moon_etal_2010_Rate%20of%20Return%20Perry.pdf), Table 1, printed p. 115 (PDF page 2).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "02c9f4af4a914074936c1cd79ada7d11"
+    },
+    "entity": {
+      "$bytes": "2a19df8ff70d4d3db2df0baae816382c"
+    },
+    "from": {
+      "$bytes": "85cfdc4ce9ac44458f6f245a5a5a90cd"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0B8A"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5fb1a1e24d2c4ab3922d9ae34755c72c"
+    },
+    "entity": {
+      "$bytes": "e0f8cd52cfea4773bd5ee3e375fe91c6"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "85cfdc4ce9ac44458f6f245a5a5a90cd"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a4"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "520b4256f6574a7d99297e1fd8729b3b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Perry real return: all, individual, no crime valuation, tax loss 0",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled economic estimate from the Perry Preschool study. Interpret it with the population, accounting perspective, scenario assumptions and uncertainty notes.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "879d207046024b44be6e3d64c32c60da"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "76"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "18"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0baed391e467482889e44ca00658cf62"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "0"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "fraction",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 1, printed p. 115 (PDF page 2)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled economic horizon through age 65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2006"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3b8f7749524641f49c4deff2b671292d"
+    },
+    "entity": {
+      "$bytes": "825e560b38304d199a74155446cbd6da"
+    },
+    "from": {
+      "$bytes": "520b4256f6574a7d99297e1fd8729b3b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03If"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "10419cafbc224dbeab04bd709e8a76d5"
+    },
+    "entity": {
+      "$bytes": "bc567c70d8534304a493468df3b52c7d"
+    },
+    "from": {
+      "$bytes": "520b4256f6574a7d99297e1fd8729b3b"
+    },
+    "to": {
+      "$bytes": "783f6a0c029249f9a10f73fb02a4c385"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09n9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d8a10731a5d54e8b98cb354eabb5cc71"
+    },
+    "entity": {
+      "$bytes": "d1df1185289f4ab0b998f5552f22bbb4"
+    },
+    "from": {
+      "$bytes": "520b4256f6574a7d99297e1fd8729b3b"
+    },
+    "to": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a085p"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ceac65ab32584fffa94533a54b63fcbb"
+    },
+    "entity": {
+      "$bytes": "f9d9717d127a461b933084bb23994d2e"
+    },
+    "from": {
+      "$bytes": "520b4256f6574a7d99297e1fd8729b3b"
+    },
+    "to": {
+      "$bytes": "0f3db3824f9b43209048665c798bebfb"
+    },
+    "relationType": {
+      "$bytes": "aa77da401d9b4ca3b250fd24c9b8701f"
+    },
+    "position": "a061M"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e028313b7bc546b98bf6308d118be9f1"
+    },
+    "entity": {
+      "$bytes": "aa006f47787843f1bb44f06149be4c41"
+    },
+    "from": {
+      "$bytes": "520b4256f6574a7d99297e1fd8729b3b"
+    },
+    "to": {
+      "$bytes": "98c1acf4e2e849de94ccf7b60c7fbb78"
+    },
+    "relationType": {
+      "$bytes": "4298a78f5ff54e3abf19207e9b8dea24"
+    },
+    "position": "a04Bc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "661cb32caa334ff8ae5d00f8aef1c7f0"
+    },
+    "entity": {
+      "$bytes": "80cdc5bcfff34ed0a8fcafb288032542"
+    },
+    "from": {
+      "$bytes": "520b4256f6574a7d99297e1fd8729b3b"
+    },
+    "to": {
+      "$bytes": "03800f1056255931508ec9648111a075"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a05wr"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "15f2acb170b1443688c15410e5a847ac"
+    },
+    "entity": {
+      "$bytes": "caaa9b09cf10420c836ca76365f5d12f"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "520b4256f6574a7d99297e1fd8729b3b"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a03Tv"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f1764ac950204703bf44e4f8e63800c6"
+    },
+    "entity": {
+      "$bytes": "49334e12a5be4dc3abccb1a67a954470"
+    },
+    "from": {
+      "$bytes": "ab49118587994f00ad46c3f25fe059b1"
+    },
+    "to": {
+      "$bytes": "520b4256f6574a7d99297e1fd8729b3b"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0A7D"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a1203e622b5d4934a0923dc9d9dd761c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Perry benefit-cost ratio: all, society, high, discount 0",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A modeled economic estimate from the Perry Preschool study. Interpret it with the population, accounting perspective, scenario assumptions and uncertainty notes.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "315"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "113"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0baed391e467482889e44ca00658cf62"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -1,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "5"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ratio",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 1, printed p. 115 (PDF page 2)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled economic horizon through age 65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2006"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "0"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "d15fb305b4244ffbbb1af981e84ebd6c"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4100000"
+            }
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "361edd853de744e5a29c24142e34b0fd"
+    },
+    "entity": {
+      "$bytes": "a27033bcced74c4fb4ddd77acb78f4ac"
+    },
+    "from": {
+      "$bytes": "a1203e622b5d4934a0923dc9d9dd761c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02PK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ce2f4298410249458f40b4bc90e174d5"
+    },
+    "entity": {
+      "$bytes": "c4707abd18fd47178a003a33c68aa008"
+    },
+    "from": {
+      "$bytes": "a1203e622b5d4934a0923dc9d9dd761c"
+    },
+    "to": {
+      "$bytes": "783f6a0c029249f9a10f73fb02a4c385"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07nB"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cfa6e4b791f048a6b7c2e1396acd815c"
+    },
+    "entity": {
+      "$bytes": "0d7a9af4989c45698e1ecafcae84b2ed"
+    },
+    "from": {
+      "$bytes": "a1203e622b5d4934a0923dc9d9dd761c"
+    },
+    "to": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0B1s"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "72c99d672f8d4fa9ac3fc8fac452bd60"
+    },
+    "entity": {
+      "$bytes": "7986f71ea53e4f2c9869bc23ac3ca112"
+    },
+    "from": {
+      "$bytes": "a1203e622b5d4934a0923dc9d9dd761c"
+    },
+    "to": {
+      "$bytes": "0f3db3824f9b43209048665c798bebfb"
+    },
+    "relationType": {
+      "$bytes": "aa77da401d9b4ca3b250fd24c9b8701f"
+    },
+    "position": "a03fv"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cc1445ca9ca74b5a8d773107e52a1ab3"
+    },
+    "entity": {
+      "$bytes": "e0c30e2b48ad46d186b122f3ce4c2454"
+    },
+    "from": {
+      "$bytes": "a1203e622b5d4934a0923dc9d9dd761c"
+    },
+    "to": {
+      "$bytes": "0fbb2114a28a4894b13b86307ece089e"
+    },
+    "relationType": {
+      "$bytes": "4298a78f5ff54e3abf19207e9b8dea24"
+    },
+    "position": "a00Fz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d08ef805bbe54a309d4b1d20c1767a05"
+    },
+    "entity": {
+      "$bytes": "efad14efe4244d3797dad47198362172"
+    },
+    "from": {
+      "$bytes": "a1203e622b5d4934a0923dc9d9dd761c"
+    },
+    "to": {
+      "$bytes": "03800f1056255931508ec9648111a075"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a06Xo"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "993441cda7ba41269430d6188a6dd914"
+    },
+    "entity": {
+      "$bytes": "4df92bbcba194352a1ed82d313a8ca88"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "a1203e622b5d4934a0923dc9d9dd761c"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a09y1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "60c4b94718294db08d29cbe07d52e86e"
+    },
+    "entity": {
+      "$bytes": "5a09ef0eb2f64e8884ad71c85823de6b"
+    },
+    "from": {
+      "$bytes": "fcf8578fdf594e4dae03cf38747e804f"
+    },
+    "to": {
+      "$bytes": "a1203e622b5d4934a0923dc9d9dd761c"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0AoA"
+  }
+]

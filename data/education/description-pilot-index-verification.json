@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-09-11T19:15:01.506Z",
+  "scope": "All Saga batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "entityId": "4874a8385a594633ab244f47889f9cab",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "relationId": "3617b07e98bf4aceaf624d3b44bd1f10",
+      "pass": true
+    },
+    {
+      "entityId": "518cf9a33b8740e4b343b7d58d1eb3b5",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "relationId": "2fdfb531ba8c4e4d9bc1b25460b19251",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

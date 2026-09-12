@@ -1,0 +1,527 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a72a792642aa46b497587313102bfe39"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.1037/a0026644",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7f43e163663249928d51b7389e00fe94"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "At age 30, ABC-treated participants completed 1.15 more years of education than controls (13.46 vs 12.31).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "In the ABC randomized treatment comparison, the age-30 outcome was F(1,99)=9.60, p<.01, d=0.62, with a 95% CI of 0.42 to 1.90 years. The analysis used 52 treated and 49 control participants and is ABC-only, not pooled ABC/CARE evidence.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "62"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Cohen's d for completed years of education at age 30, ABC treatment versus control; source-reported standardized effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dc3d3e28714049fab4561677b58eeee7"
+    },
+    "entity": {
+      "$bytes": "798875a143894d7db64cb5fc1a670152"
+    },
+    "from": {
+      "$bytes": "7f43e163663249928d51b7389e00fe94"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BsW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5497641b8baa426098fdd39870b39989"
+    },
+    "entity": {
+      "$bytes": "27b267f9026241599d6e13e7c6f5cab0"
+    },
+    "from": {
+      "$bytes": "7f43e163663249928d51b7389e00fe94"
+    },
+    "to": {
+      "$bytes": "a72a792642aa46b497587313102bfe39"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a08HE"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c9d580792bbe4dba8a42b3752ef39193"
+    },
+    "entity": {
+      "$bytes": "026115307daf4b00823af1365d39daed"
+    },
+    "from": {
+      "$bytes": "7f43e163663249928d51b7389e00fe94"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a03Nn"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8a99d1f35acb43aeb68bcfc8870f189b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "At age 30, 23.08% of ABC-treated participants held a bachelor's degree or higher, versus 6.12% of controls.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The source reports OR=4.60 (95% CI 1.21–17.47; p=.03) for the ABC randomized treatment comparison. It corresponds to 12 treated and 3 control participants, so it is a small-sample estimate and ABC-only.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "460"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Odds ratio for bachelor's degree or higher at age 30, ABC treatment versus control; source-reported.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "915957840fb74525b52f16ea57cb7f08"
+    },
+    "entity": {
+      "$bytes": "fc65772bb6384afe86c0a20dc73e389a"
+    },
+    "from": {
+      "$bytes": "8a99d1f35acb43aeb68bcfc8870f189b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09Tk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6d22e1ab6fa1489abad2f072bc1e009f"
+    },
+    "entity": {
+      "$bytes": "54d5d3a2f7d84803972cff6efb45a40b"
+    },
+    "from": {
+      "$bytes": "8a99d1f35acb43aeb68bcfc8870f189b"
+    },
+    "to": {
+      "$bytes": "a72a792642aa46b497587313102bfe39"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07WR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aae38c066eae4ebca36405adbe4775af"
+    },
+    "entity": {
+      "$bytes": "df8f05bb072d47c5849b4c5bfc52a777"
+    },
+    "from": {
+      "$bytes": "8a99d1f35acb43aeb68bcfc8870f189b"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08Gq"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d6d0402187dc49e7a337f18df4743194"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "At age 30, ABC treatment did not produce a statistically significant difference in income-to-needs ratio (3.11 vs 2.22).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The selected primary economic outcome had F(1,99)=1.61, p=.21, d=0.25 in 52 treated and 49 control participants. This does not establish no economic effect; it is one age-30, self-reported household-income measure.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "25"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Cohen's d for income-to-needs ratio at age 30, ABC treatment versus control; source-reported standardized effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f06067ad22ec479a9b79da170283e44e"
+    },
+    "entity": {
+      "$bytes": "be4adad0056e456290c783def571ac31"
+    },
+    "from": {
+      "$bytes": "d6d0402187dc49e7a337f18df4743194"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02yR"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d046abdebe164d2d80d708afa3d05016"
+    },
+    "entity": {
+      "$bytes": "8d0ba538dbc448ce8c52a5cc4a6f54ad"
+    },
+    "from": {
+      "$bytes": "d6d0402187dc49e7a337f18df4743194"
+    },
+    "to": {
+      "$bytes": "a72a792642aa46b497587313102bfe39"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0Ab6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "76369226717a4ca8b614b252cd9128be"
+    },
+    "entity": {
+      "$bytes": "c470e5be307a4637ba06159a78b13dd6"
+    },
+    "from": {
+      "$bytes": "d6d0402187dc49e7a337f18df4743194"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09S3"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "309aaaf476c644e69980f6173ed3bcc9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "At age 30, 75% of ABC-treated participants versus 59% of controls were fully employed for at least two-thirds of the prior 24 months.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The source reports OR=2.65, χ²(1)=5.16, p=.02 for the ABC randomized treatment comparison. This is an employment-history threshold, not earnings or a cost-benefit result.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "265"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Odds ratio for full employment during at least two-thirds of the prior 24 months, ABC treatment versus control; source-reported.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cd5267ad9188470f9ba3a4b2f0d38860"
+    },
+    "entity": {
+      "$bytes": "a8f2ec5bc69646afa25098acc1a64719"
+    },
+    "from": {
+      "$bytes": "309aaaf476c644e69980f6173ed3bcc9"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Afk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0de76e61fbed40ada4eb4147184a4519"
+    },
+    "entity": {
+      "$bytes": "11a197e6d0de43b9a2aab26efd3281d5"
+    },
+    "from": {
+      "$bytes": "309aaaf476c644e69980f6173ed3bcc9"
+    },
+    "to": {
+      "$bytes": "a72a792642aa46b497587313102bfe39"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04Xf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "67147d5356c04d32bf9bd83bab427e31"
+    },
+    "entity": {
+      "$bytes": "0acd21f5616d4d45a97f1dc77d476d62"
+    },
+    "from": {
+      "$bytes": "309aaaf476c644e69980f6173ed3bcc9"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a014u"
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-09-12T09:03:06.398Z",
+  "batchName": "Add NTPS and TFS catalog resource and metadata block",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "entityId": "7fa1385bd4f749e79b77fbf852555492",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "7fa1385bd4f749e79b77fbf852555492",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "7fa1385bd4f749e79b77fbf852555492",
+      "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+      "pass": true
+    },
+    {
+      "relationId": "731926aa46094de7b76e0feb6113c9e8",
+      "pass": true
+    },
+    {
+      "relationId": "2966dc2f34bd4193afe129cb75d43eca",
+      "pass": true
+    },
+    {
+      "entityId": "6c1f78e3f0d7486397b7d37f047129b5",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "6c1f78e3f0d7486397b7d37f047129b5",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "relationId": "4796d24257064f4381d49de49211e002",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

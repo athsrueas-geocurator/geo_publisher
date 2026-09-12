@@ -1,0 +1,286 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3f2f83ec99644b4fa9c710584408c383"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Education Initiatives glossary",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Curated definitions and interpretation guidance from the Education Initiatives source collection. Entries retain their source sections; this first publication contains the RCT entry.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "10af5e61b38a4049839eb12302861fe5"
+    },
+    "entity": {
+      "$bytes": "ac3a1f97c73e4734b395ff4dd93b7c1c"
+    },
+    "from": {
+      "$bytes": "3f2f83ec99644b4fa9c710584408c383"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AFj"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ad9f48f68b804ddd9f9e8ffa5869ef02"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Randomized controlled trial",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Random assignment to treatment/control; strongest internal validity when implemented and analyzed well.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6670a58accb44b9f9034ebd6ae16896a"
+    },
+    "entity": {
+      "$bytes": "563a9080857d496189d230929adc2b4b"
+    },
+    "from": {
+      "$bytes": "ad9f48f68b804ddd9f9e8ffa5869ef02"
+    },
+    "to": {
+      "$bytes": "5ef5a5860f274d8e8f6c59ae5b3e89e2"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0AZt"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f9630419ce50497d8560a85fbfb7b8e0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Design glossary",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b47f81110b994a3db39409a31bc4065c"
+    },
+    "entity": {
+      "$bytes": "53c1084149df4978b52f3cd6e7fc5f2b"
+    },
+    "from": {
+      "$bytes": "f9630419ce50497d8560a85fbfb7b8e0"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BWn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "63b4512152cc4f5891382dbce37f3c10"
+    },
+    "entity": {
+      "$bytes": "5e90addd1261452e8275158668e6c64e"
+    },
+    "from": {
+      "$bytes": "f9630419ce50497d8560a85fbfb7b8e0"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a0Ae4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "00fb6a49c0aa4941ba4dee082d438975"
+    },
+    "entity": {
+      "$bytes": "307f9fcd2dd4403683474e1f04da5852"
+    },
+    "from": {
+      "$bytes": "3f2f83ec99644b4fa9c710584408c383"
+    },
+    "to": {
+      "$bytes": "f9630419ce50497d8560a85fbfb7b8e0"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0BCd"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "01c4b142c37c49ffac1a278038b7497f"
+    },
+    "entity": {
+      "$bytes": "60d91568a7404359acdc949e8d510df2"
+    },
+    "from": {
+      "$bytes": "307f9fcd2dd4403683474e1f04da5852"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a00f0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1dfa9eadf1ae47f091c047dd8ff73c0b"
+    },
+    "entity": {
+      "$bytes": "c74523c5c5044209a060bdf4ae12ce02"
+    },
+    "from": {
+      "$bytes": "307f9fcd2dd4403683474e1f04da5852"
+    },
+    "to": {
+      "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a00Pr"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c58b6f3d4d014e0394d880b2e5d4f4bc"
+    },
+    "entity": {
+      "$bytes": "a352dea7181846f490c160f9f921e551"
+    },
+    "from": {
+      "$bytes": "f9630419ce50497d8560a85fbfb7b8e0"
+    },
+    "to": {
+      "$bytes": "ad9f48f68b804ddd9f9e8ffa5869ef02"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0CHz"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "a352dea7181846f490c160f9f921e551"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "RCT",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/glossary.json",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  }
+]

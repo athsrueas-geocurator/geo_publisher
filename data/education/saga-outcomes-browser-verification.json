@@ -1,0 +1,27 @@
+{
+  "checkedDate": "2026-09-11",
+  "url": "https://www.geobrowser.io/space/dac259bad48a11adf97fe36857d85206/52448bbbf0cd4c1bb8e949ebe9d628d2",
+  "method": "Fresh browser tab and all table pages inspected through rendered accessibility trees",
+  "passed": true,
+  "tables": [
+    {"panel":"A","name":"Mathematics","rows":14,"pagesInspected":2},
+    {"panel":"B","name":"Nonmath academic outcomes","rows":12,"pagesInspected":2},
+    {"panel":"C","name":"School attendance and discipline","rows":12,"pagesInspected":2},
+    {"panel":"D","name":"Arrests","rows":24,"pagesInspected":3}
+  ],
+  "observations": [
+    "All 62 table rows render with study, outcome, estimand, effect, standard error, sample count and source locator.",
+    "Known units distinguish grade points, standard deviations, counts, days and fractions; four suspension unit cells are blank and the methods block explicitly explains the unresolved meaning.",
+    "Final arrest page includes Study 2 any-arrest TOT -0.286, SE 0.151, N 2,710.",
+    "The short dataset description covers all domains. Cost title and context use the corrected nominal-budget basis.",
+    "The original four-math-effect summary table remains and reuses the same entity IDs as the new mathematics table. These are repeated views, not additional observations."
+  ],
+  "curator": {
+    "url": "https://curator.geobrowser.io/bounty/ec349623f33236aee13c12dcd629ee81/debce2de46094f299ee8e89fe244a9dc",
+    "linkedProposals": 36,
+    "acceptedProposalIds": ["d5376b35f56d494d9b6d9ee6b5dd723b", "2832bbba68204441ac33376c4d556f8d", "addd37f761da4b41a17991b3ce6681b1", "3b39e7bbd98741c998ce10a2f55f5182"],
+    "submissionStatus": "In progress",
+    "payout": "No payouts yet"
+  },
+  "limits": "This verifies Geo table rendering, not the separate comparison dashboard implementation or a universal ranking. Full study extraction and source-row statistic mapping remain incomplete."
+}

@@ -1,0 +1,76 @@
+{
+  "term": "Related projects",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:29:38.236Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "32d0172b74c04e0e8e4b077c7e157bbe",
+      "name": "Related projects",
+      "description": null,
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    },
+    {
+      "id": "6e3503fab974460ea3dbab8af9a41427",
+      "name": "Related projects",
+      "description": null,
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1",
+        "cf0e11338b33fcd6cdb032c625c85454"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        },
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "8c9818f9d95445429fa78609911f5ed1",
+      "name": "Related projects",
+      "description": null,
+      "spaceIds": [
+        "34e753bb68888c02a574d0a112c8d047"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "b818f5e4a4d642af9389cbc72d855080",
+      "name": "Related projects",
+      "description": null,
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "types": [
+        {
+          "id": "480e3fc267f3499385fbacdf4ddeaa6b",
+          "name": "Page"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYjgxOGY1ZTQtYTRkNi00MmFmLTkzODktY2JjNzJkODU1MDgwIl1d"
+    }
+  ]
+}

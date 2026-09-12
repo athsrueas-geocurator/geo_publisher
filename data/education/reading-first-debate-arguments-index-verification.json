@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-09-12T00:17:37.266Z",
+  "batchName": "Add supporting and opposing arguments to Reading First success debates",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "relationId": "4e6ec5d19c24572fc9ca8a6617309f73",
+      "pass": true
+    },
+    {
+      "relationId": "1dc6a8439c24572fc9ca09e38f2ef302",
+      "pass": true
+    },
+    {
+      "relationId": "4e6ec5d18a6617309f739c24572fc9ca",
+      "pass": true
+    },
+    {
+      "relationId": "1dc6a8438a6617309f73f004fa2ccffa",
+      "pass": true
+    },
+    {
+      "relationId": "1dc6a8438a6617309f730d1e184534bf",
+      "pass": true
+    },
+    {
+      "relationId": "1dc6a8438a6617309f730aed4da3d035",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

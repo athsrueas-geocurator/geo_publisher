@@ -1,0 +1,17 @@
+import{readFileSync,writeFileSync,existsSync}from'node:fs';
+import{createHash}from'node:crypto';
+import{Ops,SystemIds}from'@geoprotocol/geo-sdk';
+import{geoGraphqlRequest as gql}from'../src/geo-api-client';
+import{EDUCATION_PUBLICATION as target}from'../src/education-bounty';
+const root='data/education',prefix='perry-debate-coverage',read=(n:string)=>JSON.parse(readFileSync(`${root}/${n}.json`,'utf8'));
+if(existsSync(`${root}/${prefix}-publication.json`))throw Error('Preserve submitted payload');
+if(!read('perry-debate-related-index-verification').passed)throw Error('New data not indexed');
+const registry=read('perry-registry'),id=registry['notes/dataset'];
+const d:any=await gql('query($id:UUID!,$space:UUID!){entity(id:$id){values(first:20,filter:{spaceId:{is:$space}}){nodes{propertyId text}pageInfo{hasNextPage}}}}',{variables:{id,space:target.spaceId}});
+const before=d.entity?.values.nodes.find((v:any)=>v.propertyId===SystemIds.MARKDOWN_CONTENT)?.text;
+const old='Other source-table rows and appendices are outside this extraction.',replacement='The age-horizon comparison additionally includes one Table 7 estimate through age 40 and reuses its Table 1 age-65 comparator. Other unselected source-table rows and appendices remain outside this extraction.';
+if(d.entity.values.pageInfo.hasNextPage||typeof before!=='string'||!before.includes(old))throw Error('Coverage changed; re-review');
+const after=before.replace(old,replacement),ops=Ops.entities.update({id,values:[{property:SystemIds.MARKDOWN_CONTENT,type:'text',value:after}]}).ops;
+const bytes=JSON.stringify(ops,(_k,v)=>v instanceof Uint8Array?{$bytes:Buffer.from(v).toString('hex')}:v,2)+'\n',sha256=createHash('sha256').update(bytes).digest('hex');
+const batch={name:'Update Perry dataset coverage for published age-horizon comparison',spaceId:target.spaceId,bounty:target.bountyId,opsPath:`${root}/${prefix}-ops.json`,sha256,journalPath:`${root}/${prefix}-publication.json`,validationPath:`${root}/${prefix}-validation.json`};
+writeFileSync(batch.opsPath,bytes);writeFileSync(`${root}/${prefix}-batch.json`,JSON.stringify(batch,null,2)+'\n');writeFileSync(batch.validationPath,JSON.stringify({ready:true,checkedAt:new Date().toISOString(),opsHash:sha256,before,after},null,2)+'\n');console.log(JSON.stringify({id,operations:ops.length}));

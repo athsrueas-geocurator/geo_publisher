@@ -1,0 +1,137 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7fa1385bd4f749e79b77fbf852555492"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "National Teacher and Principal Survey (NTPS) and Teacher Follow-up Survey (TFS)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "NTPS and TFS provide nationally representative teacher and school workforce context. They do not identify effects of a local initiative without a separate credible design.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://nces.ed.gov/surveys/ntps/ntps-sass-data.asp",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6c1f78e3f0d7486397b7d37f047129b5"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "NTPS and TFS catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** National Center for Education Statistics.\n- **Access:** Public-use custom extracts through NCES DataLab; restricted-use files require a license.\n- **Unit:** Sampled school, teacher, principal, and follow-up teacher record.\n- **Coverage:** NTPS cycles every two to three years; predecessor SASS/TFS series extends to 1987.\n- **Geography:** School, state, and nation.\n- **Join keys:** Survey cycle, permitted school identifier, teacher or principal record, and state.\n- **Measures:** Staffing, qualifications, work conditions, professional development, retention, and mobility.\n- **Uses:** Teacher-workforce, retention, and implementation context.\n\nUse survey weights and cycle-specific documentation. This nationally representative survey is contextual evidence, not a local-program impact evaluation.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "731926aa46094de7b76e0feb6113c9e8"
+    },
+    "entity": {
+      "$bytes": "69871c7f99b04795b6569ee8eb6d4c41"
+    },
+    "from": {
+      "$bytes": "7fa1385bd4f749e79b77fbf852555492"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03I9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4796d24257064f4381d49de49211e002"
+    },
+    "entity": {
+      "$bytes": "225b640b628b4e97815b144c2adda462"
+    },
+    "from": {
+      "$bytes": "6c1f78e3f0d7486397b7d37f047129b5"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BZn"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2966dc2f34bd4193afe129cb75d43eca"
+    },
+    "entity": {
+      "$bytes": "0ec1965aa13e4649b89b5e8f292c13ca"
+    },
+    "from": {
+      "$bytes": "7fa1385bd4f749e79b77fbf852555492"
+    },
+    "to": {
+      "$bytes": "6c1f78e3f0d7486397b7d37f047129b5"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a019S"
+  }
+]

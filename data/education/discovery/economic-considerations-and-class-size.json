@@ -1,0 +1,30 @@
+{
+  "term": "Economic Considerations and Class Size",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-12T12:41:15.754Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "d70f7e00c8fd4fb2b6a056df6b844b1f",
+      "name": "Economic Considerations and Class Size",
+      "description": "Alan B. Krueger’s 2003 Economic Journal article examines class-size evidence and models its economic returns.",
+      "spaceIds": [
+        "dac259bad48a11adf97fe36857d85206"
+      ],
+      "types": [
+        {
+          "id": "a2a5ed0cacef46b1835de457956ce915",
+          "name": "Article"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZDcwZjdlMDAtYzhmZC00ZmIyLWI2YTAtNTZkZjZiODQ0YjFmIl1d"
+    }
+  ],
+  "decision": "Reuse d70f7e00c8fd4fb2b6a056df6b844b1f, the existing 2003 journal Article; supersedes the pre-publication empty search."
+}

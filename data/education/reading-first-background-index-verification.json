@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-09-11T21:52:33.668Z",
+  "scope": "All Saga batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 4,
+  "checks": [
+    {
+      "entityId": "bb326cc9809b4bf89d161701f49b74d9",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "bb326cc9809b4bf89d161701f49b74d9",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "bb326cc9809b4bf89d161701f49b74d9",
+      "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+      "pass": true
+    },
+    {
+      "relationId": "eefdd362a77141d3a4f6649a0c3aa494",
+      "pass": true
+    },
+    {
+      "relationId": "2714723e577844f0bc1bb45875e5efe8",
+      "pass": true
+    },
+    {
+      "entityId": "01cb53238c4e4be4a824bcd6dedf6683",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "01cb53238c4e4be4a824bcd6dedf6683",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "relationId": "5f0bc65f94d44cca88ba7736fc1ab8ad",
+      "pass": true
+    },
+    {
+      "relationId": "2da206791ca340f386b59bd9c31162df",
+      "pass": true
+    },
+    {
+      "entityId": "00a867e97ad24dfaa8524febaf54b345",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,18 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {Ops,SystemIds} from '@geoprotocol/geo-sdk';
+import {gql} from '../src/functions';
+import {EDUCATION_PUBLICATION} from '../src/education-bounty';
+const root='data/education';
+const ids=JSON.parse(readFileSync(`${root}/saga-display-registry.json`,'utf8'));
+const id=ids['relation/column/0'];
+const {relations}=await gql('query($id:UUID!){relations(filter:{id:{is:$id}}){id fromEntityId toEntityId typeId spaceId}}',{id});
+if(relations.length!==1||relations[0].fromEntityId!==ids['relation-entity/dataset/block']||relations[0].toEntityId!==SystemIds.NAME_PROPERTY||relations[0].typeId!==SystemIds.PROPERTIES||relations[0].spaceId!==EDUCATION_PUBLICATION.spaceId)throw new Error('Expected duplicate display column does not match');
+const ops=Ops.relations.delete({id}).ops;
+const bytes=JSON.stringify(ops,(_k,v)=>v instanceof Uint8Array?{$bytes:Buffer.from(v).toString('hex')}:v,2)+'\n';
+const sha256=createHash('sha256').update(bytes).digest('hex');
+const batch={name:'Remove duplicated Saga table Name column',spaceId:EDUCATION_PUBLICATION.spaceId,bounty:EDUCATION_PUBLICATION.bountyId,opsPath:`${root}/saga-column-ops.json`,sha256,journalPath:`${root}/saga-column-publication.json`,validationPath:`${root}/saga-column-validation.json`};
+writeFileSync(batch.opsPath,bytes);
+writeFileSync(`${root}/saga-column-batch.json`,JSON.stringify(batch,null,2)+'\n');
+writeFileSync(batch.validationPath,JSON.stringify({ready:true,checkedAt:new Date().toISOString(),opsHash:sha256,scope:'Remove only our redundant column configuration; no entity or fact deletion',verifiedRelation:relations[0]},null,2)+'\n');
+console.log(JSON.stringify({operation:'deleteRelation',relationId:id,scope:'Redundant Name column metadata only'}));

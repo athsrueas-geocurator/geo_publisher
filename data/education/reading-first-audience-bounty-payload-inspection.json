@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-09-11T22:06:22.970Z",
+  "cid": "ipfs://QmYTR4igWj7Ja5x4tBMtJ3mARpLLFF7Q3Vae3JW7SFSmDa",
+  "proposalId": "ab315d843a934eb582081ae23df8b68f",
+  "gateway": "https://gateway.pinata.cloud/ipfs/",
+  "scope": "Read-only retrieval and comparison of the already-submitted bounty payload",
+  "httpStatus": 200,
+  "byteLength": 405,
+  "edit": {
+    "id": {
+      "$bytes": "cfdaeb0e75124d9ab2c9e49a7dfcb55b"
+    },
+    "name": "Bounty link: Add Reading First intended population and grade coverage",
+    "authors": [
+      {
+        "$bytes": "d00460c203779d21d96fcfc6102d7a72"
+      }
+    ],
+    "createdAt": {
+      "$bigint": "1789163779197000"
+    },
+    "ops": [
+      {
+        "type": "updateEntity",
+        "id": {
+          "$bytes": "ab315d843a934eb582081ae23df8b68f"
+        },
+        "set": [
+          {
+            "property": {
+              "$bytes": "a126ca530c8e48d5b88882c734c38935"
+            },
+            "value": {
+              "type": "text",
+              "value": "Add Reading First intended population and grade coverage",
+              "language": {
+                "$bytes": "090adac0fca4822e8e719263e67620ec"
+              }
+            }
+          }
+        ],
+        "unset": []
+      },
+      {
+        "type": "createRelation",
+        "id": {
+          "$bytes": "69a942dea0274c55a2ab135052a59baf"
+        },
+        "relationType": {
+          "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+        },
+        "from": {
+          "$bytes": "ab315d843a934eb582081ae23df8b68f"
+        },
+        "to": {
+          "$bytes": "490a7c90ad4b4029b2b4d85d22fe203a"
+        },
+        "entity": {
+          "$bytes": "8e2c900a8260482a9bbcf2b6d1068240"
+        }
+      },
+      {
+        "type": "createRelation",
+        "id": {
+          "$bytes": "fd2bdc43a93c481daffcb8f27f979815"
+        },
+        "relationType": {
+          "$bytes": "3b4c516ff3ac41e0a939374119a27d6e"
+        },
+        "from": {
+          "$bytes": "ab315d843a934eb582081ae23df8b68f"
+        },
+        "to": {
+          "$bytes": "debce2de46094f299ee8e89fe244a9dc"
+        },
+        "toSpace": {
+          "$bytes": "ec349623f33236aee13c12dcd629ee81"
+        },
+        "entity": {
+          "$bytes": "33f9309c881749a880d5a97ea6f2df62"
+        }
+      }
+    ]
+  },
+  "opsMatch": true,
+  "editIdMatches": true,
+  "authorMatches": true
+}

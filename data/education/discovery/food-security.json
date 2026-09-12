@@ -1,0 +1,29 @@
+{
+  "term": "food security",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:40.354Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "2d6e2898a32e4adeb1cfc0a6a5cb3160",
+      "name": "Food security",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMmQ2ZTI4OTgtYTMyZS00YWRlLWIxY2YtYzBhNmE1Y2IzMTYwIl1d"
+    }
+  ]
+}

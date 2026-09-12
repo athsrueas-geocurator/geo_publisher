@@ -1,0 +1,29 @@
+{
+  "term": "Source ID",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T17:51:47.128Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "ce359f8e1d654dcf9be0b7f3ecd3f57d",
+      "name": "Source ID",
+      "description": "Identifier from the IM3 Open Source Data Center Atlas CSV.",
+      "spaceIds": [
+        "b9e48b8bc1a1db6320ab5da9dbf28269"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiY2UzNTlmOGUtMWQ2NS00ZGNmLTliZTAtYjdmM2VjZDNmNTdkIl1d"
+    }
+  ]
+}

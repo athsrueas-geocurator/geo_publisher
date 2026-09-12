@@ -1,0 +1,67 @@
+{
+  "term": "Intervention",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T21:40:29.767Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "180a9c1e18c6e9f7416ede49550525df",
+      "name": "Intervention",
+      "description": "Therapeutic intervention or study drug being evaluated.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "26413b7ddd4a479e9b59e2c822d1b2eb",
+      "name": "Intervention",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": []
+    },
+    {
+      "id": "dd951c0f909f40369b281a71c9a2a000",
+      "name": "intervention",
+      "description": "System entity for proposal dd951c0f-909f-4036-9b28-1a71c9a2a000 in space 44eb138f-564f-bed6-ed9c-e543de1b849c",
+      "spaceIds": [
+        "d23eaaed1ded3f52b5116e254473f96d",
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "490a7c90ad4b4029b2b4d85d22fe203a",
+          "name": "Proposal"
+        }
+      ]
+    },
+    {
+      "id": "f42c20c04428447cafd8af223bd73d54",
+      "name": "Intervention",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjQyYzIwYzAtNDQyOC00NDdjLWFmZDgtYWYyMjNiZDczZDU0Il1d"
+    }
+  ]
+}

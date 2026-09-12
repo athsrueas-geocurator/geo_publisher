@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T15:42:30Z",
+  "reviewer": "publisher preparation review",
+  "planHash": "e29a5f2c4111dc3455edf257aa1736f88ae4402ed7d4859877edf7689a229476",
+  "factsHash": "c8f9957bd0c351a593d399efab346b52096c95e1f6c12f7aed7fd0adc59c242d",
+  "sources": [
+    {
+      "path": "docs/ncss3-study-notes.md",
+      "sha256": "28f1d93592615100efa6bfd944b32cdbab8c661866829ad12e86dd05e0da9221",
+      "sourceId": "e250e966938549269ac74b1935fa380d",
+      "version": "CREDO National Charter School Study III, June 2023 release"
+    }
+  ],
+  "discovery": {
+    "path": "data/education/ncss3-collection-discovery.json",
+    "sha256": "46c2b90758239ed69938a6263c11f03a822f6abc963be691a49996614eb89b8c"
+  },
+  "decisions": {
+    "source": {
+      "status": "accepted",
+      "rationale": "CREDO official release and study notes identify the matched-growth source."
+    },
+    "identity": {
+      "status": "accepted",
+      "rationale": "Complete all-space exact search returned no candidate collection and all seven Claims have no incoming Collection-item membership."
+    },
+    "content": {
+      "status": "accepted",
+      "rationale": "Facts are derived from the existing source-backed Claim operations and preserve matched-growth scope; the shared builder will compare them live."
+    }
+  }
+}

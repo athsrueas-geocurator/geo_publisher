@@ -1,0 +1,177 @@
+{
+  "checkedAt": "2026-09-12T01:35:26.764Z",
+  "scope": "Reading First design-component filters and source-scoped relation metadata, not whole-study randomized classification",
+  "cases": [
+    {
+      "name": "Contains randomized component",
+      "pass": true,
+      "data": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "d87bc8f30fb84b5fa660f98d1e770c78",
+              "name": "Reading First Impact Study (2008 final report)",
+              "relations": {
+                "nodes": [
+                  {
+                    "entityId": "5d7d95eea7a64faf86b2e2fe60e6c70d",
+                    "toEntityId": "ad9f48f68b804ddd9f9e8ffa5869ef02"
+                  },
+                  {
+                    "entityId": "64b56fe78986484095e80e1949cbcd44",
+                    "toEntityId": "b5e82046c5694090aeb0c83f7a0208f9"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "name": "Contains regression discontinuity component",
+      "pass": true,
+      "data": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "d87bc8f30fb84b5fa660f98d1e770c78",
+              "name": "Reading First Impact Study (2008 final report)",
+              "relations": {
+                "nodes": [
+                  {
+                    "entityId": "5d7d95eea7a64faf86b2e2fe60e6c70d",
+                    "toEntityId": "ad9f48f68b804ddd9f9e8ffa5869ef02"
+                  },
+                  {
+                    "entityId": "64b56fe78986484095e80e1949cbcd44",
+                    "toEntityId": "b5e82046c5694090aeb0c83f7a0208f9"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "name": "Contains both design components",
+      "pass": true,
+      "data": {
+        "entitiesConnection": {
+          "nodes": [
+            {
+              "id": "d87bc8f30fb84b5fa660f98d1e770c78",
+              "name": "Reading First Impact Study (2008 final report)",
+              "relations": {
+                "nodes": [
+                  {
+                    "entityId": "5d7d95eea7a64faf86b2e2fe60e6c70d",
+                    "toEntityId": "ad9f48f68b804ddd9f9e8ffa5869ef02"
+                  },
+                  {
+                    "entityId": "64b56fe78986484095e80e1949cbcd44",
+                    "toEntityId": "b5e82046c5694090aeb0c83f7a0208f9"
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false
+                }
+              }
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "name": "Excludes randomized component",
+      "pass": true,
+      "data": {
+        "entitiesConnection": {
+          "nodes": [],
+          "pageInfo": {
+            "hasNextPage": false
+          }
+        }
+      }
+    },
+    {
+      "name": "randomized scope and citation on relation entity",
+      "entityId": "5d7d95eea7a64faf86b2e2fe60e6c70d",
+      "pass": true,
+      "data": {
+        "entity": {
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Used at one of the 18 evaluation sites; this relation does not classify the entire Reading First impact study as randomized."
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                "toEntityId": "db0ea33548454e1780c78231066b7d71"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "regression scope and citation on relation entity",
+      "entityId": "64b56fe78986484095e80e1949cbcd44",
+      "pass": true,
+      "data": {
+        "entity": {
+          "values": {
+            "nodes": [
+              {
+                "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+                "text": "Used at 17 of the 18 evaluation sites; the study also includes one randomized site, so this is a component of a mixed design."
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          },
+          "relations": {
+            "nodes": [
+              {
+                "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+                "toEntityId": "db0ea33548454e1780c78231066b7d71"
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false
+            }
+          }
+        }
+      }
+    }
+  ],
+  "passed": true
+}

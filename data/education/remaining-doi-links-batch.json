@@ -1,0 +1,18 @@
+{
+  "name": "Repair DOI resolver links across the education bibliography",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/remaining-doi-links-ops.json",
+  "sha256": "fe764cf8cd44cac91a30b9cb55a2b1b531066a7fe8f556abdb1e6bc21b0c909c",
+  "journalPath": "data/education/remaining-doi-links-publication.json",
+  "validationPath": "data/education/remaining-doi-links-validation.json",
+  "operationCount": 1,
+  "records": [
+    {
+      "id": "3e4404bac6e842b598e0b0a809a4928f",
+      "name": "Third Grade Follow-up to the Head Start Impact Study (HSIS), United States, 2007-2008",
+      "before": "10.3886/ICPSR35003.v2",
+      "after": "https://doi.org/10.3886/ICPSR35003.v2"
+    }
+  ]
+}

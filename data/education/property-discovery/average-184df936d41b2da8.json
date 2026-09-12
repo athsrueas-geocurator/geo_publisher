@@ -1,0 +1,23 @@
+{
+  "term": "average",
+  "checkedAt": "2026-09-11T21:30:11.672Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "7c4ee7c56008402a9e0659ace098729a",
+      "name": "Season batting average",
+      "description": "Season AVG = H / AB.",
+      "spaceIds": [
+        "7570a0ba7552e6806e0751c2ad105754"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiN2M0ZWU3YzUtNjAwOC00MDJhLTllMDYtNTlhY2UwOTg3MjlhIl1d"
+    }
+  ]
+}

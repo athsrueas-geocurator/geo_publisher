@@ -1,0 +1,39 @@
+{
+  "term": "p value",
+  "checkedAt": "2026-09-11T20:59:21.881Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+      "name": "P value",
+      "description": "Published p-value string, preserving operators such as < or =.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    },
+    {
+      "id": "dbad304fc83a13a2f84b6260501a562c",
+      "name": "P value",
+      "description": "P value for an extracted result when available.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ]
+    },
+    {
+      "id": "f6e654253ec0c1decbe6a6058f003868",
+      "name": "P value numeric",
+      "description": "Numeric p-value or conservative threshold used for sorting.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjZlNjU0MjUtM2VjMC1jMWRlLWNiZTYtYTYwNThmMDAzODY4Il1d"
+    }
+  ]
+}

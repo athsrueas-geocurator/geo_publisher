@@ -1,0 +1,700 @@
+[
+  {
+    "id": "52102b2ff01f460a86d0afc946bfb242",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Executive Summary, pp. ES-2–ES-3.",
+    "classification": "observed",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "WorkAdvance randomly assigned 2,564 adults across four provider sites.",
+    "description": "The 2011–2013 evaluation assigned 1,293 people to WorkAdvance and 1,271 to control services. Site-specific analysis is primary; pooled results can mask provider variation.",
+    "values": [
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "2564"
+      }
+    ]
+  },
+  {
+    "id": "430852724e084021b8f43d252646c8fc",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.3; Executive Summary p. ES-6.",
+    "classification": "observed",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "Across four WorkAdvance sites, assignment increased 2018 earnings by $2,716.",
+    "description": "Across all four sites, 2018 earnings were $26,419 for WorkAdvance and $23,703 for control participants (p = .003). This pooled finding is not a provider-specific result.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "2716"
+      },
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "2564"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data."
+      },
+      {
+        "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+        "field": "text",
+        "value": "= .003"
+      }
+    ]
+  },
+  {
+    "id": "74367c0ffb3b46b0aa84df113b274eb6",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.3; Executive Summary p. ES-6.",
+    "classification": "observed",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "Across four WorkAdvance sites, assignment increased earning $30,000 or more in 2018 by 6.4 percentage points.",
+    "description": "In the pooled sample, 40.0% of WorkAdvance and 33.7% of control participants earned at least $30,000 in 2018 (p = .001). The report-specific threshold and pooled result can mask provider variation.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "6.4"
+      },
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "2564"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control."
+      },
+      {
+        "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+        "field": "text",
+        "value": "= .001"
+      }
+    ]
+  },
+  {
+    "id": "d7ee28bfdd9c41aeb87773f3a46c67a7",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+    "classification": "observed",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "At Per Scholas, WorkAdvance assignment increased 2018 earnings by $6,281.",
+    "description": "This randomized site-specific National Directory of New Hires estimate has p = .004. It is a 2018 earnings difference, not a general employment-rate effect.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "6281"
+      },
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "690"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data."
+      },
+      {
+        "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+        "field": "text",
+        "value": "= .004"
+      }
+    ]
+  },
+  {
+    "id": "9f3dba3778dc4876842e1f4cfd11c32f",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+    "classification": "observed",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "At Per Scholas, the estimated difference in earning $30,000 or more in 2018 was 6.3 percentage points, but was not statistically significant.",
+    "description": "This randomized site-specific estimate uses the report’s $30,000 2018 earnings threshold (p = .099). It is not a general employment-rate effect.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "6.3"
+      },
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "690"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control."
+      },
+      {
+        "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+        "field": "text",
+        "value": "= .099"
+      }
+    ]
+  },
+  {
+    "id": "5b110052f25b46fc8af44d6e3df93fcb",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+    "classification": "modeled",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "MDRC’s model estimated a $15,456 participant net financial gain per Per Scholas participant.",
+    "description": "This is a source-modelled 2018-dollar present value per participant over seven years, not a benefit-cost ratio. It includes monetized nonmarket time and deadweight loss at a 3.5% discount rate.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "15456"
+      },
+      {
+        "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+        "field": "integer",
+        "value": "2018"
+      },
+      {
+        "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+        "field": "text",
+        "value": "USD"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "2018 USD per participant; participant net financial gain including monetized nonmarket time and deadweight loss; seven years."
+      }
+    ]
+  },
+  {
+    "id": "e4034125340b4138b3abe70e78fabecf",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+    "classification": "modeled",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "MDRC’s model estimated a $13,387 government budget net financial gain per Per Scholas participant.",
+    "description": "This is a source-modelled 2018-dollar present value per participant over seven years, not a benefit-cost ratio. It includes monetized nonmarket time and deadweight loss at a 3.5% discount rate.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "13387"
+      },
+      {
+        "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+        "field": "integer",
+        "value": "2018"
+      },
+      {
+        "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+        "field": "text",
+        "value": "USD"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "2018 USD per participant; government budget net financial gain including monetized nonmarket time and deadweight loss; seven years."
+      }
+    ]
+  },
+  {
+    "id": "c64c6e66b9ac43fca969ed176b0f8a86",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+    "classification": "modeled",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "MDRC’s model estimated a $31,387 society net financial gain per Per Scholas participant.",
+    "description": "This is a source-modelled 2018-dollar present value per participant over seven years, not a benefit-cost ratio. It includes monetized nonmarket time and deadweight loss at a 3.5% discount rate.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "31387"
+      },
+      {
+        "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+        "field": "integer",
+        "value": "2018"
+      },
+      {
+        "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+        "field": "text",
+        "value": "USD"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "2018 USD per participant; society net financial gain including monetized nonmarket time and deadweight loss; seven years."
+      }
+    ]
+  },
+  {
+    "id": "8db4d077d0db4621b4538da19bac0eee",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+    "classification": "observed",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "At St. Nicks Alliance, the estimated 2018 earnings difference was $2,849 higher for WorkAdvance, but was not statistically significant.",
+    "description": "This randomized site-specific National Directory of New Hires estimate has p = .208. It is a 2018 earnings difference, not a general employment-rate effect.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "2849"
+      },
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "479"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data."
+      },
+      {
+        "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+        "field": "text",
+        "value": "= .208"
+      }
+    ]
+  },
+  {
+    "id": "1f96645855cc4c0490aba23f7e7b9581",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+    "classification": "observed",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "At St. Nicks Alliance, WorkAdvance assignment increased earning $30,000 or more in 2018 by 9.3 percentage points.",
+    "description": "This randomized site-specific estimate uses the report’s $30,000 2018 earnings threshold (p = .033). It is not a general employment-rate effect.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "9.3"
+      },
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "479"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control."
+      },
+      {
+        "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+        "field": "text",
+        "value": "= .033"
+      }
+    ]
+  },
+  {
+    "id": "94ddb74bc92a49c694e7d88a2e6db045",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+    "classification": "modeled",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "MDRC’s model estimated a $9,387 participant net financial gain per St. Nicks Alliance participant.",
+    "description": "This is a source-modelled 2018-dollar present value per participant over ten years, not a benefit-cost ratio. It includes monetized nonmarket time and deadweight loss at a 3.5% discount rate.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "9387"
+      },
+      {
+        "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+        "field": "integer",
+        "value": "2018"
+      },
+      {
+        "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+        "field": "text",
+        "value": "USD"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "2018 USD per participant; participant net financial gain including monetized nonmarket time and deadweight loss; ten years."
+      }
+    ]
+  },
+  {
+    "id": "a4412d3b808742a697a720dd846724d3",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+    "classification": "modeled",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "MDRC’s model estimated a $3,660 government budget net financial gain per St. Nicks Alliance participant.",
+    "description": "This is a source-modelled 2018-dollar present value per participant over ten years, not a benefit-cost ratio. It includes monetized nonmarket time and deadweight loss at a 3.5% discount rate.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "3660"
+      },
+      {
+        "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+        "field": "integer",
+        "value": "2018"
+      },
+      {
+        "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+        "field": "text",
+        "value": "USD"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "2018 USD per participant; government budget net financial gain including monetized nonmarket time and deadweight loss; ten years."
+      }
+    ]
+  },
+  {
+    "id": "7b8d6b29f5fc4b3081c5c969756c52b3",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+    "classification": "modeled",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "MDRC’s model estimated a $13,742 society net financial gain per St. Nicks Alliance participant.",
+    "description": "This is a source-modelled 2018-dollar present value per participant over ten years, not a benefit-cost ratio. It includes monetized nonmarket time and deadweight loss at a 3.5% discount rate.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "13742"
+      },
+      {
+        "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+        "field": "integer",
+        "value": "2018"
+      },
+      {
+        "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+        "field": "text",
+        "value": "USD"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "2018 USD per participant; society net financial gain including monetized nonmarket time and deadweight loss; ten years."
+      }
+    ]
+  },
+  {
+    "id": "93460ea13cb54da0b42d5f6832f12b66",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+    "classification": "observed",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "At Madison Strategies Group, the estimated 2018 earnings difference was $787 higher for WorkAdvance, but was not statistically significant.",
+    "description": "This randomized site-specific National Directory of New Hires estimate has p = .603. It is a 2018 earnings difference, not a general employment-rate effect.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "787"
+      },
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "697"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data."
+      },
+      {
+        "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+        "field": "text",
+        "value": "= .603"
+      }
+    ]
+  },
+  {
+    "id": "91922f7aee044e77988098f6153024b1",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+    "classification": "observed",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "At Madison Strategies Group, the estimated difference in earning $30,000 or more in 2018 was 5.8 percentage points, but was not statistically significant.",
+    "description": "This randomized site-specific estimate uses the report’s $30,000 2018 earnings threshold (p = .092). It is not a general employment-rate effect.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "5.8"
+      },
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "697"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control."
+      },
+      {
+        "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+        "field": "text",
+        "value": "= .092"
+      }
+    ]
+  },
+  {
+    "id": "20bc4d3575514eba93d600e6bd53ce3d",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+    "classification": "modeled",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "MDRC’s model estimated a $11,192 participant net financial gain per Madison Strategies Group participant.",
+    "description": "This is a source-modelled 2018-dollar present value per participant over 62-month observation period, not a benefit-cost ratio. It includes monetized nonmarket time and deadweight loss at a 3.5% discount rate.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "11192"
+      },
+      {
+        "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+        "field": "integer",
+        "value": "2018"
+      },
+      {
+        "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+        "field": "text",
+        "value": "USD"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "2018 USD per participant; participant net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period."
+      }
+    ]
+  },
+  {
+    "id": "06a8bc4e4ac446e2875ae52e15021645",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+    "classification": "modeled",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "MDRC’s model estimated a $1,615 government budget net financial gain per Madison Strategies Group participant.",
+    "description": "This is a source-modelled 2018-dollar present value per participant over 62-month observation period, not a benefit-cost ratio. It includes monetized nonmarket time and deadweight loss at a 3.5% discount rate.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "1615"
+      },
+      {
+        "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+        "field": "integer",
+        "value": "2018"
+      },
+      {
+        "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+        "field": "text",
+        "value": "USD"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "2018 USD per participant; government budget net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period."
+      }
+    ]
+  },
+  {
+    "id": "1c9a732b882d4bcdb489e7a84a15cab6",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+    "classification": "modeled",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "MDRC’s model estimated a $13,114 society net financial gain per Madison Strategies Group participant.",
+    "description": "This is a source-modelled 2018-dollar present value per participant over 62-month observation period, not a benefit-cost ratio. It includes monetized nonmarket time and deadweight loss at a 3.5% discount rate.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "13114"
+      },
+      {
+        "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+        "field": "integer",
+        "value": "2018"
+      },
+      {
+        "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+        "field": "text",
+        "value": "USD"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "2018 USD per participant; society net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period."
+      }
+    ]
+  },
+  {
+    "id": "7dc0972751e341a6ab8dba378b342716",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+    "classification": "observed",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "At Towards Employment, the estimated 2018 earnings difference was $1,404 higher for WorkAdvance, but was not statistically significant.",
+    "description": "This randomized site-specific National Directory of New Hires estimate has p = .275. It is a 2018 earnings difference, not a general employment-rate effect.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "1404"
+      },
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "698"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "USD difference in total 2018 earnings, WorkAdvance minus control; National Directory of New Hires data."
+      },
+      {
+        "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+        "field": "text",
+        "value": "= .275"
+      }
+    ]
+  },
+  {
+    "id": "2dffecb5ad3c413aae31b39f127398dd",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.2; Executive Summary pp. ES-4–ES-5.",
+    "classification": "observed",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "At Towards Employment, the estimated difference in earning $30,000 or more in 2018 was 5.1 percentage points, but was not statistically significant.",
+    "description": "This randomized site-specific estimate uses the report’s $30,000 2018 earnings threshold (p = .117). It is not a general employment-rate effect.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "5.1"
+      },
+      {
+        "propertyId": "210e9b352b454d6eb7a32906d24d3c8d",
+        "field": "integer",
+        "value": "698"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "Percentage-point difference in earning $30,000 or more in 2018, WorkAdvance minus control."
+      },
+      {
+        "propertyId": "ba5f8fe9d1cd9a6094338d2f37b74a5e",
+        "field": "text",
+        "value": "= .117"
+      }
+    ]
+  },
+  {
+    "id": "aa103b0c731044e88754c01111b7f994",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+    "classification": "modeled",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "MDRC’s model estimated a $5,505 participant net financial gain per Towards Employment participant.",
+    "description": "This is a source-modelled 2018-dollar present value per participant over 62-month observation period, not a benefit-cost ratio. It includes monetized nonmarket time and deadweight loss at a 3.5% discount rate.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "5505"
+      },
+      {
+        "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+        "field": "integer",
+        "value": "2018"
+      },
+      {
+        "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+        "field": "text",
+        "value": "USD"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "2018 USD per participant; participant net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period."
+      }
+    ]
+  },
+  {
+    "id": "5418fe79f304458e95b073683662da7b",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+    "classification": "modeled",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "MDRC’s model estimated a $265 government budget net financial gain per Towards Employment participant.",
+    "description": "This is a source-modelled 2018-dollar present value per participant over 62-month observation period, not a benefit-cost ratio. It includes monetized nonmarket time and deadweight loss at a 3.5% discount rate.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "265"
+      },
+      {
+        "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+        "field": "integer",
+        "value": "2018"
+      },
+      {
+        "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+        "field": "text",
+        "value": "USD"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "2018 USD per participant; government budget net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period."
+      }
+    ]
+  },
+  {
+    "id": "cf5189eae8d541d189e71bfc13a85ea3",
+    "sourceId": "2278407dc1df480e8a297cd9beb44a4a",
+    "locator": "Table ES.4; Executive Summary pp. ES-8–ES-9.",
+    "classification": "modeled",
+    "context": "WorkAdvance 2020 long-term demonstration; typed findings from the reviewed source batch and current approved Claim copy.",
+    "name": "MDRC’s model estimated a $5,820 society net financial gain per Towards Employment participant.",
+    "description": "This is a source-modelled 2018-dollar present value per participant over 62-month observation period, not a benefit-cost ratio. It includes monetized nonmarket time and deadweight loss at a 3.5% discount rate.",
+    "values": [
+      {
+        "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+        "field": "decimal",
+        "value": "5820"
+      },
+      {
+        "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+        "field": "integer",
+        "value": "2018"
+      },
+      {
+        "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+        "field": "text",
+        "value": "USD"
+      },
+      {
+        "propertyId": "8405509cc7354655a348591349a5f025",
+        "field": "text",
+        "value": "2018 USD per participant; society net financial gain including monetized nonmarket time and deadweight loss; 62-month observation period."
+      }
+    ]
+  }
+]

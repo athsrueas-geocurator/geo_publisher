@@ -1,0 +1,4113 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "58dffa2c23d34480b7f8d65a0b5d15b0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga year-two analysis: randomized-assignment participation effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "26af9b2899bb4f4693da2f2f669da92a"
+    },
+    "entity": {
+      "$bytes": "0a557e94b3464b21a7a24cfa79ca5a4f"
+    },
+    "from": {
+      "$bytes": "58dffa2c23d34480b7f8d65a0b5d15b0"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b744da967b9f4b66a4dae091aad0c977"
+    },
+    "entity": {
+      "$bytes": "1ed994f22e924cf6ba6c01dffb441f02"
+    },
+    "from": {
+      "$bytes": "58dffa2c23d34480b7f8d65a0b5d15b0"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "73d3cfbc828d42acb00441cd7db472e4"
+    },
+    "entity": {
+      "$bytes": "14742b631c114659bf786ece4b49b4d9"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "58dffa2c23d34480b7f8d65a0b5d15b0"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "e1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6812ab1ff25e4b28b5bb1162ff38037b"
+    },
+    "entity": {
+      "$bytes": "5b5b6aff610e4f7998533c2171f2895d"
+    },
+    "from": {
+      "$bytes": "14742b631c114659bf786ece4b49b4d9"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ca8fe9d085c04415a00122cefcb293ea"
+    },
+    "entity": {
+      "$bytes": "de9e02fc3e474194b4a2f117a134ea97"
+    },
+    "from": {
+      "$bytes": "14742b631c114659bf786ece4b49b4d9"
+    },
+    "to": {
+      "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a08my"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "aedfc2fd1125493a81857588c4b89577"
+    },
+    "entity": {
+      "$bytes": "597fe0d7d3994fb8900c9402af9cc8eb"
+    },
+    "from": {
+      "$bytes": "14742b631c114659bf786ece4b49b4d9"
+    },
+    "to": {
+      "$bytes": "ba643714da274c37a340a7f8396198dc"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a15U9"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "57869ad728f44451a609922479636abc"
+    },
+    "entity": {
+      "$bytes": "0b6bd999ab844c1f97e7f15f02276c67"
+    },
+    "from": {
+      "$bytes": "14742b631c114659bf786ece4b49b4d9"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a28iC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2dd5331bda3245dab73d62c1b10df14a"
+    },
+    "entity": {
+      "$bytes": "622afe50a83d45409a2f1146ad29ed5d"
+    },
+    "from": {
+      "$bytes": "14742b631c114659bf786ece4b49b4d9"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a31ak"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e38184b346864191b7a2ac0730c3a2f6"
+    },
+    "entity": {
+      "$bytes": "854b6fc01fad4cabb90556c12468713f"
+    },
+    "from": {
+      "$bytes": "14742b631c114659bf786ece4b49b4d9"
+    },
+    "to": {
+      "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a46xh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7b9e05a39ea44cf29a2b5983d6341a2b"
+    },
+    "entity": {
+      "$bytes": "fceefe397c3d46b3805dfbdea0d1503a"
+    },
+    "from": {
+      "$bytes": "14742b631c114659bf786ece4b49b4d9"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a5BaW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eb1256d7b69e4013bffb897f6825c7d7"
+    },
+    "entity": {
+      "$bytes": "4b374b439e8746c3801c9b4b7153fce0"
+    },
+    "from": {
+      "$bytes": "14742b631c114659bf786ece4b49b4d9"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a6C0T"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "5e37dec9a0f5401a9b604a09beba69b3"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga year-two analysis: weighted per-year effect",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5e90e9a89e7f4395b730178b12475642"
+    },
+    "entity": {
+      "$bytes": "d3bdf7abb8e3483d8377d40054740cac"
+    },
+    "from": {
+      "$bytes": "5e37dec9a0f5401a9b604a09beba69b3"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f3a9f7d8502442fd91cb00fa35cd88bc"
+    },
+    "entity": {
+      "$bytes": "a2c4069af74949869498c6e457eb26da"
+    },
+    "from": {
+      "$bytes": "5e37dec9a0f5401a9b604a09beba69b3"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9f3722026b4545e790f61e5f482a5c7c"
+    },
+    "entity": {
+      "$bytes": "3a14112e69a84682baac112112955c8a"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "5e37dec9a0f5401a9b604a09beba69b3"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "e2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9a3fae24bc994adeb232ea4e9b59684d"
+    },
+    "entity": {
+      "$bytes": "6a45699683d74e28bb5e0a67bbec5aa3"
+    },
+    "from": {
+      "$bytes": "3a14112e69a84682baac112112955c8a"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a4fe57123c4044868b35dd1df3ef13c4"
+    },
+    "entity": {
+      "$bytes": "d3671602309f4048a7c93a0db6b8f4ec"
+    },
+    "from": {
+      "$bytes": "3a14112e69a84682baac112112955c8a"
+    },
+    "to": {
+      "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a02xL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "986e034cec494c18ae1a4bb6472a3a7b"
+    },
+    "entity": {
+      "$bytes": "34f0624d53f940c787fa1f30cd438937"
+    },
+    "from": {
+      "$bytes": "3a14112e69a84682baac112112955c8a"
+    },
+    "to": {
+      "$bytes": "ba643714da274c37a340a7f8396198dc"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a15Vt"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "37a6d5add6fd4c0c984d8c9fb62e830b"
+    },
+    "entity": {
+      "$bytes": "b36556e215374678825532be7bbfff95"
+    },
+    "from": {
+      "$bytes": "3a14112e69a84682baac112112955c8a"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a21Kf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8a6ba9eb70674234a6f4dc77e2f06588"
+    },
+    "entity": {
+      "$bytes": "bcf56567f6474692989b5bbced9d97d9"
+    },
+    "from": {
+      "$bytes": "3a14112e69a84682baac112112955c8a"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a37nO"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "14f30413abe24be5ae0e59524d345d3c"
+    },
+    "entity": {
+      "$bytes": "74347c2a600b4965b27bce1250c87250"
+    },
+    "from": {
+      "$bytes": "3a14112e69a84682baac112112955c8a"
+    },
+    "to": {
+      "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a4BDU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9c90d427c10446eab7573f30746acf41"
+    },
+    "entity": {
+      "$bytes": "5886cd28531a4d4e86399b99df35be34"
+    },
+    "from": {
+      "$bytes": "3a14112e69a84682baac112112955c8a"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a50w6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5284e42653594e2ba854cb880bbc18c9"
+    },
+    "entity": {
+      "$bytes": "b1738bdc978f4086891536e68a339e62"
+    },
+    "from": {
+      "$bytes": "3a14112e69a84682baac112112955c8a"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a6Bc4"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "0d366d56f41346d5b1db303187cf6bcf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga year-two analysis: assumption-dependent two-year participation bound",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1671ef5287a247cb9eb0e02a882aef4a"
+    },
+    "entity": {
+      "$bytes": "a320cb7a19ad410385595551987764e1"
+    },
+    "from": {
+      "$bytes": "0d366d56f41346d5b1db303187cf6bcf"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "654baa84049d48828fcb821601706751"
+    },
+    "entity": {
+      "$bytes": "4d8e886e9a6940a0ad50c33d53c2c415"
+    },
+    "from": {
+      "$bytes": "0d366d56f41346d5b1db303187cf6bcf"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "095413dd006d47ee8f9bba7469358c53"
+    },
+    "entity": {
+      "$bytes": "1d4f47a369df4fdaa13b571a8e26e5fe"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "0d366d56f41346d5b1db303187cf6bcf"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "e4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "02e3c6dc34914ae1be4c24b452aa0248"
+    },
+    "entity": {
+      "$bytes": "ba4b462002514df998b0e25376323d57"
+    },
+    "from": {
+      "$bytes": "1d4f47a369df4fdaa13b571a8e26e5fe"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8986a7ebc4894560bd384fdf0af8b64a"
+    },
+    "entity": {
+      "$bytes": "beeb3b02a5444462bcd29d1d03042a5c"
+    },
+    "from": {
+      "$bytes": "1d4f47a369df4fdaa13b571a8e26e5fe"
+    },
+    "to": {
+      "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a05t5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fc64fb15be1b4104ba0b1df13e0287f4"
+    },
+    "entity": {
+      "$bytes": "62f22640678d4ebd9076455aa1dd5401"
+    },
+    "from": {
+      "$bytes": "1d4f47a369df4fdaa13b571a8e26e5fe"
+    },
+    "to": {
+      "$bytes": "ba643714da274c37a340a7f8396198dc"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a15Py"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9ff72d801539472e8879f764f551de11"
+    },
+    "entity": {
+      "$bytes": "7574f3c017134f7f9fe8796895f5fb06"
+    },
+    "from": {
+      "$bytes": "1d4f47a369df4fdaa13b571a8e26e5fe"
+    },
+    "to": {
+      "$bytes": "f44acacc373c4c12a10bec95ad915ed6"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a256L"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "73e93e1c08db4940918972674dd5e203"
+    },
+    "entity": {
+      "$bytes": "976479d69d434246b93684b9525f4750"
+    },
+    "from": {
+      "$bytes": "1d4f47a369df4fdaa13b571a8e26e5fe"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a38aI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "423228f2c9064dcb8e975f8aa89b4825"
+    },
+    "entity": {
+      "$bytes": "1b18066ffe9a4a08b1a7fa6f79dfd73d"
+    },
+    "from": {
+      "$bytes": "1d4f47a369df4fdaa13b571a8e26e5fe"
+    },
+    "to": {
+      "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a41yU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "daa1cdad0e7b4eebb36e1528eac11f8b"
+    },
+    "entity": {
+      "$bytes": "243d1161a9b04d34b4b143474fff00e2"
+    },
+    "from": {
+      "$bytes": "1d4f47a369df4fdaa13b571a8e26e5fe"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a57vL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e33a1da410f94df8a5076450f665f0fc"
+    },
+    "entity": {
+      "$bytes": "5270d05ff355474ba85ed9aa55a5a95b"
+    },
+    "from": {
+      "$bytes": "1d4f47a369df4fdaa13b571a8e26e5fe"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a64bp"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "22af25e6e89c47cfb60207920eb8cd23"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated that offering tutoring increased participation by 0.563 years.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports 0.563 (SE 0.020; N=2633). This measures how the randomized offer changed participation, not an academic outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Years of high-dosage tutoring",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "563"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "20"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2633"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "years of participation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Effect of original randomized tutoring assignment on participation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel A; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9bf641713ccd4269a7f48e04d6d60744"
+    },
+    "entity": {
+      "$bytes": "403fa7af5e03407781ac54396d29eefb"
+    },
+    "from": {
+      "$bytes": "22af25e6e89c47cfb60207920eb8cd23"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "52ac5183ba4e4aa7892c2a3b25c7607d"
+    },
+    "entity": {
+      "$bytes": "3a728c3b8d13437da5395032de62de50"
+    },
+    "from": {
+      "$bytes": "22af25e6e89c47cfb60207920eb8cd23"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "41eaf83e586b41d3bce8a622aba987e4"
+    },
+    "entity": {
+      "$bytes": "41902d20506d4127977c763f2d42896a"
+    },
+    "from": {
+      "$bytes": "22af25e6e89c47cfb60207920eb8cd23"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1424f400d870437381e278c028112d40"
+    },
+    "entity": {
+      "$bytes": "909f3488082b4c27a6ce8a90db6d3832"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "22af25e6e89c47cfb60207920eb8cd23"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d9b6a3d93ffb43629af1c4c42811209b"
+    },
+    "entity": {
+      "$bytes": "7fdcda298f0b4f1e8bc85df51eebdde1"
+    },
+    "from": {
+      "$bytes": "58dffa2c23d34480b7f8d65a0b5d15b0"
+    },
+    "to": {
+      "$bytes": "22af25e6e89c47cfb60207920eb8cd23"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a000"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f4ea078ec21d497a8712b7bad64949f8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated that offering tutoring increased participation for at least one year by 42.3 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports 0.423 (SE 0.014; N=2633). This measures how the randomized offer changed participation, not an academic outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "1 or more years of high-dosage tutoring",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "423"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "14"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2633"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "proportion difference",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Effect of original randomized tutoring assignment on participation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel A; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8c102afc2dcf467dafa80cfa4cd6f9f4"
+    },
+    "entity": {
+      "$bytes": "a5dff1a6fabf4b3594eab056406cfdbe"
+    },
+    "from": {
+      "$bytes": "f4ea078ec21d497a8712b7bad64949f8"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "825389d696cb4c1d9b2fe833153ac15b"
+    },
+    "entity": {
+      "$bytes": "ec9dc7995c2f4e74b0705df1fa91d108"
+    },
+    "from": {
+      "$bytes": "f4ea078ec21d497a8712b7bad64949f8"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6af2708cc05c4f6da0a04a9bed73b169"
+    },
+    "entity": {
+      "$bytes": "9733cc83a0484dad922871774ffcc94c"
+    },
+    "from": {
+      "$bytes": "f4ea078ec21d497a8712b7bad64949f8"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ef637c7726884770851463a41060a58f"
+    },
+    "entity": {
+      "$bytes": "ae4ee447ec7f4715a8987793382a750b"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "f4ea078ec21d497a8712b7bad64949f8"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6ac71e081cec4ca297ae9f281a257ca2"
+    },
+    "entity": {
+      "$bytes": "9e1b64e2ae1b46c2856ff4184c11d01a"
+    },
+    "from": {
+      "$bytes": "58dffa2c23d34480b7f8d65a0b5d15b0"
+    },
+    "to": {
+      "$bytes": "f4ea078ec21d497a8712b7bad64949f8"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a001"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "07a9c9aa79654075aa854dd1382814ae"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated that offering tutoring increased participation for two years by 13.9 percentage points.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports 0.139 (SE 0.010; N=2633). This measures how the randomized offer changed participation, not an academic outcome.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "2 years of high-dosage tutoring",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "139"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "10"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2633"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "proportion difference",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Effect of original randomized tutoring assignment on participation",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel A; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0dc3fb0105fe4252b55b76681a204525"
+    },
+    "entity": {
+      "$bytes": "eeabe27cdca8460ab820f86804f54030"
+    },
+    "from": {
+      "$bytes": "07a9c9aa79654075aa854dd1382814ae"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "60dbb3f68940462697b56ddbb550f3cc"
+    },
+    "entity": {
+      "$bytes": "abb3256d9d2b4480984c126e91e53685"
+    },
+    "from": {
+      "$bytes": "07a9c9aa79654075aa854dd1382814ae"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "514391dc26784e3e81d0c22f3188d8d7"
+    },
+    "entity": {
+      "$bytes": "ada6ceb833904f2ea2dae5b459765c30"
+    },
+    "from": {
+      "$bytes": "07a9c9aa79654075aa854dd1382814ae"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ac34345e25724773b2f33436c77a2ee6"
+    },
+    "entity": {
+      "$bytes": "d1d3bb1f29be432283c73b5ec7381d07"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "07a9c9aa79654075aa854dd1382814ae"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5421ee7203414d539be64b297b44d493"
+    },
+    "entity": {
+      "$bytes": "fa9809bd2835426da483f42bcb010acd"
+    },
+    "from": {
+      "$bytes": "58dffa2c23d34480b7f8d65a0b5d15b0"
+    },
+    "to": {
+      "$bytes": "07a9c9aa79654075aa854dd1382814ae"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a002"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ecefbf6e65104895b7f1d037fcd83448"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated a year-two CPS math test (study sample Z) effect of 0.228 study-sample standard deviations per year of tutoring.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports 0.228 (SE 0.050; N=1640; FDR q=0.001). This is a weighted per-year effect measured in year two, not a separately randomized dose comparison.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "CPS math test (study sample Z)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "228"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "50"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1640"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Weighted effect per year of tutoring participation, measured in year two",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel B; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ce741bee3d2a4302b1ff412adecd48bf"
+    },
+    "entity": {
+      "$bytes": "b4bf0b77e4c043d2972f852f51209d4c"
+    },
+    "from": {
+      "$bytes": "ecefbf6e65104895b7f1d037fcd83448"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "845d1e6cbce94d23971b5d92b464d65f"
+    },
+    "entity": {
+      "$bytes": "850c11933b424fdebadb731c8c45102d"
+    },
+    "from": {
+      "$bytes": "ecefbf6e65104895b7f1d037fcd83448"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1ad3d08ec2204e529f7e735c59c4f3c4"
+    },
+    "entity": {
+      "$bytes": "4c4457566c0c4b6c874562dfc2596b5b"
+    },
+    "from": {
+      "$bytes": "ecefbf6e65104895b7f1d037fcd83448"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "63cabcb569c541588ddd50487cf2e54d"
+    },
+    "entity": {
+      "$bytes": "39c97f9fa7104b348915c0c5e89b1ead"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "ecefbf6e65104895b7f1d037fcd83448"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9afdc5c7eeaf4934ac949293344d7d41"
+    },
+    "entity": {
+      "$bytes": "4d54a7ab203e49dd92de24aa0b2768a4"
+    },
+    "from": {
+      "$bytes": "5e37dec9a0f5401a9b604a09beba69b3"
+    },
+    "to": {
+      "$bytes": "ecefbf6e65104895b7f1d037fcd83448"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a003"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "efbab95a65534cf48caf23db0dbfde3f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 reported a year-two bound of 0.835 study-sample standard deviations for CPS math test (study sample Z), assuming only two-year participation contributes.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports 0.835 (SE 0.189; N=1640; FDR q=0.001). This bound assumes nonnegative benefits and no persistence for first-year-only participants; it is not a point effect or confidence limit.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "CPS math test (study sample Z)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f44acacc373c4c12a10bec95ad915ed6"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "835"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "189"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1640"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Bound on two-year participation benefit assuming zero persistence among first-year-only participants",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel B; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "502a654902b048859bc364e084ba36c5"
+    },
+    "entity": {
+      "$bytes": "31508108c7a040f5b8d84aedd8028293"
+    },
+    "from": {
+      "$bytes": "efbab95a65534cf48caf23db0dbfde3f"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3d95019069e9485a92dbb40409b5d06d"
+    },
+    "entity": {
+      "$bytes": "7669705ebb1c49e89cf13f11c0349d27"
+    },
+    "from": {
+      "$bytes": "efbab95a65534cf48caf23db0dbfde3f"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "861f7c2c1bbc425d97fbb76140273cba"
+    },
+    "entity": {
+      "$bytes": "358940547d1b4d36b8d8e89805e4fbf9"
+    },
+    "from": {
+      "$bytes": "efbab95a65534cf48caf23db0dbfde3f"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3d7ba04585eb4fbe9eea3e0d74da7c88"
+    },
+    "entity": {
+      "$bytes": "2fd190bba2034e8ea14c3c439e80234a"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "efbab95a65534cf48caf23db0dbfde3f"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7fe865b25c74498295e59abb03898156"
+    },
+    "entity": {
+      "$bytes": "07f0293fc7394668a112fe454562e258"
+    },
+    "from": {
+      "$bytes": "0d366d56f41346d5b1db303187cf6bcf"
+    },
+    "to": {
+      "$bytes": "efbab95a65534cf48caf23db0dbfde3f"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a004"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "64b916cc92d54809a223fc0fde93e443"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated a year-two Math GPA effect of 0.180 GPA points per year of tutoring.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports 0.180 (SE 0.065; N=1841; FDR q=0.012). This is a weighted per-year effect measured in year two, not a separately randomized dose comparison.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Math GPA",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "180"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "65"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1841"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "GPA points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Weighted effect per year of tutoring participation, measured in year two",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel B; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fa0b7704bf7140cab0e895a1ea7996c9"
+    },
+    "entity": {
+      "$bytes": "4757a40b7bba47c5b09b3c75862ddd05"
+    },
+    "from": {
+      "$bytes": "64b916cc92d54809a223fc0fde93e443"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8ebb685a64ee4363b1189d725061e93b"
+    },
+    "entity": {
+      "$bytes": "dff16702f52348c6bddef77738768358"
+    },
+    "from": {
+      "$bytes": "64b916cc92d54809a223fc0fde93e443"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6fa7a3905deb4a618adf2db9d3f5aa9e"
+    },
+    "entity": {
+      "$bytes": "c8436743f74947d59af6a722ef0b869a"
+    },
+    "from": {
+      "$bytes": "64b916cc92d54809a223fc0fde93e443"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "796a44036fd249e1b993ca21819c8adb"
+    },
+    "entity": {
+      "$bytes": "a22a22cd19e64758b5065fc0c774498c"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "64b916cc92d54809a223fc0fde93e443"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b54d6de0105e469bae136f601f8659c4"
+    },
+    "entity": {
+      "$bytes": "c1b5f46f425a45e6b550249a66011dd3"
+    },
+    "from": {
+      "$bytes": "5e37dec9a0f5401a9b604a09beba69b3"
+    },
+    "to": {
+      "$bytes": "64b916cc92d54809a223fc0fde93e443"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a005"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ae7db028806349ebb139c8df68d91a88"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 reported a year-two bound of 0.243 GPA points for Math GPA, assuming only first-year benefits persist.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports 0.243 (SE 0.088; N=1841; FDR q=0.012). This bound assumes nonnegative benefits and zero incremental second-year benefit; it is not a point effect or confidence limit.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Math GPA",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f44acacc373c4c12a10bec95ad915ed6"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "243"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "88"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1841"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "GPA points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Bound on persistent first-year benefit assuming zero incremental second-year benefit",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel B; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1e0c652d0d394b088588c4f0ba11d470"
+    },
+    "entity": {
+      "$bytes": "84cf8203fb874b8c9a0bf4620e5a7dbf"
+    },
+    "from": {
+      "$bytes": "ae7db028806349ebb139c8df68d91a88"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6630d1db90154840b24eb830865b2149"
+    },
+    "entity": {
+      "$bytes": "7244c8d13c204f09ab626dca31c4fe2c"
+    },
+    "from": {
+      "$bytes": "ae7db028806349ebb139c8df68d91a88"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1683586d4f684da9a2cb1cdcaaf416bf"
+    },
+    "entity": {
+      "$bytes": "9fb5f6af451b47b8b4b31ea9c971eaf0"
+    },
+    "from": {
+      "$bytes": "ae7db028806349ebb139c8df68d91a88"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "381d740cc4a0446ab379f3c866823b11"
+    },
+    "entity": {
+      "$bytes": "6db5f9a3b0844e8297fa4e48b4d5cf16"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "ae7db028806349ebb139c8df68d91a88"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "56ea336c76544f51bc2fdea755cb40dd"
+    },
+    "entity": {
+      "$bytes": "fa72ff669913489b8575315c0d027fbb"
+    },
+    "from": {
+      "$bytes": "caef4fd959e84ed1a35772e50fa549e0"
+    },
+    "to": {
+      "$bytes": "ae7db028806349ebb139c8df68d91a88"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a006"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "756c801b7dc44c41b6dd33eeddbeb1b8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 reported a year-two bound of 0.630 GPA points for Math GPA, assuming only two-year participation contributes.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports 0.630 (SE 0.230; N=1841; FDR q=0.013). This bound assumes nonnegative benefits and no persistence for first-year-only participants; it is not a point effect or confidence limit.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Math GPA",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f44acacc373c4c12a10bec95ad915ed6"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "630"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "230"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1841"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "GPA points",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Bound on two-year participation benefit assuming zero persistence among first-year-only participants",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel B; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "534837edf83d4a0eae6c8a2fb111006f"
+    },
+    "entity": {
+      "$bytes": "8ffeca325e8b46018fc3d26aa11f1bed"
+    },
+    "from": {
+      "$bytes": "756c801b7dc44c41b6dd33eeddbeb1b8"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "875b9f3d59f5446ab8958df1fea12541"
+    },
+    "entity": {
+      "$bytes": "e71a4843b2874348b7b9f6d48f0d6bf0"
+    },
+    "from": {
+      "$bytes": "756c801b7dc44c41b6dd33eeddbeb1b8"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e594730ae6064cb29106190caacba92a"
+    },
+    "entity": {
+      "$bytes": "4ff1beb7f4e94445b8469654a073f55b"
+    },
+    "from": {
+      "$bytes": "756c801b7dc44c41b6dd33eeddbeb1b8"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "de48615817734a4e8fcae39245106991"
+    },
+    "entity": {
+      "$bytes": "e7e861a0ff1d4d2893a73cc6fa659561"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "756c801b7dc44c41b6dd33eeddbeb1b8"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "594e9d20708141cdbc40a0393cfa8317"
+    },
+    "entity": {
+      "$bytes": "127379b5c0d9498bab61fe633d9f91ac"
+    },
+    "from": {
+      "$bytes": "0d366d56f41346d5b1db303187cf6bcf"
+    },
+    "to": {
+      "$bytes": "756c801b7dc44c41b6dd33eeddbeb1b8"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a007"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c17323e613c34beca9b139b28092a99e"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated 8.0 percentage points fewer math courses failed per year of tutoring, measured in year two.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports -0.080 (SE 0.035; N=1841; FDR q=0.021). This is a weighted per-year effect measured in year two, not a separately randomized dose comparison.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Math courses failed",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-80"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "35"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1841"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "proportion difference",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Weighted effect per year of tutoring participation, measured in year two",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel B; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2538e486a321457cbc7d59d0911c9ce9"
+    },
+    "entity": {
+      "$bytes": "f7174c912dac48048720f6237f0fa1d0"
+    },
+    "from": {
+      "$bytes": "c17323e613c34beca9b139b28092a99e"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8db40e472610412ba51ddca33053fb03"
+    },
+    "entity": {
+      "$bytes": "4c9497c6dcac45d5be9cbcf25cf95684"
+    },
+    "from": {
+      "$bytes": "c17323e613c34beca9b139b28092a99e"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ade3ce7a9130417980e799fefc8da73e"
+    },
+    "entity": {
+      "$bytes": "7277e1f727394b5ba5e559b65d45ad16"
+    },
+    "from": {
+      "$bytes": "c17323e613c34beca9b139b28092a99e"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "003f2f9d740d4caf820ff8eb8da5361b"
+    },
+    "entity": {
+      "$bytes": "8bd0c195fb9f47fc9448e4138efac4b1"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "c17323e613c34beca9b139b28092a99e"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2d0d5636c7f74343bca71300916ecb88"
+    },
+    "entity": {
+      "$bytes": "e5993ac077fc47889aa9577931fafb76"
+    },
+    "from": {
+      "$bytes": "5e37dec9a0f5401a9b604a09beba69b3"
+    },
+    "to": {
+      "$bytes": "c17323e613c34beca9b139b28092a99e"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a008"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b03cab5152d041ea9c331e61501a5516"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 reported a 10.9-percentage-point bound on reducing math-course failure, assuming only first-year benefits persist.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports -0.109 (SE 0.047; N=1841; FDR q=0.021). This bound assumes nonnegative benefits and zero incremental second-year benefit; it is not a point effect or confidence limit.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Math courses failed",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f44acacc373c4c12a10bec95ad915ed6"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-109"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "47"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1841"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "proportion difference",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Bound on persistent first-year benefit assuming zero incremental second-year benefit",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel B; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "538472df1c064e06acbd3e04b43322bb"
+    },
+    "entity": {
+      "$bytes": "0d32cd4b91b84e87bd3ec2542a1b0d52"
+    },
+    "from": {
+      "$bytes": "b03cab5152d041ea9c331e61501a5516"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a643824ef4be446ba50f94e3f9f80809"
+    },
+    "entity": {
+      "$bytes": "c2467f275e2a4c5cb5b7f9ec5af93100"
+    },
+    "from": {
+      "$bytes": "b03cab5152d041ea9c331e61501a5516"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e0240d07fcab4f0e950a665b7e686dcd"
+    },
+    "entity": {
+      "$bytes": "26b4f996dd744f288ac0344bbfaeddf2"
+    },
+    "from": {
+      "$bytes": "b03cab5152d041ea9c331e61501a5516"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "55e22031f60a4f68ac41697e7d9ddfc4"
+    },
+    "entity": {
+      "$bytes": "528f793303d249ca9146eb323c6750c7"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "b03cab5152d041ea9c331e61501a5516"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d9fda4393173498e80e302ebad4ed467"
+    },
+    "entity": {
+      "$bytes": "a43b995e99b443c395a1df09f97f8a0e"
+    },
+    "from": {
+      "$bytes": "caef4fd959e84ed1a35772e50fa549e0"
+    },
+    "to": {
+      "$bytes": "b03cab5152d041ea9c331e61501a5516"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a009"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "19dd422697114622a32e9ee229bc7d9a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 reported a 28.1-percentage-point bound on reducing math-course failure, assuming only two-year participation contributes.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports -0.281 (SE 0.123; N=1841; FDR q=0.023). This bound assumes nonnegative benefits and no persistence for first-year-only participants; it is not a point effect or confidence limit.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Math courses failed",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f44acacc373c4c12a10bec95ad915ed6"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "-281"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "123"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1841"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "proportion difference",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Bound on two-year participation benefit assuming zero persistence among first-year-only participants",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel B; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0a8afb1780f64005af5361059d7edc14"
+    },
+    "entity": {
+      "$bytes": "bb1752d7017942eaa257599d1814bf68"
+    },
+    "from": {
+      "$bytes": "19dd422697114622a32e9ee229bc7d9a"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fae7839b597a4ac98412f7ed8a2f9771"
+    },
+    "entity": {
+      "$bytes": "9d758c401c7e44e3b031663d46e2521a"
+    },
+    "from": {
+      "$bytes": "19dd422697114622a32e9ee229bc7d9a"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "78ce2587e8114b74b74b6a299b55d9d8"
+    },
+    "entity": {
+      "$bytes": "982a3a497a7d4f428f3495a1e5391d7f"
+    },
+    "from": {
+      "$bytes": "19dd422697114622a32e9ee229bc7d9a"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "75b333aadd564f12a8d9050b966f3c66"
+    },
+    "entity": {
+      "$bytes": "4b29fac22e264e38be99bd2e08ff7b94"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "19dd422697114622a32e9ee229bc7d9a"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d585dc1c5ab745e19d9dff692338e0a7"
+    },
+    "entity": {
+      "$bytes": "855551f5c17348eebbe8fce76a37849a"
+    },
+    "from": {
+      "$bytes": "0d366d56f41346d5b1db303187cf6bcf"
+    },
+    "to": {
+      "$bytes": "19dd422697114622a32e9ee229bc7d9a"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a010"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7c83db22ae25491fab83d6b6bb331c3b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 estimated a year-two Research-team administered math test (study sample Z) effect of 0.139 study-sample standard deviations per year of tutoring.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports 0.139 (SE 0.059; N=878; FDR q=0.021). This is a weighted per-year effect measured in year two, not a separately randomized dose comparison.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Research-team administered math test (study sample Z)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "139"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "59"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "878"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Weighted effect per year of tutoring participation, measured in year two",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel B; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dacd80527663445a916d965b91258760"
+    },
+    "entity": {
+      "$bytes": "f6885383127f4f31aeb670cc35b790df"
+    },
+    "from": {
+      "$bytes": "7c83db22ae25491fab83d6b6bb331c3b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "65744f5141f94e2a8429846578d4e3cd"
+    },
+    "entity": {
+      "$bytes": "5de6066fbae94a818d571b9c15d91d2c"
+    },
+    "from": {
+      "$bytes": "7c83db22ae25491fab83d6b6bb331c3b"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "85d5b698212549dfa8ed2d8ad221e02f"
+    },
+    "entity": {
+      "$bytes": "72a44934f3d441f6bcd0d4950bd77d00"
+    },
+    "from": {
+      "$bytes": "7c83db22ae25491fab83d6b6bb331c3b"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ce592c6ad0a04edbafcc8ab379516fea"
+    },
+    "entity": {
+      "$bytes": "f564b483d0b54278a2fdeae6870709b0"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "7c83db22ae25491fab83d6b6bb331c3b"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d22b5ce1ddc44d769259a68697bd736c"
+    },
+    "entity": {
+      "$bytes": "7026b4f2405f4e93abe4941191de0ba2"
+    },
+    "from": {
+      "$bytes": "5e37dec9a0f5401a9b604a09beba69b3"
+    },
+    "to": {
+      "$bytes": "7c83db22ae25491fab83d6b6bb331c3b"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a011"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "ef9645727bee4b5ea463f5533721166c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 reported a year-two bound of 0.188 study-sample standard deviations for Research-team administered math test (study sample Z), assuming only first-year benefits persist.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports 0.188 (SE 0.080; N=878; FDR q=0.021). This bound assumes nonnegative benefits and zero incremental second-year benefit; it is not a point effect or confidence limit.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Research-team administered math test (study sample Z)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f44acacc373c4c12a10bec95ad915ed6"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "188"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "80"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "878"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Bound on persistent first-year benefit assuming zero incremental second-year benefit",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel B; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f1aba075d62340899370a7232f189a65"
+    },
+    "entity": {
+      "$bytes": "6dbf8c2d85294349bf00eb3ddc338585"
+    },
+    "from": {
+      "$bytes": "ef9645727bee4b5ea463f5533721166c"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "849706c809cf4f88a7abe9c0349d90f0"
+    },
+    "entity": {
+      "$bytes": "4e3c027d5f0c48518cd3555e5a8ae8ec"
+    },
+    "from": {
+      "$bytes": "ef9645727bee4b5ea463f5533721166c"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "db58ed5febd045a48d739f0d60ecfaf4"
+    },
+    "entity": {
+      "$bytes": "deca2b903b1e485dbf11e91a07fc9e3d"
+    },
+    "from": {
+      "$bytes": "ef9645727bee4b5ea463f5533721166c"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "dd03a480543b40a4a4d33cd97b3ee9a3"
+    },
+    "entity": {
+      "$bytes": "665738f5cb4c41c7a565cff7310e29ae"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "ef9645727bee4b5ea463f5533721166c"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1200ea945053426e80b013f3f8156a9c"
+    },
+    "entity": {
+      "$bytes": "6dd61c0a027a49468efd5743438b03af"
+    },
+    "from": {
+      "$bytes": "caef4fd959e84ed1a35772e50fa549e0"
+    },
+    "to": {
+      "$bytes": "ef9645727bee4b5ea463f5533721166c"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a012"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "cc8b4682892141588d5c01382607e411"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Saga's Chicago study 1 reported a year-two bound of 0.512 study-sample standard deviations for Research-team administered math test (study sample Z), assuming only two-year participation contributes.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, p. 753 reports 0.512 (SE 0.223; N=878; FDR q=0.023). This bound assumes nonnegative benefits and no persistence for first-year-only participants; it is not a point effect or confidence limit.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Research-team administered math test (study sample Z)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f44acacc373c4c12a10bec95ad915ed6"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "512"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "223"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "03b87ec1e71f410db566c7f12920283d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "bf0249bb71924460bfe6b35394ed0781"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "878"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "study-sample standard deviations",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Bound on two-year participation benefit assuming zero persistence among first-year-only participants",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Second postrandomization school year",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 6, panel B; printed p. 753 (PDF p. 16)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3cc1dd43126a456fbce7a7f87035d4d6"
+    },
+    "entity": {
+      "$bytes": "982eb94664804283a75a957e263fd1a8"
+    },
+    "from": {
+      "$bytes": "cc8b4682892141588d5c01382607e411"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b9f9a7af460e477480fb88e5932d67ee"
+    },
+    "entity": {
+      "$bytes": "5667da928ad04c0ebda9fd234cc3ac37"
+    },
+    "from": {
+      "$bytes": "cc8b4682892141588d5c01382607e411"
+    },
+    "to": {
+      "$bytes": "8812b3d57a4c4221a10c1024557a764a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f7ad58e05677435890526836e22f452c"
+    },
+    "entity": {
+      "$bytes": "77a7f0c39bea4a1298905fc20b158b71"
+    },
+    "from": {
+      "$bytes": "cc8b4682892141588d5c01382607e411"
+    },
+    "to": {
+      "$bytes": "6ff69ada18b54b1db98375da1b90df65"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7d7611e561f844d1ad127258ba7c1d5b"
+    },
+    "entity": {
+      "$bytes": "8cfa25bd698e47af9ac0d8e0f96a9cb7"
+    },
+    "from": {
+      "$bytes": "52448bbbf0cd4c1bb8e949ebe9d628d2"
+    },
+    "to": {
+      "$bytes": "cc8b4682892141588d5c01382607e411"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d8530c49b90d44c3bf6d1beedc77d567"
+    },
+    "entity": {
+      "$bytes": "d2b8d83575d1493a94da472df4ddc3e2"
+    },
+    "from": {
+      "$bytes": "0d366d56f41346d5b1db303187cf6bcf"
+    },
+    "to": {
+      "$bytes": "cc8b4682892141588d5c01382607e411"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a013"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-09-12T13:05:31.695Z",
+  "batchName": "Restore original routes for three existing education programs",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 3,
+  "checks": [
+    {
+      "entityId": "e181f6b918e548b79304a674743753fd",
+      "propertyId": "b0305ef28312c519d954bc0efe22f013",
+      "pass": true
+    },
+    {
+      "entityId": "4384e208b2964c6c9432823574a5a1e2",
+      "propertyId": "b0305ef28312c519d954bc0efe22f013",
+      "pass": true
+    },
+    {
+      "entityId": "327eef80a0dd423f846fbd50def5bf87",
+      "propertyId": "b0305ef28312c519d954bc0efe22f013",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

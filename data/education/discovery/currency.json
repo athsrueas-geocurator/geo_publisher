@@ -1,0 +1,57 @@
+{
+  "term": "Currency",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T17:44:23.977Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "5dc454029b4d4df8a69f3771d6ca6594",
+      "name": "Currency",
+      "description": null,
+      "spaceIds": [
+        "d69608290513c2a91102c939b3265bd7"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "88c582bc79054a18aa26ac20dd6c3792",
+      "name": "Currency",
+      "description": "Returning to a turbulent 1714 London, aging Natural Philosopher Daniel Waterhouse navigates duplicity and danger to mend the rift between two adversarial geniuses. Neal Stephenson's Baroque Cycle volume.",
+      "spaceIds": [
+        "0477636ace64280fc43a9f440a502291"
+      ],
+      "types": [
+        {
+          "id": "8864304115334498b8ea6c1ae833628e",
+          "name": "Book"
+        }
+      ]
+    },
+    {
+      "id": "9291e563afbe47098780a52cbb0f4aa9",
+      "name": "Currency",
+      "description": null,
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOTI5MWU1NjMtYWZiZS00NzA5LTg3ODAtYTUyY2JiMGY0YWE5Il1d"
+    }
+  ]
+}

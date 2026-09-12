@@ -1,0 +1,856 @@
+{
+  "checkedAt": "2026-09-12T12:49:04.674Z",
+  "queryPath": "data/education/education-debate-node-query.graphql",
+  "space": "dac259bad48a11adf97fe36857d85206",
+  "nodes": [
+    {
+      "id": "44e2a08c02e74fdaaaa6f112e1581fb5",
+      "relations": [
+        {
+          "id": "0390ee3bc8304864a7cf6ea3fa19ea86",
+          "entityId": "7d340b0643dd44c8a725ff7886948755",
+          "fromEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "toEntityId": "dc9f8289b4c94ed2b89c3e8f913f6d1e",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "32babc24fa88477e82e09d8e30180954",
+          "entityId": "8cb7597b804141209237463ef435daf5",
+          "fromEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "toEntityId": "2700dd4c50a641658f29fbc176d87f31",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "368515f1d23348a09209993762d1a42a",
+          "entityId": "2f9897ef65964934be8435e44ae0c4a6",
+          "fromEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "toEntityId": "dc9f8289b4c94ed2b89c3e8f913f6d1e",
+          "typeId": "4e6ec5d14292498a84e5f607ca1a08ce",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "389c91edf1604293a065f1faba9589d0",
+          "entityId": "cf4d487c31b8415a8c7bb37c01a7b650",
+          "fromEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "toEntityId": "b0e661c838de4b8eb406a9c5a82249b1",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "6146d5d9c61e4f71a0cc7cd778d6bb3b",
+          "entityId": "5ed94247bceb4c17af50afddaaef7188",
+          "fromEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "toEntityId": "6db38a6c620f4ca1bc2452137457d686",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "96a3f811e5a244bab063c8728341fe50",
+          "entityId": "549535f7bd524d94a3f1d3956e1cb578",
+          "fromEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "toEntityId": "d70f7e00c8fd4fb2b6a056df6b844b1f",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "9c9ed6be5d864d948237fbc6417e9515",
+          "entityId": "27d361146d2b440b951af81dcc4f3daa",
+          "fromEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "toEntityId": "6db38a6c620f4ca1bc2452137457d686",
+          "typeId": "1dc6a843458848198e7a6e672268f811",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "b3e260d212204245b0e3db3d81032116",
+          "entityId": "9a991dcab7d14fe1a78ecd92930a2546",
+          "fromEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "toEntityId": "7eeddeb79af54141b58e4cffe32d93a5",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "db383a7d806b442eb525940a1722956f",
+          "entityId": "268ffe8000ff4c569287ea7ee1d5b912",
+          "fromEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "toEntityId": "b0e661c838de4b8eb406a9c5a82249b1",
+          "typeId": "1dc6a843458848198e7a6e672268f811",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "f23460c447814a7096796adc9cbf6931",
+          "entityId": "5d2c15046174425b9ff95a7800767c80",
+          "fromEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "toEntityId": "21388c169ed84bbdbd26f529c390fc54",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        }
+      ],
+      "pages": 5,
+      "values": [
+        {
+          "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Section 3, F61; Section 2.2, Table 5, F56–F58; caveats F58–F59",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": null,
+          "integer": null,
+          "boolean": false
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "STAR-sized early-grade class reductions can be worth their cost.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Krueger (2003) argues that modest achievement gains can justify reducing classes from 22 to 15 pupils in grades K–3. His earnings-based case is conditional on modeled returns, not observed lifetime benefits.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        }
+      ]
+    },
+    {
+      "id": "2700dd4c50a641658f29fbc176d87f31",
+      "relations": [
+        {
+          "id": "05ea953d84ea4816989e36411750a160",
+          "entityId": "fed558fb0b01465fa9c372a5ce65e5a3",
+          "fromEntityId": "2700dd4c50a641658f29fbc176d87f31",
+          "toEntityId": "c050382dc2614403916342d43d2ef87a",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "3ec18a97b0664d13bcd9b60c8bd0121c",
+          "entityId": "e86d6f29c5774b80984d14034165b8d2",
+          "fromEntityId": "2700dd4c50a641658f29fbc176d87f31",
+          "toEntityId": "dc9f8289b4c94ed2b89c3e8f913f6d1e",
+          "typeId": "1dc6a843458848198e7a6e672268f811",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "ac1a834d7eac4d74953dc2988fa97712",
+          "entityId": "2939b3bb90a54d14a1358509878b0f3c",
+          "fromEntityId": "2700dd4c50a641658f29fbc176d87f31",
+          "toEntityId": "c050382dc2614403916342d43d2ef87a",
+          "typeId": "1dc6a843458848198e7a6e672268f811",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "bdbb68f92fad4cfd9f350e7c0d104061",
+          "entityId": "60621f86df804d8fae079f41937d2eeb",
+          "fromEntityId": "2700dd4c50a641658f29fbc176d87f31",
+          "toEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "c5ae3ecdfa884c31bf70d1ac12735704",
+          "entityId": "0f56371598174d8c981256a9822ba904",
+          "fromEntityId": "2700dd4c50a641658f29fbc176d87f31",
+          "toEntityId": "4b70147b5e53405590e4534fdd017eca",
+          "typeId": "1dc6a843458848198e7a6e672268f811",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "ebb68a2942d54761a3f520e29a11340d",
+          "entityId": "9c8cbb208da3482e80e635954e53e321",
+          "fromEntityId": "2700dd4c50a641658f29fbc176d87f31",
+          "toEntityId": "03ab7fe708d646adb8ce086ea9e26b02",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "f08d708e340644209184655ba8e42f2a",
+          "entityId": "71dcc4dfb9084b72a7a65dd2799ce1d8",
+          "fromEntityId": "2700dd4c50a641658f29fbc176d87f31",
+          "toEntityId": "4b70147b5e53405590e4534fdd017eca",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "f6af638e2c7541a3a5e7abb29a0f1279",
+          "entityId": "aec289736ca74be1b8fb2729ad1633d6",
+          "fromEntityId": "2700dd4c50a641658f29fbc176d87f31",
+          "toEntityId": "dc9f8289b4c94ed2b89c3e8f913f6d1e",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        }
+      ],
+      "pages": 4,
+      "values": [
+        {
+          "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": null,
+          "integer": null,
+          "boolean": false
+        },
+        {
+          "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Chapter 2, Conclusions, printed p. 61",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Hanushek (2002) argues that broad reductions are too costly for the benefits established by existing evidence. He allows that reductions can be worthwhile in particular circumstances.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "STAR does not justify across-the-board class-size reductions.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        }
+      ]
+    },
+    {
+      "id": "dc9f8289b4c94ed2b89c3e8f913f6d1e",
+      "relations": [
+        {
+          "id": "447b708cafde4f21833a87c068137ec9",
+          "entityId": "5d78aee3adf849fa8ee377c38096e5d0",
+          "fromEntityId": "dc9f8289b4c94ed2b89c3e8f913f6d1e",
+          "toEntityId": "03ab7fe708d646adb8ce086ea9e26b02",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "a31a63e80028459a828fbf180343103e",
+          "entityId": "6db9ba85807c48f0bb5344430430abdb",
+          "fromEntityId": "dc9f8289b4c94ed2b89c3e8f913f6d1e",
+          "toEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "c4398c20b6da455e92a9cb812b895ac2",
+          "entityId": "a46746c44e82476492804ad498e65283",
+          "fromEntityId": "dc9f8289b4c94ed2b89c3e8f913f6d1e",
+          "toEntityId": "2700dd4c50a641658f29fbc176d87f31",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        }
+      ],
+      "pages": 2,
+      "values": [
+        {
+          "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Chapter 2, Policy calculations, printed pp. 58–60",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Hanushek (2002) challenges the compounded assumptions connecting early test gains to lifetime earnings. He also argues that policy choices must consider alternatives such as improving teacher quality.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Projected earnings alone are too uncertain to justify large class-size reductions.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": null,
+          "integer": null,
+          "boolean": false
+        }
+      ]
+    },
+    {
+      "id": "b0e661c838de4b8eb406a9c5a82249b1",
+      "relations": [
+        {
+          "id": "57fb5263a33e42749d09c6dd08002301",
+          "entityId": "e699c385bfb04b0abd6416d99a150e59",
+          "fromEntityId": "b0e661c838de4b8eb406a9c5a82249b1",
+          "toEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "849feb2cef5f42cf97c3110c1cca69a9",
+          "entityId": "7609da5257e3425a8ea35b67404b6fd4",
+          "fromEntityId": "b0e661c838de4b8eb406a9c5a82249b1",
+          "toEntityId": "d70f7e00c8fd4fb2b6a056df6b844b1f",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        }
+      ],
+      "pages": 1,
+      "values": [
+        {
+          "propertyId": "3a558d71454745a992c035040f648729",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "per pupil; present value of modeled incremental cost",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "STAR model: 4% discount, 1% wage growth; $15180 earnings versus $7537 cost.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "A modeled cost-and-earnings scenario based on Tennessee STAR evidence, expressed in 1998 US dollars per pupil. These projections are not observed lifetime earnings.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "49fcf7e6ccea49dab672345486cd9df9",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": "15180",
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Projected earnings ages 18–65",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": null,
+          "integer": null,
+          "boolean": true
+        },
+        {
+          "propertyId": "51a331c9b55e40ed9ba9b3aa7eacbf0b",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": "0.01",
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "97e14050fc49467bb3aaf4d7eccbbb69",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": null,
+          "integer": "1998",
+          "boolean": null
+        },
+        {
+          "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Table 5, F56 (PDF page 23)",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "6e7371ca96cb44348f16932f77f55e75",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "USD",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "f9d6085e34014562aae4021009f5f390",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": "0.04",
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "6ba2ce00db064687b108aa8449672886",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": "7537",
+          "integer": null,
+          "boolean": null
+        }
+      ]
+    },
+    {
+      "id": "6db38a6c620f4ca1bc2452137457d686",
+      "relations": [
+        {
+          "id": "1120cdc8cc384fd2bfdddbc799a6d543",
+          "entityId": "2195eeef8abc40b38740490f7c6f476b",
+          "fromEntityId": "6db38a6c620f4ca1bc2452137457d686",
+          "toEntityId": "d70f7e00c8fd4fb2b6a056df6b844b1f",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "fe85eb6cd13743aab0b9d7c1a72e1833",
+          "entityId": "f72d9e9369e74a75935766133afed240",
+          "fromEntityId": "6db38a6c620f4ca1bc2452137457d686",
+          "toEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        }
+      ],
+      "pages": 1,
+      "values": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "This author-modeled class-size calculation projects earnings over ages 18–65; it is not an observed investment return or a confidence bound.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "STAR's modeled real annual internal return is 6.2% when assumed real wage growth is 1%.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "879d207046024b44be6e3d64c32c60da",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": "0.062",
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Table 5, F56 (PDF page 23); Internal Rate of Return row",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Projected earnings ages 18–65",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "51a331c9b55e40ed9ba9b3aa7eacbf0b",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": "0.01",
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": null,
+          "integer": null,
+          "boolean": true
+        }
+      ]
+    },
+    {
+      "id": "7eeddeb79af54141b58e4cffe32d93a5",
+      "relations": [
+        {
+          "id": "159be843f720486385041aaa4076473c",
+          "entityId": "acec7671366c445389d16a39a78fcabc",
+          "fromEntityId": "7eeddeb79af54141b58e4cffe32d93a5",
+          "toEntityId": "efdefdaf3fbd4d02bd44228882c09359",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "7bd5200e517f4e4d914a98a7dad1ff42",
+          "entityId": "330048ac7b384173ac7358d11202d985",
+          "fromEntityId": "7eeddeb79af54141b58e4cffe32d93a5",
+          "toEntityId": "4b70147b5e53405590e4534fdd017eca",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "e3e4a3a2359741c8ab232ad5b03f7336",
+          "entityId": "d865bfb9c6c74c44afc121fa8c1b0c6d",
+          "fromEntityId": "7eeddeb79af54141b58e4cffe32d93a5",
+          "toEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        }
+      ],
+      "pages": 2,
+      "values": [
+        {
+          "propertyId": "e500e2585a964d2c9df4a47b199616c3",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": "5.36",
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Compared with regular classes without a full-time aide, the estimated gain in average Stanford test percentile rank was 5.36 points (class-clustered SE 1.21). Krueger (1999), Table V column 7, reports the effect of initial assignment, not a percentage increase in test scores.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "c962e0fb4a3148e5ba125144691236a8",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "End of kindergarten",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Table V, column 7, panel A, p. 512",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "In Tennessee STAR, small-class assignment raised kindergarten achievement by an estimated 5.36 percentile points.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": null,
+          "integer": null,
+          "boolean": true
+        },
+        {
+          "propertyId": "cc28953bd89e406096c9627021f4713d",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": "1.21",
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "ba643714da274c37a340a7f8396198dc",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "reduced-form initial class-type assignment effect",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "8405509cc7354655a348591349a5f025",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "percentile points",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "bf0249bb71924460bfe6b35394ed0781",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": null,
+          "integer": "5861",
+          "boolean": null
+        }
+      ]
+    },
+    {
+      "id": "21388c169ed84bbdbd26f529c390fc54",
+      "relations": [
+        {
+          "id": "12807aed301e401dbe10dc8ef9de8724",
+          "entityId": "7688d484a7f4487ab5b937c804b6ebf8",
+          "fromEntityId": "21388c169ed84bbdbd26f529c390fc54",
+          "toEntityId": "d70f7e00c8fd4fb2b6a056df6b844b1f",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "3441fd09e5f54e4e8275634124ca0d10",
+          "entityId": "81d8280df3114eb3a6d0ac27747adc4d",
+          "fromEntityId": "21388c169ed84bbdbd26f529c390fc54",
+          "toEntityId": "c050382dc2614403916342d43d2ef87a",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "cee6977fa767442aa29ced54c1b8f197",
+          "entityId": "6b687eb7b14b4910bf1ba5542e606234",
+          "fromEntityId": "21388c169ed84bbdbd26f529c390fc54",
+          "toEntityId": "44e2a08c02e74fdaaaa6f112e1581fb5",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        }
+      ],
+      "pages": 2,
+      "values": [
+        {
+          "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Section 1, Table 2; Section 3, F59–F60",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Krueger (2003) finds that reweighting 277 estimates from 59 studies reveals a positive relationship obscured by counting every estimate equally. This is a contested literature interpretation, not a new experiment.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Counting studies equally strengthens the evidence that smaller classes improve achievement.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": null,
+          "integer": null,
+          "boolean": false
+        }
+      ]
+    },
+    {
+      "id": "c050382dc2614403916342d43d2ef87a",
+      "relations": [
+        {
+          "id": "1fa8b6faf06846f885dfe659afa01b54",
+          "entityId": "45a05fb74835422196e231ae97291297",
+          "fromEntityId": "c050382dc2614403916342d43d2ef87a",
+          "toEntityId": "03ab7fe708d646adb8ce086ea9e26b02",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "776cc3b6a4174ce0a718644f32d8bf7a",
+          "entityId": "27c8eca5a4d945abb347b0ee3e213c16",
+          "fromEntityId": "c050382dc2614403916342d43d2ef87a",
+          "toEntityId": "21388c169ed84bbdbd26f529c390fc54",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "efd06f166f7747bd897228f0f572c7e5",
+          "entityId": "1782a15380594e708fc7dc79c2ce0fac",
+          "fromEntityId": "c050382dc2614403916342d43d2ef87a",
+          "toEntityId": "2700dd4c50a641658f29fbc176d87f31",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        }
+      ],
+      "pages": 2,
+      "values": [
+        {
+          "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": null,
+          "integer": null,
+          "boolean": false
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Equal study weights do not resolve bias in class-size research.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Chapter 2, The importance of quality, printed pp. 46–50; conclusion p. 61",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Hanushek (2002) argues that Krueger’s reweighting favors weaker estimates. He emphasizes omitted state policies and prior educational inputs when judging study quality.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        }
+      ]
+    },
+    {
+      "id": "4b70147b5e53405590e4534fdd017eca",
+      "relations": [
+        {
+          "id": "69a9b8ea545842c59e3052777a511de3",
+          "entityId": "1ecb8e3330d4442a9e45f94f917eac96",
+          "fromEntityId": "4b70147b5e53405590e4534fdd017eca",
+          "toEntityId": "7eeddeb79af54141b58e4cffe32d93a5",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "b15b334db7254564a8fab106578686fe",
+          "entityId": "974d40ae05794185ab8c44c7b1d34726",
+          "fromEntityId": "4b70147b5e53405590e4534fdd017eca",
+          "toEntityId": "03ab7fe708d646adb8ce086ea9e26b02",
+          "typeId": "49c5d5e1679a4dbdbfd33f618f227c94",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        },
+        {
+          "id": "b7bd0fcac59448c7939b8a0be67ad35a",
+          "entityId": "17d565c4488544ffb8cad0acedd53e22",
+          "fromEntityId": "4b70147b5e53405590e4534fdd017eca",
+          "toEntityId": "2700dd4c50a641658f29fbc176d87f31",
+          "typeId": "504e5776788844f6a77dba3ee811d8f0",
+          "spaceId": "dac259bad48a11adf97fe36857d85206"
+        }
+      ],
+      "pages": 2,
+      "values": [
+        {
+          "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Hanushek (2002) interprets STAR’s advantage as concentrated at initial entry into small classes. He disputes extrapolation to later grades or smaller reductions, rather than claiming that no students benefit.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "da4a6c1f9d4446f9832ff3b49a4400ef",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": null,
+          "decimal": null,
+          "integer": null,
+          "boolean": false
+        },
+        {
+          "propertyId": "84dacbddca6a44079edb5e11a4c66b40",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "Chapter 2, The Tennessee class size experiment, printed pp. 55–58",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        },
+        {
+          "propertyId": "a126ca530c8e48d5b88882c734c38935",
+          "spaceId": "dac259bad48a11adf97fe36857d85206",
+          "text": "STAR’s early gains do not establish benefits from smaller classes in later grades.",
+          "decimal": null,
+          "integer": null,
+          "boolean": null
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "label": "Economic supporters reuse one model in two representations",
+      "pass": true,
+      "actual": [
+        "6db38a6c620f4ca1bc2452137457d686",
+        "b0e661c838de4b8eb406a9c5a82249b1"
+      ],
+      "wanted": [
+        "6db38a6c620f4ca1bc2452137457d686",
+        "b0e661c838de4b8eb406a9c5a82249b1"
+      ]
+    },
+    {
+      "label": "One-sided economic challenge",
+      "pass": true,
+      "actual": [
+        "dc9f8289b4c94ed2b89c3e8f913f6d1e"
+      ],
+      "wanted": [
+        "dc9f8289b4c94ed2b89c3e8f913f6d1e"
+      ]
+    },
+    {
+      "label": "Broad-policy objection has three reasons",
+      "pass": true,
+      "actual": [
+        "4b70147b5e53405590e4534fdd017eca",
+        "c050382dc2614403916342d43d2ef87a",
+        "dc9f8289b4c94ed2b89c3e8f913f6d1e"
+      ],
+      "wanted": [
+        "4b70147b5e53405590e4534fdd017eca",
+        "c050382dc2614403916342d43d2ef87a",
+        "dc9f8289b4c94ed2b89c3e8f913f6d1e"
+      ]
+    },
+    {
+      "label": "No invented reverse opposition",
+      "pass": true,
+      "actual": [],
+      "wanted": []
+    },
+    {
+      "label": "Nine unique Claim nodes, not nine studies",
+      "pass": true,
+      "actual": 9,
+      "wanted": 9
+    },
+    {
+      "label": "Checkable source-reported scenario",
+      "pass": true,
+      "actual": true,
+      "wanted": true
+    }
+  ],
+  "passed": true
+}

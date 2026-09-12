@@ -1,0 +1,6 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+const path='data/education/source-to-geo-crosswalk.json',crosswalk=JSON.parse(readFileSync(path,'utf8'));
+const batch=JSON.parse(readFileSync('data/education/ewims-batch.json','utf8')),journal=JSON.parse(readFileSync('data/education/ewims-publication.json','utf8'));
+const updates=new Map([['initiatives:69',{id:batch.entities.initiative,kind:'Initiative'}],['sources:src-060',{id:batch.entities.article,kind:'Article'}]]);
+for(const row of crosswalk.rows){const u=updates.get(row.migrationKey);if(!u)continue;row.candidateGeoIds=[u.id];row.candidateSpaces=[batch.spaceId];row.identityEvidence=['Complete all-space exact name and semantic-family discovery found no candidate.',`Published proposal ${journal.proposalId} executed; bounty link is indexed.`];row.targetSpaceChanges=[`Created ${u.kind} ${u.id} in Education datasets.`];row.decision='created-target-space';row.decisionRationale=`No matching EWIMS ${u.kind} existed across Geo. Created a source-linked destination-space record after full discovery.`;row.lastCheckedAt=new Date().toISOString();}
+crosswalk.updatedAt=new Date().toISOString();writeFileSync(path,JSON.stringify(crosswalk,null,2)+'\n');console.log(JSON.stringify({updated:[...updates.keys()],proposalId:journal.proposalId},null,2));

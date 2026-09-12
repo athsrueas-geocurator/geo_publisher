@@ -1,0 +1,39 @@
+{
+  "sourcePdf": "tmp/pdfs/saga-2023.pdf",
+  "sourceSha256": "16f0208e93a27d36fe4aecf9f744caadab5f40901c1a552b3f124230037fdf9c",
+  "columns": ["N","controlMean","itt","ittSE","tot","totSE","controlComplierMean","fdrQ"],
+  "analysis": "Pooled analysis of the two existing Chicago randomized studies, not a third independent trial",
+  "tables": [
+    {
+      "table": 5, "printedPage": 751, "pdfPage": 14, "period": "First postrandomization school year",
+      "rows": [
+        {"key":"cps-math","label":"CPS math test (study sample Z)","panel":"A","unit":"study-sample standard deviations","values":["3717","0.004","0.119","0.025","0.282","0.059","-0.143","0.001"]},
+        {"key":"math-gpa","label":"Math GPA","panel":"A","unit":"GPA points","values":["4276","1.803","0.217","0.029","0.516","0.069","1.675","0.001"]},
+        {"key":"math-failure","label":"Math courses failed (percent)","panel":"A","unit":"proportion difference","values":["4276","0.173","-0.036","0.009","-0.086","0.022","0.184","0.001"]},
+        {"key":"cps-reading","label":"CPS reading test (study sample Z)","panel":"B","unit":"study-sample standard deviations","values":["3716","0.003","0.008","0.028","0.019","0.065","-0.104","0.774"]},
+        {"key":"nonmath-gpa","label":"Nonmath GPA","panel":"B","unit":"GPA points","values":["4354","1.825","0.076","0.024","0.184","0.058","1.699","0.005"]},
+        {"key":"nonmath-failure","label":"Nonmath core courses failed (percent)","panel":"B","unit":"proportion difference","values":["4354","0.178","-0.020","0.007","-0.048","0.018","0.198","0.012"]},
+        {"key":"discipline","label":"Disciplinary incidents","panel":"C","unit":"incidents per student","values":["4968","1.533","0.042","0.086","0.111","0.230","1.612","0.631"]},
+        {"key":"absence","label":"Days absent","panel":"C","unit":"days","values":["5343","22.054","0.403","0.564","1.144","1.598","23.188","0.631"]},
+        {"key":"suspensions","label":"Out-of-school suspensions","panel":"C","unit":null,"values":["4968","1.162","0.129","0.089","0.343","0.238","1.078","0.449"]},
+        {"key":"arrests-violent","label":"Number of arrests for violent crimes","panel":"D","unit":"arrests per student","values":["5343","0.094","-0.012","0.011","-0.035","0.031","0.117","0.287"]},
+        {"key":"arrests-property","label":"Number of arrests for property crimes","panel":"D","unit":"arrests per student","values":["5343","0.066","-0.018","0.010","-0.050","0.028","0.091","0.287"]},
+        {"key":"arrests-drug","label":"Number of arrests for drug crimes","panel":"D","unit":"arrests per student","values":["5343","0.054","0.010","0.009","0.027","0.025","0.014","0.287"]},
+        {"key":"arrests-other","label":"Number of arrests for other crimes","panel":"D","unit":"arrests per student","values":["5343","0.200","-0.024","0.018","-0.068","0.051","0.214","0.287"]},
+        {"key":"ever-arrested","label":"Ever arrested for any crime","panel":"D","unit":"proportion difference","values":["5343","0.171","-0.011","0.009","-0.030","0.025","0.164","0.287"]},
+        {"key":"arrests-any","label":"Number of arrests for any crime","panel":"D","unit":"arrests per student","values":["5343","0.414","-0.044","0.029","-0.125","0.083","0.436","0.287"]}
+      ]
+    },
+    {
+      "table": 7, "printedPage": 753, "pdfPage": 16, "period": "Outcome-specific later follow-up",
+      "rows": [
+        {"key":"grade11-math","label":"11th grade CPS math test (study sample Z)","panel":"A","unit":"study-sample standard deviations","followup":"Expected eleventh-grade year if not retained","values":["2973","0.006","0.099","0.028","0.232","0.065","-0.147","0.001"]},
+        {"key":"grade11-gpa","label":"11th grade math GPA","panel":"A","unit":"GPA points","followup":"Expected eleventh-grade year if not retained","values":["3019","1.993","0.109","0.037","0.251","0.086","1.837","0.004"]},
+        {"key":"graduated-ontime","label":"Graduated on time","panel":"B","unit":"proportion difference","followup":"On-time high-school graduation","values":["3594","0.761","0.005","0.012","0.013","0.032","0.783","0.677"]},
+        {"key":"graduated-ever","label":"Graduated ever","panel":"B","unit":"proportion difference","followup":"Graduated within the report's observed window; terminal date not yet established","values":["3614","0.831","0.000","0.011","0.000","0.029","0.865","0.996"]}
+      ]
+    }
+  ],
+  "visualReview": ["tmp/pdfs/saga-followup-14.png","tmp/pdfs/saga-followup-16.png"],
+  "interpretation": "Main text p.752 describes persistence of math effects, but on-time graduation is imprecisely estimated. Table 6 contains a per-year weighted effect and separate upper bounds, excluded from these point-estimate tables pending explicit bound modeling. FDR q-values remain source-row attributes, not ordinary per-estimand p-values."
+}

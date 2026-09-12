@@ -1,0 +1,773 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The Effects of School Spending on Educational and Economic Outcomes: Evidence from School Finance Reforms",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A study of school-finance reforms, school spending and later educational and economic outcomes. This source is the final 2016 journal article.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://doi.org/10.1093/qje/qjv036",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "74a841bd03604339921e24a5fc797308"
+    },
+    "entity": {
+      "$bytes": "7c001ce9b37d435ea46de2bc6d3bedf7"
+    },
+    "from": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reform and adult outcomes study (Jackson, Johnson and Persico)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A U.S. study linking childhood school spending and court-mandated finance reforms to adult outcomes. Event-study and instrumental-variable analyses use differences in exposure across birth cohorts and districts.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8e46e3eff9dea2b55d32a5ca7de61938"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4b59df1cbe53467495d56471f494026c"
+    },
+    "entity": {
+      "$bytes": "d5888f0146f341c0babf78ccbb680b91"
+    },
+    "from": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "to": {
+      "$bytes": "3ef269bc5f114691abc02dcbf398fd63"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: spending and adult outcomes (Jackson, Johnson and Persico, 2016)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Estimates of how reform-induced school spending relates to educational attainment and adult economic outcomes. Results distinguish childhood-income groups and preserve the reported regression scale.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "84f321ba173c45009539614ddf3b7000"
+    },
+    "entity": {
+      "$bytes": "57c303896b824dfab95151618187c672"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "20dea6913d5a42b4983da297d1271e17"
+    },
+    "entity": {
+      "$bytes": "258c74145ada43748e9bacad16f83e2d"
+    },
+    "from": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b5b46fe27bf346bfb09d59d8bce51594"
+    },
+    "entity": {
+      "$bytes": "937a4492692f4f17a7b4df74ba3588de"
+    },
+    "from": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "to": {
+      "$bytes": "0093d90725d94cb08903515673538d40"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "75d4ee49952a41e5be7a10e2e1c0e9f2"
+    },
+    "entity": {
+      "$bytes": "7a28aa136e2d455ab6042ed8a2d1c56d"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6e9212c4754c40ed913c162cf5c2a783"
+    },
+    "entity": {
+      "$bytes": "3f48ef0fdd174efa879fd9f1804f833e"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "0093d90725d94cb08903515673538d40"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "14abe390d3a44916a8c012c7cc5ee3f2"
+    },
+    "entity": {
+      "$bytes": "6e6d5cf744bf4bd697936b03a3aa52a9"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "fa143b7aa6e4406f92f557bec456995c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reform estimates: methods and coverage",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Coverage\n\nThis initial publication contains one all-sample education-years coefficient. The remaining 14 selected estimates and cost-model reconciliation are not yet published.\n\n## Study and exposure\n\nThe study links school finance reforms and district spending with Panel Study of Income Dynamics birth cohorts from 1955 through 1985, followed through 2011. The preferred instrumental-variable specification uses court-ordered reform exposure and predicted spending-change quartiles. These estimates depend on the study's identification assumptions; they are not randomized trial effects.\n\n## Reading the coefficients\n\nThe exposure is the natural log of average school-age per-pupil spending. Tables III–V supply coefficients in years, probability units or log-income units per unit of log spending. The authors' approximate interpretation for a 10% sustained spending increase uses a 0.10 change; an exact 10% increase would use ln(1.10). Neither should silently replace the reported coefficients.\n\n## Population and uncertainty\n\nLow-income means parental family income below twice the poverty line in any childhood year. Nonpoor is the study's complementary group, not a synonym for never below the official poverty line. Standard errors are clustered by school district. Model counts combine income groups and are not subgroup-specific sample sizes.\n\n## Cost illustration\n\nThe article's illustrative benefit-cost discussion is distinct from the regressions. Its rounded figures and differing wage assumptions require reconciliation before a computed cost-effectiveness comparison. National spending exposure is not a uniform program price.\n\n## Source\n\n[Final journal article](https://doi.org/10.1093/qje/qjv036), Tables III–V and printed pp. 165, 212–213. [Author-hosted full text](https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/b/3664/files/2020/10/QJE_resubmit_final_version_stamped.pdf).\n\n## Publication\n\nC. Kirabo Jackson; Rucker C. Johnson; Claudia Persico. Quarterly Journal of Economics 131 (2016), 157–218. DOI 10.1093/qje/qjv036. The working-paper version has different headline values.\n\n## Sample counts for the first row\n\nTable III reports 15,353 individuals and 4,586 childhood families for the model. These are not subgroup-specific counts.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9a72bff76fd046aeb299c03307a18e78"
+    },
+    "entity": {
+      "$bytes": "8393e5521f08456b8d367de5aae12848"
+    },
+    "from": {
+      "$bytes": "fa143b7aa6e4406f92f557bec456995c"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cae6ede21b124d57921bc5cd8123180e"
+    },
+    "entity": {
+      "$bytes": "6da6f3c91162494999bc8d5469994a04"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "fa143b7aa6e4406f92f557bec456995c"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "35322d80a0d446c8ae87f95d45bc6860"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Educational attainment: preferred school-spending coefficients",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e6e94110f84f494ca8a6a749fe233cfd"
+    },
+    "entity": {
+      "$bytes": "44fb5d0a469c4b388c50dc5bcaffeae6"
+    },
+    "from": {
+      "$bytes": "35322d80a0d446c8ae87f95d45bc6860"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3d3908ff8dc7443686257fc053ee0c23"
+    },
+    "entity": {
+      "$bytes": "4990c7b28a384488b6519006e4126b9b"
+    },
+    "from": {
+      "$bytes": "35322d80a0d446c8ae87f95d45bc6860"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cacdff95e635460daa16e4a127178757"
+    },
+    "entity": {
+      "$bytes": "49402da47de74b589a816402828195f4"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "35322d80a0d446c8ae87f95d45bc6860"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "cd752b33a0f14e878d762a6668651b33"
+    },
+    "entity": {
+      "$bytes": "8bd211ab662f4769bb197764bafe7c76"
+    },
+    "from": {
+      "$bytes": "49402da47de74b589a816402828195f4"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4d912172c4ce40fcbff739933491df70"
+    },
+    "entity": {
+      "$bytes": "b655849880934e2f87f5cab7fe731c20"
+    },
+    "from": {
+      "$bytes": "49402da47de74b589a816402828195f4"
+    },
+    "to": {
+      "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a08uT"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "34e4f170070f40a3a53ec00f6be997cf"
+    },
+    "entity": {
+      "$bytes": "f78f56b1734b4dc5b4f78a1a2171b067"
+    },
+    "from": {
+      "$bytes": "49402da47de74b589a816402828195f4"
+    },
+    "to": {
+      "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a11yD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "57bf36ea13fe48e3a25f2d09b6a7db91"
+    },
+    "entity": {
+      "$bytes": "da76842cb8524bf8b915fbf65cc39a50"
+    },
+    "from": {
+      "$bytes": "49402da47de74b589a816402828195f4"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2CIW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "222586f9443b4c32ba1640c8d5d72781"
+    },
+    "entity": {
+      "$bytes": "656a5a6e8deb420f9cb5377d3ee6c8ac"
+    },
+    "from": {
+      "$bytes": "49402da47de74b589a816402828195f4"
+    },
+    "to": {
+      "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a30PK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3debe922b5934b359c6cd31a14391dbf"
+    },
+    "entity": {
+      "$bytes": "2a50bf20a845444bb49018510b68abff"
+    },
+    "from": {
+      "$bytes": "49402da47de74b589a816402828195f4"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a43gm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8d1759ed41c541098885904248a83fa1"
+    },
+    "entity": {
+      "$bytes": "9ac23bf8389a49a2ac9f975a23485ff2"
+    },
+    "from": {
+      "$bytes": "49402da47de74b589a816402828195f4"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a52N4"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f10830673c5e4f079c83698e147189e8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "School-finance reforms: Years of education (all, preferred IV)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred instrumental-variable coefficient on school-age log per-pupil spending. Interpret with the reported unit, population and clustered standard error.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "31488"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -4,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7906"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7a1f6d017895206e84e1988c0c74621e"
+        },
+        "value": {
+          "type": "text",
+          "value": "All sampled children, birth cohorts 1955–1985",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "0e1320cbf9b3b4f5fe066780d1803b13"
+        },
+        "value": {
+          "type": "text",
+          "value": "Years of education",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba5f8fe9d1cd9a6094338d2f37b74a5e"
+        },
+        "value": {
+          "type": "text",
+          "value": "<0.01",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "years per unit increase in ln(per-pupil spending)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "ba643714da274c37a340a7f8396198dc"
+        },
+        "value": {
+          "type": "text",
+          "value": "Preferred 2SLS 2; all-sample and fully interacted childhood-income models",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table III, column 3; printed p. 191 (PDF p. 36)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d13bc8cea38e4fa49581e69f53910124"
+    },
+    "entity": {
+      "$bytes": "b7c550b2ed4f426ba1d51d9ab6548ff1"
+    },
+    "from": {
+      "$bytes": "f10830673c5e4f079c83698e147189e8"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e4bb5734a7fa489ebed236a3adc02f91"
+    },
+    "entity": {
+      "$bytes": "39c3d386c4d9439f83d04a23526ecd9c"
+    },
+    "from": {
+      "$bytes": "f10830673c5e4f079c83698e147189e8"
+    },
+    "to": {
+      "$bytes": "4e5efbb09d0945ea98f2c3140be1cd0a"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "70a02851ffc94584a6f18e52fd179246"
+    },
+    "entity": {
+      "$bytes": "cf38c577b11846b3a41aed2f28c9dba7"
+    },
+    "from": {
+      "$bytes": "f10830673c5e4f079c83698e147189e8"
+    },
+    "to": {
+      "$bytes": "db495f402635466dbf63e71f970c67c2"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "83a56f8c942940c4bf807d30c25598ed"
+    },
+    "entity": {
+      "$bytes": "c79be0be68e3423d9e38e96fc9f9f2e9"
+    },
+    "from": {
+      "$bytes": "d4ed8f85a31949e0a08be2fa0ae61f93"
+    },
+    "to": {
+      "$bytes": "f10830673c5e4f079c83698e147189e8"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4c5c06ce04f34a6c9670419c81232ff7"
+    },
+    "entity": {
+      "$bytes": "a305fec80acb4c4d86595c64bba438a5"
+    },
+    "from": {
+      "$bytes": "35322d80a0d446c8ae87f95d45bc6860"
+    },
+    "to": {
+      "$bytes": "f10830673c5e4f079c83698e147189e8"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0"
+  }
+]

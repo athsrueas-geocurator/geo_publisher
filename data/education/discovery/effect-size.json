@@ -1,0 +1,43 @@
+{
+  "term": "Effect size",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:40:06.126Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "5ae6c4dd7793d1b81df790b6f098f888",
+      "name": "Effect size",
+      "description": "Published effect size, standardized effect, F statistic, or equivalent.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "df0946fe431f7aea57f72833d5046693",
+      "name": "Effect size",
+      "description": "Effect size extracted from a study finding.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZGYwOTQ2ZmUtNDMxZi03YWVhLTU3ZjctMjgzM2Q1MDQ2NjkzIl1d"
+    }
+  ]
+}

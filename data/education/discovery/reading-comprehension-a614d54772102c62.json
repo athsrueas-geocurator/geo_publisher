@@ -1,0 +1,29 @@
+{
+  "term": "Reading comprehension",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T22:13:59.160Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "5c028b0a8a484ee9ae29e07028a1e7d1",
+      "name": "Reading comprehension",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNWMwMjhiMGEtOGE0OC00ZWU5LWFlMjktZTA3MDI4YTFlN2QxIl1d"
+    }
+  ]
+}

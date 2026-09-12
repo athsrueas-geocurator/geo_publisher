@@ -1,0 +1,43 @@
+{
+  "term": "Limitations",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:29:36.526Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "81c432349b290b73ddb3c8d96cfcc969",
+      "name": "Limitations",
+      "description": "AI Music ontology field for limitations; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "939bf4497097416597169bad2da094c2",
+      "name": "Limitations",
+      "description": null,
+      "spaceIds": [
+        "3be38bb922bc80c6a6503fbbba28d2b0"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiOTM5YmY0NDktNzA5Ny00MTY1LTk3MTYtOWJhZDJkYTA5NGMyIl1d"
+    }
+  ]
+}

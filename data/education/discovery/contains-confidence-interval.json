@@ -1,0 +1,89 @@
+{
+  "term": "Confidence interval",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:44:25.820Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "1773a3b16a3e0bee4ca92124efeefcb2",
+      "name": "Confidence interval",
+      "description": "AI Music ontology field for confidence_interval; data type text or number; cardinality one; publish policy required_when_referenced_by_relation_or_profile.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "6b8f474d61f51d9c1747e4c7282a17a2",
+      "name": "Aggregation method: Confidence interval",
+      "description": "Controlled AI Music ontology value Confidence interval in AggregationMethod.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        },
+        {
+          "id": "98302bfa5f4b9292f6a03f3c7cb2ad83",
+          "name": "FacetValue"
+        }
+      ]
+    },
+    {
+      "id": "d21c736598fc58e7d095633be0c1b86b",
+      "name": "Confidence interval",
+      "description": "Confidence interval for an extracted effect when available.",
+      "spaceIds": [
+        "5c7851580401d2548e4f948d724b8794"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "fbd2e69aa0624a6ba948724cd34b6239",
+      "name": "Health Information and Education accounts for 40.8% of Microsoft Copilot health conversations with a 95% confidence interval of 40.7-40.9",
+      "description": null,
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "fc2ea94acce14d97b66bd399a1c311b5",
+      "name": "An empirical study found that AlphaFold's confidence intervals for statistics on novel scientific questions could be narrow and far from the true value.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmMyZWE5NGEtY2NlMS00ZDk3LWI2NmItZDM5OWExYzMxMWI1Il1d"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "term": "Priority",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:29:39.770Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "26ac818934ffb499a5172f1fa1f6d1a6",
+      "name": "Priority",
+      "description": "AI Music ontology field for priority; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "28362a0ca8c146f28492b4628e76a33a",
+      "name": "Priority",
+      "description": "The urgency level of a project or task.",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "807f81ff44364dcf9290d0b11ac3ed34",
+      "name": "Priority",
+      "description": "The urgency level of a project or task.",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "cf87b550ef271fb432aef91a6c29facf",
+      "name": "Priority",
+      "description": "Priority level for roadmap or partnership work.",
+      "spaceIds": [
+        "8a4955bcd9d0fc0d8613f17f01de3b9f"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiY2Y4N2I1NTAtZWYyNy0xZmI0LTMyYWUtZjkxYTZjMjlmYWNmIl1d"
+    }
+  ]
+}

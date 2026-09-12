@@ -1,0 +1,21 @@
+{
+  "name": "Add San Francisco ethnic studies districtwide expansion evidence",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/sf-ethnic-studies-scale-ops.json",
+  "sha256": "1f0acf7a70d539a2f14961b90c2fb01b3fb3b630c450269fb661664381069bb7",
+  "journalPath": "data/education/sf-ethnic-studies-scale-publication.json",
+  "validationPath": "data/education/sf-ethnic-studies-scale-validation.json",
+  "entities": {
+    "article": "4c5094291f7340f7b3ba8adca9a25b5c",
+    "initiative": "c03236fd3748407f9e8828d2306ad8a4",
+    "claims": {
+      "overall-gpa": "06dc073ff59941e28f70b73c457c0353",
+      "course-failure": "6f43e40d66df461ab54546d876fd7b92",
+      "math-gpa": "87455eca1b8b4e3eb78528a9cf252502",
+      "science-gpa": "beb15e1d6e894dc1a62ebe982c243cc0",
+      "black-gpa": "fb41e8a9e45e4cf9bb07d4861035b22c"
+    }
+  },
+  "operationCount": 27
+}

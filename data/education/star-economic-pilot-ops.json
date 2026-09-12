@@ -1,0 +1,958 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f9d6085e34014562aae4021009f5f390"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Real discount rate",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Annual inflation-adjusted discount rate as a fraction; 0.04 means 4%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "396f8c72dfd04b5791ea09c1b9321b2f"
+        },
+        "value": {
+          "type": "text",
+          "value": "measure-unit/percent scale/100 precision-unlimited",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "be9e1c1db700456f8719ea3504e63bfe"
+    },
+    "entity": {
+      "$bytes": "2c50baaff1944994ae0c6948d81dcb07"
+    },
+    "from": {
+      "$bytes": "f9d6085e34014562aae4021009f5f390"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09th"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "16c505bb9ea241ab8472df4329c7c9a9"
+    },
+    "entity": {
+      "$bytes": "68156935d5a94f8496d7764cd58592cf"
+    },
+    "from": {
+      "$bytes": "f9d6085e34014562aae4021009f5f390"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a01tZ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Annual real wage growth",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Assumed annual inflation-adjusted earnings growth as a fraction; 0.01 means 1%.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "396f8c72dfd04b5791ea09c1b9321b2f"
+        },
+        "value": {
+          "type": "text",
+          "value": "measure-unit/percent scale/100 precision-unlimited",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c17d68fa4c75466195b03ba51902b8d3"
+    },
+    "entity": {
+      "$bytes": "d2db18a7d8404ba58d03ba1d69d4ff64"
+    },
+    "from": {
+      "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07QW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "152daee7dbd947748b7296c558cc4ff3"
+    },
+    "entity": {
+      "$bytes": "22d2af1d62a043ee9889f8895cd8ad3d"
+    },
+    "from": {
+      "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a08qy"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Present value of benefits",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Discounted monetary benefits; interpret with currency, price year, denominator, discount rate and modeled benefit scope.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "19d521f2152f4b5eb53381d4a8880367"
+    },
+    "entity": {
+      "$bytes": "0efbda9e4b3141d69e164ef46544a937"
+    },
+    "from": {
+      "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09cH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "37187b9d3d73494c96844f3e3b88f293"
+    },
+    "entity": {
+      "$bytes": "1bda4877026d454f9896dec68fed335d"
+    },
+    "from": {
+      "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a07o0"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "879d207046024b44be6e3d64c32c60da"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Real internal rate of return",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Annual inflation-adjusted rate equating discounted costs and benefits, expressed as a fraction.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "396f8c72dfd04b5791ea09c1b9321b2f"
+        },
+        "value": {
+          "type": "text",
+          "value": "measure-unit/percent scale/100 precision-unlimited",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f0aeb591994447c0a768b78923b20239"
+    },
+    "entity": {
+      "$bytes": "25ac10335d104d38bc1fbae04ed17715"
+    },
+    "from": {
+      "$bytes": "879d207046024b44be6e3d64c32c60da"
+    },
+    "to": {
+      "$bytes": "808a04ceb21c4d888ad12e240613e5ca"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03oO"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b83a566071f94829a2299ba2775e22b3"
+    },
+    "entity": {
+      "$bytes": "14e26e1362f64dc99e7f01a3285cf860"
+    },
+    "from": {
+      "$bytes": "879d207046024b44be6e3d64c32c60da"
+    },
+    "to": {
+      "$bytes": "a3288c22a0564f6fb409fbcccb2c118c"
+    },
+    "relationType": {
+      "$bytes": "6d29d57849bb4959baf72cc696b1671a"
+    },
+    "position": "a02hq"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Economic Considerations and Class Size",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Alan B. Krueger; The Economic Journal 113(485), F34–F63, 2003. Published article; working paper DOI 10.3386/w8875.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.1111/1468-0297.00098",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://onlinelibrary.wiley.com/doi/10.1111/1468-0297.00098",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "736d8f5011734d15a4d31d87f9eb9703"
+    },
+    "entity": {
+      "$bytes": "8b71f3f88c404b4c83d16812e5d214f6"
+    },
+    "from": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07bW"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR class-size economics: modeled costs and earnings (Krueger, 2003)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than reported 7300. Preserve reported 7300 and disclose the one-dollar discrepancy; do not silently replace it.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://classsizematters.org/wp-content/uploads/2011/04/economic-considerations-and-class-size.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "edeea750be4b47ca9c1c2864ccf7b225"
+    },
+    "entity": {
+      "$bytes": "a3cdd3dc9a324e7b99eeb62c9f0b8838"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a03pw"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "10fdb83099e748e1984373be4124d46d"
+    },
+    "entity": {
+      "$bytes": "ad31807a3d7948a3a5db46f59a44af24"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04Ud"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled costs and earnings: sensitivity scenarios",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "830c339779e04be99671e3b75c981968"
+    },
+    "entity": {
+      "$bytes": "4f09dc7db0b84c69858fc11b3154ec9c"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04UI"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e6850f83a80f483b9a7437d532cae4c3"
+    },
+    "entity": {
+      "$bytes": "3a74054fdf9c4d7e9e72baf3291b3c31"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a070C"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d202a27a148a47db813731b692bdf42a"
+    },
+    "entity": {
+      "$bytes": "4ee465ca072a4580bd5d77bc610a4cd0"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a09Ym"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3ba7c05b846b469fb47ac37b089f13b2"
+    },
+    "entity": {
+      "$bytes": "bfd270f28e644c74bffdb078368f93f3"
+    },
+    "from": {
+      "$bytes": "4ee465ca072a4580bd5d77bc610a4cd0"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a02Vm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "166143a9ed584e29b6f89f3e42d1fb12"
+    },
+    "entity": {
+      "$bytes": "cd066779487449299e29a4ae25bc33c5"
+    },
+    "from": {
+      "$bytes": "4ee465ca072a4580bd5d77bc610a4cd0"
+    },
+    "to": {
+      "$bytes": "f9d6085e34014562aae4021009f5f390"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "103bf2f388334a96869a6e7391a66d5d"
+    },
+    "entity": {
+      "$bytes": "a706209be1c440bbb73a52c4f62aaedc"
+    },
+    "from": {
+      "$bytes": "4ee465ca072a4580bd5d77bc610a4cd0"
+    },
+    "to": {
+      "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "97f732fbbcfa46d5a4b4f3722740957f"
+    },
+    "entity": {
+      "$bytes": "01272c8dc2cf45948122acc143b6cc79"
+    },
+    "from": {
+      "$bytes": "4ee465ca072a4580bd5d77bc610a4cd0"
+    },
+    "to": {
+      "$bytes": "6ba2ce00db064687b108aa8449672886"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bbde4ebb86094c25a9f73416ad106179"
+    },
+    "entity": {
+      "$bytes": "98651f9df42049a98f7328bfa55a769e"
+    },
+    "from": {
+      "$bytes": "4ee465ca072a4580bd5d77bc610a4cd0"
+    },
+    "to": {
+      "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "391b5ed6f45442c5849d5e08cf2a1071"
+    },
+    "entity": {
+      "$bytes": "521e71c87efb4e928f8d3ec3a5e17024"
+    },
+    "from": {
+      "$bytes": "4ee465ca072a4580bd5d77bc610a4cd0"
+    },
+    "to": {
+      "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e0ee90903df148e5b86b9a24c61680a8"
+    },
+    "entity": {
+      "$bytes": "c2bfe15051d8443e86c6f2ec26097246"
+    },
+    "from": {
+      "$bytes": "4ee465ca072a4580bd5d77bc610a4cd0"
+    },
+    "to": {
+      "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "60ae8cf123c74b9da9dc1503f1b739ee"
+    },
+    "entity": {
+      "$bytes": "d6cf6790b5e84581bb04613cbd4356ee"
+    },
+    "from": {
+      "$bytes": "4ee465ca072a4580bd5d77bc610a4cd0"
+    },
+    "to": {
+      "$bytes": "3a558d71454745a992c035040f648729"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a6"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d0d92145a476409ba272560330dd5fe8"
+    },
+    "entity": {
+      "$bytes": "3bd0740f944b41bb8c70505bb3242b56"
+    },
+    "from": {
+      "$bytes": "4ee465ca072a4580bd5d77bc610a4cd0"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a7"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "b0e661c838de4b8eb406a9c5a82249b1"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "STAR model: 4% discount, 1% wage growth; $15180 earnings versus $7537 cost.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Modeled US kindergarten entrants in 1998; class size 22 to 15, grades K–3, average exposure 2.3 years. Earnings projected over ages 18–65. Assumes 0.2 SD each in math and reading, with 8% earnings per subject SD. These are model inputs, not newly extracted trial effects. Scenarios share one model and experiment; they are not independent studies or confidence bounds. Earnings conversion is observational; omitted variables and scaling may change returns. Benefits omit fringe compensation and non-earnings effects; universal paid employment can overstate benefits. National all-grade spending approximates early-grade costs; teacher supply and STAR sample composition limit extrapolation. The 0.20 SD values are model inputs, not newly extracted trial estimates with known standard errors. Recomputing discounted costs from the printed annual schedule reproduces four rows after rounding; the 6% row rounds to 7301 rather than reported 7300. Preserve reported 7300 and disclose the one-dollar discrepancy; do not silently replace it.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "f9d6085e34014562aae4021009f5f390"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "4"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "51a331c9b55e40ed9ba9b3aa7eacbf0b"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "1"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "7537"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "49fcf7e6ccea49dab672345486cd9df9"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "15180"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1998"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per pupil; present value of modeled incremental cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Table 5, F56 (PDF page 23)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Projected earnings ages 18–65",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7fe61c59ceed48b3b725b5fa687de9a6"
+    },
+    "entity": {
+      "$bytes": "87c4a2d0449c461982358b877adcdd4b"
+    },
+    "from": {
+      "$bytes": "b0e661c838de4b8eb406a9c5a82249b1"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02Eu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "849feb2cef5f42cf97c3110c1cca69a9"
+    },
+    "entity": {
+      "$bytes": "7609da5257e3425a8ea35b67404b6fd4"
+    },
+    "from": {
+      "$bytes": "b0e661c838de4b8eb406a9c5a82249b1"
+    },
+    "to": {
+      "$bytes": "d70f7e00c8fd4fb2b6a056df6b844b1f"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a09mk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f7b6b3a5f72f4e4d9d8a70f60f5720b3"
+    },
+    "entity": {
+      "$bytes": "8ff5f00313e8437c9fffe60ed1b797e3"
+    },
+    "from": {
+      "$bytes": "4874a8385a594633ab244f47889f9cab"
+    },
+    "to": {
+      "$bytes": "b0e661c838de4b8eb406a9c5a82249b1"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a06Bv"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4431c83fcc9e4de9a8613b42fca0b774"
+    },
+    "entity": {
+      "$bytes": "0bcaa661ecb840149cc49c035ae0e122"
+    },
+    "from": {
+      "$bytes": "7d8aeb49b7104ad7bedda3d7b16ad370"
+    },
+    "to": {
+      "$bytes": "b0e661c838de4b8eb406a9c5a82249b1"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a09sG"
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "term": "Related entities",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:29:38.183Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "d194169ecfc14b87821b000278cf29e3",
+      "name": "Related Entities",
+      "description": null,
+      "spaceIds": [
+        "4f6f93ec278f43d7903f6c93b5b73abf"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    },
+    {
+      "id": "dfa6aebe1ca94bf29faccc4cc7afb24c",
+      "name": "Related entities",
+      "description": "Other entities meaningfully connected to this one, such as people, events, places, topics, products, findings, or any subject it relates to. Captures broader associations that don't fit the type's dedicated relation properties, giving readers a path to wider context.",
+      "spaceIds": [
+        "a19c345ab9866679b001d7d2138d88a1",
+        "da96a4c26e718bfa6c27c3b1f3c316cd",
+        "d69608290513c2a91102c939b3265bd7",
+        "cf0e11338b33fcd6cdb032c625c85454"
+      ],
+      "types": [
+        {
+          "id": "783bc688e65f4e54b67fa5643d78345e",
+          "name": "Place"
+        },
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        },
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        },
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "e0d35aec1a614abe99c42ae3374eff0a",
+      "name": "Related Entities",
+      "description": null,
+      "spaceIds": [
+        "5908c73ad336472ccbd983491d2d17e4"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    },
+    {
+      "id": "e56f5b788d154d6795ff6aa8ccab330e",
+      "name": "Related Entities",
+      "description": null,
+      "spaceIds": [
+        "e13a1690d7b842d15e7cc98bcad691ca"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZTU2ZjViNzgtOGQxNS00ZDY3LTk1ZmYtNmFhOGNjYWIzMzBlIl1d"
+    }
+  ]
+}

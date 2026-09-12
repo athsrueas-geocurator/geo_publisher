@@ -1,0 +1,22 @@
+{
+  "name": "Publish Perry Preschool observed-outcome pilot",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "datasetId": "7e86c7f34c614db49497272063f43485",
+  "opsPath": "data/education/perry-observed-pilot-ops.json",
+  "sha256": "3eaf0142b064c1add9725dcbbf029cf053932176a106c864bcfa8b2d2c164e15",
+  "operationCount": 63,
+  "selected": [
+    {
+      "key": "observed/high-school-graduation/age-27/female/control",
+      "id": "48e79c41e51344da96849c6a76acd2d9"
+    },
+    {
+      "key": "observed/yearly-earnings/age-27/female/control",
+      "id": "89e6b1b7d6b4455cbee0f9bfe91c47d4"
+    }
+  ],
+  "journalPath": "data/education/perry-observed-pilot-publication.json",
+  "validationPath": "data/education/perry-observed-pilot-validation.json",
+  "registry": "data/education/perry-registry.json"
+}

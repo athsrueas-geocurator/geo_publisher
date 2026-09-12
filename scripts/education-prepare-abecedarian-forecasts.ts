@@ -1,0 +1,16 @@
+import{readFileSync,writeFileSync}from'node:fs';
+import{createHash}from'node:crypto';
+const root='data/education',read=(n:string)=>JSON.parse(readFileSync(`${root}/${n}.json`,'utf8'));
+const input=read('abecedarian-forecast-transcription'),registry=read('abecedarian-registry'),verification=read('abecedarian-forecast-transcription-verification');
+if(!verification.passed||verification.sourceSha256!==input.sourceSha256)throw Error('Unverified source');
+const records=[];
+for(const row of input.rows)for(const method of ['klineWaltersMethod','authorsMethod']){
+ const statistic=row[method];if(statistic===null)continue;
+ const methodLabel=method==='authorsMethod'?"the authors' forecasting method":"the Kline–Walters-style forecasting method";
+ const scope=row.benefitScope==='Labor income'?'labor-income benefits':'all monetized benefits';
+ const horizon=row.horizon==='Life-cycle'?'over the life cycle':row.horizon.toLowerCase();
+ records.push({key:`forecast/${row.key}/${method}`,name:`ABC/CARE's modeled benefit/cost ratio is ${statistic.value.toFixed(2)} for ${scope} ${horizon} using ${methodLabel}.`,description:`García and colleagues report a standard error of ${statistic.se.toFixed(2)} for this ${input.sourceVersion} model estimate. It uses ${row.npvSource} net-present-value inputs and is not an observed lifetime return.`,value:String(statistic.value),standardError:String(statistic.se),metric:'Benefit/cost ratio',unit:'ratio',horizon:row.horizon,benefitScope:row.benefitScope,npvSource:row.npvSource,forecastMethod:methodLabel,sourceArticleId:registry.paper,studyIds:[registry['study/abc'],registry['study/care']],locator:`August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row ${input.rows.indexOf(row)+1}, ${method==='authorsMethod'?'column 5':'column 4'}`,sourceUrl:'https://cehd.uchicago.edu/wp-content/uploads/2018/08/abc_comprehensivecba_revised_2018-08-02a_jlg.pdf',sourceSha256:input.sourceSha256,sourceReported:true,factual:true,rankingEligible:false,dependencyGroup:'ABC-CARE-pooled-forecasting-comparison',interpretation:'Author-calculated alternative model specification; not independent replication or a result directly attributed to Kline and Walters.'});
+}
+if(records.length!==11||new Set(records.map(r=>r.key)).size!==11||records.some(r=>r.studyIds.some(id=>!id)))throw Error('Record completeness');
+const output={sourceSha256:input.sourceSha256,transcriptionSha256:createHash('sha256').update(readFileSync(`${root}/abecedarian-forecast-transcription.json`)).digest('hex'),records,publicationStatus:'Prepared, not submitted',mapping:{value:'45ce8dc80a74432e9a2483cd1c8e86e1',standardError:'cc28953bd89e406096c9627021f4713d',source:'49c5d5e1679a4dbdbfd33f618f227c94',study:'dfa6aebe1ca94bf29faccc4cc7afb24c',locator:'84dacbddca6a44079edb5e11a4c66b40',unit:'8405509cc7354655a348591349a5f025',horizon:'c962e0fb4a3148e5ba125144691236a8'},unresolved:['Live property validation and full semantic duplicate check','Dedicated method/benefit-scope/NPV-source field mapping','Pilot table and dedicated Claim rendering','Version reconciliation against PMC Table 6']};
+writeFileSync(`${root}/abecedarian-forecast-records.json`,JSON.stringify(output,null,2)+'\n');console.log(JSON.stringify({records:records.length,studies:records[0]!.studyIds,pilot:records.find(r=>r.key==='forecast/lifecycle-abc-all/authorsMethod')}));

@@ -1,0 +1,21 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T08:55:06.994Z",
+  "opsHash": "b8490427ebfebba372ba223c067b105631cb1dbe274460e174d8c14fdc3660dd",
+  "checks": [
+    "Live Relation property: 8f151ba4de204e3c9cb499ddf96f48f1",
+    "Live Text property: 412ff593e9154012a43d4c27ec5c68b6",
+    "Live Relation property: beaba5cba67741a8b35377030613fc70",
+    "Live Text property: e3e363d1dd294ccb8e6ff3b76d99bc33",
+    "Persistent Dataset ID is unused",
+    "Complete all-space exact-title discovery has no candidate",
+    "Complete all-space specific discovery has no candidate: CollegeScorecard",
+    "Persistent metadata block ID is unused"
+  ],
+  "source": {
+    "catalogKey": "college-scorecard",
+    "sourcePath": "Education-Initiatives/research-data/dataset-catalog.json",
+    "officialUrl": "https://collegescorecard.ed.gov/data/"
+  },
+  "scope": "Catalog metadata only. No raw College Scorecard data, derived outcome, causal claim, initiative effect, or unsupported initiative relation is published."
+}

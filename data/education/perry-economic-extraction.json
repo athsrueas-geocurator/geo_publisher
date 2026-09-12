@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "extractedAt": "2026-09-11",
+  "status": "source tables visually verified; Geo identity and publication pending",
+  "publication": {
+    "title": "The rate of return to the HighScope Perry Preschool Program",
+    "authors": ["James J. Heckman", "Seong Hyeok Moon", "Rodrigo Pinto", "Peter A. Savelyev", "Adam Yavitz"],
+    "year": 2010,
+    "doi": "10.1016/j.jpubeco.2009.11.001",
+    "workingPaperDoi": "10.3386/w15471",
+    "journal": "Journal of Public Economics",
+    "volume": 94,
+    "issues": "1–2",
+    "pages": "114–128",
+    "version": "published journal article, author-hosted copy",
+    "sourceUrl": "https://jenni.uchicago.edu/Spencer_Conference/Papers%202010/Heckman_Moon_etal_2010_Rate%20of%20Return%20Perry.pdf",
+    "accessibleManuscriptUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3145373/",
+    "localPdf": "tmp/pdfs/perry-2010.pdf"
+  },
+  "context": {
+    "program": "HighScope Perry Preschool Program",
+    "location": "Perry Elementary School, Ypsilanti, Michigan, United States",
+    "population": "Disadvantaged African-American children in the historical Perry study",
+    "period": "early to mid-1960s; five entering cohorts",
+    "entryAge": 3,
+    "plannedDurationYears": 2,
+    "delivery": "2.5-hour preschool sessions on school weekdays and weekly teacher home visits",
+    "design": "random assignment with subsequent reassignment; economic analysis adjusts for compromised randomization",
+    "observedFollowupAges": [15, 19, 27, 40],
+    "modeledHorizonAge": 65,
+    "originalSampleSize": 123,
+    "sampleSizeMeaning": "original assignment groups, not a verified complete-case denominator for every outcome",
+    "currency": "USD",
+    "priceYear": 2006,
+    "economicScope": ["education", "earnings", "criminal behavior", "tax payments", "public welfare"],
+    "earningsImputation": "kernel matching using NLSY for missing earnings before age 40",
+    "earningsExtrapolation": "PSID-based projection beyond age 40",
+    "uncertaintyMethod": "Monte Carlo resampling of prediction errors and bootstrapping; Table 1 notes and Appendix K",
+    "uncertaintyLimit": "standard errors cover estimable model components; other assumptions are examined through sensitivity analysis"
+  },
+  "cost": {
+    "value": 17759,
+    "currency": "USD",
+    "priceYear": 2006,
+    "denominator": "per child for the preschool program",
+    "discounting": "undiscounted",
+    "scope": "initial program resource cost: operating expenses, including teachers and administration, plus classrooms and facilities",
+    "basis": "reported estimate from Barnett (1996), as used by Heckman et al. (2010)",
+    "standardError": null,
+    "locator": "Section 3.1, printed p. 117 (PDF page 4)",
+    "warning": "Not annual expenditure and not the financing-adjusted denominator under every deadweight-loss scenario"
+  },
+  "table1": {
+    "locator": "Table 1, printed p. 115 (PDF page 2)",
+    "irrColumns": [
+      {"perspective":"individual","crimeValuation":null,"population":"all"},
+      {"perspective":"individual","crimeValuation":null,"population":"male"},
+      {"perspective":"individual","crimeValuation":null,"population":"female"},
+      {"perspective":"society","crimeValuation":"high","population":"all"},
+      {"perspective":"society","crimeValuation":"high","population":"male"},
+      {"perspective":"society","crimeValuation":"high","population":"female"},
+      {"perspective":"society","crimeValuation":"low","population":"all"},
+      {"perspective":"society","crimeValuation":"low","population":"male"},
+      {"perspective":"society","crimeValuation":"low","population":"female"}
+    ],
+    "irrRows": [
+      {"deadweightLossFraction":0,"valuesPercent":[7.6,8.4,7.8,9.9,11.4,17.1,9.0,12.2,9.8],"standardErrorsPercentagePoints":[1.8,1.7,1.1,4.1,3.4,4.9,3.5,3.1,1.8]},
+      {"deadweightLossFraction":0.5,"valuesPercent":[6.2,6.8,6.8,9.2,10.7,14.9,8.1,11.1,8.1],"standardErrorsPercentagePoints":[1.2,1.1,1.0,2.9,3.2,4.8,2.6,3.1,1.7]},
+      {"deadweightLossFraction":1,"valuesPercent":[5.3,5.9,5.7,8.7,10.2,13.6,7.6,10.4,7.5],"standardErrorsPercentagePoints":[1.1,1.1,0.9,2.5,3.1,4.9,2.4,2.9,1.8]}
+    ],
+    "benefitCostColumns": [
+      {"perspective":"society","crimeValuation":"high","population":"all"},
+      {"perspective":"society","crimeValuation":"high","population":"male"},
+      {"perspective":"society","crimeValuation":"high","population":"female"},
+      {"perspective":"society","crimeValuation":"low","population":"all"},
+      {"perspective":"society","crimeValuation":"low","population":"male"},
+      {"perspective":"society","crimeValuation":"low","population":"female"}
+    ],
+    "benefitCostRows": [
+      {"realDiscountRate":0,"deadweightLossFraction":0.5,"values":[31.5,33.7,27.0,19.1,22.8,12.7],"standardErrors":[11.3,17.3,14.4,5.4,8.3,3.8]},
+      {"realDiscountRate":0.03,"deadweightLossFraction":0.5,"values":[12.2,12.1,11.6,7.1,8.6,4.5],"standardErrors":[5.3,8.0,7.1,2.3,3.7,1.4]},
+      {"realDiscountRate":0.05,"deadweightLossFraction":0.5,"values":[6.8,6.2,7.1,3.9,4.7,2.4],"standardErrors":[3.4,5.1,4.6,1.5,2.3,0.8]},
+      {"realDiscountRate":0.07,"deadweightLossFraction":0.5,"values":[3.9,3.2,4.6,2.2,2.7,1.4],"standardErrors":[2.3,3.4,3.1,0.9,1.5,0.5]}
+    ],
+    "notes": [
+      "IRRs are annual real rates expressed as percent in the source; convert both estimate and SE to fractions if using fractional-rate properties.",
+      "Benefit/cost ratios and their SEs are dimensionless ratios, not percentages or annual returns.",
+      "The varying first-column label is deadweight loss for IRR rows but discount rate for benefit/cost rows.",
+      "Deadweight loss is welfare loss per tax dollar; all benefit/cost rows assume 50% deadweight loss.",
+      "High murder valuation is $4.1 million and includes a statistical value of life; low valuation is $13,000 and excludes that component.",
+      "Society includes participants and the general public.",
+      "All is computed from pooled average profiles; it is not the arithmetic average of male and female IRRs.",
+      "Nine crime categories are included; missing components and extrapolation prevent interpretation as wholly observed cash flows.",
+      "Individual benefit/cost cells are dashes in this table, not zero estimates."
+    ]
+  },
+  "table2SelectedObservedOutcomes": {
+    "locator": "Table 2, printed p. 117 (PDF page 4)",
+    "kind": "descriptive group means and standard errors; not adjusted causal contrasts",
+    "columns": [
+      {"population":"female","assignment":"control","originalN":26},
+      {"population":"female","assignment":"treatment","originalN":25},
+      {"population":"male","assignment":"control","originalN":39},
+      {"population":"male","assignment":"treatment","originalN":33}
+    ],
+    "rows": [
+      {"outcome":"High-school graduation","ageOrPeriod":"age 27","unit":"percent","values":[31,84,54,48],"standardErrors":[9,7,8,9]},
+      {"outcome":"Currently employed","ageOrPeriod":"age 27","unit":"percent","values":[55,80,56,60],"standardErrors":[10,8,8,9]},
+      {"outcome":"Yearly earnings","ageOrPeriod":"age 27","unit":"USD, price year 2006","values":[10523,13530,14632,17399],"standardErrors":[2068,2200,2129,2155]},
+      {"outcome":"Currently employed","ageOrPeriod":"age 40","unit":"percent","values":[82,83,50,70],"standardErrors":[8,8,8,8]},
+      {"outcome":"Yearly earnings","ageOrPeriod":"age 40","unit":"USD, price year 2006","values":[20345,24434,24730,32023],"standardErrors":[3883,4752,4495,4938]},
+      {"outcome":"Ever on welfare","ageOrPeriod":"ages 18–27","unit":"percent","values":[82,48,26,32],"standardErrors":[8,10,7,8]},
+      {"outcome":"Ever on welfare","ageOrPeriod":"ages 26–40","unit":"percent","values":[41,50,38,20],"standardErrors":[10,10,8,7]},
+      {"outcome":"Ever arrested","ageOrPeriod":"through age 40","unit":"percent","values":[65,56,95,82],"standardErrors":[10,10,4,7]}
+    ],
+    "notExtracted": "Baseline covariates and counts for individual offense categories remain in the source table."
+  },
+  "verification": {
+    "table1Image": "tmp/pdfs/perry-table1.png",
+    "table2AndCostImage": "tmp/pdfs/perry-cost-page-4.png",
+    "visualChecked": true,
+    "irrCount": 27,
+    "benefitCostCount": 24,
+    "selectedObservedMeanCount": 32,
+    "geoPublication": "pending cross-space identity, ontology and publishing checks"
+  }
+}

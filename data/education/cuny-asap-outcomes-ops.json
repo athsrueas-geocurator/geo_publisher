@@ -1,0 +1,277 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3f683173e12241f085f0123ba443abe0"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Eight years after study entry, CUNY ASAP increased associate-degree receipt by 12 percentage points (52% versus 39.9%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "MDRC reports this program-versus-control result for the original CUNY randomized trial. It is an eight-year associate-degree outcome, not a result for Ohio ASAP or a later CUNY follow-up.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "12"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in associate-degree receipt, program minus control, eight years after study entry (52% versus 39.9%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b9cbd1ee616343de95b1b833a452784d"
+    },
+    "entity": {
+      "$bytes": "f8e799cd4b8846b48896774097ad77fa"
+    },
+    "from": {
+      "$bytes": "3f683173e12241f085f0123ba443abe0"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Bdt"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e1be3b7509574c2ab36eef110499700f"
+    },
+    "entity": {
+      "$bytes": "e526a09a74de4563897006c1b400973f"
+    },
+    "from": {
+      "$bytes": "3f683173e12241f085f0123ba443abe0"
+    },
+    "to": {
+      "$bytes": "536b5cd10a65417ea4e1d52b3322dcad"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0AA5"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e38e8f56fd7243f898eaa473284a2029"
+    },
+    "entity": {
+      "$bytes": "6a0a37f18cd14c82882e5b179f9768eb"
+    },
+    "from": {
+      "$bytes": "3f683173e12241f085f0123ba443abe0"
+    },
+    "to": {
+      "$bytes": "3f6f2b82f8b94d3c85a5198a40e34199"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04mf"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "df9121e211a44e76acc6fe1055f12caf"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "After eight years, CUNY ASAP’s average cost per associate degree was $9,162 higher than control ($84,087 versus $74,925 in 2019 dollars).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This is MDRC’s CUNY educational-cost comparison per associate degree, over eight years. The report says ASAP was no longer cost-effective on this measure; it is not a benefit-cost ratio.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "9162"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2019"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "Difference in average CUNY educational cost per associate degree earned, program minus control, over eight years.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3bddf4ca1b294679a60cf4072cc3e74d"
+    },
+    "entity": {
+      "$bytes": "efab261d8d4e4d89a19b245ce5006b25"
+    },
+    "from": {
+      "$bytes": "df9121e211a44e76acc6fe1055f12caf"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0Bc4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4097ae3c84404a4393f89e1ff1165f14"
+    },
+    "entity": {
+      "$bytes": "5b48c552e24242519c1630daf8262b3a"
+    },
+    "from": {
+      "$bytes": "df9121e211a44e76acc6fe1055f12caf"
+    },
+    "to": {
+      "$bytes": "536b5cd10a65417ea4e1d52b3322dcad"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a073G"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c5163f35341a4877a8e8ac221a537e23"
+    },
+    "entity": {
+      "$bytes": "22d60cb559ed43ffa29a7c0501b607c7"
+    },
+    "from": {
+      "$bytes": "df9121e211a44e76acc6fe1055f12caf"
+    },
+    "to": {
+      "$bytes": "3f6f2b82f8b94d3c85a5198a40e34199"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a097m"
+  }
+]

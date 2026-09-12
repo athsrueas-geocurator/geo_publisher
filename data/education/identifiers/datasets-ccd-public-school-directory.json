@@ -1,0 +1,32 @@
+{
+  "sourceKey": "datasets/ccd-public-school-directory",
+  "checkedAt": "2026-09-11T17:55:42.178Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://nces.ed.gov/ccd/pubschuniv.asp",
+      "needle": "nces.ed.gov/ccd/pubschuniv.asp",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    },
+    {
+      "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=11",
+      "needle": "educationdata.urban.org/api/v1/schools/ccd/directory/2022",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

@@ -1,0 +1,85 @@
+{
+  "term": "Comparison group",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T19:27:53.120Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "27b4812fa4a442f4b1f45154ceb4e897",
+      "name": "Sitagliptin comparison group",
+      "description": "Sitagliptin was selected as a neutral comparison proxy to evaluate the specific cardiovascular benefits of initiating tirzepatide.",
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "b8803a8665de412bbb357e0c84adf473",
+          "name": "Data block"
+        }
+      ]
+    },
+    {
+      "id": "36ed00f1988a40ad81be3bf79b5d240f",
+      "name": "In a matched comparison group from the study, GLP-1 drug exposure was associated with around 30% lower odds of breast cancer.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "52872e82aae54f6eb37d9923407434ec",
+      "name": "In the Finnish studies, the most frequent sauna users went 4-7 times per week, while the comparison group went 1-2 times per week.",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "57ecfd4c1ec34c9d966e62474187d0e3",
+      "name": "Over a 10-year period, approximately 12% of women with polyendocrine metabolic ovarian syndrome (PMOS) developed heart or artery disease compared to 4% of the comparison group.",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    },
+    {
+      "id": "dc5517f582b74bb89dd8544064204f52",
+      "name": "The Harvard study's findings on the Inflation Reduction Act's impact on medication adherence held up when compared to dually-enrolled Medicare beneficiaries as a comparison group",
+      "description": null,
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZGM1NTE3ZjUtODJiNy00YmI4LTlkZDgtNTQ0MDY0MjA0ZjUyIl1d"
+    }
+  ]
+}

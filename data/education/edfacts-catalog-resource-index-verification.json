@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-09-12T08:41:07.551Z",
+  "batchName": "Add EDFacts catalog resource and metadata block",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "entityId": "26aa14b7c05c4b0d86260e3f405b1653",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "26aa14b7c05c4b0d86260e3f405b1653",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "26aa14b7c05c4b0d86260e3f405b1653",
+      "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+      "pass": true
+    },
+    {
+      "relationId": "f1b4bddc53de4d338e657d4508409c9e",
+      "pass": true
+    },
+    {
+      "relationId": "eeb8214639074b5f9a9edb2664cc70d1",
+      "pass": true
+    },
+    {
+      "entityId": "f47c61f312fe448f8c15db44569d4411",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "f47c61f312fe448f8c15db44569d4411",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "relationId": "8f187304a83848fe8a42cbce616ba091",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Add STAR experimental study, structured arms and first achievement estimate",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/star-experimental-pilot-ops.json",
+  "sha256": "5bff06156b4c6e726bdadc84732b8049bc7053c41cfe3a7c95eb78d2c1f5efdf",
+  "operationCount": 78,
+  "datasetId": "9220554acfd249a18920b301dcbb6cf0",
+  "paperId": "efdefdaf3fbd4d02bd44228882c09359",
+  "studyId": "d68c6d1d10af47418fc80ed09d4e097f",
+  "blockId": "8de2afc87d99401b99c6db5e8d25460b",
+  "selected": [
+    {
+      "key": "k-small-rf7",
+      "grade": "K",
+      "arm": "small class",
+      "value": 5.36,
+      "standardError": 1.21,
+      "n": 5861,
+      "panel": "A",
+      "locator": "Table V, column 7, panel A, p. 512",
+      "id": "7eeddeb79af54141b58e4cffe32d93a5"
+    }
+  ],
+  "entities": [
+    {
+      "id": "19e3f0af19da48d3b5cd0e59eeda5dd0",
+      "name": "Study arm",
+      "type": "e7d737c536764c609fa16aa64a8c90ad",
+      "description": "A study-specific group defined by its assigned intervention or comparison condition. Assignment, participation and changes over time must be distinguished."
+    },
+    {
+      "id": "98c0849922164db0822b5a78444c17b3",
+      "name": "Grade levels",
+      "type": "808a04ceb21c4d888ad12e240613e5ca",
+      "description": "School-grade concepts relevant to a record, with the education system identified by each target."
+    },
+    {
+      "id": "a0109f6192b1414fa93fb756779643ed",
+      "name": "Intervention arms",
+      "type": "808a04ceb21c4d888ad12e240613e5ca",
+      "description": "Study-specific assigned intervention groups evaluated by an outcome estimate."
+    },
+    {
+      "id": "061dbc4816b0413b83ebe771ef3d9875",
+      "name": "Comparison arms",
+      "type": "808a04ceb21c4d888ad12e240613e5ca",
+      "description": "Study-specific assigned comparison groups used as the reference for an outcome estimate."
+    },
+    {
+      "id": "32ef1b9c498b42c18725f72a93fd2917",
+      "name": "Kindergarten (United States)",
+      "type": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+      "description": "The United States school grade preceding first grade."
+    },
+    {
+      "id": "c66d539b68a54250889bee59b97fcfc0",
+      "name": "First grade (United States)",
+      "type": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+      "description": "The first numbered grade in United States elementary education, following kindergarten."
+    },
+    {
+      "id": "74a01717791841c3beef132e8e5cec4e",
+      "name": "Second grade (United States)",
+      "type": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+      "description": "The second numbered grade in United States elementary education, following first grade."
+    },
+    {
+      "id": "6fc7ceeb03bf486da5b79bb3874b46ef",
+      "name": "Third grade (United States)",
+      "type": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+      "description": "The third numbered grade in United States elementary education, following second grade."
+    },
+    {
+      "id": "d68c6d1d10af47418fc80ed09d4e097f",
+      "name": "Tennessee Project STAR",
+      "type": "3ef269bc5f114691abc02dcbf398fd63",
+      "description": "A Tennessee experiment that randomly assigned students and teachers within schools to small classes, regular classes, or regular classes with full-time aides."
+    },
+    {
+      "id": "efdefdaf3fbd4d02bd44228882c09359",
+      "name": "Experimental Estimates of Education Production Functions",
+      "type": "a2a5ed0cacef46b1835de457956ce915",
+      "description": "A published analysis of Tennessee Project STAR’s effects on student achievement, using classroom assignment and observed class size."
+    },
+    {
+      "id": "9c49d94122dc4f54b9311d20b9b10c33",
+      "name": "STAR small-class assignment",
+      "type": "19e3f0af19da48d3b5cd0e59eeda5dd0",
+      "description": "Initial assignment to a class planned for 13–17 students in Tennessee Project STAR."
+    },
+    {
+      "id": "04cc2815daee4657879fd16d5cbec2b2",
+      "name": "STAR regular-class assignment with full-time aide",
+      "type": "19e3f0af19da48d3b5cd0e59eeda5dd0",
+      "description": "Initial assignment to a class planned for 22–25 students with a full-time classroom aide in Tennessee Project STAR."
+    },
+    {
+      "id": "4fcc10047b6648f9a9d3aa077e33aadf",
+      "name": "STAR regular-class comparison assignment",
+      "type": "19e3f0af19da48d3b5cd0e59eeda5dd0",
+      "description": "Initial assignment to a class planned for 22–25 students without a full-time aide in Tennessee Project STAR. Some regular classes had part-time aide access in grades 1–3."
+    },
+    {
+      "id": "9220554acfd249a18920b301dcbb6cf0",
+      "name": "STAR class sizes and classroom aides: experimental results (Krueger, 1999)",
+      "type": "0c4babfb43893486af827341bbf32e09",
+      "description": "Measured achievement effects from Tennessee’s randomized class-size experiment, organized by grade and assigned classroom condition. Effects are percentile points, with standard errors and source citations."
+    },
+    {
+      "id": "7eeddeb79af54141b58e4cffe32d93a5",
+      "name": "STAR kindergarten: small class assignment effect",
+      "type": "96f859efa1ca4b229372c86ad58b694b",
+      "description": "Initial assignment effect on achievement relative to regular classes without a full-time aide. Standard errors account for within-class correlation; grade-level estimates share participants."
+    }
+  ],
+  "journalPath": "data/education/star-experimental-pilot-publication.json",
+  "validationPath": "data/education/star-experimental-pilot-validation.json",
+  "registry": "data/education/star-experimental-registry.json"
+}

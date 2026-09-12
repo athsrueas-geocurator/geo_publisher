@@ -1,0 +1,13 @@
+query ProgramAudience($spaceId: UUID!, $typeId: UUID!, $filter: EntityFilter!, $after: Cursor) {
+  entitiesConnection(spaceId: $spaceId, typeId: $typeId, first: 10, after: $after, filter: $filter) {
+    nodes {
+      id
+      name
+      relations(first: 30, filter: {spaceId: {is: $spaceId}}) {
+        nodes {id entityId typeId toEntityId position}
+        pageInfo {hasNextPage}
+      }
+    }
+    pageInfo {hasNextPage endCursor}
+  }
+}

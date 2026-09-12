@@ -1,0 +1,500 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Workforce agencies should expand Year Up-style training and internships when they can sustain the long-run earnings gains shown in the PACE trial.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Year Up’s PACE trial found sustained seven-year earnings gains, while its employment-rate result was null and its cost-benefit analysis remains separately modeled. Expansion depends on retaining the multi-site program model and employer partnerships studied.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "723f69d42fc64f7ba3f502091f6c3efa"
+    },
+    "entity": {
+      "$bytes": "199148d94a3b439eb555978d039d63ff"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a092k"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e7c2b57c281043ef830d3946900ed7f8"
+    },
+    "entity": {
+      "$bytes": "7ab1d9cffeb047ff8255bdfe82789252"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "ce3170d43bfc4a98ba1594ebc591e6d7"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07Z3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c97c7d65994d4d5391e83b4c9ed7a976"
+    },
+    "entity": {
+      "$bytes": "a914ff2d39b64d00b12052d54a0cc8f1"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "3d4ce15a3f0143f68e184c28cb5e1f0d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a02Ug"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f920b8b124d4431ebe0c639eb837ce8d"
+    },
+    "entity": {
+      "$bytes": "1fb0ffa8582b4676974c7c517592b0ff"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "0fcab324442f45fdb0b7fc4137bf356e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a058J"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "f56d4f9454084a0984b363b3c3b990e7"
+    },
+    "entity": {
+      "$bytes": "f7f3946db65744a5885babb56fb4fa8b"
+    },
+    "from": {
+      "$bytes": "0fcab324442f45fdb0b7fc4137bf356e"
+    },
+    "to": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a09qY"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eb8b2b4d50cb4346b8d17f063c4ec915"
+    },
+    "entity": {
+      "$bytes": "0d093d1e5d2c4c77bd6cfa92a39f8c88"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "4f3a6e9d4f5b4bea8cb0860ba3862e0b"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08AA"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2c3d7e74aa3d4cd7af91e658c29a45d4"
+    },
+    "entity": {
+      "$bytes": "f2b6acee9f8b4245893fa37f92ae1fff"
+    },
+    "from": {
+      "$bytes": "4f3a6e9d4f5b4bea8cb0860ba3862e0b"
+    },
+    "to": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01SM"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9e74521a5c8a493493a90589102b2d42"
+    },
+    "entity": {
+      "$bytes": "1be6f6dfc1524a0fa1a7fa70a8d26f16"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "c850a70940474341a68c59f30f8d8ca1"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Blm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b6d0e67743844b6bae238fa5e25f63d2"
+    },
+    "entity": {
+      "$bytes": "c14f1a8d6da14cdf8db4ca9f911f1452"
+    },
+    "from": {
+      "$bytes": "c850a70940474341a68c59f30f8d8ca1"
+    },
+    "to": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04mg"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "500c7f32ea044a23bda8985aca16c86c"
+    },
+    "entity": {
+      "$bytes": "85762db2bc904d3db3089e9f66006572"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "3cbff739eff3451aac2a51bbb0f64db6"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04B1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4d34bd36b1d3427e8ecb8d3dceb87681"
+    },
+    "entity": {
+      "$bytes": "45fa3c307f194ab0ab18fc6abb063ea0"
+    },
+    "from": {
+      "$bytes": "3cbff739eff3451aac2a51bbb0f64db6"
+    },
+    "to": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08Ar"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ade3e0d64b094adabb2fa1f1df4dc0df"
+    },
+    "entity": {
+      "$bytes": "0fc5e611849b4c0891e00ae1649de092"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "11b997b05bdb47e9a4c58a64f35c9813"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a04pG"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "484377b5e21541b68f47166babb7b848"
+    },
+    "entity": {
+      "$bytes": "8609e58fdf554d5db1b0300f356dc9c0"
+    },
+    "from": {
+      "$bytes": "11b997b05bdb47e9a4c58a64f35c9813"
+    },
+    "to": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a081O"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4c7be683b9c242bcadc948ac22f46b50"
+    },
+    "entity": {
+      "$bytes": "7c4fbeacfac248e6a8e82d4aff0c1e20"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "896290633d4f41289fb8bfebb2bd914d"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08wK"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e74fc2a24eac4996b031df2865846349"
+    },
+    "entity": {
+      "$bytes": "ed80b34d69a84767b3eb62079b557f74"
+    },
+    "from": {
+      "$bytes": "896290633d4f41289fb8bfebb2bd914d"
+    },
+    "to": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a07At"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "83c2e69308c04d7f83444f5f41cfb936"
+    },
+    "entity": {
+      "$bytes": "6e90aa6a2a2f4c05ac0124a6b5a85976"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "c780662e4ac6467b846943dccf0a7308"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a01wX"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "46e51285b6d4476ebbdb1e68fcb56c54"
+    },
+    "entity": {
+      "$bytes": "b9d9a5fbaaa744338b871cdea34df872"
+    },
+    "from": {
+      "$bytes": "c780662e4ac6467b846943dccf0a7308"
+    },
+    "to": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a08ug"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b82db7d929d14a10a2d210fddc02e308"
+    },
+    "entity": {
+      "$bytes": "81d6d700935d48c69593e702c3f773f1"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "0fcab324442f45fdb0b7fc4137bf356e"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a06lL"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "11bf00eab6b84ca29cbc53cf1a48b1b6"
+    },
+    "entity": {
+      "$bytes": "faa63195178f4d5cbe427b9676083d37"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "4f3a6e9d4f5b4bea8cb0860ba3862e0b"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a07b3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "32045d9d9c644cffae76533a8959a7b6"
+    },
+    "entity": {
+      "$bytes": "c83b28100a9844529773fe1b3d4e0ed4"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "c850a70940474341a68c59f30f8d8ca1"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a00UH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "bb9886cf4ee34234b10d32d894f94e0a"
+    },
+    "entity": {
+      "$bytes": "ab58fce5ba0649999196ac0e79c0cba8"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "3cbff739eff3451aac2a51bbb0f64db6"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a08Yu"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c1c177b7fe03426790a906d96662e570"
+    },
+    "entity": {
+      "$bytes": "a5c79c0ffa9a4412b7b1844e697a9746"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "11b997b05bdb47e9a4c58a64f35c9813"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a0BtU"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "39e0ed1ff97f4087bc39cf8bd7def77e"
+    },
+    "entity": {
+      "$bytes": "a5ec6cf7b1904e21b1f3d55626dfb769"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "896290633d4f41289fb8bfebb2bd914d"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a06eS"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fb654fd5488747a2ad4b5b392046ae34"
+    },
+    "entity": {
+      "$bytes": "8554812b9eea42b1a5ddafc064a08eb4"
+    },
+    "from": {
+      "$bytes": "3211d1b55694499884822c26c8c45c71"
+    },
+    "to": {
+      "$bytes": "c780662e4ac6467b846943dccf0a7308"
+    },
+    "relationType": {
+      "$bytes": "4e6ec5d14292498a84e5f607ca1a08ce"
+    },
+    "position": "a05Zh"
+  }
+]

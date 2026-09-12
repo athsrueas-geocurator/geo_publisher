@@ -1,0 +1,13 @@
+# Opening Doors Learning Communities at Kingsborough, six-year follow-up
+
+Primary source: MDRC, *Commencement Day: Six-Year Effects of a Learning Community Program at Kingsborough Community College* (2012), https://www.mdrc.org/work/publications/commencement-day.
+
+The Kingsborough Opening Doors Learning Communities program is one site in MDRC’s wider Opening Doors work, not the same intervention as every later Learning Communities Demonstration site. The source describes a randomized comparison of enhanced learning communities—linked classes, enhanced counseling and tutoring, and textbook vouchers—against Kingsborough’s standard courses and services.
+
+The full primary report confirms that **35.9%** of the program group and **31.3%** of the control group earned a degree at any institution after six years, a **4.6-percentage-point** difference (SE 2.7; total N=1,534, 769/765; Appendix Table C.8, printed p. 79 / PDF p. 102). Table 5.3 reports a six-year total education cost of $33,990 per program member and $30,410 per control member, a **$3,580 net education cost per program-group member**; its cost per degree is $94,680 versus $97,160, a **$2,480 lower program-group cost per degree** (all 2011 dollars; printed p. 50 / PDF p. 73). These are source accounting outputs tied to the study’s group totals, degree rates, CUNY financial data, and the six-year horizon. Publish them as typed cost/cost-per-degree observations with those qualifiers; do not transform them into a benefit-cost ratio, a general savings claim, or values for other Opening Doors or Learning Communities trials.
+
+Required Geo package: exact Article and Initiative identity discovery across spaces; source-specific RCT design claim; six-year degree-attainment claim with exact table values; separately typed cost/cost-per-degree row only after table verification; Population and Design facets; a nonfactual policy parent with linked gains and study-specific limitations; Article-filtered dashboard contract; bounty link and live verification.
+
+## Geography completion — 2026-09-12
+
+The report identifies Kingsborough Community College in Brooklyn, New York City. The package reuses canonical New York City `deaa7d31c1e569ec5d9f27ae307f08cb` from Geo's Geography space after confirming its City type and existing New York/United States hierarchy. The Article, Initiative, design, degree, net-cost, and cost-per-degree records now carry destination-scoped Location links to that City. This is study geography only: it does not create a college entity, infer a campus coordinate, or claim a public service stop or outreach route.

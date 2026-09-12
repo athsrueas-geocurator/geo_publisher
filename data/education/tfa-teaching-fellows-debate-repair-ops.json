@@ -1,0 +1,110 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "321739d33c604a159bc3f11842f0eafb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Districts should evaluate alternative-route teacher pipelines separately rather than generalize results from one program to another.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This randomized evaluation found a positive Teach For America comparison and null average Teaching Fellows comparisons. Each program was compared with its own teachers in the same courses and schools, not directly with the other program.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "deleteRelation",
+    "id": {
+      "$bytes": "13bfe9a91f254faf9fd2c589d70519e1"
+    }
+  },
+  {
+    "type": "deleteRelation",
+    "id": {
+      "$bytes": "4a77747be7b042bea810bbf9ab8109da"
+    }
+  },
+  {
+    "type": "deleteRelation",
+    "id": {
+      "$bytes": "dcbb299021c4453cba1bac3d43c64220"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e44d06438642462b91df676dda739aed"
+    },
+    "entity": {
+      "$bytes": "af5dcfdaa210419091992a51c51d0459"
+    },
+    "from": {
+      "$bytes": "321739d33c604a159bc3f11842f0eafb"
+    },
+    "to": {
+      "$bytes": "2884a49085ee49caa8d2d916c7cd1dfe"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a05lP"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3acb517ac8914095a4e1973d440e0eab"
+    },
+    "entity": {
+      "$bytes": "3b97b2a5236242378d6d2b0d00ba8913"
+    },
+    "from": {
+      "$bytes": "321739d33c604a159bc3f11842f0eafb"
+    },
+    "to": {
+      "$bytes": "ae115caedc1d40079cb88cdc680c71c8"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a0Aez"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ab000e0fae23418681d73561e4e1abd0"
+    },
+    "entity": {
+      "$bytes": "4071b6c3570b4b4eb6368a26803181c5"
+    },
+    "from": {
+      "$bytes": "321739d33c604a159bc3f11842f0eafb"
+    },
+    "to": {
+      "$bytes": "d7993ccda23842c6976de0dc7abe47a6"
+    },
+    "relationType": {
+      "$bytes": "1dc6a843458848198e7a6e672268f811"
+    },
+    "position": "a09qC"
+  }
+]

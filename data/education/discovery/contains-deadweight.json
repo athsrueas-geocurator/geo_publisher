@@ -1,0 +1,29 @@
+{
+  "term": "Deadweight",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; substring case-insensitive primary name",
+  "checkedAt": "2026-09-11T20:03:27.350Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "fb39b307e382402caf704db380f8afde",
+      "name": "Vessels passing through the Strait of Hormuz moved only about 515,000 deadweight tons in the 24 hours before May 12, 2026, compared to a normal 10.3 million",
+      "description": null,
+      "spaceIds": [
+        "89bd89bf28ff8a0963faf92a8c905e20"
+      ],
+      "types": [
+        {
+          "id": "96f859efa1ca4b229372c86ad58b694b",
+          "name": "Claim"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmIzOWIzMDctZTM4Mi00MDJjLWFmNzAtNGRiMzgwZjhhZmRlIl1d"
+    }
+  ]
+}

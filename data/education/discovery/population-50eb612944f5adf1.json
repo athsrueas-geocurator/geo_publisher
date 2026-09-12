@@ -1,0 +1,77 @@
+{
+  "term": "Population",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T21:50:45.143Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "08a0ff3c10e348c5afad9efe6dadf2fb",
+      "name": "Population",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "95930302f7294124a85db5ab33c8ad38",
+      "name": "Population",
+      "description": "Demographic group defined by age, sex, or physiological status used to stratify reference ranges.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546",
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "c6b263ea84974485a66d87b96a402e1f",
+      "name": "Population",
+      "description": "Total population count.",
+      "spaceIds": [
+        "84a679ce188f061ac9a92380bac2bab5"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "f421059f40114ab1a5a2abba6e1cf395",
+      "name": "Proposal f421059f-4011-4ab1-a5a2-abba6e1cf395",
+      "description": "System entity for proposal f421059f-4011-4ab1-a5a2-abba6e1cf395 in space 44eb138f-564f-bed6-ed9c-e543de1b849c",
+      "spaceIds": [
+        "e01507b1bd7cb04c074ae8f52196096d",
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ],
+      "types": [
+        {
+          "id": "490a7c90ad4b4029b2b4d85d22fe203a",
+          "name": "Proposal"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjQyMTA1OWYtNDAxMS00YWIxLWE1YTItYWJiYTZlMWNmMzk1Il1d"
+    }
+  ]
+}

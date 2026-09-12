@@ -1,0 +1,137 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "547924b539e241d997f47963941b4367"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "What Works Clearinghouse",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "What Works Clearinghouse follows a nationally representative kindergarten cohort from 2010 through fifth grade. It supports weighted descriptive and developmental context; it does not by itself estimate an initiative’s effect.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://ies.ed.gov/ncee/wwc/",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "8502d253b85a4054803d5e880bd00dbe"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "What Works Clearinghouse catalog metadata",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Catalog metadata\n\n- **Steward:** National Center for Education Statistics.\n- **Access:** Public-use custom extracts through NCES DataLab; restricted-use files require a license.\n- **Unit:** Reviewed intervention or study.\n- **Coverage:** Continuously updated repository.\n- **Geography:** Study-dependent.\n- **Join keys:** Student record, wave, permitted school record, and survey weight.\n- **Measures:** Study quality, outcome domain, effect direction, and evidence tier.\n- **Appropriate uses:** Study-quality normalization and evidence discovery.\n\nUse NCES weights and cohort-specific documentation. Public-use identifiers are suppressed, and What Works Clearinghouse is observational longitudinal data, so causal initiative evaluation requires a separate credible design.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ff649eda1bd64439bfa411aa1dd0f92f"
+    },
+    "entity": {
+      "$bytes": "b6b89348eaac41da911bd418d924eeb7"
+    },
+    "from": {
+      "$bytes": "547924b539e241d997f47963941b4367"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a07cc"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "76f390bb52a541c5a993da3e6b81d5f9"
+    },
+    "entity": {
+      "$bytes": "136891b70e9d49cf9e71cfda0a612598"
+    },
+    "from": {
+      "$bytes": "8502d253b85a4054803d5e880bd00dbe"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00Pm"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b939db5b28394233b4cc7c4e13120fea"
+    },
+    "entity": {
+      "$bytes": "8de4bcc8b75044a3babbcbed43ac014c"
+    },
+    "from": {
+      "$bytes": "547924b539e241d997f47963941b4367"
+    },
+    "to": {
+      "$bytes": "8502d253b85a4054803d5e880bd00dbe"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a06Qf"
+  }
+]

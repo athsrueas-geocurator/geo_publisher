@@ -1,0 +1,22 @@
+{
+  "name": "Add MSSI randomized outcomes and real-dollar cost analysis",
+  "spaceId": "dac259bad48a11adf97fe36857d85206",
+  "bounty": "debce2de46094f299ee8e89fe244a9dc",
+  "opsPath": "data/education/mssi-2023-ops.json",
+  "sha256": "0071802d2c655a38114d92b09ca8dd5768a0c9dcf8dc05788c91066ae0506b64",
+  "journalPath": "data/education/mssi-2023-publication.json",
+  "validationPath": "data/education/mssi-2023-validation.json",
+  "entities": {
+    "article": "4eb6ce035ec046b59e29ac3a49cac986",
+    "initiative": "a68db5eefb7c442dbd3aee5d25ebc27d",
+    "claims": {
+      "design": "037750baacc64cf9ad9f52926edd7954",
+      "cost": "e7e548bbaef44881abdb9d71a82a474b",
+      "acdv-enrollment": "55b95943730d4330be8752d6d7486164",
+      "acdv-pass": "c59ad64b84cc41bd98b184962149fd6c",
+      "credits": "f2b1c830cfee4f45aa609ea038a9ecdd",
+      "later-grades": "025a37856a9b4f3fb5b212cd97e983ea"
+    }
+  },
+  "operationCount": 38
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "bb326cc9809b4bf89d161701f49b74d9"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Report of the National Reading Panel: Teaching Children to Read: Reports of the Subgroups",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A 2000 synthesis of research on reading instruction, with detailed reports from the National Reading Panel subgroups. It is background literature, not the later evaluation of Reading First funding.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.nichd.nih.gov/publications/pubs/nrp/report",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eefdd362a77141d3a4f6649a0c3aa494"
+    },
+    "entity": {
+      "$bytes": "5f03bb53fe134e84b6b5fce6921fe1c1"
+    },
+    "from": {
+      "$bytes": "bb326cc9809b4bf89d161701f49b74d9"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "01cb53238c4e4be4a824bcd6dedf6683"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "National Reading Panel: publication and scope",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Publication\n\nNational Institute of Child Health and Human Development, NIH, DHHS. April 2000. NIH publication 00-4754. The official catalog identifies this as the full subgroup report; a shorter summary and a topic findings webpage are separate presentations of the panel's work.\n\n## Scope and interpretation\n\nSynthesizes research on reading instruction across alphabetics, fluency, comprehension, teacher education and computer technology. Findings vary by instructional component, learner group and outcome.\n\nThis historical research synthesis is distinct from the later Reading First funding evaluation. Its included studies, summary report and full subgroup report are not independent program trials.\n\nThe panel's topic-specific reviews are background for reading instruction. The Reading First impact study evaluates implementation of a later funding program, not a direct replication or test of every panel finding. No pooled effect sizes from the panel report have been extracted into this dataset.\n\n## Sources\n\n[Full report and chapters](https://www.nichd.nih.gov/publications/pubs/nrp/report); [official publication catalog](https://www.nichd.nih.gov/publications/product/247); [topic findings](https://www.nichd.nih.gov/publications/pubs/nrp/findings).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5f0bc65f94d44cca88ba7736fc1ab8ad"
+    },
+    "entity": {
+      "$bytes": "f81470bfde39450fba3f44fcbb8cc5cd"
+    },
+    "from": {
+      "$bytes": "01cb53238c4e4be4a824bcd6dedf6683"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2714723e577844f0bc1bb45875e5efe8"
+    },
+    "entity": {
+      "$bytes": "e57565f43fa64c18b39a1345990e0cb0"
+    },
+    "from": {
+      "$bytes": "bb326cc9809b4bf89d161701f49b74d9"
+    },
+    "to": {
+      "$bytes": "01cb53238c4e4be4a824bcd6dedf6683"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2da206791ca340f386b59bd9c31162df"
+    },
+    "entity": {
+      "$bytes": "a7d8b83161004c2a8ccb6c83700514f6"
+    },
+    "from": {
+      "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+    },
+    "to": {
+      "$bytes": "bb326cc9809b4bf89d161701f49b74d9"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "00a867e97ad24dfaa8524febaf54b345"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Funding and local implementation\n\nReading First supported early reading curricula and materials, teacher professional development and coaching, and screening, intervention and progress monitoring. The five reading components were phonemic awareness, phonics, vocabulary, fluency and comprehension.\n\nFederal guidance established common priorities, while states and districts retained choices about materials, assessments, providers and allocation of resources. This was a funding program, not one identical curriculum delivered at every participating school.\n\n## Relationship to the evaluation\n\nThe national impact study defined treatment as receipt of Reading First funding at the school level. Its funded and comparison schools are evaluation groups, not separate national programs. The linked dataset contains the selected achievement, classroom-practice and implementation results and distinguishes adjusted impacts from actual and estimated counterfactual means.\n\nThe national program's reach differs from the evaluation sample. Matched delivery costs and a complete directory of local operators and implementations are not yet available in this dataset.\n\n## Source\n\n[Gamse and colleagues, Reading First Impact Study Final Report](https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncee/pdf/20094038.pdf), Executive Summary, printed pp. xvi-xvii (PDF pp. 17-18).\n\n## Background reading research\n\nThe [National Reading Panel subgroup report](https://www.nichd.nih.gov/publications/pubs/nrp/report) is linked as background literature on reading instruction. It synthesizes earlier studies and is distinct from the national evaluation of Reading First funding. Its findings are not additional Reading First impact estimates.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  }
+]

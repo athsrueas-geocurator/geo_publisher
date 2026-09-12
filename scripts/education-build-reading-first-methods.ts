@@ -1,0 +1,23 @@
+import {readFileSync,writeFileSync,existsSync} from 'node:fs';
+import {createHash,randomUUID} from 'node:crypto';
+import {Ops,SystemIds,type Op} from '@geoprotocol/geo-sdk';
+import {geoGraphqlRequest as gql} from '../src/geo-api-client';
+import {EDUCATION_PUBLICATION as target} from '../src/education-bounty';
+const root='data/education',prefix='reading-first-methods',read=(n:string)=>JSON.parse(readFileSync(`${root}/${n}.json`,'utf8'));
+if(existsSync(`${root}/${prefix}-publication.json`))throw new Error('Preserve submitted payload');
+const model=read('reading-first-method-model'),source='49c5d5e1679a4dbdbfd33f618f227c94';
+const registry:Record<string,string>=existsSync(`${root}/${prefix}-registry.json`)?read(`${prefix}-registry`):{};
+const id=(key:string)=>{if(!registry[key]){registry[key]=randomUUID().replaceAll('-','');writeFileSync(`${root}/${prefix}-registry.json`,JSON.stringify(registry,null,2)+'\n');}return registry[key]!;};
+const ops:Op[]=[],checks:string[]=[];const check=(pass:unknown,label:string)=>{if(!pass)throw new Error(label);checks.push(label);};
+const rel=(key:string,from:string,type:string,to:string)=>{const entityId=id(`${key}/entity`);ops.push(...Ops.relations.create({id:id(`${key}/edge`),entityId,fromEntity:from,type,toEntity:to}).ops);return entityId;};
+check(read('regression-discontinuity-alias-discovery').queries.every((q:any)=>q.complete),'Complete all-space alias discovery reviewed');
+const exact:any=await gql<any>('query($name:String!){entitiesConnection(first:10,filter:{name:{isInsensitive:$name}}){nodes{id name spaceIds}pageInfo{hasNextPage}}}',{variables:{name:model.regressionDiscontinuity.name}});check(!exact.entitiesConnection.pageInfo.hasNextPage&&!exact.entitiesConnection.nodes.length,'Exact new Topic name available across spaces');
+const topic=id('regression-discontinuity'),probe:any=await gql<any>('query($id:UUID!){entity(id:$id){name types{id}}}',{variables:{id:topic}});check(!probe.entity||(!probe.entity.name&&!probe.entity.types.length),'Persisted Topic ID unused');
+for(const [property,expected] of [[model.designProperty,'Relation'],[source,'Relation'],[SystemIds.TYPES_PROPERTY,'Relation'],[SystemIds.NAME_PROPERTY,'Text'],[SystemIds.DESCRIPTION_PROPERTY,'Text']]){const data:any=await gql<any>('query($id:UUID!){property(id:$id){dataTypeName}}',{variables:{id:property}});check(data.property?.dataTypeName===expected,`Live datatype ${property}`);}
+const targets:any=await gql<any>('query($rct:UUID!,$topic:UUID!,$study:UUID!,$space:UUID!){rct:entity(id:$rct){name types{id}}topic:entity(id:$topic){types{id}}study:entity(id:$study){name relations(first:50,filter:{spaceId:{is:$space}}){nodes{typeId toEntityId}pageInfo{hasNextPage}}}}',{variables:{rct:model.randomizedTrialId,topic:model.topicType,study:model.studyId,space:target.spaceId}});
+check(targets.rct?.name==='Randomized controlled trial'&&targets.rct.types.some((t:any)=>t.id===model.topicType),'Reuse existing cross-space RCT Topic');check(targets.topic?.types.some((t:any)=>t.id===SystemIds.SCHEMA_TYPE),'Root Topic is a Type');check(targets.study&&!targets.study.relations.pageInfo.hasNextPage,'Complete existing study relations');check(!targets.study.relations.nodes.some((r:any)=>r.typeId===model.designProperty),'No prior method links overwritten');
+ops.push(...Ops.entities.update({id:topic,name:model.regressionDiscontinuity.name,description:model.regressionDiscontinuity.description}).ops);rel('topic/type',topic,SystemIds.TYPES_PROPERTY,model.topicType);rel('topic/source',topic,source,model.articleId);
+for(const [key,to] of [['randomized',model.randomizedTrialId],['regression',topic]]){const edgeEntity=rel(`study/${key}`,model.studyId,model.designProperty,to);ops.push(...Ops.entities.update({id:edgeEntity,description:model.relationScopes[key]}).ops);rel(`scope-source/${key}`,edgeEntity,source,model.articleId);}
+const bytes=JSON.stringify(ops,(_k,v)=>v instanceof Uint8Array?{$bytes:Buffer.from(v).toString('hex')}:v,2)+'\n',sha256=createHash('sha256').update(bytes).digest('hex');
+const batch={name:'Link Reading First mixed evaluation designs with site scope',spaceId:target.spaceId,bounty:target.bountyId,opsPath:`${root}/${prefix}-ops.json`,sha256,journalPath:`${root}/${prefix}-publication.json`,validationPath:`${root}/${prefix}-validation.json`};
+writeFileSync(batch.opsPath,bytes);writeFileSync(`${root}/${prefix}-batch.json`,JSON.stringify(batch,null,2)+'\n');writeFileSync(batch.validationPath,JSON.stringify({ready:true,checkedAt:new Date().toISOString(),opsHash:sha256,checks,identity:exact.entitiesConnection,currentStudy:targets.study,topicId:topic},null,2)+'\n');console.log(JSON.stringify({operations:ops.length,checks:checks.length,topic,sha256}));

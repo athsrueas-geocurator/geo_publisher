@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-09-12T08:58:27.091Z",
+  "batchName": "Add Urban Education Data Portal catalog resource and metadata block",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 2,
+  "checks": [
+    {
+      "entityId": "aa8c1c45e8cb4a48a3375a1fc4776c2c",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "aa8c1c45e8cb4a48a3375a1fc4776c2c",
+      "propertyId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "pass": true
+    },
+    {
+      "entityId": "aa8c1c45e8cb4a48a3375a1fc4776c2c",
+      "propertyId": "412ff593e9154012a43d4c27ec5c68b6",
+      "pass": true
+    },
+    {
+      "relationId": "2955bd98d529457f9c359066c4333e96",
+      "pass": true
+    },
+    {
+      "relationId": "9a53eca10cde4b749de88b9534ac8f1d",
+      "pass": true
+    },
+    {
+      "entityId": "5a7f371a4c234c2f9834d93da8a01f6b",
+      "propertyId": "a126ca530c8e48d5b88882c734c38935",
+      "pass": true
+    },
+    {
+      "entityId": "5a7f371a4c234c2f9834d93da8a01f6b",
+      "propertyId": "e3e363d1dd294ccb8e6ff3b76d99bc33",
+      "pass": true
+    },
+    {
+      "relationId": "38ebf797acaa4f09a90140f667de9589",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

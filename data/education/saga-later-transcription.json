@@ -1,0 +1,25 @@
+{
+  "sourcePdf": "tmp/pdfs/saga-2023-appendix.pdf",
+  "sourceSha256": "de529eeb3f45251e1a78e8ea531bd5f4a35c17267ccaf85297128d271702b57a",
+  "sourceUrl": "https://www.aeaweb.org/content/file?id=18262",
+  "table": "Appendix Table 5",
+  "printedPage": "A-12",
+  "pdfPage": 13,
+  "columns": ["N", "controlMean", "itt", "ittSE", "tot", "totSE", "controlComplierMean", "fdrQ"],
+  "studies": [
+    {"study": 1, "panel": "A", "rows": [
+      {"key":"grade11-math","label":"11th Grade CPS Math Test (Study Sample Z)","unit":"study-sample standard deviations","values":["1528","0.010","0.159","0.039","0.304","0.074","-0.219","0.001"]},
+      {"key":"grade11-gpa","label":"11th Grade Math GPA","unit":"GPA points","values":["1554","2.015","0.132","0.053","0.250","0.100","1.865","0.013"]},
+      {"key":"graduated-ontime","label":"Graduated On-Time","unit":"proportion difference","values":["1819","0.752","0.001","0.017","0.001","0.037","0.779","0.972"]},
+      {"key":"graduated-ever","label":"Graduated Ever","unit":"proportion difference","values":["1825","0.832","0.004","0.015","0.008","0.033","0.871","0.815"]}
+    ]},
+    {"study": 2, "panel": "B", "rows": [
+      {"key":"grade11-math","label":"11th Grade CPS Math Test (Study Sample Z)","unit":"study-sample standard deviations","values":["1445","0.000","0.027","0.040","0.082","0.122","0.008","0.502"]},
+      {"key":"grade11-gpa","label":"11th Grade Math GPA","unit":"GPA points","values":["1465","1.964","0.082","0.053","0.242","0.156","1.808","0.121"]},
+      {"key":"graduated-ontime","label":"Graduated On-Time","unit":"proportion difference","values":["1775","0.772","0.011","0.018","0.033","0.057","0.786","0.557"]},
+      {"key":"graduated-ever","label":"Graduated Ever","unit":"proportion difference","values":["1789","0.830","-0.004","0.016","-0.011","0.052","0.861","0.831"]}
+    ]}
+  ],
+  "visualReview": "tmp/pdfs/saga-appendix-followup-13.png",
+  "notes": "Source notes retain 65 duplicate Study 2 randomizations, cluster robust SE by individual, and say students may have multiple eleventh-grade years. Do not assume a common elapsed follow-up or copy the main table's expected-grade wording without resolving this note. Graduated ever terminal date remains unresolved."
+}

@@ -1,0 +1,20 @@
+{
+  "sourceKey": "datasets/what-works-clearinghouse",
+  "checkedAt": "2026-09-11T17:58:34.620Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://ies.ed.gov/ncee/wwc/",
+      "needle": "ies.ed.gov/ncee/wwc",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

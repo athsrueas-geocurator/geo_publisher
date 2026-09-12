@@ -1,0 +1,93 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "b0305ef28312c519d954bc0efe22f013"
+        },
+        "value": {
+          "type": "text",
+          "value": "reading-first",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c9bc9c2dbc4247469bf40b4a0b6738df"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Reading First: imported Education-Initiatives overview",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Imported Education-Initiatives overview\n\nThis section preserves the source project's editorial record. Its evidence classification and tags are curated assessments, not additional experimental findings; historical period labels are not verified exact dates. Method tags describe the imported record and do not classify the entire mixed-design impact study as randomized.\n\n### Imported route slug\n\nreading-first\n\n### Source record number\n\n12\n\n### Source name\n\nReading First\n\n### Source period label\n\n2002-2008; federal grants\n\n### Source category\n\nLiteracy\n\n### Theory of action\n\nFund scientifically based reading instruction and assessment systems in high-poverty schools.\n\n### Inputs changed\n\nReading coaches, PD, K-3 curricula, assessment, instructional time\n\n### Target population\n\nK-3 students in participating schools\n\n### Evaluation designs\n\nRegression discontinuity; randomized component; implementation study\n\n### Method tags\n\nRCT; Regression discontinuity\n\n### Editorial evidence classification\n\nmixed-conditional\n\n### Outcomes measured\n\nReading comprehension, decoding, instruction time, teacher practice\n\n### Interpretation limits\n\nThe evaluation tests the federal grant implementation, not the National Reading Panel findings themselves.\n\n### Imported summary\n\nImproved some reading instruction measures but did not produce clear broad comprehension gains in the national impact study.\n\n### Source reference keys\n\nsrc-015; src-014\n\n### Source tags\n\nReading First; NCLB; literacy\n\n### Related comparison keys\n\nwhole-language-balanced-literacy-vs-phonics-science-of-reading\n\n## Provenance\n\n[Education-Initiatives source record](https://github.com/athsrueas-geocurator/Education-Initiatives/blob/3cd97449ce9ca73cccb77efe22aac69cc56131e5/content/initiatives.json), record 12, slug reading-first. Source reference keys src-015 and src-014 denote the impact report and National Reading Panel background respectively; they are not interchangeable evidence. The related comparison key names an editorial grouping, not a new causal result.\n",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "eb44e156102a4c5fb63845b40729be05"
+    },
+    "entity": {
+      "$bytes": "b43af9565e344834a8514d53ba9a8e64"
+    },
+    "from": {
+      "$bytes": "c9bc9c2dbc4247469bf40b4a0b6738df"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "65a385fd285346e2867cad7bfb55de14"
+    },
+    "entity": {
+      "$bytes": "29f29774ecf84f7aab7d767968a3b0e9"
+    },
+    "from": {
+      "$bytes": "26c06d8c6d1d42f2b87bbf3a51806a18"
+    },
+    "to": {
+      "$bytes": "c9bc9c2dbc4247469bf40b4a0b6738df"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "z1"
+  }
+]

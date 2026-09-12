@@ -1,0 +1,125 @@
+{
+  "term": "License",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T17:44:25.018Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "05174eb7058248779352b51099becb94",
+      "name": "License",
+      "description": null,
+      "spaceIds": [
+        "7f3e471787628e6861a85441b68bc6f4"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    },
+    {
+      "id": "103be122a6e0dca6dd0d8d895b8937a7",
+      "name": "License",
+      "description": "License or reuse terms recorded from the source metadata.",
+      "spaceIds": [
+        "141d3ace705feabc04d50c78bbf7226e"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "2e07dfdd8b6be8faac69cdb4e23242b0",
+      "name": "License",
+      "description": null,
+      "spaceIds": [
+        "41e851610e13a19441c4d980f2f2ce6b"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "4fce114e94eb4e79ab91daefa00fab4f",
+      "name": "License",
+      "description": null,
+      "spaceIds": [
+        "d8ba11cee21fb24628c7debc76b609c2"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "5c8938b6e2f4417ab66e6b140c1380f9",
+      "name": "License",
+      "description": "License type",
+      "spaceIds": [
+        "c45e5508572e026a7e78715e113529d1"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "6ee47752adb1e03c79d635a3dfe145b1",
+      "name": "License",
+      "description": "AI Music ontology field for license; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "ebfdd739827b6829540383eb315a43bd",
+      "name": "License",
+      "description": "Software, dataset, model, content, API, commercial, or rights license. Required: name, description, license_category, source, license_scope, rights_basis, review_status, as_of_date. Recommended: license_url, version, permissions, restrictions, commercial_use. Publish tier: secondary_browse.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        },
+        {
+          "id": "e7d737c536764c609fa16aa64a8c90ad",
+          "name": "Type"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiNWM4OTM4YjYtZTJmNC00MTdhLWI2NmUtNmIxNDBjMTM4MGY5Il1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZWJmZGQ3MzktODI3Yi02ODI5LTU0MDMtODNlYjMxNWE0M2JkIl1d"
+    }
+  ]
+}

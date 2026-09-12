@@ -1,0 +1,188 @@
+{
+  "data": {
+    "valuesConnection": {
+      "nodes": [
+        {
+          "entity": {
+            "id": "1577e86142964c9484c92cf079e330e1",
+            "name": "Pmid"
+          },
+          "text": "https://pubmed.ncbi.nlm.nih.gov/{value}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "86bea8212d4a0320802e6447ea90de8d",
+            "name": "Reactome ID"
+          },
+          "text": "https://reactome.org/content/detail/{}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "33b8212a6fff67bb5b8ef19c9befb1a7",
+            "name": "Annual revenue"
+          },
+          "text": "$0,0",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "6b173701c6a7138ca3bbc1168f29ea02",
+            "name": "OMIM number"
+          },
+          "text": "https://www.omim.org/entry/{}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "e07304303e18a0f261f8a73c1ab50967",
+            "name": "UniProt ID"
+          },
+          "text": "https://www.uniprot.org/uniprot/{}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "e142c01d5d7a2a1eae85ebc34473ac1b",
+            "name": "DrugBank ID"
+          },
+          "text": "https://go.drugbank.com/drugs/{}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "5b04e4d2acebda15c7221ab7f75c1804",
+            "name": "EMA approved"
+          },
+          "text": "yyyy-MM-dd",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "22de56df9361633b90a7042d5ff2d663",
+            "name": "LOINC code"
+          },
+          "text": "https://loinc.org/{}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "8b4db3abae7eb58a13782c5b8fa16dd3",
+            "name": "FDA approved"
+          },
+          "text": "yyyy-MM-dd",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "d2e3e79b23ebd76a973b25bd5541fc01",
+            "name": "Procedure duration"
+          },
+          "text": "0 min",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "f5fab8f6da9a6510e717cc94b380e893",
+            "name": "Recovery time"
+          },
+          "text": "0 days",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "32064f95b47943a25637f3d3e459cd47",
+            "name": "Orphanet ID"
+          },
+          "text": "https://www.orpha.net/en/disease/detail/{}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "61f0a4544f3ff3eeabb57b260e9a6043",
+            "name": "ICD-10 code"
+          },
+          "text": "https://icd.who.int/browse10/2019/en#/{}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "09e18a7032668cfc5faada6f0620b70e",
+            "name": "KEGG ID"
+          },
+          "text": "https://www.genome.jp/entry/{}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "706779bf537744a68694ea06cf87a3a2",
+            "name": "Source"
+          },
+          "text": "",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "47ab0f9ca064faba11942aeeba71488d",
+            "name": "PDB ID"
+          },
+          "text": "https://www.rcsb.org/structure/{}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "299f3390c70156256787f0d98dd08cce",
+            "name": "CPT code"
+          },
+          "text": "https://www.aapc.com/codes/cpt-codes/{}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "bf0249bb71924460bfe6b35394ed0781",
+            "name": "Sample size"
+          },
+          "text": ",?",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "fd06e0c93a320e696c99fb16def0df9f",
+            "name": "ICD-11 code"
+          },
+          "text": "https://icd.who.int/browse/2024-01/mms/en#{}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "018652603ec74ce18abbc5aff4b74a37",
+            "name": "HCPCS Level II code URL"
+          },
+          "text": "https://www.aapc.com/codes/hcpcs-modifiers/{value}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "5c9091d2e88bbd76b20bdfca78e8b76e",
+            "name": "Mortality rate"
+          },
+          "text": "0.0%",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        },
+        {
+          "entity": {
+            "id": "510d9af3255152a866ea5de1cfcb0e85",
+            "name": "NCT ID"
+          },
+          "text": "https://clinicaltrials.gov/study/{}",
+          "spaceId": "52c7ae149838b6d47ce0f3b2a5974546"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjcyNWRjNjUtM2RjNS1jY2YzLWY3MjUtZGM2NTNkYzVjY2YzIl1d"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "sourceKey": "datasets/crdc",
+  "checkedAt": "2026-09-11T17:55:57.488Z",
+  "scope": "all spaces; URL host/path or DOI substring in text values; no property restriction",
+  "probes": [
+    {
+      "url": "https://ocrdata.ed.gov/",
+      "needle": "ocrdata.ed.gov",
+      "complete": true,
+      "nodes": [],
+      "pages": [
+        {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      ]
+    }
+  ],
+  "decision": "unresolved"
+}

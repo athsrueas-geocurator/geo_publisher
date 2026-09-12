@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-09-12T12:21:19.464Z",
+  "batchName": "Make the IMPACT DOI resolve to its official DOI URL",
+  "scope": "All supplied batch values and relation IDs/endpoints/positions in the destination space, executed proposal, indexed bounty link",
+  "entityCount": 1,
+  "checks": [
+    {
+      "entityId": "049614ea288941cabd7aed7bc67bf596",
+      "propertyId": "7cb59354e30c48119e99ff62fcf61646",
+      "pass": true
+    },
+    {
+      "requirement": "Proposal executed",
+      "pass": true
+    },
+    {
+      "requirement": "Bounty link indexed",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

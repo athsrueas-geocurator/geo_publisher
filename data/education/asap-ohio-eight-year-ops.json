@@ -1,0 +1,726 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2dbe6ce279734000bf3d2ef69f71764c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "From Learning to Earning: Eight-Year Findings from the ASAP Ohio Demonstration",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "MDRC’s eight-year randomized follow-up of ASAP-model programs at three Ohio community colleges.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/learning-earning",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "697b9e09cf504b52b157721dc644b7e1"
+    },
+    "entity": {
+      "$bytes": "d0eb56e5c88d456dae0dc522fe1a25c5"
+    },
+    "from": {
+      "$bytes": "2dbe6ce279734000bf3d2ef69f71764c"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a09Sv"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "f0feb20028b140a18d433bec8dca94f8"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ASAP Ohio Demonstration comprehensive community-college support",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A three-college Ohio replication of the CUNY ASAP model, providing financial, academic, advising, tutoring, career, and scheduling supports to eligible full-time students.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://www.mdrc.org/work/publications/learning-earning",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "996f7b1edf3f435b8addaac255ab6ec7"
+    },
+    "entity": {
+      "$bytes": "31e08f2ef5f94f22a40b94bfc51d8c46"
+    },
+    "from": {
+      "$bytes": "f0feb20028b140a18d433bec8dca94f8"
+    },
+    "to": {
+      "$bytes": "d272f19cef87485fb83e26fb68957395"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0CKN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "742517d0d7704ffd9c6098cc3c70fad7"
+    },
+    "entity": {
+      "$bytes": "d7995551da2b40209f5bbe6b7cd6e397"
+    },
+    "from": {
+      "$bytes": "f0feb20028b140a18d433bec8dca94f8"
+    },
+    "to": {
+      "$bytes": "2dbe6ce279734000bf3d2ef69f71764c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a03qN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "306c14bcd7d14b53b91afc9346cc750a"
+    },
+    "entity": {
+      "$bytes": "546d678e72dc4419b8d52b5cded43ec5"
+    },
+    "from": {
+      "$bytes": "f0feb20028b140a18d433bec8dca94f8"
+    },
+    "to": {
+      "$bytes": "2dbe6ce279734000bf3d2ef69f71764c"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a002h"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "2361bf1c97df4680a81e9927739f6c69"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The ASAP Ohio Demonstration randomly assigned 1,501 low-income community-college students to program or usual services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The 2015–2016 Ohio replication covered Cincinnati State, Cuyahoga, and Lorain County community colleges. The program group had 806 students and the control group had 695; this is a replication of the CUNY ASAP model, not the original New York City trial.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "pp. 2–3.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "71c53f609dd34904b3930780a62ab9e1"
+    },
+    "entity": {
+      "$bytes": "e121686d6dc64899b377a908d84c96bc"
+    },
+    "from": {
+      "$bytes": "2361bf1c97df4680a81e9927739f6c69"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01qF"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b5ff59974913484fa9241a2de1326406"
+    },
+    "entity": {
+      "$bytes": "47d61fca88444978b401a0c60489d8d9"
+    },
+    "from": {
+      "$bytes": "2361bf1c97df4680a81e9927739f6c69"
+    },
+    "to": {
+      "$bytes": "2dbe6ce279734000bf3d2ef69f71764c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a04wH"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "be2ba54d62e24209aa880aeca0700f0d"
+    },
+    "entity": {
+      "$bytes": "9bddf6105f054d72a2289518a683287f"
+    },
+    "from": {
+      "$bytes": "2361bf1c97df4680a81e9927739f6c69"
+    },
+    "to": {
+      "$bytes": "f0feb20028b140a18d433bec8dca94f8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Bwz"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "3cfb004b3eac486ba4ac5963e8c13e9b"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "After eight years, ASAP Ohio increased degree receipt by 15 percentage points (46% versus 31%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "This full-sample randomized estimate covers degree receipt after eight years. It is evidence from the Ohio replication and must remain distinct from the original CUNY trial’s completion outcomes.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure 1 and Eight-Year Follow-Up; pp. 3–4.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "15"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in degree receipt after eight years, Ohio ASAP programs minus usual services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1501"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "3a2fcf1b381e47a1a60213641b9a34bf"
+    },
+    "entity": {
+      "$bytes": "793344361d2a471f80041d5b4ae07166"
+    },
+    "from": {
+      "$bytes": "3cfb004b3eac486ba4ac5963e8c13e9b"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02Rf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "26abbedf718b4a47969e4278bdb6fd50"
+    },
+    "entity": {
+      "$bytes": "27f188bfa7e04de4a24deccd86a4c37f"
+    },
+    "from": {
+      "$bytes": "3cfb004b3eac486ba4ac5963e8c13e9b"
+    },
+    "to": {
+      "$bytes": "2dbe6ce279734000bf3d2ef69f71764c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a06pW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "924e0fccb1704c3c8bc5c6f2d96cef9c"
+    },
+    "entity": {
+      "$bytes": "bd12258777254e23ad6a62ac0bfa5129"
+    },
+    "from": {
+      "$bytes": "3cfb004b3eac486ba4ac5963e8c13e9b"
+    },
+    "to": {
+      "$bytes": "f0feb20028b140a18d433bec8dca94f8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0ApJ"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "d0ed7feb162648238b682bed38f2e20d"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "After eight years, ASAP Ohio increased bachelor’s-degree receipt by 6.2 percentage points (17.6% versus 11.4%).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report treats bachelor’s-degree attainment as an exploratory outcome for the randomized Ohio replication. Ohio ASAP support ended at transfer, so this finding does not measure direct four-year-college services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Eight-Year Follow-Up; printed p. 4 / PDF p. 5.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -3,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "62"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "Percentage-point difference in bachelor’s-degree receipt after eight years, Ohio ASAP programs minus usual services.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1501"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "fde8a4379eb94187b614107aedbfdafb"
+    },
+    "entity": {
+      "$bytes": "073cc5ac065447a7898335e261716971"
+    },
+    "from": {
+      "$bytes": "d0ed7feb162648238b682bed38f2e20d"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a0BQz"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2008b5bc49c547ebb6f17a2650600ae4"
+    },
+    "entity": {
+      "$bytes": "3d6ee7acb1934533bf4fa7e08e1960cc"
+    },
+    "from": {
+      "$bytes": "d0ed7feb162648238b682bed38f2e20d"
+    },
+    "to": {
+      "$bytes": "2dbe6ce279734000bf3d2ef69f71764c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01uN"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ef8705f9f8dd433dbda79c18403147ae"
+    },
+    "entity": {
+      "$bytes": "3db04fa052d441c1ab62cc5087f2afda"
+    },
+    "from": {
+      "$bytes": "d0ed7feb162648238b682bed38f2e20d"
+    },
+    "to": {
+      "$bytes": "f0feb20028b140a18d433bec8dca94f8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a06J0"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6484637afbca49e9a67a24b3bf7bfd1f"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "In year eight, ASAP Ohio increased average annual earnings by $3,337 ($27,934 versus $24,596).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "The report’s Ohio unemployment-insurance wage-record analysis includes 1,482 of 1,501 randomized students and omits wages earned outside Ohio. The source does not state a price year, so this dollar difference is not normalized or used as a benefit-cost measure.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Figure 2 and Growing Gains in Annual Earnings; printed pp. 5–6 / PDF pp. 6–7.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "e500e2585a964d2c9df4a47b199616c3"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "3337"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD difference in average annual earnings in year eight, Ohio ASAP programs minus usual services; price year not stated.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "210e9b352b454d6eb7a32906d24d3c8d"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "1482"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a39a33ffef664297a8f134b117e84dd3"
+    },
+    "entity": {
+      "$bytes": "97a42c622324435abc955dadd7db71d3"
+    },
+    "from": {
+      "$bytes": "6484637afbca49e9a67a24b3bf7bfd1f"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02dh"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e20c633a8ffb49d38e81a64d0e2a3164"
+    },
+    "entity": {
+      "$bytes": "ebd5fe4dcf4c4c94bdaf29e05880381c"
+    },
+    "from": {
+      "$bytes": "6484637afbca49e9a67a24b3bf7bfd1f"
+    },
+    "to": {
+      "$bytes": "2dbe6ce279734000bf3d2ef69f71764c"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0B1Y"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2ecc7913091c44959a09a01351dfac66"
+    },
+    "entity": {
+      "$bytes": "fa0445c287a249cba8f2ec6bf4f71080"
+    },
+    "from": {
+      "$bytes": "6484637afbca49e9a67a24b3bf7bfd1f"
+    },
+    "to": {
+      "$bytes": "f0feb20028b140a18d433bec8dca94f8"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0Bg1"
+  }
+]

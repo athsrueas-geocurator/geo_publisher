@@ -1,0 +1,29 @@
+{
+  "term": "poverty",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T18:31:40.593Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "077a04ff66544d1aaf970e27438a4ed3",
+      "name": "Poverty",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiMDc3YTA0ZmYtNjY1NC00ZDFhLWFmOTctMGUyNzQzOGE0ZWQzIl1d"
+    }
+  ]
+}

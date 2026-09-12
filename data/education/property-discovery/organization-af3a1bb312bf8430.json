@@ -1,0 +1,120 @@
+{
+  "term": "organization",
+  "checkedAt": "2026-09-11T21:49:14.902Z",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; Property type; case-insensitive name substring; cursor pagination",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "1d991c4ba4cfddcf78c8399da4d8200b",
+      "name": "Collaborating organization",
+      "description": "Connects a clinical trial to collaborator organizations listed by the registry.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    },
+    {
+      "id": "2338be8b932f56a5613b578a79033cc0",
+      "name": "Related organizations",
+      "description": "Nonprofits, companies, and institutions focused on this disease",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546",
+        "4582fbbee28a16589154f7e36f1ee3c5"
+      ]
+    },
+    {
+      "id": "48433769482f4a4592e84b1b0932def0",
+      "name": "Parent organization",
+      "description": null,
+      "spaceIds": [
+        "0c747ad3af58ed6b27221a256498068e"
+      ]
+    },
+    {
+      "id": "72a7da6b1ac6d5ccef93ea6df0b7aaf6",
+      "name": "Lead sponsor organization",
+      "description": "Connects a clinical trial to the organization or company listed as lead sponsor.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    },
+    {
+      "id": "7ea7b5c3b4973ea1d1ef2ce8994ef194",
+      "name": "Organization category",
+      "description": "AI Music ontology field for organization_category; data type controlled vocabulary; vocabulary OrganizationCategory; cardinality one_or_many; publish policy facet_or_required_when_present.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    },
+    {
+      "id": "9336ebf67de46e4b79957a27f04895e3",
+      "name": "Related organization",
+      "description": "Connects an event, session, or person to a relevant organization.",
+      "spaceIds": [
+        "03f7a1efafaeecaeae31a3b38fe9e446"
+      ]
+    },
+    {
+      "id": "abf5f731285c4d3ab3ed3e5d1e5fa6a8",
+      "name": "Organization type",
+      "description": null,
+      "spaceIds": [
+        "0c747ad3af58ed6b27221a256498068e"
+      ]
+    },
+    {
+      "id": "b21c7d797f01e93ddc227bb110bc5d64",
+      "name": "Donor Organizations",
+      "description": "Connects donation and top-donor relation entities to reusable donor organization entities.",
+      "spaceIds": [
+        "7788fc2b7470f47108d2c5512e6fc93e"
+      ]
+    },
+    {
+      "id": "cfe0e963a22148de9507cc8398832cdb",
+      "name": "Granting organization",
+      "description": null,
+      "spaceIds": [
+        "941964642f4d3e70ef48f54a3915277d"
+      ]
+    },
+    {
+      "id": "e8aae82d1b224851bf547f4df2dd3b42",
+      "name": "Organization",
+      "description": null,
+      "spaceIds": [
+        "44eb138f564fbed6ed9ce543de1b849c"
+      ]
+    },
+    {
+      "id": "f23242cdf224cd84483442ae1b1fe9aa",
+      "name": "Organization",
+      "description": null,
+      "spaceIds": [
+        "d69608290513c2a91102c939b3265bd7"
+      ]
+    },
+    {
+      "id": "f3a31aeee5d7095ae5fc6c953268aa5b",
+      "name": "Parent organization",
+      "description": "AI Music ontology field for parent_organization; data type TEXT.",
+      "spaceIds": [
+        "0e964b063541ae7df0f8b8365fb25882"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiN2VhN2I1YzMtYjQ5Ny0zZWExLWQxZWYtMmNlODk5NGVmMTk0Il1d"
+    },
+    {
+      "hasNextPage": true,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZThhYWU4MmQtMWIyMi00ODUxLWJmNTQtN2Y0ZGYyZGQzYjQyIl1d"
+    },
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZjNhMzFhZWUtZTVkNy0wOTVhLWU1ZmMtNmM5NTMyNjhhYTViIl1d"
+    }
+  ]
+}

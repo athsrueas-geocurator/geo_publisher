@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-09-11T23:11:20.863Z",
+  "requestedSpaceId": "f24e3bbd26304474b7e0c2a0877f4bfe",
+  "source": "User-selected destination relayed by the frontend task",
+  "readOnly": true,
+  "writesPerformed": false,
+  "space": {
+    "id": "f24e3bbd26304474b7e0c2a0877f4bfe",
+    "type": "DAO",
+    "topic": {
+      "id": "789068315729430884b1bff0dc9ac39b",
+      "name": "Public good"
+    },
+    "editors": {
+      "nodes": [
+        {
+          "editorSpaceId": "d00460c203779d21d96fcfc6102d7a72"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    "members": {
+      "nodes": [
+        {
+          "memberSpaceId": "d00460c203779d21d96fcfc6102d7a72"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    },
+    "spaceVotingSetting": {
+      "duration": "86400",
+      "quorum": "1",
+      "flatSupportThreshold": "1",
+      "disableFastPathAccessForNewMembers": true,
+      "executionGracePeriod": "1209600"
+    }
+  },
+  "limitations": [
+    "Public space identity and bounded governance membership only; current signing key and write authorization have not been checked for outreach.",
+    "Directory schema, field verification, privacy review and publication gates remain incomplete."
+  ]
+}

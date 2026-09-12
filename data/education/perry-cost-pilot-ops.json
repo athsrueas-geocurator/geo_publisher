@@ -1,0 +1,796 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Perry Preschool: costs, observed outcomes and modeled returns",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Study evidence from a preschool intervention in Ypsilanti, Michigan. Costs, descriptive outcomes and modeled economic returns retain their distinct assumptions and source context.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a5dc777f43df47a395a342d2e64e657c"
+    },
+    "entity": {
+      "$bytes": "951067b403644fea85375df6f0e7d59a"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a02dW"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "59465660a30443ad875070264612187b"
+    },
+    "entity": {
+      "$bytes": "116ab9b9f13f470cb3dad557d63dfa93"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "783f6a0c029249f9a10f73fb02a4c385"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a01Mf"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e7d0a64b059a4aa1a7aa891cb66ac94c"
+    },
+    "entity": {
+      "$bytes": "db35fa6083a04a65b3c8e79be13caa14"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "03800f1056255931508ec9648111a075"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a0Bsk"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6ed455294034412a93ca122b437d558e"
+    },
+    "entity": {
+      "$bytes": "e5e26494dea24e30a7662dfa808103d8"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a071H"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "783f6a0c029249f9a10f73fb02a4c385"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "The rate of return to the HighScope Perry Preschool Program",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "An economic analysis of the HighScope Perry Preschool experiment, published in 2010. It estimates returns while accounting for compromised randomization and uncertainty in projected outcomes.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "7cb59354e30c48119e99ff62fcf61646"
+        },
+        "value": {
+          "type": "text",
+          "value": "10.1016/j.jpubeco.2009.11.001",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "412ff593e9154012a43d4c27ec5c68b6"
+        },
+        "value": {
+          "type": "text",
+          "value": "https://jenni.uchicago.edu/Spencer_Conference/Papers%202010/Heckman_Moon_etal_2010_Rate%20of%20Return%20Perry.pdf",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "82755b0dd54c41d5944bedbb52e17142"
+    },
+    "entity": {
+      "$bytes": "0905a5bb3b19457487f540ff59f9a64b"
+    },
+    "from": {
+      "$bytes": "783f6a0c029249f9a10f73fb02a4c385"
+    },
+    "to": {
+      "$bytes": "a2a5ed0cacef46b1835de457956ce915"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a00PC"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "HighScope Perry Preschool study",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "A preschool experiment involving 123 children in Ypsilanti, Michigan during the 1960s. Subsequent reassignment compromised the initial randomization, requiring adjustment in later analyses.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "2e7f097029414c25b2eb3597092a02c4"
+    },
+    "entity": {
+      "$bytes": "4ab3e09bfaeb4aa0bdae30fce304a7a2"
+    },
+    "from": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "to": {
+      "$bytes": "3ef269bc5f114691abc02dcbf398fd63"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a04Al"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8e84b1e047b343afb1c9da94cf0c9a52"
+    },
+    "entity": {
+      "$bytes": "6ec8306fced2445e95337022ce731801"
+    },
+    "from": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "to": {
+      "$bytes": "783f6a0c029249f9a10f73fb02a4c385"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a07ut"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "98664d73c18f472eac1993abd94399ca"
+    },
+    "entity": {
+      "$bytes": "e49c4339c77641719000023a032c3173"
+    },
+    "from": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "to": {
+      "$bytes": "03800f1056255931508ec9648111a075"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a09AY"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6f68d6b9512a49148dc4a704583f1290"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Perry Preschool initial program cost: 17,759 USD per child (2006 prices)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "An undiscounted program resource cost per child, including operating expenses and classroom facilities. It is not annual expenditure or the financing-adjusted denominator for every economic scenario.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6ba2ce00db064687b108aa8449672886"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": 0,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "17759"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+        },
+        "value": {
+          "type": "integer",
+          "value": {
+            "$bigint": "2006"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+        },
+        "value": {
+          "type": "text",
+          "value": "USD",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "3a558d71454745a992c035040f648729"
+        },
+        "value": {
+          "type": "text",
+          "value": "per child for the preschool program",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "Section 3.1, printed p. 117 (PDF page 4)",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5f17ecf4717e49a5bb8ef954807af214"
+    },
+    "entity": {
+      "$bytes": "d17ddfa4c21e4d7fb59ad7459232c06f"
+    },
+    "from": {
+      "$bytes": "6f68d6b9512a49148dc4a704583f1290"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01bi"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "04136cfc124944c9bdf87e2e40ea349b"
+    },
+    "entity": {
+      "$bytes": "8308d6f02efe4bf0bdeb6c06e771460f"
+    },
+    "from": {
+      "$bytes": "6f68d6b9512a49148dc4a704583f1290"
+    },
+    "to": {
+      "$bytes": "783f6a0c029249f9a10f73fb02a4c385"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    },
+    "position": "a0BLT"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d9fff9a77cbe4b37b7af7ff44a030243"
+    },
+    "entity": {
+      "$bytes": "24c5819fe7bd42af9e00e0b49cf9caba"
+    },
+    "from": {
+      "$bytes": "6f68d6b9512a49148dc4a704583f1290"
+    },
+    "to": {
+      "$bytes": "03800f1056255931508ec9648111a075"
+    },
+    "relationType": {
+      "$bytes": "95d770021faf4f7cb7deb21a7d48cda0"
+    },
+    "position": "a0C9S"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "7379df1b75ad439b9cb378458733e43e"
+    },
+    "entity": {
+      "$bytes": "7610c77011ee459792e751eefe92e0c3"
+    },
+    "from": {
+      "$bytes": "6f68d6b9512a49148dc4a704583f1290"
+    },
+    "to": {
+      "$bytes": "415914702fcb448a991b05734a84290a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    },
+    "position": "a0BCi"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "56e05e447d394658a60590227e83ed29"
+    },
+    "entity": {
+      "$bytes": "5ba857c1b5314fce989fe15c35c40d41"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "6f68d6b9512a49148dc4a704583f1290"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    },
+    "position": "a01nA"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "598e8295c48f4cc18c4b165a68696a1c"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Program resource cost",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "de28fb083abe468aae95d44c76b8b22a"
+    },
+    "entity": {
+      "$bytes": "d73d43ae0b104765ab36b170fb5db8a9"
+    },
+    "from": {
+      "$bytes": "598e8295c48f4cc18c4b165a68696a1c"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01sD"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a8a6934cd6ca49119385abae8511c6cd"
+    },
+    "entity": {
+      "$bytes": "572773f215c84d28a61d507d89ad2fb6"
+    },
+    "from": {
+      "$bytes": "598e8295c48f4cc18c4b165a68696a1c"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    },
+    "position": "a00o4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "22087af187994c099728235faccd6e87"
+    },
+    "entity": {
+      "$bytes": "7c99ea8714fb43eab92ad80734027cb8"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "598e8295c48f4cc18c4b165a68696a1c"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "544077501942444f9b0b4133a21de51b"
+    },
+    "entity": {
+      "$bytes": "dc49ea91cf0f40d39e213f3e9c8456f7"
+    },
+    "from": {
+      "$bytes": "7c99ea8714fb43eab92ad80734027cb8"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    },
+    "position": "a01ax"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "84ff93b7e8be42b88f07375053b1b620"
+    },
+    "entity": {
+      "$bytes": "ef9cba159e31414d87edcb352cdec7f7"
+    },
+    "from": {
+      "$bytes": "7c99ea8714fb43eab92ad80734027cb8"
+    },
+    "to": {
+      "$bytes": "6ba2ce00db064687b108aa8449672886"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0c5ac163443d4942be135f9cfa1dec1c"
+    },
+    "entity": {
+      "$bytes": "256c035b917f41ca96c09c4468d0d43c"
+    },
+    "from": {
+      "$bytes": "7c99ea8714fb43eab92ad80734027cb8"
+    },
+    "to": {
+      "$bytes": "6e7371ca96cb44348f16932f77f55e75"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0fb1595dd3f44359b25f619eae5e527f"
+    },
+    "entity": {
+      "$bytes": "a0fab4b8b35e4c4cab046eb33ecbba45"
+    },
+    "from": {
+      "$bytes": "7c99ea8714fb43eab92ad80734027cb8"
+    },
+    "to": {
+      "$bytes": "97e14050fc49467bb3aaf4d7eccbbb69"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "582645ffd68f4a81b0c6f9cc6a1ea781"
+    },
+    "entity": {
+      "$bytes": "424abadc243445828b05c0ceede11c98"
+    },
+    "from": {
+      "$bytes": "7c99ea8714fb43eab92ad80734027cb8"
+    },
+    "to": {
+      "$bytes": "3a558d71454745a992c035040f648729"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6f3441747d114c22b0047c3181d3e95c"
+    },
+    "entity": {
+      "$bytes": "2ef867b265894183a27980fb48b16fc2"
+    },
+    "from": {
+      "$bytes": "7c99ea8714fb43eab92ad80734027cb8"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "428024f1aa2a4e12a8abab4045228c0e"
+    },
+    "entity": {
+      "$bytes": "e0b7b06117e24f2e9c184f04e092f3c5"
+    },
+    "from": {
+      "$bytes": "598e8295c48f4cc18c4b165a68696a1c"
+    },
+    "to": {
+      "$bytes": "6f68d6b9512a49148dc4a704583f1290"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "c712fcddf2d44901967c1fe08a1d90cb"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Cost scope and comparison limits\n\nThe reported cost is **17,759 USD per child in 2006 prices**, undiscounted for the preschool program. It includes operating expenses (teachers and administration) and capital resources (classrooms and facilities), reported from Barnett (1996) by Heckman and colleagues. It is not a per-year cost.\n\nTax-financing assumptions alter economic costs and benefits. This initial resource cost is not the denominator for every published benefit/cost scenario. No standard error is reported for this cost.\n\n## Study and evidence coverage\n\nDisadvantaged African-American children in the historical Perry study; early to mid-1960s; five entering cohorts. Children entered at age 3, with a planned 2-year intervention: 2.5-hour preschool sessions on school weekdays and weekly teacher home visits. Initial randomization was subsequently compromised by reassignment. Original sample size 123 does not establish the complete-case denominator for each outcome.\n\nObserved follow-ups and projected lifetime earnings are distinct evidence. Table 2 group means are descriptive, not adjusted causal contrasts; Table 1 economic estimates combine observations, imputations and projections through age 65.\n\nThis page currently presents the initial program cost. The extracted outcome and return tables are not yet included in this publication.\n\nSource: [The rate of return to the HighScope Perry Preschool Program](https://jenni.uchicago.edu/Spencer_Conference/Papers%202010/Heckman_Moon_etal_2010_Rate%20of%20Return%20Perry.pdf), Section 3.1, printed p. 117 (PDF page 4).",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "43d5f36dee4a48ccb544c1550152372e"
+    },
+    "entity": {
+      "$bytes": "35a002b99fb44509a61cae1e3f01f330"
+    },
+    "from": {
+      "$bytes": "c712fcddf2d44901967c1fe08a1d90cb"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a01HC"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a6fe711497354cf081ddb2bfaba10a32"
+    },
+    "entity": {
+      "$bytes": "9a2f8553f90c4509bae2d9750cac9220"
+    },
+    "from": {
+      "$bytes": "7e86c7f34c614db49497272063f43485"
+    },
+    "to": {
+      "$bytes": "c712fcddf2d44901967c1fe08a1d90cb"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "be6ba06ba5004e258087c1e53810ce1a"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Publication details\n\nJames J. Heckman; Seong Hyeok Moon; Rodrigo Pinto; Peter A. Savelyev; Adam Yavitz. Journal of Public Economics 94(1–2), 114–128 (2010).\n\nPublished DOI: 10.1016/j.jpubeco.2009.11.001. Working-paper version: https://doi.org/10.3386/w15471. Values here follow the published author-hosted PDF.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c9a28583fb9746efa7d29b53af08bfd0"
+    },
+    "entity": {
+      "$bytes": "d8190da7a36f44b0931d87c04f3b8f16"
+    },
+    "from": {
+      "$bytes": "be6ba06ba5004e258087c1e53810ce1a"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    },
+    "position": "a08sa"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c90e77ff64594cc4a7b09724f66c5a37"
+    },
+    "entity": {
+      "$bytes": "89e6a520870542119a35e110eeb9f77a"
+    },
+    "from": {
+      "$bytes": "783f6a0c029249f9a10f73fb02a4c385"
+    },
+    "to": {
+      "$bytes": "be6ba06ba5004e258087c1e53810ce1a"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0"
+  }
+]

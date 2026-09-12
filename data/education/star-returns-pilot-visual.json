@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-09-11",
+  "method": "Live in-app browser accessibility tree, tab 11 after loading",
+  "url": "https://www.geobrowser.io/space/dac259bad48a11adf97fe36857d85206/4874a8385a594633ab244f47889f9cab",
+  "passed": true,
+  "checks": [
+    "Existing scenario table remains first, followed by the new returns table and its interpretation block, then shared methods",
+    "Wage-growth fraction 0 renders as 0%",
+    "IRR fraction 0.052 renders as 5.2%",
+    "Source locator identifies the Internal Rate of Return row of Table 5",
+    "All nine visible scenario rows show price year 1998 without grouping",
+    "Dataset description remains two concise sentences"
+  ],
+  "limitations": ["Two other returns are not yet published at this pilot check", "The scenario table has two pages; this check inspected the first page"]
+}

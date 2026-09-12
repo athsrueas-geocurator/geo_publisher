@@ -1,0 +1,43 @@
+{
+  "term": "Population studied",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T17:44:24.540Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "234b4043dd564920961042f1c37bbe1f",
+      "name": "Population studied",
+      "description": "People or biological samples examined in a study, described by their relevant characteristics.",
+      "spaceIds": [
+        "e01507b1bd7cb04c074ae8f52196096d"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    },
+    {
+      "id": "aa77da401d9b4ca3b250fd24c9b8701f",
+      "name": "Population studied",
+      "description": "Identifies the participant group examined in a study, such as healthy adults, athletes, older adults, or people with specific conditions.",
+      "spaceIds": [
+        "52c7ae149838b6d47ce0f3b2a5974546"
+      ],
+      "types": [
+        {
+          "id": "808a04ceb21c4d888ad12e240613e5ca",
+          "name": "Property"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiYWE3N2RhNDAtMWQ5Yi00Y2EzLWIyNTAtZmQyNGM5Yjg3MDFmIl1d"
+    }
+  ]
+}

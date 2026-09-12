@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T16:32:23.005Z",
+  "scope": "all-spaces",
+  "sourceId": "7cf51d06726242b88157ca3ea1f5b228",
+  "claimIds": [
+    "385e7cb36c144d04b09508c0d49876a2",
+    "115917ad7cba4ee38e591b93a5c1426d",
+    "8197239bfd0f417ca57263877d8c2021"
+  ],
+  "searches": [
+    {
+      "kind": "alias",
+      "query": "The Causal Effects of Cultural Relevance: Evidence From an Ethnic Studies Curriculum",
+      "complete": true,
+      "candidates": [
+        {
+          "id": "7cf51d06726242b88157ca3ea1f5b228",
+          "name": "The Causal Effects of Cultural Relevance: Evidence From an Ethnic Studies Curriculum",
+          "description": "A fuzzy regression-discontinuity study of San Francisco’s ninth-grade ethnic-studies pilot.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "a2a5ed0cacef46b1835de457956ce915",
+              "name": "Article"
+            }
+          ],
+          "decision": "distinct",
+          "rationale": "Retain matching publication identity for explicit source/version review; it is not a result collection."
+        }
+      ]
+    },
+    {
+      "kind": "identifier",
+      "query": "7cf51d06726242b88157ca3ea1f5b228",
+      "complete": true,
+      "candidates": [
+        {
+          "id": "7cf51d06726242b88157ca3ea1f5b228",
+          "name": "The Causal Effects of Cultural Relevance: Evidence From an Ethnic Studies Curriculum",
+          "description": "A fuzzy regression-discontinuity study of San Francisco’s ninth-grade ethnic-studies pilot.",
+          "spaceIds": [
+            "dac259bad48a11adf97fe36857d85206"
+          ],
+          "types": [
+            {
+              "id": "a2a5ed0cacef46b1835de457956ce915",
+              "name": "Article"
+            }
+          ],
+          "decision": "distinct",
+          "rationale": "Retain matching publication identity for explicit source/version review; it is not a result collection."
+        }
+      ]
+    }
+  ],
+  "identitySearch": {
+    "query": "The Causal Effects of Cultural Relevance: Evidence From an Ethnic Studies Curriculum",
+    "complete": true,
+    "nodes": [
+      {
+        "id": "7cf51d06726242b88157ca3ea1f5b228",
+        "name": "The Causal Effects of Cultural Relevance: Evidence From an Ethnic Studies Curriculum",
+        "description": "A fuzzy regression-discontinuity study of San Francisco’s ninth-grade ethnic-studies pilot.",
+        "spaceIds": [
+          "dac259bad48a11adf97fe36857d85206"
+        ],
+        "types": [
+          {
+            "id": "a2a5ed0cacef46b1835de457956ce915",
+            "name": "Article"
+          }
+        ]
+      }
+    ]
+  },
+  "claimMemberships": [
+    {
+      "claimId": "385e7cb36c144d04b09508c0d49876a2",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "115917ad7cba4ee38e591b93a5c1426d",
+      "complete": true,
+      "nodes": []
+    },
+    {
+      "claimId": "8197239bfd0f417ca57263877d8c2021",
+      "complete": true,
+      "nodes": []
+    }
+  ],
+  "datasetDecision": "create",
+  "rationale": "Complete all-space source identity and incoming Collection-item queries; preserve separate RDD and expansion publication versions and keep existing Claims immutable."
+}

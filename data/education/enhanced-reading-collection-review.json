@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-12T15:58:00Z",
+  "reviewer": "publisher preparation review",
+  "planHash": "5e6594a896ab4e4049be64eb0b78764e6ac63c63fb53fcf7863843664ad3d23a",
+  "factsHash": "acad4321b4b9d7a083c164828e6ee28954e8dd362630d68f6b29bd4751e458d3",
+  "sources": [
+    {
+      "path": "docs/enhanced-reading-collection-notes.md",
+      "sha256": "927f892a1109a2d5ca9f63edcc87f5e1f5f6d2816a4160ef3bc680b26724da3e",
+      "sourceId": "0a8658cb5ae9470bacf732add8ca1803",
+      "version": "Enhanced Reading Opportunities Study Final Report"
+    }
+  ],
+  "discovery": {
+    "path": "data/education/enhanced-reading-collection-discovery.json",
+    "sha256": "3a94a61623282d5ddecd81fde454fa4e7137a9c56cd022a01d1b57f2ec714c6c"
+  },
+  "decisions": {
+    "source": {
+      "status": "accepted",
+      "rationale": "Primary study report and collection notes identify the source."
+    },
+    "identity": {
+      "status": "accepted",
+      "rationale": "Complete all-space search found no result collection and zero incoming memberships."
+    },
+    "content": {
+      "status": "accepted",
+      "rationale": "Facts preserve Claim headers, locators, sample counts and separate outcome horizons."
+    }
+  }
+}

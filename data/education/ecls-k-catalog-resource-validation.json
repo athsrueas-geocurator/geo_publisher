@@ -1,0 +1,22 @@
+{
+  "ready": true,
+  "checkedAt": "2026-09-12T10:34:54.578Z",
+  "opsHash": "a02b01c072cfd7c3e54076ebd8078b62e7f0f04ca365e917500d34d2ea99d027",
+  "checks": [
+    "Discovery report belongs to ECLS-K",
+    "Complete graph-wide title, alias, and official-URL discovery has no candidate",
+    "Live Relation property: 8f151ba4de204e3c9cb499ddf96f48f1",
+    "Live Text property: 412ff593e9154012a43d4c27ec5c68b6",
+    "Live Relation property: beaba5cba67741a8b35377030613fc70",
+    "Live Text property: e3e363d1dd294ccb8e6ff3b76d99bc33",
+    "Persistent Dataset ID is unused",
+    "Persistent metadata block ID is unused"
+  ],
+  "source": {
+    "catalogKey": "ecls-k",
+    "sourcePath": "data/education/source/research-data/dataset-catalog.json",
+    "officialUrl": "https://nces.ed.gov/ecls/",
+    "accessUrl": "https://nces.ed.gov/ecls/dataproducts.asp"
+  },
+  "scope": "Catalog metadata only. No ECLS-K microdata, derived outcome, causal claim, initiative effect, or unsupported initiative relation is published."
+}

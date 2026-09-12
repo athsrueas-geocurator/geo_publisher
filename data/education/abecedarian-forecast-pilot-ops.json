@@ -1,0 +1,583 @@
+[
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ABC/CARE: early-childhood outcomes and modeled economic returns",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Evidence from the related ABC and CARE early-childhood experiments. Observed findings and modeled economic estimates retain their separate source versions and assumptions.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "87d61a11ce2b4426b3d4562be8ee7f27"
+    },
+    "entity": {
+      "$bytes": "fca145f412b84900af108b393ecd2e24"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "0c4babfb43893486af827341bbf32e09"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "814151850e0841c5861bf9e3189a1565"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "ABC/CARE's modeled benefit/cost ratio is 7.33 for all monetized benefits over the life cycle using the authors' forecasting method.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "García and colleagues report a standard error of 1.84 for this August 2, 2018 author manuscript model estimate. It uses ABC/CARE-calculated net-present-value inputs and is not an observed lifetime return.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "733"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "cc28953bd89e406096c9627021f4713d"
+        },
+        "value": {
+          "type": "decimal",
+          "exponent": -2,
+          "mantissa": {
+            "type": "i64",
+            "value": {
+              "$bigint": "184"
+            }
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "8405509cc7354655a348591349a5f025"
+        },
+        "value": {
+          "type": "text",
+          "value": "ratio",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+        },
+        "value": {
+          "type": "text",
+          "value": "August 2, 2018 author manuscript, Table 6, printed p.32 (PDF p.34), row 6, column 5",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+        },
+        "value": {
+          "type": "text",
+          "value": "Life-cycle",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "da4a6c1f9d4446f9832ff3b49a4400ef"
+        },
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c10df60e7b884e2383e030ff0e1ea92c"
+    },
+    "entity": {
+      "$bytes": "c150ddd5b35245e8a55c32427d0728d8"
+    },
+    "from": {
+      "$bytes": "814151850e0841c5861bf9e3189a1565"
+    },
+    "to": {
+      "$bytes": "96f859efa1ca4b229372c86ad58b694b"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5e3d8b709add45a2b51a007b54b2f2ff"
+    },
+    "entity": {
+      "$bytes": "212e4e469e364a2fbce2531b2870263a"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "6a6a7e4ae1844fcd9efe7a9f03f08f9d"
+    },
+    "entity": {
+      "$bytes": "36c06c858f86449b93cb797ef5e9be81"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "ddf45d725e674787a45cd4ed7552e36f"
+    },
+    "entity": {
+      "$bytes": "83cafc9168a84600ad73484838957035"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d5a976ce375f4124b6f9460289693403"
+    },
+    "entity": {
+      "$bytes": "d6c4095764b640b08e6f7bfaee14ab9a"
+    },
+    "from": {
+      "$bytes": "814151850e0841c5861bf9e3189a1565"
+    },
+    "to": {
+      "$bytes": "ca413140fa584837a21c9eefc76e15c3"
+    },
+    "relationType": {
+      "$bytes": "49c5d5e1679a4dbdbfd33f618f227c94"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b532b76923af46ccb6dc87a3b45c49cc"
+    },
+    "entity": {
+      "$bytes": "ed00da87521a4248914587634f18fa3f"
+    },
+    "from": {
+      "$bytes": "814151850e0841c5861bf9e3189a1565"
+    },
+    "to": {
+      "$bytes": "66657d9776214aec9cf816b8d50b644a"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "8d0908521865419196ce7fb3db3fefdc"
+    },
+    "entity": {
+      "$bytes": "3f5679342c864e8caaacc1e79f492a1c"
+    },
+    "from": {
+      "$bytes": "814151850e0841c5861bf9e3189a1565"
+    },
+    "to": {
+      "$bytes": "32993a9fe1fa4d88b2c59405ccb8996e"
+    },
+    "relationType": {
+      "$bytes": "dfa6aebe1ca94bf29faccc4cc7afb24c"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0fdb4850db094d81b8c986a393c14681"
+    },
+    "entity": {
+      "$bytes": "6e2c518084e9416f9466444e25559c9a"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "814151850e0841c5861bf9e3189a1565"
+    },
+    "relationType": {
+      "$bytes": "d66cd445e09a41809af46d86f083b41c"
+    }
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "a126ca530c8e48d5b88882c734c38935"
+        },
+        "value": {
+          "type": "text",
+          "value": "Forecasting-method comparison",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      },
+      {
+        "property": {
+          "$bytes": "9b1f76ff9711404c861e59dc3fa7d037"
+        },
+        "value": {
+          "type": "text",
+          "value": "Author-reported benefit/cost ratios and standard errors from the 2018 manuscript.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "0031871aa261403183e8493b175937e4"
+    },
+    "entity": {
+      "$bytes": "2c43168524da45cb9719b048397c7cb7"
+    },
+    "from": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "to": {
+      "$bytes": "b8803a8665de412bbb357e0c84adf473"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "5173f8674bbf4dc3bac8643096d92b18"
+    },
+    "entity": {
+      "$bytes": "a5dc194c4dc34910a94d48e777599509"
+    },
+    "from": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "to": {
+      "$bytes": "1295037a5d9c4d09b27c5502654b9177"
+    },
+    "relationType": {
+      "$bytes": "1f69cc9880d444abad493df6a7b15ee4"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "d69e569bef4040d79f64188b3517d0e4"
+    },
+    "entity": {
+      "$bytes": "2a254da218704ceeb834a62e0ac2cae3"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "b3b3b82e49d04101b39cd51165d12c10"
+    },
+    "entity": {
+      "$bytes": "70cfa006bb594cb0af30378a60586e67"
+    },
+    "from": {
+      "$bytes": "2a254da218704ceeb834a62e0ac2cae3"
+    },
+    "to": {
+      "$bytes": "cba271cef7c140339047614d174c69f1"
+    },
+    "relationType": {
+      "$bytes": "1907fd1c81114a3ca378b1f353425b65"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "9aa4c44b19be4415af1966e8049f175d"
+    },
+    "entity": {
+      "$bytes": "fef8f21ff2fd4d3ba95c9a37002e9dea"
+    },
+    "from": {
+      "$bytes": "2a254da218704ceeb834a62e0ac2cae3"
+    },
+    "to": {
+      "$bytes": "45ce8dc80a74432e9a2483cd1c8e86e1"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "a137e2ccc16d400b9f05a744ab3be17c"
+    },
+    "entity": {
+      "$bytes": "1b92826ed686467da6aaf9258ca71a49"
+    },
+    "from": {
+      "$bytes": "2a254da218704ceeb834a62e0ac2cae3"
+    },
+    "to": {
+      "$bytes": "cc28953bd89e406096c9627021f4713d"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a1"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "1e10b588c57b450caa7b22a1420a5f2d"
+    },
+    "entity": {
+      "$bytes": "19735ccad59643dd99efe8c5f84e23ca"
+    },
+    "from": {
+      "$bytes": "2a254da218704ceeb834a62e0ac2cae3"
+    },
+    "to": {
+      "$bytes": "c962e0fb4a3148e5ba125144691236a8"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a2"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "202d917863ab41a7a7c56940e5b74133"
+    },
+    "entity": {
+      "$bytes": "3dafaf34d4414934a3666f329fa019e8"
+    },
+    "from": {
+      "$bytes": "2a254da218704ceeb834a62e0ac2cae3"
+    },
+    "to": {
+      "$bytes": "8405509cc7354655a348591349a5f025"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a3"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "4a73f9db61634536b3458b466d4643f7"
+    },
+    "entity": {
+      "$bytes": "40f49de0b8d644e1b35bd9508168793c"
+    },
+    "from": {
+      "$bytes": "2a254da218704ceeb834a62e0ac2cae3"
+    },
+    "to": {
+      "$bytes": "84dacbddca6a44079edb5e11a4c66b40"
+    },
+    "relationType": {
+      "$bytes": "01412f8381894ab1836565c7fd358cc1"
+    },
+    "position": "a4"
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e9b7e84466894f53aced9a3c6793972b"
+    },
+    "entity": {
+      "$bytes": "d13437c8429f4b6695da85300f473e64"
+    },
+    "from": {
+      "$bytes": "e008d34703d44c448351bd46ba87b913"
+    },
+    "to": {
+      "$bytes": "814151850e0841c5861bf9e3189a1565"
+    },
+    "relationType": {
+      "$bytes": "a99f9ce12ffa4dac8c61f6310d46064a"
+    },
+    "position": "a0"
+  },
+  {
+    "type": "updateEntity",
+    "id": {
+      "$bytes": "6cca7447555640cb911a65702a9a3eb6"
+    },
+    "set": [
+      {
+        "property": {
+          "$bytes": "e3e363d1dd294ccb8e6ff3b76d99bc33"
+        },
+        "value": {
+          "type": "text",
+          "value": "## Coverage and interpretation\n\nThe current table contains the authors' pooled life-cycle, all-benefits model estimate: benefit/cost ratio 7.33, standard error 1.84. It is one specification from Table 6 of the August 2, 2018 author manuscript, not an independent third experiment. [Source manuscript](https://cehd.uchicago.edu/wp-content/uploads/2018/08/abc_comprehensivecba_revised_2018-08-02a_jlg.pdf).\n\n## Comparison assumptions\n\nThe baseline discounts benefits and costs to birth at 3% and forecasts through age 79. The reported ratio averages bootstrap ratios; it is not necessarily the ratio of rounded aggregate means. Control childcare substitution costs enter the authors' benefits accounting. Forecasts combine experimental and nonexperimental data.\n\n## Cost caveat\n\nThe 2018 appendix's listed annual cost components do not reconcile to its reported total. Author-reported estimates are preserved; independently reconstructed cost-effectiveness rankings remain unresolved. The two underlying trials and alternate forecast specifications must not be counted as independent replications.",
+          "language": {
+            "$bytes": "090adac0fca4822e8e719263e67620ec"
+          }
+        }
+      }
+    ],
+    "unset": []
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "e226dabb98fc4b03a403c367a948387f"
+    },
+    "entity": {
+      "$bytes": "1b684bc4e05b4882a57f178ef0dc782d"
+    },
+    "from": {
+      "$bytes": "6cca7447555640cb911a65702a9a3eb6"
+    },
+    "to": {
+      "$bytes": "76474f2f00894e77a0410b39fb17d0bf"
+    },
+    "relationType": {
+      "$bytes": "8f151ba4de204e3c9cb499ddf96f48f1"
+    }
+  },
+  {
+    "type": "createRelation",
+    "id": {
+      "$bytes": "c8d86a3ee4f5460f9b78d35c7e6ef0ab"
+    },
+    "entity": {
+      "$bytes": "e924735d3bb04effbc62d7c64fb9fcab"
+    },
+    "from": {
+      "$bytes": "70b356b5a7d34c6795f25ea93cdf0305"
+    },
+    "to": {
+      "$bytes": "6cca7447555640cb911a65702a9a3eb6"
+    },
+    "relationType": {
+      "$bytes": "beaba5cba67741a8b35377030613fc70"
+    },
+    "position": "a0"
+  }
+]

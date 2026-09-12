@@ -1,0 +1,43 @@
+{
+  "term": "Nonprofit organization",
+  "endpoint": "https://api-testnet.geobrowser.io/graphql",
+  "scope": "all spaces; exact case-insensitive primary name",
+  "checkedAt": "2026-09-11T22:53:20.473Z",
+  "complete": true,
+  "nodes": [
+    {
+      "id": "9adda01ce90b43eab66d0fb118f993a0",
+      "name": "Nonprofit organization",
+      "description": null,
+      "spaceIds": [
+        "b5a31f8182b042437ede0f84ee02f104"
+      ],
+      "types": [
+        {
+          "id": "5ef5a5860f274d8e8f6c59ae5b3e89e2",
+          "name": "Topic"
+        }
+      ]
+    },
+    {
+      "id": "fa0463b9e59648df9d1f2c5982259ca9",
+      "name": "Nonprofit organization",
+      "description": "An entity incorporated for a public benefit, charitable, or social mission; legally prohibited from distributing surplus revenues to controlling members.",
+      "spaceIds": [
+        "0c747ad3af58ed6b27221a256498068e"
+      ],
+      "types": [
+        {
+          "id": "ead25ff3fe7c458aa6d6e5c44cb9e864",
+          "name": "Legal status"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "hasNextPage": false,
+      "endCursor": "WyJwcmltYXJ5X2tleV9hc2MiLFsiZmEwNDYzYjktZTU5Ni00OGRmLTlkMWYtMmM1OTgyMjU5Y2E5Il1d"
+    }
+  ]
+}
