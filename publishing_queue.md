@@ -95,6 +95,9 @@ Added at the user's request on September 11, 2026 for the smaller app-selector c
 
 These queue additions preserve the active education scope and existing order. The icons are a separate shared-app polish task, not a prerequisite for source-overlap/category visuals, an education dataset, or an automatic education-bounty submission. Frontend renderer work belongs to GeoCompanion; publisher work ends at verified Geo records and indexed receipts.
 
+## Reconciliation checkpoint — September 14
+
+Fresh read-only reconciliation is recorded in [publisher-reconciliation-checkpoint-2026-09-14.md](docs/publisher-reconciliation-checkpoint-2026-09-14.md). The ledger preserves 172 verified original fields of 2,772; the newly refreshed Question report confirms that all 21 published Questions still need source-aware relationship, assessment and continuum review. The 36-artifact prepared-batch audit passes locally, while 16 current batches remain prepare-only. This is evidence for the statuses below, not a publication, index check, or permission to lift the pause.
 ## Visual restoration audit — September 13, 2026
 
 - [ ] Reconcile the bounded visual-data gaps in [Companion's visual restoration audit](../GEO%20Site/docs/VISUAL_RESTORATION_AUDIT.md). This is preparation/reconciliation only and does not override the publication pause. Live capture at 2026-09-14T02:53:20Z found 27 catalog entries, 35 Initiative entities, 8 Studies and 21 Questions in Education. The question path is Dataset → Blocks → Collection item, not direct Dataset membership.
