@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-09-14T17:50:13.323Z",
+  "scope": "Complete all-space exact-title discovery plus source identity review for a work-level Books entity; no Geo mutation.",
+  "requestedWork": {
+    "title": "Technopoly: The Surrender of Culture to Technology",
+    "author": "Neil Postman",
+    "openLibraryWorkId": "OL137911W",
+    "authorEntityId": "0373f5e944d94ebf8c74ce87c01623eb",
+    "booksSpaceId": "0477636ace64280fc43a9f440a502291",
+    "bookTypeId": "8864304115334498b8ea6c1ae833628e",
+    "authorsRelationId": "91a9e2f6e51a48f7997661de8561b690",
+    "openLibraryIdPropertyId": "233cb522cc3b47f39e863e24967c7a0c"
+  },
+  "titleSearches": [
+    {"term": "Technopoly: The Surrender of Culture to Technology", "complete": true, "candidateIds": []},
+    {"term": "Technopoly", "complete": true, "candidateIds": []},
+    {"term": "Technopoly: The Surrender of Culture to Technology by Neil Postman", "complete": true, "candidateIds": []}
+  ],
+  "officialSources": [
+    {
+      "url": "https://openlibrary.org/works/OL137911W/Technopoly",
+      "evidence": "Work ID OL137911W; Neil Postman; work title; an edition was published by Vintage in 1993."
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/132784/technopoly-by-neil-postman/",
+      "evidence": "Neil Postman; ISBN 9780679745402; Vintage paperback, published March 31, 1993; 240 pages. ISBN and edition data are supporting source facts, not the required work identity."
+    }
+  ],
+  "decision": "absent-after-adequate-discovery",
+  "nextGate": "Publication remains paused. Before an authorized create, refresh title and Open Library ID discovery, verify Books-space authority and book schema, then prepare one work-level Book and one relation from the existing post without modifying its text.",
+  "publication": "none"
+}
