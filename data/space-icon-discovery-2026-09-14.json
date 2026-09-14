@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-09-14T17:51:00.000Z",
+  "scope": "Read-only, fully paginated direct relations on the two requested primary-space Page entities; schema lookup for Avatar and image properties.",
+  "avatarRelation": {
+    "id": "1155befffad549b7a2e0da4777b8792c",
+    "name": "Avatar",
+    "dataType": "Relation"
+  },
+  "imageUrlProperty": {
+    "id": "8a743832c0944a62b6650c3cc2f9c7bc",
+    "name": "IPFS URL",
+    "dataType": "Text"
+  },
+  "pages": [
+    {
+      "spaceId": "dac259bad48a11adf97fe36857d85206",
+      "pageId": "16a032fb91794444859a6c1a44a32955",
+      "name": "Education datasets",
+      "complete": true,
+      "avatarRelations": [],
+      "cover": {
+        "relationId": "7705d40ad1fc4c019ef5574656eb428d",
+        "relationPropertyId": "34f535072e6b42c5a84443981a77cfa2",
+        "imageId": "fb970b88c55e46f2bb64a94188a83667",
+        "imageUrlPropertyId": "8a743832c0944a62b6650c3cc2f9c7bc",
+        "imageUrl": "ipfs://QmU9UgXfZwvv5gwRUK5Je5xtyJWvAnrF1vQBAQ6vuWPja6"
+      },
+      "status": "existing page, missing Avatar relation"
+    },
+    {
+      "spaceId": "f24e3bbd26304474b7e0c2a0877f4bfe",
+      "pageId": "789068315729430884b1bff0dc9ac39b",
+      "name": "Public good",
+      "complete": true,
+      "avatarRelations": [],
+      "cover": null,
+      "status": "existing page, missing Avatar relation"
+    }
+  ],
+  "comparableSchemaEvidence": {
+    "bookId": "d0f15b4c079f45ef89651a3f366ce2a4",
+    "bookSpaceId": "0477636ace64280fc43a9f440a502291",
+    "avatarRelationId": "1155befffad549b7a2e0da4777b8792c",
+    "note": "The existing Zen Book has both Cover and Avatar relations, confirming that Avatar is a separate relation and Cover must not be substituted."
+  },
+  "query": "query($id: UUID!, $after: Cursor) { entity(id: $id) { id name spaceIds relations(first: 50, after: $after) { nodes { id typeId fromEntityId toEntityId entityId toEntity { id name } entity { name values(first: 20) { nodes { propertyId text } } } } pageInfo { hasNextPage endCursor } } } }",
+  "publication": "none"
+}
