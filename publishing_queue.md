@@ -70,7 +70,7 @@ Specification and acceptance checklist: [indianapolis-outreach-directory.md](doc
 
 ### Outreach map data — queued extension
 
-Affected screens: Outreach directory, weekly/food availability views, coordination view and map. Missing contract: directory Dataset/offering-block IDs, reviewed service→operator/program/public-place links, typed schedule/exception/provenance mappings and verified coordinate facts. Destination is Public good above. Read evidence: `data/indianapolis-outreach-directory/contract-discovery.json`; source snapshot: `../Open_Data/outputs/indy-outreach-20260912/directory-data.json`, first-slice keys S019/S029/S038/S076–S079/S101. Acceptance: complete scoped membership reads, reviewed field mappings and source-to-Geo crosswalk, source-backed public-location coordinates, unknown/expired/restricted cases and publication/index/render receipts. [Draft contract](docs/indianapolis-outreach-query-contract.md) identifies the exact unresolved pieces; frontend adapter work remains separate.
+Affected screens: Outreach directory, weekly/food availability views, coordination view and map. Missing contract: directory Dataset/offering-block IDs, reviewed service→operator/program/public-place links, typed schedule/exception/provenance mappings and verified coordinate facts. Destination is Public good above. Read evidence: `data/indianapolis-outreach-directory/contract-discovery.json`; source snapshot: `../Open_Data/outputs/indy-outreach-20260912/directory-data.json`, first-slice keys S019/S029/S038/S076–S079/S101. Acceptance: complete scoped membership reads, reviewed field mappings and source-to-Geo crosswalk, source-backed public-location coordinates, unknown/expired/restricted cases and publication/index/render receipts. Contact data is limited to verified public contact-source page links; do not copy names, phone numbers, email addresses or create contact-role Person entities. [Draft contract](docs/indianapolis-outreach-query-contract.md) identifies the exact unresolved pieces; frontend adapter work remains separate.
 
 Frontend integration remains dependent on verified exact dataset membership, service/program/schedule relations, public fixed-location eligibility and representative source-backed records. Apply the newer contact-source-links-only intake rule to all artifacts; original requirements for copied contact details are superseded. Inventory existing graph records before treating adapter gaps as missing publication work.
 
@@ -80,7 +80,7 @@ Frontend integration remains dependent on verified exact dataset membership, ser
 
 Do not publish stale hours as confirmed availability, infer missing facts, expose sensitive encampments, contact providers without authorization, mix this batch into education, or edit/deploy Cloudflare as part of publisher work.
 
-## 5. Geo Companion primary-space icons — queued
+## 5. Geo Companion primary-space icons — queued (parallel polish)
 
 Added at the user's request on September 11, 2026 for the smaller app-selector cards. The frontend reported read-only checks finding no icon/avatar relation on these space pages; revalidate this state before writing:
 
@@ -93,4 +93,14 @@ Added at the user's request on September 11, 2026 for the smaller app-selector c
 - [ ] Select appropriate icon assets and publish the proper space-avatar relations on the existing pages, using verified authority and stable Image identities. Verify indexed facts and rendered icon URLs.
 - [ ] Report the relation property ID, image URL property ID, Image/entity IDs and tested read query to the frontend. Verify suitability for the smaller cards with that task; no frontend or Cloudflare edits belong in this publisher item.
 
-These queue additions preserve the active education scope and existing order. The icons are a separate shared-app task, not an education dataset or automatic education-bounty submission.
+These queue additions preserve the active education scope and existing order. The icons are a separate shared-app polish task, not a prerequisite for source-overlap/category visuals, an education dataset, or an automatic education-bounty submission. Frontend renderer work belongs to GeoCompanion; publisher work ends at verified Geo records and indexed receipts.
+
+## Visual restoration audit — September 13, 2026
+
+- [ ] Reconcile the bounded visual-data gaps in [Companion's visual restoration audit](../GEO%20Site/docs/VISUAL_RESTORATION_AUDIT.md). This is preparation/reconciliation only and does not override the publication pause. Live capture at 2026-09-14T02:53:20Z found 27 catalog entries, 35 Initiative entities, 8 Studies and 21 Questions in Education. The question path is Dataset → Blocks → Collection item, not direct Dataset membership.
+- [ ] Reconcile original initiative category/method fields and source methods with existing ontology. Three current initiatives already have Category relations (`06c899fb04334e679feb1fd56687c3d6`); Companion ignores them. Reuse and map those before proposing new classifications. Other category coverage and the old assessment axis are not established.
+- [ ] Review original evidenceStrength assessments and question continuum fields with attribution, rubric, evidence/source links and bounds semantics. The 21 inspected Questions expose only identity/description/URL/slug and Types, not those visual fields. Use pinned `data/education/source/content/initiatives.json`, `sources.json`, `dichotomies.json` and the original-field reconciliation ledger. Do not invent missing Answers, positions or user-authored text.
+- [ ] Return verified semantic mappings for existing numerical families (measure/instrument, unit/scale, cohort/trial, arm/comparator, follow-up, estimand, uncertainty and observation kind). Perry/Reading First/Saga/coaching already have readable result collections. The current frontend's STAR-only plot gate is an adapter limitation, not a request to republish those results. Keep prepared collections separate from indexed catalog membership.
+- [ ] Reconcile map coordinate source scopes for Florida, Maryland, Ohio, Tennessee and Texas; Companion's current Geography-scoped point reader returns no point for these. This is not evidence of graph-wide absence. Preserve regional coverage versus actual implementation sites and never invent precise locations. Outreach retains its separate privacy-reviewed contract and contact-source-links-only rule.
+
+Acceptance: exact scoped IDs and query examples; field status existing-readable / needs-link / absent-after-discovery / review-needed; attribution for assessments; source-backed units and grouping; indexed receipts only for subsequently authorized publication. Source-overlap comparison and chart-renderer work remain Companion responsibilities.
