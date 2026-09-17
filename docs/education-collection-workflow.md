@@ -1,6 +1,8 @@
 # Shared education collection workflow
 
-Use this path for **new Dataset collections of existing, reviewed factual Claims**. It prepares files only and never submits a transaction. Data publishing is currently paused at the user's request. Do not resume signing merely because preparation passes.
+**Proposal sizing:** follow the user's [pilot-then-consolidation requirement](publisher-reliability-review.md#consolidated-proposals--user-requirement). Test one representative example for a new content/schema/rendering pattern, verify it live, then combine the remaining related work into one large proposal. Reuse verified pilot evidence for unchanged patterns. A collection plan is a preparation unit, not a mandate for its own DAO proposal. Related entity updates, citations, multiple tables and catalog links belong together using preallocated IDs; reference the existing pilot without replaying it. Separate table semantics do not require separate votes. If the builder cannot safely combine the reviewed work, extend its bound validation contract rather than blindly concatenating operations or splitting for tool convenience.
+
+Use this path for **new Dataset collections of existing, reviewed factual Claims**. It prepares files only and never submits a transaction. A prepared batch is not publication authorization; when the user authorizes publication, use the guarded submission, vote, execution, index, and rendered-review path below.
 
 This is deliberately separate from source extraction, Claim creation/repair, debate adjudication, outreach schema and edits to an existing Dataset. Those need reviewed deltas; do not force them through a collection-creation engine. Existing submitted builders and journals are historical evidence and must not be replayed.
 
@@ -61,7 +63,7 @@ When the user resumes publishing, use the existing submission/vote/verification 
 
 `education:audit-prepared` is the compact handoff check for every collection/catalog batch and every repair validation that declares an operation count: it verifies the operation hash, validation/review binding, additive operation shape for current repairs, and publication state. Older repair artifacts without the standardized operation-count field are listed explicitly as excluded legacy repairs for separate review. It does not sign, submit, vote, or certify source interpretation.
 
-Historical Head Start and Coaching batches are classified as `historical-published` by this audit; their publication receipts and legacy format are expected and are not treated as failures. Newly prepared drafts must pass all four checks as `prepared-only`.
+Journal presence is classified as `journal-present-unconfirmed`, `submission-confirmed`, or `execution-recorded` from its actual recorded stages. None of these proves fresh indexing or rendered acceptance. Collection-v1 review checks rehash every bound evidence input; legacy formats remain explicitly weaker. A failed historical binding is retained as an audit failure, never repaired by changing its recorded hashes.
 
 ## Remaining judgment and engineering limits
 
