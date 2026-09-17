@@ -12,6 +12,17 @@ Communication corrections: draft requested Discord copy rather than trying to ac
 
 `scripts/push-noninteractive.ps1` runs ordinary Git with credential-manager and terminal prompts disabled, restores its environment afterward, and fails visibly if existing credentials cannot authenticate. It never launches an account-selection flow.
 
+Verified push repair on this machine: cached credentials worked once Git selected username `athsrueas` explicitly. The repository-local `credential.https://github.com.username` now records that choice; no token or credential store was changed. Windows rejected the unsigned helper script under its signing policy, so use the ordinary commands below on machines with that policy (do not change execution policy):
+
+```powershell
+$env:GIT_TERMINAL_PROMPT = '0'
+$env:GCM_INTERACTIVE = 'Never'
+$env:GCM_GUI_PROMPT = 'false'
+git -c credential.interactive=never -c credential.https://github.com.username=athsrueas push origin HEAD
+```
+
+These environment settings last for the current PowerShell session. The username above is the verified account for this checkout, not a universal default for other users.
+
 ## 2026-09-12: confirmed catalog errors
 
 Direct reads of the builders and current destination-space text confirmed copy-substitution errors in HSLS:09, SSOCS, and What Works Clearinghouse. All three described a kindergarten cohort. SSOCS retained longitudinal language, student join keys and incorrect geography/access text. WWC retained NCES stewardship, DataLab access, survey weights and longitudinal language. These were published errors, not merely unsubmitted drafts.
