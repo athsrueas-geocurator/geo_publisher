@@ -1,5 +1,17 @@
 # Publication review and corrections
 
+## 2026-09-17: personal quiz delivery corrections
+
+The Knowledge Gap post was indexed in personal space `d00460c203779d21d96fcfc6102d7a72`, but the supplied `/entity/d850f645745745bab44627e7cfaf28b4` link did not resolve. The browser subsequently rendered its five ordered text blocks at the [space-scoped URL](https://www.geobrowser.io/space/d00460c203779d21d96fcfc6102d7a72/d850f645745745bab44627e7cfaf28b4). This was a delivery-link error, not a missing vote. The separate Books proposal has its own governance lifecycle; do not infer either item's state from the other.
+
+Code corrections: `src/publication-evidence.ts` generates validated scoped URLs and checks complete ordered block identity/text. The quiz publisher now merges journal milestones so submission retains preparation evidence, records the submitting boundary, and labels its output submitted rather than live. The read-only `scripts/verify-knowledge-gap-quiz.ts` emits a separate indexing receipt; it does not claim browser verification. Regression tests cover malformed links, evidence preservation, changed/missing/reordered blocks and incomplete traversal. Historical submitted journals remain unchanged.
+
+The previous Books preparer's exact-title/ISBN search is bounded evidence, not exhaustive duplicate clearance. Its ISBN query searched text despite the ISBN property being Integer, and its validation claimed Person-type verification without a direct check. Do not replay that proposal or treat its validation prose as proof of complete discovery. Future Book creation must inspect identifier datatype, title aliases and author identity with the shared discovery workflow before signing.
+
+Communication corrections: draft requested Discord copy rather than trying to access/send Discord; keep the answer hidden until the requested reveal; distinguish Markdown text blocks from interactive quiz controls. Verify actual editor controls before giving UI steps. The user selected the three statements, but incidental assistant-written headings are not a substitute for the user's editorial voice.
+
+`scripts/push-noninteractive.ps1` runs ordinary Git with credential-manager and terminal prompts disabled, restores its environment afterward, and fails visibly if existing credentials cannot authenticate. It never launches an account-selection flow.
+
 ## 2026-09-12: confirmed catalog errors
 
 Direct reads of the builders and current destination-space text confirmed copy-substitution errors in HSLS:09, SSOCS, and What Works Clearinghouse. All three described a kindergarten cohort. SSOCS retained longitudinal language, student join keys and incorrect geography/access text. WWC retained NCES stewardship, DataLab access, survey weights and longitudinal language. These were published errors, not merely unsubmitted drafts.

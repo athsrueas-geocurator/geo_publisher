@@ -1,3 +1,10 @@
+## Personal publication delivery and noninteractive Git
+
+- Generate public entity links with `geoEntityUrl` in `src/publication-evidence.ts`: `/space/{spaceId}/{entityId}`. API indexing and rendered acceptance are separate checks; open the exact shared URL before announcing a page as live. A broken route is not a reason to republish or vote again.
+- Merge journal milestones so submission retains edit ID, CID, block IDs and transaction hash. Record `submitting` before sending; reconcile uncertain submissions without blind retries. Run `bun scripts/verify-knowledge-gap-quiz.ts` for read-only verification.
+- Draft requested Discord copy in chat; do not access or send Discord unless explicitly asked. Verify editor controls before giving exact UI steps. Markdown headings are not interactive quiz cards.
+- For requested pushes use ordinary Git, preferably `powershell -NoProfile -File scripts/push-noninteractive.ps1`. Never launch interactive login/account selection after authentication failure. Keep commits scoped when unrelated changes exist.
+
 ## Education Initiatives publishing coordination
 
 - **Current user pause:** data publishing is paused while publisher code/guidance is improved. Preparation, tests and read-only checks are allowed; do not submit or vote until the user resumes publication.
